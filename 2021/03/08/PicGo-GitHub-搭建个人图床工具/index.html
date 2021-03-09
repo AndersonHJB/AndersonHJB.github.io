@@ -39,7 +39,7 @@
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20210308162928403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20210308163315216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
 <meta property="article:published_time" content="2021-03-08T14:18:01.000Z">
-<meta property="article:modified_time" content="2021-03-08T14:23:52.993Z">
+<meta property="article:modified_time" content="2021-03-09T08:23:07.919Z">
 <meta property="article:author" content="AI悦创">
 <meta property="article:tag" content="github">
 <meta property="article:tag" content="Notebook">
@@ -244,10 +244,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-03-08 22:18:01 / 修改时间：22:23:52" itemprop="dateCreated datePublished" datetime="2021-03-08T22:18:01+08:00">2021-03-08</time>
+              <time title="创建时间：2021-03-08 22:18:01" itemprop="dateCreated datePublished" datetime="2021-03-08T22:18:01+08:00">2021-03-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-03-09 16:23:07" itemprop="dateModified" datetime="2021-03-09T16:23:07+08:00">2021-03-09</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -287,6 +293,7 @@
 <p>填写仓库信息，例如我就创建了一个 cloudimg 的仓库。</p>
 <p>这里注意，仓库得设置为 Public 因为后面通过客户端访问算是外部访问，因此无法访问 Private ，这样的话图片传上来之后只能存储不能显示。所以要设置为 Public。</p>
 <p><img src="https://img-blog.csdnimg.cn/20210308145139253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<span id="more"></span>
 <h2 id="1-2-创建-token-并复制保存"><a href="#1-2-创建-token-并复制保存" class="headerlink" title="1.2 创建 token 并复制保存"></a>1.2 创建 token 并复制保存</h2><p>此时仓库已经建立，点击 settings 进入设置：</p>
 <p><img src="https://img-blog.csdnimg.cn/20210308161409646.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <p><img src="https://img-blog.csdnimg.cn/20210308161616556.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
@@ -605,6 +612,19 @@
 
 
 
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
   

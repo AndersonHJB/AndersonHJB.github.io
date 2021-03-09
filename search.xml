@@ -21,6 +21,7 @@
 <p>填写仓库信息，例如我就创建了一个 cloudimg 的仓库。</p>
 <p>这里注意，仓库得设置为 Public 因为后面通过客户端访问算是外部访问，因此无法访问 Private ，这样的话图片传上来之后只能存储不能显示。所以要设置为 Public。</p>
 <p><img src="https://img-blog.csdnimg.cn/20210308145139253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<span id="more"></span>
 <h2 id="1-2-创建-token-并复制保存"><a href="#1-2-创建-token-并复制保存" class="headerlink" title="1.2 创建 token 并复制保存"></a>1.2 创建 token 并复制保存</h2><p>此时仓库已经建立，点击 settings 进入设置：</p>
 <p><img src="https://img-blog.csdnimg.cn/20210308161409646.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <p><img src="https://img-blog.csdnimg.cn/20210308161616556.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
@@ -77,6 +78,7 @@
 </li>
 </ol>
 <h1 id="1-0-环境搭建"><a href="#1-0-环境搭建" class="headerlink" title="1.0 环境搭建"></a>1.0 环境搭建</h1><h2 id="1-1-搭建环境介绍"><a href="#1-1-搭建环境介绍" class="headerlink" title="1.1 搭建环境介绍"></a>1.1 搭建环境介绍</h2><p>Ubuntu18.04 系统( root 权限)+Nginx+uwsgi+Python3.6+Django<br>本项目使用 VENV 虚拟环境进行部署。</p>
+<span id="more"></span>
 <h2 id="1-2-环境搭建"><a href="#1-2-环境搭建" class="headerlink" title="1.2 环境搭建"></a>1.2 环境搭建</h2><h3 id="1-2-1-更新-APT-索引"><a href="#1-2-1-更新-APT-索引" class="headerlink" title="1.2.1 更新 APT 索引"></a>1.2.1 更新 APT 索引</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure>
 <h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt upgrade</span><br></pre></td></tr></table></figure>
 <h3 id="1-2-2-安装并创建虚拟环境"><a href="#1-2-2-安装并创建虚拟环境" class="headerlink" title="1.2.2 安装并创建虚拟环境"></a>1.2.2 安装并创建虚拟环境</h3><p>安装 virtualenv 和 virtualenvwrapper<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt install virtualenv</span><br></pre></td></tr></table></figure><br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt install virtualenvwrapper</span><br></pre></td></tr></table></figure></p>
@@ -140,6 +142,7 @@
     <url>/2021/03/09/django%E4%B8%ADmodels%E9%87%8C%E9%9D%A2-str-%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F/</url>
     <content><![CDATA[<p>_<em>str_</em>是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是 </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;__main__.TestClass <span class="built_in">object</span> at <span class="number">0x10f1e5670</span>&gt;</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
 <p>即这个对象的所属类和内存地址。<br><img src="https://img-blog.csdnimg.cn/20210305162400368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 一般情况</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br><span class="line"><span class="comment"># &lt;__main__.TestClass object at 0x10f1e5670&gt;</span></span><br></pre></td></tr></table></figure>
 <p>我们改写类中的 _<em>str_</em>方法后可以在 print 时得到想要的易于人阅读的对象的信息，以下是实例：</p>

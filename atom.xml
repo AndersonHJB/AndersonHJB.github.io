@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-09T00:49:37.800Z</updated>
+  <updated>2021-03-09T01:13:21.483Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>django中models里面__str__有什么作用？</title>
+    <link href="http://example.com/2021/03/09/django%E4%B8%ADmodels%E9%87%8C%E9%9D%A2-str-%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F/"/>
+    <id>http://example.com/2021/03/09/django%E4%B8%ADmodels%E9%87%8C%E9%9D%A2-str-%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F/</id>
+    <published>2021-03-09T01:12:32.000Z</published>
+    <updated>2021-03-09T01:13:21.483Z</updated>
+    
+    <content type="html"><![CDATA[<p>_<em>str_</em>是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是 </p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;__main__.TestClass <span class="built_in">object</span> at <span class="number">0x10f1e5670</span>&gt;</span><br></pre></td></tr></table></figure><p>即这个对象的所属类和内存地址。<br><img src="https://img-blog.csdnimg.cn/20210305162400368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一般情况</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br><span class="line"><span class="comment"># &lt;__main__.TestClass object at 0x10f1e5670&gt;</span></span><br></pre></td></tr></table></figure><p>我们改写类中的 _<em>str_</em>方法后可以在 print 时得到想要的易于人阅读的对象的信息，以下是实例：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 改写 __str__ 方法</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__str__</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">return</span> self.name</span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br></pre></td></tr></table></figure><p>聚合：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一般情况</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br><span class="line"><span class="comment"># &lt;__main__.TestClass object at 0x10f1e5670&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 改写 __str__ 方法</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__str__</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">return</span> self.name</span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;_&lt;em&gt;str_&lt;/em&gt;是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是 &lt;/p&gt;
+&lt;figure class=&quot;highlig</summary>
+      
+    
+    
+    
+    <category term="Django" scheme="http://example.com/categories/Django/"/>
+    
+    
+    <category term="Django" scheme="http://example.com/tags/Django/"/>
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Ubuntu系统部署Python3 Django项目「零失败」</title>

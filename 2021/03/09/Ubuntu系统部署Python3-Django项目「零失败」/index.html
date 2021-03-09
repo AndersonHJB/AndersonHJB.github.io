@@ -20,31 +20,58 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="AI悦创|黄家宝来自福建，现居厦门，就职学生。涉及方向有：网络爬虫、机器学习、Web 开发等。爱生活、爱艺术、爱商学、爱音乐、爱摄影、爱运动、爱编程。人生百态，笑口常开，秉承自我，谨慎独行。AI悦创·创造不同！立志推广编程教学，用最便宜的价格，学最实在的技术！Python 一对一教学。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AI悦创·Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="Powered By icbug &amp; AI悦创 本项目 github 地址：https:&#x2F;&#x2F;github.com&#x2F;AndersonHJB&#x2F;Python_Online_Programming 项目难点 解决 Django 项目中 static 文件夹静态资源无法加载问题 创建 python3 的 Venv 虚拟环境 使用 Nginx 反向代理，代理网站 uwsgi 部分报错问题 提示：本教程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu系统部署Python3 Django项目「零失败」">
+<meta property="og:url" content="http://example.com/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/index.html">
 <meta property="og:site_name" content="AI悦创·Blog">
-<meta property="og:description" content="AI悦创|黄家宝来自福建，现居厦门，就职学生。涉及方向有：网络爬虫、机器学习、Web 开发等。爱生活、爱艺术、爱商学、爱音乐、爱摄影、爱运动、爱编程。人生百态，笑口常开，秉承自我，谨慎独行。AI悦创·创造不同！立志推广编程教学，用最便宜的价格，学最实在的技术！Python 一对一教学。">
+<meta property="og:description" content="Powered By icbug &amp; AI悦创 本项目 github 地址：https:&#x2F;&#x2F;github.com&#x2F;AndersonHJB&#x2F;Python_Online_Programming 项目难点 解决 Django 项目中 static 文件夹静态资源无法加载问题 创建 python3 的 Venv 虚拟环境 使用 Nginx 反向代理，代理网站 uwsgi 部分报错问题 提示：本教程">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/7161d592789820acf4b0214e7815f5b4.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c471d6af44b7e892a67d4d96350303dd.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/208a3d621e6959528dbd094c6ae7df6a.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/cd56a22cab56274f13dcd7ec62c6e38d.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/66bad743f4d4ba4b899e3abb64912fe5.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/1949db498a71412fd3d8b63890240cd4.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c67ab7d03fdb59f01ea2934ce99fe0f5.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/63ffc2494e91c7c787e1d9ee3489b96b.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/2d6ebf7e8e1260dce0c579981b69b844.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/a54ff7bd9335ddacaae70b13ef6792fc.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/b4d1c775d51deca43d8b388c733b3700.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/dc61f12833d1624e2eabccf01469bd66.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ec666219f71bd24b661f0b50aa06c6ac.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/3c15c10d3129ee5d2a469572ced8296a.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/502312d29b455dee5c0ca765ae1591b9.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/94aac30c2e5375567475504e1140264d.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/4bbec86ce88f442a095da1e384fe3bae.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/f336e6a872c41cf8bab6b4c5c0ed6377.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/8b3cbc793bc373473251389f1cbec9d0.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/3ca55bdd489246ee328e4b7203e28d9e.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/7583d4aa6332c6a4670ffd4d2b75153b.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/36bddfe718a8251927b9123e012db9de.png">
+<meta property="article:published_time" content="2021-03-09T00:48:19.000Z">
+<meta property="article:modified_time" content="2021-03-09T00:49:37.800Z">
 <meta property="article:author" content="AI悦创">
-<meta property="article:tag" content="黄家宝,AI悦创,PHP,Python,C++,C,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客">
+<meta property="article:tag" content="Ubuntu">
+<meta property="article:tag" content="Django">
+<meta property="article:tag" content="网站搭建">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/7161d592789820acf4b0214e7815f5b4.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>AI悦创·Blog</title>
+  <title>Ubuntu系统部署Python3 Django项目「零失败」 | AI悦创·Blog</title>
   
 
 
@@ -186,9 +213,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -204,10 +232,9 @@
       <meta itemprop="name" content="AI悦创·Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/" class="post-title-link" itemprop="url">Ubuntu系统部署Python3 Django项目「零失败」</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Ubuntu系统部署Python3 Django项目「零失败」
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -248,7 +275,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><strong>Powered By icbug &amp; AI悦创</strong></p>
+        <p><strong>Powered By icbug &amp; AI悦创</strong></p>
 <p>本项目 github 地址：<a target="_blank" rel="noopener" href="https://github.com/AndersonHJB/Python_Online_Programming">https://github.com/AndersonHJB/Python_Online_Programming</a></p>
 <h1 id="项目难点"><a href="#项目难点" class="headerlink" title="项目难点"></a>项目难点</h1><ol>
 <li>解决 Django 项目中 static 文件夹静态资源无法加载问题</li>
@@ -307,144 +334,42 @@
 <hr>
 <p>完整版仓库地址：<br><a target="_blank" rel="noopener" href="https://github.com/AndersonHJB/Python_Online_Programming">https://github.com/AndersonHJB/Python_Online_Programming</a></p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+              <a href="/tags/Django/" rel="tag"># Django</a>
+              <a href="/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" rel="tag"># 网站搭建</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.JPG">
-      <meta itemprop="name" content="AI悦创">
-      <meta itemprop="description" content="AI悦创|黄家宝来自福建，现居厦门，就职学生。涉及方向有：网络爬虫、机器学习、Web 开发等。爱生活、爱艺术、爱商学、爱音乐、爱摄影、爱运动、爱编程。人生百态，笑口常开，秉承自我，谨慎独行。AI悦创·创造不同！立志推广编程教学，用最便宜的价格，学最实在的技术！Python 一对一教学。">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="AI悦创·Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/" class="post-title-link" itemprop="url">PicGo + GitHub 搭建个人图床工具</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-03-08 22:18:01 / 修改时间：22:23:52" itemprop="dateCreated datePublished" datetime="2021-03-08T22:18:01+08:00">2021-03-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/github/" itemprop="url" rel="index"><span itemprop="name">github</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>写在前面</p>
-<blockquote>
-<p>我以前用的 七牛云 + Mpic 的组合，后来由于七牛云测试域名收回，我的图床就废了。以前的好多图片都埋藏在七牛云的服务器上，又气又难过。思考好一段时间，想自己搭服务，但成本有点高，备案的域名 + 服务器一年几百块。对于我这种不靠写字谋生的人而言没有必要，所以就停摆了一段时间。直到今天用 GitHub 搭起了图床，可以说非常开心了。所以跟大家分享一下。</p>
-</blockquote>
-<ul>
-<li>方便程度：★★★★☆</li>
-<li>配置难度：★★☆☆☆<br>适用环境：win + mac + linux</li>
-<li>需要工具：GitHub 账号 + PicGo 客户端</li>
-<li>稳定性：背靠 GitHub 和微软，比自建服务器都稳</li>
-<li>隐私性：这算是唯一缺点，你的图片别人可以访问</li>
-</ul>
-<h1 id="1-GitHub-仓库设置"><a href="#1-GitHub-仓库设置" class="headerlink" title="1. GitHub 仓库设置"></a>1. GitHub 仓库设置</h1><blockquote>
-<p>流程：新建 public 仓库 -&gt; 创建 token -&gt; 复制 token 备用</p>
-</blockquote>
-<h2 id="1-1-新建仓库"><a href="#1-1-新建仓库" class="headerlink" title="1.1 新建仓库"></a>1.1 新建仓库</h2><p>点击 git 主页右上角的 + 创建 New repository；<br><img src="https://img-blog.csdnimg.cn/20210308144803390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>填写仓库信息，例如我就创建了一个 cloudimg 的仓库。</p>
-<p>这里注意，仓库得设置为 Public 因为后面通过客户端访问算是外部访问，因此无法访问 Private ，这样的话图片传上来之后只能存储不能显示。所以要设置为 Public。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308145139253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="1-2-创建-token-并复制保存"><a href="#1-2-创建-token-并复制保存" class="headerlink" title="1.2 创建 token 并复制保存"></a>1.2 创建 token 并复制保存</h2><p>此时仓库已经建立，点击 settings 进入设置：</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161409646.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161616556.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161644398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161725181.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161845173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>然后复制生成一串字符 token，这个 token 只出现一次，所以要保存一下。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161923491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161945294.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h1 id="2-PicGo-客户端配置"><a href="#2-PicGo-客户端配置" class="headerlink" title="2. PicGo 客户端配置"></a>2. PicGo 客户端配置</h1><h2 id="2-1-下载-amp-安装"><a href="#2-1-下载-amp-安装" class="headerlink" title="2.1 下载&amp;安装"></a>2.1 下载&amp;安装</h2><p>PicGo （目前 2.3.0）是一个开源的图床工具，非常优秀。可以到 git 上下载，但下载速度太慢，所以我放了一个云盘的链接，速度快很多。</p>
-<ul>
-<li>github 地址：<a target="_blank" rel="noopener" href="https://github.com/molunerfinn/picgo">PicGo</a>：<a target="_blank" rel="noopener" href="https://github.com/molunerfinn/picgo">https://github.com/molunerfinn/picgo</a></li>
-<li><p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
-</li>
-<li><p>Win/Mac 版下载链接：<a target="_blank" rel="noopener" href="https://aiyc.lanzous.com/b00od7p5a">https://aiyc.lanzous.com/b00od7p5a</a></p>
-</li>
-</ul>
-<p>密码:3oc6</p>
-<h2 id="2-2-配置"><a href="#2-2-配置" class="headerlink" title="2.2 配置"></a>2.2 配置</h2><p><img src="https://img-blog.csdnimg.cn/20210308162928403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<ul>
-<li>仓库名 即你的仓库名</li>
-<li>分支名 默认 master，如果填测试上传图片出错则填 main</li>
-<li>Token 就是刚刚复制的那一串字符</li>
-<li>存储路径 这个可以填也可以不填，填了的话图片就上传到 git 中 blog 这个文件夹<br>域名 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/AndersonHJB/cloudimg/master">https://raw.githubusercontent.com/AndersonHJB/cloudimg/master</a> 这个要改一下 格式 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/[username]/[仓库名]/master">https://raw.githubusercontent.com/[username]/[仓库名]/master</a></li>
-</ul>
-<p>然后点确定就可以了。</p>
-<p>注：这里提供一个加速访问图片的方法：CDN加速，具体原理自行百度。</p>
-<p>将上面的域名改为：</p>
-<p>原 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/AndersonHJB/cloudimg/master">https://raw.githubusercontent.com/AndersonHJB/cloudimg/master</a><br>现 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/AndersonHJB/cloudimg@master">https://cdn.jsdelivr.net/gh/AndersonHJB/cloudimg@master</a></p>
-<p>然后关于上传的快捷键设置。默认的是 Mac 按键，推荐改成 Ctrl + alt +c。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308163315216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>综上，操作完成。</p>
-<p>本方案唯一缺点，不能私人。但是考虑到 GitHub 上传的图在列表里没法预览，应该没人会闲着没事翻记录。</p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/" rel="prev" title="PicGo + GitHub 搭建个人图床工具">
+      <i class="fa fa-chevron-left"></i> PicGo + GitHub 搭建个人图床工具
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -491,6 +416,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E9%9A%BE%E7%82%B9"><span class="nav-number">1.</span> <span class="nav-text">项目难点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-0-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="nav-number">2.</span> <span class="nav-text">1.0 环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.1.</span> <span class="nav-text">1.1 搭建环境介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="nav-number">2.2.</span> <span class="nav-text">1.2 环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-1-%E6%9B%B4%E6%96%B0-APT-%E7%B4%A2%E5%BC%95"><span class="nav-number">2.2.1.</span> <span class="nav-text">1.2.1 更新 APT 索引</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">2.2.2.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-2-%E5%AE%89%E8%A3%85%E5%B9%B6%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83"><span class="nav-number">2.2.3.</span> <span class="nav-text">1.2.2 安装并创建虚拟环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-3-%E9%85%8D%E7%BD%AE-ENV-%E7%A8%8B%E5%BA%8F%E7%8E%AF%E5%A2%83"><span class="nav-number">2.2.4.</span> <span class="nav-text">1.2.3 配置 ENV 程序环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-4-%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83"><span class="nav-number">2.2.5.</span> <span class="nav-text">1.2.4 创建虚拟环境</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A"><span class="nav-number">2.2.5.1.</span> <span class="nav-text">方法一：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A"><span class="nav-number">2.2.5.2.</span> <span class="nav-text">方法二：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3-%E5%AE%89%E8%A3%85-Django-%E7%8E%AF%E5%A2%83"><span class="nav-number">2.3.</span> <span class="nav-text">1.3 安装 Django 环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-4-%E4%B8%8A%E4%BC%A0%E9%A1%B9%E7%9B%AE"><span class="nav-number">2.4.</span> <span class="nav-text">1.4 上传项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-5-%E8%AF%95%E8%BF%90%E8%A1%8C-Django-%E9%A1%B9%E7%9B%AE"><span class="nav-number">2.5.</span> <span class="nav-text">1.5 试运行 Django 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-6-%E5%AE%89%E8%A3%85-Nginx"><span class="nav-number">2.6.</span> <span class="nav-text">1.6 安装 Nginx</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A-1"><span class="nav-number">2.6.0.1.</span> <span class="nav-text">方法一：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A-1"><span class="nav-number">2.6.0.2.</span> <span class="nav-text">方法二：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Nginx-%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.6.0.2.1.</span> <span class="nav-text">Nginx 版本介绍</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AE%9E%E9%99%85%E6%93%8D%E4%BD%9C"><span class="nav-number">2.6.0.2.2.</span> <span class="nav-text">实际操作</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-7-%E5%AE%89%E8%A3%85%E5%B9%B6%E6%B5%8B%E8%AF%95-uwsgi"><span class="nav-number">2.7.</span> <span class="nav-text">1.7 安装并测试 uwsgi</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-0-%E9%83%A8%E7%BD%B2-Django"><span class="nav-number">3.</span> <span class="nav-text">2.0 部署 Django</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-uwsgi-params-%E6%8B%B7%E8%B4%9D%E5%88%B0%E9%A1%B9%E7%9B%AE%E6%A0%B9%E7%9B%AE%E5%BD%95"><span class="nav-number">3.1.</span> <span class="nav-text">2.1 uwsgi_params 拷贝到项目根目录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E5%88%9B%E5%BB%BA-uwsgi-%E7%9B%AE%E5%BD%95%EF%BC%8C%E7%BC%96%E5%86%99-uwsgi-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">3.1.1.</span> <span class="nav-text">2.2 创建 uwsgi 目录，编写 uwsgi 配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#-1"><span class="nav-number">3.1.2.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E9%83%A8%E7%BD%B2-Nginx-%E6%9C%8D%E5%8A%A1"><span class="nav-number">3.1.3.</span> <span class="nav-text">2.3 部署 Nginx 服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#-2"><span class="nav-number">3.1.4.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-%E7%BC%96%E8%BE%91-setting-py%EF%BC%8C%E6%94%B6%E9%9B%86%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6"><span class="nav-number">3.1.5.</span> <span class="nav-text">2.4 编辑 setting.py，收集静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-5-%E5%AE%89%E8%A3%85-uwsgi-Python3-%E6%8F%92%E4%BB%B6"><span class="nav-number">3.1.6.</span> <span class="nav-text">2.5 安装 uwsgi-Python3 插件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-0-%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8D"><span class="nav-number">3.2.</span> <span class="nav-text">3.0 解析域名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-0-SSL%E9%83%A8%E7%BD%B2"><span class="nav-number">3.3.</span> <span class="nav-text">4.0 SSL部署</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -615,6 +541,25 @@
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'a54fe31bd4c9b15edffe',
+      clientSecret: '461ed3fa32a8be32b41ae2334a3a30cc1222b35c',
+      repo        : 'AndersonHJB.github.io',
+      owner       : 'AndersonHJB',
+      admin       : ['AndersonHJB'],
+      id          : '902affeb6b7c58f11208ffdb7484d34b',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>

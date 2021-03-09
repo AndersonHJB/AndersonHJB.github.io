@@ -77,8 +77,8 @@
 </blockquote>
 </li>
 </ol>
-<h1 id="1-0-环境搭建"><a href="#1-0-环境搭建" class="headerlink" title="1.0 环境搭建"></a>1.0 环境搭建</h1><h2 id="1-1-搭建环境介绍"><a href="#1-1-搭建环境介绍" class="headerlink" title="1.1 搭建环境介绍"></a>1.1 搭建环境介绍</h2><p>Ubuntu18.04 系统( root 权限)+Nginx+uwsgi+Python3.6+Django<br>本项目使用 VENV 虚拟环境进行部署。</p>
 <span id="more"></span>
+<h1 id="1-0-环境搭建"><a href="#1-0-环境搭建" class="headerlink" title="1.0 环境搭建"></a>1.0 环境搭建</h1><h2 id="1-1-搭建环境介绍"><a href="#1-1-搭建环境介绍" class="headerlink" title="1.1 搭建环境介绍"></a>1.1 搭建环境介绍</h2><p>Ubuntu18.04 系统( root 权限)+Nginx+uwsgi+Python3.6+Django<br>本项目使用 VENV 虚拟环境进行部署。</p>
 <h2 id="1-2-环境搭建"><a href="#1-2-环境搭建" class="headerlink" title="1.2 环境搭建"></a>1.2 环境搭建</h2><h3 id="1-2-1-更新-APT-索引"><a href="#1-2-1-更新-APT-索引" class="headerlink" title="1.2.1 更新 APT 索引"></a>1.2.1 更新 APT 索引</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure>
 <h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt upgrade</span><br></pre></td></tr></table></figure>
 <h3 id="1-2-2-安装并创建虚拟环境"><a href="#1-2-2-安装并创建虚拟环境" class="headerlink" title="1.2.2 安装并创建虚拟环境"></a>1.2.2 安装并创建虚拟环境</h3><p>安装 virtualenv 和 virtualenvwrapper<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt install virtualenv</span><br></pre></td></tr></table></figure><br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt install virtualenvwrapper</span><br></pre></td></tr></table></figure></p>

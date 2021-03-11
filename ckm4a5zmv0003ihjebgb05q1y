@@ -23,7 +23,7 @@
   <meta name="description" content="Powered By icbug &amp; AI悦创 本项目 github 地址：https:&#x2F;&#x2F;github.com&#x2F;AndersonHJB&#x2F;Python_Online_Programming 项目难点 解决 Django 项目中 static 文件夹静态资源无法加载问题 创建 python3 的 Venv 虚拟环境 使用 Nginx 反向代理，代理网站 uwsgi 部分报错问题 提示：本教程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ubuntu系统部署Python3 Django项目「零失败」">
-<meta property="og:url" content="https://andersonhjb.github.io/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/index.html">
+<meta property="og:url" content="https://andersonhjb.github.io/ckm4a5zmv0003ihjebgb05q1y">
 <meta property="og:site_name" content="AI悦创·Blog">
 <meta property="og:description" content="Powered By icbug &amp; AI悦创 本项目 github 地址：https:&#x2F;&#x2F;github.com&#x2F;AndersonHJB&#x2F;Python_Online_Programming 项目难点 解决 Django 项目中 static 文件夹静态资源无法加载问题 创建 python3 的 Venv 虚拟环境 使用 Nginx 反向代理，代理网站 uwsgi 部分报错问题 提示：本教程">
 <meta property="og:locale" content="zh_CN">
@@ -58,7 +58,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/7161d592789820acf4b0214e7815f5b4.png">
 
-<link rel="canonical" href="https://andersonhjb.github.io/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/">
+<link rel="canonical" href="https://andersonhjb.github.io/ckm4a5zmv0003ihjebgb05q1y">
 
 
 <script id="page-configurations">
@@ -234,7 +234,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://andersonhjb.github.io/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/">
+    <link itemprop="mainEntityOfPage" href="https://andersonhjb.github.io/ckm4a5zmv0003ihjebgb05q1y">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.JPG">
@@ -428,11 +428,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/" rel="prev" title="PicGo + GitHub 搭建个人图床工具">
+    <a href="/ckm4a5zms0001ihje68tk2wov" rel="prev" title="PicGo + GitHub 搭建个人图床工具">
       <i class="fa fa-chevron-left"></i> PicGo + GitHub 搭建个人图床工具
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/03/09/django%E4%B8%ADmodels%E9%87%8C%E9%9D%A2-str-%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F/" rel="next" title="django中models里面__str__有什么作用？">
+    <a href="/ckm4a5zmy0007ihje1q2m2irq" rel="next" title="django中models里面__str__有什么作用？">
       django中models里面__str__有什么作用？ <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -670,7 +670,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'AndersonHJB.github.io',
       owner       : 'AndersonHJB',
       admin       : ['AndersonHJB'],
-      id          : '902affeb6b7c58f11208ffdb7484d34b',
+      id          : 'a9547b6899c266bb081672300f000627',
         language: 'zh-CN',
       distractionFreeMode: true
     });

@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>PicGo + GitHub 搭建个人图床工具</title>
-    <url>/ckm4a5zms0001ihje68tk2wov</url>
+    <url>/ckm4aaf3j0001k9je59hf9h8r.html</url>
     <content><![CDATA[<p>写在前面</p>
 <blockquote>
 <p>我以前用的 七牛云 + Mpic 的组合，后来由于七牛云测试域名收回，我的图床就废了。以前的好多图片都埋藏在七牛云的服务器上，又气又难过。思考好一段时间，想自己搭服务，但成本有点高，备案的域名 + 服务器一年几百块。对于我这种不靠写字谋生的人而言没有必要，所以就停摆了一段时间。直到今天用 GitHub 搭起了图床，可以说非常开心了。所以跟大家分享一下。</p>
@@ -65,7 +65,7 @@
   </entry>
   <entry>
     <title>Ubuntu系统部署Python3 Django项目「零失败」</title>
-    <url>/ckm4a5zmv0003ihjebgb05q1y</url>
+    <url>/ckm4aaf3m0003k9jedgsv77zv.html</url>
     <content><![CDATA[<p><strong>Powered By icbug &amp; AI悦创</strong></p>
 <p>本项目 github 地址：<a href="https://github.com/AndersonHJB/Python_Online_Programming">https://github.com/AndersonHJB/Python_Online_Programming</a></p>
 <h1 id="项目难点"><a href="#项目难点" class="headerlink" title="项目难点"></a>项目难点</h1><ol>
@@ -139,7 +139,7 @@
   </entry>
   <entry>
     <title>django中models里面__str__有什么作用？</title>
-    <url>/ckm4a5zmy0007ihje1q2m2irq</url>
+    <url>/ckm4aaf3r0007k9je0j1g901c.html</url>
     <content><![CDATA[<p>_<em>str_</em>是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是 </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;__main__.TestClass <span class="built_in">object</span> at <span class="number">0x10f1e5670</span>&gt;</span><br></pre></td></tr></table></figure>
 <span id="more"></span>

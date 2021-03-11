@@ -20,33 +20,23 @@
     var CONFIG = {"hostname":"andersonhjb.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="写在前面  我以前用的 七牛云 + Mpic 的组合，后来由于七牛云测试域名收回，我的图床就废了。以前的好多图片都埋藏在七牛云的服务器上，又气又难过。思考好一段时间，想自己搭服务，但成本有点高，备案的域名 + 服务器一年几百块。对于我这种不靠写字谋生的人而言没有必要，所以就停摆了一段时间。直到今天用 GitHub 搭起了图床，可以说非常开心了。所以跟大家分享一下。   方便程度：★★★★☆ 配置难">
+  <meta name="description" content="_str_是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是  1&lt;__main__.TestClass object at 0x10f1e5670&gt;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PicGo + GitHub 搭建个人图床工具">
-<meta property="og:url" content="https://andersonhjb.github.io/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/index.html">
+<meta property="og:title" content="django中models里面__str__有什么作用？">
+<meta property="og:url" content="https://andersonhjb.github.io/post/51171.html">
 <meta property="og:site_name" content="AI悦创·Blog">
-<meta property="og:description" content="写在前面  我以前用的 七牛云 + Mpic 的组合，后来由于七牛云测试域名收回，我的图床就废了。以前的好多图片都埋藏在七牛云的服务器上，又气又难过。思考好一段时间，想自己搭服务，但成本有点高，备案的域名 + 服务器一年几百块。对于我这种不靠写字谋生的人而言没有必要，所以就停摆了一段时间。直到今天用 GitHub 搭起了图床，可以说非常开心了。所以跟大家分享一下。   方便程度：★★★★☆ 配置难">
+<meta property="og:description" content="_str_是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是  1&lt;__main__.TestClass object at 0x10f1e5670&gt;">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308144803390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308145139253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161409646.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161616556.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161644398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161725181.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161845173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161923491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308161945294.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308162928403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20210308163315216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
-<meta property="article:published_time" content="2021-03-08T14:18:01.000Z">
-<meta property="article:modified_time" content="2021-03-09T08:23:07.919Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20210305162400368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
+<meta property="article:published_time" content="2021-03-09T01:12:32.000Z">
+<meta property="article:modified_time" content="2021-03-09T08:23:00.276Z">
 <meta property="article:author" content="AI悦创">
-<meta property="article:tag" content="github">
-<meta property="article:tag" content="Notebook">
+<meta property="article:tag" content="Django">
+<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20210308144803390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20210305162400368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70">
 
-<link rel="canonical" href="https://andersonhjb.github.io/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/">
+<link rel="canonical" href="https://andersonhjb.github.io/post/51171.html">
 
 
 <script id="page-configurations">
@@ -59,7 +49,7 @@
   };
 </script>
 
-  <title>PicGo + GitHub 搭建个人图床工具 | AI悦创·Blog</title>
+  <title>django中models里面__str__有什么作用？ | AI悦创·Blog</title>
   
 
 
@@ -222,7 +212,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://andersonhjb.github.io/2021/03/08/PicGo-GitHub-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/">
+    <link itemprop="mainEntityOfPage" href="https://andersonhjb.github.io/post/51171.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.JPG">
@@ -235,7 +225,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          PicGo + GitHub 搭建个人图床工具
+          django中models里面__str__有什么作用？
         </h1>
 
         <div class="post-meta">
@@ -244,23 +234,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-03-08 22:18:01" itemprop="dateCreated datePublished" datetime="2021-03-08T22:18:01+08:00">2021-03-08</time>
+              <time title="创建时间：2021-03-09 09:12:32 / 修改时间：16:23:00" itemprop="dateCreated datePublished" datetime="2021-03-09T09:12:32+08:00">2021-03-09</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-03-09 16:23:07" itemprop="dateModified" datetime="2021-03-09T16:23:07+08:00">2021-03-09</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/github/" itemprop="url" rel="index"><span itemprop="name">github</span></a>
+                  <a href="/categories/Django/" itemprop="url" rel="index"><span itemprop="name">Django</span></a>
                 </span>
             </span>
 
@@ -275,58 +259,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>写在前面</p>
-<blockquote>
-<p>我以前用的 七牛云 + Mpic 的组合，后来由于七牛云测试域名收回，我的图床就废了。以前的好多图片都埋藏在七牛云的服务器上，又气又难过。思考好一段时间，想自己搭服务，但成本有点高，备案的域名 + 服务器一年几百块。对于我这种不靠写字谋生的人而言没有必要，所以就停摆了一段时间。直到今天用 GitHub 搭起了图床，可以说非常开心了。所以跟大家分享一下。</p>
-</blockquote>
-<ul>
-<li>方便程度：★★★★☆</li>
-<li>配置难度：★★☆☆☆<br>适用环境：win + mac + linux</li>
-<li>需要工具：GitHub 账号 + PicGo 客户端</li>
-<li>稳定性：背靠 GitHub 和微软，比自建服务器都稳</li>
-<li>隐私性：这算是唯一缺点，你的图片别人可以访问</li>
-</ul>
-<h1 id="1-GitHub-仓库设置"><a href="#1-GitHub-仓库设置" class="headerlink" title="1. GitHub 仓库设置"></a>1. GitHub 仓库设置</h1><blockquote>
-<p>流程：新建 public 仓库 -&gt; 创建 token -&gt; 复制 token 备用</p>
-</blockquote>
-<h2 id="1-1-新建仓库"><a href="#1-1-新建仓库" class="headerlink" title="1.1 新建仓库"></a>1.1 新建仓库</h2><p>点击 git 主页右上角的 + 创建 New repository；<br><img src="https://img-blog.csdnimg.cn/20210308144803390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>填写仓库信息，例如我就创建了一个 cloudimg 的仓库。</p>
-<p>这里注意，仓库得设置为 Public 因为后面通过客户端访问算是外部访问，因此无法访问 Private ，这样的话图片传上来之后只能存储不能显示。所以要设置为 Public。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308145139253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+        <p>_<em>str_</em>是 Python 的 object 基类的一个方法，也就是说 Python 所有的类都有，当然 django 的 modle 类也有，我们平常创建一个类的对象，print 这个对象时一般会是 </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;__main__.TestClass <span class="built_in">object</span> at <span class="number">0x10f1e5670</span>&gt;</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
-<h2 id="1-2-创建-token-并复制保存"><a href="#1-2-创建-token-并复制保存" class="headerlink" title="1.2 创建 token 并复制保存"></a>1.2 创建 token 并复制保存</h2><p>此时仓库已经建立，点击 settings 进入设置：</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161409646.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161616556.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161644398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161725181.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161845173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>然后复制生成一串字符 token，这个 token 只出现一次，所以要保存一下。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161923491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20210308161945294.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h1 id="2-PicGo-客户端配置"><a href="#2-PicGo-客户端配置" class="headerlink" title="2. PicGo 客户端配置"></a>2. PicGo 客户端配置</h1><h2 id="2-1-下载-amp-安装"><a href="#2-1-下载-amp-安装" class="headerlink" title="2.1 下载&amp;安装"></a>2.1 下载&amp;安装</h2><p>PicGo （目前 2.3.0）是一个开源的图床工具，非常优秀。可以到 git 上下载，但下载速度太慢，所以我放了一个云盘的链接，速度快很多。</p>
-<ul>
-<li>github 地址：<a target="_blank" rel="noopener" href="https://github.com/molunerfinn/picgo">PicGo</a>：<a target="_blank" rel="noopener" href="https://github.com/molunerfinn/picgo">https://github.com/molunerfinn/picgo</a></li>
-<li><p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
-</li>
-<li><p>Win/Mac 版下载链接：<a target="_blank" rel="noopener" href="https://aiyc.lanzous.com/b00od7p5a">https://aiyc.lanzous.com/b00od7p5a</a></p>
-</li>
-</ul>
-<p>密码:3oc6</p>
-<h2 id="2-2-配置"><a href="#2-2-配置" class="headerlink" title="2.2 配置"></a>2.2 配置</h2><p><img src="https://img-blog.csdnimg.cn/20210308162928403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<ul>
-<li>仓库名 即你的仓库名</li>
-<li>分支名 默认 master，如果填测试上传图片出错则填 main</li>
-<li>Token 就是刚刚复制的那一串字符</li>
-<li>存储路径 这个可以填也可以不填，填了的话图片就上传到 git 中 blog 这个文件夹<br>域名 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/AndersonHJB/cloudimg/master">https://raw.githubusercontent.com/AndersonHJB/cloudimg/master</a> 这个要改一下 格式 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/[username]/[仓库名]/master">https://raw.githubusercontent.com/[username]/[仓库名]/master</a></li>
-</ul>
-<p>然后点确定就可以了。</p>
-<p>注：这里提供一个加速访问图片的方法：CDN加速，具体原理自行百度。</p>
-<p>将上面的域名改为：</p>
-<p>原 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/AndersonHJB/cloudimg/master">https://raw.githubusercontent.com/AndersonHJB/cloudimg/master</a><br>现 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/AndersonHJB/cloudimg@master">https://cdn.jsdelivr.net/gh/AndersonHJB/cloudimg@master</a></p>
-<p>然后关于上传的快捷键设置。默认的是 Mac 按键，推荐改成 Ctrl + alt +c。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210308163315216.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>综上，操作完成。</p>
-<p>本方案唯一缺点，不能私人。但是考虑到 GitHub 上传的图在列表里没法预览，应该没人会闲着没事翻记录。</p>
-
+<p>即这个对象的所属类和内存地址。<br><img src="https://img-blog.csdnimg.cn/20210305162400368.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjU0NzY2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一般情况</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br><span class="line"><span class="comment"># &lt;__main__.TestClass object at 0x10f1e5670&gt;</span></span><br></pre></td></tr></table></figure>
+<p>我们改写类中的 _<em>str_</em>方法后可以在 print 时得到想要的易于人阅读的对象的信息，以下是实例：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 改写 __str__ 方法</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__str__</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">return</span> self.name</span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br></pre></td></tr></table></figure>
+<p>聚合：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一般情况</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br><span class="line"><span class="comment"># &lt;__main__.TestClass object at 0x10f1e5670&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 改写 __str__ 方法</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestClass</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.name = <span class="string">&#x27;paomo&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__str__</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">return</span> self.name</span><br><span class="line">t = TestClass()</span><br><span class="line">print(t)</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -395,8 +336,8 @@
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
-              <a href="/tags/Notebook/" rel="tag"><i class="fa fa-tag"></i> Notebook</a>
+              <a href="/tags/Django/" rel="tag"><i class="fa fa-tag"></i> Django</a>
+              <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
           </div>
 
         
@@ -404,11 +345,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2021/03/09/Ubuntu%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2Python3-Django%E9%A1%B9%E7%9B%AE%E3%80%8C%E9%9B%B6%E5%A4%B1%E8%B4%A5%E3%80%8D/" rel="next" title="Ubuntu系统部署Python3 Django项目「零失败」">
-      Ubuntu系统部署Python3 Django项目「零失败」 <i class="fa fa-chevron-right"></i>
+    <a href="/post/15709.html" rel="prev" title="Ubuntu系统部署Python3 Django项目「零失败」">
+      <i class="fa fa-chevron-left"></i> Ubuntu系统部署Python3 Django项目「零失败」
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -468,7 +409,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-GitHub-%E4%BB%93%E5%BA%93%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">1. GitHub 仓库设置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 新建仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-%E5%88%9B%E5%BB%BA-token-%E5%B9%B6%E5%A4%8D%E5%88%B6%E4%BF%9D%E5%AD%98"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 创建 token 并复制保存</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-PicGo-%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">2. PicGo 客户端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E4%B8%8B%E8%BD%BD-amp-%E5%AE%89%E8%A3%85"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 下载&amp;安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E9%85%8D%E7%BD%AE"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 配置</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -644,7 +584,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'AndersonHJB.github.io',
       owner       : 'AndersonHJB',
       admin       : ['AndersonHJB'],
-      id          : '6640b15904fba627adc6cdbc896c44c3',
+      id          : 'd221637962ce0c73e99969668aac53c3',
         language: 'zh-CN',
       distractionFreeMode: true
     });

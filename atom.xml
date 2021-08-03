@@ -6,7 +6,7 @@
   <link href="https://andersonhjb.github.io/atom.xml" rel="self"/>
   
   <link href="https://andersonhjb.github.io/"/>
-  <updated>2021-03-11T10:23:07.604Z</updated>
+  <updated>2021-08-03T02:37:09.121Z</updated>
   <id>https://andersonhjb.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python一对一视频教学-人生苦短，初学者应该如何更快的学好Python?</title>
+    <link href="https://andersonhjb.github.io/post/55534.html"/>
+    <id>https://andersonhjb.github.io/post/55534.html</id>
+    <published>2021-07-26T01:08:14.000Z</published>
+    <updated>2021-08-03T02:37:09.121Z</updated>
+    
+    <content type="html"><![CDATA[<p>时光在不经意中流逝，转眼间我已经毕业十余载。一边是时间的年轮不会停止等待，一边是科技的发展已经不能单单用惊叹来记载。很幸运的是，计算机编程语言在科技发展浪潮中的地位不可代替。</p><p>我们作为一名程序开发者，也伴随着科技的发展一直在进步学习。我在求学期间一直苦练C、C++、Java，还有那时的新宠C#。后来移动智能设备横空出世，我又开始学习Android和iOS。在最近几年，身边越来越多的人开始谈论Python。Python为什么能够脱颖而出，为什么这么多人在谈论他……</p><h2 id="01"><a href="#01" class="headerlink" title="01"></a>01</h2><p>Python是新时代的宠儿</p><p>究竟Python有什么魅力，能让越来越多的开发者喜欢上她呢？</p><h3 id="（1）化繁为简，简单最美"><a href="#（1）化繁为简，简单最美" class="headerlink" title="（1）化繁为简，简单最美"></a>（1）化繁为简，简单最美</h3><p>如果你拥有其他语言的开发经验，你会发现实现同一个功能，Python语言的代码编写量要少很多，这是因为Python语言的语法更加简单直接。在人工智能、运维、脚本、数据分析、爬虫方面，Python语言在这方面更是碾压很多其他开发语言。在时间和效率至上的今天，Python语言的这一优点将是攻城狮们的一大利器。</p><h3 id="（2）Python正处在新一轮科技革命风口浪尖之上"><a href="#（2）Python正处在新一轮科技革命风口浪尖之上" class="headerlink" title="（2）Python正处在新一轮科技革命风口浪尖之上"></a>（2）Python正处在新一轮科技革命风口浪尖之上</h3><p>都说时势造英雄，新一轮的科技浪潮将是AI，而Python是和AI贴合度最高的开发语言之一。无论是无人驾驶和深度学习，还是大数据分析和科学计算，Python都可以完美的解决我们的问题。</p><h3 id="（3）进步最快的编程语言"><a href="#（3）进步最快的编程语言" class="headerlink" title="（3）进步最快的编程语言"></a>（3）进步最快的编程语言</h3><p>在过去的4年中，如果有人要问哪一门编程语言的进步最快、新增多学习者最多，那么答案肯定是Python。TIOBE（最权威的编程语言统计机构）2019年1月发布的排行榜显示，Python在2018年获得TIOBE最佳年度语言称号，这是Python第3次获得TIOBE最佳年度语言排名，也是在最近3年获奖次数最多的编程语言。</p><h3 id="（4）人才缺口大，薪资水平高"><a href="#（4）人才缺口大，薪资水平高" class="headerlink" title="（4）人才缺口大，薪资水平高"></a>（4）人才缺口大，薪资水平高</h3><p>以下数据来自智联招聘、看准网、拉勾网、前程无忧、中华英才网等招聘网站的数据显示， Python 技术人才的日均需求量甚至达到了 15000+，北上广深等一线城市的需求更是数量庞大。而在薪资待遇上，通过分析来自全国的 12809 份样例资料可以发现，全国Python工程师的平均月薪能够达到19160元，其中20 - 30K的工程师数量更是超过了四成。下面是大数据分析智联招聘网Python相关信息的数据：</p><h2 id="02"><a href="#02" class="headerlink" title="02"></a>02</h2><h3 id="追梦逐鹿，学习Python"><a href="#追梦逐鹿，学习Python" class="headerlink" title="追梦逐鹿，学习Python"></a>追梦逐鹿，学习Python</h3><p>时间进入2019年，如果你是一名有开发经验的程序员，但是还不会Python。请你抽出一些时间，一定要学好Python。只有这样你才会不被新时代所抛弃，你才能更好的在行业中取得成绩。如果现在的你是一名完全零基础的学习者，其他编程语言的基础也为零。只要你想以后从事程序开发相关这一行业，那么建议你一定要学习Python。只要你掌握了Python这门强大的编程语言，你将紧跟新一轮的科技浪潮实现自己的梦想。</p><h2 id="03"><a href="#03" class="headerlink" title="03"></a>03</h2><h3 id="应该如何快速地学好Python？"><a href="#应该如何快速地学好Python？" class="headerlink" title="应该如何快速地学好Python？"></a>应该如何快速地学好Python？</h3><p>上面说了这么多Python语言的优点和强大之处，那么问题来了，我应该如何学好Python？特别是如何快速地学好Python？</p><p>我们生长在这个时代，快节奏是这个时代的一大特点。职场中的你需要面对单位中的诸多工作业务，学生时代的你需要吸收很多课程的知识。我们的业余时间十分有限，学习时间总是少的那么可怜，此时学习效率的重要性是不言而喻的。身边的朋友、家人和亲人，有时是替自己，有时是替自己的孩子，总是时不时的问我应该如何快速的学好Python。</p><p>相信很多初学者也会面临这个问题，有人建议是选一本优秀的图书，然后多写代码练习。但是市面中的Python图书琳琅满目，挑选一本好书是一件十分消耗脑细胞的事情。为了帮助大家少走弯路，接下来将推荐给大家的是：AI悦创·Python一对一教学「过千人报名的个人独立讲师」<br>微信：<strong>Jiabcdefh「添加记得备注来意」</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;时光在不经意中流逝，转眼间我已经毕业十余载。一边是时间的年轮不会停止等待，一边是科技的发展已经不能单单用惊叹来记载。很幸运的是，计算机编程语言在科技发展浪潮中的地位不可代替。&lt;/p&gt;
+&lt;p&gt;我们作为一名程序开发者，也伴随着科技的发展一直在进步学习。我在求学期间一直苦练C、C</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>django中models里面__str__有什么作用？</title>

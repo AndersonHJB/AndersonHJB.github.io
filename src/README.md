@@ -2,9 +2,9 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: Bornforthis
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: Bornforthis
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
 projects:

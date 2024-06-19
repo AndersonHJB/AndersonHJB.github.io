@@ -3,9 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: Code 1v1
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 bgImage: /bgimage.jpg
-heroText: AI悦创·编程一对一
+heroText: AI悦创·编程一对一</font>
 tagline: I love p
 heroFullScreen: true
 projects:

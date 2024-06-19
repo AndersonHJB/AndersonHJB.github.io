@@ -2,10 +2,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: Code 1v1
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+bgImage: /bgimage.jpg
+heroText: AI悦创·编程一对一
+tagline: I love p
 heroFullScreen: true
 projects:
   - icon: project

@@ -1,0 +1,38 @@
+开始:
+1.下载’property‘
+2.四个中已经有三个完成了，完成’PropertyViewer'
+
+
+Overview：
+(现有class的概括）
+Property:表示单个属性，点开内部看
+                   我需要的方法，如getID, getLatitude, and toggleFavourite.
+
+Portfolio:属性的集合
+                     通过在磁盘上指定一个包含某些物业数据的电子表格建立的(airbnb-london.csv —默认情况下的文件，这些是实际数据）
+                     它会自动加载它在电子表格中找到的所有属性。我可以随意向电子表格添加更多属性
+                     
+PropertyViewer：展示了应用程序的GUI。它会绘制主窗口，按钮，和我在屏幕上看到的所有东西
+                                如果用户点击按钮，该call将被传递到相关的PropertyViewer method
+                Property可以call它来在接口中显示Property或String
+
+PropertyViewer:运行property viewer的逻辑
+                               我需要完成的东西
+                               启动此应用程序而实例化的class
+
+基本任务：
+1.应用启动时，应该自动显示第一个protfolio（index 0）里的property
+2.对于显示的任何property，property的ID都应该显示在窗口顶部，CUI class有一个method去做这个
+3.当Toggle Favourite按钮被按下的时候，property里的IsFavourite filed应该被更新。Property class可以做这个
+4.窗口底部的栏应该显示是否property已经被用户标记为他们的favourites（收藏夹）之一
+5.当Next按钮按下，下一个property应该被显示伴随它正确的数据。顶部的ID也应该被正确更新，以及property是否为用户的favourite之一。如果在上一个property按下Next按钮，应用程序应该返回第一个property
+6.当按下Previous按钮时，上一个property应该被显示和它正确的数据。顶部的ID应该正确更新，以及property是否为用户的favourite之一。如果在第一个property按下Previous按钮，应用程序应该转到最后一个property
+7.在Propertyviewer class中，一些method没有文档。提供适当的method level注释
+
+
+无语挑战：
+1.实现一个名为getNumberOfPropertiesViewed的method，该method返回从应用程序启动以来已经查看的属性数量。返回类型是int。两次查看同一个属性算作看了两次
+2.实现一个名为averagePropertyPrice的method，该method返回到目前为止查看的属性的平均价格。返回类型int
+  e.g.先看A（50）再看B(20）然后再看A,平均价格在（50+20+50)/3
+3.View Property on Map这个按钮是坏的，因为它只在地图上显示Bush House。修复此功能，让它在地图上显示属性的位置
+4.添加一个新的Statistic按钮在程序上，点开后将打开一个新窗口，显示来自无语挑战的两个新method的统计信息

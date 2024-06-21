@@ -34,19 +34,20 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "编程一对一教学",
 
       displayFooter: true,
 
       blog: {
+        name: "黄家宝",
         description: "一个前端开发者",
         intro: "/zh/intro.html",
       },
 
       // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+      // metaLocales: {
+      //   editLink: "在 GitHub 上编辑此页",
+      // },
     },
 
   
@@ -63,6 +64,15 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
+    search: {
+      maxSuggestions: 32,
+      hotKeys: [],
+      locales: {
+        "/": {
+          placeholder: "Search",
+        },
+      }
+    },
     blog: true,
 
     // Install @waline/client before enabling it

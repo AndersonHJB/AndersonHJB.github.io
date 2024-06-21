@@ -33,8 +33,6 @@ export const zhNavbar = navbar([
             icon: "pen-to-square",
             link: "2",
           },
-          "3",
-          "4",
         ],
       },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },

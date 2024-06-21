@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线代码编辑器--Html/Markdown支持|AI悦创</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="jquery.splitter.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="theme/github-markdown.css">
+    <link rel="stylesheet" type="text/css" href="addon/display/fullscreen.css">
+    <link href="vs.min.css" rel="stylesheet">
+
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery.splitter.js"></script>
+    <script src="lib/codemirror.js"></script>
+    <script src="mode/javascript/javascript.js"></script>
+    <script src="mode/css/css.js"></script>
+    <script src="mode/xml/xml.js"></script>
+    <script src="mode/markdown/markdown.js"></script>
+    <script src="mode/htmlmixed/htmlmixed.js"></script>
+    <script src="addon/selection/active-line.js"></script>
+    <script src="addon/display/fullscreen.js"></script>
+    <script src="emmet.js"></script>
+    <script src="marked.min.js"></script>
+    <script src="highlight.min.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 14px;
+            background: rgb(247, 247, 247);
+        }
+
+        header {
+            line-height: 39px;
+            background: rgb(237, 237, 237);
+            border-bottom: hsl(0, 0%, 75%) solid 1px;
+            text-align: center;
+            height: 39px;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            margin-left: 10px;
+            background-color: #777;
+            background-image: linear-gradient(
+                    45deg,
+                    transparent 45%,
+                    hsla(48, 20%, 90%, 1) 45%,
+                    hsla(48, 20%, 90%, 1) 55%,
+                    transparent 0
+            );
+            background-size: .05em .05em;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px #444;
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        header .tab {
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 28px;
+            line-height: 28px;
+            margin-top: 5px;
+            background: #fff;
+            height: 28px;
+            overflow: hidden;
+        }
+
+        header span {
+            display: inline-block;
+            font-size: 14px;
+            text-align: center;
+            width: 100px;
+            line-height: 28px;
+            cursor: pointer;
+        }
+
+        header span.on {
+            background-color: hsl(215, 100%, 96%);
+        }
+
+        header .tips {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            text-align: right;
+            color: #aaa;
+            font-size: 12px;
+            text-shadow: 1px 1px 1px #fff;
+        }
+
+        header .contorl a {
+            border: 1px solid rgba(27, 31, 35, .2);
+            border-radius: .25em;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 12px;
+            line-height: 14px;
+            padding: 4px 8px;
+            position: relative;
+            white-space: nowrap;
+            background-color: #eff3f6;
+            color: #24292e;
+            text-decoration: none;
+        }
+
+        header .contorl a:hover {
+            background-color: #e6ebf1;
+            border-color: rgba(27, 31, 35, .35);
+        }
+
+        .preview {
+            border: none;
+            height: 100%;
+            background: white;
+            overflow-y: auto;
+            box-sizing: border-box;
+            padding: 10px;
+            width: 100%;
+        }
+
+        #preview {
+            padding: 0px;
+        }
+
+        .editbox {
+            height: 100%;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .CodeMirror {
+            height: auto;
+            background: rgb(247, 247, 247);
+        }
+
+        .splitter_panel .vsplitter {
+            width: 1px;
+            background: transparent;
+            border-left: 1px solid #ccc;
+            z-index: 8;
+        }
+
+        .splitter_panel .vsplitter:hover {
+            border-left: 1px dashed gray;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        QuickSand｜EditOnline
+    </div>
+    <div class="tab">
+        <span class="on">HTML</span><span>Markdown</span>
+    </div>
+    <div class="tips">Editing, Press F11 to Switch FullScreen|<a href="./plus/index.html">HTML Plus</a>|<a href="./md.html">MarkDown</a></div>
+</header>
+
+<div class="container" id="content">
+    <div class="edit-view">
+        <div class="editbox">
+        <textarea id="htmlEdit">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code Edit</title>
+  <h1>流沙团队开发｜AI悦创</h1>
+  <p>AI悦创·推出辅导班啦!</p><br>
+  <p>包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p><br>
+
+  <p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+</head>
+<body>
+
+</body>
+</html>
+        </textarea>
+        </div>
+
+        <div class="editbox" style="display: none;">
+            <textarea id="MarkdownEdit"># 请开始你的Markdown之旅</textarea>
+        </div>
+    </div>
+    <div class="result-view">
+        <iframe id="preview" class="preview"></iframe>
+        <div id="mkview" class="preview markdown-body" style="display: none;"></div>
+    </div>
+</div>
+
+
+<script>
+    var cHeight = document.documentElement.clientHeight - 40;
+    var splitter = $('#content').height(cHeight).split({
+        orientation: 'vertical',
+        limit: 10,
+        position: '50%'
+    });
+
+
+    var night = false;
+    var dom = document.getElementById('preview');
+    var editor = CodeMirror.fromTextArea(document.getElementById("htmlEdit"), {
+        lineNumbers: false,
+        mode: "htmlmixed",
+        indentUnit: 2,
+        lineWrapping: true,
+        styleActiveLine: true
+    });
+
+    emmetCodeMirror(editor);
+
+    editor.on("keyup", function () {
+        runPreview()
+    });
+
+    var editorMark = CodeMirror.fromTextArea(document.getElementById("MarkdownEdit"), {
+        lineNumbers: false,
+        mode: "markdown",
+        indentUnit: 2,
+        lineWrapping: true,
+        styleActiveLine: true
+    });
+
+    editorMark.on("keyup", function () {
+        runMkview()
+    });
+
+    editor.setOption("extraKeys", {
+        "F11": function (cm) {
+            cm.setOption("fullScreen", !cm.getOption("fullScreen"));
+        },
+        "Esc": function (cm) {
+            if (cm.getOption("fullScreen")) cm.setOption("fullScreen", false);
+        }
+    });
+
+    editorMark.setOption("extraKeys", {
+        "F11": function (cm) {
+            cm.setOption("fullScreen", !cm.getOption("fullScreen"));
+        },
+        "Esc": function (cm) {
+            if (cm.getOption("fullScreen")) cm.setOption("fullScreen", false);
+        }
+    });
+
+    runPreview();
+    runMkview();
+    tab();
+
+    marked.setOptions({
+        highlight: function (code, lang) {
+            return hljs.highlightAuto(code).value;
+        }
+    });
+
+    function runPreview() {
+        dom.contentWindow.document.open();
+        dom.contentWindow.document.write(editor.getValue());
+        dom.contentWindow.document.close();
+    }
+
+    function runMkview() {
+        document.getElementById('mkview').innerHTML = marked(editorMark.getValue());
+    }
+
+    function tab() {
+        var head = document.getElementsByTagName('header');
+        var btns = head[0].getElementsByTagName('span');
+        var boxs = document.getElementsByClassName('editbox');
+        var views = document.getElementsByClassName('preview');
+        for (var i = 0; i < btns.length; i++) {
+            var btn = btns[i];
+            btn.index = i;
+            btn.onclick = function () {
+                for (var j = 0; j < btns.length; j++) {
+                    btns[j].className = '';
+                }
+                this.className = 'on';
+                for (var k = 0; k < boxs.length; k++) {
+                    boxs[k].style.display = 'none';
+                }
+                boxs[this.index].style.display = 'block';
+                for (var h = 0; h < views.length; h++) {
+                    views[h].style.display = 'none';
+                }
+                views[this.index].style.display = 'block';
+
+                editor.refresh();
+                editorMark.refresh();
+            }
+        }
+    }
+</script>
+</body>
+</html>

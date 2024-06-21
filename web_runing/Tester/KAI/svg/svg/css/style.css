@@ -1,0 +1,98 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+
+svg {
+  display: block;
+}
+
+.group {
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.c-nav:not(:last-child) {
+  margin: 1rem 0 2rem;
+}
+@media (min-width: 900px) {
+  .c-nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.c-nav__item {
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+.c-nav__item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 4px;
+  transition: 0.4s;
+}
+.c-nav__item svg {
+  pointer-events: none;
+  transition: 0.5s;
+}
+.c-nav__item path {
+  transition: stroke-dasharray 0.5s, stroke-dashoffset 0.5s, opacity 0.5s;
+}
+.c-nav__item path:last-child {
+  opacity: 0.2;
+}
+.c-nav__item a:hover, .c-nav__item a:focus {
+  color: #00bc9b;
+}
+.c-nav__item a:hover + svg,
+.c-nav__item a:focus + svg {
+  opacity: 1;
+}
+.c-nav__item a:hover + svg path,
+.c-nav__item a:focus + svg path {
+  stroke-dashoffset: 0;
+}
+
+#path1 {
+  opacity: 0.25;
+}
+
+.c-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.c-form legend {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.c-form label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.c-form__item {
+  margin-bottom: 1rem;
+}
+
+.c-nav-2 .c-nav__item {
+  font-size: 1rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: lightgrey;
+}
+
+.ishadeed {
+  text-align: center;
+}
+.ishadeed a {
+  color: #3563D9;
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+  <link href="../../css/lib/normalize.css" rel="stylesheet">
+  <link href="../../css/main.css" rel="stylesheet">
+  <link href="GuessNumber.css" rel="stylesheet">
+  <link href="/favicon.svg" rel="icon">
+  <title>猜数 GuessNumber - QKTool</title>
+</head>
+
+<body>
+<div id="header">
+  <h1 id="brand">
+    <a href="https://py.bornforthis.cn/QKTool/"> AI悦创·Tool</a>
+  </h1>
+  <div id="header-menu">
+    <a href="https://www.bornforthis.cn/">Python研习社</a>
+    <a href="https://py.bornforthis.cn/QKTool/log.html">更新日志</a>
+  </div>
+</div>
+
+<div id="title">
+  <h2>猜数 GuessNumber</h2>
+  <h3>2.0.0</h3>
+</div>
+
+<div id="content">
+  <label for="answer">请输入0-100的整数</label>
+  <input id="answer" max="100" min="0" placeholder="在此输入0-100的整数" type="number">
+  <div id="btn-group">
+    <button onClick="compareAnswer()">确定</button>
+    <button onClick="replay()">重玩</button>
+    <button onClick="showNum()">答案</button>
+  </div>
+</div>
+
+<div id="log">
+  <p>更新日志</p>
+  <div class="log-item">
+    <span>版本 2.0.0 日期时间 2020.04.08</span>
+    <p>应用全局风格</p>
+  </div>
+  <div class="log-item">
+    <span>版本 1.0.0 日期时间 2016.08</span>
+    <p>0.1.0版本(HTML 4.01)文件丢失，重写1.0.0版本(HTML 5)</p>
+  </div>
+  <div class="log-item">
+    <span>版本 0.1.0 日期时间 2011.07</span>
+    <p>完成基本功能</p>
+  </div>
+</div>
+
+<div id="footer">
+  <p>QKTool</p>
+  <p>&copy; 2019-2022 Python研习社</p>
+</div>
+
+<script>
+  //random() 产生0-1的随机数，然后扩大100倍并向上取整[x]得到答案，即0-100的随机数
+  let num = Math.ceil(Math.random() * 100);
+  let answer;//输入的数字
+  let input = document.getElementById("answer");//文本框DOM
+
+  function compareAnswer() {
+    answer = parseInt(input.value);
+    if (answer === num) {
+      alert("恭喜答对！");
+      replay();
+    } else if (answer < num && answer >= 0) {
+      alert("小了！");
+    } else if (answer > num && answer <= 100) {
+      alert("大了！");
+    } else {
+      alert("不符合的输入！应为0-100整数");
+    }
+    input.value = "";
+  }
+
+  function replay() {
+    num = Math.ceil(Math.random() * 100);
+    alert("已经开始新的游戏！");
+  }
+
+  function showNum() {
+    alert("答案为" + num);
+  }
+</script>
+</body>
+</html>

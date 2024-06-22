@@ -108,10 +108,35 @@ export default hopeTheme({
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
 
-    components: {
-      components: ["Badge", "VPCard"],
-    },
+    // components: {
+    //   components: ["Badge", "VPCard"],
+    // },
 
+    components: {
+      componentOptions: {
+        share: {
+          services: ["email", "qq", "qrcode"],
+        }
+      },
+      components: [
+        "VPBanner",
+        "VPCard",
+        // "ArtPlayer",
+        // "AudioPlayer",
+        // "Badge",
+        "BiliBili",
+        // "FontIcon",
+        // "CodePen",
+        "PDF",
+        "SiteInfo",
+        "StackBlitz",
+        "Share",
+        "VidStack",
+        // "YouTube",
+        // "Replit",
+        // "ArtPlayer",
+      ],
+    },
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,

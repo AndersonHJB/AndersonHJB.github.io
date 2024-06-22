@@ -5,7 +5,7 @@ import { zhSidebar } from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://blog.bornforthis.cn/",
-
+  
   author: {
     name: "AI悦创",
     url: "https://bornforthis.cn/",

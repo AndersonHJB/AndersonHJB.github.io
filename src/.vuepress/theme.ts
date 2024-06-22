@@ -5,7 +5,7 @@ import { zhSidebar } from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://blog.bornforthis.cn/",
-  
+
   author: {
     name: "AI悦创",
     url: "https://bornforthis.cn/",
@@ -56,7 +56,7 @@ export default hopeTheme({
       blog: {
         name: "黄家宝",
         description: "一个前端开发者",
-        intro: "/zh/intro.html",
+        intro: "/intro.html",
       },
 
       // page meta

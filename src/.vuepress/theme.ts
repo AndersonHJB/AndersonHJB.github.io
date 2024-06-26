@@ -70,7 +70,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      
+
     },
   },
 
@@ -95,10 +95,6 @@ export default hopeTheme({
     // comment: {
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
-    // },
-
-    // components: {
-    //   components: ["Badge", "VPCard"],
     // },
 
     components: {

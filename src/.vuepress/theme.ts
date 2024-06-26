@@ -70,18 +70,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/column/py/Projects/": ["aiyc"],
-      "/column/py/Projects/03-django-web": ["aiyc", "xxy"],
-      "/column/py/basequestion/hw_word_game.html": ["aiyc"],
-      "/column/py/NoteBook/": ["aiyc", "xxy", "yxf"],
-      "/column/ChatGPT/": ["aiyc", "chatgpt", "ai", "lqx"],
-      "/column/Basic-course-of-artificial-intelligence/": ["aiyc", "cava", "lxj"],
-      "/column/data_analysis/": ["aiyc", "cava", "lqx"],
-      "/column/ChatGPT-Midjourney/StableDiffusion/01": ["aiyc", "chagpt3", "cjx", "yxxz", "lxy", "biy", "wqe", "xym", "ai", "kai", "lqx", "zhy", "gtq"],
-      "/column/Probability-theory/": ["aiyc", "gll"],
-      "/column/An-introductory-programming-class-that-anyone-can-learn/detail/": ["123123", "aiyc"],
-      "/column/TensorFlow/零基础实战机器学习/": ["123123a", "aiyc"],
-      "/column/Programmingthinking/": ["123123a", "aiyc"],
+      
     },
   },
 

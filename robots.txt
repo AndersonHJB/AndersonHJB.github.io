@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+# Algolia-Crawler-Verif: 0617072AC8C2AD2B
+
+User-agent:*
+Disallow:
+
+Sitemap: https://bornforthis.cn/sitemap.xml

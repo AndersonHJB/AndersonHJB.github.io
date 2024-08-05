@@ -22,20 +22,20 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
-  travelling: false
+  enable: true
+  travelling: true
   clock: false
   menu:
     - title: 网页
       item:
-        - name: 博客
-          link: https://blog.anheyu.com/
-          icon: /img/favicon.ico
+        - name: 文档
+          link: https://bornforthis.cn
+          icon: /img/favicon.svg
     - title: 项目
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: FPManager
+          link: https://github.com/AndersonHJB/Falsk-Password-Manager
+          icon: /img/icon/icon-ai-01.svg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -46,7 +46,7 @@ mourn:
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button

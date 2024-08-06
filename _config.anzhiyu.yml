@@ -149,10 +149,13 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: false #"background: url(https://bornforthis.cn/img_home/079A23792.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
+index_img: "background: url(/img/3Z2A5708.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
+# index_img: "background: url(https://bornforthis.cn/img_home/079A23792.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: true
+# default_top_img: "/img/3Z2A5708.jpg" # false
+default_top_img: "https://bornforthis.cn/img_home/079A23792.jpg" # false
+
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -706,11 +709,11 @@ click_heart:
 
 # Mouse click effects: words (鼠标点击效果: 文字)
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    - I
+    - LOVE
+    - YOU
   fontSize: 15px
   random: false
   mobile: false
@@ -736,6 +739,7 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
+
 blog_title_font:
   font_link:
   font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif

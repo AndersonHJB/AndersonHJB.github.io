@@ -1,8 +1,8 @@
 - class_name: 与你共同走过的路  # 小名称
   path_name: /road-I-walked-with-you  # 当前相册路径
   type: 2  # 页面类型
-  description: 因为爱无法停留在某一刻，所以才说爱意涌动～
-  cover: /img/album/3Z2A5645.jpg
+  description: 因为爱无法停留在某一刻，所以才说爱意涌动～  # 当前页面描述
+  cover: /img/album/3Z2A5645.jpg  # 当前页面的缩略图
   top_background: /img/album/road-I-walked-with-you-bg.webp
   rowHeight: 220
   limit: 10
@@ -25,6 +25,13 @@
       from: 紫菜卷
       image:
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
         - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
 
 - class_name: 我的日常

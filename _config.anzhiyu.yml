@@ -74,7 +74,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: "/img/xionmaotanjita.svg"
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
@@ -84,6 +84,7 @@ author_status:
     - 🏃 脚踏实地行动派
     - 🧱 团队小组发动机
     - 💢 壮汉人狠话不多
+    - 👸 宠妻狂魔
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -111,7 +112,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -141,7 +142,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: /img/favicon.svg
   effect: false
 
 # Disable all banner image

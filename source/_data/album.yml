@@ -3,7 +3,7 @@
   type: 2  # 页面类型
   description: 因为爱无法停留在某一刻，所以才说爱意涌动～  # 当前页面描述
   cover: /img/album/3Z2A5645.jpg  # 当前页面的缩略图
-  top_background: /img/album/road-I-walked-with-you-bg.webp
+  top_background: /img/album/road-I-walked-with-you-bg.webp  # 当前相册的背景图片
   rowHeight: 220
   limit: 10
   lazyload: true

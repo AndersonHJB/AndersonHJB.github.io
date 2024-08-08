@@ -154,7 +154,8 @@ index_img: "background: url(/img/3Z2A5708.jpg) top / cover no-repeat" # "backgro
 
 # If the banner of page not setting, it will show the top_img
 # default_top_img: "/img/3Z2A5708.jpg" # false
-default_top_img: "https://bornforthis.cn/img_home/079A23792.jpg" # false
+# default_top_img: "https://bornforthis.cn/img_home/079A23792.jpg" # false
+default_top_img: "/img/album/bg.webp" # false
 
 
 cover:

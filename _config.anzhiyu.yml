@@ -59,7 +59,7 @@ code_word_wrap: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # social settings (社交图标设置)
@@ -154,8 +154,9 @@ index_img: "background: url(/img/3Z2A5708.jpg) top / cover no-repeat" # "backgro
 
 # If the banner of page not setting, it will show the top_img
 # default_top_img: "/img/3Z2A5708.jpg" # false
-# default_top_img: "https://bornforthis.cn/img_home/079A23792.jpg" # false
-default_top_img: "/img/album/bg.webp" # false
+default_top_img: https://bornforthis.cn/img_home/079A23792.jpg # false
+# default_top_img: true # false
+# default_top_img: "/img/album/bg.webp" # false
 
 
 cover:
@@ -167,8 +168,9 @@ cover:
   # left/right/both
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
-  default_cover:
-    # - /img/default_cover.jpg
+  default_cover:  # 配置默认图片的缩略图
+    - /img/079A23792.jpg
+    - /img/album/bg.webp
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:

@@ -490,16 +490,18 @@ footer:
             link: https://bornforthis.cn/
           - title: 私教主页
             link: https://www.class1v1.com/
+          - title: Medium
+            link: https://aiyc.top
           # - title: 开往
             # link: https://github.com/travellings-link/travellings
-      # - title: 主题
-      #   links:
-      #     - title: 文档
-      #       link: /docs/
-      #     - title: 源码
-      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-      #     - title: 更新日志
-      #       link: /update/
+      - title: 开源项目
+        links:
+          - title: FPM
+            link: https://github.com/AndersonHJB/Falsk-Password-Manager
+          - title: CodeMark
+            link: https://github.com/AndersonHJB/CodeMark
+          - title: 更新日志
+            link: /update/
       - title: 导航
         links:
           - title: 即刻短文
@@ -520,11 +522,11 @@ footer:
     enable: true
     authorLink: /
     cc:
-      enable: false
+      enable: true
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      - link: #
+        text: 编程主题
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -861,7 +863,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 9/1/2018 00:00:00
 
 # Console - Newest Comments
 newest_comments:

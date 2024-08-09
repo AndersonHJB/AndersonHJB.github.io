@@ -370,9 +370,9 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://comment.class1v1.com/
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Artalk

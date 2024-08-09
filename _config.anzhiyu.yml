@@ -1328,7 +1328,7 @@ CDN:
     # pace_default_css:
     # countup_js:
     # gsap_js:
-    busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+    busuanzi: /static/js/busuanzi.pure.mini.js
     # rightmenu:
     # waterfall:
     # ali_iconfont_css:

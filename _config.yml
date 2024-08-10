@@ -128,3 +128,4 @@ deploy:
   - type: git
     repo: ssh://root@47.92.238.44:/www/wwwroot/blog.bornforthis.cn/hexo-deploy.git
     branch: master
+    key: ~/.ssh/id_rsa.pub

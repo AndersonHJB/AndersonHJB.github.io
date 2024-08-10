@@ -121,6 +121,10 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: 'git@github.com:AndersonHJB/AndersonHJB.github.io.git'
-  branch: gh-pages
+  - type: 'git'
+    repo: 'git@github.com:AndersonHJB/AndersonHJB.github.io.git'
+    branch: gh-pages
+
+  - type: git
+    repo: ssh://root@47.92.238.44:/www/wwwroot/blog.bornforthis.cn/hexo-deploy.git
+    branch: master

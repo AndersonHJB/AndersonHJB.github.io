@@ -30,7 +30,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.name "AndersonHJB"
-          git config --global user.email "cleland1432803776@icloud.com"
+          git config --global user.email "aiyuechuang@gmail.com"
       - name: Deploy to Server
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}

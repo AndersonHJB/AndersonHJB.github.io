@@ -14,7 +14,7 @@ jobs:
       - name: Checkout    
         uses: actions/checkout@v4  # 这里使用了github官方提供的action,checkout项目到虚拟机上
         with:
-          ref: github-pages # 检出 gh-pages 分支下的内容
+          ref: gh-pages # 检出 gh-pages 分支下的内容
 
       - name: Deploy file to tencent
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4

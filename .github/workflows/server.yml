@@ -44,3 +44,30 @@ jobs:
           git add -A
           git commit -m "Deploy to server"
           git push -f deploy master
+# name: Deploy
+
+# on:
+#   workflow_run:
+#     workflows: [Build]
+#     branches: [master]
+#     types:
+#       - completed
+
+# jobs:
+#   pages:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout    
+#         uses: actions/checkout@v3  # 这里使用了github官方提供的action,checkout项目到虚拟机上
+#         with:
+#           ref: gh-pages # 检出 gh-pages 分支下的内容
+
+#       - name: Deploy file to tencent
+#         uses: wlixcc/SFTP-Deploy-Action@v1.0 
+#         with:  
+#           username: '${{ secrets.SERVER_USER }}'       # ssh user name
+#           server: '${{ secrets.SERVER_HOST }}'         # 服务器地址
+#           ssh_private_key: ${{ secrets.PRIVITE_KEY }}  # 引用之前创建好的 secret
+#           local_path: './*'                            # 对应 hexo build 后的文件夹
+#           remote_path: '${{ secrets.TARGET_PATH }}'    # 远程服务器路径
+

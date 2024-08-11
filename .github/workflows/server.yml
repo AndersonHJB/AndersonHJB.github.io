@@ -1,9 +1,9 @@
-name: 服务器
+name: Server
 
 on:
   workflow_run:
-    workflows: [Build]
-    branches: [master]
+    workflows: [Pages]
+    branches: [main]
     types:
       - completed
 

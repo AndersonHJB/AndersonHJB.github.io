@@ -2,7 +2,7 @@ name: Server
 
 on:
   workflow_run:
-    workflows: [Pages]
+    workflows: [pages]
     branches: [main]
     types:
       - completed

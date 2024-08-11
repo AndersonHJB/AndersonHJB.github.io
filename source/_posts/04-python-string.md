@@ -1777,42 +1777,7 @@ print("输入的整数是:", number)
 
 获取用户连续输入的两个整数，得到两个整数的和。
 
-**要求：**
 
-- 只能使用一个 input 函数；
-- 用户输入格式：num1 num2
-- 输出计算结果；
-
-**输入：**
-
-```python
-5 6
-```
-
-**输出：**
-
-```python
-11
-```
-
-::: code-tabs
-
-@tab Code1
-
-```python
-nums = eval(input(':>>>').replace(' ', '+'))
-print(nums)
-```
-
-@tab Code2
-
-```python
-nums = input(':>>>').split()
-sum = int(nums[0]) + int(nums[1])
-print(sum)
-```
-
-:::
 
 
 

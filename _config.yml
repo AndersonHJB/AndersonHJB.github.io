@@ -129,3 +129,79 @@ deploy:
     repo: ssh://root@47.92.238.44:/www/wwwroot/blog.bornforthis.cn/hexo-deploy.git
     branch: master
     key: ~/.ssh/id_rsa.pub
+
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  bgmInfoSource: 'bgmv0'
+  path:
+  vmid: 405961705
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  show: 1
+  lazyload: false
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order: latest
+  proxy:
+    host: '代理host'
+    port: '代理端口'
+  extra_options:
+    top_img: false
+    key: value
+  coverMirror:
+# cinema: # 追剧设置
+#   enable: true
+#   path:
+#   vmid:
+#   title: '追剧列表'
+#   quote: '生命不息，追剧不止！'
+#   show: 1
+#   lazyload: true
+#   srcValue: '__image__'
+#   lazyloadAttrName: 'data-src=__image__'
+#   loading:
+#   metaColor:
+#   color:
+#   webp:
+#   progress:
+#   extraOrder:
+#   order:
+#   extra_options:
+#     key: value
+#   coverMirror:
+# game: # 游戏设置，仅支持source: bgmv0
+#   enable: true
+#   path:
+#   source: bgmv0
+#   vmid:
+#   title: '游戏列表'
+#   quote: '生命不息，游戏不止！'
+#   show: 1
+#   lazyload: true
+#   srcValue: '__image__'
+#   lazyloadAttrName: 'data-src=__image__'
+#   loading:
+#   metaColor:
+#   color:
+#   webp:
+#   progress:
+#   extraOrder:
+#   order:
+#   extra_options:
+#     key: value
+#   coverMirror:
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false

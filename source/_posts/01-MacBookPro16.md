@@ -47,6 +47,5 @@ categories: 好物推荐
 
 而换到 m1 之后我的内存中虚拟内存的占用为0。
 
-![alt text](image.png)
-
+![](01-MacBookPro16/image.png)
 

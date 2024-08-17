@@ -1291,7 +1291,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    twikoo: https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js 
+    # twikoo: https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js 
     # waline_js:
     # waline_css:
     # sharejs:

@@ -1083,7 +1083,8 @@ home_top:
   banner:
     tips: bornforthis
     title: AI悦创·私教文档
-    image: /img/home/home.png
+    # image: /img/home/home.png
+    # image: /img/home/home.png
     link: https://bornforthis.cn
 
 # 朋友圈配置

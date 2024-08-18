@@ -1089,9 +1089,9 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: false
+  enable: true
   vue_js: /static/js/friends.js
-  apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
+  apiurl: https://friends.bornforthis.cn/ # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
 

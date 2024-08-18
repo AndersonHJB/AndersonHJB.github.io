@@ -37,8 +37,17 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: AI悦创
+      link: https://bornforthis.cn
+      avatar: https://bornforthis.cn/aiyc.avg
+      descr: 你身边优质的编程私教
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
-      recommend: true
+      recommend: false
+    - name: 落叶不随
+      link: https://bloggersht.com.cn
+      avatar: /img/link/02-bloggersht.com.cn.jpg
+      descr: 世界就在身后
+      recommend: false

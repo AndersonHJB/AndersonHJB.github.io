@@ -1,0 +1,50 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Java
+      color: "#fff"
+      icon: /img/data/creativity/java.jpg
+    - name: Docker
+      color: "#57b6e6"
+      icon: /img/data/creativity/Docker.png
+    - name: Photoshop
+      color: "#4082c3"
+      icon: /img/data/creativity/ps.png
+    - name: Node
+      color: "#333"
+      icon: /img/data/creativity/node-logo.svg
+    - name: Webpack
+      color: "#2e3a41"
+      icon: /img/data/creativity/Webpack.png
+    - name: Pinia
+      color: "#fff"
+      icon: /img/data/creativity/pinia-logo.svg
+    - name: Python
+      color: "#fff"
+      icon: /img/data/creativity/python.png
+    - name: Vite
+      color: "#937df7"
+      icon: /img/data/creativity/vite-logo.svg
+    - name: Flutter
+      color: "#4499e4"
+      icon: /img/data/creativity/Flutter.png
+    - name: Vue
+      color: "#b8f0ae"
+      icon: /img/data/creativity/Vue.png
+    - name: React
+      color: "#222"
+      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
+    - name: CSS3
+      color: "#2c51db"
+      icon: /img/data/creativity/CSS3.png
+    - name: JS
+      color: "#f7cb4f"
+      icon: /img/data/creativity/js.png
+    - name: HTML
+      color: "#e9572b"
+      icon: /img/data/creativity/HTML.png
+    - name: Git
+      color: "#df5b40"
+      icon: /img/data/creativity/git.webp
+    - name: Apifox
+      color: "#e65164"
+      icon: /img/data/creativity/Apifox.png

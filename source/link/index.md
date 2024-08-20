@@ -75,7 +75,7 @@ aside: false
 <!-- tab Html -->
 
 ```YML
-<a href="https://blog.imoyan.top/" rel="external nofollow">愿永不忘初心！</a>
+<a href="https://blog.bornforthis.cn" rel="external nofollow">AI悦创·创造不同～</a>
 ```
 
 <!-- endtab -->
@@ -83,7 +83,7 @@ aside: false
 <!-- tab Jade -->
 
 ```YML
-a(href='https://blog.imoyan.top/' rel="external nofollow") 愿永不忘初心！
+a(href='https://blog.bornforthis.cn' rel="external nofollow") AI悦创·创造不同～
 ```
 
 <!-- endtab -->
@@ -116,7 +116,7 @@ a(href='https://blog.imoyan.top/' rel="external nofollow") 愿永不忘初心！
 
 最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。
 
-如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系[1227124782@qq.com](mailto:1227124782@qq.com)。
+如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系[aiyuechuang@gmail.com](mailto:aiyuechuang@gmail.com)。
 
 {% endfolding %}
 
@@ -165,13 +165,13 @@ a(href='https://blog.imoyan.top/' rel="external nofollow") 愿永不忘初心！
 
 为了避免图床问题，建议你将头像存储到贵站图床。
 
-1. 我的名称: 陌颜Hao
+1. 我的名称: AI悦创
 
-2. 网站地址: https://blog.imoyan.top/
+2. 网站地址: https://blog.bornforthis.cn
 
-3. 描述: 愿永不忘初心！
+3. 描述: AI悦创·创造不同！
 
-4. 头像: https://bu.dusays.com/2024/03/15/65f3fd054c5db.jpg
+4. 头像: https://bornforthis.cn/aiyc.svg
 
 参照以下格式留言 📋 即可。
 
@@ -186,10 +186,10 @@ a(href='https://blog.imoyan.top/' rel="external nofollow") 愿永不忘初心！
 示例 📢：
 
 ```
-昵称：陌颜Hao
-网站地址：https://blog.imoyan.top/
-头像图片url：https://bu.dusays.com/2024/03/15/65f3fd054c5db.jpg
-描述：愿永不忘初心！
+昵称：AI悦创
+网站地址：https://blog.bornforthis.cn
+头像图片url：https://bornforthis.cn/aiyc.svg
+描述：AI悦创·创造不同！
 站点截图:(可选)：
 ```
 
@@ -210,13 +210,13 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https:/
 
 {% endfolding %}
 
-1. 我的名称: 陌颜Hao
+1. 我的名称: AI悦创
 
-2. 网站地址: https://blog.imoyan.top/
+2. 网站地址: ttps://blog.bornforthis.cn
 
-3. 描述: 愿永不忘初心！
+3. 描述: AI悦创·创造不同！
 
-4. 头像: https://bu.dusays.com/2024/03/15/65f3fd054c5db.jpg
+4. 头像: https://bornforthis.cn/aiyc.svg
 
 
 <p style="padding:0 0 0 .8rem">

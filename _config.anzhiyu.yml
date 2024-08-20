@@ -1201,7 +1201,7 @@ post_head_ai_description:
 
 # 快捷键配置
 shortcutKey:
-  enable: false
+  enable: true
   delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
   shiftDelay: 200 # shift按下延时多久开启
 
@@ -1291,7 +1291,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    twikoo: https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js 
+    twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js # https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js 
     # waline_js:
     # waline_css:
     # sharejs:

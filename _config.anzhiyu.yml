@@ -1079,8 +1079,8 @@ home_top:
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
-    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
-    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+    swiper_css: /static/css/swiper.min.css #swiper css依赖
+    swiper_js: /static/js/swiper.min.js #swiper js依赖
   banner:
     tips: bornforthis
     title: AI悦创·私教文档
@@ -1093,7 +1093,7 @@ friends_vue:
   vue_js: /static/js/friends.js
   apiurl: https://friends.bornforthis.cn/ # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
-  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  top_background: /img/fcircle/fcircle.webp
 
 # 深色模式粒子效果canvas
 universe:
@@ -1221,7 +1221,7 @@ pageThumbnailSuffix: ""
 
 # 隐私协议弹窗
 agreementPopup:
-  enable: false
+  enable: true
   url: /privacy
 
 # 右键菜单

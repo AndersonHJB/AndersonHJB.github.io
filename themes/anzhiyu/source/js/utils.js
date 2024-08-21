@@ -1451,7 +1451,12 @@ const NaoKuo = {
         if (data.msg === "success") {
           // console.info(data);
           ipStore = data;
+          /*
+          第一行代码 将 location 的值保存到本地存储中，有效期为 24 小时。
+          第二行代码 将 location 的值保存到本地存储中，有效期为 0.5 秒。
+          */
           saveToLocal.set('location', ipStore, 3600 * 24);
+          saveToLocal.set('location', ipStore, 0.5);
           NaoKuo.showWelcome(ipStore);
         }
       }else{
@@ -1479,7 +1484,8 @@ const NaoKuo = {
   //根据国家、省份、城市信息自定义欢迎语
   showWelcome: (ipStore) => {
     const WelcomeInfo = document.getElementById("welcome-info"),
-      IP = ipStore.ip || "未知";
+      // IP = ipStore.ip || "未知";
+      IP = ipStore.data.ip || "未知";
     // let dist = NaoKuo.getDistance(填写你的经度, 填写你的纬度, ipStore.data.lng, ipStore.data.lat),
     let dist = NaoKuo.getDistance(118.9929, 25.4536, ipStore.data.lng, ipStore.data.lat),
       address,

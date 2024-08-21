@@ -1447,7 +1447,8 @@ const NaoKuo = {
         const data = await response.json();
 
         // if (data.code === "Success") {
-        if (data.code === "200") {
+        // if (data.code === "200") {
+        if (data.msg === "success") {
           // console.info(data);
           ipStore = data;
           saveToLocal.set('location', ipStore, 3600 * 24);

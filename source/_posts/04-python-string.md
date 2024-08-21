@@ -3,6 +3,7 @@ title: 04-str NoteBook
 author: AI悦创
 abbrlink: fa256f4b
 date: 2023-12-08 13:18:16
+ai: "这是AI悦创写的"
 ---
 
 ## 1. 字符串的定义

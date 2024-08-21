@@ -1655,7 +1655,7 @@ const NaoKuo = {
     //自定义文本需要放的位置
     WelcomeInfo && (WelcomeInfo.innerHTML = `🙋欢迎来自 <strong>${address}</strong> 的小伙伴<br>
     😊<strong>${welcome_info}</strong><br>
-    🗺️您距离 <strong>Naokuo</strong> 约有 <strong>${dist}</strong> 公里！<br>
+    🗺️您距离 <strong>AI悦创</strong> 约有 <strong>${dist}</strong> 公里！<br>
     当前IP地址为：<br>
     <strong style="font-size:12px;"><psw>${IP}</psw></strong><br>
     <strong>${timeChange}！</strong>`);

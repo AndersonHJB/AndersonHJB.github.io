@@ -1446,7 +1446,8 @@ const NaoKuo = {
         // const response = await fetch(`https://api.qjqq.cn/api/Local`);
         const data = await response.json();
 
-        if (data.code === "Success") {
+        // if (data.code === "Success") {
+        if (data.code === "200") {
           // console.info(data);
           ipStore = data;
           saveToLocal.set('location', ipStore, 3600 * 24);

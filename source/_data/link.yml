@@ -4,7 +4,7 @@
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      avatar: /img/link/04-hexo.io.svg
       descr: 快速、简单且强大的网站框架
     - name: anzhiyu主题  
       link: https://blog.anheyu.com/
@@ -32,6 +32,18 @@
       color: vip
       tag: 技术
     
+
+- class_name: 友谊长存
+  class_desc: 交换友情链接
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 陌颜Hao
+      link: https://blog.imoyan.top/
+      avatar: https://bu.dusays.com/2024/03/15/65f3fd054c5db.jpg
+      descr: 愿永不忘初心！
+      color: friends
+      tag: 生活
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事

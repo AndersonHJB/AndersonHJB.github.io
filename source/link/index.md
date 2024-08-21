@@ -137,7 +137,7 @@ a(href='https://blog.bornforthis.cn' rel="external nofollow") AI悦创·创造�
 
 <h2>友情链接申请</h2>
 
-{% note 'anzhiyufont anzhiyu-icon-rocket' disabled %} 友链最新更新时间：<strong>2024-08-12</strong> {% endnote %}
+{% note 'anzhiyufont anzhiyu-icon-rocket' disabled %} 友链最新更新时间：<strong>2024-08-22</strong> {% endnote %}
 
 {% folding ✅加入本站友链须知 %}
 

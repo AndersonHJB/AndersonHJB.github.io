@@ -40,10 +40,17 @@
   link_list:
     - name: 陌颜Hao
       link: https://blog.imoyan.top/
-      avatar: https://bu.dusays.com/2024/03/15/65f3fd054c5db.jpg
+      avatar: /img/link/05-blog.imoyan.top.jpg
       descr: 愿永不忘初心！
       color: friends
       tag: 生活
+    - name: Naokuo
+      link: https://www.naokuo.top
+      avatar: /img/link/06-www.naokuo.top.png
+      descr: 请给我来亿碗三鲜面
+      color: friends
+      tag: 技术
+      # siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事

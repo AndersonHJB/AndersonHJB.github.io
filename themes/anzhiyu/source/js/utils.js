@@ -1455,7 +1455,7 @@ const NaoKuo = {
           第一行代码 将 location 的值保存到本地存储中，有效期为 24 小时。
           第二行代码 将 location 的值保存到本地存储中，有效期为 0.5 秒。
           */
-          saveToLocal.set('location', ipStore, 3600 * 24);
+          // saveToLocal.set('location', ipStore, 3600 * 24);
           saveToLocal.set('location', ipStore, 0.5);
           NaoKuo.showWelcome(ipStore);
         }

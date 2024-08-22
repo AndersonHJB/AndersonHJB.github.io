@@ -50,17 +50,16 @@
       descr: 请给我来亿碗三鲜面
       color: friends
       tag: 访客
-      # siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
     - name: 小旦
       link: https://satera.cn
       avatar: /img/link/07-satera.cn.png
       descr: SNTube Studio
-      # siteshot: https://bu.dusays.com/2023/09/16/65052aa7c13c9.png
+      tag: 技术
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: /img/link/08-blog.anheyu.com.jpg
       descr: 生活明朗，万物可爱
-      recommend: true
+      tag: 技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事

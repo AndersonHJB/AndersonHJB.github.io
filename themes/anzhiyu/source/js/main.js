@@ -1800,7 +1800,7 @@ document.addEventListener("DOMContentLoaded", function () {
     anzhiyu.addEventListenerConsoleMusicList(false);
     anzhiyu.initPaginationObserver();
     // 欢迎信息
-    // Bornforthis.setWelcome_info();
+    Bornforthis.setWelcome_info();
 
     setTimeout(() => {
       setInputFocusListener();

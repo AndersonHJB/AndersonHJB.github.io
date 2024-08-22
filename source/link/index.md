@@ -226,7 +226,7 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https:/
     <p>
         <label class="checkbox">
             <input type="checkbox" id="checkbox1" onclick="checkForm()">
-            我已添加 <b>陌颜小站</b> 博客的友情链接
+            我已添加 <b>AI悦创</b> 博客的友情链接
         </label>
     </p>
     <p>

@@ -24,13 +24,13 @@
       siteshot: /img/link/01-bornforthis.cn.png
       color: vip
       tag: 技术
-    - name: 安知鱼
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
-      color: vip
-      tag: 技术
+    # - name: 安知鱼
+      # link: https://blog.anheyu.com/
+      # avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      # descr: 生活明朗，万物可爱
+      # siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      # color: vip
+      # tag: 技术
     
 
 - class_name: 友谊长存
@@ -49,7 +49,7 @@
       avatar: /img/link/06-www.naokuo.top.png
       descr: 请给我来亿碗三鲜面
       color: friends
-      tag: 技术
+      tag: 访客
       # siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
 
 - class_name: 小伙伴

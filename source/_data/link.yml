@@ -51,6 +51,16 @@
       color: friends
       tag: 访客
       # siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
+    - name: 小旦
+      link: https://satera.cn
+      avatar: /img/link/07-satera.cn.png
+      descr: SNTube Studio
+      # siteshot: https://bu.dusays.com/2023/09/16/65052aa7c13c9.png
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: /img/link/08-blog.anheyu.com.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
@@ -62,11 +72,6 @@
       avatar: https://bornforthis.cn/aiyc.svg
       descr: 你身边优质的编程私教
       recommend: true
-    - name: 安知鱼
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      recommend: false
     - name: 落叶不随
       link: https://bloggersht.com.cn
       avatar: /img/link/02-bloggersht.com.cn.jpg

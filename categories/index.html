@@ -310,7 +310,9 @@ window.addEventListener('load', () => {
           const options = {
             method: "POST",
             body: JSON.stringify({
-              "event": "GET_RECENT_COMMENTS",
+              //- "event": "GET_RECENT_COMMENTS", //- 不需要指定页面，则启动此条
+              "event": "COMMENT_GET",
+              "url": "/comments/",  //- 仅限 comments 页面评论,启用："event": "COMMENT_GET",, 不需要可以直接注释掉
               "includeReply": false,
               "pageSize": 100
             }),
@@ -350,7 +352,7 @@ window.addEventListener('load', () => {
       if (typeof EasyDanmaku === 'function') {
         await naokuo_danmu();
       } else {
-        const easyDanmakuScript = await getScript('https://npm.onmicrosoft.cn/naokuo-blog@1.2.12/js/easy-Danmaku.js');
+        const easyDanmakuScript = await getScript('/static/js/easy-Danmaku.js');
         if (typeof EasyDanmaku === 'function') {
           await naokuo_danmu();
         } else {

@@ -37,6 +37,10 @@ div
   //- 随机文章
   script(async src="/anzhiyu/random.js")
 
+  //- 弹幕js
+  if theme.envelope_comment.enable && theme.envelope_comment.easy_Danmaku_js
+    != partial("includes/anzhiyu/danmu.pug", {}, { cache: true })
+
   //- 页脚计时器
   if theme.footer.runtime.enable
     != partial("includes/third-party/runtime/runtime-js.pug", {}, { cache: true })

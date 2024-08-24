@@ -8,8 +8,8 @@
         .tips 有什么想说的，都可以告诉我哦~
       .banner-button-group
         a.banner-button(onclick=`pjax.loadUrl('/about/')`)
-          i.naokuofont.naokuo-icon-circle-arrow-up-right-1(style='font-size: 1.5rem')
-          span.banner-button-text 关于本人
+          i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 22px; margin-right: 0.25rem')
+            span.banner-button-text 关于本人
   #maincontent
     #form-wrap
       img#beforeimg.no-lightbox(src=url_for(theme.envelope_comment.custom_pic.beforeimg))
@@ -61,7 +61,7 @@ if theme.envelope_comment.enable && theme.envelope_comment.easy_Danmaku_js
     div#danmu-Btn {
       display: flex;
       justify-content: center;
-      margin: var(--album-spacing-xxl) 0 0;
+      margin: 64px 0 0;
     }
     div#danmu-Btn button.hide-Btn {
       background: rgba(52,106,133,.478);
@@ -79,11 +79,12 @@ if theme.envelope_comment.enable && theme.envelope_comment.easy_Danmaku_js
       font-size: 16px;
       border-radius: 100px;
       overflow: hidden;
+      color: #eee;
     }
     .default-style a {
       background-color: var(--naokuo-danmuBg);
       transition: .3s;
-      color: #eee !important;
+      color: inherit;
       display: flex;
       align-items: center;
       justify-content: center;

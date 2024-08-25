@@ -1,19 +1,21 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  avatarImg: /img/favicon.svg
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
       - 🔍 分享与热心帮助
       - 🏠 智能家居小能手
       - 🔨 设计开发一条龙
+      - 💻 身边的编程私教
     right:
       - 专修交互与设计 🤝
       - 脚踏实地行动派 🏃
       - 团队小组发动机 🧱
       - 壮汉人狠话不多 💢
+      - 国内外学员优选 👍
   name: AI悦创
-  description: 是一名 前端工程师、私教老师、独立开发者、博主
+  description: 是一名 全栈工程师、私教老师、独立开发者、博主
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -33,11 +35,11 @@
     list:
       - desc: EDU,软件工程专业
         color: "#357ef5"
-      - desc: EDU,软件工程专业
+      - desc: Professional 1：网易第五人格游戏🎮
         color: "#357ef5"
-      - desc: EDU,软件工程专业
+      - desc: EDU,软件工程专业2
         color: "#357ef5"
-    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+    # img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
     link: /archives
     text: 文章隧道
@@ -100,53 +102,53 @@
   music:
     music_tips: 音乐偏好
     music_title: 许嵩、民谣、华语流行
-    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_bg: https://y.qq.com/music/photo_new/T001R300x300M000001frvj430X7HW_7.jpg?max_age=2592000
     music_link: /music
   reward_list:
-    - name: 海阔蓝
-      amount: 8.8
-      datatime: 2023-03-28
-    - name: LK66
-      amount: 66.6
-      datatime: 2023-03-24
-    - name: 张时貳
-      amount: 6.6
-      datatime: 2023-01-22
-    - name: ZeroAf
-      amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
-      datatime: 2022-12-14
-    - name: 刀中日月长
-      amount: 10
-      datatime: 2022-11-16
-    - name: 鹿啵包
-      amount: 10
-      datatime: 2022-11-08
-    - name: 疾速k
-      amount: 50
-      datatime: 2022-09-20
-    - name: 伴舟先生大霖子
-      amount: 4.03
-      datatime: 2022-10-27
-      suffix: 贝壳
-    - name: Magica_0x0
-      amount: 3.36
-      datatime: 2022-10-07
-      suffix: 贝壳
-    - name: 名字就是要短像这样
-      amount: 3.36
-      datatime: 2022-08-25
-      suffix: 贝壳
-    - name: Leviathan520
-      amount: 1.34
-      datatime: 2022-08-23
-      suffix: 贝壳
-    - name: 托马斯
-      amount: 10
-      datatime: 2022-08-19
-    - name: 哇是猫猫欸
-      amount: 1.34
-      datatime: 2022-08-19
-      suffix: 贝壳
+    - name: AI悦创
+      amount: 900000
+      datatime: 2024-08-25
+    # - name: LK66
+    #   amount: 66.6
+    #   datatime: 2023-03-24
+    # - name: 张时貳
+    #   amount: 6.6
+    #   datatime: 2023-01-22
+    # - name: ZeroAf
+    #   amount: 9.9
+    #   datatime: 2022-12-14
+    # - name: LuckyWangXi
+    #   amount: 6.6
+    #   datatime: 2022-12-14
+    # - name: 刀中日月长
+    #   amount: 10
+    #   datatime: 2022-11-16
+    # - name: 鹿啵包
+    #   amount: 10
+    #   datatime: 2022-11-08
+    # - name: 疾速k
+    #   amount: 50
+    #   datatime: 2022-09-20
+    # - name: 伴舟先生大霖子
+    #   amount: 4.03
+    #   datatime: 2022-10-27
+    #   suffix: 贝壳
+    # - name: Magica_0x0
+    #   amount: 3.36
+    #   datatime: 2022-10-07
+    #   suffix: 贝壳
+    # - name: 名字就是要短像这样
+    #   amount: 3.36
+    #   datatime: 2022-08-25
+    #   suffix: 贝壳
+    # - name: Leviathan520
+    #   amount: 1.34
+    #   datatime: 2022-08-23
+    #   suffix: 贝壳
+    # - name: 托马斯
+    #   amount: 10
+    #   datatime: 2022-08-19
+    # - name: 哇是猫猫欸
+    #   amount: 1.34
+    #   datatime: 2022-08-19
+    #   suffix: 贝壳

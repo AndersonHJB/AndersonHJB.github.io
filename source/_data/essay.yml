@@ -33,5 +33,6 @@
     - content: 「歌曲推荐」最近喜欢上这首歌曲了
       date: 2024/06/25
       aplayer:
-        server: tencent
-        id: 000szL402DHU2m
+        # server: tencent
+        server: netease
+        id: 1862592546

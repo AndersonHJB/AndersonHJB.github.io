@@ -328,8 +328,8 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  # use: Twikoo,Waline
-  use: Twikoo
+  use: Twikoo,Waline
+  # use: Twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -364,13 +364,23 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://comment.bornforthis.cn/ # Waline server address url
   bg: # waline background
-  pageview: false
+  pageview: true
   meta: true # 归属地, 操作系统 前是否显示图标
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
+    copyright: false
+    reaction: [
+        'https://bornforthis.cn/Waline/tieba/tieba_agree.png',
+        'https://bornforthis.cn/Waline/tieba/tieba_sunglasses.png',
+        'https://bornforthis.cn/Waline/tieba/tieba_pick_nose.png',
+        'https://bornforthis.cn/Waline/tieba/tieba_awkward.png',
+        'https://bornforthis.cn/Waline/tieba/1f613.png',
+        'https://bornforthis.cn/Waline/tieba/1f60f.png',
+      ]
+    pageview: true
 
 # Twikoo
 # https://github.com/imaegoo/twikoo

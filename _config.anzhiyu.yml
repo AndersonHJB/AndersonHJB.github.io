@@ -1371,8 +1371,8 @@ CDN:
     # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
+    # aplayer_css: /static/js/APlayer.min.css
+    # aplayer_js: /static/js/APlayer.min.js
     # meting_js:
     # meting_api:
     # prismjs_js:

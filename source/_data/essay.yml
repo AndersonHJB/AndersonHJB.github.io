@@ -8,9 +8,12 @@
   top_background: /img/essay/essay-bg.webp
   essay_list:
     - content: 给博客添加全屏弹幕
-      date: 2024/08/21
+      date: 2024/08/22
       from: AI悦创
       link: https://bornforthis.cn/blog/hexo/09-Message-board-page-added-a-full-screen-barrage.html
+    - content: 朋友圈终于修复了～😭
+      date: 2024/08/21
+      link: /fcircle/
     - content: 网站添加歌曲播放页面
       date: 2024/08/20 10:00:00
       image:
@@ -27,24 +30,6 @@
       address: 厦门
       from: AI悦创
       link: https://www.bilibili.com/video/BV1i8411j7cf/
-    - content: 朋友圈船新版本终于写完了, 耶✌️
-      date: 2022/11/05
-      link: https://blog.anheyu.com/album/
-    - content: 终于把相册集搞定了, 耶✌️, 瀑布流在滑动滚动条一个视口范围上下100的情况执行一次, 到底部停止监听让性能高了好多，再也不会布局混乱🤪了
-      date: 2022/10/25
-      link: https://blog.anheyu.com/album/
-    # - content: 遇见彩虹🌈吃定彩虹
-    #   date: 2022/10/23 10:00:00
-    #   image:
-    #     - https://bu.dusays.com/2023/04/09/64329399e285d.webp
-    #     - https://bu.dusays.com/2023/04/09/64329399aa3bc.webp
-    #     - https://bu.dusays.com/2023/04/09/6432939996dd7.webp
-    # - content: ThreeJs API真多丫
-    #   date: 2022/10/19
-    # - content: 妹妹强制要求我买走了她的两幅画 -¥30
-    #   date: 2022/10/02
-    #   image:
-    #     - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
     - content: 「歌曲推荐」最近喜欢上这首歌曲了
       date: 2024/06/25
       aplayer:

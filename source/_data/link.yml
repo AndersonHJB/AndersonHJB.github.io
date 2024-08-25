@@ -60,6 +60,11 @@
       avatar: /img/link/08-blog.anheyu.com.jpg
       descr: 生活明朗，万物可爱
       tag: 技术
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: /img/link/09-blog.leonus.cn.jpeg
+      descr: 进一寸有进一寸的欢喜。
+      tag: 技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事

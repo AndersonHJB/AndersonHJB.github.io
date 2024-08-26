@@ -70,6 +70,11 @@
       avatar: /img/link/10-blog.bsgun.cn.png
       descr: 但愿日子清静抬头遇见的满是柔情
       tag: 技术
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      # siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
+      avatar: /img/link/11-akilar.top.jpg
+      descr: 欢迎光临糖果屋
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事

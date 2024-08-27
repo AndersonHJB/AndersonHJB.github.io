@@ -31,6 +31,11 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: AI悦创
+      link: https://bornforthis.cn
+      avatar: https://bornforthis.cn/aiyc.svg
+      descr: 你身边优质的编程私教
+      recommend: true
     - name: 陌颜Hao
       link: https://blog.imoyan.top/
       avatar: /img/link/05-blog.imoyan.top.jpg
@@ -79,11 +84,6 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
-    - name: AI悦创
-      link: https://bornforthis.cn
-      avatar: https://bornforthis.cn/aiyc.svg
-      descr: 你身边优质的编程私教
-      recommend: true
     - name: 落叶不随
       link: https://bloggersht.com.cn
       avatar: /img/link/02-bloggersht.com.cn.jpg

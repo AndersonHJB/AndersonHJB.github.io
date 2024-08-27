@@ -40,3 +40,14 @@
         # server: tencent
         server: netease
         id: 1862592546
+    - content: 「歌曲推荐」是你，我们结婚用的歌曲🎵
+      date: 2024/05/02
+      aplayer:
+        # server: tencent
+        server: netease
+        id: 2050391293
+    # - content: 如果月亮没来
+    #   date: 2024/06/24 15:00:00
+    #   aplayer:
+    #     server: tencent
+    #     id: 003ORRcp0lY7Ue

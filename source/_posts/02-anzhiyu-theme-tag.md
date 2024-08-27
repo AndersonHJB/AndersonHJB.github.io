@@ -457,11 +457,11 @@ Demo 4 - 自定义 Tab 名 + 只有 icon + icon 和 Tab 名
 1. 如果需要显示类似「团队成员」之类的一组含有头像的链接：
 
 {% btns circle grid5 %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell bornforthis, https://bornforthis.cn, https://bornforthis.cn/aiyc.svg %}
+{% cell bornforthis, https://bornforthis.cn, https://bornforthis.cn/aiyc.svg %}
+{% cell bornforthis, https://bornforthis.cn, https://bornforthis.cn/aiyc.svg %}
+{% cell bornforthis, https://bornforthis.cn, https://bornforthis.cn/aiyc.svg %}
+{% cell bornforthis, https://bornforthis.cn, https://bornforthis.cn/aiyc.svg %}
 {% endbtns %}
 
 2. 或者含有图标的按钮：
@@ -1136,7 +1136,7 @@ xxxxxx
       link: https://twitter.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
-{% endflink %}
+      {% endflink %}
 
 <!-- endtab -->
 

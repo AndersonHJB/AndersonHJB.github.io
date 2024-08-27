@@ -36,17 +36,7 @@ ai:
 
 {% tabs p,3 %}
 
-<!-- tab 标签语法 -->
-
-```markdown
-{% p 样式参数(参数以空格划分), 文本内容 %}
-```
-
-<!-- endtab -->
-
-
-
-# Page Front-matter
+<!-- tab Page Front-matter -->
 
 | 写法                  | 解释                                                         |
 | :-------------------- | :----------------------------------------------------------- |
@@ -64,6 +54,36 @@ ai:
 | aplayer               | 【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置 |
 | highlight_shrink      | 【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置) |
 | top_single_background | 【可选】部分页面的顶部模块背景图片                           |
+
+<!-- endtab -->
+
+<!-- tab 标签语法 -->
+
+
+
+<!-- endtab -->
+
+<!-- tab 标签语法 -->
+
+
+
+<!-- endtab -->
+
+<!-- tab 标签语法 -->
+
+
+
+<!-- endtab -->
+
+<!-- tab 标签语法 -->
+
+
+
+<!-- endtab -->
+
+{% endtabs%}
+
+
 
 # Post Front-matter
 

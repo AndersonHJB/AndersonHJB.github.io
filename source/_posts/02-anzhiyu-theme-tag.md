@@ -22,10 +22,12 @@ ai:
 ---
 
 {% note blue 'anzhiyufont anzhiyu-icon-bullhorn' simple %}
+
 `AnZhiYu主题`中大部分标签移植于[店长](https://akilar.top/)的[hexo-butterfly-tag-plugins-plus](https://www.npmjs.com/package/hexo-butterfly-tag-plugins-plus)，转载请注明来自[安知鱼](https://blog.anheyu.com/posts/d50a.html)
+
 {% endnote %}
 
-## 段落文本 p
+## 1. 段落文本 p
 
 {% tabs p,3 %}
 
@@ -36,6 +38,7 @@ ai:
 ```
 
 <!-- endtab -->
+
 <!-- tab 配置参数 -->
 
 1. 字体: logo, code

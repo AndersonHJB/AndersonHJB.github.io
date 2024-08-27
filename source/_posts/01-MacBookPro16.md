@@ -49,4 +49,3 @@ categories: 好物推荐
 
 ![](01-MacBookPro16/image.png)
 
-![](./01-MacBookPro16.assets/image-20240816225409655.png)

@@ -8,9 +8,9 @@
       descr: 快速、简单且强大的网站框架
     - name: anzhiyu主题  
       link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      avatar: /img/link/13-2-blog.anheyu.com.jpg
       descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      siteshot: /img/link/13-blog.anheyu.com.jpg
 
 - class_name: 推荐博客
   class_desc: 优质博主

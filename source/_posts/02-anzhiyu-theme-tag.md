@@ -727,19 +727,19 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 
 4. 添加描述：
 
-{% image https://bu.dusays.com/2023/06/01/6478937d7de6f.webp, alt=每天下课回宿舍的路，没有什么故事。 %}
+{% image https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478937d7de6f.webp, alt=每天下课回宿舍的路，没有什么故事。 %}  
 
 2. 指定宽度：
 
-{% image https://bu.dusays.com/2023/06/01/6478937d7de6f.webp, width=400px %}
+{% image https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478937d7de6f.webp, width=400px %}
 
 3. 指定宽度并添加描述：
 
-{% image https://bu.dusays.com/2023/06/01/6478937d7de6f.webp, width=400px, alt=每天下课回宿舍的路，没有什么故事。 %}
+{% image https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478937d7de6f.webp, width=400px, alt=每天下课回宿舍的路，没有什么故事。 %}
 
 4. 设置占位背景色：
 
-{% image https://bu.dusays.com/2023/06/01/6478937d7de6f.webp, width=400px, bg=#1D0C04, alt=优化不同宽度浏览的观感 %}
+{% image https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478937d7de6f.webp, width=400px, bg=#1D0C04, alt=优化不同宽度浏览的观感 %}
 
 <!-- endtab -->
 <!-- tab 示例源码 -->

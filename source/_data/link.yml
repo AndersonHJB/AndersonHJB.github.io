@@ -83,6 +83,21 @@
       avatar: /img/link/12-mnchen.cn.jpg
       descr: 虽多尘色染，犹见墨痕浓
       tag: 技术
+    - name: 铭心石刻
+      link: https://blog.kouseki.cn/
+      avatar: /img/link/15-blog.kouseki.cn.webp
+      descr: 愿岁并谢，与友长兮
+      tag: 技术
+    - name: 煮雪话河山`Blog
+      link: https://blog.cent1pedee.top/
+      avatar: /img/link/16-blog.cent1pedee.top.jpg
+      descr: 如月之恒，如日之升。
+      tag: 技术
+    - name: 张时贰
+      link: https://zhsher.cn
+      avatar: /img/link/17-zhsher.cn.jpeg
+      descr: 环转码，爱敲代码的小张！
+      tag: 技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

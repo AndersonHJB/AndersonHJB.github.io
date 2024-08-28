@@ -798,9 +798,9 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 
 你看我长得漂亮不
 
-![](https://bu.dusays.com/2023/06/01/64787ded2ca1c.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787ded2ca1c.webp)
 
-我觉得很漂亮 {% inlineImg https://bu.dusays.com/2023/06/01/64787da5251b3.png 150px %}
+我觉得很漂亮 {% inlineImg https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787da5251b3.png 150px %}
 
 <!-- endtab -->
 
@@ -809,7 +809,7 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 ```
 你看我长得漂亮不
 
-![](https://i.loli.net/2021/03/19/2P6ivUGsdaEXSFI.png)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/2P6ivUGsdaEXSFI.png)
 
 我觉得很漂亮 {% inlineImg https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png 150px %}
 ```

@@ -688,7 +688,7 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 {% sitegroup %}
 {% site xaoxuu, url=https://xaoxuu.com, screenshot=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478965ce6557.webp, avatar=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/avatar.png, description=简约风格 %}
 {% site Colsrch, url=https://colsrch.top, screenshot=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/dFRWXm52OVu8qfK.png, avatar=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/avatar.jpg, description=这是一段关于这个网站的描述文字 %}
-{% site Linhk1606, url=https://linhk1606.github.io, screenshot=https://bu.dusays.com/2023/06/01/6478963584621.png, avatar=https://bu.dusays.com/2023/06/01/6478968743368.png, description=这是一段关于这个网站的描述文字 %}
+{% site Linhk1606, url=https://linhk1606.github.io, screenshot=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478963584621.png, avatar=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478968743368.png, description=这是一段关于这个网站的描述文字 %}
 {% endsitegroup %}
 
 <!-- endtab -->

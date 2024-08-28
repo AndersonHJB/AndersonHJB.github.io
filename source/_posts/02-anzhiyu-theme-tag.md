@@ -1507,15 +1507,15 @@ markdown 图片格式
     "title": "这是title"
   },
   {
-    "url": "https://cdn1.tianli0.top/gh/jerryc127/CDN/img/IMG_0472.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0472.jpg",
     "alt": "IMG_0472.jpg"
   },
   {
-    "url": "https://cdn1.tianli0.top/gh/jerryc127/CDN/img/IMG_0453.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0453.jpg",
     "alt": ""
   },
   {
-    "url": "https://cdn1.tianli0.top/gh/jerryc127/CDN/img/IMG_0931.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0931.jpg",
     "alt": ""
   }
 ]

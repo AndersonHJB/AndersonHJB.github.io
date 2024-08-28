@@ -1299,7 +1299,7 @@ pie
 
 获取`userId`与`vcode`
 
-![](https://bu.dusays.com/2023/06/01/64788b5bad729.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788b5bad729.webp)
 
 | 参数  | 含义                                                                        |
 | :---- | :-------------------------------------------------------------------------- |
@@ -1309,7 +1309,7 @@ pie
 <!-- endtab -->
 <!-- tab 样式预览 -->
 
-![](https://bu.dusays.com/2023/06/01/64788c12883b8.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788c12883b8.webp)
 
 <!-- endtab -->
 

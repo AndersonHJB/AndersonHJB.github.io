@@ -151,7 +151,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url(/img/3Z2A5708.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
+index_img: "background: url() top / cover no-repeat" # "background: url() top / cover no-repeat"
 # index_img: "background: url(/img/3Z2A5708.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
 # index_img: "background: url(https://bornforthis.cn/img_home/079A23792.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
 # archive_img: false
@@ -548,7 +548,7 @@ footer:
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -563,10 +563,11 @@ footer:
       # source: 2  调用一句网（简体） http://yijuzhan.com/
       # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
       # subtitle 会先显示 source , 再显示 sub 的内容
-      source: 1
+      source: false
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
         # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        - 来这世上,时间稍纵即逝,我想留下意义！
 
 # Analysis
 # --------------------------------------
@@ -714,7 +715,7 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: false #  open shake (抖动特效)
   mobile: false
@@ -775,7 +776,7 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度参数)
@@ -790,10 +791,10 @@ subtitle:
   # source: 2  调用一句网（简体） http://yijuzhan.com/
   # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
   # subtitle 会先显示 source , 再显示 sub 的内容
-  source: 1
+  source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+    - 来这世上，时间稍纵即逝，我想留下意义！
 
 # Loading Animation (加载动画)
 preloader:

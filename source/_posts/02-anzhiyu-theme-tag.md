@@ -1335,7 +1335,7 @@ pie
 
 ```markdown
 {% folding 参数（可选）, 标题 %}
-![](https://bu.dusays.com/2023/06/01/64788d71c832d.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788d71c832d.webp)
 {% endfolding %}
 ```
 
@@ -1349,7 +1349,7 @@ pie
 
 {% folding 查看图片测试 %}
 
-![](https://bu.dusays.com/2023/06/01/64788d71c832d.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788d71c832d.webp)
 
 {% endfolding %}
 
@@ -1362,7 +1362,7 @@ pie
 {% folding green, 查看代码测试 %}
 
 ```markdown
-![](https://bu.dusays.com/2023/06/01/64788d71c832d.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788d71c832d.webp)
 ```
 
 {% endfolding %}
@@ -1380,7 +1380,7 @@ pie
 
 {% folding 查看嵌套测试3 %}
 
-hahaha <span><img src='https://bu.dusays.com/2023/06/01/64788cd5a356b.png' style='height:24px'></span>
+hahaha <span><img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788cd5a356b.png' style='height:24px'></span>
 
 {% endfolding %}
 
@@ -1394,7 +1394,7 @@ hahaha <span><img src='https://bu.dusays.com/2023/06/01/64788cd5a356b.png' style
 ```markdown
 {% folding 查看图片测试 %}
 
-![](https://bu.dusays.com/2023/06/01/64788d71c832d.webp)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788d71c832d.webp)
 
 {% endfolding %}
 
@@ -1421,7 +1421,7 @@ hahaha <span><img src='https://bu.dusays.com/2023/06/01/64788cd5a356b.png' style
 
 {% folding 查看嵌套测试3 %}
 
-hahaha <span><img src='https://bu.dusays.com/2023/06/01/64788cd5a356b.png' style='height:24px'></span>
+hahaha <span><img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788cd5a356b.png' style='height:24px'></span>
 
 {% endfolding %}
 
@@ -1502,7 +1502,7 @@ markdown 图片格式
 ```json
 [
   {
-    "url": "https://cdn1.tianli0.top/gh/jerryc127/CDN/img/IMG_0556.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0556.jpg",
     "alt": "IMG_0556.jpg",
     "title": "这是title"
   },

@@ -686,8 +686,8 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 <!-- tab 样式预览 -->
 
 {% sitegroup %}
-{% site xaoxuu, url=https://xaoxuu.com, screenshot=https://bu.dusays.com/2023/06/01/6478965ce6557.webp, avatar=https://cdn1.tianli0.top/gh/xaoxuu/cdn-assets/avatar/avatar.png, description=简约风格 %}
-{% site Colsrch, url=https://colsrch.top, screenshot=https://i.loli.net/2020/08/22/dFRWXm52OVu8qfK.png, avatar=https://cdn1.tianli0.top/gh/Colsrch/images/Colsrch/avatar.jpg, description=这是一段关于这个网站的描述文字 %}
+{% site xaoxuu, url=https://xaoxuu.com, screenshot=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478965ce6557.webp, avatar=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/avatar.png, description=简约风格 %}
+{% site Colsrch, url=https://colsrch.top, screenshot=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/dFRWXm52OVu8qfK.png, avatar=https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/avatar.jpg, description=这是一段关于这个网站的描述文字 %}
 {% site Linhk1606, url=https://linhk1606.github.io, screenshot=https://bu.dusays.com/2023/06/01/6478963584621.png, avatar=https://bu.dusays.com/2023/06/01/6478968743368.png, description=这是一段关于这个网站的描述文字 %}
 {% endsitegroup %}
 

@@ -1116,7 +1116,7 @@ xxxxxx
   link_list:
     - name: 安知鱼
       link: https://anheyu.com/
-      avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anheyu.com.jpg
 
@@ -1126,15 +1126,15 @@ xxxxxx
   link_list:
     - name: Youtube
       link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/9ZkGg8v3azHJfM1.png
       descr: 视频网站
     - name: Weibo
       link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/TLJBum386vcnI1P.png
       descr: 中国最大社交分享平台
     - name: Twitter
       link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
       {% endflink %}
 

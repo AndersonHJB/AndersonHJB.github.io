@@ -478,13 +478,13 @@ Demo 4 - 自定义 Tab 名 + 只有 icon + icon 和 Tab 名
 <i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
 <b>心率管家</b>
 {% p red, 专业版 %}
-<img src='02-anzhiyu-theme-tag/heartmate_pro.png'>
+<img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/heartmate_lite.png'>
 </a>
 <a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1' class="no-text-decoration">
 <i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
 <b>心率管家</b>
 {% p green, 免费版 %}
-<img src='https://cdn1.tianli0.top/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png'>
+<img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/heartmate_lite.png'>
 </a>
 {% endbtns %}
 
@@ -520,13 +520,13 @@ Demo 4 - 自定义 Tab 名 + 只有 icon + icon 和 Tab 名
 <i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
 <b>心率管家</b>
 {% p red, 专业版 %}
-<img src='https://bu.dusays.com/2023/06/01/64787e2a1347c.png'>
+<img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/heartmate_lite.png'>
 </a>
 <a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1' class="no-text-decoration">
 <i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
 <b>心率管家</b>
 {% p green, 免费版 %}
-<img src='https://bu.dusays.com/2023/06/01/64787e515e261.png'>
+<img src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/heartmate_lite.png'>
 </a>
 {% endbtns %}
 ```

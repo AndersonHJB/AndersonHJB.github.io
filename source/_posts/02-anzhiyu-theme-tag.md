@@ -811,7 +811,7 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 
 ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/2P6ivUGsdaEXSFI.png)
 
-我觉得很漂亮 {% inlineImg https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png 150px %}
+我觉得很漂亮 {% inlineImg https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/5M4jUB3ynq7ePgw.png 150px %}
 ```
 
 <!-- endtab -->
@@ -838,15 +838,15 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 
 这是 {% inlineimage https://bu.dusays.com/2023/06/01/647895232e5d5.webp %} 一段话。
 
-这又是 {% inlineimage https://bu.dusays.com/2022/05/19/6285328a83ca7.gif, height=40px %} 一段话。
+这又是 {% inlineimage https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6285328a83ca7.gif, height=40px %} 一段话。
 
 <!-- endtab -->
 <!-- tab 示例源码 -->
 
 ```markdown
-这是 {% inlineimage https://bu.dusays.com/2023/06/01/647895232e5d5.webp %} 一段话。
+这是 {% inlineimage https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647895232e5d5.webp %} 一段话。
 
-这又是 {% inlineimage https://bu.dusays.com/2022/05/19/6285328a83ca7.gif, height=40px %} 一段话。
+这又是 {% inlineimage https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6285328a83ca7.gif, height=40px %} 一段话。
 ```
 
 <!-- endtab -->

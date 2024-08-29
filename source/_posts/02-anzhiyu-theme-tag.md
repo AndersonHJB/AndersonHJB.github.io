@@ -1649,7 +1649,7 @@ markdown 图片格式
 - gallerygroup 相册图库
 
 <div class="gallery-group-main">
-{% galleryGroup MC 在Rikkaの六花服务器里留下的足迹 '/wordScenery/' https://bu.dusays.com/2023/06/01/64788f24d05bd.webp %}
+{% galleryGroup MC 在Rikkaの六花服务器里留下的足迹 '/wordScenery/' https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788f24d05bd.webp %}
 {% galleryGroup Gundam 哦咧哇gundam哒！ '/thousand/' https://bu.dusays.com/2023/06/01/64788f456fc3d.webp %}
 {% galleryGroup I-am-Akilar 某种意义上也算自拍吧 '/wallpaper/' https://bu.dusays.com/2023/06/01/64788f83e5fa1.webp %}
 </div>

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>04-Monograph-flow</title>
+      <link href="/posts/cf45a15f.html"/>
+      <url>/posts/cf45a15f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-效果预览"><a href="#1-效果预览" class="headerlink" title="1. 效果预览"></a>1. 效果预览</h1><ul><li><a href="https://blog.bornforthis.cn/">https://blog.bornforthis.cn/</a></li></ul><h2 id="2-代码实现"><a href="#2-代码实现" class="headerlink" title="2. 代码实现"></a>2. 代码实现</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo 网站相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 网站魔改教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网站文章编写笔记</title>
       <link href="/posts/0.html"/>
       <url>/posts/0.html</url>
@@ -13,7 +40,7 @@
       
       <categories>
           
-          <category> 网站相关 </category>
+          <category> hexo 网站相关 </category>
           
       </categories>
       

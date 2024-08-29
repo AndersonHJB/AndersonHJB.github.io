@@ -458,9 +458,9 @@ footer:
       - link: https://bornforthis.cn
         shields: /img/footer/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用 AnZhiYu 主题
-      - link: https://www.dogecloud.com/?iuid=10613
-        shields: /img/footer/CDN-多吉云-3693F3.svg
-        message: 本站使用多吉云为静态资源提供CDN加速
+      # - link: https://www.dogecloud.com/?iuid=10613
+      #   shields: /img/footer/CDN-多吉云-3693F3.svg
+      #   message: 本站使用多吉云为静态资源提供CDN加速
       - link: https://github.com/
         shields: /img/footer/Source-Github.svg
         message: 本站项目由 Github 托管

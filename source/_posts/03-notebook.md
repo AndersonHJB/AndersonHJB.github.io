@@ -34,6 +34,10 @@ ai:
   - "这篇文章介绍了 AI悦创研究学习本博客网站文章编写的笔记～"
 ---
 
+# 1. 常用网站
+
+- [网站页面截图](https://www.thum.io/)
+
 {% tabs p,3 %}
 
 <!-- tab Page Front-matter -->

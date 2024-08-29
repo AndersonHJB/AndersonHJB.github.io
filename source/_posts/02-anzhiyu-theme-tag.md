@@ -1502,12 +1502,12 @@ markdown 图片格式
 ```json
 [
   {
-    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0556.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0556.webp",
     "alt": "IMG_0556.jpg",
     "title": "这是title"
   },
   {
-    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0472.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0472.webp",
     "alt": "IMG_0472.jpg"
   },
   {
@@ -1515,7 +1515,7 @@ markdown 图片格式
     "alt": ""
   },
   {
-    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0931.jpg",
+    "url": "https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0931.webp",
     "alt": ""
   }
 ]

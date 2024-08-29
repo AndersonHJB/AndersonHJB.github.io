@@ -455,7 +455,7 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: /img/footer/Frame-Hexo.svg #徽标API
         message: 博客框架为 Hexo_v7.3.0 #徽标提示语
-      - link: https://bornforthis.cn
+      - link: https://github.com/AndersonHJB/AndersonHJB.github.io
         shields: /img/footer/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用 AnZhiYu 主题
       # - link: https://www.dogecloud.com/?iuid=10613

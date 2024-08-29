@@ -6,7 +6,7 @@ tags:
     - 笔记
     - 网站文章编写
 categories:
-    - 网站相关
+    - hexo 网站相关
 keywords: 
     - hexo
 description: "本篇是我研究安知鱼主题编写文章的方法。"

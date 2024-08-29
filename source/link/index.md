@@ -15,6 +15,7 @@ aside: false
   link: https://blog.bornforthis.cn
   avatar: https://bornforthis.cn/aiyc.svg
   descr: AI悦创·创造不同～
+  siteshot: https://blog.bornforthis.cn/img/link/00-blog.bornforthis.cn.png
 ```
 
 <!-- endtab -->

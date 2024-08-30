@@ -2364,13 +2364,13 @@ Any content (support inline tags too.io).
 
 <!-- tab 样式预览 -->
 
-{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
+{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
 
 <!-- endtab -->
 <!-- tab 示例源码 -->
 
 ```markdown
-{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
+{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
 ```
 
 <!-- endtab -->
@@ -2412,17 +2412,17 @@ Any content (support inline tags too.io).
 1. 100%宽度
 
 ```markdown
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
 ```
 
 2. 50%宽度
 
 ```markdown
 {% videos, 2 %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
 {% endvideos %}
 ```
 
@@ -2430,14 +2430,14 @@ Any content (support inline tags too.io).
 
 ```markdown
 {% videos, 4 %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-{% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
+{% video https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov %}
 {% endvideos %}
 ```
 

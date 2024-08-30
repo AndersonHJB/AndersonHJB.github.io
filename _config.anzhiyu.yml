@@ -14,6 +14,7 @@ menu:
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
+    统计集: /charts/ || anzhiyu-icon-chart-line
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -1308,6 +1309,7 @@ inject:
     # 自定义js
     # - <script src="/static/js/welcome.js"></script>
     - <script async data-pjax src="/static/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

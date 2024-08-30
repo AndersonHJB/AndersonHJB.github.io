@@ -2364,13 +2364,13 @@ Any content (support inline tags too.io).
 
 <!-- tab 样式预览 -->
 
-{% audio https://npm.elemecdn.com/anzhiyu-music@1.0.4/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
+{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
 
 <!-- endtab -->
 <!-- tab 示例源码 -->
 
 ```markdown
-{% audio https://npm.elemecdn.com/anzhiyu-music@1.0.4/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
+{% audio https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/%E9%9D%92%E8%8A%B1%E7%93%B7/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3 %}
 ```
 
 <!-- endtab -->
@@ -2396,15 +2396,15 @@ Any content (support inline tags too.io).
    <!-- tab 样式预览 -->
 3. 100%宽度
 
-![100%宽度](https://bu.dusays.com/2023/06/01/6478a1eeb1386.png)
+![100%宽度](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478a1eeb1386.png)
 
 2. 50%宽度
 
-![50%宽度](https://bu.dusays.com/2023/06/01/6478a20a5f242.png)
+![50%宽度](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478a20a5f242.png)
 
 3. 25%宽度
 
-![25%宽度](https://bu.dusays.com/2023/06/01/6478a22b26088.png)
+![25%宽度](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6478a22b26088.png)
 
 <!-- endtab -->
 <!-- tab 示例源码 -->

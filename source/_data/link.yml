@@ -108,6 +108,11 @@
       avatar: /img/link/19-blog.elykia.cn.gif
       descr: 致以无暇之人
       tag: 技术
+    - name: 清羽飞扬
+      link: https://blog.liushen.fun/
+      avatar: /img/link/20-blog.liushen.fun.ico
+      descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      tag: 生活
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

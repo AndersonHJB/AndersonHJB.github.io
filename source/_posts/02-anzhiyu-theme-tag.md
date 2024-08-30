@@ -1118,7 +1118,7 @@ xxxxxx
       link: https://anheyu.com/
       avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anheyu.com.jpg
+      siteshot: https://blog.bornforthis.cn/img/link/13-blog.anheyu.com.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -1152,7 +1152,7 @@ xxxxxx
       link: https://anheyu.com/
       avatar: https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anheyu.com.jpg
+      siteshot: https://blog.bornforthis.cn/img/link/13-blog.anheyu.com.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -1681,9 +1681,9 @@ markdown 图片格式
 
    ```markdown
    <div class="gallery-group-main">
-    {% galleryGroup MC 在Rikkaの六花服务器里留下的足迹 '/wordScenery/' https://bu.dusays.com/2023/06/01/64788f24d05bd.webp %}
-    {% galleryGroup Gundam 哦咧哇gundam哒！ '/thousand/' https://bu.dusays.com/2023/06/01/64788f456fc3d.webp %}
-    {% galleryGroup I-am-Akilar 某种意义上也算自拍吧 '/wallpaper/' https://bu.dusays.com/2023/06/01/64788f83e5fa1.webp %}
+    {% galleryGroup MC 在Rikkaの六花服务器里留下的足迹 '/wordScenery/' https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788f24d05bd.webp %}
+    {% galleryGroup Gundam 哦咧哇gundam哒！ '/thousand/' https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788f456fc3d.webp %}
+    {% galleryGroup I-am-Akilar 某种意义上也算自拍吧 '/wallpaper/' https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64788f83e5fa1.webp %}
    </div>
    ```
 
@@ -1691,9 +1691,9 @@ markdown 图片格式
 
    ```markdown
    {% gallery true,,2 %}
-   ![](https://bu.dusays.com/2023/06/01/647896b15759c.jpg)
-   ![](https://bu.dusays.com/2023/06/01/647896cabde59.jpg)
-   ![](https://bu.dusays.com/2023/06/01/647896eb0f3ea.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896b15759c.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896cabde59.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896eb0f3ea.jpg)
    ![](https://bu.dusays.com/2023/06/01/647890012b1ec.webp)
    ![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
    ![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)

@@ -495,11 +495,11 @@ Demo 4 - 自定义 Tab 名 + 只有 icon + icon 和 Tab 名
 
 ```markdown
 {% btns circle grid5 %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/64787e6a5816d.png %}
 {% endbtns %}
 ```
 
@@ -836,7 +836,7 @@ This is my website, click the button {% btn 'https://anheyu.com/',AnZhiYu,anzhiy
 <!-- endtab -->
 <!-- tab 样式预览 -->
 
-这是 {% inlineimage https://bu.dusays.com/2023/06/01/647895232e5d5.webp %} 一段话。
+这是 {% inlineimage https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647895232e5d5.webp %} 一段话。
 
 这又是 {% inlineimage https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6285328a83ca7.gif, height=40px %} 一段话。
 
@@ -1211,7 +1211,7 @@ mermaid:
 
 <!-- tab 样式预览 -->
 
-![mermaid](https://bu.dusays.com/2023/06/01/647889d3a16f8.png)
+![mermaid](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647889d3a16f8.png)
 
 <!-- endtab -->
 
@@ -1657,14 +1657,14 @@ markdown 图片格式
 - gallery 相册
 
 {% gallery true,,2 %}
-![](https://bu.dusays.com/2023/06/01/647896b15759c.jpg)
-![](https://bu.dusays.com/2023/06/01/647896cabde59.jpg)
-![](https://bu.dusays.com/2023/06/01/647896eb0f3ea.jpg)
-![](https://bu.dusays.com/2023/06/01/647896ed810b3.jpg)
-![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
-![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)
-![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
-![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896b15759c.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896cabde59.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896eb0f3ea.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896ed810b3.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6nepIJ1xTgufatZ.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/E7Jvr4eIPwUNmzq.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/mh19anwBSWIkGlH.jpg)
+![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/2tu9JC8ewpBFagv.jpg)
 {% endgallery %}
 
 <!-- endtab -->

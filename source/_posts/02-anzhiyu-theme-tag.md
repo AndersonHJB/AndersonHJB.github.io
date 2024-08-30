@@ -1694,11 +1694,11 @@ markdown 图片格式
    ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896b15759c.jpg)
    ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896cabde59.jpg)
    ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647896eb0f3ea.jpg)
-   ![](https://bu.dusays.com/2023/06/01/647890012b1ec.webp)
-   ![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
-   ![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)
-   ![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
-   ![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/647890012b1ec.webp)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/6nepIJ1xTgufatZ.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/E7Jvr4eIPwUNmzq.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/mh19anwBSWIkGlH.jpg)
+   ![](https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/2tu9JC8ewpBFagv.jpg)
    {% endgallery %}
    ```
 

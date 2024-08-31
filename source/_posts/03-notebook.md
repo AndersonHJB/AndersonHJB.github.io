@@ -38,6 +38,20 @@ ai:
 
 - [网站页面截图](https://www.thum.io/)
 
+## 2. 常用代码
+
+### 2.1 个人站点卡片
+
+```markdown
+{% sitegroup %}
+
+{% site AI悦创·博客, url=https://blog.bornforthis.cn/, screenshot=https://blog.bornforthis.cn/img/link/00-blog.bornforthis.cn.png, avatar=https://bornforthis.cn/aiyc.svg, description=AI悦创·创造不同～ %}
+
+{% endsitegroup %}
+```
+
+
+
 {% tabs p,3 %}
 
 <!-- tab Page Front-matter -->

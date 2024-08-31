@@ -32,9 +32,13 @@ aside:
 
 # 1. 效果预览
 
-{% site AI悦创·博客, url=https://blog.bornforthis.cn/, screenshot=截图链接, avatar=头像链接（可选）, description=描述（可选） %}
+{% sitegroup %}
 
-- [https://blog.bornforthis.cn/](https://blog.bornforthis.cn/)
+{% site AI悦创·博客, url=https://blog.bornforthis.cn/, screenshot=https://blog.bornforthis.cn/img/link/00-blog.bornforthis.cn.png, avatar=https://bornforthis.cn/aiyc.svg, description=AI悦创·创造不同～ %}
+
+{% endsitegroup %}
+
+
 
 ## 2. 代码实现
 

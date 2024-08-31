@@ -543,7 +543,7 @@ footer:
       enable: true
       link: /copyright
     linkList:
-      - link: #
+      - link: https://github.com/AndersonHJB/AndersonHJB.github.io
         text: 编程主题
       # - link: https://image.anheyu.com
       #   text: 图床

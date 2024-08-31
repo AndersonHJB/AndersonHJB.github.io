@@ -8,7 +8,7 @@
       <link href="/posts/cf45a15f.html"/>
       <url>/posts/cf45a15f.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1-效果预览"><a href="#1-效果预览" class="headerlink" title="1. 效果预览"></a>1. 效果预览</h1><ul><li><a href="https://blog.bornforthis.cn/">https://blog.bornforthis.cn/</a></li></ul><h2 id="2-代码实现"><a href="#2-代码实现" class="headerlink" title="2. 代码实现"></a>2. 代码实现</h2><div class="video"><video controls preload><source src='https://blog.bornforthis.cn/img/posts/02-anzhiyu-theme-tag/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/default.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-效果预览"><a href="#1-效果预览" class="headerlink" title="1. 效果预览"></a>1. 效果预览</h1><a class="site-card" href="https://blog.bornforthis.cn/" data-title=描述（可选）><div class="wrapper cover"><img class="cover fadeIn" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="截图链接"/></div><div class="info"><img class="flink-avatar" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="头像链接（可选）"/><span class="site-title">AI悦创·博客</span></div></a><ul><li><a href="https://blog.bornforthis.cn/">https://blog.bornforthis.cn/</a></li></ul><h2 id="2-代码实现"><a href="#2-代码实现" class="headerlink" title="2. 代码实现"></a>2. 代码实现</h2>]]></content>
       
       
       <categories>

@@ -7,6 +7,12 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
+    - content: 测试视频存放在 GitHub，结果成功播放～nice！白嫖新方法......可以成功播放哦！
+      date: 2024/08/31 13:31:23
+      video: 
+        - https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/default.mp4
+      from: AI悦创
+      address: 莆田
     - content: 今天看见在刷视频时，看见这句：“爱像雪地里写诗，边写边消失”，爱意会流动，用心感受，双向奔赴就不会消失～
       date: 2024/08/29 19:52:51
       from: AI悦创

@@ -32,7 +32,7 @@ aside:
 
 # 1. 效果预览
 
-
+{% site AI悦创·博客, url=https://blog.bornforthis.cn/, screenshot=截图链接, avatar=头像链接（可选）, description=描述（可选） %}
 
 - [https://blog.bornforthis.cn/](https://blog.bornforthis.cn/)
 

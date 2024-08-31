@@ -547,8 +547,8 @@ footer:
         text: 编程主题
       # - link: https://image.anheyu.com
       #   text: 图床
-      # - link: https://beian.miit.gov.cn/
-      #   text: 湘ICP备-xxxxxxx号
+      - link: https://beian.miit.gov.cn/
+        text: 闽ICP备19021486号-6
     subTitle:
       enable: true
       # Typewriter Effect (打字效果)

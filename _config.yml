@@ -228,3 +228,21 @@ aplayer:
 #     comments: true
 #     top_img: false
 #     type: envelope
+
+feed:
+  enable: true
+  type: 
+    - atom
+    - rss2
+  path: 
+    - atom.xml
+    - rss.xml
+  limit: false
+  hub:
+  content: false
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

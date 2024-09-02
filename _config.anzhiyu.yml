@@ -15,6 +15,7 @@ menu:
     相册集: /album/ || anzhiyu-icon-images
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
     统计集: /charts/ || anzhiyu-icon-chart-line
+    待办事: /todolist/ || anzhiyu-icon-calendar-alt
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane

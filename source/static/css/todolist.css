@@ -30,7 +30,7 @@ body[data-type="todolist"] #web_bg {
     list-style: none;
     font-size: 17px;
     position: relative; /* 相对定位以便添加自定义样式 */
-    padding-left: 25px; /* 为圆圈和对勾预留空间 */
+    padding-left: 20px; /* 为圆圈和对勾预留更多空间，增加间距 */
     margin-bottom: 10px; /* 每个任务项下方的间距 */
     border-bottom: 1px solid #ccc; /* 任务项下方的横线 */
   }
@@ -57,7 +57,7 @@ body[data-type="todolist"] #web_bg {
   li.todolist-li::before {
     content: '○'; /* 使用 Unicode 字符表示空心圆 */
     position: absolute;
-    left: 0;
+    left: 10px; /* 调整此处来控制空心圆与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
@@ -66,7 +66,7 @@ body[data-type="todolist"] #web_bg {
   li.todolist-li-done::before {
     content: '✔'; /* 使用 Unicode 字符表示打勾的空心圆 */
     position: absolute;
-    left: 0;
+    left: 5px; /* 调整此处来控制对勾与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;

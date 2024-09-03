@@ -1,104 +1,156 @@
 body[data-type="todolist"] #web_bg {
     background: var(--anzhiyu-background);
-  }
-  body[data-type="todolist"] #page {
+}
+
+body[data-type="todolist"] #page {
     border: 0;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     padding: 0 !important;
     background: 0 0 !important;
-  }
-  body[data-type="todolist"] #page .page-title {
+}
+
+body[data-type="todolist"] #page .page-title {
     display: none;
-  }
-  /* Todolist */
-  #todolist-box {
+}
+
+/* Todolist */
+#todolist-box {
     margin: 0 10px;
-  }
-  #todolist-main {
+}
+
+#todolist-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 16px 0 10px;
-  }
-  #todolist-main ul {
+}
+
+#todolist-main ul {
     margin: 0;
     padding: 0;
-  }
-  #todolist-main li {
+}
+
+#todolist-main li {
     list-style: none;
     font-size: 17px;
-    position: relative; /* 相对定位以便添加自定义样式 */
-    padding-left: 20px; /* 为圆圈和对勾预留更多空间，增加间距 */
-    margin-bottom: 10px; /* 每个任务项下方的间距 */
-    border-bottom: 1px solid #ccc; /* 任务项下方的横线 */
-  }
-  #todolist-left {
+    position: relative;
+    /* 相对定位以便添加自定义样式 */
+    padding-left: 20px;
+    /* 为圆圈和对勾预留更多空间，增加间距 */
+    margin-bottom: 10px;
+    /* 每个任务项下方的间距 */
+    border-bottom: 1px solid #ccc;
+    /* 任务项下方的横线 */
+}
+
+#todolist-left {
     width: 50%;
     padding: 0 8px 0 0;
-  }
-  #todolist-right {
+}
+
+#todolist-right {
     width: 50%;
     padding: 0 0 0 8px;
-  }
-  .todolist-item {
+}
+
+.todolist-item {
     position: relative;
     background: #fae4df;
     border-radius: 12px;
     padding: 10px 1rem 1.2rem;
     border: 2px dashed #f7a796;
     margin-bottom: 1rem;
-  }
-  [data-theme=dark] .todolist-item {
+}
+
+[data-theme=dark] .todolist-item {
     background: #242424;
     border: 2px dashed #51908b;
-  }
-  li.todolist-li::before {
-    content: '○'; /* 使用 Unicode 字符表示空心圆 */
+}
+
+li.todolist-li::before {
+    content: '○';
+    /* 使用 Unicode 字符表示空心圆 */
     position: absolute;
-    left: 10px; /* 调整此处来控制空心圆与任务文本的水平距离 */
+    left: 0;
+    /* 调整此处来控制空心圆与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
     color: #000;
-  }
-  li.todolist-li-done::before {
-    content: '✔'; /* 使用 Unicode 字符表示打勾的空心圆 */
+    width: 30px;
+    /* 统一宽度确保与对勾位置一致 */
+    display: inline-block;
+    /* 使用内联块来统一宽度 */
+    text-align: center;
+    /* 居中对齐 */
+}
+
+li.todolist-li-done::before {
+    content: '✔';
+    /* 使用 Unicode 字符表示打勾的空心圆 */
     position: absolute;
-    left: 5px; /* 调整此处来控制对勾与任务文本的水平距离 */
+    left: 0;
+    /* 调整此处来控制对勾与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
-    color: #51908b; /* 可根据主题调整颜色 */
-  }
-  li.todolist-li i {
+    color: #51908b;
+    /* 可根据主题调整颜色 */
+    width: 30px;
+    /* 统一宽度确保与空心圆位置一致 */
+    display: inline-block;
+    /* 使用内联块来统一宽度 */
+    text-align: center;
+    /* 居中对齐 */
+}
+
+li.todolist-li i {
     margin-left: 10px;
-  }
-  h3.todolist-title {
+}
+
+h3.todolist-title {
     margin: 0 !important;
     border-bottom: var(--todo-border);
-  }
-  li.todolist-li {
+}
+
+li.todolist-li {
     font-weight: normal;
     margin-left: -10px;
-  }
-  li.todolist-li-done {
+}
+
+li.todolist-li-done {
     font-weight: normal;
     text-decoration: line-through;
-    color: #999; /* 已完成任务的文本颜色 */
-  }
-  .todolist-li span {
+    color: #999;
+    /* 已完成任务的文本颜色 */
+    margin-left: -10px;
+    /* 与未完成任务项保持一致 */
+}
+
+.todolist-li span {
     margin-left: 5px;
-  }
-  .todolist-li-done span {
+}
+
+.todolist-li-done span {
     margin-left: 5px;
-  }
-  @media screen and (max-width: 700px) {
+}
+
+.todolist-date {
+    font-size: 14px; /* 设置日期字体大小 */
+    color: #666; /* 设置日期文本颜色 */
+    margin: 0 0 10px; /* 设置日期与任务列表之间的间距 */
+    display: block; /* 显示为块元素，独占一行 */
+    text-align: right; /* 日期右对齐 */
+}
+
+
+@media screen and (max-width: 700px) {
+
     #todolist-left,
     #todolist-right {
-      width: 100%;
-      padding: 0;
+        width: 100%;
+        padding: 0;
     }
-  }
-  
+}

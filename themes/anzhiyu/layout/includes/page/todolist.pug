@@ -17,7 +17,9 @@
                     .todolist-item
                         h3.todolist-title=i.class_name
                         if i.date
-                          p.todolist-date 创建日期：#{i.date}
+                          p.todolist-date(data-date=i.date)
+                            | 创建日期：#{i.date}
+                            span.date-difference // 这里将显示日期差
                         ul.todolist-ul
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
@@ -33,7 +35,9 @@
                     .todolist-item
                         h3.todolist-title=i.class_name
                         if i.date
-                          p.todolist-date 创建日期：#{i.date}
+                          p.todolist-date(data-date=i.date)
+                            | 创建日期：#{i.date}
+                            span.date-difference // 这里将显示日期差
                         ul.todolist-ul
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'

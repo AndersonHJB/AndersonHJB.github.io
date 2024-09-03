@@ -16,6 +16,8 @@
                 if i.seat == 'left'
                     .todolist-item
                         h3.todolist-title=i.class_name
+                        if i.date
+                          p.todolist-date 创建日期：#{i.date}
                         ul.todolist-ul
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
@@ -30,6 +32,8 @@
                 if i.seat == 'right'
                     .todolist-item
                         h3.todolist-title=i.class_name
+                        if i.date
+                          p.todolist-date 创建日期：#{i.date}
                         ul.todolist-ul
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'

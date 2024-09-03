@@ -137,6 +137,15 @@ li.todolist-li-done {
     margin-left: 5px;
 }
 
+.todolist-date {
+    font-size: 14px; /* 设置日期字体大小 */
+    color: #666; /* 设置日期文本颜色 */
+    margin: 0 0 10px; /* 设置日期与任务列表之间的间距 */
+    display: block; /* 显示为块元素，独占一行 */
+    text-align: left; /* 日期右对齐 */
+}
+
+
 @media screen and (max-width: 700px) {
 
     #todolist-left,

@@ -31,7 +31,7 @@
       tag: 技术
     
 
-- class_name: 友谊长存
+- class_name: 友谊长存「2024」
   class_desc: 交换友情链接
   flink_style: anzhiyu
   hundredSuffix: ""
@@ -117,6 +117,12 @@
       link: https://gavin-chen.top/
       avatar: /img/link/21-gavin-chen.top.webp
       descr: 不畏将来，不念过往。
+      tag: 技术
+    - name: 轻笑Chuckle
+      link: https://www.qcqx.cn
+      avatar: /img/link/22-www.qcqx.cn.webp
+      descr: 漫天倾尘,风中轻笑
+      tag: 技术/生活
 
 
 

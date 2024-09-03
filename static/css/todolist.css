@@ -12,33 +12,37 @@ body[data-type="todolist"] #web_bg {
     display: none;
   }
   /* Todolist */
-  #todolist-box{
+  #todolist-box {
     margin: 0 10px;
   }
-  #todolist-main{
+  #todolist-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 16px 0 10px;
   }
-  #todolist-main li{
-    list-style:none;
-    font-size: 17px;
-  }
-  #todolist-main ul{
+  #todolist-main ul {
     margin: 0;
     padding: 0;
   }
-  #todolist-left{
+  #todolist-main li {
+    list-style: none;
+    font-size: 17px;
+    position: relative; /* 相对定位以便添加自定义样式 */
+    padding-left: 20px; /* 为圆圈和对勾预留更多空间，增加间距 */
+    margin-bottom: 10px; /* 每个任务项下方的间距 */
+    border-bottom: 1px solid #ccc; /* 任务项下方的横线 */
+  }
+  #todolist-left {
     width: 50%;
     padding: 0 8px 0 0;
   }
-  #todolist-right{
+  #todolist-right {
     width: 50%;
     padding: 0 0 0 8px;
   }
-  .todolist-item{
+  .todolist-item {
     position: relative;
     background: #fae4df;
     border-radius: 12px;
@@ -46,38 +50,55 @@ body[data-type="todolist"] #web_bg {
     border: 2px dashed #f7a796;
     margin-bottom: 1rem;
   }
-  [data-theme=dark]
-  .todolist-item{
+  [data-theme=dark] .todolist-item {
     background: #242424;
     border: 2px dashed #51908b;
   }
-  li.todolist-li i{
+  li.todolist-li::before {
+    content: '○'; /* 使用 Unicode 字符表示空心圆 */
+    position: absolute;
+    left: 10px; /* 调整此处来控制空心圆与任务文本的水平距离 */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000;
+  }
+  li.todolist-li-done::before {
+    content: '✔'; /* 使用 Unicode 字符表示打勾的空心圆 */
+    position: absolute;
+    left: 5px; /* 调整此处来控制对勾与任务文本的水平距离 */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #51908b; /* 可根据主题调整颜色 */
+  }
+  li.todolist-li i {
     margin-left: 10px;
   }
-  h3.todolist-title{
-    margin: 0!important;
+  h3.todolist-title {
+    margin: 0 !important;
     border-bottom: var(--todo-border);
   }
-  li.todolist-li{
-    border-bottom: var(--todo-border);
+  li.todolist-li {
     font-weight: normal;
     margin-left: -10px;
   }
-  li.todolist-li-done{
-    border-bottom: var(--todo-border);
+  li.todolist-li-done {
     font-weight: normal;
     text-decoration: line-through;
+    color: #999; /* 已完成任务的文本颜色 */
   }
-  .todolist-li span{
+  .todolist-li span {
     margin-left: 5px;
   }
-  .todolist-li-done span{
+  .todolist-li-done span {
     margin-left: 5px;
   }
-  @media screen and (max-width:700px){
-    #todolist-left,#todolist-right{
-        width: 100%;
-        padding: 0;
+  @media screen and (max-width: 700px) {
+    #todolist-left,
+    #todolist-right {
+      width: 100%;
+      padding: 0;
     }
   }
   

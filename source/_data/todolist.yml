@@ -2,7 +2,7 @@
 - class_name: 想做的项目
   seat: left
   todo_list:
-    - content: 主页
+    - content: hexo 博客
       completed: false
     - content: 小程序
       completed: false
@@ -10,15 +10,13 @@
 - class_name: 想看的书
   seat: left
   todo_list:
-    - content: 《骆驼祥子》
-      completed: false
-    - content: 《活着》
+    - content: 《夜幕之下》
       completed: false
 
 - class_name: 想买的东西
   seat: left
   todo_list:
-    - content: 东西
+    - content: iPhone
       completed: true
     - content: 机械硬盘盒
       completed: true

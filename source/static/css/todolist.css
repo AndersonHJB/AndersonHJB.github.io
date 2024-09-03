@@ -57,20 +57,26 @@ body[data-type="todolist"] #web_bg {
   li.todolist-li::before {
     content: '○'; /* 使用 Unicode 字符表示空心圆 */
     position: absolute;
-    left: 10px; /* 调整此处来控制空心圆与任务文本的水平距离 */
+    left: 0; /* 调整此处来控制空心圆与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
     color: #000;
+    width: 30px; /* 统一宽度确保与对勾位置一致 */
+    display: inline-block; /* 使用内联块来统一宽度 */
+    text-align: center; /* 居中对齐 */
   }
   li.todolist-li-done::before {
     content: '✔'; /* 使用 Unicode 字符表示打勾的空心圆 */
     position: absolute;
-    left: 5px; /* 调整此处来控制对勾与任务文本的水平距离 */
+    left: 0; /* 调整此处来控制对勾与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
     color: #51908b; /* 可根据主题调整颜色 */
+    width: 30px; /* 统一宽度确保与空心圆位置一致 */
+    display: inline-block; /* 使用内联块来统一宽度 */
+    text-align: center; /* 居中对齐 */
   }
   li.todolist-li i {
     margin-left: 10px;
@@ -87,6 +93,7 @@ body[data-type="todolist"] #web_bg {
     font-weight: normal;
     text-decoration: line-through;
     color: #999; /* 已完成任务的文本颜色 */
+    margin-left: -10px; /* 与未完成任务项保持一致 */
   }
   .todolist-li span {
     margin-left: 5px;

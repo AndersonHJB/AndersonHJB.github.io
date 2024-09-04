@@ -153,6 +153,15 @@ li.todolist-li-done {
     font-weight: bold; /* 加粗显示天数差异文本 */
 }
 
+.due-date {
+    font-size: 14px; /* 设置完成时间文本大小 */
+    color: #999; /* 设置文本颜色，与已完成任务颜色一致 */
+    margin-left: 10px; /* 与任务内容保持一定的间距 */
+    display: inline-block; /* 保持内联块，使其与任务内容在同一行显示 */
+    font-style: italic; /* 斜体显示以区分于其他文本 */
+}
+
+
 @media screen and (max-width: 700px) {
 
     #todolist-left,

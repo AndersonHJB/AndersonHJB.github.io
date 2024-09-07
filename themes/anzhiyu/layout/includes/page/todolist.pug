@@ -26,9 +26,12 @@
                                  li(class=listItemClass)
                                     if item.completed
                                         i.fa-regular.fa-circle-check
+                                        span=item.content
+                                        if item.due_date
+                                          span.due-date 已完成于：#{item.due_date}
                                     else 
                                         i.fa-regular.fa-circle
-                                    span=item.content
+                                        span=item.content
         #todolist-right
             each i in site.data.todolist
                 if i.seat == 'right'
@@ -44,6 +47,9 @@
                                  li(class=listItemClass)
                                     if item.completed
                                         i.fa-regular.fa-circle-check
+                                        span=item.content
+                                        if item.due_date
+                                          span.due-date 已完成于：#{item.due_date} 
                                     else 
                                         i.fa-regular.fa-circle
-                                    span=item.content
+                                        span=item.content

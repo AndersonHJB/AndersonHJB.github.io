@@ -1,12 +1,18 @@
 # seat控制清单在左栏还是右栏显示，completed控制是否已完成
 - class_name: 想做的项目
   seat: left
-  date: 2024/08/04 13:14:30
+  date: 2024/09/03 13:14:30
   todo_list:
-    - content: hexo 博客
+    - content: 待办清单上线
+      completed: true
+    - content: 清单创建日期
+      completed: true
+    - content: 任务创建距离创建日期
+      completed: true
+      due_date: 2024/09/03 22:04:30
+    - content: 任务完成日期
       completed: false
-    - content: 小程序
-      completed: false
+      
 
 - class_name: 想看的书
   seat: left

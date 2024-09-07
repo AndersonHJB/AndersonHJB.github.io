@@ -3,6 +3,7 @@
   seat: left
   date: 2024/09/03 13:14:30
   card: true
+  layout: document  # 使用文档式样式
   todo_list:
     - content: 待办清单上线
       completed: true
@@ -22,8 +23,9 @@
     - content: 任务全部完成则自动折叠，出现设置 card:false 没有生效-V0.2
       completed: true
       due_date: 2024/09/07 14:04:40
-    - content: 任务全部完成则自动折叠，样式可选
-      completed: false
+    - content: 任务全部完成则自动折叠，样式可选，设置 layout 即可实现-V0.3
+      completed: true
+      due_date: 2024/09/07 19:32:44
     - content: 任务全部完成则自动折叠，任务没有全部完成，折叠已经完成的部分
       completed: false
     - content: 实现多种折叠样式的颜色
@@ -33,9 +35,13 @@
 - class_name: 想看的书
   seat: left
   date: 2024/09/03 22:04:30
+  layout: default
+  card: false
   todo_list:
     - content: 《夜幕之下》
-      completed: false
+      completed: true
+    - content: 《沧园图》
+      completed: true
 
 - class_name: 想买的东西
   date: 2024/10/06 12:04:30

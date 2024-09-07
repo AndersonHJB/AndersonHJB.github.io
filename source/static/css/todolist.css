@@ -161,6 +161,21 @@ li.todolist-li-done {
     font-style: italic; /* 斜体显示以区分于其他文本 */
 }
 
+.todolist-title-with-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    font-size: 16px;
+    margin-right: 10px;
+    transition: transform 0.2s ease; /* 添加旋转动画 */
+}
+
+.todolist-ul {
+    padding-left: 20px; /* 确保内容缩进对齐 */
+}
 .toggle-button {
     background-color: #f0f0f0;
     border: 1px solid #ccc;

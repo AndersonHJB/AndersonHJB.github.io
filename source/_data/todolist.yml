@@ -1,5 +1,5 @@
 # seat控制清单在左栏还是右栏显示，completed控制是否已完成
-- class_name: 想做的项目
+- class_name: Todo list 页面优化「Plan」
   seat: left
   date: 2024/09/03 13:14:30
   card: true
@@ -21,6 +21,9 @@
       due_date: 2024/09/07 13:58:37
     - content: 任务全部完成则自动折叠，出现设置 card:false 没有生效-V0.2
       completed: true
+      due_date: 2024/09/07 14:04:40
+    - content: 任务全部完成则自动折叠，样式
+      completed: false
       due_date: 2024/09/07 14:04:40
       
 

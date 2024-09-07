@@ -23,9 +23,9 @@
                             span.date-difference // 这里将显示日期差
                         
                         // 展开/折叠按钮
-                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted ? "展开" : "折叠"}
+                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
 
-                        ul.todolist-ul(style=allCompleted || i.card ? "display: none;" : "")
+                        ul.todolist-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
                                  li(class=listItemClass)
@@ -49,9 +49,9 @@
                             span.date-difference // 这里将显示日期差
 
                         // 展开/折叠按钮
-                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted ? "展开" : "折叠"}
+                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
 
-                        ul.todolist-ul(style=allCompleted || i.card ? "display: none;" : "")
+                        ul.todolist-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
                                  li(class=listItemClass)

@@ -22,9 +22,12 @@
     - content: 任务全部完成则自动折叠，出现设置 card:false 没有生效-V0.2
       completed: true
       due_date: 2024/09/07 14:04:40
-    - content: 任务全部完成则自动折叠，样式
+    - content: 任务全部完成则自动折叠，样式可选
       completed: false
-      due_date: 2024/09/07 14:04:40
+    - content: 任务全部完成则自动折叠，任务没有全部完成，折叠已经完成的部分
+      completed: false
+    - content: 实现多种折叠样式的颜色
+      completed: false
       
 
 - class_name: 想看的书

@@ -1303,6 +1303,7 @@ inject:
     - <link rel="stylesheet" href="/static/css/imgloaded.css?1"> 
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
     - <script src="/static/js/todo-date-calculation.js"></script>
+    - <script src="/static/js/todo-toggle.js"></script>
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css

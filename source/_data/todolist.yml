@@ -2,16 +2,26 @@
 - class_name: 想做的项目
   seat: left
   date: 2024/09/03 13:14:30
+  card: true
   todo_list:
     - content: 待办清单上线
       completed: true
+      due_date: 2024/09/04 21:04:30
     - content: 清单创建日期
       completed: true
+      due_date: 2024/09/05 13:06:30
     - content: 任务创建距离创建日期
       completed: true
-      due_date: 2024/09/03 22:04:30
+      due_date: 2024/09/06 18:21:30
     - content: 任务完成日期
-      completed: false
+      completed: true
+      due_date: 2024/09/07 13:57:46
+    - content: 任务全部完成则自动折叠-V0.1
+      completed: true
+      due_date: 2024/09/07 13:58:37
+    - content: 任务全部完成则自动折叠，出现设置 card:false 没有生效-V0.2
+      completed: true
+      due_date: 2024/09/07 14:04:40
       
 
 - class_name: 想看的书

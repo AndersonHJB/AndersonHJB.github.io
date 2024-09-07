@@ -13,14 +13,19 @@
     #todolist-main
         #todolist-left
             each i in site.data.todolist
+                - let allCompleted = i.todo_list.every(task => task.completed); // 检查所有任务是否都完成
                 if i.seat == 'left'
-                    .todolist-item
+                    .todolist-item(data-card=i.card data-all-completed=allCompleted)
                         h3.todolist-title=i.class_name
                         if i.date
                           p.todolist-date(data-date=i.date)
                             | 创建日期：#{i.date}
                             span.date-difference // 这里将显示日期差
-                        ul.todolist-ul
+                        
+                        // 展开/折叠按钮
+                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted ? "展开" : "折叠"}
+
+                        ul.todolist-ul(style=allCompleted || i.card ? "display: none;" : "")
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
                                  li(class=listItemClass)
@@ -34,14 +39,19 @@
                                         span=item.content
         #todolist-right
             each i in site.data.todolist
+                - let allCompleted = i.todo_list.every(task => task.completed); // 检查所有任务是否都完成
                 if i.seat == 'right'
-                    .todolist-item
+                    .todolist-item(data-card=i.card data-all-completed=allCompleted)
                         h3.todolist-title=i.class_name
                         if i.date
                           p.todolist-date(data-date=i.date)
                             | 创建日期：#{i.date}
                             span.date-difference // 这里将显示日期差
-                        ul.todolist-ul
+
+                        // 展开/折叠按钮
+                        button.toggle-button(onclick="toggleCard(this)") #{allCompleted ? "展开" : "折叠"}
+
+                        ul.todolist-ul(style=allCompleted || i.card ? "display: none;" : "")
                             each item in i.todo_list
                                  - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
                                  li(class=listItemClass)
@@ -49,7 +59,7 @@
                                         i.fa-regular.fa-circle-check
                                         span=item.content
                                         if item.due_date
-                                          span.due-date 已完成于：#{item.due_date} 
+                                          span.due-date 已完成于：#{item.due_date}
                                     else 
                                         i.fa-regular.fa-circle
                                         span=item.content

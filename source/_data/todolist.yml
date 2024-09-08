@@ -30,6 +30,8 @@
       completed: false
     - content: 实现多种折叠样式的颜色
       completed: false
+    - content: 实现待办清单描述，显示在清单的日期下面「考虑💭」
+      completed: false
       
 
 - class_name: 想看的书

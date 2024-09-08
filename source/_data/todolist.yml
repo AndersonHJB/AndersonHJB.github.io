@@ -26,7 +26,7 @@
     - content: 任务全部完成则自动折叠，样式可选，设置 layout 即可实现-V0.3
       completed: true
       due_date: 2024/09/07 19:32:44
-    - content: 任务全部完成则自动折叠，任务没有全部完成，折叠已经完成的部分
+    - content: 任务全部完成则自动折叠，任务没有全部完成，折叠已经完成的部分「超过3个完成的情况下」
       completed: false
     - content: 实现多种折叠样式的颜色
       completed: false

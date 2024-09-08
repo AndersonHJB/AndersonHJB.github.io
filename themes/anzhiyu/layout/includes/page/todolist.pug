@@ -18,7 +18,7 @@
                     .todolist-item(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
                         if i.layout === 'document'
                             .todolist-title-with-arrow(onclick="toggleCard(this)")
-                                span.arrow-icon  // 箭头图标
+                                span.arrow-icon
                                 h3.todolist-title=i.class_name
                             if i.date
                               p.todolist-date(data-date=i.date)
@@ -65,7 +65,7 @@
                     .todolist-item(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
                         if i.layout === 'document'
                             .todolist-title-with-arrow(onclick="toggleCard(this)")
-                                span.arrow-icon  // 箭头图标
+                                span.arrow-icon
                                 h3.todolist-title=i.class_name
                             if i.date
                               p.todolist-date(data-date=i.date)

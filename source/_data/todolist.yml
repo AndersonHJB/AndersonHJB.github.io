@@ -67,7 +67,14 @@
   date: 2024/02/08 16:36:22
   seat: right
   todo_list:
-    - content: 桂林
+    - content: 南京
       completed: true
     - content: 心里
+      completed: false
+
+- class_name: ChatGPT 思考🤔
+  date: 2024/09/09 16:42:39
+  seat: right
+  todo_list:
+    - content: 你给 ChatGPT 原有的代码，GPT 回答给你代码，你能否发现 GPT 所做的修改？或者 GPT 回复是否完整呢？可以采用 git 对比～
       completed: false

@@ -247,3 +247,11 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+encrypt:
+  title: '加密内容'
+  hint: '请输入密码'
+  wrong_pass_message: '密码错误，请重新输入'
+  wrong_hash_message: '文章被篡改，请联系管理员'
+  need_transform: true
+  decrypt_button_text: '解密'

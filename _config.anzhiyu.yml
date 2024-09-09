@@ -3,6 +3,7 @@ menu:
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    记录: /classrecord/ || anzhiyu-icon-plant-fill
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
@@ -1302,8 +1303,11 @@ inject:
   head:
     - <link rel="stylesheet" href="/static/css/imgloaded.css?1"> 
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
+    - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
     - <script src="/static/js/todo-date-calculation.js"></script>
     - <script src="/static/js/todo-toggle.js"></script>
+    - <script src="/static/js/classrecord-toggle.js"></script>
+    - <script src="/static/js/classrecord-date-calculation.js"></script>
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css

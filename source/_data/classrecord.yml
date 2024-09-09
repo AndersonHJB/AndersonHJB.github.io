@@ -1,0 +1,31 @@
+- class_name: 任新星
+  seat: left
+  date: 2024/09/08 13:14:30
+  card: true
+  layout: document  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-08 20.09.20-剩余9.5h
+      completed: true
+      due_date: 2024/09/08 20:09:20
+    - content: 02-2024-09-09 07.58.08-剩余8.5h
+      completed: false
+      due_date: 2024/09/09 07:58:08
+
+      
+
+- class_name: 想看的书
+  seat: left
+  date: 2024/09/03 22:04:30
+  layout: default
+  card: false
+  todo_list:
+    - content: 《夜幕之下》
+      completed: true
+
+
+- class_name: 肖羡月
+  date: 2024/01/01 19:04:25
+  seat: right
+  todo_list:
+    - content: 骑自行车
+      completed: false

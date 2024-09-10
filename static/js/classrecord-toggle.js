@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
+// 重新定义一个函数来绑定所有事件
+function initClassRecord() {
     // 自动折叠所有任务已完成并且 card 不是 false 的卡片
     const classRecordItems = document.querySelectorAll('.classrecord-item');
 
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
-});
+}
 
 // 点击展开/折叠按钮
 function toggleCardNew(element) {
@@ -44,3 +45,13 @@ function toggleCardNew(element) {
         }
     }
 }
+
+// 在首次页面加载和每次 PJAX 完成后调用 initClassRecord
+document.addEventListener('DOMContentLoaded', function () {
+    initClassRecord();
+});
+
+// PJAX 切换页面后重新初始化
+document.addEventListener('pjax:end', function () {
+    initClassRecord();
+});

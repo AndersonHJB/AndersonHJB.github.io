@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     classRecordItems.forEach(item => {
         const allCompleted = item.getAttribute('data-all-completed') === 'true';
         const cardControlled = item.getAttribute('data-card') !== 'false'; // card 不是 false 时自动折叠
-        const taskList = item.querySelector('ul.classrecord-ul');
+        const taskList = item.querySelector('ul.classrecord-ul-new');
         const layout = item.getAttribute('data-layout');
-        const toggleButton = item.querySelector('.toggle-button');
-        const arrowIcon = item.querySelector('.arrow-icon'); // 文档式折叠框箭头
+        const toggleButton = item.querySelector('.toggle-button-new');
+        const arrowIcon = item.querySelector('.arrow-icon-new'); // 文档式折叠框箭头
 
         // 如果是默认布局
         if (!layout || layout !== 'document') {
@@ -19,18 +19,18 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (layout === 'document') {
             // 初始化文档式折叠框的箭头方向
             if (taskList.style.display === 'none') {
-                arrowIcon.textContent = '→'; // 默认箭头向右
+                arrowIcon.textContent = '→'; 
             } else {
-                arrowIcon.textContent = '↓'; // 展开箭头向下
+                arrowIcon.textContent = '↓'; 
             }
         }
     });
 });
 
 // 点击展开/折叠按钮
-function toggleCard(element) {
-    const taskList = element.parentElement.querySelector('ul.classrecord-ul');
-    const arrowIcon = element.querySelector('.arrow-icon'); // 文档式折叠框箭头
+function toggleCardNew(element) {
+    const taskList = element.parentElement.querySelector('ul.classrecord-ul-new');
+    const arrowIcon = element.querySelector('.arrow-icon-new'); // 文档式折叠框箭头
 
     if (taskList.style.display === 'none') {
         taskList.style.display = 'block';

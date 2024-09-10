@@ -28,6 +28,9 @@
 - class_name: 肖羡月
   date: 2024/01/01 19:04:25
   seat: right
+  card: false
+  layout: default
   todo_list:
-    - content: 骑自行车
-      completed: false
+    - content: 01-2024-09-09 20.00.17-剩余50h
+      completed: true
+      due_date: 2024/09/09 20:00:17

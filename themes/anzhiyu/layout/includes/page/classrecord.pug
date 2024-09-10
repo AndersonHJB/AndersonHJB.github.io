@@ -1,105 +1,105 @@
-#classrecord-box
+#classrecord-box-new
     - let classrecord_background = page.top_background
-    .author-content.author-content-item.classrecord.single(style=`${classrecord_background ? `background: url(${classrecord_background}) top / cover no-repeat;` : ""}`)
-        .card-content
-            .author-content-item-tips Class Record
-            span.author-content-item-title 班级记录
-            .content-bottom
-            .tips 耽误太多时间，事情可就做不完了
-            .banner-button-group
-              a.banner-button(onclick='pjax.loadUrl("/about/")')
-                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
-                span.banner-button-text 更多详情
-    #classrecord-main
-        #classrecord-left
+    .author-content.author-content-item.classrecord-new.single(style=`${classrecord_background ? `background: url(${classrecord_background}) top / cover no-repeat;` : ""}`)
+        .card-content-new
+            .author-content-item-tips-new Class Record
+            span.author-content-item-title-new 班级记录
+            .content-bottom-new
+            .tips-new 耽误太多时间，事情可就做不完了
+            .banner-button-group-new
+              a.banner-button-new(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right-new(style='font-size: 1.5rem')
+                span.banner-button-text-new 更多详情
+    #classrecord-main-new
+        #classrecord-left-new
             each i in site.data.classrecord
                 - let allCompleted = i.todo_list.every(task => task.completed); // 检查所有任务是否都完成
                 if i.seat == 'left'
-                    .classrecord-item(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
+                    .classrecord-item-new(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
                         if i.layout === 'document'
-                            .classrecord-title-with-arrow(onclick="toggleCard(this)")
-                                span.arrow-icon
-                                h3.classrecord-title=i.class_name
+                            .classrecord-title-with-arrow-new(onclick="toggleCardNew(this)")
+                                span.arrow-icon-new
+                                h3.classrecord-title-new=i.class_name
                             if i.date
-                              p.classrecord-date(data-date=i.date)
+                              p.classrecord-date-new(data-date=i.date)
                                 | 创建日期：#{i.date}
-                                span.date-difference // 显示日期差
-                            ul.classrecord-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
+                                span.date-difference-new // 显示日期差
+                            ul.classrecord-ul-new(style=allCompleted && i.card !== false ? "display: none;" : "")
                                 each item in i.todo_list
-                                     - var listItemClass = item.completed ? 'classrecord-li-done' : 'classrecord-li'
+                                     - var listItemClass = item.completed ? 'classrecord-li-done-new' : 'classrecord-li-new'
                                      li(class=listItemClass)
                                         if item.completed
-                                            i.fa-regular.fa-circle-check
+                                            i.fa-regular.fa-circle-check-new
                                             span=item.content
                                             if item.due_date
-                                              span.due-date 已完成于：#{item.due_date}
+                                              span.due-date-new 已完成于：#{item.due_date}
                                         else 
-                                            i.fa-regular.fa-circle
+                                            i.fa-regular.fa-circle-new
                                             span=item.content
                         else
-                            h3.classrecord-title=i.class_name
+                            h3.classrecord-title-new=i.class_name
                             if i.date
-                              p.classrecord-date(data-date=i.date)
+                              p.classrecord-date-new(data-date=i.date)
                                 | 创建日期：#{i.date}
-                                span.date-difference
+                                span.date-difference-new
                             
-                            button.toggle-button(onclick="toggleCard(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
+                            button.toggle-button-new(onclick="toggleCardNew(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
 
-                            ul.classrecord-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
+                            ul.classrecord-ul-new(style=allCompleted && i.card !== false ? "display: none;" : "")
                                 each item in i.todo_list
-                                     - var listItemClass = item.completed ? 'classrecord-li-done' : 'classrecord-li'
+                                     - var listItemClass = item.completed ? 'classrecord-li-done-new' : 'classrecord-li-new'
                                      li(class=listItemClass)
                                         if item.completed
-                                            i.fa-regular.fa-circle-check
+                                            i.fa-regular.fa-circle-check-new
                                             span=item.content
                                             if item.due_date
-                                              span.due-date 已完成于：#{item.due_date}
+                                              span.due-date-new 已完成于：#{item.due_date}
                                         else 
-                                            i.fa-regular.fa-circle
+                                            i.fa-regular.fa-circle-new
                                             span=item.content
-        #classrecord-right
+        #classrecord-right-new
             each i in site.data.classrecord
                 - let allCompleted = i.todo_list.every(task => task.completed); // 检查所有任务是否都完成
                 if i.seat == 'right'
-                    .classrecord-item(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
+                    .classrecord-item-new(data-card=i.card data-layout=i.layout data-all-completed=allCompleted)
                         if i.layout === 'document'
-                            .classrecord-title-with-arrow(onclick="toggleCard(this)")
-                                span.arrow-icon
-                                h3.classrecord-title=i.class_name
+                            .classrecord-title-with-arrow-new(onclick="toggleCardNew(this)")
+                                span.arrow-icon-new
+                                h3.classrecord-title-new=i.class_name
                             if i.date
-                              p.classrecord-date(data-date=i.date)
+                              p.classrecord-date-new(data-date=i.date)
                                 | 创建日期：#{i.date}
-                                span.date-difference // 显示日期差
-                            ul.classrecord-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
+                                span.date-difference-new // 显示日期差
+                            ul.classrecord-ul-new(style=allCompleted && i.card !== false ? "display: none;" : "")
                                 each item in i.todo_list
-                                     - var listItemClass = item.completed ? 'classrecord-li-done' : 'classrecord-li'
+                                     - var listItemClass = item.completed ? 'classrecord-li-done-new' : 'classrecord-li-new'
                                      li(class=listItemClass)
                                         if item.completed
-                                            i.fa-regular.fa-circle-check
+                                            i.fa-regular.fa-circle-check-new
                                             span=item.content
                                             if item.due_date
-                                              span.due-date 已完成于：#{item.due_date}
+                                              span.due-date-new 已完成于：#{item.due_date}
                                         else 
-                                            i.fa-regular.fa-circle
+                                            i.fa-regular.fa-circle-new
                                             span=item.content
                         else
-                            h3.classrecord-title=i.class_name
+                            h3.classrecord-title-new=i.class_name
                             if i.date
-                              p.classrecord-date(data-date=i.date)
+                              p.classrecord-date-new(data-date=i.date)
                                 | 创建日期：#{i.date}
-                                span.date-difference
+                                span.date-difference-new
                             
-                            button.toggle-button(onclick="toggleCard(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
+                            button.toggle-button-new(onclick="toggleCardNew(this)") #{allCompleted && i.card !== false ? "展开" : "折叠"}
 
-                            ul.classrecord-ul(style=allCompleted && i.card !== false ? "display: none;" : "")
+                            ul.classrecord-ul-new(style=allCompleted && i.card !== false ? "display: none;" : "")
                                 each item in i.todo_list
-                                     - var listItemClass = item.completed ? 'classrecord-li-done' : 'classrecord-li'
+                                     - var listItemClass = item.completed ? 'classrecord-li-done-new' : 'classrecord-li-new'
                                      li(class=listItemClass)
                                         if item.completed
-                                            i.fa-regular.fa-circle-check
+                                            i.fa-regular.fa-circle-check-new
                                             span=item.content
                                             if item.due_date
-                                              span.due-date 已完成于：#{item.due_date}
+                                              span.due-date-new 已完成于：#{item.due_date}
                                         else 
-                                            i.fa-regular.fa-circle
+                                            i.fa-regular.fa-circle-new
                                             span=item.content

@@ -15,11 +15,11 @@ body[data-type="classrecord"] #page .page-title {
 }
 
 /* Classrecord */
-#classrecord-box {
+#classrecord-box-new {
     margin: 0 10px;
 }
 
-#classrecord-main {
+#classrecord-main-new {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,12 +27,12 @@ body[data-type="classrecord"] #page .page-title {
     margin: 16px 0 10px;
 }
 
-#classrecord-main ul {
+#classrecord-main-new ul {
     margin: 0;
     padding: 0;
 }
 
-#classrecord-main li {
+#classrecord-main-new li {
     list-style: none;
     font-size: 17px;
     position: relative;
@@ -41,17 +41,17 @@ body[data-type="classrecord"] #page .page-title {
     border-bottom: 1px solid #ccc;
 }
 
-#classrecord-left {
+#classrecord-left-new {
     width: 50%;
     padding: 0 8px 0 0;
 }
 
-#classrecord-right {
+#classrecord-right-new {
     width: 50%;
     padding: 0 0 0 8px;
 }
 
-.classrecord-item {
+.classrecord-item-new {
     position: relative;
     background: #fae4df;
     border-radius: 12px;
@@ -60,12 +60,12 @@ body[data-type="classrecord"] #page .page-title {
     margin-bottom: 1rem;
 }
 
-[data-theme=dark] .classrecord-item {
+[data-theme=dark] .classrecord-item-new {
     background: #242424;
     border: 2px dashed #51908b;
 }
 
-li.classrecord-li::before {
+li.classrecord-li-new::before {
     content: '○';
     position: absolute;
     left: 0;
@@ -78,7 +78,7 @@ li.classrecord-li::before {
     text-align: center;
 }
 
-li.classrecord-li-done::before {
+li.classrecord-li-done-new::before {
     content: '✔';
     position: absolute;
     left: 0;
@@ -91,36 +91,36 @@ li.classrecord-li-done::before {
     text-align: center;
 }
 
-li.classrecord-li i {
+li.classrecord-li-new i {
     margin-left: 10px;
 }
 
-h3.classrecord-title {
+h3.classrecord-title-new {
     margin: 0 !important;
     border-bottom: var(--todo-border);
 }
 
-li.classrecord-li {
+li.classrecord-li-new {
     font-weight: normal;
     margin-left: -10px;
 }
 
-li.classrecord-li-done {
+li.classrecord-li-done-new {
     font-weight: normal;
     /* text-decoration: line-through; */
     color: #999;
     margin-left: -10px;
 }
 
-.classrecord-li span {
+.classrecord-li-new span {
     margin-left: 5px;
 }
 
-.classrecord-li-done span {
+.classrecord-li-done-new span {
     margin-left: 5px;
 }
 
-.classrecord-date {
+.classrecord-date-new {
     font-size: 14px;
     color: #666;
     margin: 0 0 10px;
@@ -128,7 +128,7 @@ li.classrecord-li-done {
     text-align: left;
 }
 
-.date-difference {
+.date-difference-new {
     font-size: 14px;
     color: #ff6347;
     margin: 5px 0 0;
@@ -136,7 +136,7 @@ li.classrecord-li-done {
     font-weight: bold;
 }
 
-.due-date {
+.due-date-new {
     font-size: 14px;
     color: #999;
     margin-left: 10px;
@@ -144,23 +144,23 @@ li.classrecord-li-done {
     font-style: italic;
 }
 
-.classrecord-title-with-arrow {
+.classrecord-title-with-arrow-new {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.arrow-icon {
+.arrow-icon-new {
     font-size: 16px;
     margin-right: 10px;
     transition: transform 0.2s ease;
 }
 
-.classrecord-ul {
+.classrecord-ul-new {
     padding-left: 20px;
 }
 
-.toggle-button {
+.toggle-button-new {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -171,14 +171,14 @@ li.classrecord-li-done {
     display: inline-block;
 }
 
-.toggle-button:hover {
+.toggle-button-new:hover {
     background-color: #e0e0e0;
 }
 
 @media screen and (max-width: 700px) {
 
-    #classrecord-left,
-    #classrecord-right {
+    #classrecord-left-new,
+    #classrecord-right-new {
         width: 100%;
         padding: 0;
     }

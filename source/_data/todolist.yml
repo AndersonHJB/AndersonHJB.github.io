@@ -32,6 +32,8 @@
       completed: false
     - content: 实现待办清单描述，显示在清单的日期下面「考虑💭」
       completed: false
+    - content: 文本过长，换行问题
+      completed: false
       
 
 - class_name: 想看的书

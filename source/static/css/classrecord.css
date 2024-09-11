@@ -36,9 +36,13 @@ body[data-type="classrecord"] #page .page-title {
     list-style: none;
     font-size: 17px;
     position: relative;
+    /* 相对定位以便添加自定义样式 */
     padding-left: 20px;
+    /* 为圆圈和对勾预留更多空间，增加间距 */
     margin-bottom: 10px;
+    /* 每个任务项下方的间距 */
     border-bottom: 1px solid #ccc;
+    /* 任务项下方的横线 */
 }
 
 #classrecord-left-new {
@@ -67,28 +71,39 @@ body[data-type="classrecord"] #page .page-title {
 
 li.classrecord-li-new::before {
     content: '○';
+    /* 使用 Unicode 字符表示空心圆 */
     position: absolute;
     left: 0;
+    /* 调整此处来控制空心圆与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
     color: #000;
     width: 30px;
+    /* 统一宽度确保与对勾位置一致 */
     display: inline-block;
+    /* 使用内联块来统一宽度 */
     text-align: center;
+    /* 居中对齐 */
 }
 
 li.classrecord-li-done-new::before {
     content: '✔';
+    /* 使用 Unicode 字符表示打勾的空心圆 */
     position: absolute;
     left: 0;
+    /* 调整此处来控制对勾与任务文本的水平距离 */
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
     color: #51908b;
+    /* 可根据主题调整颜色 */
     width: 30px;
+    /* 统一宽度确保与空心圆位置一致 */
     display: inline-block;
+    /* 使用内联块来统一宽度 */
     text-align: center;
+    /* 居中对齐 */
 }
 
 li.classrecord-li-new i {
@@ -109,7 +124,9 @@ li.classrecord-li-done-new {
     font-weight: normal;
     /* text-decoration: line-through; */
     color: #999;
+    /* 已完成任务的文本颜色 */
     margin-left: -10px;
+    /* 与未完成任务项保持一致 */
 }
 
 .classrecord-li-new span {
@@ -121,19 +138,19 @@ li.classrecord-li-done-new {
 }
 
 .classrecord-date-new {
-    font-size: 14px;
-    color: #666;
-    margin: 0 0 10px;
-    display: block;
-    text-align: left;
+    font-size: 14px; /* 设置日期字体大小 */
+    color: #666; /* 设置日期文本颜色 */
+    margin: 0 0 10px; /* 设置日期与任务列表之间的间距 */
+    display: block; /* 显示为块元素，独占一行 */
+    text-align: left; /* 日期左对齐 */
 }
 
 .date-difference-new {
-    font-size: 14px;
-    color: #ff6347;
-    margin: 5px 0 0;
-    display: block;
-    font-weight: bold;
+    font-size: 14px; /* 设置动态计算文本的字体大小 */
+    color: #ff6347; /* 设置文本颜色，可以根据需要调整 */
+    margin: 5px 0 0; /* 添加上方间距 */
+    display: block; /* 显示为块元素，换行显示 */
+    font-weight: bold; /* 加粗显示天数差异文本 */
 }
 
 .due-date-new {

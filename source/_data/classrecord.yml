@@ -29,7 +29,7 @@
 
 
 - class_name: 肖羡月
-  date: 2024/09/10 22:30:00
+  date: 2024/09/11 22:04:04
   seat: right
   card: false
   layout: default
@@ -40,6 +40,9 @@
     - content: 02-2024-09-10 20.58.48-剩余48h
       completed: true
       due_date: 2024/09/10 22:30:00
+    - content: 03-2024-09-11 20.32.21-剩余46.5h
+      completed: true
+      due_date: 2024/09/11 22:04:04
 
 - class_name: 许光成
   date: 2024/09/10 21:00:00

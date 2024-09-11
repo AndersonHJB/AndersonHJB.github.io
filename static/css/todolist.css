@@ -200,16 +200,18 @@ li.todolist-li-done {
         padding: 0;
     }
 }
-.ing-status {
+
+/* ing-status */
+/* .ing-status {
     display: inline-block;
     margin-left: 10px;
-    color: #ff4500; /* 你可以根据需要调整颜色 */
+    color: #ff4500;
     font-weight: bold;
     animation: floatAndBlink 1.5s infinite ease-in-out;
-}
+} */
 
 /* 定义浮动和闪烁的动画 */
-@keyframes floatAndBlink {
+/* @keyframes floatAndBlink {
     0%, 100% {
         opacity: 1;
         transform: translateY(0);
@@ -217,5 +219,32 @@ li.todolist-li-done {
     50% {
         opacity: 0.5;
         transform: translateY(-5px);
+    }
+} */
+.ing-status {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6a00, #ff4500, #ff9500);
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: floatingAndScaling 2s infinite ease-in-out;
+    position: relative;
+}
+
+/* 定义浮动、缩放和颜色渐变的动画 */
+@keyframes floatingAndScaling {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-5px) scale(1.1);  /* 轻微向上移动并放大 */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* 增加阴影的深度 */
+        opacity: 0.8;
     }
 }

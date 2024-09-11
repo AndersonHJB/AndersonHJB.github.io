@@ -29,14 +29,17 @@
 
 
 - class_name: 肖羡月
-  date: 2024/09/09 20:00:17
+  date: 2024/09/10 22:30:00
   seat: right
   card: false
   layout: default
   todo_list:
-    - content: 01-2024-09-09 20.00.17-剩余50h
+    - content: 01-2024-09-09 20.00.17-剩余49.5h
       completed: true
       due_date: 2024/09/09 20:00:17
+    - content: 02-2024-09-10 20.58.48-剩余48h
+      completed: true
+      due_date: 2024/09/10 22:30:00
 
 - class_name: 许光成
   date: 2024/09/09 21:00:00
@@ -44,6 +47,6 @@
   card: false
   layout: default
   todo_list:
-    - content: 01-2024-09-09 20.00.17-剩余50h
+    - content: 01-2024-09-10 19.59.28-剩余7h
       completed: true
-      due_date: 2024/09/09 21:00:00
+      due_date: 2024/09/10 21:00:00

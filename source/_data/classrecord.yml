@@ -1,6 +1,6 @@
 - class_name: 任新星
   seat: left
-  date: 2024/09/08 13:14:30
+  date: 2024/09/09 07:58:08
   card: false
   layout: document  # 使用文档式样式
   todo_list:
@@ -15,7 +15,7 @@
 
 - class_name: 车车
   seat: left
-  date: 2024/09/03 22:04:30
+  date: 2024/09/10 19:00:00
   layout: default
   card: false
   todo_list:
@@ -29,7 +29,7 @@
 
 
 - class_name: 肖羡月
-  date: 2024/09/08 19:04:25
+  date: 2024/09/09 20:00:17
   seat: right
   card: false
   layout: default
@@ -39,7 +39,7 @@
       due_date: 2024/09/09 20:00:17
 
 - class_name: 许光成
-  date: 2024/09/01 20:04:25
+  date: 2024/09/09 21:00:00
   seat: right
   card: false
   layout: default

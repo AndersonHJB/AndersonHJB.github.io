@@ -11,7 +11,7 @@ function calculateDateDifferenceNew() {
 
             // 在 span.date-difference 中显示天数差
             const dateDiffSpan = element.querySelector('.date-difference-new');
-            dateDiffSpan.textContent = `距离创建日期已有：${dayDifference} 天`;
+            dateDiffSpan.textContent = `距离上次课已有：${dayDifference} 天`;
         }
     });
 }

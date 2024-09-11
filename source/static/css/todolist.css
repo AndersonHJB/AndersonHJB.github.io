@@ -200,3 +200,22 @@ li.todolist-li-done {
         padding: 0;
     }
 }
+.ing-status {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ff4500; /* 你可以根据需要调整颜色 */
+    font-weight: bold;
+    animation: floatAndBlink 1.5s infinite ease-in-out;
+}
+
+/* 定义浮动和闪烁的动画 */
+@keyframes floatAndBlink {
+    0%, 100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-5px);
+    }
+}

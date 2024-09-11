@@ -38,6 +38,8 @@
                                         else 
                                             i.fa-regular.fa-circle
                                             span=item.content
+                                            if item.current == 'ing'
+                                                span.ing-status ing
                         else
                             h3.todolist-title=i.class_name
                             if i.date
@@ -60,6 +62,8 @@
                                         else 
                                             i.fa-regular.fa-circle
                                             span=item.content
+                                            if item.current == 'ing'
+                                                span.ing-status ing
         #todolist-right
             each i in site.data.todolist
                 - let allCompleted = i.todo_list.every(task => task.completed); // 检查所有任务是否都完成
@@ -87,6 +91,8 @@
                                         else 
                                             i.fa-regular.fa-circle
                                             span=item.content
+                                            if item.current == 'ing'
+                                                span.ing-status ing
                         else
                             h3.todolist-title=i.class_name
                             if i.date
@@ -109,3 +115,5 @@
                                         else 
                                             i.fa-regular.fa-circle
                                             span=item.content
+                                            if item.current == 'ing'
+                                                span.ing-status ing

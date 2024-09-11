@@ -1,5 +1,4 @@
-// 重新定义一个函数来绑定所有事件
-function initClassRecord() {
+document.addEventListener('DOMContentLoaded', function () {
     // 自动折叠所有任务已完成并且 card 不是 false 的卡片
     const classRecordItems = document.querySelectorAll('.classrecord-item');
 
@@ -13,25 +12,20 @@ function initClassRecord() {
 
         // 如果是默认布局
         if (!layout || layout !== 'document') {
-            // 检查并设置默认折叠状态
             if (allCompleted && cardControlled) {
                 taskList.style.display = 'none'; // 自动折叠
                 toggleButton.textContent = '展开';
-            } else {
-                taskList.style.display = 'block'; // 保证未折叠状态的正确性
-                toggleButton.textContent = '收起';
             }
         } else if (layout === 'document') {
             // 初始化文档式折叠框的箭头方向
-            if (!taskList.style.display || taskList.style.display === 'block') {
-                arrowIcon.textContent = '↓'; 
-            } else {
-                taskList.style.display = 'none'; // 默认隐藏
+            if (taskList.style.display === 'none') {
                 arrowIcon.textContent = '→'; 
+            } else {
+                arrowIcon.textContent = '↓'; 
             }
         }
     });
-}
+});
 
 // 点击展开/折叠按钮
 function toggleCardNew(element) {
@@ -50,13 +44,3 @@ function toggleCardNew(element) {
         }
     }
 }
-
-// 在首次页面加载和每次 PJAX 完成后调用 initClassRecord
-document.addEventListener('DOMContentLoaded', function () {
-    initClassRecord();
-});
-
-// PJAX 切换页面后重新初始化
-document.addEventListener('pjax:end', function () {
-    initClassRecord();
-});

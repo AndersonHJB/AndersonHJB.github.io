@@ -34,6 +34,8 @@
       completed: false
     - content: 文本过长，换行问题
       completed: false
+    - content: 实现 completed 为 true 的全部移动至前面，false 显示在后面
+      completed: false
       
 
 - class_name: 想看的书

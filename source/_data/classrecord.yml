@@ -72,3 +72,13 @@
     - content: 01-2024-09-13 18.00.58-剩余9h
       completed: true
       due_date: 2024/09/13 18:00:58
+
+- class_name: Sandy
+  seat: right
+  date: 2024/09/13 19:03:42
+  card: true
+  layout: document  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-13 19.03.42-剩余3.5h
+      completed: true
+      due_date: 2024/09/13 19:03:42

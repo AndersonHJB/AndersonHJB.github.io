@@ -1,4 +1,4 @@
-- class_name: 任新星
+- class_name: 任新星「美国」
   seat: left
   date: 2024/09/09 07:58:08
   card: true
@@ -13,7 +13,7 @@
 
       
 
-- class_name: 车车
+- class_name: 车车「珠海」
   seat: left
   date: 2024/09/13 16:58:54
   layout: default
@@ -31,7 +31,7 @@
     
 
 
-- class_name: 肖羡月
+- class_name: 肖羡月「英国」
   date: 2024/09/13 21:04:29
   seat: right
   card: true
@@ -53,7 +53,7 @@
       completed: true
       due_date: 2024/09/13 21:04:29
 
-- class_name: 许光成
+- class_name: 许光成「香港」
   date: 2024/09/12 20:02:19
   seat: right
   card: true
@@ -66,7 +66,7 @@
       completed: true
       due_date: 2024/09/12 20:02:19
 
-- class_name: 付悦
+- class_name: 付悦「韩国」
   seat: left
   date: 2024/09/13 18:00:58
   card: true
@@ -76,7 +76,7 @@
       completed: true
       due_date: 2024/09/13 18:00:58
 
-- class_name: Sandy
+- class_name: Sandy「上海」
   seat: right
   date: 2024/09/13 19:03:42
   card: true
@@ -85,3 +85,13 @@
     - content: 01-2024-09-13 19.03.42-剩余3.5h
       completed: true
       due_date: 2024/09/13 19:03:42
+
+- class_name: 官子钊「加拿大」
+  seat: left
+  date: 2024/09/14 08:09:38
+  card: true
+  layout: default  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-14 08.09.38-剩余3h
+      completed: true
+      due_date: 2024/09/14 08:09:38

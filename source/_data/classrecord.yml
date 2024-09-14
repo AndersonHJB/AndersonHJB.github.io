@@ -32,7 +32,7 @@
 
 
 - class_name: 肖羡月
-  date: 2024/09/12 21:01:53
+  date: 2024/09/13 21:04:29
   seat: right
   card: true
   layout: default
@@ -49,6 +49,9 @@
     - content: 04-2024-09-12 21.01.53-剩余45h
       completed: true
       due_date: 2024/09/12 21:01:53
+    - content: 05-2024-09-13 21.04.29-剩余43.5h
+      completed: true
+      due_date: 2024/09/13 21:04:29
 
 - class_name: 许光成
   date: 2024/09/12 20:02:19
@@ -77,7 +80,7 @@
   seat: right
   date: 2024/09/13 19:03:42
   card: true
-  layout: document  # 使用文档式样式
+  layout: default  # 使用文档式样式
   todo_list:
     - content: 01-2024-09-13 19.03.42-剩余3.5h
       completed: true

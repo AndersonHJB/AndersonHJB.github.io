@@ -65,7 +65,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 50
+    limit_count: 300
 
 # social settings (社交图标设置)
 # formal:

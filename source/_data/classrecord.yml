@@ -1,6 +1,6 @@
 - class_name: 任新星「美国」
   seat: left
-  date: 2024/09/09 07:58:08
+  date: 2024/09/14 19:01:44
   card: true
   layout: document  # 使用文档式样式
   todo_list:
@@ -10,6 +10,9 @@
     - content: 02-2024-09-09 07.58.08-剩余8.5h
       completed: true
       due_date: 2024/09/09 07:58:08
+    - content: 03-2024-09-14 19.01.44-剩余7.5h
+      completed: true
+      due_date: 2024/09/14 19:01:44
 
       
 
@@ -32,7 +35,7 @@
 
 
 - class_name: 肖羡月「英国」
-  date: 2024/09/13 21:04:29
+  date: 2024/09/14 20:02:37
   seat: right
   card: true
   layout: default
@@ -52,6 +55,9 @@
     - content: 05-2024-09-13 21.04.29-剩余43.5h
       completed: true
       due_date: 2024/09/13 21:04:29
+    - content: 06-2024-09-14 20.02.37-剩余42h
+      completed: true
+      due_date: 2024/09/14 20:02:37
 
 - class_name: 许光成「香港」
   date: 2024/09/12 20:02:19

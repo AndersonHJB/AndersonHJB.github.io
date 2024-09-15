@@ -81,10 +81,10 @@
     - content: 01-2024-09-13 18.00.58-剩余9h
       completed: true
       due_date: 2024/09/13 18:00:58
-    - content: 02-2024-09-14 14.56.29-剩余8h
+    - content: 02-2024-09-14 14.56.29-剩余6.5h
       completed: true
       due_date: 2024/09/14 14:56:29
-    - content: 03-2024-09-15 16.58.33-剩余6h
+    - content: 03-2024-09-15 16.58.33-剩余4h
       completed: true
       due_date: 2024/09/15 16:58:33
 
@@ -107,3 +107,13 @@
     - content: 01-2024-09-14 08.09.38-剩余3h
       completed: true
       due_date: 2024/09/14 08:09:38
+
+- class_name: 王小宇「北京」
+  seat: left
+  date: 2024/09/15 19:06:37
+  card: true
+  layout: default  # 使用文档式样式
+  todo_list:
+    - content: 00-2024-09-15 19.06.37-剩余10h
+      completed: true
+      due_date: 2024/09/15 19:06:37

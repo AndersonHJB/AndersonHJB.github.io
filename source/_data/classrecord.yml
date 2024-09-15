@@ -74,7 +74,7 @@
 
 - class_name: 付悦「韩国」
   seat: left
-  date: 2024/09/14 14:56:29
+  date: 2024/09/15 16:58:33
   card: true
   layout: document  # 使用文档式样式
   todo_list:
@@ -84,6 +84,9 @@
     - content: 02-2024-09-14 14.56.29-剩余8h
       completed: true
       due_date: 2024/09/14 14:56:29
+    - content: 03-2024-09-15 16.58.33-剩余6h
+      completed: true
+      due_date: 2024/09/15 16:58:33
 
 - class_name: Sandy「上海」
   seat: right

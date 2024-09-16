@@ -1167,7 +1167,7 @@ nav_music:
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: ""
+  mail: "aiyuechuang@gmail.com"
 
 # ptool 文章底部工具
 ptool:

@@ -32,7 +32,8 @@
     
 
 - class_name: 友谊长存「2024」
-  class_desc: 交换友情链接
+  # class_desc: 交换友情链接
+  class_desc: 如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:

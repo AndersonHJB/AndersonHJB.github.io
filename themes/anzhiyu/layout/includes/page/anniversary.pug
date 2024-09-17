@@ -1,0 +1,13 @@
+#anniversary-box
+    - let anniversary_background = page.top_background
+    .author-content.author-content-item.anniversary.single(style=anniversary_background ? `background: url(${anniversary_background}) top / cover no-repeat` : "")
+        .card-content
+            .author-content-item-tips anniversary
+            span.author-content-item-title 喵喵纪念日
+            .content-bottom
+            .tips 时间如潮水般涌动向前，你会为谁停留片刻？
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 我的更多
+    #anniversary-main

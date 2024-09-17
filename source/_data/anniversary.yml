@@ -1,0 +1,9 @@
+anniversaries:
+  - title: 喵喵纪念日
+    date: "2024-09-30"
+    date_type: "lunar"  # 支持 "lunar" 和 "gregorian"
+    color: "#FFD700"  # 卡片背景颜色，可选
+  - title: 生日快乐
+    date: "2024-12-25"
+    date_type: "gregorian"
+    color: "#87CEEB"

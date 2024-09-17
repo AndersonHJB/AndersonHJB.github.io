@@ -23,6 +23,7 @@ menu:
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+    喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
 
 # nav相关配置
 nav:
@@ -1304,6 +1305,7 @@ inject:
     - <link rel="stylesheet" href="/static/css/imgloaded.css?1"> 
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
+    - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
     - <script src="/static/js/todo-date-calculation.js"></script>
     - <script src="/static/js/todo-toggle.js"></script>
     - <script src="/static/js/classrecord-toggle.js"></script>

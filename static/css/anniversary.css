@@ -1,0 +1,15 @@
+body[data-type="anniversary"] #web_bg {
+    background: var(--anzhiyu-background);
+}
+
+body[data-type="anniversary"] #page {
+    border: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    background: 0 0 !important;
+}
+
+body[data-type="anniversary"] #page .page-title {
+    display: none;
+}

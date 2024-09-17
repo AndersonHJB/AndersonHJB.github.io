@@ -120,3 +120,23 @@
     - content: 00-2024-09-15 19.06.37-剩余10h
       completed: true
       due_date: 2024/09/15 19:06:37
+
+- class_name: 盛昊天「苏州」
+  seat: left
+  date: 2024/09/17 09:02:57
+  card: true
+  layout: default  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-17 09.02.57-剩余6h
+      completed: true
+      due_date: 2024/09/17 09:02:57
+
+- class_name: 仇真「浙江」
+  seat: right
+  date: 2024/09/15 21:04:00
+  card: true
+  layout: default  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-15 21.04.00-剩余30h
+      completed: true
+      due_date: 2024/09/15 21:04:00

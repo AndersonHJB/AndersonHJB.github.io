@@ -139,7 +139,11 @@
       avatar: /img/link/25-blog.joker2yue.cn.jpg
       descr: Joker Never Plays Jokes.
       tag: 技术
-
+    - name: 刘郎阁
+      link: https://yjvc.cn/
+      avatar: /img/link/26-yjvc.cn.jpeg
+      descr: 一个积极向上的生活探索者！
+      tag: 生活
 
 
 - class_name: 小伙伴

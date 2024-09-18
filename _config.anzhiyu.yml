@@ -1310,6 +1310,8 @@ inject:
     - <script src="/static/js/todo-toggle.js"></script>
     - <script src="/static/js/classrecord-toggle.js"></script>
     - <script src="/static/js/classrecord-date-calculation.js"></script>
+    - <script src="/static/js/anniversary.js"></script>
+    - <script src="/static/js/lunar.js"></script>
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css

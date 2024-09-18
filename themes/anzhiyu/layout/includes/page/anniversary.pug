@@ -11,3 +11,14 @@
                 i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
                 span.banner-button-text 我的更多
     #anniversary-main
+      .anniversary-cards
+        each item in site.data.anniversary
+          .anniversary-card(style=`background-color: ${item.color}`)
+            .card-content
+              .card-title #{item.name}
+              .card-date 开始日期：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
+              .card-countdown 剩余天数：
+                span.countdown(data-date=item.date data-lunar=item.lunar) 计算中...
+              .card-total-days 已经过的天数：
+                span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
+

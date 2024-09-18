@@ -15,7 +15,8 @@ email: aiyuechuang@gmail.com
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://AndersonHJB.github.io
+# url: https://AndersonHJB.github.io
+url: https://blog.bornforthis.cn/
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html  ## 此处可以自己设置
 permalink_defaults:

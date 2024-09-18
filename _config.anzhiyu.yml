@@ -417,7 +417,7 @@ chat_hide_show: true
 # chatra
 # https://chatra.io/
 chatra:
-  enable: true
+  enable: false
   id: EAfok66ZyJmrAiWpC
 
 # tidio
@@ -1127,7 +1127,7 @@ bubble:
 
 #  控制台打印信息
 console:
-  enable: true
+  enable: false
 
 # 51a统计配置
 LA:
@@ -1224,7 +1224,7 @@ post_head_ai_description:
 
 # 快捷键配置
 shortcutKey:
-  enable: true
+  enable: false
   delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
   shiftDelay: 200 # shift按下延时多久开启
 

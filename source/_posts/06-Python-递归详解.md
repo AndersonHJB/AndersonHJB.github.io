@@ -174,10 +174,43 @@ factorial(5)                        # 第 1 次调用使用 5
 
 使用递归函数需要注意防止栈溢出。在计算机中，函数调用是通过栈（stack）这种数据结构实现的，每当进入一个函数调用，栈就会加一层栈帧，每当函数返回，栈就会减一层栈帧。由于栈的大小不是无限的，所以，递归调用的次数过多，会导致栈溢出。可以试试 factorial(1000)：
 
+```python
+Traceback (most recent call last):
+  File "D:/Windows_Code/Tester/Lesson01_wxl/lesson02.py", line 8, in <module>
+    r = factorial(1000)
+  File "D:/Windows_Code/Tester/Lesson01_wxl/lesson02.py", line 5, in factorial
+    return n * factorial(n - 1)  # 问题规模减1，递归调用
+  File "D:/Windows_Code/Tester/Lesson01_wxl/lesson02.py", line 5, in factorial
+    return n * factorial(n - 1)  # 问题规模减1，递归调用
+  File "D:/Windows_Code/Tester/Lesson01_wxl/lesson02.py", line 5, in factorial
+    return n * factorial(n - 1)  # 问题规模减1，递归调用
+  [Previous line repeated 995 more times]
+  File "D:/Windows_Code/Tester/Lesson01_wxl/lesson02.py", line 2, in factorial
+    if n == 1 or n == 0:
+RecursionError: maximum recursion depth exceeded in comparison
+```
 
+### 2.1.3 递归的优缺点
 
+从“编程之美”的角度来看，引用一句伟大的计算机编程名言：
 
+> To iterate is human,to recurse divine.
+> 迭代者为人，递归者为神。
+> – L. Peter Deutsch
 
+**优点：**
+
+1. 递归使代码看起来更加整洁、优雅；
+2. 可以用递归将复杂任务分解成更简单的子问题；
+3. 使用递归比使用一些嵌套迭代更容易；
+4. 总之：递归函数的优点是定义简单，逻辑清晰。理论上，所有的递归函数都可以写成循环的方式，但循环的逻辑不如递归清晰。
+
+**缺点：**
+
+1. 递归的逻辑很难调试、跟进；
+2. 递归调用的代价高昂（效率低），因为占用了大量的内存和时间。
+
+## 2.2 高斯求和
 
 
 

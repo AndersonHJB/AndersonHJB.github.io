@@ -212,11 +212,39 @@ RecursionError: maximum recursion depth exceeded in comparison
 
 ## 2.2 高斯求和
 
+典型的高斯求和问题，`1+2+3+4+…+99+100`，不使用递归的话，我们可以用循环，这么做：
 
+```python
+In [19]: def sum_number(n):
+    ...:     total = 0
+    ...:     for i in range(1, n+1):
+    ...:         total += i
+    ...:     return total
+    ...:
 
+In [20]: sum_number(100)
+Out[20]: 5050
+```
 
+但如果使用递归函数来写，是这样的：
 
+```python
+In [21]: def sum_number(n):
+    ...:     if n <= 0:
+    ...:         return 0
+    ...:     return n + sum_number(n-1)
+    ...:
 
+In [22]: sum_number(100)
+Out[22]: 5050
+```
+**分析一下代码：**
+
+- 当 n 小于等于 0 的时候，直接给出和值为 0，这句不能省。
+- 当 n 大于 0 时，结果是 n 加上 `sum_number(n-1)` 。这里的 `sum_number(n-1)` 又是一次 `sum_number` 函数的调用，不过参数的值变成了 `n-1`。
+- 要得 `sum_number(n)` 到的值就必须等待 `sum_number(n-1)` 的值被计算出来，同样要得到 `sum_number(n-1)` 的值必须等待 `sum_number(n-2)` 的值，如此一路推算下去，直到 `sum_number(0)`，因为 if 语句的存在，它不需要等待 `sum_number(-1)` 的计算了，而是直接给出结果 0。然后程序一路返回，直到回到最初的 `sum_number(n)`，并给出最终结果。
+
+递归最核心的思想是：**每一次递归，整体问题都要比原来减小，并且递归到一定层次时，要能直接给出结果！**
 
 
 

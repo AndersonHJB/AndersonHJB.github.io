@@ -4,15 +4,15 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>别碰我的镜头盖</title>
-    <link>https://AndersonHJB.github.io/</link>
+    <link>https://blog.bornforthis.cn/</link>
     
     <image>
-      <url>https://andersonhjb.github.io/icon.png</url>
+      <url>https://blog.bornforthis.cn/icon.png</url>
       <title>别碰我的镜头盖</title>
-      <link>https://AndersonHJB.github.io/</link>
+      <link>https://blog.bornforthis.cn/</link>
     </image>
     
-    <atom:link href="https://andersonhjb.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
     <pubDate>Sun, 15 Sep 2024 09:40:05 GMT</pubDate>
@@ -20,8 +20,8 @@
     
     <item>
       <title>诺怡 Python 笔记</title>
-      <link>https://andersonhjb.github.io/posts/65db6129.html</link>
-      <guid>https://andersonhjb.github.io/posts/65db6129.html</guid>
+      <link>https://blog.bornforthis.cn/posts/65db6129.html</link>
+      <guid>https://blog.bornforthis.cn/posts/65db6129.html</guid>
       <pubDate>Sun, 15 Sep 2024 09:06:56 GMT</pubDate>
       
       <description>本篇是 Python 私教的编程题目测试</description>
@@ -29,22 +29,22 @@
       
       
       
-      <category domain="https://AndersonHJB.github.io/categories/Python%E7%A7%81%E6%95%99/">Python私教</category>
+      <category domain="https://blog.bornforthis.cn/categories/Python%E7%A7%81%E6%95%99/">Python私教</category>
       
       
-      <category domain="https://AndersonHJB.github.io/tags/%E7%AB%9E%E8%B5%9B%E8%BE%85%E5%AF%BC/">竞赛辅导</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E7%AB%9E%E8%B5%9B%E8%BE%85%E5%AF%BC/">竞赛辅导</category>
       
-      <category domain="https://AndersonHJB.github.io/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
       
       
-      <comments>https://andersonhjb.github.io/posts/65db6129.html#disqus_thread</comments>
+      <comments>https://blog.bornforthis.cn/posts/65db6129.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Hexo美化：自适应切换渐进式加载首页图</title>
-      <link>https://andersonhjb.github.io/posts/cf45a15f.html</link>
-      <guid>https://andersonhjb.github.io/posts/cf45a15f.html</guid>
+      <link>https://blog.bornforthis.cn/posts/cf45a15f.html</link>
+      <guid>https://blog.bornforthis.cn/posts/cf45a15f.html</guid>
       <pubDate>Thu, 29 Aug 2024 12:48:40 GMT</pubDate>
       
       <description>本篇是实现首页一图流的教程</description>
@@ -52,22 +52,22 @@
       
       
       
-      <category domain="https://AndersonHJB.github.io/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
       
       
-      <category domain="https://AndersonHJB.github.io/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
-      <category domain="https://AndersonHJB.github.io/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/">网站魔改教程</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/">网站魔改教程</category>
       
       
-      <comments>https://andersonhjb.github.io/posts/cf45a15f.html#disqus_thread</comments>
+      <comments>https://blog.bornforthis.cn/posts/cf45a15f.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>网站文章编写笔记</title>
-      <link>https://andersonhjb.github.io/posts/0.html</link>
-      <guid>https://andersonhjb.github.io/posts/0.html</guid>
+      <link>https://blog.bornforthis.cn/posts/0.html</link>
+      <guid>https://blog.bornforthis.cn/posts/0.html</guid>
       <pubDate>Tue, 27 Aug 2024 16:03:11 GMT</pubDate>
       
       <description>本篇是我研究安知鱼主题编写文章的方法。</description>
@@ -75,22 +75,22 @@
       
       
       
-      <category domain="https://AndersonHJB.github.io/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
       
       
-      <category domain="https://AndersonHJB.github.io/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
-      <category domain="https://AndersonHJB.github.io/tags/%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99/">网站文章编写</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99/">网站文章编写</category>
       
       
-      <comments>https://andersonhjb.github.io/posts/0.html#disqus_thread</comments>
+      <comments>https://blog.bornforthis.cn/posts/0.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>安知鱼主题标签 Tag Plugins</title>
-      <link>https://andersonhjb.github.io/posts/d50a.html</link>
-      <guid>https://andersonhjb.github.io/posts/d50a.html</guid>
+      <link>https://blog.bornforthis.cn/posts/d50a.html</link>
+      <guid>https://blog.bornforthis.cn/posts/d50a.html</guid>
       <pubDate>Mon, 26 Aug 2024 07:55:44 GMT</pubDate>
       
       <description>添加大量外挂标签样式。</description>
@@ -99,19 +99,19 @@
       
       
       
-      <category domain="https://AndersonHJB.github.io/tags/Tag-Plugins/">Tag Plugins</category>
+      <category domain="https://blog.bornforthis.cn/tags/Tag-Plugins/">Tag Plugins</category>
       
-      <category domain="https://AndersonHJB.github.io/tags/Hexo/">Hexo</category>
+      <category domain="https://blog.bornforthis.cn/tags/Hexo/">Hexo</category>
       
       
-      <comments>https://andersonhjb.github.io/posts/d50a.html#disqus_thread</comments>
+      <comments>https://blog.bornforthis.cn/posts/d50a.html#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>我的 Mac 推荐</title>
-      <link>https://andersonhjb.github.io/posts/daebc472.html</link>
-      <guid>https://andersonhjb.github.io/posts/daebc472.html</guid>
+      <link>https://blog.bornforthis.cn/posts/daebc472.html</link>
+      <guid>https://blog.bornforthis.cn/posts/daebc472.html</guid>
       <pubDate>Fri, 16 Aug 2024 09:42:17 GMT</pubDate>
       
         
@@ -126,15 +126,15 @@
       
       
       
-      <category domain="https://AndersonHJB.github.io/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/">好物推荐</category>
+      <category domain="https://blog.bornforthis.cn/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/">好物推荐</category>
       
       
-      <category domain="https://AndersonHJB.github.io/tags/%E6%97%A5%E5%B8%B8/">日常</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E6%97%A5%E5%B8%B8/">日常</category>
       
-      <category domain="https://AndersonHJB.github.io/tags/%E8%AF%84%E6%B5%8B/">评测</category>
+      <category domain="https://blog.bornforthis.cn/tags/%E8%AF%84%E6%B5%8B/">评测</category>
       
       
-      <comments>https://andersonhjb.github.io/posts/daebc472.html#disqus_thread</comments>
+      <comments>https://blog.bornforthis.cn/posts/daebc472.html#disqus_thread</comments>
       
     </item>
     

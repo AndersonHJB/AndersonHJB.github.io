@@ -10,12 +10,25 @@
 - name: 喵喵纪念日
   date: '2024-09-18 10:26:51'
   lunar: false
-  color: '#ffa500'
+  color: '#e63946'
 - name: 结婚纪念日
   date: '2024-05-02'
   lunar: false
-  color: '#FFC0CB'
-- name: 生日
-  date: '1997-12-25'
+  color: '#f1faee'
+- name: Bornforthis 生日
+  # date: '1997-12-25'
+  date: '1997-11-26'
   lunar: true
-  color: '#ADD8E6'
+  color: '#a8dadc'
+- name: 国庆节
+  date: '2018-10-01'
+  lunar: false
+  color: '#457b9d'
+- name: 大埕 MM
+  date: '1977-08-22'
+  lunar: true
+  color: '#e3d5ca'
+- name: 结婚证
+  date: '2024-02-26'
+  lunar: false
+  color: '#ffb3c6'

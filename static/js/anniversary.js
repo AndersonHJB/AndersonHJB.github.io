@@ -47,20 +47,20 @@ function initializeAnniversary() {
     countdownElements.forEach(function (elem) {
       const dateStr = elem.getAttribute('data-date');
       const isLunar = elem.hasAttribute('data-lunar');
-      console.log(dateStr);
-      console.log(isLunar);
-      console.log(elem.getAttribute('data-lunar'));
-      console.log(elem);
+    //   console.log(dateStr);
+    //   console.log(isLunar);
+    //   console.log(elem.getAttribute('data-lunar'));
+    //   console.log(elem);
       elem.textContent = daysLeft(dateStr, isLunar);
     });
     totalDaysElements.forEach(function (elem) {
       const dateStr = elem.getAttribute('data-date');
       const isLunar = elem.hasAttribute('data-lunar');
       elem.textContent = totalDays(dateStr, isLunar);
-      console.log(dateStr);
-      console.log(isLunar);
-      console.log(elem.getAttribute('data-lunar'));
-      console.log(elem);
+    //   console.log(dateStr);
+    //   console.log(isLunar);
+    //   console.log(elem.getAttribute('data-lunar'));
+    //   console.log(elem);
     });
   }
   

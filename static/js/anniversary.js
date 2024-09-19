@@ -2,14 +2,10 @@
 
 function initializeAnniversary() {
     // 引入农历转换库，利用 Lunar.js 进行农历到阳历的转换
-    function lunarToSolar(year, month, day) {
-      try {
-        const lunarDate = Lunar.fromYmdHms(year, month, day, 0, 0, 0);
-        return lunarDate.getSolar();
-      } catch (error) {
-        console.error('输入的农历日期不正确:', error);
-        return null;
-      }
+    function lunarToSolar(lunarDateStr, year) {
+      const [lunarYear, lunarMonth, lunarDay] = lunarDateStr.split('-').map(Number);
+      const solarDate = Lunar.fromYmd(year, lunarMonth, lunarDay).getSolar();
+      return new Date(solarDate.getYear(), solarDate.getMonth() - 1, solarDate.getDay());
     }
   
     // 计算两个日期之间的天数差
@@ -27,23 +23,13 @@ function initializeAnniversary() {
       let anniversaryDate;
   
       if (isLunar) {
-        const [lunarYear, lunarMonth, lunarDay] = dateStr.split('-').map(Number);
+        // 将农历日期转换为当前年份对应的阳历日期
         const now = new Date();
-        const currentYear = now.getFullYear();
+        anniversaryDate = lunarToSolar(dateStr, now.getFullYear());
   
-        // 将用户输入的农历日期转换为当前年份的阳历日期
-        anniversaryDate = lunarToSolar(currentYear, lunarMonth, lunarDay);
-  
-        // 如果当前日期已经过了这个阳历日期，计算下一年的农历日期
-        if (anniversaryDate) {
-          let nextAnniversary = new Date(anniversaryDate.getYear(), anniversaryDate.getMonth() - 1, anniversaryDate.getDay());
-          if (nextAnniversary < now) {
-            const nextYearSolarDate = lunarToSolar(currentYear + 1, lunarMonth, lunarDay);
-            if (nextYearSolarDate) {
-              nextAnniversary = new Date(nextYearSolarDate.getYear(), nextYearSolarDate.getMonth() - 1, nextYearSolarDate.getDay());
-            }
-          }
-          anniversaryDate = nextAnniversary;
+        // 如果当前日期已经过了转换后的日期，计算下一年的农历日期
+        if (anniversaryDate < now) {
+          anniversaryDate = lunarToSolar(dateStr, now.getFullYear() + 1);
         }
       } else {
         // 如果是阳历日期，直接获取对应日期
@@ -58,13 +44,9 @@ function initializeAnniversary() {
         anniversaryDate = nextAnniversary;
       }
   
-      if (anniversaryDate) {
-        const now = new Date();
-        const daysLeft = daysBetween(now, anniversaryDate);
-        elem.textContent = daysLeft;
-      } else {
-        elem.textContent = '--';
-      }
+      const now = new Date();
+      const daysLeft = daysBetween(now, anniversaryDate);
+      elem.textContent = daysLeft;
     });
   
     totalDaysElements.forEach(function (elem) {
@@ -73,19 +55,16 @@ function initializeAnniversary() {
       let startDate;
   
       if (isLunar) {
-        const [lunarYear, lunarMonth, lunarDay] = dateStr.split('-').map(Number);
-        startDate = lunarToSolar(lunarYear, lunarMonth, lunarDay);
+        // 将农历日期转换为开始年份对应的阳历日期
+        const lunarYear = parseInt(dateStr.split('-')[0], 10);
+        startDate = lunarToSolar(dateStr, lunarYear);
       } else {
         startDate = new Date(dateStr);
       }
   
-      if (startDate) {
-        const now = new Date();
-        const totalDays = daysBetween(startDate, now);
-        elem.textContent = totalDays;
-      } else {
-        elem.textContent = '--';
-      }
+      const now = new Date();
+      const totalDays = daysBetween(startDate, now);
+      elem.textContent = totalDays;
     });
   }
   

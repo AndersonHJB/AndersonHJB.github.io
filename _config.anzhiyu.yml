@@ -1322,7 +1322,7 @@ inject:
     # 自定义js
     # - <script src="/static/js/welcome.js"></script>
     - <script async data-pjax src="/static/js/imgloaded.js?1"></script> # 首页图片渐进式加载
-    - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script>
+    - <script src="/static/js/echarts.min.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

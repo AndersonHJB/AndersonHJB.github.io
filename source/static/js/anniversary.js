@@ -4,7 +4,8 @@ function initializeAnniversary() {
     // 引入农历转换库，利用 Lunar.js 进行农历到阳历的转换
     function lunarToSolar(lunarDateStr, year) {
       const [lunarYear, lunarMonth, lunarDay] = lunarDateStr.split('-').map(Number);
-      const solarDate = Lunar.fromYmd(year, lunarMonth, lunarDay).getSolar();
+    //   const solarDate = Lunar.fromYmd(year, lunarMonth, lunarDay).getSolar();
+      const solarDate = Lunar.fromYmdHms(year, lunarMonth, lunarDay, 0, 0, 0).getSolar();
       return new Date(solarDate.getYear(), solarDate.getMonth() - 1, solarDate.getDay());
     }
   

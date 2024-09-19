@@ -1306,12 +1306,6 @@ inject:
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
-    - <script src="/static/js/todo-date-calculation.js"></script>
-    - <script src="/static/js/todo-toggle.js"></script>
-    - <script src="/static/js/classrecord-toggle.js"></script>
-    - <script src="/static/js/classrecord-date-calculation.js"></script>
-    - <script src="/static/js/anniversary.js"></script>
-    - <script src="/static/js/lunar.js"></script>
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css
@@ -1323,6 +1317,12 @@ inject:
     # - <script src="/static/js/welcome.js"></script>
     - <script async data-pjax src="/static/js/imgloaded.js?1"></script> # 首页图片渐进式加载
     - <script src="/static/js/echarts.min.js"></script>
+    - <script src="/static/js/todo-date-calculation.js"></script>
+    - <script src="/static/js/todo-toggle.js"></script>
+    - <script src="/static/js/classrecord-toggle.js"></script>
+    - <script src="/static/js/classrecord-date-calculation.js"></script>
+    - <script src="/static/js/anniversary.js"></script>
+    - <script src="/static/js/lunar.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

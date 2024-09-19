@@ -66,7 +66,7 @@
       due_date: 2024/09/18 22:02:34
 
 - class_name: 许光成「香港」
-  date: 2024/09/12 20:02:19
+  date: 2024/09/19 17:55:01
   seat: right
   card: true
   layout: default
@@ -74,9 +74,12 @@
     - content: 01-2024-09-10 19.59.28-剩余7h
       completed: true
       due_date: 2024/09/10 21:00:00
-    - content: 02-2024-09-12 20.02.19-剩余6h
+    - content: 02-2024-09-12 20.02.19-剩余6h-剩余5h
       completed: true
       due_date: 2024/09/12 20:02:19
+    - content: 03-2024-09-19 17.55.01-剩余4h
+      completed: true
+      due_date: 2024/09/19 17:55:01
 
 - class_name: 付悦「韩国」
   seat: left
@@ -125,7 +128,7 @@
 
 - class_name: 王小宇「北京」
   seat: left
-  date: 2024/09/17 15:09:44
+  date: 2024/09/19 18:56:10
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -135,6 +138,9 @@
     - content: 01-2024-09-17 15.09.44-剩余8h
       completed: true
       due_date: 2024/09/17 15:09:44
+    - content: 03-2024-09-19 18.56.10-剩余4h
+      completed: true
+      due_date: 2024/09/19 18:56:10
 
 - class_name: 盛昊天「苏州」
   seat: left

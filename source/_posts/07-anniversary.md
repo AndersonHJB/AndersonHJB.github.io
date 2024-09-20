@@ -406,6 +406,12 @@ document.addEventListener("pjax:complete", initializeAnniversary);
 
 
 <!-- tab 喵喵纪念日-V0.2 -->
+{% tabs anniversary3 %}
+> 发布日期📅：{% span cyan log, 2024-09-20 19:52:52 %}
+
+{% endtabs %}
+<!-- endtab -->
+<!-- tab 喵喵纪念日-V0.3 -->
 {% tabs anniversary2 %}
 
 {% endtabs %}

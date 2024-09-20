@@ -1,5 +1,6 @@
 - name: 喵喵纪念日
   date: '2024-09-18'
+  icon: '/img/favicon.svg'
   lunar: false
   color: '#e63946'
 - name: 结婚纪念日

@@ -15,7 +15,10 @@
         each item in site.data.anniversary
           .anniversary-card(style=`background-color: ${item.color}`)
             .card-content
-              .card-title #{item.name}
+              .card-title
+                if item.icon
+                  img.card-icon(src=item.icon alt="icon")
+                | #{item.name}  <!-- 始终显示标题 -->
               .card-date 开始日期：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
               .card-target-date 目标日期：
                 span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
@@ -23,4 +26,5 @@
                 span.countdown(data-date=item.date data-lunar=item.lunar) 计算中...
               .card-total-days 已经过的天数：
                 span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
+
 

@@ -223,10 +223,184 @@ body[data-type="anniversary"] #page .page-title {
 
 <!-- tab 4. anniversary.js -->
 - Path: `/source/static/js/anniversary.js`
+
+代码如下：
+
+```javascript
+// anniversary.js
+
+function initializeAnniversary() {
+    function LunarDate(Year, Month, Day) {
+        try {
+            let solar = Lunar.fromYmdHms(Year, Month, Day, 0, 0, 0).getSolar();
+            return new Date(solar.getYear(), solar.getMonth() - 1, solar.getDay());
+        } catch (error) {
+            return LunarDate(Year, Month, Day - 1);
+        }
+    }
+    // 计算两个日期之间的天数差
+    function daysBetween(date1, date2) {
+        const oneDay = 24 * 60 * 60 * 1000;
+        return Math.ceil((date2 - date1) / oneDay);
+    }
+    // 剩余天数
+    function daysLeft(dateStr, isLunar) {
+        const [Year, Month, Day] = dateStr.split("-").map(Number);
+        let now = new Date();
+        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        let anniversaryDate;
+        if (isLunar) {
+            anniversaryDate = LunarDate(now.getFullYear(), Month, Day);
+            if (anniversaryDate < now) {
+                anniversaryDate = LunarDate(now.getFullYear() + 1, Month, Day);
+            }
+        } else {
+            anniversaryDate = new Date(now.getFullYear(), Month - 1, Day);
+            if (anniversaryDate < now) {
+                anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
+            }
+        }
+        return daysBetween(now, anniversaryDate);
+    }
+    // 经过天数
+    function totalDays(dateStr, isLunar) {
+        const [Year, Month, Day] = dateStr.split("-").map(Number);
+        let now = new Date();
+        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        let startDate;
+        if (isLunar) {
+            startDate = LunarDate(Year, Month, Day);
+        } else {
+            startDate = new Date(Year, Month - 1, Day);
+        }
+        return daysBetween(startDate, now);
+    }
+    // 返回目标日期
+    function targetDate(dateStr, isLunar) {
+        const [Year, Month, Day] = dateStr.split("-").map(Number);
+        let now = new Date();
+        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        let anniversaryDate;
+        if (isLunar) {
+            anniversaryDate = LunarDate(now.getFullYear(), Month, Day);
+            if (anniversaryDate < now) {
+                anniversaryDate = LunarDate(now.getFullYear() + 1, Month, Day);
+            }
+        } else {
+            anniversaryDate = new Date(now.getFullYear(), Month - 1, Day);
+            if (anniversaryDate < now) {
+                anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
+            }
+        }
+        // 手动拼接日期，确保月份和日期都是两位数
+        const year = anniversaryDate.getFullYear();
+        const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
+        const day = anniversaryDate.getDate().toString().padStart(2, '0');
+        return `${year}-${month}-${day}`; // 使用'-'作为分隔符
+        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
+        // return anniversaryDate.toLocaleDateString('zh-CN');
+    }
+
+    const countdownElements = document.querySelectorAll(".countdown");
+    const totalDaysElements = document.querySelectorAll(".total-days");
+    const targetDateElements = document.querySelectorAll(".target-date");
+
+    countdownElements.forEach(function (elem) {
+        const dateStr = elem.getAttribute("data-date");
+        const isLunar = elem.hasAttribute("data-lunar");
+        elem.textContent = daysLeft(dateStr, isLunar);
+    });
+
+    totalDaysElements.forEach(function (elem) {
+        const dateStr = elem.getAttribute("data-date");
+        const isLunar = elem.hasAttribute("data-lunar");
+        elem.textContent = totalDays(dateStr, isLunar);
+    });
+
+    // 显示目标日期
+    targetDateElements.forEach(function (elem) {
+        const dateStr = elem.getAttribute("data-date");
+        const isLunar = elem.hasAttribute("data-lunar");
+        elem.textContent = targetDate(dateStr, isLunar);
+    });
+}
+
+// 初始页面加载
+document.addEventListener("DOMContentLoaded", initializeAnniversary);
+
+// 适配 pjax
+document.addEventListener("pjax:complete", initializeAnniversary);
+```
+<!-- endtab -->
+<!-- tab 5. anniversary.yml -->
+- Path: `/source/_data/anniversary.yml`
+
+**代码如下：**
+
+```yml
+- name: 喵喵纪念日
+  date: '2024-09-18'
+  icon: '/img/favicon.svg'
+  lunar: false
+  color: '#e63946'
+- name: 结婚纪念日
+  date: '2024-05-02'
+  lunar: false
+  color: '#f1faee'
+- name: Bornforthis 生日
+  # date: '1997-12-25'
+  date: '1997-11-26'
+  lunar: true
+  color: '#a8dadc'
+- name: 国庆节
+  date: '2018-10-01'
+  lunar: false
+  color: '#457b9d'
+- name: 结婚证
+  date: '2024-02-26'
+  lunar: false
+  color: '#ffb3c6'
+- name: 妈妈👩
+  date: '1968-12-18'
+  lunar: true
+  color: '#ffb3c6'
+- name: 爸爸👨
+  date: '1967-07-29'
+  lunar: true
+  color: '#ffb3c6'
+- name: 老丈人
+  date: '1975-10-04'
+  lunar: true
+  color: '#ffb3c6'
+- name: 大埕 MM
+  date: '1977-08-22'
+  lunar: true
+  color: '#e3d5ca'
+- name: 儿童节
+  date: '1949-06-01'
+  lunar: false
+  color: '#e3d5ca'
+- name: 除夕
+  date: '1949-12-29'
+  lunar: true
+  color: '#e3d5ca'
+- name: 生日🎂
+  date: '1949-12-30'
+  lunar: true
+  color: '#fb6f92'
+- name: 见面
+  date: '2024-02-08'
+  lunar: false
+  color: '#f7a072'
+```
 <!-- endtab -->
 
 {% endtabs %}
 <!-- endtab -->
+
+
+
+
 
 <!-- tab 喵喵纪念日-V0.2 -->
 {% tabs anniversary2 %}

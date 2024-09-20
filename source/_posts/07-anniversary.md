@@ -1,7 +1,8 @@
 ---
-title: Python 递归详解
+title: 给你的网站添加喵喵纪念日页面
 tags:
   - 喵喵纪念日
+  - 纪念日页面
 categories:
   - hexo 网站相关
 description: 本篇是实现纪念日页面的代码记录，以及随时浮现的想法，转瞬即逝～
@@ -17,6 +18,7 @@ top_group_index: 1
 background: '#fff'
 aside: true
 ai:
+  - '时间如潮水般涌动向前，你会为谁停留片刻？你此刻为我停留，请留下你的足迹👣......'
 abbrlink: 41c7c45e
 date: 2024-09-20 18:57:29
 toc_number:

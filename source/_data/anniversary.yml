@@ -48,3 +48,7 @@
   date: '1949-06-01'
   lunar: false
   color: '#e3d5ca'
+- name: 除夕
+  date: '1949-12-30'
+  lunar: true
+  color: '#e3d5ca'

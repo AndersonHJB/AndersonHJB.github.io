@@ -49,6 +49,16 @@
       completed: true
     - content: 《沧园图》
       completed: true
+- class_name: 喵喵纪念日
+  seat: right
+  date: 2024/09/18 13:14:52
+  layout: default
+  card: false
+  todo_list:
+    - content: 改进喵喵纪念日标题与卡片上方的距离
+      completed: false
+    - content: 看能否实现点击卡片后，浮出该纪念日的故事，如果有的话；
+      completed: false
 
 - class_name: 想买的东西
   date: 2024/10/06 12:04:30

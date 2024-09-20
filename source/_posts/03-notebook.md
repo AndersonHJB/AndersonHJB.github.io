@@ -112,6 +112,31 @@ with open('gpt.txt', 'w') as f:
     f.write(result)
 ```
 <!-- endtab -->
+<!-- tab 2. anniversary -->
+
+- 喵喵纪念日会使用到的代码：
+
+```python
+import os
+
+lst = [
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/_data/anniversary.yml',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/static/js/anniversary.js',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/themes/anzhiyu/layout/includes/page/anniversary.pug',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/static/css/anniversary.css'
+]
+
+result = ''
+for path in lst:
+    filename = path.split('/')[-1]
+    with open(path, 'r') as f:
+        content = f.read()
+        result += filename + ':\n' + content + '\n'
+print(result)
+with open('gpt.txt', 'w') as f:
+    f.write(result)
+```
+<!-- endtab -->
 
 {% endtabs %}
 

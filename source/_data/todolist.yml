@@ -64,7 +64,7 @@
       completed: false
     - content: 加上版权标识，希望有用的大佬们推广～希望吧。在yml作为可选配置；
       completed: false
-    - content: 改进卡片样式；
+    - content: 改进卡片样式，宽度和顶图宽度不一致；
       completed: false
 
 - class_name: 想买的东西

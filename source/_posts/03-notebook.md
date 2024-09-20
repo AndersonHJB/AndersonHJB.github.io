@@ -82,9 +82,42 @@ ai:
 {% endfolding %}
 ```
 
+# 3. Code
 
+{% tabs todolist %}
 
-{% tabs p,3 %}
+<!-- tab 1. todolist -->
+
+- 开发 todolist 会用到的 Python 代码:
+
+```python
+import os
+
+lst = [
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/_data/todolist.yml',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/static/js/todo-toggle.js',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/static/js/todo-date-calculation.js',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/themes/anzhiyu/layout/includes/page/todolist.pug',
+    '/Users/huangjiabao/GitHub/WebSite/AndersonHJB.github.io/source/static/css/todolist.css'
+]
+
+result = ''
+for path in lst:
+    filename = path.split('/')[-1]
+    with open(path, 'r') as f:
+        content = f.read()
+        result += filename + ':\n' + content + '\n'
+print(result)
+with open('gpt.txt', 'w') as f:
+    f.write(result)
+```
+<!-- endtab -->
+
+{% endtab %}
+
+# 4. Front-matter
+
+{% tabs Page,2 %}
 
 <!-- tab Page Front-matter -->
 
@@ -107,35 +140,7 @@ ai:
 
 <!-- endtab -->
 
-<!-- tab 标签语法 -->
-
-
-
-<!-- endtab -->
-
-<!-- tab 标签语法 -->
-
-
-
-<!-- endtab -->
-
-<!-- tab 标签语法 -->
-
-
-
-<!-- endtab -->
-
-<!-- tab 标签语法 -->
-
-
-
-<!-- endtab -->
-
-{% endtabs%}
-
-
-
-# Post Front-matter
+<!-- tab Post Front-matter -->
 
 | 写法                  | 解释                                                         |
 | :-------------------- | :----------------------------------------------------------- |
@@ -170,4 +175,11 @@ ai:
 1. 首页轮播图配置: `swiper_index`, 数字越小越靠前
 2. 首页卡片配置: `top_group_index`, 数字越小越靠前
 3. page 中`top_single_background`, 可配置部分页面的顶部背景图片
+
+
+<!-- endtab -->
+
+{% endtabs %}
+
+
 

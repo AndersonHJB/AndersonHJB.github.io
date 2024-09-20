@@ -63,8 +63,13 @@ function initializeAnniversary() {
                 anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
             }
         }
-        //   return anniversaryDate.toDateString();
-        return anniversaryDate.toLocaleDateString('zh-CN');
+        // 手动拼接日期，确保月份和日期都是两位数
+        const year = anniversaryDate.getFullYear();
+        const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
+        const day = anniversaryDate.getDate().toString().padStart(2, '0');
+        return `${year}-${month}-${day}`; // 使用'-'作为分隔符
+        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
+        // return anniversaryDate.toLocaleDateString('zh-CN');
     }
 
     const countdownElements = document.querySelectorAll(".countdown");

@@ -46,7 +46,8 @@
   card: false
   todo_list:
     - content: 《夜幕之下》
-      completed: true
+      completed: false
+      current: ing
     - content: 《沧园图》
       completed: true
 - class_name: 喵喵纪念日
@@ -58,6 +59,12 @@
     - content: 改进喵喵纪念日标题与卡片上方的距离
       completed: false
     - content: 看能否实现点击卡片后，浮出该纪念日的故事，如果有的话；
+      completed: false
+    - content: 选择一套常用的图标，生成链接，方便大家复用；
+      completed: false
+    - content: 加上版权标识，希望有用的大佬们推广～希望吧。在yml作为可选配置；
+      completed: false
+    - content: 改进卡片样式；
       completed: false
 
 - class_name: 想买的东西
@@ -73,9 +80,9 @@
   date: 2024/01/01 19:04:25
   seat: right
   todo_list:
-    - content: 骑自行车
+    - content: Vue
       completed: false
-    - content: 修自行车
+    - content: JavaScript
       completed: false
 
 - class_name: 想去的地方
@@ -84,7 +91,13 @@
   todo_list:
     - content: 南京
       completed: true
-    - content: 心里
+    - content: 西藏
+      completed: false
+    - content: 北京
+      completed: false
+    - content: 香港
+      completed: false
+    - content: 日本
       completed: false
 
 - class_name: ChatGPT 思考🤔

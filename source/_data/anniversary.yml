@@ -32,3 +32,15 @@
   date: '2024-02-26'
   lunar: false
   color: '#ffb3c6'
+- name: 妈妈👩
+  date: '1968-12-18'
+  lunar: true
+  color: '#ffb3c6'
+- name: 爸爸👨
+  date: '1967-07-29'
+  lunar: true
+  color: '#ffb3c6'
+- name: 老丈人
+  date: '1975-10-04'
+  lunar: true
+  color: '#ffb3c6'

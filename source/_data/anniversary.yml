@@ -24,10 +24,6 @@
   date: '2018-10-01'
   lunar: false
   color: '#457b9d'
-- name: 大埕 MM
-  date: '1977-08-22'
-  lunar: true
-  color: '#e3d5ca'
 - name: 结婚证
   date: '2024-02-26'
   lunar: false
@@ -44,3 +40,7 @@
   date: '1975-10-04'
   lunar: true
   color: '#ffb3c6'
+- name: 大埕 MM
+  date: '1977-08-22'
+  lunar: true
+  color: '#e3d5ca'

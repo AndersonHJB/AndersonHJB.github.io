@@ -17,6 +17,8 @@
             .card-content
               .card-title #{item.name}
               .card-date 开始日期：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
+              .card-target-date 目标日期：
+                span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
               .card-countdown 剩余天数：
                 span.countdown(data-date=item.date data-lunar=item.lunar) 计算中...
               .card-total-days 已经过的天数：

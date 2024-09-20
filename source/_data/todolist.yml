@@ -68,13 +68,13 @@
       completed: false
 
 - class_name: 想买的东西
-  date: 2024/10/06 12:04:30
+  date: 2024/01/06 12:04:30
   seat: left
   todo_list:
-    - content: iPhone
+    - content: iPhone 13 Pro Max
       completed: true
-    - content: 机械硬盘盒
-      completed: true
+    - content: 便捷数据线
+      completed: false
 
 - class_name: 想学的技术
   date: 2024/01/01 19:04:25
@@ -89,8 +89,10 @@
   date: 2024/02/08 16:36:22
   seat: right
   todo_list:
-    - content: 南京
+    - content: 厦门
       completed: true
+    - content: 南京
+      completed: false
     - content: 西藏
       completed: false
     - content: 北京

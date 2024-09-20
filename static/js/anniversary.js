@@ -46,9 +46,30 @@ function initializeAnniversary() {
       }
       return daysBetween(startDate, now);
     }
+    // 返回目标日期
+    function targetDate(dateStr, isLunar) {
+      const [Year, Month, Day] = dateStr.split("-").map(Number);
+      let now = new Date();
+      now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      let anniversaryDate;
+      if (isLunar) {
+        anniversaryDate = LunarDate(now.getFullYear(), Month, Day);
+        if (anniversaryDate < now) {
+          anniversaryDate = LunarDate(now.getFullYear() + 1, Month, Day);
+        }
+      } else {
+        anniversaryDate = new Date(now.getFullYear(), Month - 1, Day);
+        if (anniversaryDate < now) {
+          anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
+        }
+      }
+    //   return anniversaryDate.toDateString();
+      return anniversaryDate.toLocaleDateString('zh-CN');
+    }
   
     const countdownElements = document.querySelectorAll(".countdown");
     const totalDaysElements = document.querySelectorAll(".total-days");
+    const targetDateElements = document.querySelectorAll(".target-date");
   
     countdownElements.forEach(function (elem) {
       const dateStr = elem.getAttribute("data-date");
@@ -61,6 +82,13 @@ function initializeAnniversary() {
       const isLunar = elem.hasAttribute("data-lunar");
       elem.textContent = totalDays(dateStr, isLunar);
     });
+    
+    // 显示目标日期
+    targetDateElements.forEach(function (elem) {
+      const dateStr = elem.getAttribute("data-date");
+      const isLunar = elem.hasAttribute("data-lunar");
+      elem.textContent = targetDate(dateStr, isLunar);
+    });
   }
   
   // 初始页面加载
@@ -68,4 +96,3 @@ function initializeAnniversary() {
   
   // 适配 pjax
   document.addEventListener("pjax:complete", initializeAnniversary);
-  

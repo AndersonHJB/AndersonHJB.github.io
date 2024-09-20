@@ -113,7 +113,7 @@ with open('gpt.txt', 'w') as f:
 ```
 <!-- endtab -->
 
-{% endtab %}
+{% endtabs %}
 
 # 4. Front-matter
 

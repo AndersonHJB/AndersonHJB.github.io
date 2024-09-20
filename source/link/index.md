@@ -11,10 +11,10 @@ aside: false
 <!-- tab Butterfly -->
 
 ```YML
-- name: AI悦创
+- name: 别碰我的镜头盖
   link: https://blog.bornforthis.cn
   avatar: https://bornforthis.cn/aiyc.svg
-  descr: AI悦创·创造不同～
+  descr: I love the people I photograph！
   siteshot: https://blog.bornforthis.cn/img/link/00-blog.bornforthis.cn.png
 ```
 
@@ -24,11 +24,11 @@ aside: false
 
 ```YML
 {
-  "title": "AI悦创",
+  "title": "别碰我的镜头盖",
   "url": "https://blog.bornforthis.cn",
   "avatar": "https://bornforthis.cn/aiyc.svg",
-  "description": "AI悦创·创造不同～",
-  "keywords": "AI悦创"
+  "description": "I love the people I photograph！",
+  "keywords": "AI悦创,别碰我的镜头盖"
 }
 ```
 
@@ -38,11 +38,11 @@ aside: false
 
 |名称|  数值|
 |-|-|
-|站点名称|  AI悦创|
+|站点名称|  别碰我的镜头盖|
 |站点链接|  https://blog.bornforthis.cn|
 |站长头像|  https://bornforthis.cn/aiyc.svg|
-|站点描述|  AI悦创·创造不同～|
-|站点关键词|    AI悦创, 个人博客，私教|
+|站点描述|  I love the people I photograph！|
+|站点关键词|    别碰我的镜头盖,AI悦创, 个人博客，私教|
 
 <!-- endtab -->
 
@@ -50,8 +50,8 @@ aside: false
 
 ```YML
 - {
-    title: "AI悦创",
-    intro: "AI悦创·创造不同～",
+    title: "别碰我的镜头盖",
+    intro: "I love the people I photograph！",
     link: "https://blog.bornforthis.cn",
     image: "https://bornforthis.cn/aiyc.svg",
   }
@@ -63,10 +63,10 @@ aside: false
 
 ```YML
 {
-  "title": "AI悦创",
+  "title": "别碰我的镜头盖",
   "avatar": "https://bornforthis.cn/aiyc.svg",
   "url": "https://blog.bornforthis.cn",
-  "description": "AI悦创·创造不同～",
+  "description": "I love the people I photograph！",
   "group": ,#根据你的博客来定义
 }
 ```
@@ -76,7 +76,7 @@ aside: false
 <!-- tab Html -->
 
 ```YML
-<a href="https://blog.bornforthis.cn" rel="external nofollow">AI悦创·创造不同～</a>
+<a href="https://blog.bornforthis.cn" rel="external nofollow">I love the people I photograph！</a>
 ```
 
 <!-- endtab -->
@@ -84,7 +84,7 @@ aside: false
 <!-- tab Jade -->
 
 ```YML
-a(href='https://blog.bornforthis.cn' rel="external nofollow") AI悦创·创造不同～
+a(href='https://blog.bornforthis.cn' rel="external nofollow") I love the people I photograph！
 ```
 
 <!-- endtab -->

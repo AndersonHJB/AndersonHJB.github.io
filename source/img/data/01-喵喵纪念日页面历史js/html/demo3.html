@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>农历转公历</title>
+</head>
+<body>
+<h1>农历转公历</h1>
+<div>
+    <label for="year">农历年份：</label>
+    <input type="number" id="year" placeholder="例如: 1997">
+</div>
+<div>
+    <label for="month">农历月份：</label>
+    <input type="number" id="month" placeholder="例如: 11">
+</div>
+<div>
+    <label for="day">农历日期：</label>
+    <input type="number" id="day" placeholder="例如: 26">
+</div>
+<button onclick="convertToSolar()">转换</button>
+
+<h2>转换结果：</h2>
+<p id="solarResult">转换后的公历日期：请填写农历日期并点击转换</p>
+<p id="nextLunarDate">下一次农历日期对应的新历日期：--</p>
+<p id="daysToNextLunarYear">距离下一次农历还有：-- 天</p>
+
+<!-- 引入lunar.js -->
+<script src="lunar.js"></script>
+<script>
+    function convertToSolar() {
+        // 获取输入的农历日期
+        const year = parseInt(document.getElementById('year').value);
+        const month = parseInt(document.getElementById('month').value);
+        const day = parseInt(document.getElementById('day').value);
+
+        try {
+            // 使用 lunar.js 将农历转换为公历
+            const lunarDate = Lunar.fromYmdHms(year, month, day, 0, 0, 0);
+            const solarDate = lunarDate.getSolar();
+
+            // 显示转换后的公历日期
+            document.getElementById('solarResult').textContent = `转换后的公历日期：${solarDate.toYmd()}`;
+
+            // 获取今年的对应农历日期
+            const currentYear = new Date().getFullYear();
+            let nextLunar = Lunar.fromYmdHms(currentYear, month, day, 0, 0, 0);
+            let nextSolarDate = nextLunar.getSolar();
+
+            // 检查今年的农历日期是否已经过去，如果过去了，则使用下一年
+            const today = new Date();
+            const nextSolarDateObj = new Date(nextSolarDate.getYear(), nextSolarDate.getMonth() - 1, nextSolarDate.getDay());
+            if (nextSolarDateObj < today) {
+                nextLunar = Lunar.fromYmdHms(currentYear + 1, month, day, 0, 0, 0);
+                nextSolarDate = nextLunar.getSolar();
+            }
+
+            // 显示下一次农历日期对应的新历日期
+            document.getElementById('nextLunarDate').textContent = `下一次农历日期对应的新历日期：${nextSolarDate.toYmd()}`;
+
+            // 计算距离下一次农历还有多少天
+            const nextSolarDateObjFinal = new Date(nextSolarDate.getYear(), nextSolarDate.getMonth() - 1, nextSolarDate.getDay());
+            const diffTime = nextSolarDateObjFinal - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+            // 显示距离下一次农历还有多少天
+            document.getElementById('daysToNextLunarYear').textContent = `距离下一次农历还有：${diffDays} 天`;
+        } catch (error) {
+            document.getElementById('solarResult').textContent = '输入的农历日期不正确，请重新输入。';
+            document.getElementById('nextLunarDate').textContent = '--';
+            document.getElementById('daysToNextLunarYear').textContent = '--';
+        }
+    }
+</script>
+</body>
+</html>

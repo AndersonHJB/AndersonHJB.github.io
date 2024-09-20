@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- 引入lunar.js -->
+    <script src="lunar.js"></script>
+    <script>
+        function LunarDate(Year, Month, Day) {
+            let solar = Lunar.fromYmdHms(Year, Month, Day, 0, 0, 0).getSolar();
+            return new Date(solar.getYear(), solar.getMonth() - 1, solar.getDay())
+        }
+        // 计算两个日期之间的天数差
+        function daysBetween(date1, date2) {
+            const oneDay = 24 * 60 * 60 * 1000;
+            return Math.ceil((date2 - date1) / oneDay);
+        }
+        function daysLeft(dateStr, isLunar) {
+            const [Year, Month, Day] = dateStr.split('-').map(Number);
+            const now = new Date();
+            let anniversaryDate;
+            if (isLunar) {
+                anniversaryDate = LunarDate(now.getFullYear(), Month, Day)
+                if (anniversaryDate < now) {
+                    anniversaryDate = LunarDate(now.getFullYear() + 1, Month, Day)
+                }
+            } else {
+                anniversaryDate = new Date(now.getFullYear(), Month - 1, Day);
+                if (anniversaryDate < now) {
+                    anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
+                }
+            }
+            return daysBetween(now, anniversaryDate);
+        }
+        function totalDays(dateStr, isLunar) {
+            const [Year, Month, Day] = dateStr.split('-').map(Number);
+            const now = new Date();
+            let startDate;
+            if (isLunar) {
+                startDate = LunarDate(Year, Month, Day)
+            } else {
+                startDate = new Date(Year, Month - 1, Day);
+            }
+            return daysBetween(startDate, now);
+        }
+        // 获取输入的农历日期
+        console.log(daysLeft('1997-11-26', true))  // 98
+        console.log(totalDays('1997-11-26', true)) // 9766
+    </script>
+</body>
+
+</html>

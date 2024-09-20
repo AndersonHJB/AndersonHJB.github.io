@@ -37,6 +37,11 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: 别碰我的镜头盖
+      link: https://blog.bornforthis.cn
+      avatar: https://bornforthis.cn/aiyc.svg
+      descr: I love the people I photograph！
+      recommend: true
     - name: AI悦创
       link: https://bornforthis.cn
       avatar: https://bornforthis.cn/aiyc.svg

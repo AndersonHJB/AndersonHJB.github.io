@@ -40,6 +40,15 @@
     - content: 顶图和待办中间添加一个任务进度条
       completed: false
       
+- class_name: 要开发的小项目
+  seat: right
+  date: 2024/09/21 16:26:22
+  card: true
+  layout: document  # 使用文档式样式
+  todo_list:
+    - content: Python实现对比两个路径的文件夹内所有文件内容，找出不同。并可以指定忽略的文件或文件夹，具体到不同的行和具体差异；
+      completed: false
+      due_date: 2024/09/04 21:04:30
 
 - class_name: 想看的书
   seat: left

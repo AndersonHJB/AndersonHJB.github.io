@@ -428,6 +428,49 @@ aside: false
 ```
 <!-- endtab -->
 
+<!-- tab 2. 创建 anniversary.pug -->
+- Path: `/themes/anzhiyu/layout/includes/page/anniversary.pug`
+
+**代码如下：**
+
+```html
+
+```
+<!-- endtab -->
+
+<!-- tab 3. 创建 anniversary.css -->
+- Path: `/source/static/css/anniversary.css`
+
+**代码如下：**
+
+```css
+
+```
+
+<!-- endtab -->
+
+<!-- tab 4. anniversary.js -->
+- Path: `/source/static/js/anniversary.js`
+
+**代码如下：**
+
+```javascript
+
+```
+
+<!-- endtab -->
+
+<!-- tab 5. anniversary.yml -->
+- Path: `/source/_data/anniversary.yml`
+
+**代码如下：**
+
+```yml
+
+```
+
+<!-- endtab -->
+
 {% endtabs %}
 <!-- endtab -->
 <!-- tab 喵喵纪念日-V0.3 -->

@@ -840,7 +840,34 @@ inject:
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.12/lunar.js"></script>
 ```
 
-# 4. 鸣谢
+## 4. page.pu
+
+上面操作完成后，需要在主题的页面中加入这个页面布局：
+
+- Path: `themes/anzhiyu/layout/page.pug`
+
+```html
+extends includes/layout.pug
+
+block content
+  #page
+    if top_img === false && !page.top_single
+      h1.page-title= page.title
+    case page.type
+      when 'tags'
+        include includes/page/tags.pug
+      ......
+      when 'anniversary'
+        include includes/page/anniversary.pug
+      ......
+      default
+        include includes/page/default-page.pug
+
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+```
+# 5. 鸣谢
 
 这里最重要的是开源大佬开发的农历转换器，在此特地鸣谢！
 

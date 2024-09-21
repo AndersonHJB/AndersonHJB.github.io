@@ -15,23 +15,26 @@
         each item in site.data.anniversary
           .anniversary-card(style=`background-color: ${item.color}`)
             .card-content
-              .card-title
+              .card-header
                 if item.icon
                   img.card-icon(src=item.icon alt="icon")
-                | #{item.name}  <!-- 始终显示标题 -->
-              .card-date 开始日期：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
-              .card-target-date 目标日期：
-                span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
-              .card-countdown 剩余天数：
-                span.countdown(data-date=item.date data-lunar=item.lunar) 计算中...
-              .card-total-days 已经过的天数：
-                span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
+                .card-title #{item.name}  <!-- 始终显示标题 -->
+
+              .card-body(style="background-color: white; padding: 20px; text-align: center;")
+                .countdown-wrapper
+                  span.countdown(data-date=item.date data-lunar=item.lunar) 计算中...
+                  .days-label 天后 <!-- "天后" 在天数的右上角显示 -->
+
+              .card-footer
+                .dashed-line(style="border-top: 1px dashed #ccc; margin: 10px 0;") <!-- 虚线 -->
+                .target-info 目标日：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
+                .total-days-info 已经过去了：
+                  span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
 
               // 根据 show_copyright 显示或隐藏卡片内的版权信息
               if item.show_copyright
                 - let copyrightName = item.copyright_name ? item.copyright_name : '喵喵纪念日'
                 - let copyrightLink = item.copyright_link ? item.copyright_link : 'https://blog.bornforthis.cn/posts/41c7c45e.html'
                 .card-copyright
-                  //- | 版权所有 © #{item.name}
-                  | 版权所有©️2024
+                  | 版权所有 © #{item.name}
                   a(href=copyrightLink target="_blank") #{copyrightName}

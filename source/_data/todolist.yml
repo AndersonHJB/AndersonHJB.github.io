@@ -64,6 +64,8 @@
       completed: false
     - content: 加上版权标识，希望有用的大佬们推广～希望吧。在yml作为可选配置；
       completed: false
+    - content: 改进版权设置，提炼出来专门的 setting 来设置；
+      completed: false
     - content: 改进卡片样式，宽度和顶图宽度不一致；
       completed: false
     - content: 用户可以自定义说一段话，支持换行；

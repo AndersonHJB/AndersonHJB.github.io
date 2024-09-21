@@ -840,7 +840,7 @@ inject:
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.12/lunar.js"></script>
 ```
 
-## 4. page.pu
+# 4. page.pu
 
 上面操作完成后，需要在主题的页面中加入这个页面布局：
 

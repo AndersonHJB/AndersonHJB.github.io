@@ -148,7 +148,7 @@ class ProgressiveLoad {
   });
 ```
 <!-- endtab -->
-<!-- tab 2.  -->
+<!-- tab 2. imgloaded.css -->
 - Path: 新建文件 `themes/anzhiyu/source/css/imgloaded.css` 新增以下内容，并按照注释自行决定调整内容
 
 ```css
@@ -210,4 +210,199 @@ class ProgressiveLoad {
 
 ## 2.2 首页一图流渐进式加载
 
+{% tabs img2 %}
+<!-- tab 1. imgloaded.js -->
 
+- Path: 新建文件 `themes/anzhiyu/source/js/imgloaded.js` 新增以下内容，并按照注释调整照片路径
+
+```javascript
+// 首页一图流加载优化
+/**
+ * @description 实现medium的渐进加载背景的效果
+ */
+(function() {
+  class ProgressiveLoad {
+    constructor(smallSrc, largeSrc) {
+      this.smallSrc = smallSrc;
+      this.largeSrc = largeSrc;
+      this.initTpl();
+      this.container.addEventListener('animationend', () => {
+        this.smallStage.style.display = 'none'; 
+      }, {once: true});
+    }
+
+    initTpl() {
+      this.container = document.createElement('div');
+      this.smallStage = document.createElement('div');
+      this.largeStage = document.createElement('div');
+      this.smallImg = new Image();
+      this.largeImg = new Image();
+      this.container.className = 'pl-container';
+      this.smallStage.className = 'pl-img pl-blur';
+      this.largeStage.className = 'pl-img';
+      this.container.appendChild(this.smallStage);
+      this.container.appendChild(this.largeStage);
+      this.smallImg.onload = this._onSmallLoaded.bind(this);
+      this.largeImg.onload = this._onLargeLoaded.bind(this);
+    }
+
+    progressiveLoad() {
+      this.smallImg.src = this.smallSrc;
+      this.largeImg.src = this.largeSrc;
+    }
+
+    _onLargeLoaded() {
+      this.largeStage.classList.add('pl-visible');
+      this.largeStage.style.backgroundImage = `url('${this.largeSrc}')`;
+    }
+
+    _onSmallLoaded() {
+      this.smallStage.classList.add('pl-visible');
+      this.smallStage.style.backgroundImage = `url('${this.smallSrc}')`;
+    }
+  }
+
+  const executeLoad = (config, target) => {
+    console.log('执行渐进背景替换');
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+    const loader = new ProgressiveLoad(
+      isMobile ? config.mobileSmallSrc : config.smallSrc,
+      isMobile ? config.mobileLargeSrc : config.largeSrc
+    );
+    if (target.children[0]) {
+      target.insertBefore(loader.container, target.children[0]);
+    }
+    loader.progressiveLoad();
+  };
+
+  const ldconfig = {
+    light: {
+	  smallSrc: '/img/bg2_80kbver.jpg', //浅色模式 小图链接 尽可能配置小于100k的图片 
+	  largeSrc: '/img/bg2.jpg', //浅色模式 大图链接 最终显示的图片
+	  mobileSmallSrc: '/img/bg2_80kbver.jpg', //手机端浅色小图链接 尽可能配置小于100k的图片
+	  mobileLargeSrc: '/img/bg2.jpg', //手机端浅色大图链接 最终显示的图片
+	  enableRoutes: ['/'],
+	  },
+	dark: {
+	  smallSrc: '/img/bg1_80kbver.jpg', //深色模式 小图链接 尽可能配置小于100k的图片 
+	  largeSrc: '/img/bg1.jpg', //深色模式 大图链接 最终显示的图片
+	  mobileSmallSrc: '/img/bg1_80kbver.jpg', //手机端深色模式小图链接 尽可能配置小于100k的图片
+	  mobileLargeSrc: '/img/bg1.jpg', //手机端深色大图链接 最终显示的图片
+	  enableRoutes: ['/'],
+	  },
+	};
+
+    const getCurrentTheme = () => {
+      return document.documentElement.getAttribute('data-theme'); 
+    }
+
+    const onThemeChange = () => {
+      const currentTheme = getCurrentTheme();
+      const config = ldconfig[currentTheme];
+      initProgressiveLoad(config);
+      document.addEventListener("DOMContentLoaded", function() {
+        initProgressiveLoad(config);
+      });
+    
+      document.addEventListener("pjax:complete", function() {
+        onPJAXComplete(config);
+      });
+    }
+
+    let initTheme = getCurrentTheme();
+    let initConfig = ldconfig[initTheme];
+    initProgressiveLoad(initConfig);
+
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if (mutation.attributeName === "data-theme" && location.pathname === '/') {
+        onThemeChange();
+      }
+    });
+  });
+  
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"]  
+  });
+
+  function initProgressiveLoad(config) {
+    const container = document.querySelector('.pl-container');
+    if (container) {
+      container.remove();
+    }
+    const target = document.getElementById('page-header');
+    if (target && target.classList.contains('full_page')) {
+      executeLoad(config, target);
+    }
+  }
+
+  function onPJAXComplete(config) {
+    const target = document.getElementById('page-header');
+    if (target && target.classList.contains('full_page')) {
+      initProgressiveLoad(config);
+    }
+  }
+
+})();
+```
+<!-- endtab -->
+<!-- tab 2. imgloaded.css -->
+
+- Path：新建文件 `themes/anzhiyu/source/css/imgloaded.css` 新增以下内容，并按照注释自行决定调整内容
+
+```css
+/* 首页头图加载 */
+.pl-container {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: fixed;
+  overflow: hidden;
+  will-change: transform; /* 添加性能优化 */
+  animation: blur-to-clear 2s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;
+}
+.pl-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+@keyframes blur-to-clear {
+  0% {
+    filter: blur(50px);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1.5) translateZ(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
+}
+
+.pl-visible {
+  opacity: 1;
+}
+
+.pl-blur {
+  /* 小图锯齿多，增加高斯模糊 */
+  filter: blur(50px);
+}
+```
+<!-- endtab -->
+{% endtabs %}

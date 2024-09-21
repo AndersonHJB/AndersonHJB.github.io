@@ -879,6 +879,8 @@ block content
 1. [别碰我的镜头盖](https://blog.bornforthis.cn/anniversary/)
 2. 等待⌛️你们的留言...
 
+# 7. Notebook
+
 {% folding blue close, notebook %}
 <!-- tab 喵喵纪念日-V0.x -->
 {% tabs anniversary2 %}

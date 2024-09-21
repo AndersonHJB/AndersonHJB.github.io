@@ -42,7 +42,7 @@ aplayer:
 
 # 2. 开始实现
 
-{% tabs anniversary,1 %}
+{% tabs anniversary,2 %}
 <!-- tab 喵喵纪念日-V0.1 -->
 > 发布日期📅：{% span cyan log, 2024-09-20 19:52:52 %}
 {% tabs anniversary1 %}
@@ -409,7 +409,24 @@ document.addEventListener("pjax:complete", initializeAnniversary);
 
 <!-- tab 喵喵纪念日-V0.2 -->
 {% tabs anniversary3 %}
-> 发布日期📅：{% span cyan log, 2024-09-20 19:52:52 %}
+> 发布日期📅：{% span cyan log, 2024-09-21 08:01:41 %}
+<!-- tab 1. 新建页面 -->
+在命令行输入如下命令：
+
+- `hexo new page anniversary`
+
+修改头部信息：
+
+```markdown
+---
+title: anniversary
+date: 2024-09-16 20:31:37
+type: 'anniversary'
+top_background: /img/anniversary/anniversary5.webp
+aside: false
+---
+```
+<!-- endtab -->
 
 {% endtabs %}
 <!-- endtab -->

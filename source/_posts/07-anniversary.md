@@ -948,17 +948,11 @@ aside: false
 
 {% endtabs %}
 <!-- endtab -->
-```
 
 {% endfolding %}
 
 {% folding blue close, notebook_code %}
 会快速迭代，又想方便大家随时更新，直接使用我就想到编写一个 Python 来实现读取：
-
-```python
-
-```
-{% endfolding %}
 
 ```python
 import time  # 引入time模块
@@ -1067,6 +1061,7 @@ if __name__ == '__main__':
     # print(result)
     save_text(result)
 ```
+{% endfolding %}
 
 
 

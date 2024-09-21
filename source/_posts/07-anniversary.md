@@ -495,9 +495,7 @@ aside: false
 
 
 {% folding blue close, notebook %}
-
-```markdown
-<!-- tab 喵喵纪念日-V0.2 -->
+<!-- tab 喵喵纪念日-V0.x -->
 {% tabs anniversary2 %}
 > 发布日期📅：{% span cyan log, 2024-09-21 08:01:41 %}
 <!-- tab 1. 新建页面 -->

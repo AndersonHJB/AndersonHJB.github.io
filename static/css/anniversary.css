@@ -117,3 +117,20 @@ body[data-type="anniversary"] #page .page-title {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
+
+/* 版权信息的样式 */
+.card-copyright {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #777;
+    text-align: right;
+}
+
+.card-copyright a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-copyright a:hover {
+    text-decoration: underline;
+}

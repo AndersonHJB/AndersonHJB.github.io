@@ -26,7 +26,7 @@ toc_style_simple:
 aplayer:
 ---
 
-# 1. Plan
+# 1. 前言
 
 你好，我是悦创。
 
@@ -38,7 +38,17 @@ aplayer:
 
 `yml` 中可以配置是否显示版权©️，这个小伙伴们自选吧。可以的可以的情况下，请把第一个纪念日板块留给`喵喵纪念日`并开启 `show_copyright: true`，不设置默认不显示。
 
-**效果预览**：[喵喵纪念日](/anniversary/)
+```yml
+- name: 喵喵纪念日
+  date: '2024-09-18'
+  icon: '/img/favicon.svg'
+  lunar: false
+  color: '#a8dadc'
+  show_copyright: true  # 新增字段，控制是否显示版权
+```
+
+- **效果预览**：[喵喵纪念日](/anniversary/)
+- **推荐配色**：[coolors.co](https://coolors.co/palettes/trending)
 
 # 2. 开始实现
 
@@ -408,7 +418,7 @@ document.addEventListener("pjax:complete", initializeAnniversary);
 
 
 <!-- tab 喵喵纪念日-V0.2 -->
-{% tabs anniversary3 %}
+{% tabs anniversary2 %}
 > 发布日期📅：{% span cyan log, 2024-09-21 08:01:41 %}
 <!-- tab 1. 新建页面 -->
 在命令行输入如下命令：
@@ -473,8 +483,9 @@ aside: false
 
 {% endtabs %}
 <!-- endtab -->
+
 <!-- tab 喵喵纪念日-V0.3 -->
-{% tabs anniversary2 %}
+{% tabs anniversary3 %}
 
 {% endtabs %}
 <!-- endtab -->
@@ -483,7 +494,78 @@ aside: false
 
 
 
+{% folding blue close, notebook %}
 
+```markdown
+<!-- tab 喵喵纪念日-V0.2 -->
+{% tabs anniversary2 %}
+> 发布日期📅：{% span cyan log, 2024-09-21 08:01:41 %}
+<!-- tab 1. 新建页面 -->
+在命令行输入如下命令：
+
+- `hexo new page anniversary`
+
+修改头部信息：
+
+```markdown
+---
+title: anniversary
+date: 2024-09-16 20:31:37
+type: 'anniversary'
+top_background: /img/anniversary/anniversary5.webp
+aside: false
+---
+```
+<!-- endtab -->
+
+<!-- tab 2. 创建 anniversary.pug -->
+- Path: `/themes/anzhiyu/layout/includes/page/anniversary.pug`
+
+**代码如下：**
+
+```html
+
+```
+<!-- endtab -->
+
+<!-- tab 3. 创建 anniversary.css -->
+- Path: `/source/static/css/anniversary.css`
+
+**代码如下：**
+
+```css
+
+```
+
+<!-- endtab -->
+
+<!-- tab 4. anniversary.js -->
+- Path: `/source/static/js/anniversary.js`
+
+**代码如下：**
+
+```javascript
+
+```
+
+<!-- endtab -->
+
+<!-- tab 5. anniversary.yml -->
+- Path: `/source/_data/anniversary.yml`
+
+**代码如下：**
+
+```yml
+
+```
+
+<!-- endtab -->
+
+{% endtabs %}
+<!-- endtab -->
+```
+
+{% endfolding %}
 
 
 

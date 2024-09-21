@@ -418,8 +418,12 @@ document.addEventListener("pjax:complete", initializeAnniversary);
 
 
 <!-- tab 喵喵纪念日-V0.2 -->
-{% tabs anniversary2 %}
 > 发布日期📅：{% span cyan log, 2024-09-21 08:01:41 %}
+
+{% folding blue close, 效果图 %}
+![](07-anniversary/image.png)
+{% endfolding %}
+{% tabs anniversary2 %}
 <!-- tab 1. 新建页面 -->
 在命令行输入如下命令：
 

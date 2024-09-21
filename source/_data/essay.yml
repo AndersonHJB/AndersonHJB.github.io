@@ -7,6 +7,10 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
+    - content: 在开发“喵喵纪念日”时，我想把每个版本的代码都更新到文章上，写了 Python 脚本，啊哈哈哈哈，是不是很聪明！但是，在把代码整理到文章的时候，我发现，我傻了。CSS、JS 这类，我直接放链接不就行 emmm。这是一个悲伤😢的事情......别管我，我 emo 一会。
+      date: 2024/09/21 22:50:07
+      from: AI悦创
+      address: 喵喵纪念日
     - content: 时间如潮水般涌动向前，你会为谁停留片刻？
       date: 2024/09/18 12:18:30
       from: AI悦创

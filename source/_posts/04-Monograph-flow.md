@@ -406,3 +406,106 @@ class ProgressiveLoad {
 ```
 <!-- endtab -->
 {% endtabs %}
+
+# 3. 引入文件
+
+- 在 `_config.anzhiyu.yml` 主题配置文件下 `inject` 配置项中 `head` 和 `bottom` 处
+- 分别引入 `imgloaded.css` 和 `imgloaded.js` 文件
+
+```yml
+inject:  
+  head:  
+    - <link rel="stylesheet" href="/css/imgloaded.css?1">  
+  
+  bottom:  
+    - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+```
+
+4. 配置图片
+
+- 为了使用顶部图功能，你必须在主题配置文件中设置 `top_image` 为 true。然后，你可以在 `top_image_url` 中留空或者填写任意字符串，因为这个值不会影响图片的显示。图片的加载和渲染是由 js 文件实现的，所以你不需要在配置文件中提供图片的源地址。
+
+```yml
+# The banner image of home page
+index_img: "background: url() top / cover no-repeat"
+```
+
+- 在 `imgloaded.js` 中的 73 到 76 行（或是 83 到 86 行）修改以下示例的部分
+- 若是首页一图流渐进式加载的 `imgloaded.js` 则修改 56 到 71 行
+
+{% tabs img3 %}
+<!-- 1. 首页顶部图渐进式加载 -->
+```javascript
+const config = {  
+  smallSrc: 'https://blog.bornforthis.cn/img/xiaotu.jpg', // 小图链接 尽可能配置小于100k的图片  
+  largeSrc: 'https://blog.bornforthis.cn/img/tu.jpg', // 大图链接 最终显示的图片  
+  mobileSmallSrc: 'https://blog.bornforthis.cn/img/sjxt.jpg', // 手机端小图链接 尽可能配置小于100k的图片  
+  mobileLargeSrc: 'https://blog.bornforthis.cn/img/sjdt.jpg', // 手机端大图链接 最终显示的图片  
+  enableRoutes: ['/'],  
+  };
+```
+<!-- endtab -->
+<!-- tab 2. 首页一图流渐进式加载 -->
+```javascript
+const ldconfig = {
+    light: {
+	    smallSrc: 'https://blog.bornforthis.cn/img/bg2_80kbver.jpg', //浅色模式 小图链接 尽可能配置小于100k的图片 
+	    largeSrc: 'https://blog.bornforthis.cn/img/bg2.jpg', //浅色模式 大图链接 最终显示的图片
+	    mobileSmallSrc: 'https://blog.bornforthis.cn/img/bg2_80kbver.jpg', //手机端浅色小图链接 尽可能配置小于100k的图片
+	    mobileLargeSrc: 'https://blog.bornforthis.cn/img/bg2.jpg', //手机端浅色大图链接 最终显示的图片
+	    enableRoutes: ['/'],
+	    },
+    dark: {
+	    smallSrc: 'https://blog.bornforthis.cn/img/bg1_80kbver.jpg', //深色模式 小图链接 尽可能配置小于100k的图片 
+	    largeSrc: 'https://blog.bornforthis.cn/img/bg1.jpg', //深色模式 大图链接 最终显示的图片
+	    mobileSmallSrc: 'https://blog.bornforthis.cn/img/bg1_80kbver.jpg', //手机端深色模式小图链接 尽可能配置小于100k的图片
+	    mobileLargeSrc: 'https://blog.bornforthis.cn/img/bg1.jpg', //手机端深色大图链接 最终显示的图片
+	    enableRoutes: ['/'],
+	    },
+	};
+```
+<!-- endtab -->
+{% endtabs%}
+
+
+# 4. 图片懒加载配置修改
+
+```yml
+lazyload:
+  enable: true
+  field: post # site/post
+  placeholder:
+  blur: true
+  progressive: true
+```
+
+# 5. 大功告成
+
+到这时候，如果你的图片文件配置正确，可以执行 Hexo 的三连命令来查看效果了！
+
+- 感谢：
+  - [Hexo美化：自适应切换渐进式加载首页图](https://blog.cent1pedee.top/posts/f730aac1.html)
+
+- 部分教程链接：
+    - [首页背景图渐进式加载，解决卡顿难题](https://blog.kouseki.cn/posts/4f72.html)
+    - [Kouseki式首页背景图渐进式加载 · 改](https://satera.cn/posts/6a8fb549/)
+
+{% span center log large blue, 🪧 %}
+
+{% folding blue close, 公众号：AI悦创【二维码】 %}
+
+![](https://bornforthis.cn/gzh.jpg)
+
+{% endfolding %}
+
+{% tip info %}AI悦创·编程一对一
+
+> AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh
+>
+> C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
+>
+> 方法一：[QQ](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
+>
+> 方法二：微信：Jiabcdefh
+
+{% endtip %}

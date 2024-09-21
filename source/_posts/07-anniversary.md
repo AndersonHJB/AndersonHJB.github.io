@@ -820,7 +820,21 @@ document.addEventListener("pjax:complete", initializeAnniversary);
 {% endtabs %}
 
 
+# 3. 主题配置
 
+你上面代码添加完成后，要引入 CSS 和 JS 才可以生效：
+
+```yml
+# 插入代码到头部 </head> 之前 和 底部 </body> 之前
+inject:
+  head:
+    - <link rel="stylesheet" href="/static/css/anniversary.css"> # 喵喵纪念日
+
+  bottom:
+    # 自定义js
+    - <script src="/static/js/anniversary.js"></script>
+    - <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.12/lunar.js"></script>
+```
 
 {% folding blue close, notebook %}
 <!-- tab 喵喵纪念日-V0.x -->

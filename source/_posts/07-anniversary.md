@@ -874,6 +874,11 @@ block content
 - [https://6tail.cn/calendar/api.html](https://6tail.cn/calendar/api.html)
 - [https://github.com/6tail/lunar-javascript](https://github.com/6tail/lunar-javascript)
 
+# 6. 已经添加的网站
+
+1. [别碰我的镜头盖](https://blog.bornforthis.cn/anniversary/)
+2. 等待⌛️你们的留言...
+
 {% folding blue close, notebook %}
 <!-- tab 喵喵纪念日-V0.x -->
 {% tabs anniversary2 %}

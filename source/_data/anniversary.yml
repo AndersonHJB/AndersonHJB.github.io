@@ -55,9 +55,3 @@
   lunar: false
   color: '#f7a072'
 
-
-# 页面设置
-- settings:
-  show_copyright: true  # 控制是否显示页面右下角的版权信息
-  copyright_name: '©️2024 喵喵纪念日'  # 版权名称
-  copyright_link: 'https://your-website.com'  # 版权链接

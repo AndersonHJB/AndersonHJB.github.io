@@ -78,6 +78,8 @@
       completed: false
     - content: 显示星期几
       completed: false
+    - content: 总天数显示可选
+      completed: false
 
 - class_name: 想买的东西
   date: 2024/01/06 12:04:30

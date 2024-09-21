@@ -37,6 +37,8 @@
       completed: false
     - content: 实现 completed 为 true 的全部移动至前面，false 显示在后面
       completed: true
+    - content: 顶图和待办中间添加一个任务进度条
+      completed: false
       
 
 - class_name: 想看的书

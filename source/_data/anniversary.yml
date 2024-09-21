@@ -4,6 +4,8 @@
   lunar: false
   color: '#a8dadc'
   show_copyright: true  # 新增字段，控制是否显示版权
+  copyright_name: "喵喵纪念日"
+  # copyright_link: "https://blog.bornforthis.cn/anniversary/"
 - name: 结婚纪念日
   date: '2024-05-02'
   lunar: false

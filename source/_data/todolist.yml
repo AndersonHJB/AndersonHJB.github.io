@@ -76,6 +76,8 @@
       completed: false
     - content: 日期字体颜色
       completed: false
+    - content: 显示星期几
+      completed: false
 
 - class_name: 想买的东西
   date: 2024/01/06 12:04:30

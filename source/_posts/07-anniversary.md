@@ -836,6 +836,13 @@ inject:
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.12/lunar.js"></script>
 ```
 
+# 4. 鸣谢
+
+这里最重要的是开源大佬开发的农历转换器，在此特地鸣谢！
+
+- [https://6tail.cn/calendar/api.html](https://6tail.cn/calendar/api.html)
+- [https://github.com/6tail/lunar-javascript](https://github.com/6tail/lunar-javascript)
+
 {% folding blue close, notebook %}
 <!-- tab 喵喵纪念日-V0.x -->
 {% tabs anniversary2 %}

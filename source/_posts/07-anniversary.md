@@ -956,6 +956,11 @@ aside: false
 会快速迭代，又想方便大家随时更新，直接使用我就想到编写一个 Python 来实现读取：
 
 ```python
+
+```
+{% endfolding %}
+
+```python
 import time  # 引入time模块
 
 version = 0.3
@@ -970,7 +975,7 @@ string = """<!-- tab 喵喵纪念日-V{version} -->
 
 修改头部信息：
 
-```markdown
+\```markdown
 ---
 title: anniversary
 date: 2024-09-16 20:31:37
@@ -978,7 +983,7 @@ type: 'anniversary'
 top_background: /img/anniversary/anniversary5.webp
 aside: false
 ---
-```
+\```
 <!-- endtab -->
 
 <!-- tab 2. 创建 anniversary.pug -->
@@ -986,30 +991,22 @@ aside: false
 
 **代码如下：**
 
-```html
+\```html
 {anniversary_pug}
-```
+\```
 <!-- endtab -->
 
 <!-- tab 3. 创建 anniversary.css -->
 - Path: `/source/static/css/anniversary.css`
 
-**代码如下：**
-
-```css
-{anniversary_css}
-```
+**直接访问链接获取最新版**：[anniversary.css](https://blog.bornforthis.cn/static/css/anniversary.css)
 
 <!-- endtab -->
 
 <!-- tab 4. anniversary.js -->
 - Path: `/source/static/js/anniversary.js`
 
-**代码如下：**
-
-```javascript
-{anniversary_js}
-```
+**直接访问链接获取最新版**：[anniversary.js](https://blog.bornforthis.cn/static/js/anniversary.js)
 
 <!-- endtab -->
 
@@ -1018,9 +1015,9 @@ aside: false
 
 **代码如下：**
 
-```yml
+\```yml
 {anniversary_yml}
-```
+\```
 
 <!-- endtab -->
 
@@ -1063,14 +1060,13 @@ if __name__ == '__main__':
         version=version,
         time=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
         anniversary_pug=read_text(paths[2]),
-        anniversary_css=read_text(paths[3]),
-        anniversary_js=read_text(paths[1]),
+        # anniversary_css=read_text(paths[3]),
+        # anniversary_js=read_text(paths[1]),
         anniversary_yml=read_text(paths[0]),
     )
     # print(result)
     save_text(result)
 ```
-{% endfolding %}
 
 
 

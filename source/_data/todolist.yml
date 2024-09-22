@@ -94,6 +94,8 @@
       completed: false
     - content: 用户可以选择显示什么也可以同时显示；
       completed: false
+    - content: 用户可以选择几周了，适合怀孕或者其它场景；
+      completed: false
     - content: 标题和图标居中
       due_date: 2024/09/22 16:33:46
       completed: true

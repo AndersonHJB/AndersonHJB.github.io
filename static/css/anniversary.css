@@ -90,6 +90,30 @@ body[data-type="anniversary"] #page .page-title {
     display: inline-block;
 }
 
+/* 目标日样式 */
+.target-info {
+    text-align: center;
+    font-size: 1rem;
+    /* margin: 10px 0; */
+    /* font-weight: bold; */
+    font-weight: normal;
+}
+
+.target-label {
+    display: inline-block;
+    margin: 0; /* 去掉额外的边距 */
+    font-size: 1rem;
+    letter-spacing: 2px; /* 保持文字间距 */
+}
+
+.target-date {
+    display: inline-block; /* 改为inline-block，直接与目标日标签对齐 */
+    font-size: 1rem;
+    /* color: #333; */
+    margin: 0; /* 去掉所有的上下边距 */
+    font-weight: normal; /* 去掉加粗效果 */
+}
+
 /* 虚线样式 */
 .dashed-line {
     border-top: 1px dashed #ccc;

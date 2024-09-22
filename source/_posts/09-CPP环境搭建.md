@@ -11,9 +11,9 @@ keywords:
   - C++
   - CPP
 description: 本篇是给苦逼大学生学习C/C++这玩意，实时更新环境安装配置教程。
-top_img: /img/posts/03-notebook/blog.png
+top_img: /img/posts/09-CPP环境搭建/117987933_p0.jpg
 comments: true
-cover: /img/posts/03-notebook/blog.png
+cover: /img/posts/09-CPP环境搭建/09-CPP环境搭建.webp
 toc: true
 mathjax: false
 katex: false

@@ -169,7 +169,11 @@
       avatar: /img/link/30-love.xingji.fun.jpg
       descr: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
       tag: 生活
-
+    - name: Ariasakaの小窝
+      link: https://blog.yaria.top
+      avatar: /img/link/31-blog.yaria.top.webp
+      descr: 人有悲欢离合 月有阴晴圆缺
+      tag: 生活/技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

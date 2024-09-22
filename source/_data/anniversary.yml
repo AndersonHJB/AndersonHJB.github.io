@@ -3,6 +3,7 @@
   icon: '/img/favicon.svg'
   lunar: false
   color: '#a8dadc'
+  display_mode: "elapsed"  # 新增字段，显示已经过去的天数
   show_copyright: true  # 新增字段，控制是否显示版权
   copyright_name: "喵喵纪念日"
   # copyright_link: "https://blog.bornforthis.cn/anniversary/"
@@ -10,6 +11,7 @@
   date: '2024-05-02'
   lunar: false
   color: '#f1faee'
+  display_mode: "remaining"  # 显示剩余天数
   show_copyright: false  # 不显示版权
 - name: Bornforthis 生日
   # date: '1997-12-25'

@@ -15,8 +15,33 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Sat, 21 Sep 2024 15:13:11 GMT</pubDate>
+    <pubDate>Sun, 22 Sep 2024 05:18:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>自动化执行魔改</title>
+      <link>https://blog.bornforthis.cn/posts/f730aac1.html</link>
+      <guid>https://blog.bornforthis.cn/posts/f730aac1.html</guid>
+      <pubDate>Sun, 22 Sep 2024 05:18:38 GMT</pubDate>
+      
+      <description>本篇是实现 Python 自动执行 hexo 魔改的脚本</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Python-%E5%B0%8F%E9%A1%B9%E7%9B%AE/">Python 小项目</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/">网站魔改教程</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/f730aac1.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>给你的网站添加喵喵纪念日页面</title>

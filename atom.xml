@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-09-21T15:13:11.326Z</updated>
+  <updated>2024-09-22T05:18:43.872Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自动化执行魔改</title>
+    <link href="https://blog.bornforthis.cn/posts/f730aac1.html"/>
+    <id>https://blog.bornforthis.cn/posts/f730aac1.html</id>
+    <published>2024-09-22T05:18:38.000Z</published>
+    <updated>2024-09-22T05:18:43.872Z</updated>
+    
+    
+    <summary type="html">本篇是实现 Python 自动执行 hexo 魔改的脚本</summary>
+    
+    
+    
+    <category term="hexo 网站相关" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Python 小项目" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Python-%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.bornforthis.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="网站魔改教程" scheme="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的网站添加喵喵纪念日页面</title>

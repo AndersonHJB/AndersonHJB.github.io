@@ -181,6 +181,9 @@
     - content: 01-2024-09-17 09.02.57-剩余6h
       completed: true
       due_date: 2024/09/17 09:02:57
+    - content: 02-2024-09-22 13.00.09-剩余4h
+      completed: true
+      due_date: 2024/09/22 13.00.09
 
 - class_name: 仇真「浙江」
   seat: right

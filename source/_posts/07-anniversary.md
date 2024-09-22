@@ -60,7 +60,7 @@ aplayer:
 
 # 2. 开始实现
 
-{% tabs anniversary,3 %}
+{% tabs anniversary,4 %}
 <!-- tab 喵喵纪念日-V0.1 -->
 > 发布日期📅：{% span cyan log, 2024-09-20 19:52:52 %}
 {% tabs anniversary1 %}
@@ -989,6 +989,185 @@ aside: false
 
 {% endtabs %}
 <!-- endtab -->
+
+<!-- tab 喵喵纪念日-V0.4 -->
+> 发布日期📅：{% span cyan log, 2024-09-22 20:07:03 %}
+
+1. 标题和图标居中；
+2. 改进目标日的样式；
+3. 总天数显示可选，通过 display_mode:"elapsed" or display_mode:"remaining"；
+4. 重要‼️征集：纪念日当天，要有什么特效/效果比较好？
+
+
+{% folding blue close, 效果图 %}
+![](07-anniversary/V0.4.png)
+{% endfolding %}
+
+{% tabs anniversary3 %}
+<!-- tab 1. 新建页面 -->
+在命令行输入如下命令：
+
+- `hexo new page anniversary`
+
+修改头部信息：
+
+```markdown
+---
+title: anniversary
+date: 2024-09-16 20:31:37
+type: 'anniversary'
+top_background: /img/anniversary/anniversary5.webp
+aside: false
+---
+```
+<!-- endtab -->
+
+<!-- tab 2. 创建 anniversary.pug -->
+- Path: `/themes/anzhiyu/layout/includes/page/anniversary.pug`
+
+**代码如下：**
+
+```html
+#anniversary-box
+    - let anniversary_background = page.top_background
+    .author-content.author-content-item.anniversary.single(style=anniversary_background ? `background: url(${anniversary_background}) top / cover no-repeat` : "")
+        .card-content
+            .author-content-item-tips anniversary
+            span.author-content-item-title 喵喵纪念日
+            .content-bottom
+            .tips 时间如潮水般涌动向前，你会为谁停留片刻？
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 我的更多
+    #anniversary-main
+      .anniversary-cards
+        each item in site.data.anniversary
+          .anniversary-card(style=`background-color: ${item.color}`)
+            .card-content
+              .card-header(style="justify-content: center;")
+                if item.icon
+                  img.card-icon(src=item.icon alt="icon")
+                .card-title #{item.name}  <!-- 始终显示标题 -->
+
+              .card-body(style="background-color: white; padding: 20px; text-align: center;")
+                .countdown-wrapper
+                  span.countdown(data-date=item.date data-lunar=item.lunar data-display-mode=item.display_mode) 计算中...
+                  .days-label 天后 <!-- "天后" 或 "天了" 根据模式动态显示 -->
+      
+              .card-footer
+                .dashed-line(style="border-top: 1px dashed #ccc; margin: 10px 0;") <!-- 虚线 -->
+                .target-info 
+                  span.target-label - 目标日 -
+                  br
+                  span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
+                //- .total-days-info 已经过去了：
+                //-   span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
+
+              // 根据 show_copyright 显示或隐藏卡片内的版权信息
+              if item.show_copyright
+                - let copyrightName = item.copyright_name ? item.copyright_name : '喵喵纪念日'
+                - let copyrightLink = item.copyright_link ? item.copyright_link : 'https://blog.bornforthis.cn/posts/41c7c45e.html'
+                .card-copyright
+                  | 版权所有 © #{item.name}
+                  a(href=copyrightLink target="_blank") #{copyrightName}
+
+```
+<!-- endtab -->
+
+<!-- tab 3. 创建 anniversary.css -->
+- Path: `/source/static/css/anniversary.css`
+
+**直接访问链接获取最新版**：[anniversary.css](https://blog.bornforthis.cn/static/css/anniversary.css)
+
+<!-- endtab -->
+
+<!-- tab 4. anniversary.js -->
+- Path: `/source/static/js/anniversary.js`
+
+**直接访问链接获取最新版**：[anniversary.js](https://blog.bornforthis.cn/static/js/anniversary.js)
+
+<!-- endtab -->
+
+<!-- tab 5. anniversary.yml -->
+- Path: `/source/_data/anniversary.yml`
+
+**代码如下：**
+
+```yml
+- name: 喵喵纪念日
+  date: '2024-09-18'
+  icon: '/img/favicon.svg'
+  lunar: false
+  color: '#a8dadc'
+  display_mode: "elapsed"  # 新增字段，显示已经过去的天数
+  show_copyright: true  # 新增字段，控制是否显示版权
+  copyright_name: "喵喵纪念日"
+  # copyright_link: "https://blog.bornforthis.cn/anniversary/"
+- name: 结婚纪念日
+  date: '2024-05-02'
+  lunar: false
+  color: '#f1faee'
+  display_mode: "remaining"  # 显示剩余天数
+  show_copyright: false  # 不显示版权
+- name: Bornforthis 生日
+  # date: '1997-12-25'
+  date: '1997-11-26'
+  lunar: true
+  color: '#a8dadc'
+- name: 国庆节
+  date: '2018-10-01'
+  lunar: false
+  color: '#457b9d'
+- name: 结婚证
+  date: '2024-02-26'
+  lunar: false
+  color: '#ffb3c6'
+- name: 妈妈👩
+  date: '1968-12-18'
+  lunar: true
+  color: '#ffb3c6'
+- name: 爸爸👨
+  date: '1967-07-29'
+  lunar: true
+  color: '#ffb3c6'
+- name: 老丈人
+  date: '1975-10-04'
+  lunar: true
+  color: '#ffb3c6'
+- name: 大埕 MM
+  date: '1977-08-22'
+  lunar: true
+  color: '#e3d5ca'
+- name: 儿童节
+  date: '1949-06-01'
+  lunar: false
+  color: '#e3d5ca'
+- name: 除夕
+  date: '1949-12-29'
+  lunar: true
+  color: '#e3d5ca'
+- name: 生日🎂
+  date: '1949-12-30'
+  lunar: true
+  color: '#fb6f92'
+- name: 见面
+  date: '2024-02-08'
+  lunar: false
+  color: '#f7a072'
+
+
+```
+
+<!-- endtab -->
+
+{% endtabs %}
+<!-- endtab -->
+
+
+
+
+
 
 
 

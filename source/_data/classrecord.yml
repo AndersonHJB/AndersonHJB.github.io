@@ -18,7 +18,7 @@
 
 - class_name: 车车「珠海」
   seat: left
-  date: 2024/09/20 16:55:09
+  date: 2024/09/21 15:01:04
   layout: default
   card: true
   todo_list:
@@ -34,6 +34,9 @@
     - content: 04-2024-09-20 16.55.09-源-剩余18h
       completed: true
       due_date: 2024/09/20 16:55:09
+    - content: 05-2024-09-21 15.01.04-源&兴-剩余16h
+      completed: true
+      due_date: 2024/09/21 15:01:04
     
 
 

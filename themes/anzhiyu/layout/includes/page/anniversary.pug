@@ -27,7 +27,10 @@
 
               .card-footer
                 .dashed-line(style="border-top: 1px dashed #ccc; margin: 10px 0;") <!-- 虚线 -->
-                .target-info 目标日：#{item.date} #{item.lunar ? '(农历)' : '(新历)'}
+                .target-info 
+                  span.target-label - 目标日 -
+                  br
+                  span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
                 .total-days-info 已经过去了：
                   span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
 

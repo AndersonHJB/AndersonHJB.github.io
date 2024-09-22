@@ -41,7 +41,7 @@
 
 
 - class_name: 肖羡月「英国」
-  date: 2024/09/21 21:04:11
+  date: 2024/09/22 19:29:43
   seat: right
   card: true
   layout: default
@@ -79,6 +79,9 @@
     - content: 11-2024-09-21 21.04.11-剩余34.5h
       completed: true
       due_date: 2024/09/21 21:04:11
+    - content: 12-2024-09-22 19.29.43-剩余33h
+      completed: true
+      due_date: 2024/09/22 19:29:43
 
 - class_name: 许光成「香港」
   date: 2024/09/21 09:13:35
@@ -207,3 +210,13 @@
     - content: 00-2024-09-20 10.55.20-剩余10h
       completed: true
       due_date: 2024/09/20 10:55:20
+
+- class_name: 邢羽舒「英国」
+  seat: right
+  date: 2024/09/22 20:59:46
+  card: true
+  layout: default  # 使用文档式样式
+  todo_list:
+    - content: 01-2024-09-22 20.59.46-剩余6h
+      completed: true
+      due_date: 2024/09/22 20:59:46

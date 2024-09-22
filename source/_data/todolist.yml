@@ -94,6 +94,8 @@
       completed: false
     - content: 用户可以选择显示什么也可以同时显示；
       completed: false
+    - content: 标题和图标居中
+      completed: true
 
 - class_name: 想买的东西
   date: 2024/01/06 12:04:30

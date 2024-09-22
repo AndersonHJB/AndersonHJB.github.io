@@ -1047,6 +1047,8 @@ block content
 - [https://6tail.cn/calendar/api.html](https://6tail.cn/calendar/api.html)
 - [https://github.com/6tail/lunar-javascript](https://github.com/6tail/lunar-javascript)
 
+并且`丁（Tiny Rick）`为页面农历转换提供 js 重构，致谢！
+
 # 6. 已经添加的网站
 
 1. [别碰我的镜头盖](https://blog.bornforthis.cn/anniversary/)

@@ -15,7 +15,7 @@
         each item in site.data.anniversary
           .anniversary-card(style=`background-color: ${item.color}`)
             .card-content
-              .card-header
+              .card-header(style="justify-content: center;")
                 if item.icon
                   img.card-icon(src=item.icon alt="icon")
                 .card-title #{item.name}  <!-- 始终显示标题 -->

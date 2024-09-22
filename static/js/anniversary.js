@@ -79,7 +79,18 @@ function initializeAnniversary() {
     countdownElements.forEach(function (elem) {
         const dateStr = elem.getAttribute("data-date");
         const isLunar = elem.hasAttribute("data-lunar");
-        elem.textContent = daysLeft(dateStr, isLunar);
+        const displayMode = elem.getAttribute("data-display-mode"); // 获取 display_mode
+        let daysText;
+        if (displayMode === "elapsed") {
+            // 显示已经过去的天数
+            daysText = totalDays(dateStr, isLunar);
+            elem.nextElementSibling.textContent = "天了"; // 显示“天了”
+        } else {
+            // 显示剩余天数
+            daysText = daysLeft(dateStr, isLunar);
+            elem.nextElementSibling.textContent = "天后"; // 显示“天后”
+        }
+        elem.textContent = daysText;
     });
 
     totalDaysElements.forEach(function (elem) {

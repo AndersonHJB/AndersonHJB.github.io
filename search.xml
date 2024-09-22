@@ -8,7 +8,7 @@
       <link href="/posts/f730aac1.html"/>
       <url>/posts/f730aac1.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><p>你好，我是悦创。</p><p>大家都热衷于魔改，无非就是有基础的魔改，没基础的魔改，还有一部分想魔改，但是没时间。</p><p>我就想着能不能实现一个脚本，可以实现魔改。</p><h1 id="2-开发思路"><a href="#2-开发思路" class="headerlink" title="2. 开发思路"></a>2. 开发思路</h1><ol><li>列出所有要修改的文件以及路径：<ol><li>列出所有要修改的文件很简单；</li><li>路径的则需要考虑主题，目前主打安知鱼主题吧；</li></ol></li><li>代码：<ol><li>存放在 GitHub 仓库上；</li><li>多页面魔改支持；</li></ol></li><li>操作：<ol><li>确保不影响原本文件格式和内容，只执行添加；<ol><li>如何验证？使用 VSCode 可以轻松实现 git 版本对比，验证是否开发正确；</li><li></li></ol></li></ol></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><p>你好，我是悦创。</p><p>大家都热衷于魔改，无非就是有基础的魔改，没基础的魔改，还有一部分想魔改，但是没时间。</p><p>我就想着能不能实现一个脚本，可以实现魔改。</p><h1 id="2-开发思路"><a href="#2-开发思路" class="headerlink" title="2. 开发思路"></a>2. 开发思路</h1><ol><li>列出所有要修改的文件以及路径：<ol><li>列出所有要修改的文件很简单；</li><li>路径的则需要考虑主题，目前主打安知鱼主题吧；</li></ol></li><li>代码：<ol><li>存放在 GitHub 仓库上；</li><li>多页面魔改支持；</li></ol></li><li>操作：<ol><li>确保不影响原本文件格式和内容，只执行添加；<ol><li>如何验证？使用 VSCode 可以轻松实现 git 版本对比，验证是否开发正确；</li><li>判断是否已经有该名称，存在则停止🤚；</li></ol></li><li></li></ol></li></ol>]]></content>
       
       
       <categories>

@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-09-22T05:43:08.956Z</updated>
+  <updated>2024-09-22T05:44:53.521Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.bornforthis.cn/posts/f730aac1.html"/>
     <id>https://blog.bornforthis.cn/posts/f730aac1.html</id>
     <published>2024-09-22T05:18:38.000Z</published>
-    <updated>2024-09-22T05:43:08.956Z</updated>
+    <updated>2024-09-22T05:44:53.521Z</updated>
     
     
     <summary type="html">本篇是实现 Python 自动执行 hexo 魔改的脚本</summary>

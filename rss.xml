@@ -15,8 +15,31 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Sun, 22 Sep 2024 06:19:53 GMT</pubDate>
+    <pubDate>Sun, 22 Sep 2024 14:40:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows配置C/C++编程环境「2024年」</title>
+      <link>https://blog.bornforthis.cn/posts/5163a66e.html</link>
+      <guid>https://blog.bornforthis.cn/posts/5163a66e.html</guid>
+      <pubDate>Sun, 22 Sep 2024 13:46:26 GMT</pubDate>
+      
+      <description>本篇是给苦逼大学生学习C/C++这玩意，实时更新环境安装配置教程。</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/C-CPP/">C/CPP</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">编程环境搭建</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/5163a66e.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>自动化执行hexo魔改</title>

@@ -28,9 +28,12 @@
               .card-footer
                 .dashed-line(style="border-top: 1px dashed #ccc; margin: 10px 0;") <!-- 虚线 -->
                 .target-info 
-                  span.target-label - 目标日 -
+                  if item.display_mode === 'elapsed'
+                    span.target-label - 起始日 -  <!-- 当 display_mode 为 elapsed 时显示起始日 -->
+                  else
+                    span.target-label - 目标日 -
                   br
-                  span.target-date(data-date=item.date data-lunar=item.lunar) 计算中...
+                  span.target-date(data-date=item.date data-lunar=item.lunar data-display-mode=item.display_mode) 计算中...
                 //- .total-days-info 已经过去了：
                 //-   span.total-days(data-date=item.date data-lunar=item.lunar) 计算中...
 

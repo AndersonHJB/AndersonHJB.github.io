@@ -93,7 +93,7 @@
     - content: 总天数显示可选，通过 display_mode:"elapsed" or display_mode:"remaining" 
       completed: true
     - content: 显示总天数时，显示起始日期
-      completed: false
+      completed: true
     - content: 用户可以选择显示什么也可以同时显示；「遗弃」
       completed: true
     - content: 用户可以选择几周了，适合怀孕或者其它场景；

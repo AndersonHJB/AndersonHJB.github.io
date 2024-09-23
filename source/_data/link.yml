@@ -1,3 +1,24 @@
+- class_name: 我的项目
+  flink_style: anzhiyu
+  class_desc: 有时候的突发奇想，慢慢的开发记录下来......
+  hundredSuffix: ""
+  link_list:
+    - name: FPManager
+      link: https://github.com/AndersonHJB/Falsk-Password-Manager
+      avatar: /img/icon/icon-ai-01.svg
+      descr: 简单的密码验证系统（VPN）
+    - name: CodeMark
+      link: https://github.com/AndersonHJB/CodeMark
+      avatar: /img/icon/CM2.svg
+      descr: 创新的在线编程系统（ing）
+    - name: IPMapper
+      link: https://github.com/AndersonHJB/IPMapper
+      avatar: /img/icon/EosIconsIp.svg
+      descr: hexo 网站的定位系统（简易）
+    - name: TurtleBrowser
+      link: https://github.com/AndersonHJB/turtle_browser
+      avatar: /img/icon/OpenmojiTurtle.svg
+      descr: 在线画图学习系统（发布）
 - class_name: 框架
   flink_style: flexcard
   hundredSuffix: ""

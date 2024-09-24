@@ -201,6 +201,11 @@
       descr: 小波个人分享圈子
       tag: 生活/技术
       recommend: true
+    - name: Mikuの次行星
+      link: https://sotkg.com
+      avatar: /img/link/33-sotkg.com.webp
+      descr: 心有多宽，世界就有多远
+      tag: 生活/技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

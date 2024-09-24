@@ -48,10 +48,10 @@
   todo_list:
     - content: Python实现对比两个路径的文件夹内所有文件内容，找出不同。并可以指定忽略的文件或文件夹，具体到不同的行和具体差异；
       completed: false
-      due_date: 2024/09/04 21:04:30
     - content: Python 一键魔改我的页面；
       completed: false
-      due_date: 2024/09/22 13:53:56
+    - content: 我能不能实现一个简单的在线Excel表格，支持管理员密码和客户密码（客户有多个），管理员可以全部修改，客户只能修改表格空白的地方，有数据、非空白的只能管理员修改。
+      completed: false
 
 - class_name: 想看的书
   seat: left

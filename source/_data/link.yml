@@ -34,10 +34,18 @@
       avatar: /img/link/35.gif
       descr: 人脸替换，适用于视频直播
 
-- class_name: 框架
+- class_name: 主题
   flink_style: flexcard
+  class_desc: 我觉得不错的主题和框架，还有我自己的文档主页
   hundredSuffix: ""
   link_list:
+    - name: AI悦创文档
+      link: https://bornforthis.cn
+      avatar: https://bornforthis.cn/aiyc.svg
+      descr: 悦创造就不同～
+      siteshot: /img/link/01-bornforthis.cn.png
+      color: vip
+      tag: 技术
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: /img/link/04-hexo.io.svg
@@ -53,18 +61,18 @@
       descr: 一个具有强大功能的 vuepress 主题✨
       siteshot: /img/link/14-2-theme-hope.vuejs.press.jpg
 
-- class_name: 推荐博客
-  class_desc: 优质博主
-  flink_style: telescopic
-  hundredSuffix: ""
-  link_list:
-    - name: AI悦创文档
-      link: https://bornforthis.cn
-      avatar: https://bornforthis.cn/aiyc.svg
-      descr: 悦创造就不同～
-      siteshot: /img/link/01-bornforthis.cn.png
-      color: vip
-      tag: 技术
+# - class_name: 推荐博客
+#   class_desc: 优质博主
+#   flink_style: telescopic
+#   hundredSuffix: ""
+#   link_list:
+#     - name: AI悦创文档
+#       link: https://bornforthis.cn
+#       avatar: https://bornforthis.cn/aiyc.svg
+#       descr: 悦创造就不同～
+#       siteshot: /img/link/01-bornforthis.cn.png
+#       color: vip
+#       tag: 技术
     
 
 - class_name: 友谊长存「2024」

@@ -29,6 +29,10 @@
       link: https://github.com/ManimCommunity/manim
       avatar: /img/link/34.png
       descr: 用于解释数学视频的动画引擎
+    - name: Deep Live Cam
+      link: https://github.com/hacksider/Deep-Live-Cam
+      avatar: /img/link/35.gif
+      descr: 人脸替换，适用于视频直播
 
 - class_name: 框架
   flink_style: flexcard

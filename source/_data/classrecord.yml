@@ -227,7 +227,7 @@
   seat: right
   date: 2024/09/22 20:59:46
   card: true
-  layout: default  # 使用文档式样式
+  layout: default
   todo_list:
     - content: 01-2024-09-22 20.59.46-剩余6h
       completed: true
@@ -237,7 +237,7 @@
   seat: left
   date: 2024/09/24 08:52:51
   card: true
-  layout: default  # 使用文档式样式
+  layout: default
   todo_list:
     - content: 01-2024-09-24 08.52.51-剩余8h
       completed: true

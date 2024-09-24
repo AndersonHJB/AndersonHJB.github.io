@@ -19,6 +19,17 @@
       link: https://github.com/AndersonHJB/turtle_browser
       avatar: /img/icon/OpenmojiTurtle.svg
       descr: 在线画图学习系统（发布）
+
+- class_name: 收藏品
+  flink_style: anzhiyu
+  class_desc: 无意间发现的好项目，但没时间研究🧐
+  hundredSuffix: ""
+  link_list:
+    - name: Manim
+      link: https://github.com/ManimCommunity/manim
+      avatar: /img/link/34.png
+      descr: 用于解释数学视频的动画引擎
+
 - class_name: 框架
   flink_style: flexcard
   hundredSuffix: ""

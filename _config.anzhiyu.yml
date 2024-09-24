@@ -1098,7 +1098,7 @@ home_top:
       class: blue
       icon: anzhiyu-icon-dove
     - name: 私教
-      path: /categories/私教/
+      path: /categories/Python私教/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire

@@ -34,6 +34,13 @@ categories: 好物推荐
 
 ## 2. 应用损坏
 
+- 移除应用的安全隔离属性:
+
+
+打开 “终端” 执行如下命令（根据提示输入您的密码即可）：
+
 ```bash
 sudo xattr -dr com.apple.quarantine /Applications/name.app
 ```
+
+`/Applications/name.app` 如果不知道该如何输入，将 App 直接拖拽 `sudo xattr -rd com.apple.quarantine`（中间有个空格）后面即可。

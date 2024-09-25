@@ -58,6 +58,12 @@ nav:
         - name: CSDN
           link: https://aiyuechuang.blog.csdn.net/
           icon: /img/link/41-csdn.ico
+        - name: 知乎
+          link: https://www.zhihu.com/people/aiyuechuang
+          icon: /img/link/43-zhihu.ico
+        - name: 掘金
+          link: https://juejin.cn/user/2305051222344061
+          icon: /img/link/44-juejin.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示

@@ -22,7 +22,7 @@
 
 - class_name: 收藏品
   flink_style: anzhiyu
-  class_desc: 无意间发现的好项目，但没时间研究🧐
+  class_desc: 无意间发现的好项目，但没时间研究🧐 or 已经在使用的
   hundredSuffix: ""
   link_list:
     - name: Manim
@@ -33,6 +33,10 @@
       link: https://github.com/hacksider/Deep-Live-Cam
       avatar: /img/link/35.gif
       descr: 人脸替换，适用于视频直播
+    - name: Res Downloader
+      link: https://github.com/putyy/res-downloader
+      avatar: /img/link/39-res-downloader.png
+      descr: 视频号下载
 
 - class_name: 作家博客
   flink_style: anzhiyu

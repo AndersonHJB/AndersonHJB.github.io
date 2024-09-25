@@ -215,7 +215,7 @@
 
 - class_name: 阿墨「墨西哥」
   seat: left
-  date: 2024/09/24 11:02:10
+  date: 2024/09/25 11:30:17
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -228,6 +228,9 @@
     - content: 02-2024-09-24 11.02.10-剩余8h
       completed: true
       due_date: 2024/09/24 11:02:10
+    - content: 03-2024-09-25 11.30.17-剩余7h
+      completed: true
+      due_date: 2024/09/25 11:30:17
 
 - class_name: 邢羽舒「英国」
   seat: right
@@ -241,7 +244,7 @@
       
 - class_name: Liquid Leon「美国｜东北大学」
   seat: left
-  date: 2024/09/25 08:02:28
+  date: 2024/09/25 12:57:18
   card: true
   layout: default
   todo_list:
@@ -251,3 +254,6 @@
     - content: 02-2024-09-25 08.02.28-失约-剩余7h
       completed: true
       due_date: 2024/09/25 08:02:28
+    - content: 03-2024-09-25 12.57.18-剩余6h
+      completed: true
+      due_date: 2024/09/25 12:57:18

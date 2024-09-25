@@ -50,6 +50,14 @@ nav:
         - name: TurtleBrowser
           link: https://github.com/AndersonHJB/turtle_browser
           icon: /img/icon/OpenmojiTurtle.svg
+    - title: 博客
+      item:
+        - name: 思否
+          link: https://segmentfault.com/u/bornforthis
+          icon: /img/link/40-segmentfault.com.png
+        - name: CSDN
+          link: https://aiyuechuang.blog.csdn.net/
+          icon: /img/link/41-csdn.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示

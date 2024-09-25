@@ -33,7 +33,7 @@
       link: https://github.com/hacksider/Deep-Live-Cam
       avatar: /img/link/35.gif
       descr: 人脸替换，适用于视频直播
-      
+
 - class_name: 作家博客
   flink_style: anzhiyu
   class_desc: 喜欢的作家博客
@@ -100,6 +100,11 @@
       link: https://bornforthis.cn
       avatar: https://bornforthis.cn/aiyc.svg
       descr: 你身边优质的编程私教
+      recommend: true
+    - name: Bornforthis
+      link: https://x.com/huangjiaronbao
+      avatar: /img/icon/x.svg
+      descr: 我的推特
       recommend: true
     - name: 陌颜Hao
       link: https://blog.imoyan.top/

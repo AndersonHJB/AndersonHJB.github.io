@@ -11,6 +11,8 @@
       date: 2024/09/25 10:02:02
       from: AI悦创
       address: 视频号,许岑
+      video:
+        - https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/01-xucen.mp4
     - content: 看每个人都在使用喵喵纪念日，我很开心！但当一些小白，想魔改的时候还是需要有基础，我就想能不能开发一个 Python 脚本来实现一键魔改呢？找时间试一试......
       date: 2024/09/22 13:12:59
       from: AI悦创

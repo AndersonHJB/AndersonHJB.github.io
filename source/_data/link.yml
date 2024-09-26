@@ -74,6 +74,11 @@
       avatar: /img/link/14-vuepresshop.svg
       descr: 一个具有强大功能的 vuepress 主题✨
       siteshot: /img/link/14-2-theme-hope.vuejs.press.jpg
+    - name: Stellar
+      link: https://github.com/xaoxuu/hexo-theme-stellar
+      avatar: /img/link/14-vuepresshop.svg
+      descr: 一个具有强大功能的 vuepress 主题✨
+      siteshot: /img/link/14-2-theme-hope.vuejs.press.jpg
 
 # - class_name: 推荐博客
 #   class_desc: 优质博主

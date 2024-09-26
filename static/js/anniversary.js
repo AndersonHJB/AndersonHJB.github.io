@@ -9,11 +9,13 @@ function initializeAnniversary() {
             return LunarDate(Year, Month, Day - 1);
         }
     }
+    
     // 计算两个日期之间的天数差
     function daysBetween(date1, date2) {
         const oneDay = 24 * 60 * 60 * 1000;
         return Math.ceil((date2 - date1) / oneDay);
     }
+    
     // 剩余天数
     function daysLeft(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
@@ -33,6 +35,7 @@ function initializeAnniversary() {
         }
         return daysBetween(now, anniversaryDate);
     }
+    
     // 经过天数
     function totalDays(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
@@ -46,7 +49,8 @@ function initializeAnniversary() {
         }
         return daysBetween(startDate, now);
     }
-    // 返回目标或起始日期
+    
+    // 返回目标或起始日期以及星期几
     function targetDate(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
         let now = new Date();
@@ -63,20 +67,23 @@ function initializeAnniversary() {
                 anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
             }
         }
-        // 手动拼接日期，确保月份和日期都是两位数
+
+        // 获取星期几
+        const weekDay = anniversaryDate.toLocaleDateString('zh-CN', { weekday: 'long' });
+
+        // 返回年月日加星期几
         const year = anniversaryDate.getFullYear();
         const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
         const day = anniversaryDate.getDate().toString().padStart(2, '0');
-        return `${year}-${month}-${day}`; // 使用'-'作为分隔符
-        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
-        // return anniversaryDate.toLocaleDateString('zh-CN');
+        return `${year}-${month}-${day} (${weekDay})`;
     }
+
     // 返回目标或起始日期（根据 displayMode）
     function targetOrStartDate(dateStr, isLunar, displayMode) {
         if (displayMode === "elapsed") {
             return dateStr; // 如果是elapsed模式，直接返回配置的日期（起始日）
         } else {
-            return targetDate(dateStr, isLunar); // 否则，显示目标日期
+            return targetDate(dateStr, isLunar); // 否则，显示目标日期和星期几
         }
     }
 

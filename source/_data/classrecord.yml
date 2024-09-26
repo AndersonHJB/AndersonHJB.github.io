@@ -47,7 +47,7 @@
 
 
 - class_name: 肖羡月「英国」
-  date: 2024/09/22 19:29:43
+  date: 2024/09/25 21:05:08
   seat: right
   card: true
   layout: default
@@ -88,6 +88,9 @@
     - content: 12-2024-09-22 19.29.43-剩余33h
       completed: true
       due_date: 2024/09/22 19:29:43
+    - content: 13-2024-09-25 21.05.08-剩余31.5h
+      completed: true
+      due_date: 2024/09/25 21:05:08
 
 - class_name: 许光成「香港」
   date: 2024/09/24 19:58:45
@@ -247,7 +250,7 @@
       
 - class_name: Liquid Leon「美国｜东北大学」
   seat: left
-  date: 2024/09/25 12:57:18
+  date: 2024/09/26 12:42:28
   card: true
   layout: default
   todo_list:
@@ -260,3 +263,6 @@
     - content: 03-2024-09-25 12.57.18-剩余6h
       completed: true
       due_date: 2024/09/25 12:57:18
+    - content: 04-2024-09-26 12.42.28-剩余5h
+      completed: true
+      due_date: 2024/09/26 12:42:28

@@ -9,13 +9,11 @@ function initializeAnniversary() {
             return LunarDate(Year, Month, Day - 1);
         }
     }
-    
     // 计算两个日期之间的天数差
     function daysBetween(date1, date2) {
         const oneDay = 24 * 60 * 60 * 1000;
         return Math.ceil((date2 - date1) / oneDay);
     }
-    
     // 剩余天数
     function daysLeft(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
@@ -35,7 +33,6 @@ function initializeAnniversary() {
         }
         return daysBetween(now, anniversaryDate);
     }
-    
     // 经过天数
     function totalDays(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);

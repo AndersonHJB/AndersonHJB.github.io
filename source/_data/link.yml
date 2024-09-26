@@ -248,6 +248,11 @@
       avatar: /img/link/33-sotkg.com.webp
       descr: 心有多宽，世界就有多远
       tag: 生活/技术
+    - name: xaoxuu
+      link: https://xaoxuu.com
+      avatar: /img/link/45-xaoxuu.com.png
+      descr: None
+      tag: 生活/技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

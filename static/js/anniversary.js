@@ -46,7 +46,6 @@ function initializeAnniversary() {
         }
         return daysBetween(startDate, now);
     }
-    
     // 返回目标或起始日期以及星期几
     function targetDate(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
@@ -72,9 +71,10 @@ function initializeAnniversary() {
         const year = anniversaryDate.getFullYear();
         const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
         const day = anniversaryDate.getDate().toString().padStart(2, '0');
-        return `${year}-${month}-${day} (${weekDay})`;
+        return `${year}-${month}-${day} (${weekDay})`; // 使用'-'作为分隔符
+        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
+        // return anniversaryDate.toLocaleDateString('zh-CN');
     }
-
     // 返回目标或起始日期（根据 displayMode）
     function targetOrStartDate(dateStr, isLunar, displayMode) {
         if (displayMode === "elapsed") {

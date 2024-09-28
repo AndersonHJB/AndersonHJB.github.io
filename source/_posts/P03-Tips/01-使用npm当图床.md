@@ -26,9 +26,22 @@ toc_style_simple:
 aplayer:
 ---
 
+你好，我是悦创。
+
+本文参考安知鱼大佬的文章，为了方便未来使用和稳定，特此整理此文章。
+
 1. 首先需要注册一个 npm 的账号。访问 [npm 注册页面](https://www.npmjs.com/signup/)
 
-![](01-使用npm当图床/image1.png)
+{% folding blue close, 图1 %}
+![](01-使用npm当图床/image-7.png)
+{% endfolding %}
+
+{% folding blue close, 图2 %}
+![](01-使用npm当图床/image-8.png)
+{% endfolding %}
+
+
+
 
 2. 完成邮箱验证，注册完成后进入账号管理界面:头像->Account，拉倒最上方，你会看到 `You have not verified your email address` 字样的提示，点击以后按提示步骤验证你的邮箱。
 
@@ -106,7 +119,7 @@ https://unpkg.com/:package@:version/:file
     
       ![](01-使用npm当图床/image-4.png)
       
-     ![](01-使用npm当图床/image-5.png)
+     ![](01-使用npm当图床/image-9.png)
      
      
      

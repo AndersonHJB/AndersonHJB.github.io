@@ -2,7 +2,6 @@
 title: 带你白嫖之使用npm当图床
 tags:
   - 图床
-  - 赛前集训
   - 白嫖
 categories:
   - IT小技巧

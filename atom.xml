@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-09-23T02:20:16.597Z</updated>
+  <updated>2024-09-28T00:13:47.185Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>带你白嫖之使用npm当图床</title>
+    <link href="https://blog.bornforthis.cn/posts/9dcc73dd.html"/>
+    <id>https://blog.bornforthis.cn/posts/9dcc73dd.html</id>
+    <published>2024-09-28T00:11:56.000Z</published>
+    <updated>2024-09-28T00:13:47.185Z</updated>
+    
+    
+    <summary type="html">本篇是 Python 私教的编程题目测试</summary>
+    
+    
+    
+    <category term="IT小技巧" scheme="https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="赛前集训" scheme="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/"/>
+    
+    <category term="图床" scheme="https://blog.bornforthis.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="白嫖" scheme="https://blog.bornforthis.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows配置C/C++编程环境「2024年」</title>
@@ -105,10 +128,10 @@
     <link href="https://blog.bornforthis.cn/posts/65db6129.html"/>
     <id>https://blog.bornforthis.cn/posts/65db6129.html</id>
     <published>2024-09-15T09:06:56.000Z</published>
-    <updated>2024-09-27T10:57:10.879Z</updated>
+    <updated>2024-09-28T00:14:33.485Z</updated>
     
     
-    <summary type="html">本篇是 Python 私教的编程题目测试</summary>
+    <summary type="html">这篇文章介绍了如何使用npm图床来存储图片，并发布到npm公共库。首先需要注册账号，完成邮箱验证后找到之前创建的图床仓库，并在本地合适的位置下载仓库。接着进行初始化设置后，可以按照指示进行配置并发布到公共库。使用npm图床可以避免每次在本地上传图片的麻烦，通过自动部署新的图片和更新版本号来实现自动化。</summary>
     
     
     

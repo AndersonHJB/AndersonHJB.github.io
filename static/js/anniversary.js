@@ -63,10 +63,8 @@ function initializeAnniversary() {
                 anniversaryDate = new Date(now.getFullYear() + 1, Month - 1, Day);
             }
         }
-
         // 获取星期几
         const weekDay = anniversaryDate.toLocaleDateString('zh-CN', { weekday: 'long' });
-
         // 返回年月日加星期几
         const year = anniversaryDate.getFullYear();
         const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1

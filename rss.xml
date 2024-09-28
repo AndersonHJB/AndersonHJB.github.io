@@ -15,8 +15,33 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Mon, 23 Sep 2024 02:20:16 GMT</pubDate>
+    <pubDate>Sat, 28 Sep 2024 00:13:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>带你白嫖之使用npm当图床</title>
+      <link>https://blog.bornforthis.cn/posts/9dcc73dd.html</link>
+      <guid>https://blog.bornforthis.cn/posts/9dcc73dd.html</guid>
+      <pubDate>Sat, 28 Sep 2024 00:11:56 GMT</pubDate>
+      
+      <description>本篇是 Python 私教的编程题目测试</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/">IT小技巧</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E5%9B%BE%E5%BA%8A/">图床</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%99%BD%E5%AB%96/">白嫖</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/9dcc73dd.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Windows配置C/C++编程环境「2024年」</title>
@@ -116,7 +141,7 @@
       <guid>https://blog.bornforthis.cn/posts/65db6129.html</guid>
       <pubDate>Sun, 15 Sep 2024 09:06:56 GMT</pubDate>
       
-      <description>本篇是 Python 私教的编程题目测试</description>
+      <description>这篇文章介绍了如何使用npm图床来存储图片，并发布到npm公共库。首先需要注册账号，完成邮箱验证后找到之前创建的图床仓库，并在本地合适的位置下载仓库。接着进行初始化设置后，可以按照指示进行配置并发布到公共库。使用npm图床可以避免每次在本地上传图片的麻烦，通过自动部署新的图片和更新版本号来实现自动化。</description>
       
       
       

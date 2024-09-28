@@ -178,7 +178,7 @@
 
 - class_name: 官子钊「加拿大」
   seat: left
-  date: 2024/09/21 07:57:09
+  date: 2024/09/27 08:54:08
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -188,6 +188,9 @@
     - content: 02-2024-09-21 07.57.09-剩余2h
       completed: true
       due_date: 2024/09/21 07:57:09
+    - content: 03-2024-09-27 08.54.08-剩余1h-续费：11h
+      completed: true
+      due_date: 2024/09/27 08:54:08
 
 - class_name: 王小宇「北京」
   seat: right

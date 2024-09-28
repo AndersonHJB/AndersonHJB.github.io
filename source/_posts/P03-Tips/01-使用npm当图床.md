@@ -104,13 +104,64 @@ https://unpkg.com/:package@:version/:file
 
 9. 如果每次都要在本地进行 `npm publish` 的话，npm 的提交是整个包一起上传的，不存在增量更新，耗时不说，而且还往往需要架梯子才能正常上传。所以我们可以把它交给 github action 来完成。 
    - 在 [npm 官网](https://www.npmjs.com/) ->头像->`Access Tokens`->`Generate New Token`,勾选 `Automation` 选项，`Token` 只会显示这一次，之后如果忘记了就只能重新生成重新配置了。
-  
+    
       ![](01-使用npm当图床/image-4.png)
-      ![](01-使用npm当图床/image-5.png)
-
+      
+     ![](01-使用npm当图床/image-5.png)
+     
+     
+     
    - 在 github 的 `[AssetsRepo]` 仓库设置项里添加一个名为 `NPM_TOKEN` 的 `secrets` ，把获取的 Npm 的 Access token 输入进去。
-
+   
+      
+   
       ![](01-使用npm当图床/image-6.png)
-
+   
    - 在本地的 `[AssetsRepo]` 文件夹下新建 `[AssetsRepo]/.github/workflows/autopublish.yml`,
-  
+   
+      ```yml
+      name: Node.js Package
+      # 监测图床分支，2020年10月后github新建仓库默认分支改为main，记得更改
+      on:
+        push:
+          branches:
+            - master
+      
+      jobs:
+        publish-npm:
+          runs-on: ubuntu-latest
+          steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                node-version: "12.x"
+                registry-url: https://registry.npmjs.org/
+            - run: npm publish
+              env:
+                NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      ```
+   
+   - 在本地的 `[AssetsRepo]` 文件夹下打开终端，运行以下指令，上传新增内容至 github，即可触发部署。
+   
+      ```bash
+      # 将更改提交
+      git add .
+      git commit -m "npm publish"
+      # 更新package版本号
+      npm version patch
+      # 推送至github触发action
+      git push
+      ```
+
+
+{% note warning simple %}
+
+此处的四行指令顺序严格。
+
+每次更新 npm 图床都需要先修改`[AssetsRepo]\package.json`里的`version`,也就是版本号。
+
+而`npm version patch`即为更新 package.json 里的版本号的指令，效果是末尾版本号+1，例如`0.0.1=>0.0.2`、`1.1.3=>1.1.4`。免去了打开`package.json`再修改版本号的麻烦。（大版本更新还是需要手动改的）
+
+更新 npm 图床务必要记得更新`package.json`里的版本号！
+
+{% endnote %}

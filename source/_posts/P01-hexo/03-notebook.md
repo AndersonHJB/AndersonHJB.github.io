@@ -207,3 +207,15 @@ with open('gpt.txt', 'w') as f:
 
 
 
+# 5. 杂物连接
+
+{% tabs zawu %}
+<!-- tab 1. 2409 -->
+1. [https://github.com/qianguyihao/Web](https://github.com/qianguyihao/Web)
+2. [千古前端图文教程](https://web.qianguyihao.com/)
+3. [樱桃茶-easycoding](https://doc.cherrychat.org/) 质量低下，GPT 生成。
+4. [Jasmine](https://github.com/liaocp666/Jasmine) 主题
+5. [https://okpy.github.io/documentation/](https://okpy.github.io/documentation/)
+6. [https://github.com/okpy/ok](https://github.com/okpy/ok)
+<!-- endtab -->
+{% endtabs %}

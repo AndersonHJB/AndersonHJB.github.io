@@ -159,7 +159,7 @@
 
 - class_name: Sandy「上海」
   seat: right
-  date: 2024/09/20 19:01:56
+  date: 2024/09/27 18:58:34
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -169,6 +169,9 @@
     - content: 02-2024-09-20 19.01.56-剩余1.5h
       completed: true
       due_date: 2024/09/20 19:01:56
+    - content: 03-2024-09-27 18.58.34-剩余0h
+      completed: true
+      due_date: 2024/09/27 18:58:34
 
 - class_name: 官子钊「加拿大」
   seat: left

@@ -233,7 +233,7 @@
 
 - class_name: 阿墨「墨西哥」
   seat: left
-  date: 2024/09/25 11:30:17
+  date: 2024/09/27 11:06:44
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -249,6 +249,9 @@
     - content: 03-2024-09-25 11.30.17-剩余7h
       completed: true
       due_date: 2024/09/25 11:30:17
+    - content: 04-2024-09-27 11.06.44-剩余6.5h
+      completed: true
+      due_date: 2024/09/27 11:06:44
 
 - class_name: 邢羽舒「英国」
   seat: right

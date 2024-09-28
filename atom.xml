@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-09-28T00:57:43.114Z</updated>
+  <updated>2024-09-28T01:03:00.739Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.bornforthis.cn/posts/9dcc73dd.html"/>
     <id>https://blog.bornforthis.cn/posts/9dcc73dd.html</id>
     <published>2024-09-28T00:11:56.000Z</published>
-    <updated>2024-09-28T00:57:43.114Z</updated>
+    <updated>2024-09-28T01:03:00.739Z</updated>
     
     
     <summary type="html">这篇文章介绍了如何使用npm图床进行图片存储和引用。首先需要注册账号并完成邮箱验证，然后下载图床仓库并进行初始化配置。包名需要事先确认没有和别人已发布的包重复。建议使用国内节点进行上传和部署，可以节省时间和避免需要使用梯子。每次更新图床都需要先修改版本号，然后触发部署。大版本更新需要手动改变版本号。</summary>

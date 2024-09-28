@@ -217,5 +217,9 @@ with open('gpt.txt', 'w') as f:
 4. [Jasmine](https://github.com/liaocp666/Jasmine) 主题
 5. [https://okpy.github.io/documentation/](https://okpy.github.io/documentation/)
 6. [https://github.com/okpy/ok](https://github.com/okpy/ok)
+7. [https://fecommunity.github.io/front-end-interview/](https://fecommunity.github.io/front-end-interview/)
+8. [https://tsejx.github.io/javascript-guidebook/](https://tsejx.github.io/javascript-guidebook/)
+9. 反向代理：[https://console.openfrp.net/dashboard](https://console.openfrp.net/dashboard)
+10. 昊天数学老师网站：[https://mathematico.netlify.app/](https://mathematico.netlify.app/)
 <!-- endtab -->
 {% endtabs %}

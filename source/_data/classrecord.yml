@@ -179,7 +179,7 @@
 
 - class_name: 王小宇「北京」
   seat: right
-  date: 2024/09/26 18:56:57
+  date: 2024/09/27 17:56:58
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -204,6 +204,9 @@
     - content: 07-2024-09-26 18.56.57-剩余1h
       completed: true
       due_date: 2024/09/26 18:56:57
+    - content: 08-2024-09-27 17.56.58-剩余0h
+      completed: true
+      due_date: 2024/09/27 17:56:58
 
 - class_name: 盛昊天「苏州」
   seat: left

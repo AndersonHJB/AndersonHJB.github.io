@@ -9,9 +9,9 @@ keywords:
   - hexo
   - 安知鱼主题魔改
 description: 本篇是实现首页一图流的教程
-top_img: /img/posts/04-Monograph-flow/103015259_p0.jpg
+top_img: /img/posts/P01-hexo/04-Monograph-flow/103015259_p0.jpg
 comments: true
-cover: /img/posts/04-Monograph-flow/Canvas-Ruom.webp
+cover: /img/posts/P01-hexo/04-Monograph-flow/Canvas-Ruom.webp
 toc: true
 mathjax: false
 katex: false

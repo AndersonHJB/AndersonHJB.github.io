@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 图床 </tag>
-            
             <tag> 赛前集训 </tag>
+            
+            <tag> 图床 </tag>
             
             <tag> 白嫖 </tag>
             
@@ -64,7 +64,7 @@
       <link href="/posts/f730aac1.html"/>
       <url>/posts/f730aac1.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><p>你好，我是悦创。</p><p>大家都热衷于魔改，无非就是有基础的魔改，没基础的魔改，还有一部分想魔改，但是没时间。</p><p>我就想着能不能实现一个脚本，可以实现魔改。</p><h1 id="2-开发思路"><a href="#2-开发思路" class="headerlink" title="2. 开发思路"></a>2. 开发思路</h1><ol><li>列出所有要修改的文件以及路径：<ol><li>列出所有要修改的文件很简单；</li><li>路径的则需要考虑主题，目前主打安知鱼主题吧；</li></ol></li><li>代码：<ol><li>存放在 GitHub 仓库上；</li><li>多页面魔改支持；</li></ol></li><li>操作：<ol><li>确保不影响原本文件格式和内容，只执行添加；<ol><li>如何验证？使用 VSCode 可以轻松实现 git 版本对比，验证是否开发正确；</li><li>判断是否已经有该名称，存在则停止🤚；</li></ol></li></ol></li></ol><span class='p center log large blue'>🪧</span><details class="folding-tag" blue close><summary> 公众号：AI悦创【二维码】 </summary>              <div class='content'>              <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bornforthis.cn/gzh.jpg"></p>              </div>            </details><div class="tip info"><p>AI悦创·编程一对一</p><blockquote><p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法&#x2F;数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p><p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p><p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes">QQ</a></p><p>方法二：微信：Jiabcdefh</p></blockquote></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><p>你好，我是悦创。</p><p>大家都热衷于魔改，无非就是有基础的魔改，没基础的魔改，还有一部分想魔改，但是没时间。</p><p>我就想着能不能实现一个脚本，可以实现魔改。</p><p>我这里分享一下，我网站的魔改一部分都在这个连接里面：<a href="https://bornforthis.cn/blog/hexo/12-ASCII-Art.html">https://bornforthis.cn/blog/hexo/12-ASCII-Art.html</a></p><h1 id="2-开发思路"><a href="#2-开发思路" class="headerlink" title="2. 开发思路"></a>2. 开发思路</h1><ol><li>列出所有要修改的文件以及路径：<ol><li>列出所有要修改的文件很简单；</li><li>路径的则需要考虑主题，目前主打安知鱼主题吧；</li></ol></li><li>代码：<ol><li>存放在 GitHub 仓库上；</li><li>多页面魔改支持；</li></ol></li><li>操作：<ol><li>确保不影响原本文件格式和内容，只执行添加；<ol><li>如何验证？使用 VSCode 可以轻松实现 git 版本对比，验证是否开发正确；</li><li>判断是否已经有该名称，存在则停止🤚；</li></ol></li></ol></li></ol><span class='p center log large blue'>🪧</span><details class="folding-tag" blue close><summary> 公众号：AI悦创【二维码】 </summary>              <div class='content'>              <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bornforthis.cn/gzh.jpg"></p>              </div>            </details><div class="tip info"><p>AI悦创·编程一对一</p><blockquote><p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法&#x2F;数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p><p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p><p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes">QQ</a></p><p>方法二：微信：Jiabcdefh</p></blockquote></div>]]></content>
       
       
       <categories>
@@ -159,9 +159,9 @@
       
         <tags>
             
-            <tag> 赛前集训 </tag>
-            
             <tag> 竞赛辅导 </tag>
+            
+            <tag> 赛前集训 </tag>
             
         </tags>
       

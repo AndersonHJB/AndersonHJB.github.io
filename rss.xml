@@ -15,8 +15,31 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Sat, 28 Sep 2024 01:10:44 GMT</pubDate>
+    <pubDate>Sat, 28 Sep 2024 02:09:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>hexo写文章优质技巧之如何设置VSCode中Markdown粘贴图片的位置</title>
+      <link>https://blog.bornforthis.cn/posts/e68f15c8.html</link>
+      <guid>https://blog.bornforthis.cn/posts/e68f15c8.html</guid>
+      <pubDate>Sat, 28 Sep 2024 01:56:02 GMT</pubDate>
+      
+      <description>这篇文章讲解了如何在VScode中配置更合适的图片默认粘贴方式。</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/">IT小技巧</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E5%9B%BE%E5%BA%8A/">图床</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E6%8A%80%E5%B7%A7/">技巧</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/e68f15c8.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>带你白嫖之使用npm当图床</title>
@@ -33,8 +56,6 @@
       
       
       <category domain="https://blog.bornforthis.cn/tags/%E5%9B%BE%E5%BA%8A/">图床</category>
-      
-      <category domain="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
       
       <category domain="https://blog.bornforthis.cn/tags/%E7%99%BD%E5%AB%96/">白嫖</category>
       
@@ -151,9 +172,9 @@
       <category domain="https://blog.bornforthis.cn/categories/Python%E7%A7%81%E6%95%99/Python%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC/">Python一对一辅导</category>
       
       
-      <category domain="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
-      
       <category domain="https://blog.bornforthis.cn/tags/%E7%AB%9E%E8%B5%9B%E8%BE%85%E5%AF%BC/">竞赛辅导</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E8%B5%9B%E5%89%8D%E9%9B%86%E8%AE%AD/">赛前集训</category>
       
       
       <comments>https://blog.bornforthis.cn/posts/65db6129.html#disqus_thread</comments>

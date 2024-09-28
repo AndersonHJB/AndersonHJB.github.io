@@ -8,7 +8,7 @@
       <link href="/posts/9dcc73dd.html"/>
       <url>/posts/9dcc73dd.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ol><li>首先需要注册一个 npm 的账号。访问 <a href="https://www.npmjs.com/signup/">npm 注册页面</a></li></ol><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/9dcc73dd/image1.png" class=""><ol start="2"><li>完成邮箱验证，注册完成后进入账号管理界面:头像-&gt;Account，拉倒最上方，你会看到 <code>You have not verified your email address</code> 字样的提示，点击以后按提示步骤验证你的邮箱。</li></ol><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/9dcc73dd/image-2.png" class=""><ol start="3"><li>找到我们之前创建的图床仓库，在本地合适的位置把它 <code>clone</code> 下来。找个空文件夹打开终端输入</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:[username]/[AssetsRepo].git</span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/[username]/[AssetsRepo].git</span><br></pre></td></tr></table></figure><ol start="4"><li>在 clone 下来的 <code>[AssetsRepo]</code> 文件夹内打开终端，输入以下指令切换回原生源</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br></pre></td></tr></table></figure><ol start="5"><li>添加本地 npm 用户设置</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br></pre></td></tr></table></figure><ol start="6"><li>运行 npm 初始化指令，把整个图床仓库打包，按照指示进行配置，注意需要事先确认你的包名没有和别人已发布的包重复，可以在 npm 官网搜索相应包名，搜不到就说明还没被占用。</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/9dcc73dd/image-3.png" class=""><p>最后会输出一段 <code>package.json</code>，请求确认，输入 <code>yes</code> 即可。</p><ol start="7"><li>然后输入发布指令，我们就可以把包发布到 <code>npm</code> 上了。</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm publish</span><br></pre></td></tr></table></figure><ol start="8"><li><code>jsdelivr+npm</code> 的图片引用和 <code>jsdelivr+github</code> 很相似，例如我在 <code>[AssetsRepo]</code> 仓库里存放的 <code>/img/index.png</code></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># jsDelivr+github链接</span></span><br><span class="line">https://cdn.jsdelivr.net/gh/[GithubUserName]/[AssetsRepo]/img/index.png</span><br><span class="line"><span class="comment"># jsDelivr+npm链接</span></span><br><span class="line">https://cdn.jsdelivr.net/npm/[NpmPackageName]/img/index.png</span><br></pre></td></tr></table></figure><blockquote><p>可以看到 Npm 只需要提供包名即可。这也是一开始要求包名不重复的原因之一</p></blockquote><p><code>jsDelivr+Npm</code> 依然有 100MB 的包大小限制，但是 NPM 有丰富的国内节点。可以挑选一个使用。个人推荐知乎的。没有大小限制，而且也很稳定。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">【jsd出品，网宿国内节点】</span><br><span class="line">https://cdn.jsdelivr.net/npm/:package@:version/:file</span><br><span class="line">【unpkg 自建】</span><br><span class="line">https://cdn.cbd.int/:package@:version/:file</span><br></pre></td></tr></table></figure><p>当然你也可以利用 <a href="https://unpkg.com/">unpkg</a> 自建。(UNPKG 是一个内容源自 npm 的全球快速 CDN。它部署在 cloudflare 上，在大陆地区访问到的是香港节点。所以速度也不错。)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://unpkg.com/:package@:version/:file</span><br></pre></td></tr></table></figure><ol start="9"><li>如果每次都要在本地进行 <code>npm publish</code> 的话，npm 的提交是整个包一起上传的，不存在增量更新，耗时不说，而且还往往需要架梯子才能正常上传。所以我们可以把它交给 github action 来完成。<ol><li>在 <a href="https://www.npmjs.com/">npm 官网</a> -&gt;头像-&gt;<code>Access Tokens</code>-&gt;<code>Generate New Token</code>,勾选 <code>Automation</code> 选项，<code>Token</code> 只会显示这一次，之后如果忘记了就只能重新生成重新配置了。</li><li><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/9dcc73dd/image-4.png" class=""></li></ol></li></ol>]]></content>
       
       
       <categories>
@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 赛前集训 </tag>
-            
             <tag> 图床 </tag>
+            
+            <tag> 赛前集训 </tag>
             
             <tag> 白嫖 </tag>
             
@@ -159,9 +159,9 @@
       
         <tags>
             
-            <tag> 竞赛辅导 </tag>
-            
             <tag> 赛前集训 </tag>
+            
+            <tag> 竞赛辅导 </tag>
             
         </tags>
       

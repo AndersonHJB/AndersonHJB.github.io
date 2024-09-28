@@ -6,8 +6,8 @@ tags:
 categories:
   - hexo 网站相关
 description: 本篇是实现纪念日页面的代码记录，以及随时浮现的想法，转瞬即逝～
-top_img: /img/posts/07-anniversary/07-anniversary.webp
-cover: /img/posts/07-anniversary/07-anniversary.webp
+top_img: /img/posts/P01-hexo/07-anniversary/07-anniversary.webp
+cover: /img/posts/P01-hexo/07-anniversary/07-anniversary.webp
 comments: true
 toc: true
 mathjax: false

@@ -9,9 +9,9 @@ categories:
 keywords: 
     - hexo
 description: "本篇是我研究安知鱼主题编写文章的方法。"
-top_img: "/img/posts/03-notebook/blog.png"
+top_img: "/img/posts/P01-hexo/03-notebook/blog.png"
 comments: true
-cover: "/img/posts/03-notebook/blog.png"
+cover: "/img/posts/P01-hexo/03-notebook/blog.png"
 toc: true
 toc_number: 
 toc_style_simple:

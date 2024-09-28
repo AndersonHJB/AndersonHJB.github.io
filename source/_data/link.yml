@@ -258,6 +258,11 @@
       avatar: /img/link/45-xaoxuu.com.png
       descr: None
       tag: 生活/技术
+    - name: TWindyの小站
+      link: https://www.twindy.top/
+      avatar: /img/link/47-www.twindy.top.png
+      descr: 「离开世界之前 一切都是过程」
+      tag: 生活
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

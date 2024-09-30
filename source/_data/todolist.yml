@@ -72,7 +72,9 @@
   todo_list:
     - content: 改进喵喵纪念日标题与卡片上方的距离
       completed: true
-    - content: 看能否实现点击卡片后，浮出该纪念日的故事，如果有的话；
+    - content: 看能否实现点击卡片特定位置，浮出该纪念日的故事，如果有的话；
+      completed: false
+    - content: 纪念日当天效果，思考中！
       completed: false
     - content: 选择一套常用的图标，生成链接，方便大家复用；
       completed: false

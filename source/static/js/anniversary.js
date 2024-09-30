@@ -134,23 +134,23 @@ function initializeAnniversary() {
 
     // 更新elapsed模式下的显示内容
     function updateElapsedDisplay(elem, dateStr, isLunar, displayState) {
-        const [Year, Month, Day] = dateStr.split("-").map(Number);
-        let now = new Date();
-        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-        let startDate;
-        if (isLunar) {
-            startDate = LunarDate(Year, Month, Day);
-        } else {
-            startDate = new Date(Year, Month - 1, Day);
-        }
-
         if (displayState === 0) {
             // 显示已经过去的天数
-            let days = daysBetween(startDate, now);
+            let days = totalDays(dateStr, isLunar);
             elem.textContent = days;
             elem.nextElementSibling.textContent = "天了";
         } else if (displayState === 1) {
             // 显示已经过去的周数和天数
+            const [Year, Month, Day] = dateStr.split("-").map(Number);
+            let now = new Date();
+            now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            let startDate;
+            if (isLunar) {
+                startDate = LunarDate(Year, Month, Day);
+            } else {
+                startDate = new Date(Year, Month - 1, Day);
+            }
+
             let { weeks, days } = weeksAndDaysBetween(startDate, now);
             if (days === 0) {
                 elem.textContent = weeks;
@@ -161,6 +161,16 @@ function initializeAnniversary() {
             }
         } else if (displayState === 2) {
             // 显示已经过去的月数和天数
+            const [Year, Month, Day] = dateStr.split("-").map(Number);
+            let now = new Date();
+            now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            let startDate;
+            if (isLunar) {
+                startDate = LunarDate(Year, Month, Day);
+            } else {
+                startDate = new Date(Year, Month - 1, Day);
+            }
+
             let { months, days } = monthsAndDaysBetween(startDate, now);
             elem.textContent = `${months}月${days}天`;
             elem.nextElementSibling.textContent = "了";

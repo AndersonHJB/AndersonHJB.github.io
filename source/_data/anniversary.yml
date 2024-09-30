@@ -1,66 +1,78 @@
-- name: 喵喵纪念日
-  date: '2024-09-18'
-  icon: '/img/favicon.svg'
-  lunar: false
-  color: '#a8dadc'
-  display_mode: "elapsed"  # 新增字段，显示已经过去的天数
-  show_copyright: true  # 新增字段，控制是否显示版权
-  copyright_name: "喵喵纪念日"
-  # copyright_link: "https://blog.bornforthis.cn/anniversary/"
-- name: 结婚纪念日
-  date: '2024-05-02'
-  lunar: false
-  color: '#f1faee'
-  display_mode: "remaining"  # 显示剩余天数
-  show_copyright: false  # 不显示版权
-- name: Bornforthis 生日
-  # date: '1997-12-25'
-  date: '1997-11-26'
-  lunar: true
-  color: '#a8dadc'
-- name: 国庆节
-  date: '2018-10-01'
-  lunar: false
-  color: '#457b9d'
-- name: 结婚证
-  date: '2024-02-26'
-  lunar: false
-  color: '#ffb3c6'
-- name: 妈妈👩
-  date: '1968-12-18'
-  lunar: true
-  color: '#ffb3c6'
-- name: 爸爸👨
-  date: '1967-07-29'
-  lunar: true
-  color: '#ffb3c6'
-- name: 老丈人
-  date: '1975-10-04'
-  lunar: true
-  color: '#ffb3c6'
-- name: 大埕 MM
-  date: '1977-08-22'
-  lunar: true
-  color: '#e3d5ca'
-- name: 儿童节
-  date: '1949-06-01'
-  lunar: false
-  color: '#e3d5ca'
-- name: 除夕
-  date: '1949-12-29'
-  lunar: true
-  color: '#e3d5ca'
-- name: 生日🎂
-  date: '1949-12-30'
-  lunar: true
-  color: '#fb6f92'
-- name: 见面
-  date: '2024-02-08'
-  lunar: false
-  color: '#f7a072'
-- name: 怀孕🫄
-  date: '2024-04-02'
-  display_mode: "elapsed"
-  lunar: false
-  color: '#f7a072'
+groups:
+  - group_name: 家庭
+    desc: 这是家庭相关的纪念日
+  - group_name: 朋友
+    desc: 这是朋友相关的纪念日
+
+anniversaries:
+  - name: 喵喵纪念日
+    date: '2024-09-18'
+    icon: '/img/favicon.svg'
+    lunar: false
+    color: '#a8dadc'
+    display_mode: "elapsed"  # 新增字段，显示已经过去的天数
+    show_copyright: true  # 新增字段，控制是否显示版权
+    copyright_name: "喵喵纪念日"
+    # copyright_link: "https://blog.bornforthis.cn/anniversary/"
+    group: 家庭
+  - name: 结婚纪念日
+    date: '2024-05-02'
+    lunar: false
+    color: '#f1faee'
+    display_mode: "remaining"  # 显示剩余天数
+    show_copyright: false  # 不显示版权
+    group: 家庭
+  - name: Bornforthis 生日
+    # date: '1997-12-25'
+    date: '1997-11-26'
+    lunar: true
+    color: '#a8dadc'
+  - name: 国庆节
+    date: '2018-10-01'
+    lunar: false
+    color: '#457b9d'
+  - name: 结婚证
+    date: '2024-02-26'
+    lunar: false
+    color: '#ffb3c6'
+  - name: 妈妈👩
+    date: '1968-12-18'
+    lunar: true
+    color: '#ffb3c6'
+  - name: 爸爸👨
+    date: '1967-07-29'
+    lunar: true
+    color: '#ffb3c6'
+  - name: 老丈人
+    date: '1975-10-04'
+    lunar: true
+    color: '#ffb3c6'
+    group: 朋友
+  - name: 大埕 MM
+    date: '1977-08-22'
+    lunar: true
+    color: '#e3d5ca'
+    group: 朋友
+  - name: 儿童节
+    date: '1949-06-01'
+    lunar: false
+    color: '#e3d5ca'
+    group: 朋友
+  - name: 除夕
+    date: '1949-12-29'
+    lunar: true
+    color: '#e3d5ca'
+  - name: 生日🎂
+    date: '1949-12-30'
+    lunar: true
+    color: '#fb6f92'
+  - name: 见面
+    date: '2024-02-08'
+    lunar: false
+    color: '#f7a072'
+  - name: 怀孕🫄
+    date: '2024-04-02'
+    display_mode: "elapsed"
+    lunar: false
+    color: '#f7a072'
 

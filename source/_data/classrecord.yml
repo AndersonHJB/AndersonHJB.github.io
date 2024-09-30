@@ -298,7 +298,7 @@
       
 - class_name: Liquid Leon「美国｜东北大学」
   seat: left
-  date: 2024/09/29 08:04:27
+  date: 2024/09/30 19:08:43
   card: true
   layout: default
   todo_list:
@@ -326,3 +326,9 @@
     - content: 08-2024-09-29 08.04.27-剩余10h
       completed: true
       due_date: 2024/09/29 08:04:27
+    - content: 09-2024-09-30 10.01.00-剩余9h
+      completed: true
+      due_date: 2024/09/30 10:01:00
+    - content: 10-2024-09-30 19.08.43-剩余8h
+      completed: true
+      due_date: 2024/09/30 19:08:43

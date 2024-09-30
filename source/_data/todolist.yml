@@ -97,7 +97,7 @@
     - content: 用户可以选择显示什么也可以同时显示；「遗弃」
       completed: true
     - content: 用户可以选择几周了，适合怀孕或者其它场景；
-      completed: false
+      completed: true
     - content: 目标日期显示问题，不是当前年份；
       completed: true
       due_date: 2024/09/22 17:13:13

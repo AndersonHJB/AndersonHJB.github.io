@@ -14,6 +14,25 @@ function initializeAnniversary() {
         const oneDay = 24 * 60 * 60 * 1000;
         return Math.ceil((date2 - date1) / oneDay);
     }
+    // 计算两个日期之间的周数差
+    function weeksBetween(date1, date2) {
+        const oneWeek = 7 * 24 * 60 * 60 * 1000;
+        return Math.floor((date2 - date1) / oneWeek);
+    }
+    // 计算两个日期之间的月数和天数差
+    function monthsAndDaysBetween(date1, date2) {
+        let years = date2.getFullYear() - date1.getFullYear();
+        let months = date2.getMonth() - date1.getMonth() + years * 12;
+        let days = date2.getDate() - date1.getDate();
+
+        if (days < 0) {
+            months -= 1;
+            let previousMonth = new Date(date2.getFullYear(), date2.getMonth(), 0);
+            days += previousMonth.getDate();
+        }
+
+        return { months, days };
+    }
     // 剩余天数
     function daysLeft(dateStr, isLunar) {
         const [Year, Month, Day] = dateStr.split("-").map(Number);
@@ -70,8 +89,6 @@ function initializeAnniversary() {
         const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
         const day = anniversaryDate.getDate().toString().padStart(2, '0');
         return `${year}-${month}-${day} (${weekDay})`; // 使用'-'作为分隔符
-        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
-        // return anniversaryDate.toLocaleDateString('zh-CN');
     }
     // 返回目标或起始日期（根据 displayMode）
     function targetOrStartDate(dateStr, isLunar, displayMode) {
@@ -83,33 +100,64 @@ function initializeAnniversary() {
     }
 
     const countdownElements = document.querySelectorAll(".countdown");
-    const totalDaysElements = document.querySelectorAll(".total-days");
-    const targetDateElements = document.querySelectorAll(".target-date");
 
     countdownElements.forEach(function (elem) {
         const dateStr = elem.getAttribute("data-date");
         const isLunar = elem.hasAttribute("data-lunar");
         const displayMode = elem.getAttribute("data-display-mode"); // 获取 display_mode
-        let daysText;
+
         if (displayMode === "elapsed") {
-            // 显示已经过去的天数
-            daysText = totalDays(dateStr, isLunar);
-            elem.nextElementSibling.textContent = "天了"; // 显示“天了”
+            // 初始化显示状态为0（天数）
+            elem.dataset.displayState = '0';
+            // 更新显示
+            updateElapsedDisplay(elem, dateStr, isLunar, 0);
+            // 添加点击事件监听器
+            elem.addEventListener('click', function () {
+                let currentState = parseInt(elem.dataset.displayState);
+                currentState = (currentState + 1) % 3; // 在0、1、2之间循环
+                elem.dataset.displayState = currentState.toString();
+                updateElapsedDisplay(elem, dateStr, isLunar, currentState);
+            });
         } else {
             // 显示剩余天数
-            daysText = daysLeft(dateStr, isLunar);
+            let daysText = daysLeft(dateStr, isLunar);
+            elem.textContent = daysText;
             elem.nextElementSibling.textContent = "天后"; // 显示“天后”
         }
-        elem.textContent = daysText;
     });
 
-    totalDaysElements.forEach(function (elem) {
-        const dateStr = elem.getAttribute("data-date");
-        const isLunar = elem.hasAttribute("data-lunar");
-        elem.textContent = totalDays(dateStr, isLunar);
-    });
+    // 更新elapsed模式下的显示内容
+    function updateElapsedDisplay(elem, dateStr, isLunar, displayState) {
+        const [Year, Month, Day] = dateStr.split("-").map(Number);
+        let now = new Date();
+        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        let startDate;
+        if (isLunar) {
+            startDate = LunarDate(Year, Month, Day);
+        } else {
+            startDate = new Date(Year, Month - 1, Day);
+        }
+
+        if (displayState === 0) {
+            // 显示已经过去的天数
+            let days = daysBetween(startDate, now);
+            elem.textContent = days;
+            elem.nextElementSibling.textContent = "天了";
+        } else if (displayState === 1) {
+            // 显示已经过去的周数
+            let weeks = weeksBetween(startDate, now);
+            elem.textContent = weeks;
+            elem.nextElementSibling.textContent = "周了";
+        } else if (displayState === 2) {
+            // 显示已经过去的月数和天数
+            let { months, days } = monthsAndDaysBetween(startDate, now);
+            elem.textContent = `${months}个月${days}天`;
+            elem.nextElementSibling.textContent = ""; // 清空天数标签
+        }
+    }
 
     // 显示目标或起始日期
+    const targetDateElements = document.querySelectorAll(".target-date");
     targetDateElements.forEach(function (elem) {
         const dateStr = elem.getAttribute("data-date");
         const isLunar = elem.hasAttribute("data-lunar");

@@ -12,12 +12,14 @@ function initializeAnniversary() {
     // 计算两个日期之间的天数差
     function daysBetween(date1, date2) {
         const oneDay = 24 * 60 * 60 * 1000;
-        return Math.ceil((date2 - date1) / oneDay);
+        return Math.floor((date2 - date1) / oneDay);
     }
-    // 计算两个日期之间的周数差
-    function weeksBetween(date1, date2) {
-        const oneWeek = 7 * 24 * 60 * 60 * 1000;
-        return Math.floor((date2 - date1) / oneWeek);
+    // 计算两个日期之间的周数和天数差
+    function weeksAndDaysBetween(date1, date2) {
+        const totalDays = daysBetween(date1, date2);
+        const weeks = Math.floor(totalDays / 7);
+        const days = totalDays % 7;
+        return { weeks, days };
     }
     // 计算两个日期之间的月数和天数差
     function monthsAndDaysBetween(date1, date2) {
@@ -89,6 +91,8 @@ function initializeAnniversary() {
         const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
         const day = anniversaryDate.getDate().toString().padStart(2, '0');
         return `${year}-${month}-${day} (${weekDay})`; // 使用'-'作为分隔符
+        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
+        // return anniversaryDate.toLocaleDateString('zh-CN');
     }
     // 返回目标或起始日期（根据 displayMode）
     function targetOrStartDate(dateStr, isLunar, displayMode) {
@@ -144,15 +148,20 @@ function initializeAnniversary() {
             elem.textContent = days;
             elem.nextElementSibling.textContent = "天了";
         } else if (displayState === 1) {
-            // 显示已经过去的周数
-            let weeks = weeksBetween(startDate, now);
-            elem.textContent = weeks;
-            elem.nextElementSibling.textContent = "周了";
+            // 显示已经过去的周数和天数
+            let { weeks, days } = weeksAndDaysBetween(startDate, now);
+            if (days === 0) {
+                elem.textContent = weeks;
+                elem.nextElementSibling.textContent = "周了";
+            } else {
+                elem.textContent = `${weeks}周${days}天`;
+                elem.nextElementSibling.textContent = "了";
+            }
         } else if (displayState === 2) {
             // 显示已经过去的月数和天数
             let { months, days } = monthsAndDaysBetween(startDate, now);
             elem.textContent = `${months}个月${days}天`;
-            elem.nextElementSibling.textContent = ""; // 清空天数标签
+            elem.nextElementSibling.textContent = "了";
         }
     }
 

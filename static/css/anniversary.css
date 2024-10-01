@@ -166,3 +166,26 @@ body[data-type="anniversary"] #page .page-title {
 .card-copyright a:hover {
     text-decoration: underline;
 }
+/* 分组标题和描述样式 */
+.anniversary-group {
+    margin-bottom: 40px;
+}
+
+.group-header {
+    text-align: right; /* 右对齐 */
+    margin-bottom: 10px;
+}
+
+.group-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: right; /* 右对齐 */
+}
+
+.group-desc {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: right; /* 右对齐 */
+}

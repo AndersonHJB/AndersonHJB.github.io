@@ -256,7 +256,7 @@
 
 - class_name: 仇真「浙江」
   seat: right
-  date: 2024/10/02 13:01:35
+  date: 2024/10/05 19:02:25
   card: true
   layout: default  # 使用文档式样式
   todo_list:
@@ -272,6 +272,9 @@
     - content: 11-2024-10-02 13.01.35-剩余24h
       completed: true
       due_date: 2024/10/02 13:01:35
+    - content: 12-2024-10-05 19.02.25-剩余22h
+      completed: true
+      due_date: 2024/10/05 19:02:25
 
 - class_name: 阿墨「墨西哥」
   seat: left

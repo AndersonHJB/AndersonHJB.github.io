@@ -74,7 +74,7 @@
       completed: true
     - content: 看能否实现点击卡片特定位置，浮出该纪念日的故事，如果有的话；
       completed: false
-    - content: 纪念日当天效果，思考中！
+    - content: 纪念日当天效果，思考中！「节日当天进入喵喵纪念日，把有烟花效果并弹出横幅：xxx 什么纪念日（纪念日名称）每次都显示，每次访问就显示。」
       completed: false
     - content: 选择一套常用的图标，生成链接，方便大家复用；
       completed: false
@@ -87,7 +87,7 @@
     - content: 用户可以自定义说一段话，支持换行；
       completed: false
     - content: 纪念日分组
-      completed: false
+      completed: true
     - content: 日期字体颜色
       completed: true
     - content: 显示星期几

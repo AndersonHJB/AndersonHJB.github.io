@@ -172,7 +172,7 @@ body[data-type="anniversary"] #page .page-title {
 }
 
 .group-header {
-    text-align: center;
+    text-align: left; /* 将文本左对齐 */
     margin-bottom: 10px;
 }
 
@@ -180,10 +180,12 @@ body[data-type="anniversary"] #page .page-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: left; /* 分组标题左对齐 */
 }
 
 .group-desc {
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
+    text-align: left; /* 分组描述左对齐 */
 }

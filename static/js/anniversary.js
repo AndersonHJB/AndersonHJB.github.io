@@ -1,5 +1,8 @@
 // anniversary.js
 
+// 在使用前确保引入了 canvas-confetti 库
+// <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
 function initializeAnniversary() {
     function LunarDate(Year, Month, Day) {
         try {
@@ -88,59 +91,73 @@ function initializeAnniversary() {
         const weekDay = anniversaryDate.toLocaleDateString('zh-CN', { weekday: 'long' });
         // 返回年月日加星期几
         const year = anniversaryDate.getFullYear();
-        const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1
+        const month = (anniversaryDate.getMonth() + 1).toString().padStart(2, '0');
         const day = anniversaryDate.getDate().toString().padStart(2, '0');
-        return `${year}-${month}-${day} (${weekDay})`; // 使用'-'作为分隔符
-        //   return anniversaryDate.toDateString();  // 直接返回斜杆日期
-        // return anniversaryDate.toLocaleDateString('zh-CN');
+        return `${year}-${month}-${day} (${weekDay})`;
     }
     // 返回目标或起始日期（根据 displayMode）
     function targetOrStartDate(dateStr, isLunar, displayMode) {
         if (displayMode === "elapsed") {
-            return dateStr; // 如果是elapsed模式，直接返回配置的日期（起始日）
+            return dateStr;
         } else {
-            return targetDate(dateStr, isLunar); // 否则，显示目标日期和星期几
+            return targetDate(dateStr, isLunar);
         }
     }
 
     const countdownElements = document.querySelectorAll(".countdown");
-    // const totalDaysElements = document.querySelectorAll(".total-days");
-    // const targetDateElements = document.querySelectorAll(".target-date");
+    let todayAnniversaries = []; // 用于收集今天的纪念日名称
 
     countdownElements.forEach(function (elem) {
         const dateStr = elem.getAttribute("data-date");
         const isLunar = elem.hasAttribute("data-lunar");
-        const displayMode = elem.getAttribute("data-display-mode"); // 获取 display_mode
-        // let daysText;
+        const displayMode = elem.getAttribute("data-display-mode");
+        const card = elem.closest('.anniversary-card'); // 获取对应的卡片元素
+        const name = card.getAttribute('data-name'); // 获取纪念日名称
+
         if (displayMode === "elapsed") {
-            // 初始化显示状态为0（天数）
             elem.dataset.displayState = '0';
-            // 更新显示
             updateElapsedDisplay(elem, dateStr, isLunar, 0);
-            // 添加点击事件监听器
             elem.addEventListener('click', function () {
                 let currentState = parseInt(elem.dataset.displayState);
-                currentState = (currentState + 1) % 3; // 在0、1、2之间循环
+                currentState = (currentState + 1) % 3;
                 elem.dataset.displayState = currentState.toString();
                 updateElapsedDisplay(elem, dateStr, isLunar, currentState);
             });
+
+            // 检查是否是纪念日当天
+            if (isTodayAnniversary(dateStr, isLunar)) {
+                // 对卡片添加烟花效果
+                triggerFireworks(card);
+                // 收集今天的纪念日名称
+                todayAnniversaries.push(name);
+            }
         } else {
-            // 显示剩余天数
             let daysText = daysLeft(dateStr, isLunar);
             elem.textContent = daysText;
-            elem.nextElementSibling.textContent = "天后"; // 显示“天后”
+            elem.nextElementSibling.textContent = "天后";
+
+            // 如果倒计时为0天，表示纪念日当天
+            if (parseInt(daysText) === 0) {
+                // 对卡片添加烟花效果
+                triggerFireworks(card);
+                // 收集今天的纪念日名称
+                todayAnniversaries.push(name);
+            }
         }
     });
+
+    if (todayAnniversaries.length > 0) {
+        // 显示横幅通知
+        showAnniversaryBanner(todayAnniversaries);
+    }
 
     // 更新elapsed模式下的显示内容
     function updateElapsedDisplay(elem, dateStr, isLunar, displayState) {
         if (displayState === 0) {
-            // 显示已经过去的天数
             let days = totalDays(dateStr, isLunar);
             elem.textContent = days;
             elem.nextElementSibling.textContent = "天了";
         } else if (displayState === 1) {
-            // 显示已经过去的周数和天数
             const [Year, Month, Day] = dateStr.split("-").map(Number);
             let now = new Date();
             now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -160,7 +177,6 @@ function initializeAnniversary() {
                 elem.nextElementSibling.textContent = "了";
             }
         } else if (displayState === 2) {
-            // 显示已经过去的月数和天数
             const [Year, Month, Day] = dateStr.split("-").map(Number);
             let now = new Date();
             now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -182,9 +198,87 @@ function initializeAnniversary() {
     targetDateElements.forEach(function (elem) {
         const dateStr = elem.getAttribute("data-date");
         const isLunar = elem.hasAttribute("data-lunar");
-        const displayMode = elem.getAttribute("data-display-mode"); // 获取 display_mode
+        const displayMode = elem.getAttribute("data-display-mode");
         elem.textContent = targetOrStartDate(dateStr, isLunar, displayMode);
     });
+
+    // 判断今天是否是纪念日
+    function isTodayAnniversary(dateStr, isLunar) {
+        const [Year, Month, Day] = dateStr.split("-").map(Number);
+        let now = new Date();
+        now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        if (isLunar) {
+            let lunarToday = Lunar.fromDate(now);
+            return lunarToday.getMonth() === Month && lunarToday.getDay() === Day;
+        } else {
+            return (now.getMonth() + 1) === Month && now.getDate() === Day;
+        }
+    }
+
+    // 显示横幅通知
+    function showAnniversaryBanner(names) {
+        const banner = document.createElement('div');
+        banner.className = 'anniversary-banner';
+        banner.innerHTML = `
+            <div class="banner-content">
+                <span>今天是 ${names.join('、')} 纪念日</span>
+                <button class="close-button">&times;</button>
+            </div>
+        `;
+        document.body.appendChild(banner);
+
+        // 关闭按钮事件
+        banner.querySelector('.close-button').addEventListener('click', function() {
+            banner.style.display = 'none';
+        });
+
+        // 10 秒后自动关闭
+        setTimeout(function() {
+            banner.style.display = 'none';
+        }, 10000);
+    }
+
+    // 触发烟花效果
+    function triggerFireworks(element) {
+        var rect = element.getBoundingClientRect();
+        var x = rect.left + rect.width / 2;
+        var y = rect.top + rect.height / 2;
+
+        // 调整为窗口坐标的比例
+        var xRatio = x / window.innerWidth;
+        var yRatio = y / window.innerHeight;
+
+        var duration = 2 * 1000; // 2秒
+        var animationEnd = Date.now() + duration;
+
+        function randomInRange(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+
+        (function frame() {
+            var timeLeft = animationEnd - Date.now();
+
+            if (timeLeft <= 0) return;
+
+            var ticks = Math.max(200, 500 * (timeLeft / duration));
+
+            confetti({
+                particleCount: 5,
+                startVelocity: 30,
+                ticks: ticks,
+                origin: {
+                    x: xRatio,
+                    y: yRatio
+                },
+                colors: ['#ffae00', '#ff4500', '#ff69b4', '#ba55d3', '#1e90ff'],
+                shapes: ['circle', 'square'],
+                scalar: randomInRange(0.4, 1),
+                drift: randomInRange(-0.4, 0.4)
+            });
+
+            requestAnimationFrame(frame);
+        })();
+    }
 }
 
 // 初始页面加载

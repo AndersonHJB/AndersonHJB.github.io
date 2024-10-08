@@ -1,5 +1,3 @@
-/* anniversary.css */
-
 /* 背景与页面基本样式 */
 body[data-type="anniversary"] #web_bg {
     background: var(--anzhiyu-background);
@@ -10,7 +8,7 @@ body[data-type="anniversary"] #page {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     padding: 0 !important;
-    background: transparent !important;
+    background: 0 0 !important;
 }
 
 body[data-type="anniversary"] #page .page-title {
@@ -168,7 +166,6 @@ body[data-type="anniversary"] #page .page-title {
 .card-copyright a:hover {
     text-decoration: underline;
 }
-
 /* 分组标题和描述样式 */
 .anniversary-group {
     margin-bottom: 40px;
@@ -192,34 +189,3 @@ body[data-type="anniversary"] #page .page-title {
     margin-bottom: 20px;
     text-align: left; /* 分组描述左对齐 */
 }
-
-/* 横幅通知样式 */
-.anniversary-banner {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 165, 0, 0.9); /* 橙色背景 */
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-}
-
-.anniversary-banner .banner-content {
-    display: flex;
-    align-items: center;
-}
-
-.anniversary-banner .close-button {
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-/* 由于使用了 canvas-confetti 库，不需要为烟花效果添加额外的 CSS */

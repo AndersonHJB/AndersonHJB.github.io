@@ -46,7 +46,8 @@ aplayer:
 
 # 2. 代码实现
 
-{% tabs CodeD%}
+{% tabs CodeD,2%}
+
 <!-- tab V0.1 -->
 
 1. 实现初步代码，运行效果如下：
@@ -323,5 +324,8 @@ for diff in differences:
 <!-- endtab -->
 
 <!-- tab V0.2 -->
+我预估准备把结果实现渲染成页面，方便查看，后期实现网页按钮点击是否覆盖。
+
+
 <!-- endtab -->
 {% endtabs %}

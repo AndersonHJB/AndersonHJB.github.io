@@ -12,7 +12,7 @@ comments: true
 toc: true
 mathjax: false
 katex: false
-highlight_shrink: false
+highlight_shrink: true
 swiper_index: 1
 top_group_index: 1
 background: '#fff'
@@ -46,7 +46,7 @@ aplayer:
 
 # 2. 代码实现
 
-{% tabs %}
+{% tabs CodeD%}
 <!-- tab V0.1 -->
 
 1. 实现初步代码，运行效果如下：
@@ -56,6 +56,8 @@ aplayer:
 ![](01-Python对比文件夹内容/image.png)
 
 {% endfolding %}
+
+2. 我感觉很不直观
 
 ```python
 import os

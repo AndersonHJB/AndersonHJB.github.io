@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-10-09T14:16:31.314Z</updated>
+  <updated>2024-10-09T14:24:07.111Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.bornforthis.cn/posts/20a844b2.html"/>
     <id>https://blog.bornforthis.cn/posts/20a844b2.html</id>
     <published>2024-10-09T13:25:54.000Z</published>
-    <updated>2024-10-09T14:16:31.314Z</updated>
+    <updated>2024-10-09T14:24:07.111Z</updated>
     
     
     <summary type="html">Python 实现对比文件夹内容是否相同，以及具体不同的区别！适合解决跟随原项目选择性更新，找出不同的进行针对性的覆盖。特别是 hexo 主题魔改太多，但又想和开发者同步升级的人。</summary>

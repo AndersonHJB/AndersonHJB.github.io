@@ -25,3 +25,9 @@ toc_number:
 toc_style_simple:
 aplayer:
 ---
+
+你好，我是悦创。
+
+最近呢，新建了这个 hexo 博客生活网站，对就是这么计划和想的。结果......除了说说，文章都是技术类文章，实属草率了。因为技术类我写了太多太多。主要在这个网站：[https://bornforthis.cn/Memoirs.html](https://bornforthis.cn/Memoirs.html)，但是主网站文章太多，每次发布要 1h 左右，这个网站发布可以做到“实时”。
+
+用了 hexo 的安知鱼主题，魔改了一部分。如果直接一键覆盖是可以做到升级，但是自身魔改的就会消失。

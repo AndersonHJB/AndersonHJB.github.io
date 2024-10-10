@@ -5,7 +5,7 @@ tags:
   - 小红书
 categories:
   - Python接单
-description: Python
+description: "Python实现地理位置计算和成本计算，以及对应的代码实现。"
 top_img: /img/posts/P02-Python/01-Python小红书题目/01-Python小红书题目.jpg
 cover: /img/posts/P02-Python/01-Python小红书题目/01-Python小红书题目.webp
 comments: true
@@ -18,7 +18,7 @@ top_group_index: 1
 background: '#fff'
 aside: true
 ai:
-  - Python 实现对比文件夹。
+  -  "Python实现地理位置计算和成本计算，以及对应的代码实现。"
 abbrlink: dfc0281e
 date: 2024-10-10 13:22:20
 toc_number:
@@ -81,7 +81,13 @@ aplayer:
 
 # 3. 代码实现
 
-## 3.1 
+## 3.1 终端价格等势线（25分）
+
+{% folding blue close, 运行效果 %}
+
+![](01-Python小红书题目/image-3.png)
+
+{% endfolding %}
 
 ```python
 import math
@@ -177,7 +183,7 @@ plt.colorbar(label='Terminal Price (RMB)')
 plt.show()
 ```
 
-## 3.2 
+## 3.2 计算源程序（25分）
 
 ```python
 import math
@@ -246,7 +252,7 @@ for level in range(1, 5):
     print(f"难度{level}的终端价格：{price:.3f}元")
 ```
 
-
+## 3.3 将各难度的节点和等势线数据上传至高德开发者 GIS 平台（50分）
 
 
 

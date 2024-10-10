@@ -7,12 +7,15 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
-    - content: 通过影视飓风的《清晰度不如4年前！视频变糊是你的错觉吗？》还是在有能力或者初期，可以搭建自己的平台，这样或许还有一些属于自己的发言权！
+    - content: 通过影视飓风的《清晰度不如4年前！视频变糊是你的错觉吗？》还是在有能力或者初期，可以搭建自己的平台，这样或许还有一些属于自己的发言权！当然，深入思考一下，这有可能只是影视飓风自己设计谋划的一次上头条博取流量的行为，也就是先上传，然后主动下架。发微博引发热潮，这样低成本的流量就来了，不明吃瓜群众就疯狂传播等。这只是一个可能，不否认视频内容的质量。（我从影视飓风微博内容，感觉到的）
       date: 2024-10-10 07:57:52
       from: AI悦创
       address: 全视频平台
       video: 
         - https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/Supplement-Film-hurricane.mp4
+      image:
+        - /img/posts/P05-资源/02-【补档】【影视飓风】 清晰度不如4年前！视频变糊是你的错觉吗？/pinglun1.png
+        - /img/posts/P05-资源/02-【补档】【影视飓风】 清晰度不如4年前！视频变糊是你的错觉吗？/pinglun2.png
     - content: 若过去的记忆无法寻回，那就创造无数新的美好回忆。
       date: 2024/09/30 15:05:51
       from: AI悦创

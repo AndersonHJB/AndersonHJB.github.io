@@ -85,7 +85,7 @@ aplayer:
 
 {% folding blue close, 运行效果 %}
 
-![](01-Python小红书题目/image-3.png)
+![](01-Python小红书题目/image-4.png)
 
 {% endfolding %}
 

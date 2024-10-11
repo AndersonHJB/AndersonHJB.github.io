@@ -324,8 +324,13 @@ for diff in differences:
 <!-- endtab -->
 
 <!-- tab V0.2 -->
-我预估准备把结果实现渲染成页面，方便查看，后期实现网页按钮点击是否覆盖。
+
+我预估准备把结果实现渲染成页面，方便查看，后期实现网页按钮点击是否覆盖。这时候有可能需要简易的 Flask 来实现即可。（当然或许也不需要）
 
 
 <!-- endtab -->
 {% endtabs %}
+
+# 3. GitHub 仓库
+
+**[https://github.com/AndersonHJB/FileSyncDiff](https://github.com/AndersonHJB/FileSyncDiff)**

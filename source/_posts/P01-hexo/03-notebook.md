@@ -223,3 +223,34 @@ with open('gpt.txt', 'w') as f:
 10. 昊天数学老师网站：[https://mathematico.netlify.app/](https://mathematico.netlify.app/)
 <!-- endtab -->
 {% endtabs %}
+
+# 6. VuePress 常用代码
+
+{% tabs Code %}
+<!-- tab 1. 文章因为编码问题 -->
+```python
+# 用于查找并删除 U+2061 字符的脚本
+
+def find_and_remove_unicode(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    # 查找所有 "⁡" (U+2061) 的位置
+    positions = [i for i, c in enumerate(content) if c == '\u2061']
+
+    if positions:
+        print(f"Found U+2061 character at positions: {positions}")
+        # 移除所有 "⁡" 字符
+        cleaned_content = content.replace('\u2061', '')
+        with open(filename, 'w', encoding='utf-8') as file:
+            file.write(cleaned_content)
+        print("All U+2061 characters have been removed.")
+    else:
+        print("No U+2061 characters found in the file.")
+
+# 使用该函数并传入 Markdown 文件的路径
+filename = '/Users/huangjiabao/bornforthis.cn/docs/column/data-structure/Python-DSA/04-binary-tree.md'  # 将此路径替换为你的文件路径
+find_and_remove_unicode(filename)
+```
+<!-- endtab -->
+{% endtabs %}

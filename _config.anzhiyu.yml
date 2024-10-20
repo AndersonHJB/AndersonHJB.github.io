@@ -397,7 +397,7 @@ waline:
   serverURL: https://comment.bornforthis.cn/ # Waline server address url
   bg: # waline background
   pageview: true
-  meta: true # 归属地, 操作系统 前是否显示图标
+  meta_css: true # 归属地, 操作系统 前是否显示图标
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
@@ -427,6 +427,21 @@ artalk:
   site:
   visitor: false
   option:
+
+# giscus
+# https://giscus.app/
+giscus:
+  repo: # GitHub repository name
+  repo_id: # GitHub repository id
+  category_id: # GitHub repository category id
+  theme:
+    light: light
+    dark: dark
+  option: # options
+    data-lang: zh-CN
+    data-mapping:
+    data-category:
+    data-input-position:
 
 # Chat Services
 # --------------------------------------
@@ -1189,6 +1204,9 @@ nav_music:
   volume: 0.7 # 默认音量
   all_playlist: https://music.163.com/#/playlist?id=1984839329
 
+# 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
+music_page_default: nav_music
+
 # 评论匿名邮箱
 visitorMail:
   enable: true
@@ -1278,7 +1296,8 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: false
-  img: /img/404/404.png
+  # img: /img/404/404.png
+  img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
 dynamicEffect:

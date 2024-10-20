@@ -333,6 +333,8 @@ for diff in differences:
 
 {% endfolding %}
 
+你没改过的直接选择覆盖，你改过的慎重对比一下（借助 Git + VSCode）。
+
 代码如下：
 
 {% tabs Code %}

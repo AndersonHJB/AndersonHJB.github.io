@@ -1354,6 +1354,10 @@ inject:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
+    - <link rel="apple-touch-icon" href="/img/Apple/apple-touch-icon.png">
+    - <meta name="apple-mobile-web-app-title" content="别碰我的镜头盖">
+    - <link rel="bookmark" href="/img/Apple/apple-touch-icon.png">
+    - <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/Apple/apple-touch-icon.png" >
 
   bottom:
     # 自定义js

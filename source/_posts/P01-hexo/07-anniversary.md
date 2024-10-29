@@ -61,7 +61,7 @@ aplayer:
 
 # 2. 开始实现
 
-{% tabs anniversary,6 %}
+{% tabs anniversary,7 %}
 <!-- tab 喵喵纪念日-V0.1 -->
 > 发布日期📅：{% span cyan log, 2024-09-20 19:52:52 %}
 {% tabs anniversary1 %}
@@ -1556,6 +1556,212 @@ aside: false
 
 {% endtabs %}
 <!-- endtab -->
+
+<!-- tab 喵喵纪念日-V0.6.1 -->
+> 发布日期📅：{% span cyan log, 2024-10-29 15:34:32 %}
+
+1. 目前最终版；
+2. 点击可以切换显示状态；
+3. **纪念日当天效果，有想法的请评论。**
+
+**注意：有计算不准确、bug 请在评论区留言！**
+
+{% folding blue close, 效果图1 %}
+![](07-anniversary/image-4.png)
+{% endfolding %}
+
+{% folding blue close, 效果图2 %}
+![](07-anniversary/image-5.png)
+{% endfolding %}
+
+{% folding blue close, 效果图3 %}
+![](07-anniversary/image-6.png)
+{% endfolding %}
+
+{% tabs anniversary3 %}
+<!-- tab 1. 新建页面 -->
+在命令行输入如下命令：
+
+- `hexo new page anniversary`
+
+修改头部信息：
+
+```markdown
+---
+title: anniversary
+date: 2024-09-16 20:31:37
+type: 'anniversary'
+top_background: /img/anniversary/anniversary5.webp
+aside: false
+---
+```
+<!-- endtab -->
+
+<!-- tab 2. 创建 anniversary.pug -->
+- Path: `/themes/anzhiyu/layout/includes/page/anniversary.pug`
+
+**代码如下：**
+
+```html
+#anniversary-box
+    - let anniversary_background = page.top_background
+    .author-content.author-content-item.anniversary.single(style=anniversary_background ? `background: url(${anniversary_background}) top / cover no-repeat` : "")
+        .card-content
+            .author-content-item-tips anniversary
+            span.author-content-item-title 喵喵纪念日
+            .content-bottom
+            .tips 时间如潮水般涌动向前，你会为谁停留片刻？
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 我的更多
+    #anniversary-main
+      each group in site.data.anniversary
+        .anniversary-group
+          .group-header
+            .group-title #{group.class_name} (#{group.anniversaries.length}) <!-- 显示分组名称和纪念日数量 -->
+            .group-desc #{group.class_desc} <!-- 显示分组说明 -->
+
+          .anniversary-cards
+            each item in group.anniversaries
+              .anniversary-card(style=`background-color: ${item.color}`)
+                .card-content
+                  .card-header(style="justify-content: center;")
+                    if item.icon
+                      img.card-icon(src=item.icon alt="icon")
+                    .card-title #{item.name} <!-- 始终显示标题 -->
+
+                  .card-body(style="background-color: white; padding: 20px; text-align: center;")
+                    .countdown-wrapper
+                      span.countdown(data-date=item.date data-lunar=item.lunar data-display-mode=item.display_mode) 计算中...
+                      .days-label 天后 <!-- "天后" 或 "天了" 根据模式动态显示 -->
+
+                  .card-footer
+                    .dashed-line(style="border-top: 1px dashed #ccc; margin: 10px 0;") <!-- 虚线 -->
+                    .target-info 
+                      if item.display_mode === 'elapsed'
+                        span.target-label - 起始日 -  <!-- 当 display_mode 为 elapsed 时显示起始日 -->
+                      else
+                        span.target-label - 目标日 -
+                      br
+                      span.target-date(data-date=item.date data-lunar=item.lunar data-display-mode=item.display_mode) 计算中...
+
+                // 根据 show_copyright 显示或隐藏卡片内的版权信息
+                if item.show_copyright
+                  - let copyrightName = item.copyright_name ? item.copyright_name : '喵喵纪念日'
+                  - let copyrightLink = item.copyright_link ? item.copyright_link : 'https://blog.bornforthis.cn/posts/41c7c45e.html'
+                  .card-copyright
+                    | 版权所有 © #{item.name}
+                    a(href=copyrightLink target="_blank") #{copyrightName}
+
+```
+<!-- endtab -->
+
+<!-- tab 3. 创建 anniversary.css -->
+- Path: `/source/static/css/anniversary.css`
+
+**直接访问链接获取最新版**：[anniversary.css](https://blog.bornforthis.cn/static/css/anniversary.css)
+
+<!-- endtab -->
+
+<!-- tab 4. anniversary.js -->
+- Path: `/source/static/js/anniversary.js`
+
+**直接访问链接获取最新版**：[anniversary.js](https://blog.bornforthis.cn/static/js/anniversary.js)
+
+<!-- endtab -->
+
+<!-- tab 5. anniversary.yml -->
+- Path: `/source/_data/anniversary.yml`
+
+**代码如下：**
+
+```yml
+- class_name: 喵喵纪念日页面
+  class_desc: "系统纪念日"
+  anniversaries:
+    - name: 喵喵纪念日
+      date: '2024-09-18'
+      icon: '/img/favicon.svg'
+      lunar: false
+      color: '#a8dadc'
+      display_mode: "elapsed"  # 新增字段，显示已经过去的天数
+      show_copyright: true  # 新增字段，控制是否显示版权
+      copyright_name: "喵喵纪念日"
+      # copyright_link: "https://blog.bornforthis.cn/anniversary/"
+
+- class_name: 黄家蓉宝
+  class_desc: "黄家蓉宝的小窝·我们一生中重要的纪念日"
+  anniversaries:
+    - name: 结婚纪念日
+      date: '2024-05-02'
+      lunar: false
+      color: '#f1faee'
+      display_mode: "remaining"  # 显示剩余天数
+      show_copyright: false  # 不显示版权
+    - name: 怀孕🫄
+      date: '2024-04-02'
+      display_mode: "elapsed"
+      lunar: false
+      color: '#f7a072'
+    - name: 见面
+      date: '2024-02-08'
+      lunar: false
+      color: '#f7a072'
+    - name: 结婚证
+      date: '2024-02-26'
+      lunar: false
+      color: '#ffb3c6'
+
+- class_name: 家人纪念日
+  class_desc: "属于家人的珍贵时刻"
+  anniversaries:
+    - name: 妈妈👩
+      date: '1968-12-18'
+      lunar: true
+      color: '#ffb3c6'
+    - name: 爸爸👨
+      date: '1967-07-29'
+      lunar: true
+      color: '#ffb3c6'
+    - name: 丈母娘👩
+      date: '1977-08-22'
+      lunar: true
+      color: '#e3d5ca'
+    - name: 老丈人👨
+      date: '1975-10-04'
+      lunar: true
+      color: '#ffb3c6'
+    - name: Bornforthis🎂
+      date: '1997-11-26'
+      lunar: true
+      color: '#a8dadc'
+    
+
+- class_name: 传统节日
+  class_desc: "那是大家的节日呀，每个小家都会过的共同节日～"
+  anniversaries:
+    - name: 除夕
+      date: '1949-12-29'
+      lunar: true
+      color: '#e3d5ca'
+    - name: 儿童节
+      date: '1949-06-01'
+      lunar: false
+      color: '#e3d5ca'
+    - name: 国庆节
+      date: '2018-10-01'
+      lunar: false
+      color: '#457b9d'
+```
+
+<!-- endtab -->
+
+{% endtabs %}
+<!-- endtab -->
+
+
+
 
 
 

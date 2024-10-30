@@ -15,21 +15,27 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Wed, 30 Oct 2024 12:02:03 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 13:53:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
-      <link>https://blog.bornforthis.cn/posts/0.html</link>
-      <guid>https://blog.bornforthis.cn/posts/0.html</guid>
-      <pubDate>Wed, 30 Oct 2024 12:02:02 GMT</pubDate>
+      <title>静态站点悖论「The Static Site Paradox」</title>
+      <link>https://blog.bornforthis.cn/posts/4986156e.html</link>
+      <guid>https://blog.bornforthis.cn/posts/4986156e.html</guid>
+      <pubDate>Wed, 30 Oct 2024 12:40:28 GMT</pubDate>
+      
+      <description>这是一篇关于个人博客的文章，作者 Loris Cro 讨论了一个看似矛盾的现象：为什么专业的软件工程师往往使用简单的静态 HTML 网站（如 Github Pages），而普通用户却依赖复杂的内容管理系统 CMS （如 WordPress）。</description>
       
       
       
       
+      <category domain="https://blog.bornforthis.cn/categories/%E6%82%A6%E8%AF%BB/">悦读</category>
       
       
-      <comments>https://blog.bornforthis.cn/posts/0.html#disqus_thread</comments>
+      <category domain="https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%BB/">悦读</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/4986156e.html#disqus_thread</comments>
       
     </item>
     

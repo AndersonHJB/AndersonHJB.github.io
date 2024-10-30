@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-10-30T12:02:03.359Z</updated>
+  <updated>2024-10-30T13:53:01.122Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -17,15 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://blog.bornforthis.cn/posts/0.html"/>
-    <id>https://blog.bornforthis.cn/posts/0.html</id>
-    <published>2024-10-30T12:02:02.887Z</published>
-    <updated>2024-10-30T12:02:03.359Z</updated>
+    <title>静态站点悖论「The Static Site Paradox」</title>
+    <link href="https://blog.bornforthis.cn/posts/4986156e.html"/>
+    <id>https://blog.bornforthis.cn/posts/4986156e.html</id>
+    <published>2024-10-30T12:40:28.000Z</published>
+    <updated>2024-10-30T13:53:01.122Z</updated>
+    
+    
+    <summary type="html">这是一篇关于个人博客的文章，作者 Loris Cro 讨论了一个看似矛盾的现象：为什么专业的软件工程师往往使用简单的静态 HTML 网站（如 Github Pages），而普通用户却依赖复杂的内容管理系统 CMS （如 WordPress）。</summary>
     
     
     
+    <category term="悦读" scheme="https://blog.bornforthis.cn/categories/%E6%82%A6%E8%AF%BB/"/>
     
+    
+    <category term="悦读" scheme="https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   

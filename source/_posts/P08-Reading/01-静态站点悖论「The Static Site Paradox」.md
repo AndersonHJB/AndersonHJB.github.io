@@ -34,3 +34,6 @@ copyright_info:
 aplayer:
 ---
 
+In front of you are two personal websites, each used as a blog and to display basic contact info of the owner:
+
+

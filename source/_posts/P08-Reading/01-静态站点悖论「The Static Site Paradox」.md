@@ -36,6 +36,46 @@ copyright_info:
 aplayer:
 ---
 
+{% tabs en %}
+
+<!-- tab ZH -->
+
+在你面前有两个个人网站，都被用作博客和展示所有者的基本联系信息：
+
+1. 一个是用 PHP 编写的复杂 CMS，需要一个网络服务器、多个工作进程、一个 Redis 缓存和一个 SQL 数据库。该网站还有一个大型的前端组件，以单页应用的形式加载，然后通过请求 JSON 形式的内容来执行导航，随后在客户端进行“再水合”。
+2. 另一个是一些静态 HTML 文件和一两个 CSS 文件。没有任何 JavaScript。
+
+如果你不了解情况，你会期望几乎所有普通用户都有 [2]，而专业工程师会有类似 [1] 的东西，但事实恰恰相反：只有少数专业软件工程师“负担得起”将第二个选项作为他们的个人网站，而几乎所有普通用户都被困在过于复杂的解决方案中。
+
+虽然这可能很奇怪，但这并不是一个大谜团：启动一个 WordPress 博客比自己弄清所有中间步骤要容易：
+
+1. 购买域名
+2. 找到托管平台
+3. 配置 DNS
+4. 找到一个 SSG（或者自己手工制作一切）
+5. 学习如何设置部署管道
+
+因此，虽然我们软件工程师享受着 GitHub Pages、Cloudflare Pages 等提供的免费托管和自定义域名支持，但普通用户却被一群[贪婪的小丑](https://techcrunch.com/2024/10/04/wordpress-vs-wp-engine-drama-explained/)所困，他们让用户为每一件小事付费，同时在 99% 的情况下浪费了大量的计算能力来渲染本可以是静态网站的内容。
+
+上周，我在波士顿的 SquiggleConf 上发表了关于我编写 HTML 语言服务器经验的演讲。演讲的大部分是关于在实现时该做什么（或避免做什么）的战术建议，但我用一个更高层次的观点来结束演讲，我现在将完整地在这篇博客文章的结论中呈现。
+
+> 当我发布 SuperHTML 时，我发现它是[第一个为 HTML 提供诊断报告的语言服务器](https://kristoff.it/blog/first-html-lsp/)。我写了一篇博客文章，登上了 Hacker News 的头版，没有人纠正我，所以你知道这是真的。
+>
+> 起初我觉得这很有趣，但仔细想想，这有点令人难过。Linter 确实存在，人们可以在编辑器中获得诊断信息，但那通常是与特定前端框架绑定的工具，而不是原生的 HTML，这导致人们选择使用框架，即使他们并不真正需要那些框架带来的所有复杂性。
+>
+> 在我看来，这是不好的。不是因为对简单性的抽象欣赏，而是因为 **网络不仅仅属于软件工程师**。我们让网络变得越复杂，就越把普通用户推向我们称之为*社交网络*的围栏。
+>
+> 当律师和会计师未能澄清各自领域的工作，使他们成为理论上你应该能够自己导航的系统中不可避免的中间人时，你难道不觉得恼火吗？
+>
+> **每当我们未能让软件工程，尤其是网络开发中的简单事情变得容易时，我们就在以完全相同的方式辜负社会。**
+>
+> 这不是初创公司或大型科技公司能够为我们解决的问题，他们的经济激励太不一致了，所以我邀请大家一起帮助使网络更易于访问，部分是为了对我们的工艺感到自豪，部分是因为当更多不同于我们的人制作网络内容时，网络曾经更加有趣。
+
+
+<!-- endtab -->
+
+<!-- tab EN -->
+
 In front of you are two personal websites, each used as a blog and to display basic contact info of the owner:
 
 1. One is a complex CMS written in PHP that requires a web server, multiple workers, a Redis cache, and a SQL database. The site also has a big frontend component that loads as a Single Page Application and then performs navigation by requesting the content in JSON form, which then gets “rehydrated” client-side.
@@ -66,3 +106,5 @@ Last week I spoke at SquiggleConf in Boston about my experience writing a langua
 > **Whenever we fail to make simple things easy in software engineering, and webdev especially, we are failing society in the exact same way.**
 >
 > This is not something that startups or big tech can solve for us, their economic incentives are just too misaligned, so I invite you all to help make the web more accessible, partially as a matter of taking pride in our craft, and partially because the web used to be more interesting when more of it was made by people different from us.
+<!-- endtab -->
+{% endtabs %}

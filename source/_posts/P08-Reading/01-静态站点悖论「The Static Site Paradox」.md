@@ -36,9 +36,7 @@ copyright_info:
 aplayer:
 ---
 
-{% tabs en %}
-
-<!-- tab ZH -->
+你好，我是悦创。
 
 在你面前有两个个人网站，都被用作博客和展示所有者的基本联系信息：
 
@@ -76,9 +74,8 @@ aplayer:
 > 这不是初创公司或大型科技公司能够为我们解决的问题，他们的经济激励太不一致了，所以我邀请大家一起帮助使网络更易于访问，部分是为了对我们的工艺感到自豪，部分是因为当更多不同于我们的人制作网络内容时，网络曾经更加有趣。
 
 
-<!-- endtab -->
 
-<!-- tab EN -->
+{% folding blue close, EN %}
 
 In front of you are two personal websites, each used as a blog and to display basic contact info of the owner:
 
@@ -110,5 +107,7 @@ Last week I spoke at SquiggleConf in Boston about my experience writing a langua
 > **Whenever we fail to make simple things easy in software engineering, and webdev especially, we are failing society in the exact same way.**
 >
 > This is not something that startups or big tech can solve for us, their economic incentives are just too misaligned, so I invite you all to help make the web more accessible, partially as a matter of taking pride in our craft, and partially because the web used to be more interesting when more of it was made by people different from us.
-<!-- endtab -->
-{% endtabs %}
+
+
+
+{% endfolding %}

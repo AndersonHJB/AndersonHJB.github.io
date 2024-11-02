@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-11-02T01:37:48.479Z</updated>
+  <updated>2024-11-02T02:01:05.252Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.bornforthis.cn/posts/df336835.html"/>
     <id>https://blog.bornforthis.cn/posts/df336835.html</id>
     <published>2024-11-01T13:04:17.000Z</published>
-    <updated>2024-11-02T01:37:48.479Z</updated>
+    <updated>2024-11-02T02:01:05.252Z</updated>
     
     
     <summary type="html">Python实现自动截图，逃脱在线监考系统。在国外留学的学生，有些科目是在线考试需要枪手帮忙，我学员就是如此。故开发此程序，来自动发送给我截图。不需要任何操作实现截图当前屏幕。</summary>

@@ -31,7 +31,63 @@ aplayer:
 
 你好，我是悦创。
 
-一开始是实现手动截图，
+一开始是实现手动截图，并保存到指定路径下，并使用 Python 的脚本实现自动上传 GitHub，这样的后台操作规避了考试监测系统。但在某一次考试中，虽然没有被判定作弊，但被教授发 Email 警告！
+
+
+{% folding blue close, 警告内容 %}
+
+![](02-Python实现自动屏幕截图/image.png)
+
+{% endfolding %}
+
+程序代码如下：
+
+```python
+import time
+from datetime import datetime
+from git import Repo, GitCommandError
+
+
+def auto_commit(repo_path, interval=10):
+    """
+    每隔指定的 interval (秒) 检查 git 仓库的变化，并自动提交。
+
+    参数:
+    repo_path: Git 仓库的路径。
+    interval: 检查的时间间隔（以秒为单位）。
+    """
+
+    repo = Repo(repo_path)
+    step = 1
+    while True:
+        print(f"step number: {step} start...\n{'-' * 25}")
+        try:
+            # print("updated")
+            # repo.git.pull()
+            print("\tupdated")
+            repo.git.pull()
+            if repo.is_dirty(untracked_files=True):
+                print("\tDetected changes in the repository. Committing...")
+                repo.git.add(A=True)  # 添加所有文件和文件夹
+                commit_message = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                repo.git.commit(m=commit_message)
+                print(f"\tChanges committed with message: {commit_message}")
+                repo.git.push()
+                print("\tsuccessful")
+            else:
+                print("\tNo changes detected.")
+        except GitCommandError as e:
+            print(f"\tAn error occurred: {e}")
+        print(f"step number: {step} end...\n{'-' * 25}")
+        time.sleep(interval)
+
+
+if __name__ == "__main__":
+    # 设置你的 Git 仓库的路径
+    REPO_PATH = "/Users/huangjiabao/GitHub/Student_Data/rxx_gatech.edu"
+    auto_commit(REPO_PATH, interval=10)
+```
+
 
 # 2. 版本 V0.1
 

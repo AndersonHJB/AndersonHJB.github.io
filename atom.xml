@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-11-02T02:03:06.997Z</updated>
+  <updated>2024-11-02T09:38:12.021Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.bornforthis.cn/posts/df336835.html"/>
     <id>https://blog.bornforthis.cn/posts/df336835.html</id>
     <published>2024-11-01T13:04:17.000Z</published>
-    <updated>2024-11-02T02:03:06.997Z</updated>
+    <updated>2024-11-02T09:38:12.021Z</updated>
     
     
     <summary type="html">Python实现自动截图，逃脱在线监考系统。在国外留学的学生，有些科目是在线考试需要枪手帮忙，我学员就是如此。故开发此程序，来自动发送给我截图。不需要任何操作实现截图当前屏幕。</summary>
@@ -42,7 +42,7 @@
     <link href="https://blog.bornforthis.cn/posts/c36f2c3.html"/>
     <id>https://blog.bornforthis.cn/posts/c36f2c3.html</id>
     <published>2024-10-30T12:40:28.000Z</published>
-    <updated>2024-11-02T08:49:14.176Z</updated>
+    <updated>2024-11-03T06:14:01.934Z</updated>
     
     
     <summary type="html">这是一篇关于个人博客的文章，作者 Bornforthis 讨论了一个看似矛盾的现象：为什么专业的软件工程师往往使用简单的静态 HTML 网站（如 Github Pages），而普通用户却依赖复杂的内容管理系统 CMS （如 WordPress）。</summary>

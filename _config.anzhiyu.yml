@@ -1349,6 +1349,7 @@ inject:
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
+    - <link rel="stylesheet" href="/static/css/saysay.css"> # 悦说
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css

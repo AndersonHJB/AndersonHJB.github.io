@@ -1,0 +1,13 @@
+#saysay-box
+    - let saysay_background = page.top_background
+    .author-content.author-content-item.saysay.single(style=saysay_background ? `background: url(${saysay_background}) top / cover no-repeat` : "")
+        .card-content
+            .author-content-item-tips 每一瞬间的思想，都应该被捕获
+            span.author-content-item-title 悦说
+            .content-bottom
+            .tips 记录本身，即已是反抗！
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 我的更多
+    #anniversary-main

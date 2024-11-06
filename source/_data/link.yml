@@ -263,11 +263,11 @@
       avatar: /img/link/47-www.twindy.top.png
       descr: 「离开世界之前 一切都是过程」
       tag: 生活
-    - name: 第三夏尔
-      link: https://thirdshire.com
-      avatar: /img/link/48-thirdshire.com.jpg
-      descr: 认真生活，积极摸鱼
-      tag: 生活
+    # - name: 第三夏尔
+    #   link: https://thirdshire.com
+    #   avatar: /img/link/48-thirdshire.com.jpg
+    #   descr: 认真生活，积极摸鱼
+    #   tag: 生活
     - name: 一粒微尘
       link: https://blog.667408.xyz
       avatar: /img/link/49-blog.667408.xyz.ico

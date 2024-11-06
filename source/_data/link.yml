@@ -278,6 +278,11 @@
       avatar: /img/link/50-kristoff.it.jpg
       descr: Zig Software Foundation
       tag: 技术
+    - name: 夜未央
+      link: https://www.savouer.com
+      avatar: /img/link/51-www.savouer.com.png
+      descr: 记录生活感悟；及用经济学视角对社会的观察和解读。
+      tag: 技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事「学生网站」

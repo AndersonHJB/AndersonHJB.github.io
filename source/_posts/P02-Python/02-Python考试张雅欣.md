@@ -240,8 +240,15 @@ print(f"文件已保存为：{output_path}")
 # 2. 论述题
 
 在此输入以上理论距离矩阵和邻接矩阵的点乘结果，即节点的实际距离矩阵。(在下方粘贴XLS文件即可!)
+
 {% tabs Q2 %}
 <!-- tab 1. Zhang Solution -->
+
+**鉴于你们零基础会运行报错，在此把运行结果 Excel 放在这里以供下载：**
+
+- [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/节点_实际距离矩阵.xlsx)
+
+
 ```python
 import pandas as pd
 import numpy as np
@@ -279,6 +286,11 @@ print(f"文件已保存为：{output_path_actual}")
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+
+**鉴于你们零基础会运行报错，在此把运行结果 Excel 放在这里以供下载：**
+
+- [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/节点实际距离矩阵.xlsx)
+
 ```python
 import pandas as pd
 import numpy as np

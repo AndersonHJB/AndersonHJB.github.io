@@ -313,6 +313,45 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 <!-- tab 1. Zhang Solution -->
 
 ```python
+算法 Dijkstra（G，源节点s）
+
+输入：
+- G：带权有向图（图的边权必须为非负值）
+- s：源节点
+
+输出：
+- dist：从源节点 s 到其他各节点的最短路径距离
+- prev：最短路径的前驱节点，用于重构路径
+
+初始化：
+1. 创建一个集合 S，包含所有节点的集合
+2. 对每个节点 v ∈ V[G]：
+   - 设置 dist[v] = ∞ （表示从源节点 s 到 v 的初始距离未知）
+   - 设置 prev[v] = NULL （前驱节点初始化为 NULL）
+3. 设置 dist[s] = 0 （源节点到自己的距离为0）
+
+主循环：
+4. 当 S 不为空时：
+   a. 从集合 S 中找到距离 dist 最小的节点 u
+   b. 从集合 S 中移除 u
+   c. 对 u 的每个邻接节点 v：
+      i. 计算从源节点 s 到节点 v 的距离：alt = dist[u] + weight(u, v)
+      ii. 如果 alt < dist[v]：
+          - 设置 dist[v] = alt
+          - 设置 prev[v] = u
+
+返回结果：
+5. 返回 dist 和 prev，用于得出最短路径的距离和路径
+```
+
+<!-- endtab -->
+
+<!-- tab 2. Yu Solution -->
+
+<!-- endtab -->
+
+<!-- tab Other(无需查看👀) -->
+```python
 函数 Dijkstra(起始节点 S, 图 G):
     初始化距离字典 distance，将所有节点距离设置为∞
     设置起始节点 S 的距离 distance[S] 为 0
@@ -337,10 +376,6 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
                 
     返回 distance 字典 // 其中包含起始节点到其他所有节点的最短路径距离
 ```
-<!-- endtab -->
-
-<!-- tab 2. Yu Solution -->
-
 <!-- endtab -->
 {% endtabs %}
 

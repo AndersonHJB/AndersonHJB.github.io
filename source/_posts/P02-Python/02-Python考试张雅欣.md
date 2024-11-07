@@ -347,7 +347,27 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+```python
+函数 Dijkstra(起始节点 s):
+    初始化:
+        设置一个字典 dist 用于记录从起始节点 s 到每个节点的最短距离
+        将所有节点的初始距离设为无限大（∞），起始节点 s 的距离设为 0
+        设置一个空的集合 visited 用于存储已确定最短路径的节点
+        使用一个优先队列 min_heap，将起始节点 s 入队列，距离为 0
 
+    while min_heap 非空:
+        取出队列中距离最小的节点 u
+        如果节点 u 已在 visited 中，跳过（continue）
+        否则，将节点 u 添加到 visited 中
+
+        for 每个与节点 u 相邻的节点 v:
+            计算从 u 到 v 的距离 dist_u_v
+            如果 dist[s][u] + dist_u_v < dist[s][v]:
+                更新 dist[s][v] 为 dist[s][u] + dist_u_v
+                将节点 v 及其更新后的距离入队 min_heap
+
+    返回 dist 字典，表示从起始节点 s 到每个节点的最短路径距离
+```
 <!-- endtab -->
 
 <!-- tab Other(无需查看👀) -->

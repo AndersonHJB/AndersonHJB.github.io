@@ -407,6 +407,67 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 {% tabs Q4 %}
 <!-- tab 1. Zhang Solution -->
 
+![](02-Python考试张雅欣/image-2.png)
+
+```python
+import pandas as pd
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# 读取实际距离矩阵
+input_path_actual = '节点_实际距离矩阵.xlsx'
+actual_distance_matrix_df = pd.read_excel(input_path_actual, sheet_name='实际距离矩阵', index_col=0)
+
+# 创建无向图
+G = nx.Graph()
+
+# 添加节点
+for i in range(len(actual_distance_matrix_df)):
+    G.add_node(i + 1)
+
+# 添加边，边的权重为距离
+# 这里使用随机邻接关系保证图的连通性
+for i in range(len(actual_distance_matrix_df)):
+    for j in range(i + 1, len(actual_distance_matrix_df)):
+        distance = actual_distance_matrix_df.iloc[i, j]
+        if distance > 0 and np.random.rand() < 0.3:  # 用30%的概率添加边
+            G.add_edge(i + 1, j + 1, weight=distance)
+
+# 检查图是否连通
+if not nx.is_connected(G):
+    # 确保图连通性：找到连通分量并连接
+    components = list(nx.connected_components(G))
+    for k in range(1, len(components)):
+        # 取前一个分量的第一个节点和当前分量的第一个节点连接
+        node_a = list(components[k - 1])[0]
+        node_b = list(components[k])[0]
+        distance = actual_distance_matrix_df.iloc[node_a - 1, node_b - 1]
+        G.add_edge(node_a, node_b, weight=distance)
+
+# 检查节点 1 到节点 20 是否连通
+if nx.has_path(G, 1, 20):
+    # 计算从节点 1 到节点 20 的最短路径
+    path = nx.dijkstra_path(G, source=1, target=20, weight='weight')
+
+    # 绘制网络图
+    pos = nx.spring_layout(G)  # 自动生成布局
+    plt.figure(figsize=(12, 8))
+
+    # 绘制所有节点和边
+    nx.draw(G, pos, with_labels=True, node_size=500, node_color="lightblue", font_size=10, font_weight="bold")
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=nx.get_edge_attributes(G, 'weight'), font_size=8)
+
+    # 将最短路径标出为红色
+    path_edges = list(zip(path, path[1:]))
+    nx.draw_networkx_edges(G, pos, edgelist=path_edges, edge_color='red', width=2)
+
+    # 显示图形
+    plt.title("实际距离矩阵的网络图及最短路径（节点1到节点20）")
+    plt.show()
+else:
+    print("节点 1 到 节点 20 无法连通，请检查图的连接关系。")
+```
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
@@ -418,6 +479,8 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 # 5. 分录题
 
 请给出相关的 python 或者 matlab 程序代码！
+
+**前面每题的代码就是本题的答案！**
 
 {% tabs Q5 %}
 <!-- tab 1. Zhang Solution -->

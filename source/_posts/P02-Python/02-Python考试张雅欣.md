@@ -471,6 +471,11 @@ else:
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+
+**每次运行结果不一样**
+
+![](02-Python考试张雅欣/myplot.png)
+
 ```python
 import pandas as pd
 import numpy as np

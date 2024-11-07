@@ -24,6 +24,7 @@ date: 2024-11-07 18:31:07
 toc_number:
 toc_style_simple:
 aplayer:
+password: lz
 ---
 
 # 1. 简答题
@@ -31,6 +32,10 @@ aplayer:
 计算后在此输入理论距离阵（20*20）节点的经纬度，节点1设为开始节点，节点20设为结束节点。(自行设定经纬度区间，并随机不等距划分为20个节点坐标，模板如下，将答案以 XLS文件粘贴即可!)
 
 - [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/经纬度及邻接矩阵.xlsx)
+
+```python
+pip install pandas geopy numpy
+```
 
 {% tabs Q1 %}
 

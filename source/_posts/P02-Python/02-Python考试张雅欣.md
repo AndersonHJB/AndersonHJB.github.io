@@ -40,6 +40,10 @@ pip install pandas geopy numpy
 
 {% tabs Q1 %}
 
+**鉴于你们零基础会运行报错，在此把运行结果 Excel 放在这里以供下载：**
+
+- [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/经纬度_及_理论距离阵.xlsx)
+
 <!-- tab 1. Zhang Solution -->
 ```python
 import pandas as pd
@@ -88,6 +92,11 @@ print(f"文件已保存为：{output_path}")
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+
+**鉴于你们零基础会运行报错，在此把运行结果 Excel 放在这里以供下载：**
+
+- [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/生成的经纬度及理论距离矩阵.xlsx)
+
 ```python
 import numpy as np
 import pandas as pd

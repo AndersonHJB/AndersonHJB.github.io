@@ -543,17 +543,6 @@ plt.show()
 
 **前面每题的代码就是本题的答案！**
 
-{% tabs Q5 %}
-<!-- tab 1. Zhang Solution -->
-
-<!-- endtab -->
-
-<!-- tab 2. Yu Solution -->
-
-<!-- endtab -->
-
-{% endtabs %}
-
 
 
 {% span center log large blue, 🪧 %}

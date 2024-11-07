@@ -233,7 +233,40 @@ print(f"文件已保存为：{output_path}")
 在此输入以上理论距离矩阵和邻接矩阵的点乘结果，即节点的实际距离矩阵。(在下方粘贴XLS文件即可!)
 
 <!-- tab 1. Zhang Solution -->
+```python
+import pandas as pd
+import numpy as np
 
+# 读取第一题生成的文件
+input_path = '经纬度_及_理论距离阵.xlsx'
+distance_matrix_df = pd.read_excel(input_path, sheet_name='理论距离阵', index_col=0)
+
+# 获取节点数量
+num_nodes = distance_matrix_df.shape[0]
+
+# 定义邻接矩阵，假设一些节点相邻关系 (这里仅为示例，你可以自行设定邻接关系)
+adjacency_matrix = np.zeros((num_nodes, num_nodes))
+# 示例: 假设节点 1 与节点 2、3 相邻，节点 2 与节点 4 相邻等
+# 你可以根据实际需求来设置这些值
+adjacency_matrix[0, 1] = adjacency_matrix[1, 0] = 1
+adjacency_matrix[0, 2] = adjacency_matrix[2, 0] = 1
+adjacency_matrix[1, 3] = adjacency_matrix[3, 1] = 1
+# … 更多邻接关系的定义（这是一个示例）
+
+# 将理论距离矩阵与邻接矩阵进行点乘，得到实际距离矩阵
+actual_distance_matrix = distance_matrix_df.values * adjacency_matrix
+
+# 将实际距离矩阵转换为 DataFrame 并保存
+actual_distance_matrix_df = pd.DataFrame(actual_distance_matrix, index=range(1, num_nodes + 1), columns=range(1, num_nodes + 1))
+actual_distance_matrix_df.insert(0, '节点', range(1, num_nodes + 1))
+
+# 将结果保存到 Excel 文件
+output_path_actual = '节点_实际距离矩阵.xlsx'
+with pd.ExcelWriter(output_path_actual) as writer:
+    actual_distance_matrix_df.to_excel(writer, sheet_name='实际距离矩阵', index=False)
+
+print(f"文件已保存为：{output_path_actual}")
+```
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->

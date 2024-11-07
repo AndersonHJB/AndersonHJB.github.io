@@ -1,5 +1,5 @@
 ---
-title: 兰州财经大学Python期中试卷2024-2025
+title: 「2024-2025」兰州财经大学Python期中试卷
 tags:
   - Python题目
   - 小红书
@@ -88,6 +88,100 @@ print(f"文件已保存为：{output_path}")
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+```python
+import numpy as np
+import pandas as pd
+import math
+
+# 随机生成20个节点的经纬度坐标
+np.random.seed(42)
+num_nodes = 20
+lat_lon_data = pd.DataFrame({
+    '节点': range(1, num_nodes + 1),
+    '经度': np.random.uniform(100, 120, num_nodes),
+    '维度': np.random.uniform(30, 50, num_nodes)
+})
+
+# 使用Haversine公式计算理论距离阵（节点之间的直线距离）
+def haversine(lon1, lat1, lon2, lat2):
+    R = 6371  # 地球半径，单位为公里
+    lon1, lat1, lon2, lat2 = map(math.radians, [lon1, lat1, lon2, lat2])
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
+    c = 2 * math.asin(math.sqrt(a)) 
+    return R * c
+
+# 计算理论距离矩阵
+theoretical_distance_matrix = np.zeros((num_nodes, num_nodes))
+for i in range(num_nodes):
+    for j in range(num_nodes):
+        if i != j:
+            lat1, lon1 = lat_lon_data.iloc[i][['维度', '经度']]
+            lat2, lon2 = lat_lon_data.iloc[j][['维度', '经度']]
+            theoretical_distance_matrix[i, j] = haversine(lon1, lat1, lon2, lat2)
+
+theoretical_distance_df = pd.DataFrame(theoretical_distance_matrix, columns=range(1, num_nodes + 1), index=range(1, num_nodes + 1))
+
+print("随机生成的经纬度坐标：")
+print(lat_lon_data)
+print("\n生成的理论距离矩阵：")
+print(theoretical_distance_df)
+
+# 将随机生成的经纬度和理论距离矩阵保存到Excel文件
+with pd.ExcelWriter('生成的经纬度及理论距离矩阵.xlsx') as writer:
+    lat_lon_data.to_excel(writer, sheet_name='经纬度', index=False)
+    theoretical_distance_df.to_excel(writer, sheet_name='理论距离矩阵')
+
+print("生成的经纬度和理论距离矩阵已保存为 '生成的经纬度及理论距离矩阵.xlsx'")
+```
+<!-- endtab -->
+
+<!-- tab Other（无需查看） -->
+
+**我的备份代码，无需关注！**
+
+```python
+import numpy as np
+import pandas as pd
+import math
+
+# 随机生成20个节点的经纬度坐标
+np.random.seed(42)
+num_nodes = 20
+lat_lon_data = pd.DataFrame({
+    '节点': range(1, num_nodes + 1),
+    '经度': np.random.uniform(100, 120, num_nodes),
+    '维度': np.random.uniform(30, 50, num_nodes)
+})
+
+# 使用Haversine公式计算理论距离阵（节点之间的直线距离）
+def haversine(lon1, lat1, lon2, lat2):
+    R = 6371  # 地球半径，单位为公里
+    lon1, lat1, lon2, lat2 = map(math.radians, [lon1, lat1, lon2, lat2])
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
+    c = 2 * math.asin(math.sqrt(a)) 
+    return R * c
+
+# 计算理论距离矩阵
+theoretical_distance_matrix = np.zeros((num_nodes, num_nodes))
+for i in range(num_nodes):
+    for j in range(num_nodes):
+        if i != j:
+            lat1, lon1 = lat_lon_data.iloc[i][['维度', '经度']]
+            lat2, lon2 = lat_lon_data.iloc[j][['维度', '经度']]
+            theoretical_distance_matrix[i, j] = haversine(lon1, lat1, lon2, lat2)
+
+theoretical_distance_df = pd.DataFrame(theoretical_distance_matrix, columns=range(1, num_nodes + 1), index=range(1, num_nodes + 1))
+
+print("随机生成的经纬度坐标：")
+print(lat_lon_data)
+print("\n生成的理论距离矩阵：")
+print(theoretical_distance_df)
+```
+
 ```python
 import pandas as pd
 import numpy as np

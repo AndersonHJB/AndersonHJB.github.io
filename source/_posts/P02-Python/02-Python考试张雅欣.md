@@ -41,12 +41,13 @@ import numpy as np
 from geopy.distance import geodesic
 
 # 定义经纬度范围，用于生成随机坐标
-latitude_range = (30.0, 40.0)  # 例如中国区域的近似范围
-longitude_range = (100.0, 110.0)
+# 定义甘肃省的经纬度范围
+latitude_range = (32.0, 42.0)  # 甘肃的纬度范围
+longitude_range = (92.0, 108.0)  # 甘肃的经度范围
 
 # 生成20个节点的随机经纬度
 num_nodes = 20
-np.random.seed(42)  # 设置随机种子以保证结果可重复
+# np.random.seed(43)  # 设置随机种子以保证结果可重复
 latitudes = np.random.uniform(*latitude_range, num_nodes)
 longitudes = np.random.uniform(*longitude_range, num_nodes)
 

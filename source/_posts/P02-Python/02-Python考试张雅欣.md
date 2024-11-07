@@ -32,7 +32,7 @@ aplayer:
 
 - [经纬度及邻接矩阵.xlsx](/static/PostsData/02-Python考试张雅欣/经纬度及邻接矩阵.xlsx)
 
-**你们直接安装库和运行自己对应的代码即可！**
+**你们直接安装库和运行自己对应的代码即可！你们两个的代码都可以运行后会保存成一个 Excel 文件，具体如何提交自行操作。**
 
 ```python
 pip install pandas geopy numpy
@@ -235,6 +235,17 @@ print(f"文件已保存为：{output_path}")
 # 3. 计算题
 
 请列出 DJ 算法的逻辑伪代码。
+
+{% tabs Q3 %}
+<!-- tab 1. Zhang Solution -->
+
+<!-- endtab -->
+
+<!-- tab 2. Yu Solution -->
+
+<!-- endtab -->
+{% endtabs %}
+
 
 # 4. 资料题
 

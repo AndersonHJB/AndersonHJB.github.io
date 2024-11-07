@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-11-02T09:38:12.021Z</updated>
+  <updated>2024-11-07T10:35:04.591Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>兰州财经大学Python期中试卷2024-2025</title>
+    <link href="https://blog.bornforthis.cn/posts/1efa71b7.html"/>
+    <id>https://blog.bornforthis.cn/posts/1efa71b7.html</id>
+    <published>2024-11-07T10:31:07.000Z</published>
+    <updated>2024-11-07T10:35:04.591Z</updated>
+    
+    
+    <summary type="html">Python期中试卷2024-2025，兰州财经大学Python期中考试</summary>
+    
+    
+    
+    <category term="Python接单" scheme="https://blog.bornforthis.cn/categories/Python%E6%8E%A5%E5%8D%95/"/>
+    
+    
+    <category term="Python题目" scheme="https://blog.bornforthis.cn/tags/Python%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="小红书" scheme="https://blog.bornforthis.cn/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>Python实现自动截图，逃脱在线监考系统</title>
@@ -93,27 +114,6 @@
     
     
     <category term="取名" scheme="https://blog.bornforthis.cn/tags/%E5%8F%96%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python期中试卷2024-2025</title>
-    <link href="https://blog.bornforthis.cn/posts/1efa71b7.html"/>
-    <id>https://blog.bornforthis.cn/posts/1efa71b7.html</id>
-    <published>2024-10-10T05:22:20.000Z</published>
-    <updated>2024-11-07T10:30:43.244Z</updated>
-    
-    
-    <summary type="html">Python实现地理位置计算和成本计算，以及对应的代码实现。</summary>
-    
-    
-    
-    <category term="Python接单" scheme="https://blog.bornforthis.cn/categories/Python%E6%8E%A5%E5%8D%95/"/>
-    
-    
-    <category term="Python题目" scheme="https://blog.bornforthis.cn/tags/Python%E9%A2%98%E7%9B%AE/"/>
-    
-    <category term="小红书" scheme="https://blog.bornforthis.cn/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/"/>
     
   </entry>
   

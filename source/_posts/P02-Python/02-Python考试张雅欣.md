@@ -471,7 +471,42 @@ else:
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+```python
+import pandas as pd
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
 
+# 读取前面生成的实际距离矩阵
+file_path = '节点实际距离矩阵.xlsx'
+actual_distance_df = pd.read_excel(file_path, sheet_name='实际距离矩阵', index_col=0)
+
+# 转换为 numpy 数组，构建图
+actual_distance_matrix = actual_distance_df.values
+num_nodes = actual_distance_matrix.shape[0]
+G = nx.Graph()
+
+# 添加节点和边
+for i in range(num_nodes):
+    for j in range(i + 1, num_nodes):
+        if actual_distance_matrix[i, j] > 0:  # 仅添加有实际距离的边
+            G.add_edge(i + 1, j + 1, weight=actual_distance_matrix[i, j])
+
+# 使用 Dijkstra 算法找出从节点1到节点20的最短路径
+start_node, end_node = 1, 20
+shortest_path = nx.dijkstra_path(G, source=start_node, target=end_node)
+path_edges = list(zip(shortest_path, shortest_path[1:]))
+
+# 绘制网络图
+plt.figure(figsize=(10, 10))
+pos = nx.spring_layout(G)  # 采用 spring 布局
+nx.draw(G, pos, with_labels=True, node_size=500, node_color="skyblue", font_size=10, font_weight="bold")
+nx.draw_networkx_edges(G, pos, edgelist=path_edges, edge_color="red", width=2)  # 用红色标出最短路径
+nx.draw_networkx_edge_labels(G, pos, edge_labels={(u, v): f"{G[u][v]['weight']:.2f}" for u, v in G.edges})
+
+plt.title("节点实际距离阵网络图\n红色标记为从节点1到节点20的最短路径")
+plt.show()
+```
 <!-- endtab -->
 
 {% endtabs %}

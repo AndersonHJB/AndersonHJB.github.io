@@ -12,7 +12,7 @@ comments: true
 toc: true
 mathjax: false
 katex: false
-highlight_shrink: true
+highlight_shrink: false
 swiper_index: 1
 top_group_index: 1
 background: '#fff'
@@ -137,3 +137,15 @@ print(f"文件已保存为：{output_path}")
 # 2. 论述题
 
 在此输入以上理论距离矩阵和邻接矩阵的点乘结果，即节点的实际距离矩阵。(在下方粘贴XLS文件即可!)
+
+# 3. 计算题
+
+请列出 DJ 算法的逻辑伪代码。
+
+# 4. 资料题
+
+请画出实际距离阵的网络图，并标出从节点1出发到节点20的的最短路径。(网络图粘贴在下方即可!)
+
+# 5. 分录题
+
+请给出相关的 python 或者 matlab 程序代码！

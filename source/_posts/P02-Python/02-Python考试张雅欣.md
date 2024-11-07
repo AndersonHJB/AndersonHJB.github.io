@@ -35,10 +35,94 @@ aplayer:
 {% tabs Q1 %}
 
 <!-- tab 1. Zhang Solution -->
+```python
+import pandas as pd
+import numpy as np
+from geopy.distance import geodesic
 
+# 定义经纬度范围，用于生成随机坐标
+latitude_range = (30.0, 40.0)  # 例如中国区域的近似范围
+longitude_range = (100.0, 110.0)
+
+# 生成20个节点的随机经纬度
+num_nodes = 20
+np.random.seed(42)  # 设置随机种子以保证结果可重复
+latitudes = np.random.uniform(*latitude_range, num_nodes)
+longitudes = np.random.uniform(*longitude_range, num_nodes)
+
+# 创建 DataFrame 存储节点的经纬度信息
+coordinates_df = pd.DataFrame({
+    '节点': range(1, num_nodes + 1),
+    '经度': longitudes,
+    '纬度': latitudes
+})
+
+# 计算理论距离矩阵，使用 geodesic 函数计算两点间的地理距离
+distance_matrix = np.zeros((num_nodes, num_nodes))
+
+for i in range(num_nodes):
+    for j in range(num_nodes):
+        if i != j:
+            # 计算距离，单位为公里
+            distance_matrix[i, j] = geodesic((latitudes[i], longitudes[i]), (latitudes[j], longitudes[j])).kilometers
+
+# 创建 DataFrame 存储距离矩阵，并添加节点标签
+distance_matrix_df = pd.DataFrame(distance_matrix, index=range(1, num_nodes + 1), columns=range(1, num_nodes + 1))
+distance_matrix_df.insert(0, '节点', range(1, num_nodes + 1))
+
+# 将结果保存到 Excel 文件
+output_path = '经纬度_及_理论距离阵.xlsx'
+with pd.ExcelWriter(output_path) as writer:
+    coordinates_df.to_excel(writer, sheet_name='经纬度', index=False)
+    distance_matrix_df.to_excel(writer, sheet_name='理论距离阵', index=False)
+
+print(f"文件已保存为：{output_path}")
+```
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+```python
+import pandas as pd
+import numpy as np
+from geopy.distance import geodesic
 
+# 定义经纬度范围，用于生成随机坐标
+latitude_range = (30.0, 40.0)  # 例如中国区域的近似范围
+longitude_range = (100.0, 110.0)
+
+# 生成20个节点的随机经纬度
+num_nodes = 20
+np.random.seed(43)  # 设置随机种子以保证结果可重复
+latitudes = np.random.uniform(*latitude_range, num_nodes)
+longitudes = np.random.uniform(*longitude_range, num_nodes)
+
+# 创建 DataFrame 存储节点的经纬度信息
+coordinates_df = pd.DataFrame({
+    '节点': range(1, num_nodes + 1),
+    '经度': longitudes,
+    '纬度': latitudes
+})
+
+# 计算理论距离矩阵，使用 geodesic 函数计算两点间的地理距离
+distance_matrix = np.zeros((num_nodes, num_nodes))
+
+for i in range(num_nodes):
+    for j in range(num_nodes):
+        if i != j:
+            # 计算距离，单位为公里
+            distance_matrix[i, j] = geodesic((latitudes[i], longitudes[i]), (latitudes[j], longitudes[j])).kilometers
+
+# 创建 DataFrame 存储距离矩阵，并添加节点标签
+distance_matrix_df = pd.DataFrame(distance_matrix, index=range(1, num_nodes + 1), columns=range(1, num_nodes + 1))
+distance_matrix_df.insert(0, '节点', range(1, num_nodes + 1))
+
+# 将结果保存到 Excel 文件
+output_path = '经纬度_及_理论距离阵.xlsx'
+with pd.ExcelWriter(output_path) as writer:
+    coordinates_df.to_excel(writer, sheet_name='经纬度', index=False)
+    distance_matrix_df.to_excel(writer, sheet_name='理论距离阵', index=False)
+
+print(f"文件已保存为：{output_path}")
+```
 <!-- endtab -->
 {% endtabs %}

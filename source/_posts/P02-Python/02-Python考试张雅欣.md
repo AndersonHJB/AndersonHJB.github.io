@@ -270,7 +270,37 @@ print(f"文件已保存为：{output_path_actual}")
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
+```python
+import pandas as pd
+import numpy as np
 
+# 读取第一题生成的 Excel 文件
+file_path = '生成的经纬度及理论距离矩阵.xlsx'
+lat_lon_data = pd.read_excel(file_path, sheet_name='经纬度')
+theoretical_distance_df = pd.read_excel(file_path, sheet_name='理论距离矩阵', index_col=0)
+
+# 将理论距离矩阵转换为 numpy 数组
+theoretical_distance_matrix = theoretical_distance_df.values
+num_nodes = theoretical_distance_matrix.shape[0]
+
+# 创建邻接矩阵，假设仅有部分节点相邻
+adjacency_matrix = np.zeros((num_nodes, num_nodes))
+np.random.seed(42)
+for i in range(num_nodes - 1):
+    adjacency_matrix[i, i + 1] = 1  # 假设节点 i 和 i+1 相邻
+    adjacency_matrix[i + 1, i] = 1  # 保证矩阵对称性
+
+# 计算实际距离矩阵，即理论距离矩阵和邻接矩阵的点乘
+actual_distance_matrix = theoretical_distance_matrix * adjacency_matrix
+
+# 将实际距离矩阵保存为新的 Excel 文件
+actual_distance_df = pd.DataFrame(actual_distance_matrix, columns=range(1, num_nodes + 1), index=range(1, num_nodes + 1))
+
+with pd.ExcelWriter('节点实际距离矩阵.xlsx') as writer:
+    actual_distance_df.to_excel(writer, sheet_name='实际距离矩阵')
+
+print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
+```
 <!-- endtab -->
 
 # 3. 计算题

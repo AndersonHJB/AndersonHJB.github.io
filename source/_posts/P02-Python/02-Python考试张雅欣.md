@@ -232,6 +232,14 @@ print(f"文件已保存为：{output_path}")
 
 在此输入以上理论距离矩阵和邻接矩阵的点乘结果，即节点的实际距离矩阵。(在下方粘贴XLS文件即可!)
 
+<!-- tab 1. Zhang Solution -->
+
+<!-- endtab -->
+
+<!-- tab 2. Yu Solution -->
+
+<!-- endtab -->
+
 # 3. 计算题
 
 请列出 DJ 算法的逻辑伪代码。
@@ -239,6 +247,31 @@ print(f"文件已保存为：{output_path}")
 {% tabs Q3 %}
 <!-- tab 1. Zhang Solution -->
 
+```python
+函数 Dijkstra(起始节点 S, 图 G):
+    初始化距离字典 distance，将所有节点距离设置为∞
+    设置起始节点 S 的距离 distance[S] 为 0
+    创建一个空的优先队列 Q，用于存储节点和距离
+
+    将 (0, S) 加入优先队列 Q  // (距离, 节点)
+
+    当 Q 不为空时:
+        当前节点 = 从 Q 中提取距离最小的节点
+        
+        如果 当前节点 的距离已经确定（被访问过）:
+            跳过此节点
+        
+        标记 当前节点 为已访问
+        
+        对于 当前节点 的所有邻居节点 v:
+            路径距离 = 当前节点的距离 + 当前节点到邻居节点 v 的距离
+            
+            如果 路径距离 < v 的当前最短距离 distance[v]:
+                更新 distance[v] 为 路径距离
+                将 (路径距离, v) 添加到 Q
+                
+    返回 distance 字典 // 其中包含起始节点到其他所有节点的最短路径距离
+```
 <!-- endtab -->
 
 <!-- tab 2. Yu Solution -->
@@ -251,6 +284,22 @@ print(f"文件已保存为：{output_path}")
 
 请画出实际距离阵的网络图，并标出从节点1出发到节点20的的最短路径。(网络图粘贴在下方即可!)
 
+<!-- tab 1. Zhang Solution -->
+
+<!-- endtab -->
+
+<!-- tab 2. Yu Solution -->
+
+<!-- endtab -->
+
 # 5. 分录题
 
 请给出相关的 python 或者 matlab 程序代码！
+
+<!-- tab 1. Zhang Solution -->
+
+<!-- endtab -->
+
+<!-- tab 2. Yu Solution -->
+
+<!-- endtab -->

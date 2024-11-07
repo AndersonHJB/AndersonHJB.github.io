@@ -231,7 +231,7 @@ print(f"文件已保存为：{output_path}")
 # 2. 论述题
 
 在此输入以上理论距离矩阵和邻接矩阵的点乘结果，即节点的实际距离矩阵。(在下方粘贴XLS文件即可!)
-
+{% tabs Q2 %}
 <!-- tab 1. Zhang Solution -->
 ```python
 import pandas as pd
@@ -303,6 +303,8 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 ```
 <!-- endtab -->
 
+{% endtabs %}
+
 # 3. 计算题
 
 请列出 DJ 算法的逻辑伪代码。
@@ -347,6 +349,7 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 
 请画出实际距离阵的网络图，并标出从节点1出发到节点20的的最短路径。(网络图粘贴在下方即可!)
 
+{% tabs Q4 %}
 <!-- tab 1. Zhang Solution -->
 
 <!-- endtab -->
@@ -354,11 +357,14 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 <!-- tab 2. Yu Solution -->
 
 <!-- endtab -->
+
+{% endtabs %}
 
 # 5. 分录题
 
 请给出相关的 python 或者 matlab 程序代码！
 
+{% tabs Q5 %}
 <!-- tab 1. Zhang Solution -->
 
 <!-- endtab -->
@@ -366,6 +372,8 @@ print("节点的实际距离矩阵已保存为 '节点实际距离矩阵.xlsx'")
 <!-- tab 2. Yu Solution -->
 
 <!-- endtab -->
+
+{% endtabs %}
 
 
 

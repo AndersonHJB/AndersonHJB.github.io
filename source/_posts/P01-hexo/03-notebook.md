@@ -254,3 +254,10 @@ find_and_remove_unicode(filename)
 ```
 <!-- endtab -->
 {% endtabs %}
+
+# 7. 常用链接
+
+| 序号 | 链接   | 说明                                                         |
+| ---- | ------ | ------------------------------------------------------------ |
+| 01   | 封面图 | [https://haowallpaper.com/homeView](https://haowallpaper.com/homeView) |
+

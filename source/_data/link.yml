@@ -19,6 +19,10 @@
       link: https://github.com/AndersonHJB/turtle_browser
       avatar: /img/icon/OpenmojiTurtle.svg
       descr: 在线画图学习系统（发布）
+    - name: FeedVault
+      link: https://github.com/AndersonHJB/FeedVault
+      avatar: /img/GitHubProject/FeedVault.webp
+      descr: FeedVault 是一个基于 Flask 的订阅管理系统
 
 - class_name: 收藏品
   flink_style: anzhiyu

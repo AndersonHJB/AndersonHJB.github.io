@@ -304,7 +304,32 @@ Also creating executable in environment_name/bin/python
 Installing setuptools, pip...done.
 ```
 
+4. 激活虚拟环境
 
+```bash
+# 具体操作：
+
+$ source /usr/home/aiyuechuang/.virtualenvs/FeedVaultEnv/bin/activate
+(environment_name) $
+
+# 教程
+$ source /usr/home/LOGIN/.virtualenvs/environment_name/bin/activate
+(environment_name) $
+```
+
+5. 退出虚拟环境
+
+```bash
+deactivate
+```
+
+<!-- endtab -->
+
+<!-- tab 一键脚本 -->
+
+```bash
+source /usr/home/aiyuechuang/.virtualenvs/FeedVaultEnv/bin/activate
+```
 
 <!-- endtab -->
 

@@ -261,3 +261,51 @@ find_and_remove_unicode(filename)
 | ---- | ------ | ------------------------------------------------------------ |
 | 01   | 封面图 | [https://haowallpaper.com/homeView](https://haowallpaper.com/homeView) |
 
+
+
+# 8. panel4.serv00.com
+
+{% tabs panel4 %}
+
+<!-- tab serv00.net -->
+1. 虚拟环境创建
+
+```bash
+mkdir /usr/home/aiyuechuang/.virtualenvs
+```
+
+2. 进入虚拟环境目录
+
+```bash
+cd /home/aiyuechuang/.virtualenvs
+```
+
+3. 创建虚拟环境
+
+```bash
+virtualenv environment_name
+virtualenv FeedVaultEnv
+
+# 具体操作
+[aiyuechuang@s4]:<~/.virtualenvs>$ virtualenv FeedVaultEnv
+created virtual environment CPython3.11.9.final.0-64 in 700ms
+  creator CPython3Posix(dest=/usr/home/aiyuechuang/.virtualenvs/FeedVaultEnv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/usr/home/aiyuechuang/.local/share/virtualenv)
+    added seed packages: pip==24.0, setuptools==69.5.1, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+# 使用其它版本创建
+$ cd /usr/home/LOGIN/.virtualenvs
+$ virtualenv environment_name -p /usr/local/bin/python2.7
+Running virtualenv with interpreter /usr/local/bin/python2.7
+Using base prefix '/usr/local'
+New python executable in environment_name/bin/python2.7
+Also creating executable in environment_name/bin/python
+Installing setuptools, pip...done.
+```
+
+
+
+<!-- endtab -->
+
+{% endtabs %}

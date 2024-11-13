@@ -7,12 +7,10 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
-    - content: 为什么代码看懂，却不会写？
-      date: 2024-11-13 12:47:17
-      from: AI悦创
-      address: Loay香港
-      video:
-        - https://gitee.com/huangjiabaoaiyc/img/releases/download/1.1.4/03-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%A3%E7%A0%81%E7%9C%8B%E6%87%82%EF%BC%8C%E5%8D%B4%E4%B8%8D%E4%BC%9A%E5%86%99%EF%BC%9F.mp4
+    # - content: 为什么代码看懂，却不会写？
+    #   date: 2024-11-13 12:47:17
+    #   from: AI悦创
+    #   address: Loay香港
     - content: 为什么国外喜欢使用 Email 来进行沟通，因为这样可以结构化自己的想法，减少沟通成本。在合适的情况下，我们也可以利用 Email 来进行沟通。
       date: 2024-11-10 17:22:01
       from: AI悦创

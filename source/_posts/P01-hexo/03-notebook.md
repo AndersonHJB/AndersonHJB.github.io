@@ -221,6 +221,7 @@ with open('gpt.txt', 'w') as f:
 8. [https://tsejx.github.io/javascript-guidebook/](https://tsejx.github.io/javascript-guidebook/)
 9. 反向代理：[https://console.openfrp.net/dashboard](https://console.openfrp.net/dashboard)
 10. 昊天数学老师网站：[https://mathematico.netlify.app/](https://mathematico.netlify.app/)
+10. 说说页面待考虑：[https://blog.2broear.com/weblog](https://blog.2broear.com/weblog)
 <!-- endtab -->
 {% endtabs %}
 

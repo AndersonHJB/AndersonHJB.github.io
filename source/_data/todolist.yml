@@ -153,3 +153,13 @@
   todo_list:
     - content: 你给 ChatGPT 原有的代码，GPT 回答给你代码，你能否发现 GPT 所做的修改？或者 GPT 回复是否完整呢？可以采用 git 对比～
       completed: false
+- class_name: Saysay页面
+  date: 2024/11/15 23:47:58
+  seat: right
+  todo_list:
+    - content: 改进 saysay 样式
+      completed: false
+    - content: 需要支持多个图片以及多个视频
+      completed: false
+    - content: 图片、视频显示的样式，以及需要灯箱显示图片
+      completed: false

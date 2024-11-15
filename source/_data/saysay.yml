@@ -1,0 +1,21 @@
+sayings:
+  - group: "人生感悟"
+    items:
+      - time: "2024-11-15"
+        content: |
+          人生如梦，回望过去，只有自己能走的路才是最真实的。
+          不要为过去的自己感到遗憾，未来会更好。
+        image: "https://blog.bornforthis.cn/img/favicon.svg"
+        video: "/videos/life.mp4"
+      - time: "2024-11-14"
+        content: |
+          活在当下，珍惜每一天，不必太过焦虑未来的事。
+        image: "/images/present.jpg"
+        video: null
+  - group: "科技探索"
+    items:
+      - time: "2024-10-20"
+        content: |
+          人类的探索永无止境，科技让我们更接近未知。
+        image: null
+        video: "/videos/tech.mp4"

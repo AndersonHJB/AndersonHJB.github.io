@@ -10,4 +10,15 @@
               a.banner-button(onclick='pjax.loadUrl("/about/")')
                 i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
                 span.banner-button-text 我的更多
-    #anniversary-main
+    #saysay-main
+      each group in site.data.saysay.sayings
+        .group
+          h2= group.group
+          each item in group.items
+            .say-item
+              .time= item.time
+              .content!= item.content
+              if item.image
+                img(src=item.image, alt='Image')
+              if item.video
+                video(controls, src=item.video)

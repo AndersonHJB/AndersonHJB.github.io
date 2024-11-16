@@ -104,3 +104,16 @@ body[data-type="saysay"] #page .page-title {
         padding: 1rem;
     }
 }
+.fancybox-content {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  .fancybox-slide {
+    background: transparent !important;
+  }
+  
+  .fancybox-container {
+    background-color: rgba(0, 0, 0, 0.8) !important; /* 适当调整背景透明度 */
+  }
+  

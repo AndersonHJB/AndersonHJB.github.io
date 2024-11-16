@@ -15,9 +15,6 @@ menu:
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
-    统计集: /charts/ || anzhiyu-icon-chart-line
-    待办事: /todolist/ || anzhiyu-icon-calendar-alt
-    Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -25,6 +22,11 @@ menu:
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
     喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
+  DIY:
+    悦说: /saysay/ || anzhiyu-icon-jike
+    统计集: /charts/ || anzhiyu-icon-chart-line
+    待办事: /todolist/ || anzhiyu-icon-calendar-alt
+    Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
 
 # nav相关配置
 nav:

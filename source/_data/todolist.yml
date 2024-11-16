@@ -163,3 +163,5 @@
       completed: false
     - content: 图片、视频显示的样式，以及需要灯箱显示图片
       completed: false
+    - content: 每个分组下面的说说可以改进成 tabs 来显示切换
+      completed: false

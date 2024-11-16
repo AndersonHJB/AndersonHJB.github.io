@@ -17,6 +17,7 @@ sayings:
         video:
           - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
           - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
+          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
       - time: "2024-11-14"
         nickname: "用户B"
         avatar: "https://example.com/avatarB.jpg"
@@ -34,4 +35,4 @@ sayings:
           人类的探索永无止境，科技让我们更接近未知。
         image: []
         video:
-          - "/videos/tech.mp4"
+          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"

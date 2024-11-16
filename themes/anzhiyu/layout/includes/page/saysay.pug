@@ -16,9 +16,18 @@
           h2= group.group
           each item in group.items
             .say-item
-              .time= item.time
+              .header
+                img.avatar(src='https://blog.bornforthis.cn/img/favicon.svg', alt='Avatar')
+                .nickname 用户昵称
+                .time= item.time
               .content!= item.content
-              if item.image
-                img(src=item.image, alt='Image')
-              if item.video
-                video(controls, src=item.video)
+              if item.image || item.video
+                .media-grid
+                  if item.image
+                    each image in item.image
+                      a.media-item(href=image, data-fancybox)
+                        img(src=image, alt='Image')
+                  if item.video
+                    each video in item.video
+                      a.media-item(href=video, data-fancybox)
+                        img(src='path/to/video_thumbnail.jpg', alt='Video')

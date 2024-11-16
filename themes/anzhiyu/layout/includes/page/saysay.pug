@@ -31,7 +31,7 @@
                   each media, mediaIndex in mediaItems
                     - let galleryId = `gallery-${groupIndex}-${itemIndex}`
                     if media.match(/\.(mp4|webm|ogg)$/i)
-                      - let videoHtml = `<video controls autoplay style="width: 100%; height: 100%;"><source src="${media}" type="video/mp4">您的浏览器不支持视频播放。</video>`
+                      - let videoHtml = `<video controls style="width: 100%; height: 100%;"><source src="${media}" type="video/mp4">您的浏览器不支持视频播放。</video>`
                       a.media-item(
                         href='javascript:void(0);',
                         data-fancybox=galleryId,

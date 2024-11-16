@@ -94,7 +94,13 @@ body[data-type="saysay"] #page .page-title {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: none; /* 移除边框 */
     border-radius: 5px;
+}
+
+/* 移除视频外围的白色边框 */
+#saysay-main .say-item .media-item video {
+    background-color: #000; /* 设置背景色为黑色，避免白色边框 */
 }
 
 /* 响应式调整 */

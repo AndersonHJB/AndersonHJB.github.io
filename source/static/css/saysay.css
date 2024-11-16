@@ -112,7 +112,9 @@ body[data-type="saysay"] #page .page-title {
 .fancybox-container {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
-
+.fancybox__content {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
 /* 响应式调整 */
 @media (max-width: 768px) {
     #saysay-main {

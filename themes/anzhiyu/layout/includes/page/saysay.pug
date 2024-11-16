@@ -17,17 +17,17 @@
           each item in group.items
             .say-item
               .header
-                img.avatar(src='https://blog.bornforthis.cn/img/favicon.svg', alt='Avatar')
-                .nickname Bornforthis
+                img.avatar(src=item.avatar, alt='Avatar')
+                .nickname= item.nickname
                 .time= item.time
               .content!= item.content
-              if item.image || item.video
+              if item.image.length > 0 || item.video.length > 0
                 .media-grid
-                  if item.image
+                  if item.image.length > 0
                     each image in item.image
                       a.media-item(href=image, data-fancybox)
                         img(src=image, alt='Image')
-                  if item.video
+                  if item.video.length > 0
                     each video in item.video
-                      a.media-item(href=video, data-fancybox)
-                        img(src='path/to/video_thumbnail.jpg', alt='Video')
+                      .media-item
+                        video(controls, src=video)

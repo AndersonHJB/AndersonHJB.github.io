@@ -2,15 +2,24 @@ sayings:
   - group: "人生感悟"
     items:
       - time: "2024-11-15"
+        nickname: "用户A"
+        avatar: "https://example.com/avatarA.jpg"
         content: |
           人生如梦，回望过去，只有自己能走的路才是最真实的。
           不要为过去的自己感到遗憾，未来会更好。
         image:
           - "https://blog.bornforthis.cn/img/favicon.svg"
+          - "https://blog.bornforthis.cn/img/favicon.svg"
+          - "https://blog.bornforthis.cn/img/favicon.svg"
+          - "https://blog.bornforthis.cn/img/favicon.svg"
+          - "https://blog.bornforthis.cn/img/favicon.svg"
           - "/images/present.jpg"
         video:
           - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
+          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
       - time: "2024-11-14"
+        nickname: "用户B"
+        avatar: "https://example.com/avatarB.jpg"
         content: |
           活在当下，珍惜每一天，不必太过焦虑未来的事。
         image:
@@ -19,6 +28,8 @@ sayings:
   - group: "科技探索"
     items:
       - time: "2024-10-20"
+        nickname: "用户C"
+        avatar: "https://example.com/avatarC.jpg"
         content: |
           人类的探索永无止境，科技让我们更接近未知。
         image: []

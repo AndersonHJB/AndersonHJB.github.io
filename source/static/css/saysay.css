@@ -86,7 +86,8 @@ body[data-type="saysay"] #page .page-title {
     overflow: hidden;
 }
 
-#saysay-main .say-item .media-item img {
+#saysay-main .say-item .media-item img,
+#saysay-main .say-item .media-item video {
     position: absolute;
     top: 0;
     left: 0;

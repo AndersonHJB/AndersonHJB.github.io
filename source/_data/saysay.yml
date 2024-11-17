@@ -23,7 +23,7 @@ sayings:
         content: |
           活在当下，珍惜每一天，不必太过焦虑未来的事。
         image:
-          - "/images/present.jpg"
+          - "/img/saysay/汽车.png"
         video: []
   - group: "科技探索"
     items:

@@ -165,3 +165,5 @@
       completed: false
     - content: 每个分组下面的说说可以改进成 tabs 来显示切换
       completed: false
+    - content: 用户昵称下方可以显示一行名言警句
+      completed: false

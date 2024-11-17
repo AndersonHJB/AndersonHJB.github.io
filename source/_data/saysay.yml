@@ -14,9 +14,9 @@ sayings:
           - "https://blog.bornforthis.cn/img/posts/P04-Vlog/01-为什么学习编程推荐记笔记/IMG_3061.JPG"
           - "https://blog.bornforthis.cn/img/posts/P01-hexo/07-anniversary/07-anniversary.webp"
         video:
-          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
-          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
-          - "https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.4/03-why-code.mp4"
+          - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
+          - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
+          - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
       - time: "2024-11-14"
         nickname: "用户B"
         avatar: "https://example.com/avatarB.jpg"

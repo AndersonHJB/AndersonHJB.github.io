@@ -19,7 +19,7 @@ sayings:
           - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
       - time: "2024-11-14"
         nickname: "用户B"
-        avatar: "https://example.com/avatarB.jpg"
+        avatar: "/img/favicon.svg"
         content: |
           活在当下，珍惜每一天，不必太过焦虑未来的事。
         image:
@@ -29,7 +29,7 @@ sayings:
     items:
       - time: "2024-10-20"
         nickname: "用户C"
-        avatar: "https://example.com/avatarC.jpg"
+        avatar: "/img/favicon.svg"
         content: |
           人类的探索永无止境，科技让我们更接近未知。
         image: []

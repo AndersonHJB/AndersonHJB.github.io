@@ -2,8 +2,8 @@ sayings:
   - group: "人生感悟"
     items:
       - time: "2024-11-15"
-        nickname: "用户A"
-        avatar: "https://example.com/avatarA.jpg"
+        nickname: "AI悦创"
+        avatar: "/img/favicon.svg"
         content: |
           人生如梦，回望过去，只有自己能走的路才是最真实的。
           不要为过去的自己感到遗憾，未来会更好。

@@ -42,5 +42,10 @@
                         video(src=media, preload="metadata", muted, playsinline)
                           | 您的浏览器不支持视频播放。
                     else
-                      a.media-item(href=media, data-fancybox=galleryId, data-caption=item.content)
+                      a.media-item(
+                        href='javascript:void(0);',
+                        data-fancybox="gallery",
+                        data-caption=item.content,
+                        data-src=media
+                      )
                         img(src=media, alt='Image')

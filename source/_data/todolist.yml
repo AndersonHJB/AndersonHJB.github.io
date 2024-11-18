@@ -160,10 +160,12 @@
     - content: 改进 saysay 样式
       completed: false
     - content: 需要支持多个图片以及多个视频
-      completed: false
+      completed: true
     - content: 图片、视频显示的样式，以及需要灯箱显示图片
       completed: false
     - content: 每个分组下面的说说可以改进成 tabs 来显示切换
       completed: false
     - content: 用户昵称下方可以显示一行名言警句
+      completed: false
+    - content: 图片缩略图改进
       completed: false

@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-11-07T15:13:52.458Z</updated>
+  <updated>2024-11-21T15:34:25.645Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给你的网站添加悦说页面</title>
+    <link href="https://blog.bornforthis.cn/posts/99b5e76c.html"/>
+    <id>https://blog.bornforthis.cn/posts/99b5e76c.html</id>
+    <published>2024-11-21T15:16:34.000Z</published>
+    <updated>2024-11-21T15:34:25.645Z</updated>
+    
+    
+    <summary type="html">悦说：每一瞬间的思想，都应该被捕获。自己自定义一个专属的朋友圈页面吧，记录本身，即已是反抗！</summary>
+    
+    
+    
+    <category term="hexo 网站相关" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="悦说页面" scheme="https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%B4%E9%A1%B5%E9%9D%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>「2024-2025」兰州财经大学Python期中试卷</title>

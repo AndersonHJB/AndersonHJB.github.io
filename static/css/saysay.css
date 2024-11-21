@@ -1,3 +1,19 @@
+body[data-type="saysay"] #web_bg {
+    background: var(--anzhiyu-background);
+}
+
+body[data-type="saysay"] #page {
+    border: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    background: 0 0 !important;
+}
+
+body[data-type="saysay"] #page .page-title {
+    display: none;
+}
+
 /* 主体样式 */
 #saysay-main {
     padding: 2rem;
@@ -13,36 +29,6 @@
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 1rem;
-}
-
-/* 选项卡头部样式 */
-.tab-headers {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 1rem;
-}
-
-.tab-headers li {
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    background: #eee;
-    margin-right: 0.5rem;
-    border-radius: 5px;
-}
-
-.tab-headers li.active {
-    background: #ddd;
-    font-weight: bold;
-}
-
-/* 选项卡内容样式 */
-.tab-contents .tab-content {
-    display: none;
-}
-
-.tab-contents .tab-content.active {
-    display: block;
 }
 
 /* 说说项样式 */
@@ -125,23 +111,45 @@
 .fancybox-container {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
-
 .fancybox__content {
     background-color: rgba(0, 0, 0, 1) !important;
 }
-
 /* 响应式调整 */
 @media (max-width: 768px) {
     #saysay-main {
         padding: 1rem;
     }
-    #saysay-main .media-grid {
+    #saysay-main .say-item .media-grid {
         grid-template-columns: repeat(2, 1fr); /* 小屏幕每行显示2个 */
     }
-    .tab-headers {
-        flex-direction: column;
-    }
-    .tab-headers li {
-        margin-bottom: 0.5rem;
-    }
 }
+/* 选项卡样式 */
+.tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .tab-content .say-item {
+    display: none;
+  }
+  
+  .tab-content .say-item.active {
+    display: block;
+  }
+  

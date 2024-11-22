@@ -14,16 +14,16 @@
       each group, groupIndex in site.data.saysay.sayings
         .group
           h2= group.group
-          .tabs
+          .saysay-tabs
             each item, itemIndex in group.items
-              button.tab-button(
+              button.saysay-tab-button(
                 data-group=groupIndex,
                 data-index=itemIndex,
                 class=(itemIndex === 0 ? 'active' : '')
               )= item.time
-          .tab-content
+          .saysay-tab-content
             each item, itemIndex in group.items
-              .say-item(
+              .saysay-say-item(
                 data-group=groupIndex,
                 data-index=itemIndex,
                 class=(itemIndex === 0 ? 'active' : '')
@@ -34,7 +34,7 @@
                   .time= item.time
                 .content!= item.content
                 if item.image.length > 0 || item.video.length > 0
-                  .media-grid
+                  .saysay-media-grid
                     - let mediaItems = []
                     if item.image.length > 0
                       - mediaItems = mediaItems.concat(item.image)
@@ -44,7 +44,7 @@
                       - let galleryId = `gallery-${groupIndex}-${itemIndex}`
                       if media.match(/\.(mp4|webm|ogg)$/i)
                         - let videoHtml = `<video controls style="width: 100%; height: 100%;"><source src="${media}" type="video/mp4">您的浏览器不支持视频播放。</video>`
-                        a.media-item(
+                        a.saysay-media-item(
                           href='javascript:void(0);',
                           data-fancybox=galleryId,
                           data-caption=item.content,
@@ -54,7 +54,7 @@
                           video(src=media, preload="metadata", muted, playsinline)
                             | 您的浏览器不支持视频播放。
                       else
-                        a.media-item(
+                        a.saysay-media-item(
                           href=media,
                           target="_blank",
                           data-fancybox="gallery",

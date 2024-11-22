@@ -4,8 +4,8 @@
     const mainContainer = document.querySelector('#saysay-main');
     if (!mainContainer) return; // 如果当前页面没有这个模块，则跳过
 
-    const tabButtons = mainContainer.querySelectorAll('.tab-button');
-    const tabContents = mainContainer.querySelectorAll('.say-item');
+    const tabButtons = mainContainer.querySelectorAll('.saysay-tab-button');
+    const tabContents = mainContainer.querySelectorAll('.saysay-say-item');
 
     tabButtons.forEach((button) => {
       // 防止重复绑定，先移除所有 click 事件
@@ -20,16 +20,16 @@
 
       // 切换按钮激活状态
       mainContainer
-        .querySelectorAll(`.tab-button[data-group="${group}"]`)
+        .querySelectorAll(`.saysay-tab-button[data-group="${group}"]`)
         .forEach((btn) => btn.classList.remove('active'));
       button.classList.add('active');
 
       // 切换内容显示状态
       mainContainer
-        .querySelectorAll(`.say-item[data-group="${group}"]`)
+        .querySelectorAll(`.saysay-say-item[data-group="${group}"]`)
         .forEach((content) => content.classList.remove('active'));
       mainContainer
-        .querySelector(`.say-item[data-group="${group}"][data-index="${index}"]`)
+        .querySelector(`.saysay-say-item[data-group="${group}"][data-index="${index}"]`)
         .classList.add('active');
     }
   }

@@ -7,7 +7,7 @@ body[data-type="saysay"] #page {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     padding: 0 !important;
-    background: 0 0 !important;
+    background: transparent !important;
 }
 
 body[data-type="saysay"] #page .page-title {
@@ -32,7 +32,7 @@ body[data-type="saysay"] #page .page-title {
 }
 
 /* 说说项样式 */
-#saysay-main .say-item {
+#saysay-main .saysay-say-item {
     margin-bottom: 1.5rem;
     padding: 1rem;
     background-color: #ffffff;
@@ -40,30 +40,30 @@ body[data-type="saysay"] #page .page-title {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-#saysay-main .say-item .header {
+#saysay-main .saysay-say-item .header {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
 }
 
-#saysay-main .say-item .avatar {
+#saysay-main .saysay-say-item .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 0.5rem;
 }
 
-#saysay-main .say-item .nickname {
+#saysay-main .saysay-say-item .nickname {
     font-weight: bold;
     margin-right: auto;
 }
 
-#saysay-main .say-item .time {
+#saysay-main .saysay-say-item .time {
     font-size: 0.9rem;
     color: #888;
 }
 
-#saysay-main .say-item .content {
+#saysay-main .saysay-say-item .content {
     white-space: pre-wrap;
     word-wrap: break-word;
     font-size: 1rem;
@@ -72,22 +72,22 @@ body[data-type="saysay"] #page .page-title {
 }
 
 /* 媒体网格样式 */
-#saysay-main .say-item .media-grid {
+#saysay-main .saysay-say-item .saysay-media-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 每行显示4个 */
     grid-gap: 4px;
     margin-top: 0.5rem;
 }
 
-#saysay-main .say-item .media-item {
+#saysay-main .saysay-say-item .saysay-media-item {
     position: relative;
     width: 100%;
     padding-bottom: 75%; /* 4:3 的比例 */
     overflow: hidden;
 }
 
-#saysay-main .say-item .media-item img,
-#saysay-main .say-item .media-item video {
+#saysay-main .saysay-say-item .saysay-media-item img,
+#saysay-main .saysay-say-item .saysay-media-item video {
     position: absolute;
     top: 0;
     left: 0;
@@ -122,37 +122,37 @@ body[data-type="saysay"] #page .page-title {
         padding: 1rem;
     }
 
-    #saysay-main .say-item .media-grid {
+    #saysay-main .saysay-say-item .saysay-media-grid {
         grid-template-columns: repeat(2, 1fr); /* 小屏幕每行显示2个 */
     }
 }
 
-/* 选项卡样式 - 限制在 #saysay-main */
-#saysay-main .tabs {
+/* 选项卡样式 */
+#saysay-main .saysay-tabs {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
 
-#saysay-main .tab-button {
+#saysay-main .saysay-tab-button {
     padding: 0.5rem 1rem;
-    border: 1px solid var(--tab-border-color, #ccc); /* 允许自定义主题色 */
+    border: 1px solid var(--tab-border-color, #ccc);
     border-radius: 5px;
     background-color: var(--tab-bg-color, #f9f9f9);
     cursor: pointer;
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
-#saysay-main .tab-button.active {
+#saysay-main .saysay-tab-button.active {
     background-color: var(--tab-active-bg-color, #007bff);
     color: var(--tab-active-text-color, #fff);
     border-color: var(--tab-active-border-color, #007bff);
 }
 
-#saysay-main .tab-content .say-item {
+#saysay-main .saysay-tab-content .saysay-say-item {
     display: none;
 }
 
-#saysay-main .tab-content .say-item.active {
+#saysay-main .saysay-tab-content .saysay-say-item.active {
     display: block;
 }

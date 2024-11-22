@@ -14,38 +14,50 @@
       each group, groupIndex in site.data.saysay.sayings
         .group
           h2= group.group
-          each item, itemIndex in group.items
-            .say-item
-              .header
-                img.avatar(src=item.avatar, alt='Avatar')
-                .nickname= item.nickname
-                .time= item.time
-              .content!= item.content
-              if item.image.length > 0 || item.video.length > 0
-                .media-grid
-                  - let mediaItems = []
-                  if item.image.length > 0
-                    - mediaItems = mediaItems.concat(item.image)
-                  if item.video.length > 0
-                    - mediaItems = mediaItems.concat(item.video)
-                  each media, mediaIndex in mediaItems
-                    - let galleryId = `gallery-${groupIndex}-${itemIndex}`
-                    if media.match(/\.(mp4|webm|ogg)$/i)
-                      - let videoHtml = `<video controls style="width: 100%; height: 100%;"><source src="${media}" type="video/mp4">您的浏览器不支持视频播放。</video>`
-                      a.media-item(
-                        href='javascript:void(0);',
-                        data-fancybox=galleryId,
-                        data-caption=item.content,
-                        data-type='html',
-                        data-src=videoHtml
-                      )
-                        video(src=media, preload="metadata", muted, playsinline)
-                          | 您的浏览器不支持视频播放。
-                    else
-                      a.media-item(
-                        href=media,
-                        target="_blank",
-                        data-fancybox="gallery",
-                        data-caption=item.content
-                      )
-                        img(src=media, alt='Image')
+          .tabs
+            each item, itemIndex in group.items
+              button.tab-button(
+                data-group=groupIndex,
+                data-index=itemIndex,
+                class=(itemIndex === 0 ? 'active' : '')
+              )= item.time
+          .tab-content
+            each item, itemIndex in group.items
+              .say-item(
+                data-group=groupIndex,
+                data-index=itemIndex,
+                class=(itemIndex === 0 ? 'active' : '')
+              )
+                .header
+                  img.avatar(src=item.avatar, alt='Avatar')
+                  .nickname= item.nickname
+                  .time= item.time
+                .content!= item.content
+                if item.image.length > 0 || item.video.length > 0
+                  .media-grid
+                    - let mediaItems = []
+                    if item.image.length > 0
+                      - mediaItems = mediaItems.concat(item.image)
+                    if item.video.length > 0
+                      - mediaItems = mediaItems.concat(item.video)
+                    each media, mediaIndex in mediaItems
+                      - let galleryId = `gallery-${groupIndex}-${itemIndex}`
+                      if media.match(/\.(mp4|webm|ogg)$/i)
+                        - let videoHtml = `<video controls style="width: 100%; height: 100%;"><source src="${media}" type="video/mp4">您的浏览器不支持视频播放。</video>`
+                        a.media-item(
+                          href='javascript:void(0);',
+                          data-fancybox=galleryId,
+                          data-caption=item.content,
+                          data-type='html',
+                          data-src=videoHtml
+                        )
+                          video(src=media, preload="metadata", muted, playsinline)
+                            | 您的浏览器不支持视频播放。
+                      else
+                        a.media-item(
+                          href=media,
+                          target="_blank",
+                          data-fancybox="gallery",
+                          data-caption=item.content
+                        )
+                          img(src=media, alt='Image')

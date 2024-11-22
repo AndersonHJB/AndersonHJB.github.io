@@ -171,3 +171,5 @@
       completed: false
     - content: 分组名称新增 name 参数来显示
       completed: false
+    - content: 移动端视频显示问题
+      completed: false

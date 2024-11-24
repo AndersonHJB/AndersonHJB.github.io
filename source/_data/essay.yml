@@ -7,10 +7,10 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
-    # - content: 为什么代码看懂，却不会写？
-    #   date: 2024-11-13 12:47:17
-    #   from: AI悦创
-    #   address: Loay香港
+    - content: 平时写代码时应该注意什么？带着思考去编写！不要一味的只看结果，只看结果会失去过程。学编程的过程中，思考比结果更加重要‼️至少，前期是如此！
+      date: 2024-11-24 12:29:08
+      from: AI悦创
+      address: FD上课
     - content: 为什么国外喜欢使用 Email 来进行沟通，因为这样可以结构化自己的想法，减少沟通成本。在合适的情况下，我们也可以利用 Email 来进行沟通。
       date: 2024-11-10 17:22:01
       from: AI悦创

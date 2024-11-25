@@ -28,6 +28,7 @@ menu:
     待办事: /todolist/ || anzhiyu-icon-calendar-alt
     Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
     喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
+    Python 可视化: https://pythontutor.bornforthis.cn/visualize.html#mode=edit || anzhiyu-icon-linggan
 
 # nav相关配置
 nav:

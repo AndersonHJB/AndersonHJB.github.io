@@ -287,6 +287,12 @@
       avatar: /img/link/51-4ading.com.ico
       descr: 这句话一共有五十四笔/只是一句话，就不用开篇去写了。
       tag: 生活
+    - name: Ki'sBlog
+      link: https://blog.kikiw.cn/
+      avatar: /img/link/51-blog.kikiw.cn.jpeg
+      descr: 花有重开日 人无再少年
+      tag: 生活
+    
 
 - class_name: 悦创·悦读
   class_desc: 那些阅读的朋友们，皆在思考～记录本身，即已是反抗！

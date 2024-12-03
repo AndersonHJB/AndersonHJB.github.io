@@ -256,3 +256,13 @@ encrypt:
   wrong_hash_message: '文章被篡改，请联系管理员'
   need_transform: true
   decrypt_button_text: '解密'
+
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  # template: /sitemap_template.xml
+  # template_txt: /sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true

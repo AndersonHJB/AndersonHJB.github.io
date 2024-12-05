@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2024-11-21T15:34:25.645Z</updated>
+  <updated>2024-12-05T02:10:43.084Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python自动提交必应</title>
+    <link href="https://blog.bornforthis.cn/posts/df336835.html"/>
+    <id>https://blog.bornforthis.cn/posts/df336835.html</id>
+    <published>2024-12-05T01:56:58.000Z</published>
+    <updated>2024-12-05T02:10:43.084Z</updated>
+    
+    
+    <summary type="html">为增加必应的收录，我选择注册并提交链接，垃圾🗑️百度给我的提交额为0！简直无法忍受😓</summary>
+    
+    
+    
+    <category term="Python小项目" scheme="https://blog.bornforthis.cn/categories/Python%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="小想法" scheme="https://blog.bornforthis.cn/tags/%E5%B0%8F%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="Python 工具" scheme="https://blog.bornforthis.cn/tags/Python-%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的网站添加悦说页面</title>

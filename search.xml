@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Python自动提交必应</title>
+      <title>Python自动提交必应收录</title>
       <link href="/posts/3fceba58.html"/>
       <url>/posts/3fceba58.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="1-背景"><a href="#1-背景" class="headerlink" title="1. 背景"></a>1. 背景</h1><p>你好，我是悦创。</p><p>添加到必应是很简单的，我就不赘述了～</p><p>我这里主要记录📝的是，如何使用必应的 API 提交链接，至于定时提交有很多方法，可以选择使用宝塔、MacOS、Windows 等定时任务即可。</p><h2 id="2-实现"><a href="#2-实现" class="headerlink" title="2. 实现"></a>2. 实现</h2><p>必应官方提供了两种方案</p>]]></content>
       
       
       <categories>

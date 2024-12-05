@@ -102,4 +102,81 @@ Content-Length: 0
 
 {% endtabs %}
 
-上面的内容运行，不是很方便，我平时用的比较多的也是 ：Python 
+上面的内容运行，不是很方便，我平时用的比较多的也是 ：Python，在写这篇文章的时候突发奇想，后面做个网页方便大家直接使用？后面有时间再造轮子🛞吧。
+
+{% tabs Code %}
+
+<!-- tab V0.0.1 -->
+**使用说明：**
+
+- 前置条件：
+  - 替换 apikey 为您的 Bing Webmaster 工具提供的 API 密钥。
+  - 确保 sitemap_url 指向有效的 Sitemap 文件。
+- 运行脚本：
+  - 将代码保存为一个 Python 文件（例如 submit_to_bing.py）。
+  - 使用 Python 运行脚本：python submit_to_bing.py。
+- 脚本功能：
+  - 自动从 sitemap_url 下载 Sitemap 文件。
+  - 提取所有 `<loc>` 标签中的链接。
+  - 按批次将链接提交到 Bing 的 Webmaster API。
+- 注意事项：
+  - 如果您的 Sitemap 很大，可以调整 batch_size，以减少单次提交的 URL 数量。
+  - 确保 API 调用频率不超过 Bing 的限制。
+```python
+import requests
+import re
+
+# 配置
+sitemap_url = "https://bornforthis.cn/sitemap.xml"
+bing_api_url = "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch"
+apikey = "your_api_key_here"  # 替换为您的实际 API 密钥
+site_url = "https://bornforthis.cn"
+
+# 提取 Sitemap 中的链接
+def fetch_sitemap_urls(sitemap_url):
+    response = requests.get(sitemap_url)
+    response.raise_for_status()  # 确保请求成功
+    sitemap_content = response.text
+    # 使用正则表达式提取 <loc> 标签中的链接
+    urls = re.findall(r"<loc>(.*?)</loc>", sitemap_content)
+    return urls
+
+# 提交链接到 Bing API
+def submit_urls_to_bing(api_url, apikey, site_url, url_list):
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+    }
+    payload = {
+        "siteUrl": site_url,
+        "urlList": url_list
+    }
+    params = {
+        "apikey": apikey
+    }
+    response = requests.post(api_url, headers=headers, params=params, json=payload)
+    response.raise_for_status()  # 确保请求成功
+    return response.json()
+
+# 主程序
+def main():
+    try:
+        print("Fetching URLs from sitemap...")
+        urls = fetch_sitemap_urls(sitemap_url)
+        print(f"Fetched {len(urls)} URLs.")
+
+        # 将 URLs 分批提交，避免超出 API 限制
+        batch_size = 100  # 每批提交的链接数量
+        for i in range(0, len(urls), batch_size):
+            batch = urls[i:i + batch_size]
+            print(f"Submitting batch {i // batch_size + 1} with {len(batch)} URLs...")
+            response = submit_urls_to_bing(bing_api_url, apikey, site_url, batch)
+            print(f"Batch {i // batch_size + 1} submitted successfully: {response}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
+```
+
+<!-- endtab -->
+{% endtabs %}

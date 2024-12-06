@@ -181,4 +181,71 @@ if __name__ == "__main__":
 ```
 
 <!-- endtab -->
+
+<!-- tab V0.0.2 -->
+
+- 原本的代码实现，是按顺序提取链接。但是必应每天只有 100 个 URL 数量，如果每天都是按顺序提交，只会提交固定前面的链接。此时，随机打乱是最合适的。
+- 为了实现随机化提交，可以在从 Sitemap 提取链接后，使用 Python 的 `random.shuffle()` 方法打乱链接顺序，然后分批提交。以下是改进后的代码：
+
+```python
+import requests
+import re
+import random
+
+# 配置
+sitemap_url = "https://bornforthis.cn/sitemap.xml"
+bing_api_url = "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch"
+apikey = "your_api_key_here"  # 替换为您的实际 API 密钥
+site_url = "https://bornforthis.cn"
+
+# 提取 Sitemap 中的链接
+def fetch_sitemap_urls(sitemap_url):
+    response = requests.get(sitemap_url)
+    response.raise_for_status()  # 确保请求成功
+    sitemap_content = response.text
+    # 使用正则表达式提取 <loc> 标签中的链接
+    urls = re.findall(r"<loc>(.*?)</loc>", sitemap_content)
+    return urls
+
+# 提交链接到 Bing API
+def submit_urls_to_bing(api_url, apikey, site_url, url_list):
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+    }
+    payload = {
+        "siteUrl": site_url,
+        "urlList": url_list
+    }
+    params = {
+        "apikey": apikey
+    }
+    response = requests.post(api_url, headers=headers, params=params, json=payload)
+    response.raise_for_status()  # 确保请求成功
+    return response.json()
+
+# 主程序
+def main():
+    try:
+        print("Fetching URLs from sitemap...")
+        urls = fetch_sitemap_urls(sitemap_url)
+        print(f"Fetched {len(urls)} URLs.")
+
+        # 随机打乱链接顺序
+        print("Shuffling URLs...")
+        random.shuffle(urls)
+
+        # 将 URLs 分批提交，避免超出 API 限制
+        batch_size = 100  # 每批提交的链接数量
+        for i in range(0, len(urls), batch_size):
+            batch = urls[i:i + batch_size]
+            print(f"Submitting batch {i // batch_size + 1} with {len(batch)} URLs...")
+            response = submit_urls_to_bing(bing_api_url, apikey, site_url, batch)
+            print(f"Batch {i // batch_size + 1} submitted successfully: {response}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
+```
+<!-- endtab -->
 {% endtabs %}

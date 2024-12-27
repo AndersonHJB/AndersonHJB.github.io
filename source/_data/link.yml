@@ -292,6 +292,11 @@
     #   avatar: /img/link/51-blog.kikiw.cn.jpeg
     #   descr: 花有重开日 人无再少年
     #   tag: 生活
+    - name: 美好的明天
+      link: https://www.wmviv.com
+      avatar: /img/link/53-www.wmviv.com.svg
+      descr: 分享改变，记录生活
+      tag: 生活
     
 
 # - class_name: 悦创·悦读

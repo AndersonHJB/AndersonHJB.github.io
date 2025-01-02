@@ -5,7 +5,6 @@
     if (!mainContainer) return; // 如果当前页面没有这个模块，则跳过
 
     const tabButtons = mainContainer.querySelectorAll('.saysay-tab-button');
-    const tabContents = mainContainer.querySelectorAll('.saysay-say-item');
 
     tabButtons.forEach((button) => {
       // 防止重复绑定，先移除所有 click 事件
@@ -28,9 +27,13 @@
       mainContainer
         .querySelectorAll(`.saysay-say-item[data-group="${group}"]`)
         .forEach((content) => content.classList.remove('active'));
-      mainContainer
-        .querySelector(`.saysay-say-item[data-group="${group}"][data-index="${index}"]`)
-        .classList.add('active');
+
+      // 为防止新内容切换时动画不生效，可延时添加 active
+      setTimeout(() => {
+        mainContainer
+          .querySelector(`.saysay-say-item[data-group="${group}"][data-index="${index}"]`)
+          .classList.add('active');
+      }, 50);
     }
   }
 

@@ -1,7 +1,8 @@
 sayings:
   - group: "人生感悟"
     items:
-      - time: "2024-11-15"
+      - name: "生活要有思考"
+        time: "2024-11-15"
         nickname: "AI悦创"
         avatar: "/img/favicon.svg"
         content: |
@@ -19,6 +20,7 @@ sayings:
           - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
           - "https://bornforthis.cn/video/%E6%9D%8E%E5%B3%8B%E5%90%8C%E6%AC%BE%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83/732.MP4"
       - time: "2024-11-14"
+        name: "珍惜当下"
         nickname: "用户B"
         avatar: "/img/favicon.svg"
         content: |
@@ -28,7 +30,8 @@ sayings:
         video: []
   - group: "科技探索"
     items:
-      - time: "2024-10-20"
+      - name: "科技与未来"
+        time: "2024-10-20"
         nickname: "用户C"
         avatar: "/img/favicon.svg"
         content: |

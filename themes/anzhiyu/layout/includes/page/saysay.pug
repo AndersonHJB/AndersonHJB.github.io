@@ -20,7 +20,7 @@
                 data-group=groupIndex,
                 data-index=itemIndex,
                 class=(itemIndex === 0 ? 'active' : '')
-              )= item.time
+              )= item.name || item.time
           .saysay-tab-content
             each item, itemIndex in group.items
               .saysay-say-item(
@@ -31,7 +31,8 @@
                 .header
                   img.avatar(src=item.avatar, alt='Avatar')
                   .nickname= item.nickname
-                  .time= item.time
+                  //- .time #{(item.name ? item.name + ' - ' : '') + item.time}
+                  .time= (item.name ? item.name + ' - ' : '') + item.time
                 .content!= item.content
                 if item.image.length > 0 || item.video.length > 0
                   .saysay-media-grid

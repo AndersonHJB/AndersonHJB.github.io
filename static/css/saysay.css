@@ -88,8 +88,7 @@ body[data-type="saysay"] #page .page-title {
 
 /* 
  * 以下针对视频/图片的缩略图进行设置
- * 如需在移动端更好地显示缩略图，可在小屏幕下使用 object-fit: contain;
- * 如果需要点击事件，建议移除 pointer-events: none; 避免在部分浏览器上出现交互问题
+ * 移除了 pointer-events: none;，这样移动端可以正常显示并交互
  */
 #saysay-main .saysay-say-item .saysay-media-item img,
 #saysay-main .saysay-say-item .saysay-media-item video {
@@ -98,11 +97,9 @@ body[data-type="saysay"] #page .page-title {
     left: 0;
     width: 100%;
     height: 100%;
-    /* object-fit: cover;  // 如果想自适应裁剪，可以留 cover */
     object-fit: cover; 
     border-radius: 5px;
-    /* pointer-events: none;  // 若需要用户点击视频本身可移除此行 */
-    pointer-events: none;
+    /* pointer-events: none;  // 移除或注释掉这行以便移动端可以正常加载缩略图 */
 }
 
 /* Fancybox 调整 */

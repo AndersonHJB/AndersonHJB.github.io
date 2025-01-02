@@ -86,10 +86,6 @@ body[data-type="saysay"] #page .page-title {
     overflow: hidden;
 }
 
-/* 
- * 以下针对视频/图片的缩略图进行设置
- * 移除了 pointer-events: none;，这样移动端可以正常显示并交互
- */
 #saysay-main .saysay-say-item .saysay-media-item img,
 #saysay-main .saysay-say-item .saysay-media-item video {
     position: absolute;
@@ -97,7 +93,7 @@ body[data-type="saysay"] #page .page-title {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 5px;
     /* pointer-events: none;  // 移除或注释掉这行以便移动端可以正常加载缩略图 */
 }

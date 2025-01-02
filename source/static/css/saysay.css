@@ -95,7 +95,7 @@ body[data-type="saysay"] #page .page-title {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-    pointer-events: none;
+    /* pointer-events: none;  // 移除或注释掉这行以便移动端可以正常加载缩略图 */
 }
 
 /* Fancybox 调整 */
@@ -124,6 +124,12 @@ body[data-type="saysay"] #page .page-title {
 
     #saysay-main .saysay-say-item .saysay-media-grid {
         grid-template-columns: repeat(2, 1fr); /* 小屏幕每行显示2个 */
+    }
+
+    /* 在移动端切换成 contain，避免过度裁剪 */
+    #saysay-main .saysay-say-item .saysay-media-item img,
+    #saysay-main .saysay-say-item .saysay-media-item video {
+      object-fit: contain;
     }
 }
 

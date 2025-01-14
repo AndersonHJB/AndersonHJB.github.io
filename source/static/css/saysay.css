@@ -1,164 +1,321 @@
+/* 引入手写风 & 衬线字体，可根据需要自行调整或替换 */
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap');
+
+/* 颜色与字体变量，可自行调整 */
+:root {
+  --saysay-font-title: 'Ma Shan Zheng', cursive;
+  --saysay-font-body: 'Noto Serif SC', serif;
+  --saysay-primary-color: #C8B7A6;
+  --saysay-secondary-color: #F2ECE7;
+  --saysay-text-color: #4A3D3A;
+  --saysay-title-color: #372F2C;
+  --saysay-accent-color: #BF9E80;
+  /* 按钮等处的点缀色 */
+  --anzhiyu-background: #FAF8F7;
+  /* 若需替换背景，可自行修改 */
+}
+
+/* 让此页面的背景更偏文艺淡雅 */
 body[data-type="saysay"] #web_bg {
-    background: var(--anzhiyu-background);
+  background: var(--anzhiyu-background);
+  transition: background 0.3s ease;
 }
 
 body[data-type="saysay"] #page {
-    border: 0;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    background: transparent !important;
+  border: 0;
+  /* -webkit-box-shadow: none !important; */
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  font-family: var(--saysay-font-body);
 }
 
 body[data-type="saysay"] #page .page-title {
-    display: none;
+  display: none;
 }
 
-/* 主体样式 */
+/* 顶部大图容器 */
+.author-content.author-content-item.saysay.single {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: var(--saysay-text-color);
+  text-align: center;
+  padding: 4rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/* 半透明遮罩 */
+.saysay-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* 顶部文字内容在遮罩之上 */
+.author-content-item.saysay .card-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.author-content-item.saysay .author-content-item-tips {
+  font-family: var(--saysay-font-title);
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.author-content-item.saysay .author-content-item-title {
+  font-family: var(--saysay-font-title);
+  font-size: 2.6rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.author-content-item.saysay .content-bottom {
+  margin-top: 1rem;
+}
+
+.author-content-item.saysay .content-bottom .tips {
+  font-style: italic;
+  font-size: 1rem;
+  opacity: 0.9;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.author-content-item.saysay .banner-button-group {
+  margin-top: 1rem;
+}
+
+.author-content-item.saysay .banner-button {
+  color: #fff;
+  background-color: rgba(0,0,0,0.3);
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.author-content-item.saysay .banner-button:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* 主体容器 */
 #saysay-main {
-    padding: 2rem;
-    background-color: #f7f7f7;
-    border-radius: 8px;
+  padding: 2rem;
+  background-color: var(--saysay-secondary-color);
+  border-radius: 8px;
+  margin-top: 1rem;
 }
 
+/* 每组的标题 */
 #saysay-main .group {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #saysay-main .group h2 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 1rem;
+  font-family: var(--saysay-font-title);
+  font-size: 1.8rem;
+  color: var(--saysay-title-color);
+  margin-bottom: 1rem;
+  position: relative;
 }
 
-/* 说说项样式 */
-#saysay-main .saysay-say-item {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-#saysay-main .saysay-say-item .header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-}
-
-#saysay-main .saysay-say-item .avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 0.5rem;
-}
-
-#saysay-main .saysay-say-item .nickname {
-    font-weight: bold;
-    margin-right: auto;
-}
-
-#saysay-main .saysay-say-item .time {
-    font-size: 0.9rem;
-    color: #888;
-}
-
-#saysay-main .saysay-say-item .content {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    font-size: 1rem;
-    color: #444;
-    margin-top: 0.5rem;
-}
-
-/* 媒体网格样式 */
-#saysay-main .saysay-say-item .saysay-media-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 每行显示4个 */
-    grid-gap: 4px;
-    margin-top: 0.5rem;
-}
-
-#saysay-main .saysay-say-item .saysay-media-item {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%; /* 4:3 的比例 */
-    overflow: hidden;
-}
-
-#saysay-main .saysay-say-item .saysay-media-item img,
-#saysay-main .saysay-say-item .saysay-media-item video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-    /* pointer-events: none;  // 移除或注释掉这行以便移动端可以正常加载缩略图 */
-}
-
-/* Fancybox 调整 */
-.fancybox-content {
-    background: transparent !important;
-    box-shadow: none !important;
-}
-
-.fancybox-slide {
-    background: transparent !important;
-}
-
-.fancybox-container {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.fancybox__content {
-    background-color: rgba(0, 0, 0, 1) !important;
-}
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-    #saysay-main {
-        padding: 1rem;
-    }
-
-    #saysay-main .saysay-say-item .saysay-media-grid {
-        grid-template-columns: repeat(2, 1fr); /* 小屏幕每行显示2个 */
-    }
-
-    /* 在移动端切换成 contain，避免过度裁剪 */
-    #saysay-main .saysay-say-item .saysay-media-item img,
-    #saysay-main .saysay-say-item .saysay-media-item video {
-      object-fit: contain;
-    }
+/* 让标题加一些小装饰 */
+#saysay-main .group h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--saysay-accent-color);
+  margin-top: 0.3rem;
 }
 
 /* 选项卡样式 */
 #saysay-main .saysay-tabs {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
+/* 选项卡按钮 */
 #saysay-main .saysay-tab-button {
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--tab-border-color, #ccc);
-    border-radius: 5px;
-    background-color: var(--tab-bg-color, #f9f9f9);
-    cursor: pointer;
-    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--saysay-font-body);
+  font-size: 0.95rem;
+  color: var(--saysay-text-color);
+}
+
+#saysay-main .saysay-tab-button:hover {
+  background-color: var(--saysay-primary-color);
+  color: #fff;
+  border-color: var(--saysay-primary-color);
 }
 
 #saysay-main .saysay-tab-button.active {
-    background-color: var(--tab-active-bg-color, #007bff);
-    color: var(--tab-active-text-color, #fff);
-    border-color: var(--tab-active-border-color, #007bff);
+  background-color: var(--saysay-accent-color);
+  color: #fff;
+  border-color: var(--saysay-accent-color);
 }
 
+/* 选项卡内容容器：默认隐藏，选中时显示 */
 #saysay-main .saysay-tab-content .saysay-say-item {
-    display: none;
+  display: none;
 }
 
 #saysay-main .saysay-tab-content .saysay-say-item.active {
-    display: block;
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+/* 说说项卡片 */
+#saysay-main .saysay-say-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+/* hover 效果 */
+#saysay-main .saysay-say-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* 卡片顶部信息 */
+#saysay-main .saysay-say-item .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* 头像 */
+#saysay-main .saysay-say-item .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  object-fit: cover;
+}
+
+/* 昵称与时间 */
+#saysay-main .saysay-say-item .nickname {
+  font-weight: bold;
+  margin-right: auto;
+  font-family: var(--saysay-font-body);
+}
+
+#saysay-main .saysay-say-item .time {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* 正文内容 */
+#saysay-main .saysay-say-item .content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+  color: var(--saysay-text-color);
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+/* 媒体网格 */
+#saysay-main .saysay-say-item .saysay-media-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 每行显示4个 */
+  grid-gap: 4px;
+  margin-top: 0.5rem;
+}
+
+/* 媒体单元格 */
+#saysay-main .saysay-say-item .saysay-media-item {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  /* 4:3 的比例 */
+  overflow: hidden;
+}
+
+#saysay-main .saysay-say-item .saysay-media-item img,
+#saysay-main .saysay-say-item .saysay-media-item video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* hover 轻微放大 */
+#saysay-main .saysay-say-item .saysay-media-item:hover img,
+#saysay-main .saysay-say-item .saysay-media-item:hover video {
+  transform: scale(1.02);
+}
+
+/* Fancybox 样式 */
+.fancybox-content {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.fancybox-slide {
+  background: transparent !important;
+}
+
+.fancybox-container {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.fancybox__content {
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  #saysay-main {
+    padding: 1rem;
+  }
+
+  #saysay-main .saysay-say-item .saysay-media-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 小屏幕每行显示2个 */
+  }
+
+  /* 避免移动端过度裁剪 */
+  #saysay-main .saysay-say-item .saysay-media-item img,
+  #saysay-main .saysay-say-item .saysay-media-item video {
+    object-fit: contain;
+  }
+}
+
+/* 淡入动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

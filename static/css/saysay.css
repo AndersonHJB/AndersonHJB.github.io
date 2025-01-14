@@ -9,8 +9,10 @@
   --saysay-secondary-color: #F2ECE7;
   --saysay-text-color: #4A3D3A;
   --saysay-title-color: #372F2C;
-  --saysay-accent-color: #BF9E80; /* 按钮等处的点缀色 */
-  --anzhiyu-background: #FAF8F7; /* 若需替换背景，可自行修改 */
+  --saysay-accent-color: #BF9E80;
+  /* 按钮等处的点缀色 */
+  --anzhiyu-background: #FAF8F7;
+  /* 若需替换背景，可自行修改 */
 }
 
 /* 让此页面的背景更偏文艺淡雅 */
@@ -21,6 +23,7 @@ body[data-type="saysay"] #web_bg {
 
 body[data-type="saysay"] #page {
   border: 0;
+  /* -webkit-box-shadow: none !important; */
   box-shadow: none !important;
   padding: 0 !important;
   background: transparent !important;
@@ -47,8 +50,10 @@ body[data-type="saysay"] #page .page-title {
 /* 半透明遮罩 */
 .saysay-hero-overlay {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
@@ -171,6 +176,7 @@ body[data-type="saysay"] #page .page-title {
 #saysay-main .saysay-tab-content .saysay-say-item {
   display: none;
 }
+
 #saysay-main .saysay-tab-content .saysay-say-item.active {
   display: block;
   animation: fadeIn 0.3s ease;
@@ -232,7 +238,8 @@ body[data-type="saysay"] #page .page-title {
 /* 媒体网格 */
 #saysay-main .saysay-say-item .saysay-media-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 每行显示4个 */
+  grid-template-columns: repeat(4, 1fr);
+  /* 每行显示4个 */
   grid-gap: 4px;
   margin-top: 0.5rem;
 }
@@ -241,7 +248,8 @@ body[data-type="saysay"] #page .page-title {
 #saysay-main .saysay-say-item .saysay-media-item {
   position: relative;
   width: 100%;
-  padding-bottom: 75%; /* 4:3 的比例 */
+  padding-bottom: 75%;
+  /* 4:3 的比例 */
   overflow: hidden;
 }
 
@@ -288,7 +296,8 @@ body[data-type="saysay"] #page .page-title {
   }
 
   #saysay-main .saysay-say-item .saysay-media-grid {
-    grid-template-columns: repeat(2, 1fr); /* 小屏幕每行显示2个 */
+    grid-template-columns: repeat(2, 1fr);
+    /* 小屏幕每行显示2个 */
   }
 
   /* 避免移动端过度裁剪 */
@@ -300,6 +309,13 @@ body[data-type="saysay"] #page .page-title {
 
 /* 淡入动画 */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

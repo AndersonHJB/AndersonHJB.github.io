@@ -27,7 +27,6 @@
       mainContainer
         .querySelectorAll(`.saysay-say-item[data-group="${group}"]`)
         .forEach((content) => content.classList.remove('active'));
-
       // 为防止新内容切换时动画不生效，可延时添加 active
       setTimeout(() => {
         mainContainer

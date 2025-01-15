@@ -1,3 +1,16 @@
+- class_name: 2025年1月待完成事项
+  date: 2025/01/15 10:33:48
+  card: true
+  seat: left
+  todo_list:
+    - content: 待产日记编写
+      completed: false
+    - content: Python 书稿
+      completed: false
+    - content: 育儿英语早教
+      completed: false
+    - content: 睡圆头教程
+      completed: false
 # seat控制清单在左栏还是右栏显示，completed控制是否已完成
 - class_name: Todo list 页面优化「Plan」
   seat: left
@@ -158,18 +171,18 @@
   seat: right
   todo_list:
     - content: 改进 saysay 样式
-      completed: false
+      completed: true
     - content: 需要支持多个图片以及多个视频
       completed: true
     - content: 图片、视频显示的样式，以及需要灯箱显示图片
-      completed: false
+      completed: true
     - content: 每个分组下面的说说可以改进成 tabs 来显示切换
       completed: true
     - content: 用户昵称下方可以显示一行名言警句
       completed: false
     - content: 图片缩略图改进
-      completed: false
+      completed: true
     - content: 分组名称新增 name 参数来显示
-      completed: false
+      completed: true
     - content: 移动端视频显示问题
       completed: false

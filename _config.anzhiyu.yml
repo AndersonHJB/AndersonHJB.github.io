@@ -4,6 +4,7 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
     记录: /classrecord/ || anzhiyu-icon-plant-fill
+    统计集: /charts/ || anzhiyu-icon-chart-line
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
@@ -14,6 +15,7 @@ menu:
     音乐馆: /music/?id=1984839329&server=netease || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
+    待办事: /todolist/ || anzhiyu-icon-calendar-alt
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
@@ -24,8 +26,6 @@ menu:
     
   DIY:
     悦说: /saysay/ || anzhiyu-icon-instagram
-    统计集: /charts/ || anzhiyu-icon-chart-line
-    待办事: /todolist/ || anzhiyu-icon-calendar-alt
     Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
     喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
     Python 可视化: https://pythontutor.bornforthis.cn/visualize.html#mode=edit || anzhiyu-icon-linggan

@@ -297,12 +297,20 @@
       avatar: /img/link/54-www.wmviv.com.png
       descr: 分享改变，记录生活
       tag: 生活
+- class_name: 友谊长存「2025」
+  class_desc: 如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
     - name: 周润发
       link: https://blog.aizrf.com/
       avatar: /img/link/53-blog.aizrf.com.png
       descr: 收录开源，好用的互联网项目
       tag: “资源站？”
-    
+    - name: 小奥のblog
+      link: https://www.aokaoka.top/
+      avatar: /img/link/55-www.aokaoka.top.jpg
+      descr: 不经一事，不长一智。
 
 # - class_name: 悦创·悦读
 #   class_desc: 那些阅读的朋友们，皆在思考～记录本身，即已是反抗！

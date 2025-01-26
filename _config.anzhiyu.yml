@@ -10,6 +10,7 @@ menu:
     友人帐: /link/ || anzhiyu-icon-link
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
+    评论区: /messages/ || anzhiyu-icon-comment-sms
 
   我的:
     音乐馆: /music/?id=1984839329&server=netease || anzhiyu-icon-music

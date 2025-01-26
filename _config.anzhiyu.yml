@@ -23,7 +23,7 @@ menu:
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
-    
+
   DIY:
     悦说: /saysay/ || anzhiyu-icon-instagram
     Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
@@ -196,7 +196,6 @@ default_top_img: false
 # archive_img: false
 # category_img: https://blog.bornforthis.cn/img/email/duzhebeij.png
 
-
 cover:
   # display the cover or not (是否显示文章封面)
   index_enable: true
@@ -206,7 +205,7 @@ cover:
   # left/right/both
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
-  default_cover:  # 配置默认图片的缩略图
+  default_cover: # 配置默认图片的缩略图
     - /img/079A23792.jpg
     - /img/album/bg.webp
 
@@ -406,13 +405,14 @@ waline:
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
     copyright: false
-    reaction: [
-        'https://bornforthis.cn/Waline/tieba/tieba_agree.png',
-        'https://bornforthis.cn/Waline/tieba/tieba_sunglasses.png',
-        'https://bornforthis.cn/Waline/tieba/tieba_pick_nose.png',
-        'https://bornforthis.cn/Waline/tieba/tieba_awkward.png',
-        'https://bornforthis.cn/Waline/tieba/1f613.png',
-        'https://bornforthis.cn/Waline/tieba/1f60f.png',
+    reaction:
+      [
+        "https://bornforthis.cn/Waline/tieba/tieba_agree.png",
+        "https://bornforthis.cn/Waline/tieba/tieba_sunglasses.png",
+        "https://bornforthis.cn/Waline/tieba/tieba_pick_nose.png",
+        "https://bornforthis.cn/Waline/tieba/tieba_awkward.png",
+        "https://bornforthis.cn/Waline/tieba/1f613.png",
+        "https://bornforthis.cn/Waline/tieba/1f60f.png",
       ]
     pageview: true
 
@@ -557,7 +557,7 @@ footer:
           - title: Medium
             link: https://aiyc.top
           # - title: 开往
-            # link: https://github.com/travellings-link/travellings
+          # link: https://github.com/travellings-link/travellings
       - title: 开源项目
         links:
           - title: FPM
@@ -887,7 +887,7 @@ aside:
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
-  card_categories:  # 主页分类卡片
+  card_categories: # 主页分类卡片
     enable: false
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
@@ -915,7 +915,7 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: true  # 主页右侧卡片，最后更新～
+    last_push_date: true # 主页右侧卡片，最后更新～
     sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
@@ -1163,13 +1163,13 @@ friends_vue:
 # Lite朋友圈配置
 friends_lite:
   enable: true
-  fclite_css_url: https://fc.ruom.top/main/fclite.css  # 轻量朋友圈的CSS
-  fclite_js_url: https://fc.ruom.top/main/fclite.js    # 轻量朋友圈的js
-  private_api_url: https://friends.bornforthis.cn/                # 获取json的API URL
-  page_turning_number: 20                              # 每页显示的文章数量
-  error_img: /img/fcircle/fcircle.webp  # 404图片 URL
-  top_background: /img/fcircle/fcircle.webp  # 顶部背景图片 URL
-  top_tips: 随时随地记录生活点滴  # 顶部提示文字
+  fclite_css_url: /static/css/fclite.css # https://fc.ruom.top/main/fclite.css  # 轻量朋友圈的CSS
+  fclite_js_url: /static/css/fclite.js # https://fc.ruom.top/main/fclite.js    # 轻量朋友圈的js
+  private_api_url: https://friends.bornforthis.cn/ # 获取json的API URL
+  page_turning_number: 20 # 每页显示的文章数量
+  error_img: /img/fcircle/fcircle.webp # 404图片 URL
+  top_background: /img/fcircle/fcircle.webp # 顶部背景图片 URL
+  top_tips: 随时随地记录生活点滴 # 顶部提示文字
 
 # 深色模式粒子效果canvas
 universe:
@@ -1319,7 +1319,7 @@ dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
   postTopRollZoomInfo: false # 文章顶部滚动时缩放
   pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
-  
+
 # envelope_comment
 # see https://akilar.top/posts/e2d3c450/
 envelope_comment:
@@ -1338,8 +1338,8 @@ envelope_comment:
   height: #1024px，信封划出的高度
   path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
   easy_Danmaku_js: /static/js/easy-Danmaku.js # 源码：https://github.com/pprory/easyDanmaku
-  danmu_page: '/comments/' # 即留言板地址
-  danmu_el: 'danmu-wrap' # 弹幕挂载节点
+  danmu_page: "/comments/" # 即留言板地址
+  danmu_el: "danmu-wrap" # 弹幕挂载节点
   danmu_line: 5 # 弹幕行数
   danmu_speed: 20 # 弹幕播放速度
   danmu_hover: true # 鼠标hover时是否暂停播放弹幕
@@ -1360,7 +1360,7 @@ envelope_comment:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/static/css/imgloaded.css?1"> 
+    - <link rel="stylesheet" href="/static/css/imgloaded.css?1">
     - <link rel="stylesheet" href="/static/css/todolist.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
@@ -1428,7 +1428,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js # https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js 
+    twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js # https://bornforthis.cn/js/blog.class1v1.com/twikoo.all.min.js # https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.39/twikoo.all.min.js #/static/js/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:

@@ -8,7 +8,7 @@ menu:
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
@@ -1159,6 +1159,17 @@ friends_vue:
   apiurl: https://friends.bornforthis.cn/ # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background: /img/fcircle/fcircle.webp
+
+# Lite朋友圈配置
+friends_lite:
+  enable: true
+  fclite_css_url: https://fc.ruom.top/main/fclite.css  # 轻量朋友圈的CSS
+  fclite_js_url: https://fc.ruom.top/main/fclite.js    # 轻量朋友圈的js
+  private_api_url: https://friends.bornforthis.cn/                # 获取json的API URL
+  page_turning_number: 20                              # 每页显示的文章数量
+  error_img: /img/fcircle/fcircle.webp  # 404图片 URL
+  top_background: /img/fcircle/fcircle.webp  # 顶部背景图片 URL
+  top_tips: 随时随地记录生活点滴  # 顶部提示文字
 
 # 深色模式粒子效果canvas
 universe:

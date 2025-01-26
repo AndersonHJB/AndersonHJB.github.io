@@ -6,7 +6,8 @@
           .banners-title-small 友情链接
           .banners-title-big=theme.linkPageTop ? theme.linkPageTop.title : "与数百名博主无限进步"
         .banner-button-group
-          if (theme.friends_vue.apiurl)
+          //- if (theme.friends_vue.apiurl)
+          if (theme.friends_lite.private_api_url)
             a.banner-button.secondary.no-text-decoration(onclick="friendChainRandomTransmission()")
               i.anzhiyufont.anzhiyu-icon-paper-plane1
               span.banner-button-text 随机访问
@@ -36,7 +37,8 @@
                       img.no-lightbox(title=evenNum[index].name, src=url_for(evenNumAvatar + hundredSuffix) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=evenNum[index].name)
                     a.tags-group-icon.no-text-decoration(href=url_for(oddNum[index].link), title=oddNum[index].name)
                       img.no-lightbox(title=oddNum[index].name, src=url_for(oddNumAvatar + hundredSuffix) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=oddNum[index].name)
-  if theme.friends_vue && theme.friends_vue.enable
+  //- if theme.friends_vue && theme.friends_vue.enable
+  if theme.friends_lite && theme.friends_lite.enable
     .title-h2-a
       .title-h2-a-left
         h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
@@ -46,6 +48,14 @@
         a.random-post-all.no-text-decoration(href='/link/') 全部友链
     #random-post
     script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))
+    script.
+      if (typeof UserConfig === 'undefined') {
+        var UserConfig = {
+          private_api_url: '#{theme.friends_lite.private_api_url}',
+          page_turning_number: #{theme.friends_lite.page_turning_number},
+          error_img: '#{theme.friends_lite.error_img}'
+          };
+        }
   
   .flink
     if site.data.link

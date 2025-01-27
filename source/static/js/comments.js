@@ -84,9 +84,9 @@
     };
   
     const LatestComments = {
-      API_URL: 'https://twikoo.ruom.top',
-      ADMIN_EMAIL_MD5: 'f2c9c64c90a00afeed5ba410e5447a0d01aa294874bd662032a27c5385bcde1c',
-      PAGE_SIZE: 5,
+      API_URL: 'https://comment.class1v1.com/',
+      ADMIN_EMAIL_MD5: 'd2262986371318821a2cfe4dc37a18bd62af3e7e5d531301c87f6066a483faa0',
+      PAGE_SIZE: 6,
       LOADING_GIF: 'https://lib.bsgun.cn/Hexo-static/img/loading.gif',
     
       async fetchComments() {

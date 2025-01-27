@@ -5,7 +5,7 @@ tags:
 categories:
   - hexo
   - 安知鱼主题
-description: 
+description: hexo实现春节灯笼🏮。以庆祝春节成为非物质文化遗产的第一个春节，引入了火红灯笼和春联装饰。
 top_img: /img/posts/P01-hexo/09-给你的 Hexo 博客添加灯笼和春联/09-给你的 Hexo 博客添加灯笼和春联.png
 cover: /img/posts/P01-hexo/09-给你的 Hexo 博客添加灯笼和春联/09-给你的 Hexo 博客添加灯笼和春联.webp
 comments: true
@@ -16,7 +16,7 @@ top_group_index: 1
 background: '#fff'
 aside: true
 ai:
-  - 博主更新博客，结合两个大佬：琅環书生和梦爱吃鱼的春节登陆🏮。以庆祝春节成为非物质文化遗产的第一个春节，引入了火红灯笼和春联装饰。
+  - 博主更新博客，结合两个大佬：琅環书生和梦爱吃鱼的春节灯笼🏮。以庆祝春节成为非物质文化遗产的第一个春节，引入了火红灯笼和春联装饰。
 abbrlink: 410c2166
 date: 2025-01-27 10:41:44
 toc_number:

@@ -10,7 +10,8 @@ menu:
     友人帐: /link/ || anzhiyu-icon-link
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
-    评论区: /messages/ || anzhiyu-icon-comment-sms
+    评论区: /messages/ || fa-sharp fa-solid fa-comments
+    # 评论区: /messages/ || fa-regular fa-comment
 
   我的:
     音乐馆: /music/?id=1984839329&server=netease || anzhiyu-icon-music
@@ -29,7 +30,7 @@ menu:
     悦说: /saysay/ || anzhiyu-icon-instagram
     Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
     喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
-    Python 可视化: https://pythontutor.bornforthis.cn/visualize.html#mode=edit || anzhiyu-icon-linggan
+    Python 可视化: https://pythontutor.bornforthis.cn/visualize.html#mode=edit || fa-brands fa-python # anzhiyu-icon-linggan
 
 # nav相关配置
 nav:

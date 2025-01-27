@@ -39,7 +39,7 @@ aplayer:
 
 {% folding blue close, 梦爱吃鱼 %}
 
-![alt text](<09-给你的 Hexo 博客添加灯笼和春联/image.png>)
+![梦爱吃鱼聊天记录](09-给你的 Hexo 博客添加灯笼和春联/image.png)
 
 这里我先放上原文件的内容，路径：
 
@@ -1173,11 +1173,12 @@ if theme.denglong.enable
 <!-- endtab -->
 {% endtabs %}
 
-## 1.2. 改进
+## 1.2. 改进「直接抄作业部分」
 
 为了让主题支持通过配置指定四个字，可以改写 Pug 模板以动态生成文字内容，同时在 `theme.denglong` 配置中增加 `text` 参数，用于定义要显示的四个字。以下是具体实现步骤和代码：
 
-- 修改后的主题配置
+- 修改后的主题配置：
+- **Path:** `_config.anzhiyu.yml`
 
 ```yml
 denglong:
@@ -1186,8 +1187,15 @@ denglong:
 ```
 
 - 修改后的 Pug 模板
+- **Path:** `/themes/anzhiyu/layout/includes/layout.pug`
 
 > 通过循环读取配置中的 text，动态生成灯笼内容。
+
+{% tabs layout.pug %}
+
+<!-- tab 1. 新增代码 -->
+
+![新增代码位置](09-给你的 Hexo 博客添加灯笼和春联/image-1.png)
 
 ```pug
 if theme.denglong.enable
@@ -1205,7 +1213,125 @@ if theme.denglong.enable
             .shui-b
 ```
 
+<!-- endtab -->
+<!-- tab 2. 完整代码代码 -->
+
+**安知鱼主题的朋友，可以直接 copy 使用即可！**
+
+```pug
+- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
+- page.aside = is_archive() ? theme.aside.display.archive: is_category() ? theme.aside.display.category : is_tag() ? theme.aside.display.tag : page.aside
+- var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
+- var pageType = is_post() ? 'post' : 'page'
+
+doctype html
+html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
+  head
+    include ./head.pug
+      if theme.denglong.enable
+        - const denglongText = theme.denglong.text || "新年快乐"; // 如果未配置，默认显示“新年快乐”
+        .denglong
+          each char, index in denglongText
+            div(class=`deng-box${index + 1}`)
+              .deng
+                .xian
+                .deng-a
+                  .deng-b
+                    .deng-t= char
+                .shui.shui-a
+                  .shui-c
+                  .shui-b
+
+
+  body(data-type="anzhiyu")
+    #web_bg
+    #an_music_bg
+    if theme.preloader.enable
+      !=partial('includes/loading/index', {}, {cache: true})
+    if (theme.mourn.enable && is_home_first_page())
+      include ./mourn.pug
+    if page.type !== '404'
+      #body-wrap(class=pageType)
+        include ./header/index.pug
+        main#blog-container
+          if (is_home())
+            include ./bbTimeList.pug
+          if is_current("/")
+            include ./top/top.pug
+          if page.top_single
+            - let background = page.top_single_background
+            - let tip = page.top_single_tip
+            - let subTitle = page.top_single_subtitle
+            - let btn_link = page.top_single_btn_link
+            - let btn_text = page.top_single_btn_text
+            #single_top
+              .author-content.author-content-item.single(style=`${background ? `background: url(${background}) top / cover no-repeat;` : ""}`)
+                .card-content
+                  .author-content-item-tips=subTitle
+                  span.author-content-item-title=page.title
+                  .content-bottom
+                    .tips=tip
+                  .banner-button-group
+                    a.banner-button(onclick=`pjax.loadUrl("${url_for(btn_link ? btn_link : '/about')}")`)
+                      i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                      span.banner-button-text=btn_text ? btn_text : "关于我"
+
+          #content-inner.layout(class=hideAside)
+            if body
+              div!= body
+            else
+              block content
+              if theme.aside.enable && page.aside !== false
+                include widget/index.pug
+
+        - var footerBg = theme.footer_bg
+        if (footerBg)
+          if (footerBg === true)
+            - var footer_bg = bg_img
+          else
+            - var footer_bg = theme.footer_bg.indexOf('/') !== -1 ? `background-image: url('${url_for(footerBg)}')` : `background: ${footerBg}`
+        else
+          - var footer_bg = ''
+
+        footer#footer(style=footer_bg)
+          !=partial('includes/footer', {}, {cache: true})
+        
+        if (theme.agreementPopup && theme.agreementPopup.enable && is_home_first_page())
+          - let agreementPopupUrl = theme.agreementPopup.url
+          script(defer).
+            var hasShownPopup = sessionStorage.getItem('sessionNegotiatePopupShown');
+
+            if (!hasShownPopup) {
+              setTimeout(() => {
+                anzhiyuPopupManager && anzhiyuPopupManager.enqueuePopup('协议提醒助手', '查看本站为你的个人隐私做出的努力', '#{agreementPopupUrl}', 4000);
+                sessionStorage.setItem('sessionNegotiatePopupShown', 'true');
+              }, 1000);
+            }
+
+    else
+      include ./404.pug
+
+    !=partial('includes/sidebar', {}, {cache: true})
+
+    if theme.shortcutKey.enable
+      !=partial('includes/shortcutKey', {}, {cache: true})
+    include ./rightside.pug
+
+    if (theme.nav_music.enable || theme.nav_music.console_widescreen_music)
+      include ./music.pug
+    !=partial('includes/third-party/search/index', {}, {cache: true})
+    !=partial('includes/anzhiyu/rightmenu', {}, {cache:true})
+    include ./additional-js.pug
+
+    //- 弹窗通知
+    !=partial('includes/popup/index', {}, {cache: true})
+```
+<!-- endtab -->
+
+{% endtabs %}
+
 -  CSS 代码
+-  **Path:** `/source/static/css/chinese-new-year.css`
 
 ```css
 /* 新年灯笼🏮 */
@@ -1379,3 +1505,28 @@ if theme.denglong.enable
     }
   }  
 ```
+
+# 2. 关于春联
+
+对于春联，原本两位大佬都是在全屏加载动画时实现的，但是我个人不喜欢全屏加载，故而这里我就不改进实现，以后也有可能别中样式实现。有需要的网友可以留言评论，我酌情添加！
+
+
+{% span center log large blue, 🪧 %}
+
+{% folding blue close, 公众号：AI悦创【二维码】 %}
+
+![](https://bornforthis.cn/gzh.jpg)
+
+{% endfolding %}
+
+{% tip info %}AI悦创·编程一对一
+
+> AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh
+>
+> C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
+>
+> 方法一：[QQ](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
+>
+> 方法二：微信：Jiabcdefh
+
+{% endtip %}

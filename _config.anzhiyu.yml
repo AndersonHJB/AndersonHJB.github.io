@@ -1174,7 +1174,7 @@ friends_lite:
 
 denglong:
   enable: true  #true 开启 false关闭
-  text: "新年快乐"  # 配置灯笼的四个字
+  text: "春节快乐"  # 配置灯笼的四个字
 
 
 # 深色模式粒子效果canvas

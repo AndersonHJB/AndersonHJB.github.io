@@ -21,7 +21,7 @@ comments: false
 </div>
 
 <div id="comments-page">
-    <img src="/img/circle-loading-GIF.gif">
+    <img src="/img/Hexo_Status/num25.gif">
 </div>
 
 <style>

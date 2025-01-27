@@ -8,43 +8,19 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
   head
     include ./head.pug
       if theme.denglong.enable
+        - const denglongText = theme.denglong.text || "新年快乐"; // 如果未配置，默认显示“新年快乐”
         .denglong
-          .deng-box1
-            .deng
-              .xian
-              .deng-a
-                .deng-b
-                  .deng-t 新
-              .shui.shui-a
-                .shui-c
-                .shui-b
-          .deng-box2
-            .deng
-              .xian
-              .deng-a
-                .deng-b
-                  .deng-t 年
-              .shui.shui-a
-                .shui-c
-                .shui-b
-          .deng-box3
-            .deng
-              .xian
-              .deng-a
-                .deng-b
-                  .deng-t 快
-              .shui.shui-a
-                .shui-c
-                .shui-b
-          .deng-box4
-            .deng
-              .xian
-              .deng-a
-                .deng-b
-                  .deng-t 乐
-              .shui.shui-a
-                .shui-c
-                .shui-b
+          each char, index in denglongText
+            div(class=`deng-box${index + 1}`)
+              .deng
+                .xian
+                .deng-a
+                  .deng-b
+                    .deng-t= char
+                .shui.shui-a
+                  .shui-c
+                  .shui-b
+
 
   body(data-type="anzhiyu")
     #web_bg

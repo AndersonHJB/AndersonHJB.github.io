@@ -945,11 +945,262 @@ script.
 
 # 1. 实现
 
-## 1. 首先先将 `琅環书生` 的 html 代码转换
+## 1.1. 首先将 `琅環书生` 和 `梦爱吃鱼` 举办一下“领证仪式😂”
 
-转换成 pug：
+{% tabs translate %}
+
+<!-- tab 1. 转换成 pug -->
+
+将琅環书生的 html 改写成 pug 代码：
 
 ```pug
+if theme.denglong.enable
+  .denglong
+    .deng-box1
+      .deng
+        .xian
+        .deng-a
+          .deng-b
+            .deng-t 新
+        .shui.shui-a
+          .shui-c
+          .shui-b
+    .deng-box2
+      .deng
+        .xian
+        .deng-a
+          .deng-b
+            .deng-t 年
+        .shui.shui-a
+          .shui-c
+          .shui-b
+    .deng-box3
+      .deng
+        .xian
+        .deng-a
+          .deng-b
+            .deng-t 快
+        .shui.shui-a
+          .shui-c
+          .shui-b
+    .deng-box4
+      .deng
+        .xian
+        .deng-a
+          .deng-b
+            .deng-t 乐
+        .shui.shui-a
+          .shui-c
+          .shui-b
+```
+<!-- endtab -->
+<!-- tab 2. 梦爱吃鱼的 CSS -->
 
+将梦爱吃鱼的 CSS 代码适配上面的 pug 代码：
+
+```css
+.denglong {
+  pointer-events: none;
+}
+
+.deng-box1 {
+  position: fixed;
+  z-index: 9999;
+  top: -30px;
+  left: -1px;
+}
+
+.deng-box2 {
+  position: fixed;
+  z-index: 9999;
+  top: -25px;
+  left: 184px;
+}
+
+.deng-box3 {
+  position: fixed;
+  z-index: 9999;
+  top: -28px;
+  right: 11px;
+}
+
+.deng-box4 {
+  position: fixed;
+  z-index: 9999;
+  top: -26px;
+  right: 183px;
+}
+
+.deng {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  margin: 50px;
+  background: rgba(216, 0, 15, 0.8);
+  border-radius: 50%;
+  transform-origin: 50% -100px;
+  animation: swing 3s infinite ease-in-out;
+  box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1);
+}
+
+.deng:before {
+  position: absolute;
+  top: -7px;
+  left: 29px;
+  height: 12px;
+  width: 60px;
+  content: " ";
+  display: block;
+  z-index: 999;
+  border-radius: 5px 5px 0 0;
+  border: solid 1px #dc8f03;
+  background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+
+.deng:after {
+  position: absolute;
+  bottom: -7px;
+  left: 10px;
+  height: 12px;
+  width: 60px;
+  content: " ";
+  display: block;
+  margin-left: 20px;
+  border-radius: 0 0 5px 5px;
+  border: solid 1px #dc8f03;
+  background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+
+.deng-a {
+  width: 100px;
+  height: 90px;
+  background: rgba(216, 0, 15, 0.1);
+  margin: 12px 8px 8px 10px;
+  border-radius: 50%;
+  border: 2px solid #dc8f03;
+}
+
+.deng-b {
+  width: 45px;
+  height: 90px;
+  background: rgba(216, 0, 15, 0.1);
+  margin: -2px 8px 8px 26px;
+  border-radius: 50%;
+  border: 2px solid #dc8f03;
+}
+
+.xian {
+  position: absolute;
+  top: -50px;
+  left: 60px;
+  width: 2px;
+  height: 50px;
+  background: #dc8f03;
+}
+
+.shui-a {
+  position: relative;
+  width: 5px;
+  height: 20px;
+  margin: -5px 0 0 59px;
+  animation: swing 4s infinite ease-in-out;
+  transform-origin: 50% -45px;
+  background: #ffa500;
+  border-radius: 0 0 5px 5px;
+}
+
+.shui-b {
+  position: absolute;
+  top: 14px;
+  left: -2px;
+  width: 10px;
+  height: 10px;
+  background: #dc8f03;
+  border-radius: 50%;
+}
+
+.shui-c {
+  position: absolute;
+  top: 18px;
+  left: -2px;
+  width: 10px;
+  height: 35px;
+  background: #ffa500;
+  border-radius: 0 0 0 5px;
+}
+
+.deng-t {
+  font-family: "华文行楷", Arial, Lucida Grande, Tahoma, sans-serif;
+  font-size: 3.2rem;
+  color: #dc8f03;
+  font-weight: bold;
+  line-height: 85px;
+  text-align: center;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+/* 适配暗色模式 */
+[data-theme="dark"] .deng {
+  background: rgba(216, 0, 15, 0.8);
+}
+
+[data-theme="dark"] .deng-a,
+[data-theme="dark"] .deng-b {
+  background: rgba(216, 0, 15, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .deng-box1,
+  .deng-box2,
+  .deng-box3,
+  .deng-box4 {
+    display: none !important;
+  }
+}
 ```
 
+<!-- endtab -->
+{% endtabs %}
+
+## 1.2. 改进
+
+为了让主题支持通过配置指定四个字，可以改写 Pug 模板以动态生成文字内容，同时在 `theme.denglong` 配置中增加 `text` 参数，用于定义要显示的四个字。以下是具体实现步骤和代码：
+
+- 修改后的主题配置
+
+```yml
+denglong:
+  enable: true  # true 开启 false 关闭
+  text: "新年快乐"  # 配置灯笼的四个字
+```
+
+- 修改后的 Pug 模板
+
+> 通过循环读取配置中的 text，动态生成灯笼内容。
+
+```pug
+if theme.denglong.enable
+  - const denglongText = theme.denglong.text || "新年快乐"; // 如果未配置，默认显示“新年快乐”
+  .denglong
+    each char, index in denglongText
+      div(class=`deng-box${index + 1}`)
+        .deng
+          .xian
+          .deng-a
+            .deng-b
+              .deng-t= char
+          .shui.shui-a
+            .shui-c
+            .shui-b
+```

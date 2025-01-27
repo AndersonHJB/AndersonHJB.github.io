@@ -1377,16 +1377,16 @@ inject:
     - <link rel="stylesheet" href="/static/css/saysay.css"> # 悦说
     - <link rel="stylesheet" href="/static/css/chinese-new-year.css">
     # - <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css" media="all" onload="this.media="all"">
-    - <link rel="stylesheet" href="/static/css/font-awesome-all.min.css" media="all" onload="this.media="all"">
+    - <link rel="stylesheet" href="https://blog.bornforthis.cn/static/css/font-awesome/all.min.css" media="all" onload="this.media="all"">
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
-    - <link rel="apple-touch-icon" href="/img/Apple/apple-touch-icon.png">
+    - <link rel="apple-touch-icon" href="https://blog.bornforthis.cn/img/Apple/apple-touch-icon.png">
     - <meta name="apple-mobile-web-app-title" content="别碰我的镜头盖">
-    - <link rel="bookmark" href="/img/Apple/apple-touch-icon.png">
-    - <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/Apple/apple-touch-icon.png" >
+    - <link rel="bookmark" href="https://blog.bornforthis.cn/img/Apple/apple-touch-icon.png">
+    - <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://blog.bornforthis.cn/img/Apple/apple-touch-icon.png" >
 
   bottom:
     # 自定义js

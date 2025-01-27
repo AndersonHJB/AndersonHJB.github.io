@@ -1164,8 +1164,8 @@ friends_vue:
 # Lite朋友圈配置
 friends_lite:
   enable: true
-  fclite_css_url: /static/css/fclite.css # https://fc.ruom.top/main/fclite.css  # 轻量朋友圈的CSS
-  fclite_js_url: /static/css/fclite.js # https://fc.ruom.top/main/fclite.js    # 轻量朋友圈的js
+  fclite_css_url: https://blog.bornforthis.cn/static/css/fclite.css # https://fc.ruom.top/main/fclite.css  # 轻量朋友圈的CSS
+  fclite_js_url: https://blog.bornforthis.cn/static/js/fclite.js # https://fc.ruom.top/main/fclite.js    # 轻量朋友圈的js
   private_api_url: https://friends.bornforthis.cn/ # 获取json的API URL
   page_turning_number: 20 # 每页显示的文章数量
   error_img: /img/fcircle/fcircle.webp # 404图片 URL
@@ -1366,6 +1366,8 @@ inject:
     - <link rel="stylesheet" href="/static/css/classrecord.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/saysay.css"> # 悦说
+    # - <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css">
+    - <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css" media="all" onload="this.media="all"">
     # - <script src="/static/js/welcome.js"></script>
     # - <script data-pjax src="/static/js/welcome.js"></script>
     # 自定义css

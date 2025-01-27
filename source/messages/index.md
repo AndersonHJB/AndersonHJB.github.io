@@ -21,7 +21,7 @@ comments: false
 </div>
 
 <div id="comments-page">
-    <img src="https://lib.bsgun.cn/Hexo-static/img/loading.gif">
+    <img src="/img/circle-loading-GIF.gif">
 </div>
 
 <style>

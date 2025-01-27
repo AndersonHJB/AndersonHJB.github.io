@@ -1,5 +1,5 @@
 ---
-title: 给你的 Hexo 博客添加灯笼和春联「转载」
+title: 给你的 Hexo 博客添加灯笼和春联「改进」
 tags:
   - 春节
 categories:

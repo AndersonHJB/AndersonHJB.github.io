@@ -86,7 +86,7 @@
     const LatestComments = {
       API_URL: 'https://comment.class1v1.com/',
       ADMIN_EMAIL_MD5: 'd2262986371318821a2cfe4dc37a18bd62af3e7e5d531301c87f6066a483faa0',
-      PAGE_SIZE: 6,
+      PAGE_SIZE: 5,
       LOADING_GIF: '/img/Hexo_Status/num25.gif',
     
       async fetchComments() {

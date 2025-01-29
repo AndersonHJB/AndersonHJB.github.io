@@ -1,16 +1,13 @@
 #sitestatus-box
     - let sitestatus_background = page.top_background
-    // 英文花体或文艺风叠层
-    .author-content.author-content-item.sitestatus.single(style=sitestatus_background ? `background: url(${sitestatus_background}) center / cover no-repeat` : "")
-        // 新增的半透明叠层
-        .sitestatus-hero-overlay
+    .author-content.author-content-item.sitestatus.single(style=sitestatus_background ? `background: url(${sitestatus_background}) top / cover no-repeat` : "")
         .card-content
-            .author-content-item-tips 检查你的网站是否正常运行
+            .author-content-item-tips SiteStatus
             span.author-content-item-title 网站状态
             .content-bottom
-                .tips 活着就是值得，不是吗？
-                .banner-button-group
-                    a.banner-button(onclick='pjax.loadUrl("/link/")')
-                        i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
-                        span.banner-button-text 友情链接
+            .tips 活着就是值得，不是吗？
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/link/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 友情链接
     #sitestatus-main

@@ -1,0 +1,15 @@
+body[data-type="sitestatus"] #web_bg {
+    background: var(--anzhiyu-background);
+}
+
+body[data-type="sitestatus"] #page {
+    border: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    background: 0 0 !important;
+}
+
+body[data-type="sitestatus"] #page .page-title {
+    display: none;
+}

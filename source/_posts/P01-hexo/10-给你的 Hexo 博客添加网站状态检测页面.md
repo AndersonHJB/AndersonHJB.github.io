@@ -6,7 +6,7 @@ tags:
   - SiteStatus
 categories:
   - hexo
-  - 安知鱼主题
+  - Hexo Bornforthis Theme
   - SiteStatus
 description: "一个基于 sh 的在线状态面板|站点监测|状态检测 | \U0001F4FA An online status panel based on sh|site monitoring|status detection."
 top_img: /img/posts/P01-hexo/10-给你的 Hexo 博客添加网站状态检测页面/10-给你的 Hexo 博客添加网站状态检测页面.png

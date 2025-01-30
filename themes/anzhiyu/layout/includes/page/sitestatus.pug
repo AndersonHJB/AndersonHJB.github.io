@@ -10,4 +10,26 @@
               a.banner-button(onclick='pjax.loadUrl("/link/")')
                 i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
                 span.banner-button-text 友情链接
-    #sitestatus-main
+    .pageContainer
+        #reports.reportContainer
+        #tooltip.tooltip(style="opacity: 0")
+            #tooltipArrow.tooltipArrow
+            #tooltipDateTime.tooltipDateTime
+            #tooltipStatus.tooltipStatus
+            hr
+            #tooltipDescription.tooltipDescription
+        #templates(style="display: none")
+            #statusSquareTemplate.statusSquare(class="$color" data-status="$color")
+            #statusLineTemplate.statusLine
+            #statusStreamContainerTemplate.statusStreamContainer
+            #statusContainerTemplate.statusContainer
+                .statusHeader
+                    h6.statusTitle $title&nbsp;
+                    .statusHeadline(class="$color") $status
+                .statusSubtitle
+                    .sectionUrl
+                        a(href="$url") $url
+                    .statusUptime $upTime in the last 30 days
+    footer
+        | Forked from 
+        a(href="https://github.com/AndersonHJB/SiteStatus") Statsig's Open-Source Status Page.

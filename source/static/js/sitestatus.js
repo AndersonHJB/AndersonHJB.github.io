@@ -1,6 +1,10 @@
 const maxDays = 30;
 
-async function genReportLog(container, key, url, records) { // 修改参数为直接接收records
+async function genReportLog(container, key, siteData) {
+  // Extract URL and records from the site data
+  const { url, records } = siteData;
+  
+  // Convert records to status lines format
   let statusLines = records
     .map((entry) => `${entry.dateTime}, ${entry.result}`)
     .join("\n");
@@ -12,7 +16,7 @@ async function genReportLog(container, key, url, records) { // 修改参数为�
 
 function constructStatusStream(key, url, uptimeData) {
   let streamContainer = templatize("statusStreamContainerTemplate");
-  for (let ii = maxDays - 1; ii >= 0; ii--) {
+  for (var ii = maxDays - 1; ii >= 0; ii--) {
     let line = constructStatusLine(key, ii, uptimeData[ii]);
     streamContainer.appendChild(line);
   }
@@ -228,27 +232,16 @@ function hideTooltip() {
 
 async function initSiteStatus() {
   try {
-    // 直接从指定URL获取数据
-    const responseLog = await fetch("https://blog.class1v1.com/SiteStatus/logs/report.json");
+    const responseLog = await fetch("https://status.bornforthis.cn/logs/report.json");
     let allData = {};
     if (responseLog.ok) {
       allData = await responseLog.json();
     }
 
     const reportsDiv = document.getElementById("reports");
-      // 清空现有内容
-      reportsDiv.innerHTML = '';
-      
     // 遍历JSON中的所有站点
-    for (const [siteName, siteInfo] of Object.entries(allData)) {
-      if (siteInfo && siteInfo.records && siteInfo.records.length > 0) {
-          await genReportLog(
-            reportsDiv,
-            siteName,
-            siteInfo.url, // 使用站点信息中的URL
-            siteInfo.records // 直接传递records数组
-);
-      }
+    for (const [siteName, siteData] of Object.entries(allData)) {
+      await genReportLog(reportsDiv, siteName, siteData);
     }
   } catch (error) {
     console.error("Failed to initialize site status:", error);

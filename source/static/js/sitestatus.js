@@ -1,8 +1,7 @@
 const maxDays = 30;
 
-async function genReportLog(container, key, url, allData) {
-  let siteData = allData[key] || [];
-  let statusLines = siteData
+async function genReportLog(container, key, url, records) { // 修改参数为直接接收records
+  let statusLines = records
     .map((entry) => `${entry.dateTime}, ${entry.result}`)
     .join("\n");
 
@@ -13,7 +12,7 @@ async function genReportLog(container, key, url, allData) {
 
 function constructStatusStream(key, url, uptimeData) {
   let streamContainer = templatize("statusStreamContainerTemplate");
-  for (var ii = maxDays - 1; ii >= 0; ii--) {
+  for (let ii = maxDays - 1; ii >= 0; ii--) {
     let line = constructStatusLine(key, ii, uptimeData[ii]);
     streamContainer.appendChild(line);
   }
@@ -230,19 +229,25 @@ function hideTooltip() {
 async function initSiteStatus() {
   try {
     // 直接从指定URL获取数据
-    const responseLog = await fetch("https://status.bornforthis.cn/logs/report.json");
+    const responseLog = await fetch("https://blog.class1v1.com/SiteStatus/logs/report.json");
     let allData = {};
     if (responseLog.ok) {
       allData = await responseLog.json();
     }
 
     const reportsDiv = document.getElementById("reports");
+      // 清空现有内容
+      reportsDiv.innerHTML = '';
+      
     // 遍历JSON中的所有站点
-    for (const [key, data] of Object.entries(allData)) {
-      if (data && data.length > 0) {
-        // 使用第一条记录中的URL作为站点URL
-        const url = key; // 或者你可以有其他方式来获取URL
-        await genReportLog(reportsDiv, key, url, allData);
+    for (const [siteName, siteInfo] of Object.entries(allData)) {
+      if (siteInfo && siteInfo.records && siteInfo.records.length > 0) {
+          await genReportLog(
+            reportsDiv,
+            siteName,
+            siteInfo.url, // 使用站点信息中的URL
+            siteInfo.records // 直接传递records数组
+);
       }
     }
   } catch (error) {

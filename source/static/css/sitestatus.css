@@ -117,6 +117,14 @@ body[data-type="sitestatus"] #page .page-title {
     margin-top: 8px;
 }
 
+/* 新增统计数字样式 */
+.statusCounts {
+    text-align: right;
+    color: #7c7c7c;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
 .statusUptime {
     text-align: right;
     color: #7c7c7c;

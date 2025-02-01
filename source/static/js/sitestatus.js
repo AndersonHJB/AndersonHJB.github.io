@@ -21,6 +21,7 @@ function constructStatusStream(key, url, uptimeData) {
     streamContainer.appendChild(line);
   }
 
+  const todayData = uptimeData[0] || { success: 0, failure: 0 };
   const lastSet = uptimeData[0];
   const color = getColor(lastSet);
 
@@ -30,6 +31,8 @@ function constructStatusStream(key, url, uptimeData) {
     color: color,
     status: getStatusText(color),
     upTime: uptimeData.upTime,
+    success: todayData.success,
+    failure: todayData.failure
   });
 
   // 将状态流容器插入模板中的占位元素内
@@ -38,18 +41,19 @@ function constructStatusStream(key, url, uptimeData) {
   return container;
 }
 
-function constructStatusLine(key, relDay, upTimeArray) {
+function constructStatusLine(key, relDay, upTimeData) {
   let date = new Date();
   date.setDate(date.getDate() - relDay);
-  return constructStatusSquare(key, date, upTimeArray);
+  return constructStatusSquare(key, date, upTimeData);
 }
 
 function getColor(uptimeVal) {
-  return uptimeVal == null
+  let avg = uptimeVal == null ? null : (typeof uptimeVal === 'object' ? uptimeVal.avg : uptimeVal);
+  return avg == null
     ? "nodata"
-    : uptimeVal == 1
+    : avg == 1
     ? "success"
-    : uptimeVal < 0.3
+    : avg < 0.3
     ? "failure"
     : "partial";
 }
@@ -58,11 +62,11 @@ function constructStatusSquare(key, date, uptimeVal) {
   const color = getColor(uptimeVal);
   let square = templatize("statusSquareTemplate", {
     color: color,
-    tooltip: getTooltip(key, date, color),
+    tooltip: getTooltip(key, date, color, uptimeVal)
   });
 
   const show = () => {
-    showTooltip(square, key, date, color);
+    showTooltip(square, key, date, color, uptimeVal);
   };
   square.addEventListener("mouseover", show);
   square.addEventListener("mousedown", show);
@@ -133,87 +137,25 @@ function getStatusDescriptiveText(color) {
     : "未知状态";
 }
 
-function getTooltip(key, date, color) {
+function getTooltip(key, date, color, uptimeVal) {
   let statusText = getStatusText(color);
-  return `${key} | ${date.toDateString()} : ${statusText}`;
-}
-
-function create(tag, className) {
-  let element = document.createElement(tag);
-  element.className = className;
-  return element;
-}
-
-function normalizeData(statusLines) {
-  const rows = statusLines.split("\n");
-  const dateNormalized = splitRowsByDate(rows);
-
-  let relativeDateMap = {};
-  const now = Date.now();
-  for (const [key, val] of Object.entries(dateNormalized)) {
-    if (key == "upTime") {
-      continue;
-    }
-    const relDays = getRelativeDays(now, new Date(key).getTime());
-    relativeDateMap[relDays] = getDayAverage(val);
+  let countsText = "";
+  if (uptimeVal && typeof uptimeVal === "object") {
+      countsText = ` 成功: ${uptimeVal.success}, 失败: ${uptimeVal.failure}`;
   }
-  relativeDateMap.upTime = dateNormalized.upTime;
-  return relativeDateMap;
+  return `${key} | ${date.toDateString()} : ${statusText}${countsText}`;
 }
 
-function getDayAverage(val) {
-  if (!val || val.length === 0) {
-    return null;
-  } else {
-    return val.reduce((a, v) => a + v) / val.length;
-  }
-}
-
-function getRelativeDays(date1, date2) {
-  return Math.floor(Math.abs((date1 - date2) / (24 * 3600 * 1000)));
-}
-
-function splitRowsByDate(rows) {
-  let dateValues = {};
-  let sum = 0, count = 0;
-  for (var ii = 0; ii < rows.length; ii++) {
-    const row = rows[ii];
-    if (!row) {
-      continue;
-    }
-    const [dateTimeStr, resultStr] = row.split(",", 2);
-    const dateTime = new Date(Date.parse(dateTimeStr.replace(/-/g, "/") + " GMT"));
-    const dateStr = dateTime.toDateString();
-
-    let resultArray = dateValues[dateStr];
-    if (!resultArray) {
-      resultArray = [];
-      dateValues[dateStr] = resultArray;
-    }
-
-    let result = 0;
-    if (resultStr.trim() === "success") {
-      result = 1;
-    }
-    sum += result;
-    count++;
-
-    resultArray.push(result);
-  }
-
-  const upTime = count ? ((sum / count) * 100).toFixed(2) + "%" : "--%";
-  dateValues.upTime = upTime;
-  return dateValues;
-}
-
-let tooltipTimeout = null;
-function showTooltip(element, key, date, color) {
+function showTooltip(element, key, date, color, uptimeVal) {
   clearTimeout(tooltipTimeout);
   const toolTipDiv = document.getElementById("tooltip");
 
   document.getElementById("tooltipDateTime").innerText = date.toDateString();
-  document.getElementById("tooltipDescription").innerText =
-    getStatusDescriptiveText(color);
+  let description = getStatusDescriptiveText(color);
+  if (uptimeVal && typeof uptimeVal === "object") {
+      description += ` 成功: ${uptimeVal.success}, 失败: ${uptimeVal.failure}`;
+  }
+  document.getElementById("tooltipDescription").innerText = description;
 
   const statusDiv = document.getElementById("tooltipStatus");
   statusDiv.innerText = getStatusText(color);
@@ -232,6 +174,55 @@ function hideTooltip() {
   }, 1000);
 }
 
+function normalizeData(statusLines) {
+  const rows = statusLines.split("\n");
+  const dateNormalized = splitRowsByDate(rows);
+  let relativeDateMap = {};
+  const now = Date.now();
+  for (const [key, val] of Object.entries(dateNormalized)) {
+    if (key === "upTime") continue;
+    const relDays = getRelativeDays(now, new Date(key).getTime());
+    relativeDateMap[relDays] = {
+         avg: val.total ? (val.success / val.total) : null,
+         success: val.success,
+         failure: val.total - val.success
+    };
+  }
+  relativeDateMap.upTime = dateNormalized.upTime;
+  return relativeDateMap;
+}
+
+function splitRowsByDate(rows) {
+  let dateValues = {};
+  let totalSuccess = 0, totalCount = 0;
+  for (var ii = 0; ii < rows.length; ii++) {
+    const row = rows[ii];
+    if (!row) continue;
+    const [dateTimeStr, resultStr] = row.split(",", 2);
+    const dateTime = new Date(Date.parse(dateTimeStr.replace(/-/g, "/") + " GMT"));
+    const dateStr = dateTime.toDateString();
+
+    if (!dateValues[dateStr]) {
+      dateValues[dateStr] = { total: 0, success: 0 };
+    }
+
+    let isSuccess = resultStr.trim() === "success" ? 1 : 0;
+    dateValues[dateStr].total++;
+    dateValues[dateStr].success += isSuccess;
+    totalCount++;
+    totalSuccess += isSuccess;
+  }
+
+  const upTime = totalCount ? ((totalSuccess / totalCount) * 100).toFixed(2) + "%" : "--%";
+  dateValues.upTime = upTime;
+  return dateValues;
+}
+
+function getRelativeDays(date1, date2) {
+  return Math.floor(Math.abs((date1 - date2) / (24 * 3600 * 1000)));
+}
+
+let tooltipTimeout = null;
 async function initSiteStatus() {
   try {
     const responseLog = await fetch("https://status.bornforthis.cn/logs/report.json");

@@ -21,11 +21,11 @@ body[data-type="sitestatus"] #page .page-title {
 /* 取消最大宽度限制，让整体宽度与顶部块保持一致，同时设置适当的顶部间距 */
 .pageContainer {
     padding: 30px 50px;
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     width: 100%;
-    margin: 40px auto;  /* 顶部间距设置为 40px */
+    margin: 0px auto;  /* 顶部间距设置为 40px */
 }
 
 .headline {
@@ -63,7 +63,7 @@ body[data-type="sitestatus"] #page .page-title {
     flex-direction: column;
     justify-content: space-between;
     min-height: 200px;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
 }
 
 /* 30天记录采用 grid 布局，每个格子间隙较小 */

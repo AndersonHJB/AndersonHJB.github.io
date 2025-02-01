@@ -1,10 +1,10 @@
 const maxDays = 30;
 
 async function genReportLog(container, key, siteData) {
-  // Extract URL and records from the site data
+  // 从站点数据中提取 URL 和记录
   const { url, records } = siteData;
   
-  // Convert records to status lines format
+  // 将记录转换为状态行格式
   let statusLines = records
     .map((entry) => `${entry.dateTime}, ${entry.result}`)
     .join("\n");
@@ -32,7 +32,9 @@ function constructStatusStream(key, url, uptimeData) {
     upTime: uptimeData.upTime,
   });
 
-  container.appendChild(streamContainer);
+  // 将状态流容器插入模板中的占位元素内
+  const placeholder = container.querySelector("#statusStreamPlaceholder");
+  placeholder.appendChild(streamContainer);
   return container;
 }
 
@@ -239,7 +241,7 @@ async function initSiteStatus() {
     }
 
     const reportsDiv = document.getElementById("reports");
-    // 遍历JSON中的所有站点
+    // 遍历 JSON 中所有站点
     for (const [siteName, siteData] of Object.entries(allData)) {
       await genReportLog(reportsDiv, siteName, siteData);
     }
@@ -248,7 +250,7 @@ async function initSiteStatus() {
   }
 }
 
-// 在页面加载完成后初始化
+// 页面加载完成后初始化
 if (typeof window !== "undefined") {
   window.addEventListener("load", initSiteStatus);
 }

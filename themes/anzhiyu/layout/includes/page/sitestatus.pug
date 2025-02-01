@@ -25,11 +25,12 @@
                 #statusStreamContainerTemplate.statusStreamContainer
                 #statusContainerTemplate.statusContainer
                     .statusHeader
-                        h6.statusTitle $title&nbsp;
+                        h6.statusTitle $title
+                        a.statusLink(href="$url") 🔗
                         .statusHeadline(class="$color") $status
-                    .statusSubtitle
-                        .sectionUrl
-                            a(href="$url") $url
+                    // 占位用于插入 30 天记录
+                    #statusStreamPlaceholder
+                    .statusFooter
                         .statusUptime $upTime in the last 30 days
         footer
             | Forked from 

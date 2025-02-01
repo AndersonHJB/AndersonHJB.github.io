@@ -18,12 +18,12 @@ body[data-type="sitestatus"] #page .page-title {
     box-sizing: border-box;
 }
 
+/* 取消最大宽度限制，让整体宽度与顶部块保持一致 */
 .pageContainer {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    max-width: 900px;
     width: 100%;
     margin: 96px auto;
 }
@@ -44,42 +44,37 @@ body[data-type="sitestatus"] #page .page-title {
     text-transform: uppercase;
 }
 
+/* 使用自动适应的 grid 布局，间距减小 */
 .reportContainer {
     margin: 30px auto;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    align-items: stretch;
 }
 
 .statusContainer {
     border: 1px solid #ededed;
     border-radius: 5px;
-    padding-top: 20px;
-    text-align: left;
     padding: 24px;
-}
-
-.statusContainer+.statusContainer {
-    border-top: 1px solid #eee;
-    margin-top: 30px;
-}
-
-.statusStreamContainer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    min-height: 350px; /* 根据实际情况可调整 */
+}
+
+/* 30天记录采用 grid 布局，每个格子间隙较小 */
+.statusStreamContainer {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    gap: 2px;
+    margin: 10px 0;
 }
 
 .statusSquare {
     border-radius: 3px;
     height: 30px;
-    min-width: 8px;
-    width: 100%;
-}
-
-.statusSquare+.statusSquare {
-    margin-left: 6px;
-}
-
-.sectionUrl {
-    font-size: 14px;
 }
 
 .statusTitle {
@@ -93,11 +88,11 @@ body[data-type="sitestatus"] #page .page-title {
     margin-bottom: 2px;
 }
 
-.statusSubtitle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 12px;
+/* 链接符号样式 */
+.statusLink {
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .statusHeadline {
@@ -215,13 +210,15 @@ body[data-type="sitestatus"] #page .page-title {
         margin: 0 auto 40px auto;
     }
 
-    .statusHeader,
-    .statusSubtitle {
+    .reportContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .statusHeader {
         display: block;
     }
 
     .statusHeadline,
-    .sectionUrl,
     .statusUptime {
         margin-left: 0;
         margin-top: 8px;
@@ -231,14 +228,5 @@ body[data-type="sitestatus"] #page .page-title {
     .statusTitle,
     .statusHeadline {
         display: inline-block;
-    }
-
-    .statusSquare+.statusSquare {
-        margin-left: 1px;
-    }
-
-    .statusSquare {
-        min-width: 4px;
-        width: 100%;
     }
 }

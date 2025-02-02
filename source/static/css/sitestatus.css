@@ -25,7 +25,7 @@ body[data-type="sitestatus"] #page .page-title {
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     width: 100%;
-    margin: 0px auto;  /* 顶部间距设置为 40px */
+    margin: 0px auto;
 }
 
 .headline {
@@ -63,7 +63,6 @@ body[data-type="sitestatus"] #page .page-title {
     flex-direction: column;
     justify-content: space-between;
     min-height: 200px;
-    /* background-color: #fafafa; */
 }
 
 /* 30天记录采用 grid 布局，每个格子间隙较小 */
@@ -222,6 +221,14 @@ body[data-type="sitestatus"] #page .page-title {
     border: none;
     border-top: 1px solid #ededed;
     margin-top: 16px;
+}
+
+/* 页脚样式调整，使文字靠右显示 */
+footer.footer-right {
+    text-align: right;
+    padding: 10px 50px 10px 10px;
+    font-size: 12px;
+    color: #7c7c7c;
 }
 
 @media screen and (max-width: 800px) {

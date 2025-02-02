@@ -26,7 +26,8 @@
                 #statusContainerTemplate.statusContainer
                     .statusHeader
                         h6.statusTitle $title
-                        a.statusLink(href="$url") 🔗
+                        // 修改此处，在新窗口打开链接
+                        a.statusLink(href="$url", target="_blank") 🔗
                         .statusHeadline(class="$color") $status
                     // 占位用于插入 30 天记录
                     #statusStreamPlaceholder

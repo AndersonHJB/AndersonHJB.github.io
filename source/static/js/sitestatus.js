@@ -16,7 +16,7 @@ async function genReportLog(container, key, siteData) {
 
 function constructStatusStream(key, url, uptimeData) {
   let streamContainer = templatize("statusStreamContainerTemplate");
-  for (var ii = maxDays - 1; ii >= 0; ii--) {
+  for (let ii = maxDays - 1; ii >= 0; ii--) {
     let line = constructStatusLine(key, ii, uptimeData[ii]);
     streamContainer.appendChild(line);
   }
@@ -87,20 +87,19 @@ function templatize(templateId, parameters) {
   if (!parameters) {
     return clone;
   }
-
   applyTemplateSubstitutions(clone, parameters);
   return clone;
 }
 
 function applyTemplateSubstitutions(node, parameters) {
   const attributes = node.getAttributeNames();
-  for (var ii = 0; ii < attributes.length; ii++) {
+  for (let ii = 0; ii < attributes.length; ii++) {
     const attr = attributes[ii];
     const attrVal = node.getAttribute(attr);
     node.setAttribute(attr, templatizeString(attrVal, parameters));
   }
 
-  if (node.childElementCount == 0) {
+  if (node.childElementCount === 0) {
     node.innerText = templatizeString(node.innerText, parameters);
   } else {
     const children = Array.from(node.children);
@@ -120,25 +119,25 @@ function templatizeString(text, parameters) {
 }
 
 function getStatusText(color) {
-  return color == "nodata"
+  return color === "nodata"
     ? "暂无数据"
-    : color == "success"
+    : color === "success"
     ? "运行正常"
-    : color == "failure"
+    : color === "failure"
     ? "完全中断"
-    : color == "partial"
+    : color === "partial"
     ? "部分中断"
     : "未知状态";
 }
 
 function getStatusDescriptiveText(color) {
-  return color == "nodata"
+  return color === "nodata"
     ? "暂无数据：未执行健康检查。"
-    : color == "success"
+    : color === "success"
     ? "当天未记录到任何停机。"
-    : color == "failure"
+    : color === "failure"
     ? "当天记录到严重故障。"
-    : color == "partial"
+    : color === "partial"
     ? "当天记录到部分服务中断。"
     : "未知状态";
 }
@@ -201,7 +200,7 @@ function normalizeData(statusLines) {
 function splitRowsByDate(rows) {
   let dateValues = {};
   let totalSuccess = 0, totalCount = 0;
-  for (var ii = 0; ii < rows.length; ii++) {
+  for (let ii = 0; ii < rows.length; ii++) {
     const row = rows[ii];
     if (!row) continue;
     const [dateTimeStr, resultStr] = row.split(",", 2);
@@ -229,6 +228,11 @@ function getRelativeDays(date1, date2) {
 }
 
 let tooltipTimeout = null;
+
+// 初始页面加载和 PJAX 加载完成时均初始化
+document.addEventListener("DOMContentLoaded", initSiteStatus);
+document.addEventListener("pjax:complete", initSiteStatus);
+
 async function initSiteStatus() {
   try {
     const responseLog = await fetch("https://status.bornforthis.cn/logs/report.json");
@@ -238,6 +242,8 @@ async function initSiteStatus() {
     }
 
     const reportsDiv = document.getElementById("reports");
+    // 清空旧内容，避免 PJAX 多次加载时重复添加
+    reportsDiv.innerHTML = "";
     // 遍历 JSON 中所有站点
     for (const [siteName, siteData] of Object.entries(allData)) {
       await genReportLog(reportsDiv, siteName, siteData);
@@ -245,9 +251,4 @@ async function initSiteStatus() {
   } catch (error) {
     console.error("Failed to initialize site status:", error);
   }
-}
-
-// 页面加载完成后初始化
-if (typeof window !== "undefined") {
-  window.addEventListener("load", initSiteStatus);
 }

@@ -45,13 +45,13 @@ aplayer:
 
 > 2025-02-02 12:58:18 上线
 
-# 部署 SiteStatus
+# 1. 部署 SiteStatus
 
 项目链接：[https://github.com/AndersonHJB/SiteStatus](https://github.com/AndersonHJB/SiteStatus)
 
 部署有两种方法：一种 GitHub、另一种服务器。
 
-## GitHub 部署
+## 1.1 GitHub 部署
 
 - Step 1: GitHub 的直接 fork 项目即可；
 - Step 2: 修改 urls.cfg；
@@ -61,7 +61,7 @@ aplayer:
 - Step 3: 打开 GitHub Pages 的部署；
 - Step 4: 部署成功之后你会得到 logs/report.json，用链接获取。「例如：https://status.bornforthis.cn/logs/report.json」，后面会在 config.yml 配置用到。
 
-## 服务器部署
+## 1.2 服务器部署
 
 流程和 GitHub 部署大体上是一致的：
 
@@ -70,7 +70,7 @@ aplayer:
 - Step 3：设置定时运行 `/SiteStatus/RunScript/server.sh`；
 
 
-# 开始魔改
+# 2. 开始魔改
 
 {% tabs sitestatus %}
 <!-- tab 1. page -->

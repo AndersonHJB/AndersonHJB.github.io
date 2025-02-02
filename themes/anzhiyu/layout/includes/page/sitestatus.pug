@@ -25,7 +25,7 @@
                 #statusStreamContainerTemplate.statusStreamContainer
                 #statusContainerTemplate.statusContainer
                     .statusHeader
-                        h6.statusTitle $title
+                        h6.statusTitle(title="$title") $title
                         // 修改此处，在新窗口打开链接
                         a.statusLink(href="$url", target="_blank") 🔗
                         .statusHeadline(class="$color") $status

@@ -86,6 +86,13 @@ body[data-type="sitestatus"] #page .page-title {
     font-size: 16px;
     font-weight: bold;
     margin: 0;
+
+    /* ----------------- 新增：超长文本截断为省略号 ----------------- */
+    white-space: nowrap;       /* 不换行 */
+    overflow: hidden;          /* 超出隐藏 */
+    text-overflow: ellipsis;   /* 超出显示省略号 */
+    display: inline-block;     /* 对 text-overflow 生效需搭配 inline-block 或 block */
+    max-width: 120px;          /* 设定一个最大宽度，根据需要调整 */
 }
 
 .statusHeader {

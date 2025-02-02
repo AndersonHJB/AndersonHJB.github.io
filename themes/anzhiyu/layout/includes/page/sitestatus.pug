@@ -37,3 +37,9 @@
         footer.footer-right
             | Forked from 
             a(href="https://github.com/AndersonHJB/SiteStatus") AndersonHJB's Open-Source SiteStatus.
+
+// 注意：这里把 Hexo 主题配置的 SiteStatus.json 注入到 JS 变量中
+script.
+  // 如果你在 _config.yml / theme_config.yml 中配置了 `SiteStatus.json`，
+  // 那么这里会将其注入到 siteStatusJson 变量里
+  const siteStatusJson = "#{theme.SiteStatus.json}";

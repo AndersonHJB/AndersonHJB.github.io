@@ -234,8 +234,10 @@ document.addEventListener("DOMContentLoaded", initSiteStatus);
 document.addEventListener("pjax:complete", initSiteStatus);
 
 async function initSiteStatus() {
+  // 这里从 sitestatus.pug 中注入的 siteStatusJson
+  // 如果不想用全局变量，可以自行改为更安全的注入方式
   try {
-    const responseLog = await fetch("https://status.bornforthis.cn/logs/report.json");
+    const responseLog = await fetch(siteStatusJson);
     let allData = {};
     if (responseLog.ok) {
       allData = await responseLog.json();

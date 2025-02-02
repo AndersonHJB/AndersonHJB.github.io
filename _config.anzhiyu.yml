@@ -1179,8 +1179,8 @@ friends_lite:
   top_tips: 随时随地记录生活点滴 # 顶部提示文字
 
 SiteStatus:
-  # json: https://status.bornforthis.cn/logs/report.json
-  json: https://blog.class1v1.com/SiteStatus/logs/report.json
+  json: https://status.bornforthis.cn/logs/report.json
+  # json: https://blog.class1v1.com/SiteStatus/logs/report.json
 
 denglong:
   enable: true  #true 开启 false关闭

@@ -21,18 +21,24 @@ function constructStatusStream(key, url, uptimeData) {
     streamContainer.appendChild(line);
   }
 
-  const todayData = uptimeData[0] || { success: 0, failure: 0 };
+  // 计算最近 30 天内总的成功和失败次数
+  let totalSuccess = 0, totalFailure = 0;
+  for (let i = 0; i < maxDays; i++) {
+    if (uptimeData[i]) {
+      totalSuccess += uptimeData[i].success;
+      totalFailure += uptimeData[i].failure;
+    }
+  }
   const lastSet = uptimeData[0];
   const color = getColor(lastSet);
-
   const container = templatize("statusContainerTemplate", {
     title: key,
     url: url,
     color: color,
     status: getStatusText(color),
     upTime: uptimeData.upTime,
-    success: todayData.success,
-    failure: todayData.failure
+    success: totalSuccess,
+    failure: totalFailure
   });
 
   // 将状态流容器插入模板中的占位元素内

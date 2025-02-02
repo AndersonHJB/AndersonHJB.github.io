@@ -44,6 +44,7 @@ aplayer:
 今天，我很开心。在我女儿满月的前一天，把这个页面整体完工和发布了！
 
 > 2025-02-02 12:58:18 上线
+> 效果：[https://blog.bornforthis.cn/sitestatus/](https://blog.bornforthis.cn/sitestatus/)
 
 # 1. 部署 SiteStatus
 

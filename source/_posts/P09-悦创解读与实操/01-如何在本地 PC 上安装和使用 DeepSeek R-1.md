@@ -7,9 +7,9 @@ categories:
 keywords:
   - AI悦创解读与实操,编程一对一辅导,留学生一对一辅导
 description: 这篇文章介绍了如何在本地安装和使用 DeepSeek R-1，一个开源 AI 语言模型。通过使用 Ollama 工具，用户可以下载并在本地运行模型，保护隐私并实现离线使用。文章还强调了本地运行的优势，如数据安全和灵活性。
-top_img: /img/posts/01-如何在本地 PC 上安装和使用 DeepSeek R-1/01-如何在本地 PC 上安装和使用 DeepSeek R-1.png
+top_img: /img/posts/P09-悦创解读与实操/01-如何在本地 PC 上安装和使用 DeepSeek R-1/01-如何在本地 PC 上安装和使用 DeepSeek R-1.png
 comments: true
-cover: /img/posts/01-如何在本地 PC 上安装和使用 DeepSeek R-1/01-如何在本地 PC 上安装和使用 DeepSeek R-1.png
+cover: /img/posts/P09-悦创解读与实操/01-如何在本地 PC 上安装和使用 DeepSeek R-1/01-如何在本地 PC 上安装和使用 DeepSeek R-1.png
 toc: true
 mathjax: false
 katex: false

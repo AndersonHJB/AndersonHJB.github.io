@@ -29,7 +29,7 @@ menu:
   DIY:
     悦说: /saysay/ || anzhiyu-icon-instagram
     Home页: https://home.bornforthis.cn || anzhiyu-icon-fire
-    SiteStatus: /sitestatus/ || anzhiyu-icon-anzhiyu
+    # SiteStatus: /sitestatus/ || anzhiyu-icon-anzhiyu
     喵喵纪念日: /anniversary/ || anzhiyu-icon-dove
     Python 可视化: https://pythontutor.bornforthis.cn/visualize.html#mode=edit || fa-brands fa-python # anzhiyu-icon-linggan
 
@@ -1178,8 +1178,8 @@ friends_lite:
   top_background: /img/fcircle/fcircle.webp # 顶部背景图片 URL
   top_tips: 随时随地记录生活点滴 # 顶部提示文字
 
-SiteStatus:
-  json: https://status.bornforthis.cn/logs/report.json
+# SiteStatus:
+#   json: https://status.bornforthis.cn/logs/report.json
   # json: https://blog.class1v1.com/SiteStatus/logs/report.json
 
 denglong:
@@ -1382,7 +1382,7 @@ inject:
     - <link rel="stylesheet" href="/static/css/anniversary.css"> # 待办清单页
     - <link rel="stylesheet" href="/static/css/saysay.css"> # 悦说
     - <link rel="stylesheet" href="/static/css/chinese-new-year.css">
-    - <link rel="stylesheet" href="/static/css/sitestatus.css">
+    # - <link rel="stylesheet" href="/static/css/sitestatus.css">
     - <link rel="stylesheet" href="https://blog.bornforthis.cn/static/css/font-awesome/all.min.css" media="all" onload="this.media='all'">
     # - <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css" media="all" onload="this.media='all'">
     # - <script src="/static/js/welcome.js"></script>
@@ -1409,7 +1409,7 @@ inject:
     - <script src="/static/js/saysay.js"></script>
     - <script src="/static/js/countdown.js"></script>
     - <script src="/static/js/comments.js"></script>
-    - <script src="/static/js/sitestatus.js"></script>
+    # - <script src="/static/js/sitestatus.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

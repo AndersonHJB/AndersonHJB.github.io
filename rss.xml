@@ -15,8 +15,146 @@
     <atom:link href="https://blog.bornforthis.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>AI悦创 computer science help,编程作业代写, 主要范围cs辅导:r辅导,java辅导,c辅导,python辅导,matlab辅导等编程代码辅导 CS,金融,统计,数学,经济,物理,程式辅导等.主要服務:课程辅导 .核心优势:免费答疑. 地区分北美,加拿大,美国,澳大利亚等</description>
-    <pubDate>Wed, 15 Jan 2025 02:32:22 GMT</pubDate>
+    <pubDate>Sun, 23 Feb 2025 01:19:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>感恩不辞辛劳敬业的你</title>
+      <link>https://blog.bornforthis.cn/posts/c09d3346.html</link>
+      <guid>https://blog.bornforthis.cn/posts/c09d3346.html</guid>
+      <pubDate>Sat, 22 Feb 2025 12:40:44 GMT</pubDate>
+      
+      <description>这是一个记录AI悦创女儿婉棠从出生到18岁之间收到的红包和金银首饰记录</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/">婉棠记</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/">婉棠记</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/c09d3346.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何在本地 PC 上安装和使用 DeepSeek R-1</title>
+      <link>https://blog.bornforthis.cn/posts/81489b64.html</link>
+      <guid>https://blog.bornforthis.cn/posts/81489b64.html</guid>
+      <pubDate>Mon, 10 Feb 2025 03:34:29 GMT</pubDate>
+      
+      <description>这篇文章介绍了如何在本地安装和使用 DeepSeek R-1，一个开源 AI 语言模型。通过使用 Ollama 工具，用户可以下载并在本地运行模型，保护隐私并实现离线使用。文章还强调了本地运行的优势，如数据安全和灵活性。</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/%E6%82%A6%E5%88%9B%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%AE%9E%E6%93%8D/">悦创解读与实操</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/DeepSeek/">DeepSeek</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/81489b64.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>棠棠红包记</title>
+      <link>https://blog.bornforthis.cn/posts/c3c4188c.html</link>
+      <guid>https://blog.bornforthis.cn/posts/c3c4188c.html</guid>
+      <pubDate>Sun, 02 Feb 2025 12:43:10 GMT</pubDate>
+      
+      <description>这是一个记录AI悦创女儿婉棠从出生到18岁之间收到的红包和金银首饰记录</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/">婉棠记</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/">婉棠记</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/c3c4188c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>给你的 Hexo 博客添加网站状态检测页面</title>
+      <link>https://blog.bornforthis.cn/posts/9f0cfbb4.html</link>
+      <guid>https://blog.bornforthis.cn/posts/9f0cfbb4.html</guid>
+      <pubDate>Wed, 29 Jan 2025 14:14:39 GMT</pubDate>
+      
+      <description>一个基于 sh 的在线状态面板|站点监测|状态检测 | 📺 An online status panel based on sh|site monitoring|status detection.</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo/">hexo</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/">Hexo Bornforthis Theme</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/SiteStatus/">SiteStatus</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82%E5%BC%80%E5%8F%91/">春节开发</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E6%B4%BB%E7%9D%80%E5%90%97%EF%BC%9F/">网站活着吗？</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/SiteStatus/">SiteStatus</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/9f0cfbb4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>给你的 Hexo 博客添加灯笼和春联「改进」</title>
+      <link>https://blog.bornforthis.cn/posts/410c2166.html</link>
+      <guid>https://blog.bornforthis.cn/posts/410c2166.html</guid>
+      <pubDate>Mon, 27 Jan 2025 02:41:44 GMT</pubDate>
+      
+      <description>hexo实现春节灯笼🏮。以庆祝春节成为非物质文化遗产的第一个春节，引入了火红灯笼和春联装饰。</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo/">hexo</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/">Hexo Bornforthis Theme</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82/">春节</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/410c2166.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在服务器上添加多个 SSH 公钥以支持多台电脑登录</title>
+      <link>https://blog.bornforthis.cn/posts/518b3eef.html</link>
+      <guid>https://blog.bornforthis.cn/posts/518b3eef.html</guid>
+      <pubDate>Mon, 20 Jan 2025 14:13:27 GMT</pubDate>
+      
+      <description>悦创介绍了如何通过 SSH 实现多台电脑（包括 Windows、MacBook Pro 16、MacBook Pro 13、iMac）与同一台服务器的免密登录和数据同步。本文详细步骤说明了如何将新电脑的 SSH 公钥添加到服务器的 authorized_keys 文件中，支持多台设备无密码访问。还特别提到如何解决 SSH 连接时遇到的主机密钥变化警告，提供了解决方法，包括删除旧的密钥或禁用主机密钥验证。通过这些操作，用户可以轻松配置多台设备之间的 SSH 无密码登录，优化工作效率并保障服务器连接安全。</description>
+      
+      
+      
+      
+      <category domain="https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/">IT小技巧</category>
+      
+      
+      <category domain="https://blog.bornforthis.cn/tags/Github/">Github</category>
+      
+      <category domain="https://blog.bornforthis.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</category>
+      
+      
+      <comments>https://blog.bornforthis.cn/posts/518b3eef.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>待产日记</title>
@@ -76,6 +214,8 @@
       
       
       <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/">Hexo Bornforthis Theme</category>
       
       
       <category domain="https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%B4%E9%A1%B5%E9%9D%A2/">悦说页面</category>
@@ -419,6 +559,8 @@
       
       
       <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">hexo 网站相关</category>
+      
+      <category domain="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/">Hexo Bornforthis Theme</category>
       
       
       <category domain="https://blog.bornforthis.cn/tags/%E5%96%B5%E5%96%B5%E7%BA%AA%E5%BF%B5%E6%97%A5/">喵喵纪念日</category>

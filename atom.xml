@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2025-01-15T02:32:22.079Z</updated>
+  <updated>2025-02-23T01:19:10.506Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -17,11 +17,137 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>感恩不辞辛劳敬业的你</title>
+    <link href="https://blog.bornforthis.cn/posts/c09d3346.html"/>
+    <id>https://blog.bornforthis.cn/posts/c09d3346.html</id>
+    <published>2025-02-22T12:40:44.000Z</published>
+    <updated>2025-02-23T01:19:10.506Z</updated>
+    
+    
+    <summary type="html">这是一个记录AI悦创女儿婉棠从出生到18岁之间收到的红包和金银首饰记录</summary>
+    
+    
+    
+    <category term="婉棠记" scheme="https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/"/>
+    
+    
+    <category term="婉棠记" scheme="https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在本地 PC 上安装和使用 DeepSeek R-1</title>
+    <link href="https://blog.bornforthis.cn/posts/81489b64.html"/>
+    <id>https://blog.bornforthis.cn/posts/81489b64.html</id>
+    <published>2025-02-10T03:34:29.000Z</published>
+    <updated>2025-02-10T10:33:19.752Z</updated>
+    
+    
+    <summary type="html">这篇文章介绍了如何在本地安装和使用 DeepSeek R-1，一个开源 AI 语言模型。通过使用 Ollama 工具，用户可以下载并在本地运行模型，保护隐私并实现离线使用。文章还强调了本地运行的优势，如数据安全和灵活性。</summary>
+    
+    
+    
+    <category term="悦创解读与实操" scheme="https://blog.bornforthis.cn/categories/%E6%82%A6%E5%88%9B%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%AE%9E%E6%93%8D/"/>
+    
+    
+    <category term="DeepSeek" scheme="https://blog.bornforthis.cn/tags/DeepSeek/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>棠棠红包记</title>
+    <link href="https://blog.bornforthis.cn/posts/c3c4188c.html"/>
+    <id>https://blog.bornforthis.cn/posts/c3c4188c.html</id>
+    <published>2025-02-02T12:43:10.000Z</published>
+    <updated>2025-02-06T14:03:24.868Z</updated>
+    
+    
+    <summary type="html">这是一个记录AI悦创女儿婉棠从出生到18岁之间收到的红包和金银首饰记录</summary>
+    
+    
+    
+    <category term="婉棠记" scheme="https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/"/>
+    
+    
+    <category term="婉棠记" scheme="https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给你的 Hexo 博客添加网站状态检测页面</title>
+    <link href="https://blog.bornforthis.cn/posts/9f0cfbb4.html"/>
+    <id>https://blog.bornforthis.cn/posts/9f0cfbb4.html</id>
+    <published>2025-01-29T14:14:39.000Z</published>
+    <updated>2025-02-06T14:03:24.865Z</updated>
+    
+    
+    <summary type="html">一个基于 sh 的在线状态面板|站点监测|状态检测 | 📺 An online status panel based on sh|site monitoring|status detection.</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://blog.bornforthis.cn/categories/hexo/"/>
+    
+    <category term="Hexo Bornforthis Theme" scheme="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/"/>
+    
+    <category term="SiteStatus" scheme="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/SiteStatus/"/>
+    
+    
+    <category term="春节开发" scheme="https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="网站活着吗？" scheme="https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E6%B4%BB%E7%9D%80%E5%90%97%EF%BC%9F/"/>
+    
+    <category term="SiteStatus" scheme="https://blog.bornforthis.cn/tags/SiteStatus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给你的 Hexo 博客添加灯笼和春联「改进」</title>
+    <link href="https://blog.bornforthis.cn/posts/410c2166.html"/>
+    <id>https://blog.bornforthis.cn/posts/410c2166.html</id>
+    <published>2025-01-27T02:41:44.000Z</published>
+    <updated>2025-02-06T14:03:24.857Z</updated>
+    
+    
+    <summary type="html">hexo实现春节灯笼🏮。以庆祝春节成为非物质文化遗产的第一个春节，引入了火红灯笼和春联装饰。</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://blog.bornforthis.cn/categories/hexo/"/>
+    
+    <category term="Hexo Bornforthis Theme" scheme="https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/"/>
+    
+    
+    <category term="春节" scheme="https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在服务器上添加多个 SSH 公钥以支持多台电脑登录</title>
+    <link href="https://blog.bornforthis.cn/posts/518b3eef.html"/>
+    <id>https://blog.bornforthis.cn/posts/518b3eef.html</id>
+    <published>2025-01-20T14:13:27.000Z</published>
+    <updated>2025-02-06T14:03:24.866Z</updated>
+    
+    
+    <summary type="html">悦创介绍了如何通过 SSH 实现多台电脑（包括 Windows、MacBook Pro 16、MacBook Pro 13、iMac）与同一台服务器的免密登录和数据同步。本文详细步骤说明了如何将新电脑的 SSH 公钥添加到服务器的 authorized_keys 文件中，支持多台设备无密码访问。还特别提到如何解决 SSH 连接时遇到的主机密钥变化警告，提供了解决方法，包括删除旧的密钥或禁用主机密钥验证。通过这些操作，用户可以轻松配置多台设备之间的 SSH 无密码登录，优化工作效率并保障服务器连接安全。</summary>
+    
+    
+    
+    <category term="IT小技巧" scheme="https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Github" scheme="https://blog.bornforthis.cn/tags/Github/"/>
+    
+    <category term="服务器" scheme="https://blog.bornforthis.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>待产日记</title>
     <link href="https://blog.bornforthis.cn/posts/9a28c1d0.html"/>
     <id>https://blog.bornforthis.cn/posts/9a28c1d0.html</id>
     <published>2024-12-29T12:50:02.000Z</published>
-    <updated>2025-01-15T02:32:22.079Z</updated>
+    <updated>2025-02-10T10:33:19.749Z</updated>
     
     
     <summary type="html">住院待产日记，看看在医院待产要花费多少？</summary>
@@ -63,7 +189,7 @@
     <link href="https://blog.bornforthis.cn/posts/99b5e76c.html"/>
     <id>https://blog.bornforthis.cn/posts/99b5e76c.html</id>
     <published>2024-11-21T15:16:34.000Z</published>
-    <updated>2025-01-02T13:12:39.960Z</updated>
+    <updated>2025-02-06T14:03:24.856Z</updated>
     
     
     <summary type="html">悦说：每一瞬间的思想，都应该被捕获。自己自定义一个专属的朋友圈页面吧，记录本身，即已是反抗！</summary>
@@ -71,6 +197,8 @@
     
     
     <category term="hexo 网站相关" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Hexo Bornforthis Theme" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/"/>
     
     
     <category term="悦说页面" scheme="https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%B4%E9%A1%B5%E9%9D%A2/"/>
@@ -376,7 +504,7 @@
     <link href="https://blog.bornforthis.cn/posts/41c7c45e.html"/>
     <id>https://blog.bornforthis.cn/posts/41c7c45e.html</id>
     <published>2024-09-20T10:57:29.000Z</published>
-    <updated>2024-10-29T07:39:37.601Z</updated>
+    <updated>2025-02-06T14:03:24.857Z</updated>
     
     
     <summary type="html">本篇是实现纪念日页面的代码记录，以及随时浮现的想法，转瞬即逝～</summary>
@@ -384,6 +512,8 @@
     
     
     <category term="hexo 网站相关" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Hexo Bornforthis Theme" scheme="https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/"/>
     
     
     <category term="喵喵纪念日" scheme="https://blog.bornforthis.cn/tags/%E5%96%B5%E5%96%B5%E7%BA%AA%E5%BF%B5%E6%97%A5/"/>

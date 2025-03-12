@@ -485,7 +485,7 @@ ai:
 
 # 3. 部署网站
 
-你可以直接访问使用，无需自己部署：
+你可以直接访问使用，无需自己部署：[https://autotime.bornforthis.cn/](https://autotime.bornforthis.cn/)
 
 
 {% span center log large blue, 🪧 %}

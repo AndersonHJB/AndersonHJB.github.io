@@ -1,10 +1,10 @@
 ---
 title: Python 实现自动生成文章 FrontMatter
 tags:
-  - hexo
-  - 书写技巧
+  - 小想法
+  - Python 工具
 categories:
-  - AI悦创·Vlog
+  - Python小项目
 keywords:
   - AI悦创
   - Vlog
@@ -127,9 +127,365 @@ if __name__ == '__main__':
 
 <!-- endtab -->
 
+<!-- tab index.html -->
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>当前时间 JSON</title>
+    <script>
+        async function fetchTime() {
+            try {
+                const response = await fetch('/api/time');
+                const data = await response.json();
+                // 只获取 time 字段
+                const dateStr = data.time;
+
+                // 显示时间
+                document.getElementById('json-display').innerText = dateStr;
+
+                // 自动复制到剪贴板
+                await navigator.clipboard.writeText(dateStr);
+                document.getElementById('copy-status').innerText = "时间已复制到剪贴板!";
+            } catch (error) {
+                console.error('获取数据失败', error);
+            }
+        }
+
+        // 页面加载时自动执行
+        window.onload = fetchTime;
+    </script>
+</head>
+<body>
+<h2>当前时间</h2>
+<pre id="json-display"></pre>
+<p id="copy-status" style="color: green;"></p>
+<ul>
+    <li><a href="/vuepress-front-matter">Vuepress 博客</a></li>
+    <li><a href="/hexo">hexo 博客</a></li>
+    <li><a href="/docs">AI悦创自用：docs 博客</a></li>
+    <li><a href="/blog">AI悦创自用：hexo 博客</a></li>
+</ul>
+</body>
+</html>
+```
+<!-- endtab -->
+<!-- tab hexo_content.html -->
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vlog 内容自动复制</title>
+  <script>
+    window.onload = () => {
+      const currentTime = "{{ current_time }}";
+
+      // 需要复制的多行文本
+      // 用模板字符串保留原格式，只把 date 替换成 currentTime
+      const textToCopy = `---
+title:
+tags:
+  - 学习方法
+  - 编程思维
+categories:
+  - AI悦创·Vlog
+keywords:
+  - AI悦创
+  - Vlog
+description: 本篇是 AI悦创编写的文章
+top_img:
+comments: true
+cover:
+toc: true
+mathjax: false
+katex: false
+highlight_shrink: false
+aside: true
+swiper_index: 1
+top_group_index: 1
+background: '#fff'
+abbrlink: f00429a3
+date: ${currentTime}
+toc_number:
+toc_style_simple:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+aplayer:
+ai:
+---
+`;
+
+      // 显示在页面上
+      document.getElementById('vlog-text').innerText = textToCopy;
+
+      // 自动复制到剪贴板
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          document.getElementById('copy-status').innerText = "Vlog 内容已复制到剪贴板!";
+        })
+        .catch(err => {
+          console.error("复制失败", err);
+        });
+    };
+  </script>
+</head>
+<body>
+  <h2>Vlog 内容</h2>
+  <pre id="vlog-text"></pre>
+  <p id="copy-status" style="color: green;"></p>
+</body>
+</html>
+```
+
+<!-- endtab -->
+<!-- tab date_text.html -->
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>纯文本自动复制</title>
+  <script>
+    window.onload = () => {
+      // 从后端传入的 current_time 变量，会在 HTML 里渲染
+      const currentTime = "{{ current_time }}";
+      // 这里的纯文本示例可以是任意字符串:
+      const textToCopy = `title:
+icon: blog
+date: ${currentTime}
+author:
+isOriginal: true
+sticky: false
+star: false
+article: true
+timeline: true
+image: false
+navbar: true
+sidebarIcon: true
+headerDepth: 5
+comment: true
+lastUpdated: true
+editLink: false
+backToTop: true
+toc: true
+`;
+      // 显示在页面
+      document.getElementById('text-container').innerText = textToCopy;
+
+      // 自动复制到剪贴板
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          document.getElementById('copy-status').innerText = "纯文本已复制到剪贴板!";
+        })
+        .catch(err => {
+          console.error("复制失败", err);
+        });
+    };
+  </script>
+</head>
+<body>
+  <h2>自动生成的纯文本</h2>
+  <pre id="text-container"></pre>
+  <p id="copy-status" style="color: green;"></p>
+</body>
+</html>
+```
+<!-- endtab -->
+<!-- tab docs.html -->
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>纯文本自动复制</title>
+  <script>
+    window.onload = () => {
+      // 从后端传入的 current_time 变量，会在 HTML 里渲染
+      const currentTime = "{{ current_time }}";
+      // 这里的纯文本示例可以是任意字符串:
+      const textToCopy = `title:
+icon: blog
+date: ${currentTime}
+author:
+isOriginal: true
+sticky: false
+star: false
+article: true
+timeline: true
+image: false
+navbar: true
+sidebarIcon: true
+headerDepth: 5
+comment: true
+lastUpdated: true
+editLink: false
+backToTop: true
+toc: true
+
+
+::: details 公众号：AI悦创【二维码】
+
+![](/gzh.jpg)
+
+:::
+
+::: info AI悦创·编程一对一
+
+AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，招收学员面向国内外，国外占 80%。全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh
+
+C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
+
+方法一：[QQ](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
+
+方法二：微信：Jiabcdefh
+
+:::
+
+![](/zsxq.jpg)
+`;
+      // 显示在页面
+      document.getElementById('text-container').innerText = textToCopy;
+
+      // 自动复制到剪贴板
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          document.getElementById('copy-status').innerText = "纯文本已复制到剪贴板!";
+        })
+        .catch(err => {
+          console.error("复制失败", err);
+        });
+    };
+  </script>
+</head>
+<body>
+  <h2>自动生成的纯文本</h2>
+  <pre id="text-container"></pre>
+  <p id="copy-status" style="color: green;"></p>
+</body>
+</html>
+```
+
+<!-- endtab -->
+<!-- tab vlog_content.html -->
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vlog 内容自动复制</title>
+  <script>
+    window.onload = () => {
+      const currentTime = "{{ current_time }}";
+
+      // 注意这里使用了多行字符串 + raw 块，让 Jinja2 忽略大部分 {} 标签
+      // 并只在 date: 后面插入 currentTime
+      const textToCopy = `{% raw %}---
+title:
+tags:
+  - 学习方法
+  - 编程思维
+categories:
+  - AI悦创·Vlog
+keywords:
+  - AI悦创
+  - Vlog
+  - Python一对一教学
+description: 本篇是 AI悦创编写的文章
+top_img: /img/posts/P04-Vlog/01-为什么学习编程推荐记笔记/IMG_3061.JPG
+comments: true
+cover: /img/posts/P04-Vlog/01-为什么学习编程推荐记笔记/01-为什么学习编程推荐记笔记.webp
+toc: true
+mathjax: false
+katex: false
+highlight_shrink: false
+aside: true
+swiper_index: 1
+top_group_index: 1
+background: '#fff'
+abbrlink: f00429a3
+date: {% endraw %}${currentTime}{% raw %}
+toc_number:
+toc_style_simple:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+aplayer:
+ai:
+---
+
+你好，我是悦创。
+
+
+
+
+{% span center log large blue, 🪧 %}
+
+{% folding blue close, 公众号：AI悦创【二维码】 %}
+
+![](https://bornforthis.cn/gzh.jpg)
+
+{% endfolding %}
+
+{% tip info %}AI悦创·编程一对一
+
+> AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Web、Linux」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh
+>
+> C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
+>
+> 方法一：[QQ](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
+>
+> 方法二：微信：Jiabcdefh
+
+{% endtip %}
+{% endraw %}`;
+
+      // 显示在页面上，方便查看
+      document.getElementById('vlog-text').innerText = textToCopy;
+
+      // 自动复制到剪贴板
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          document.getElementById('copy-status').innerText = "Vlog 内容已复制到剪贴板!";
+        })
+        .catch(err => {
+          console.error("复制失败", err);
+        });
+    };
+  </script>
+</head>
+<body>
+  <h2>Vlog 内容</h2>
+  <pre id="vlog-text"></pre>
+  <p id="copy-status" style="color: green;"></p>
+</body>
+</html>
+```
+<!-- endtab -->
+
 
 
 {% endtabs %}
+
+# 3. 部署网站
+
+你可以直接访问使用，无需自己部署：
 
 
 {% span center log large blue, 🪧 %}

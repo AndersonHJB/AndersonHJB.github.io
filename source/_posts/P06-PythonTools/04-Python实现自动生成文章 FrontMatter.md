@@ -10,9 +10,9 @@ keywords:
   - Vlog
   - Python一对一教学
 description: 本篇是 AI悦创编写的文章
-top_img: /img/posts/P04-Vlog/01-为什么学习编程推荐记笔记/IMG_3061.JPG
+top_img: /img/posts/P06-PythonTools/04-Python实现自动生成文章 FrontMatter/04-Python实现自动生成文章FrontMatter.png
 comments: true
-cover: /img/posts/P04-Vlog/01-为什么学习编程推荐记笔记/01-为什么学习编程推荐记笔记.webp
+cover: /img/posts/P06-PythonTools/04-Python实现自动生成文章 FrontMatter/04-Python实现自动生成文章FrontMatter.webp
 toc: true
 mathjax: false
 katex: false

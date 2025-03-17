@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/messages/index.html</loc>
+    <loc>https://blog.bornforthis.cn/json/friends.json</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/json/friends.json</loc>
+    <loc>https://blog.bornforthis.cn/messages/index.html</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/posts/41c7c45e.html</loc>
+    <loc>https://blog.bornforthis.cn/posts/410c2166.html</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/posts/410c2166.html</loc>
+    <loc>https://blog.bornforthis.cn/posts/41c7c45e.html</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -532,21 +532,14 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/Python%E9%A2%98%E7%9B%AE/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%B4%E9%A1%B5%E9%9D%A2/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -567,14 +560,28 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99/</loc>
+    <loc>https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.bornforthis.cn/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E7%BB%B4/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -616,6 +623,20 @@
   </url>
   
   <url>
+    <loc>https://blog.bornforthis.cn/tags/Python%E9%A2%98%E7%9B%AE/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bornforthis.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -651,6 +672,27 @@
   </url>
   
   <url>
+    <loc>https://blog.bornforthis.cn/tags/%E5%BE%85%E4%BA%A7%E5%8C%85/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E6%80%80%E5%AD%95/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%BB/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bornforthis.cn/tags/%E7%AB%9E%E8%B5%9B%E8%BE%85%E5%AF%BC/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -665,21 +707,28 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E6%98%A5%E8%8A%82/</loc>
+    <loc>https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://blog.bornforthis.cn/tags/%E5%8F%96%E5%90%8D/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E7%BB%B4/</loc>
+    <loc>https://blog.bornforthis.cn/tags/%E5%B0%8F%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/tags/Python-%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -707,56 +756,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%B0%8F%E6%83%B3%E6%B3%95/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/Python-%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bornforthis.cn/tags/DeepSeek/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E6%82%A6%E8%AF%BB/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%8F%96%E5%90%8D/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E6%80%80%E5%AD%95/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%A9%89%E6%A3%A0%E8%AE%B0/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/tags/%E5%BE%85%E4%BA%A7%E5%8C%85/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -786,14 +786,14 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/Python%E6%8E%A5%E5%8D%95/</loc>
+    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://blog.bornforthis.cn/categories/AI%E6%82%A6%E5%88%9B%C2%B7Vlog/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -807,6 +807,20 @@
   </url>
   
   <url>
+    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/categories/Python%E6%8E%A5%E5%8D%95/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bornforthis.cn/categories/IT%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -814,7 +828,21 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Hexo-Bornforthis-Theme/</loc>
+    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Python-%E5%B0%8F%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/categories/%E9%A5%BA%E5%AD%90/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/categories/%E6%82%A6%E8%AF%BB/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -828,7 +856,21 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/AI%E6%82%A6%E5%88%9B%C2%B7Vlog/</loc>
+    <loc>https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/</loc>
+    <lastmod>2025-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bornforthis.cn/categories/Python%E5%B0%8F%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -849,20 +891,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/Python%E5%B0%8F%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/categories/hexo-%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/Python-%E5%B0%8F%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bornforthis.cn/categories/%E6%82%A6%E5%88%9B%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%AE%9E%E6%93%8D/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -870,28 +898,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/categories/%E6%82%A6%E8%AF%BB/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/categories/%E9%A5%BA%E5%AD%90/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/categories/%E5%A9%89%E6%A3%A0%E8%AE%B0/</loc>
+    <loc>https://blog.bornforthis.cn/categories/%E9%A5%BA%E5%AD%90/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -906,13 +913,6 @@
   
   <url>
     <loc>https://blog.bornforthis.cn/categories/hexo/Hexo-Bornforthis-Theme/SiteStatus/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bornforthis.cn/categories/%E9%A5%BA%E5%AD%90/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2025-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

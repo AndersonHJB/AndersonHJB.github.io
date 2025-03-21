@@ -7,6 +7,10 @@
   home_essay: true
   top_background: /img/essay/essay-bg.webp
   essay_list:
+    - content: 启动任何来源：sudo spctl --master-disable
+      date: 2025-03-21 09:29:32
+      from: AI悦创
+      address: bash
     - content: 有时候，不要只看局部。站的高点，站的远点，使我们有全局视角，这样往往更便于我们发现事物中所存在的关联关系或规律。
       date: 2024-01-01 23:17:10
       from: AI悦创

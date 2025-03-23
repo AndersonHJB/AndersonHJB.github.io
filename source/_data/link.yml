@@ -344,3 +344,13 @@
       avatar: /img/link/37-bougiemoonintaurus.com.jpg
       descr: 只会吃奶酪，不知道会啥
       recommend: false
+    - name: QiZhe 王麒喆
+      link: https://github.com/qcoding-lab/qcoding-lab.github.io
+      avatar: /img/link/56-qcoding-lab.github.io.png
+      descr: qcoding-lab
+      recommend: false
+    - name: Felix Sun
+      link: https://github.com/BigSnowman10/BigSnowman10.github.io
+      avatar: /img/link/57-BigSnowman10.github.io.webp
+      descr: BigSnowman10
+      recommend: false

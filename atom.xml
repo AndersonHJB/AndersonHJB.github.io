@@ -6,7 +6,7 @@
   <link href="https://blog.bornforthis.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.bornforthis.cn/"/>
-  <updated>2025-05-05T12:32:06.180Z</updated>
+  <updated>2025-06-29T14:12:38.317Z</updated>
   <id>https://blog.bornforthis.cn/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>报考参考表</title>
+    <link href="https://blog.bornforthis.cn/posts/b6bc785.html"/>
+    <id>https://blog.bornforthis.cn/posts/b6bc785.html</id>
+    <published>2025-06-29T14:03:23.000Z</published>
+    <updated>2025-06-29T14:12:38.317Z</updated>
+    
+    
+    <summary type="html">本篇是 AI悦创编写的文章，报考参考表</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>跟“你”在一起的心得</title>
@@ -384,9 +399,9 @@
     <category term="生活日常" scheme="https://blog.bornforthis.cn/categories/%E9%A5%BA%E5%AD%90/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="怀孕" scheme="https://blog.bornforthis.cn/tags/%E6%80%80%E5%AD%95/"/>
-    
     <category term="待产包" scheme="https://blog.bornforthis.cn/tags/%E5%BE%85%E4%BA%A7%E5%8C%85/"/>
+    
+    <category term="怀孕" scheme="https://blog.bornforthis.cn/tags/%E6%80%80%E5%AD%95/"/>
     
   </entry>
   

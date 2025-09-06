@@ -314,8 +314,12 @@
       tag: 技术
     - name: 弈鸣小筑
       link: https://blog.ymhut.cn
-      avatar: /img/link/59-blog.ymhut.cn.ico
+      avatar: /img/link/60-blog.ymhut.cn.ico
       descr: 功不唐捐，玉汝于成
+    - name: 青序栈
+      link: https://qxzhan.cn/
+      avatar: /img/link/59-qxzhan.cn.webp
+      descr: 青序成栈·向简而生
 
 # - class_name: 悦创·悦读
 #   class_desc: 那些阅读的朋友们，皆在思考～记录本身，即已是反抗！

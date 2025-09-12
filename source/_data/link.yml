@@ -201,11 +201,11 @@
       avatar: /img/link/22-www.qcqx.cn.webp
       descr: 漫天倾尘,风中轻笑
       tag: 技术/生活
-    # - name: 朽丘秋雨
-    #   link: https://blog.koxiuqiu.cc/
-    #   avatar: /img/link/23-koxiuqiu.cn.webp
-    #   descr: 一定会和喜欢的人在夏日夜晚牵手慢步
-    #   tag: 技术/生活
+    - name: 朽丘秋雨
+      link: https://blog.koxiuqiu.cc/
+      avatar: /img/link/23-koxiuqiu.cn.webp
+      descr: 一定会和喜欢的人在夏日夜晚牵手慢步
+      tag: 技术/生活
     - name: Ganzhe
       link: https://ganzhe.site/
       avatar: /img/link/24-ganzhe.site.png

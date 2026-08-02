@@ -1,0 +1,39 @@
+{
+  "name": "bornforthis",
+  "version": "2.0.0",
+  "description": "Python 1v1,AI悦创,一对一,Python,编程一对一,C++,Java,AI,人工智能,黄家宝,Python一对一教学",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "NODE_OPTIONS='--max-old-space-size=32768' vuepress-vite build docs",
+    "docs:clean-dev": "NODE_OPTIONS='--max-old-space-size=32768' vuepress-vite dev docs --clean-cache",
+    "docs:dev": "NODE_OPTIONS='--max-old-space-size=32768' vuepress-vite dev docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.132",
+    "@vuepress/plugin-feed": "2.0.0-rc.130",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.130",
+    "@vuepress/plugin-redirect": "2.0.0-rc.130",
+    "@vuepress/plugin-watermark": "2.0.0-rc.130",
+    "@vueuse/core": "12.8.2",
+    "@waline/client": "^3.13.0",
+    "dashjs": "^4.7.4",
+    "hls.js": "^1.6.16",
+    "sass-embedded": "^1.100.0",
+    "vidstack": "^1.12.13",
+    "vite": "6.2.4",
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-plugin-components": "2.0.0-rc.107",
+    "vuepress-plugin-copyright": "1.0.2",
+    "vuepress-theme-hope": "2.0.0-rc.107"
+  },
+  "dependencies": {
+    "katex": "^0.16.47",
+    "mermaid": "^11.15.0",
+    "plyr": "^3.8.4",
+    "recaptcha-v3": "^1.11.3"
+  }
+}

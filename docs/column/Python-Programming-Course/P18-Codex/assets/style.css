@@ -1,0 +1,136 @@
+:root {
+  color-scheme: light;
+  --ink: #17202a;
+  --muted: #5c6670;
+  --line: #dfe5e9;
+  --accent: #087f6f;
+  --accent-soft: #eaf8f4;
+  --warning: #8a3b12;
+  --warning-soft: #fff4e8;
+}
+
+html {
+  background: #f3f6f7;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 56px 64px;
+  color: var(--ink);
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 16px 60px rgb(21 36 43 / 10%);
+  font: 17px/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  margin: 0 0 28px;
+  font-size: 2.45rem;
+}
+
+h2 {
+  margin-top: 3.2rem;
+  padding-top: 0.3rem;
+  font-size: 1.65rem;
+  border-top: 1px solid var(--line);
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  color: var(--ink);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 28px auto 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgb(25 43 51 / 10%);
+}
+
+em {
+  display: block;
+  margin: 0 auto 24px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+blockquote {
+  margin: 28px 0;
+  padding: 18px 22px;
+  color: var(--warning);
+  background: var(--warning-soft);
+  border-left: 5px solid #e87f2d;
+  border-radius: 8px;
+}
+
+blockquote p {
+  margin: 0.4em 0;
+}
+
+table {
+  width: 100%;
+  margin: 24px 0;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+
+th,
+td {
+  padding: 11px 13px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--line);
+}
+
+th {
+  background: var(--accent-soft);
+}
+
+code {
+  padding: 0.12em 0.35em;
+  background: #f0f3f4;
+  border-radius: 4px;
+}
+
+@media (max-width: 760px) {
+  body {
+    margin: 0;
+    padding: 28px 20px 48px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}

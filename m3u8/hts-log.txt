@@ -1,0 +1,29 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 May 2022 23:01:53 at http://videojs.github.io/videojs-contrib-hls/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" http://videojs.github.io/videojs-contrib-hls/ -O1 "C:\Users\clela\Desktop\website111\videojs-contrib-hls" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:02:15	Warning: 	Retry after error -4 (Connect Error) at link videojs.github.io/videojs-contrib-hls/ (from primary/primary)
+23:03:46	Warning: 	Retry after error -4 (Connect Error) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css (from videojs.github.io/videojs-contrib-hls/)
+23:03:46	Warning: 	Retry after error -4 (Connect Error) at link https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js (from videojs.github.io/videojs-contrib-hls/)
+23:03:46	Warning: 	Retry after error -4 (Connect Error) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/js/bootstrap.min.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:07	Warning: 	Retry after error -4 (Connect Error) at link https://unpkg.com/video.js/dist/video.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:07	Warning: 	Retry after error -4 (Connect Error) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css (from videojs.github.io/videojs-contrib-hls/)
+23:04:07	Warning: 	Retry after error -4 (Connect Error) at link https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:07	Warning: 	Retry after error -4 (Connect Error) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/js/bootstrap.min.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:28	Warning: 	Retry after error -4 (Connect Error) at link https://unpkg.com/video.js/dist/video.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:37	Error: 	"Connect Error" (-4) after 2 retries at link https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js (from videojs.github.io/videojs-contrib-hls/)
+23:04:37	Warning: 	Found for https://unpkg.com/video.js/dist/video.js
+23:04:37	Warning: 	Warning moved treated for https://unpkg.com/video.js/dist/video.js (real one is https://unpkg.com/video.js@7.19.2/dist/video.js)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot? (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+23:04:37	Error: 	"Not Found" (404) at link videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg (from videojs.github.io/videojs-contrib-hls/node_modules/bootstrap/dist/css/bootstrap.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 49 seconds : 27 links scanned, 9 files written (3151619 bytes overall) [1092037 bytes received at 6461 bytes/sec], 3181006 bytes transferred using HTTP compression in 19 files, ratio 32%, 1.1 requests per connection
+(7 errors, 11 warnings, 0 messages)

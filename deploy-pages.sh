@@ -25,7 +25,7 @@ set -Eeuo pipefail
 REMOTE_NAME="origin"
 
 # GitHub Pages 部署分支
-DEPLOY_BRANCH="pages"
+DEPLOY_BRANCH="gh-pages"
 
 # VuePress 构建命令
 BUILD_COMMAND="pnpm run docs:build"

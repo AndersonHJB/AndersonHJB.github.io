@@ -5,10 +5,8 @@ author: AI悦创
 isOriginal: true
 category:
     - Python 1v1
-    - Thomas-hw-note
 tag:
     - Python 1v1
-    - Thomas-hw-note
 icon: python
 sticky: false
 star: false

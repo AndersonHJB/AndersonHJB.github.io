@@ -35,8 +35,8 @@ const theme = hopeTheme({
   
   docsBranch: "main",
   docsDir: "docs",
-  docsRepo: "AndersonHJB/bornforthis.cn",
-  repo: "AndersonHJB/bornforthis.cn",
+  docsRepo: "AndersonHJB/AndersonHJB.github.io",
+  repo: "AndersonHJB/AndersonHJB.github.io",
 
   darkmode: "switch",
 

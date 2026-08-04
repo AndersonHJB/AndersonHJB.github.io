@@ -3,9 +3,6 @@ title: Essay
 date: 2022-07-17 11:40:17
 author: AI悦创
 isOriginal: true
-category: 随笔
-tag:
-    - 随笔
 icon: yongyan
 sticky: false
 star: true

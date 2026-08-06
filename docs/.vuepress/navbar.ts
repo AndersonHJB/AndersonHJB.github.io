@@ -76,7 +76,7 @@ export const zhNavbar = navbar([
           { text: "Data Structure", icon: "discover", link: "https://huangjiabaoaiyc.gitee.io/visualgo/"},
           // { text: "Markdown Online", icon: "markdown", link: "https://bornforthis.cn/markdown-editor/ "},
           { text: "Json Online", icon: "json", link: "https://bornforthis.cn/json/"},
-          { text: "m3u8 Play", icon: "preview", link: "https://bornforthis.cn/m3u8"},
+          // { text: "m3u8 Play", icon: "preview", link: "https://bornforthis.cn/m3u8"},
           { text: "Decimal online conversion", icon: "tool", link: "https://bornforthis.cn/tool/"},
           { text: "HTML Online", icon: "web", link: "https://bornforthis.cn/html_online/"},
           // { text: "格式在线转换", icon: "web", link: "https://convertio.co/zh/"},

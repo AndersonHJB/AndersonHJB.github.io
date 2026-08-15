@@ -1032,7 +1032,7 @@ export default function App() {
 
 把上面的代码。新建文件：`HappyMatch.html` 把代码粘贴进去。
 
-随后进行网站部署，即可访问游戏：[https://bornforthis.cn/static_web/HappyMatch.html](https://bornforthis.cn/static_web/HappyMatch.html)
+随后进行网站部署，即可访问游戏：链接已经删除：https://bornforthis.cn/static_web/HappyMatch.html
 
 
 

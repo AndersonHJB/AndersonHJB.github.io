@@ -1359,7 +1359,7 @@ export default navbar([
         text: "分组 1：AR 艺术项目",  // 名称自己设置
         children: [
           { text: "Decimal online conversion", icon: "tool", link: "https://bornforthis.cn/tool/"},
-          { text: "HTML Online", icon: "web", link: "https://bornforthis.cn/html_online/"},
+          { text: "HTML Online", icon: "web", link: "https://statichtml.web.bornforthis.cn/html_online/"},
           { text: "Python", icon: "python", link: "https://bornforthis.cn/python/#/"},
         ]
       },
@@ -1367,7 +1367,7 @@ export default navbar([
         text: "分组 2：棋牌类项目",  // 名称自己设置
         children: [
           { text: "Decimal online conversion", icon: "tool", link: "https://bornforthis.cn/tool/"},
-          { text: "HTML Online", icon: "web", link: "https://bornforthis.cn/html_online/"},
+          { text: "HTML Online", icon: "web", link: "https://statichtml.web.bornforthis.cn/html_online/"},
           { text: "Python", icon: "python", link: "https://bornforthis.cn/python/#/"},
         ]
       },

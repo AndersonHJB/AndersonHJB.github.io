@@ -3607,6 +3607,14 @@ export const zhSidebar = sidebar({
 			children: "structure",
 
 		},
+		{
+			text: "卷十九：Codex 与 LLM 量化交易实战课",
+			prefix: "P19-codex-llm-quantitative-trading-course/",
+			icon: "damoxing",
+			collapsible: true,
+			children: "structure",
+
+		},
 
 		{
 			text: "专项练习",

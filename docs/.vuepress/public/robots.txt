@@ -1,3 +1,6 @@
+User-agent: *
+Allow: /
+
 # 不允许用于训练抓取
 User-agent: ClaudeBot
 Disallow: /
@@ -9,3 +12,5 @@ Allow: /
 # 允许 Claude 用户实时访问网站
 User-agent: Claude-User
 Allow: /
+
+Sitemap: https://bornforthis.cn/sitemap.xml

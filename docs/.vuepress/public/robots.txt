@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
 # 不允许用于训练抓取
 User-agent: ClaudeBot
 Disallow: /

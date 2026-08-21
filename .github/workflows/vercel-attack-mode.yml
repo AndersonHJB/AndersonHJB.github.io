@@ -1,0 +1,32 @@
+name: Keep Vercel Attack Mode Enabled
+
+on:
+  schedule:
+    # 每 12 小时执行一次（UTC）
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  keep-attack-mode-enabled:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Enable Vercel Attack Mode for 24h
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          PROJECT_ID: prj_qhVeIAyVeBMdXhjQuBSN0o65JRLX
+          TEAM_ID: team_kqK9CUJRTRuPHk4ii57bOnMn
+        run: |
+          ACTIVE_UNTIL=$(($(date +%s%3N) + 86400000))
+
+          curl --fail-with-body \
+            --request POST \
+            "https://api.vercel.com/v1/security/attack-mode?teamId=${TEAM_ID}" \
+            --header "Authorization: Bearer ${VERCEL_TOKEN}" \
+            --header "Content-Type: application/json" \
+            --data "{
+              \"projectId\": \"${PROJECT_ID}\",
+              \"attackModeEnabled\": true,
+              \"attackModeActiveUntil\": ${ACTIVE_UNTIL}
+            }"

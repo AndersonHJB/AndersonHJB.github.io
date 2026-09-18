@@ -217,7 +217,7 @@ const theme = hopeTheme({
       {
         path: "/",
         title: "通知",
-        content: "建议开启：梯子🪜(VPN)来访问本网站，会加速图片加载速度！联系我购买《编程启蒙：思维与代码》➕好评，赠送全球上网 1 年！",
+        content: "新书上市：《编程启蒙：思维与代码》",
         showOnce: true,
         actions: [
           {

@@ -85,7 +85,7 @@ highlights:
       bgImage: https://blog.images.bornforthis.cn/docs-images/sha256/ef/ef1cd1c786ba1e3398a927540cbe33813c91411a6f5a1d7689523816def6f812.svg
       bgImageDark: https://blog.images.bornforthis.cn/docs-images/sha256/09/09efdb125b1e76a9e3b9630ac0351690b3a0f3dee8aa94f49a5d4c19d3eaadb4.svg
       highlights:
-          - title: 全球上网
+          - title: 网络信号
             icon: tizi
             details: 在学期间有效使用，世界那么大，该出去看看了。
             link: #

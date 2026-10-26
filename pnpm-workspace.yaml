@@ -7,3 +7,6 @@ overrides:
   # 0.18.11 was accidentally published with breaking changes; keep the
   # compatible 0.18 release required by the current VuePress math plugin.
   'katex@0.18.11': 0.18.10
+
+patchedDependencies:
+  '@vuepress/bundler-vite@2.0.0-rc.31': patches/@vuepress__bundler-vite@2.0.0-rc.31.patch

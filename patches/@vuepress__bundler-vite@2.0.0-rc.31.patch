@@ -1,0 +1,91 @@
+diff --git a/dist/index.js b/dist/index.js
+index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aecd19be6df 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -1,4 +1,6 @@
+ import { createRequire } from "node:module";
++import { createHash } from "node:crypto";
++import path from "node:path";
+ import { build, createServer, mergeConfig, mergeConfig as mergeConfig$1 } from "vite";
+ import { createPageChunkFilesMap, createVueServerApp, getSsrTemplate, renderPageToString, resolveLinkedPageChunkFiles } from "@vuepress/bundlerutils";
+ import { colors, debug, fs, renderHead, sanitizeFileName, withSpinner } from "@vuepress/utils";
+@@ -331,6 +333,23 @@ const renderPage = async ({ app, page, vueApp, vueRouter, ssrTemplate, output, o
+ //#region src/build/build.ts
+ const log = debug("vuepress:bundler-vite/build");
+ const build$1 = async (options, app) => {
++	const shardCount = Number(process.env.VUEPRESS_RENDER_SHARD_COUNT ?? "1");
++	const shardIndex = Number(process.env.VUEPRESS_RENDER_SHARD_INDEX ?? "0");
++	if (!Number.isInteger(shardCount) || shardCount < 1 || shardCount > 64 || !Number.isInteger(shardIndex) || shardIndex < 0 || shardIndex >= shardCount) {
++		throw new Error("Invalid VuePress render shard: count must be 1..64 and index must be 0..count-1");
++	}
++	const outputRoot = path.resolve(app.dir.dest());
++	const relativeOutputPath = (filePath) => {
++		const relativePath = path.relative(outputRoot, path.resolve(filePath));
++		if (!relativePath || relativePath === ".." || relativePath.startsWith(`..${path.sep}`) || path.isAbsolute(relativePath)) {
++			throw new Error(`VuePress output path is outside the destination: ${filePath}`);
++		}
++		return relativePath.split(path.sep).join("/");
++	};
++	const expectedPages = app.pages.map((page) => relativeOutputPath(page.htmlFilePath)).sort();
++	const renderPages = app.pages.filter((page) => createHash("sha256").update(relativeOutputPath(page.htmlFilePath)).digest().readUInt32BE(0) % shardCount === shardIndex);
++	const manifestPath = app.dir.temp("render-shard-manifest.json");
++	await fs.remove(manifestPath);
+ 	await app.pluginApi.hooks.extendsBundlerOptions.process(options, app);
+ 	log("compiling start");
+ 	let clientOutput;
+@@ -342,16 +361,18 @@ const build$1 = async (options, app) => {
+ 			isBuild: true,
+ 			isServer: false
+ 		});
++		clientOutput = await build(clientConfig);
++		// Create the SSR plugins after the client build to clear their script caches.
+ 		const serverConfig = resolveViteConfig({
+ 			app,
+ 			options,
+ 			isBuild: true,
+ 			isServer: true
+ 		});
+-		[clientOutput, serverOutput] = await Promise.all([build(clientConfig), build(serverConfig)]);
++		serverOutput = await build(serverConfig);
+ 	});
+ 	log("compiling finish");
+-	await withSpinner(`Rendering ${app.pages.length} pages`)(async (spinner) => {
++	await withSpinner(`Rendering ${renderPages.length} of ${app.pages.length} pages (shard ${shardIndex}/${shardCount})`)(async (spinner) => {
+ 		const clientEntryChunk = clientOutput.output.find((item) => item.type === "chunk" && item.isEntry);
+ 		const clientCssAsset = clientOutput.output.find((item) => item.type === "asset" && item.fileName.endsWith(".css"));
+ 		const serverEntryChunk = serverOutput.output.find((item) => item.type === "chunk" && item.isEntry);
+@@ -364,7 +385,7 @@ const build$1 = async (options, app) => {
+ 				output: clientOutput.output
+ 			})
+ 		});
+-		for (const page of app.pages) {
++		for (const page of renderPages) {
+ 			if (spinner) spinner.text = `Rendering pages ${colors.magenta(page.path)}`;
+ 			await renderPage({
+ 				app,
+@@ -379,6 +400,25 @@ const build$1 = async (options, app) => {
+ 			});
+ 		}
+ 	});
++	const clientFiles = (await Promise.all(clientOutput.output.map(async (item) => {
++		const filePath = path.resolve(outputRoot, item.fileName);
++		const relativePath = relativeOutputPath(filePath);
++		try {
++			return (await fs.stat(filePath)).isFile() ? relativePath : null;
++		} catch (error) {
++			if (error.code === "ENOENT") return null;
++			throw error;
++		}
++	}))).filter((filePath) => filePath !== null).sort();
++	await fs.outputFile(manifestPath, `${JSON.stringify({
++		schemaVersion: 1,
++		sourceCommit: process.env.GITHUB_SHA || "",
++		shardIndex,
++		shardCount,
++		expectedPages,
++		renderedPages: renderPages.map((page) => relativeOutputPath(page.htmlFilePath)).sort(),
++		clientFiles
++	}, null, 2)}\n`);
+ 	if (!app.env.isDebug) await fs.remove(app.dir.temp(".server"));
+ };
+ //#endregion

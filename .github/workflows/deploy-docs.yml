@@ -14,8 +14,51 @@ permissions:
   contents: read
 
 jobs:
+  compile-site:
+    name: 编译共享前端和 SSR 资源
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.22.0
+          run_install: false
+          cache: true
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      - name: 编译共享资源
+        env:
+          NODE_OPTIONS: --max-old-space-size=10240
+          VUEPRESS_COMPILE_ONLY: 1
+          VUEPRESS_COMPILE_CACHE: ${{ github.workspace }}/site-compile-cache
+        run: pnpm exec vuepress-vite build docs
+
+      - name: 保存共享编译结果
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: site-compiled
+          path: site-compile-cache/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 6
+
   build-shard:
     name: 构建页面批次 ${{ matrix.shard }}
+    needs: compile-site
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
@@ -43,9 +86,17 @@ jobs:
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
+      - name: 下载共享编译结果
+        uses: actions/download-artifact@v8.0.2
+        with:
+          name: site-compiled
+          path: site-compile-cache
+
       - name: 构建文档
         env:
           NODE_OPTIONS: --max-old-space-size=10240
+          VUEPRESS_USE_COMPILE_CACHE: 1
+          VUEPRESS_COMPILE_CACHE: ${{ github.workspace }}/site-compile-cache
           VUEPRESS_RENDER_SHARD_COUNT: 16
           VUEPRESS_RENDER_SHARD_INDEX: ${{ matrix.shard }}
         run: |-
@@ -98,7 +149,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api --paginate "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '.artifacts[] | select(.name | startswith("site-shard-")) | .id' |
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '.artifacts[] | select(.name == "site-compiled" or (.name | startswith("site-shard-"))) | .id' |
           while read -r artifact_id; do
             gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
           done

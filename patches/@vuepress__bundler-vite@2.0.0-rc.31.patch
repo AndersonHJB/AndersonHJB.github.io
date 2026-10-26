@@ -1,5 +1,5 @@
 diff --git a/dist/index.js b/dist/index.js
-index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aecd19be6df 100644
+index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585be06c88d4 100644
 --- a/dist/index.js
 +++ b/dist/index.js
 @@ -1,4 +1,6 @@
@@ -9,9 +9,22 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aec
  import { build, createServer, mergeConfig, mergeConfig as mergeConfig$1 } from "vite";
  import { createPageChunkFilesMap, createVueServerApp, getSsrTemplate, renderPageToString, resolveLinkedPageChunkFiles } from "@vuepress/bundlerutils";
  import { colors, debug, fs, renderHead, sanitizeFileName, withSpinner } from "@vuepress/utils";
-@@ -331,6 +333,23 @@ const renderPage = async ({ app, page, vueApp, vueRouter, ssrTemplate, output, o
+@@ -330,28 +332,102 @@ const renderPage = async ({ app, page, vueApp, vueRouter, ssrTemplate, output, o
+ //#endregion
  //#region src/build/build.ts
  const log = debug("vuepress:bundler-vite/build");
++const isInsideDirectory = (directory, filePath) => {
++	const relativePath = path.relative(directory, filePath);
++	return relativePath !== ".." && !relativePath.startsWith(`..${path.sep}`) && !path.isAbsolute(relativePath);
++};
++const createClientOutputMetadata = (output) => output.map(({ type, fileName, isEntry, facadeModuleId, imports, dynamicImports }) => type === "chunk" ? {
++	type,
++	fileName,
++	isEntry,
++	facadeModuleId,
++	imports,
++	dynamicImports
++} : { type, fileName });
  const build$1 = async (options, app) => {
 +	const shardCount = Number(process.env.VUEPRESS_RENDER_SHARD_COUNT ?? "1");
 +	const shardIndex = Number(process.env.VUEPRESS_RENDER_SHARD_INDEX ?? "0");
@@ -28,12 +41,44 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aec
 +	};
 +	const expectedPages = app.pages.map((page) => relativeOutputPath(page.htmlFilePath)).sort();
 +	const renderPages = app.pages.filter((page) => createHash("sha256").update(relativeOutputPath(page.htmlFilePath)).digest().readUInt32BE(0) % shardCount === shardIndex);
++	const sourceCommit = process.env.GITHUB_SHA || "";
++	const compileOnly = process.env.VUEPRESS_COMPILE_ONLY === "1";
++	const useCompileCache = process.env.VUEPRESS_USE_COMPILE_CACHE === "1";
++	if (compileOnly && useCompileCache) throw new Error("VuePress compile-only and compile-cache modes are mutually exclusive");
++	const serverRoot = path.resolve(app.dir.temp(".server"));
++	let cacheRoot;
++	if (compileOnly || useCompileCache) {
++		if (!process.env.VUEPRESS_COMPILE_CACHE) throw new Error("VUEPRESS_COMPILE_CACHE must name a directory outside the source, temp and destination directories");
++		cacheRoot = path.resolve(process.env.VUEPRESS_COMPILE_CACHE);
++		for (const directory of [path.resolve(app.dir.source()), path.resolve(app.dir.temp()), outputRoot]) {
++			if (isInsideDirectory(directory, cacheRoot) || isInsideDirectory(cacheRoot, directory)) throw new Error(`Unsafe VuePress compile cache directory: ${cacheRoot}`);
++		}
++	}
 +	const manifestPath = app.dir.temp("render-shard-manifest.json");
 +	await fs.remove(manifestPath);
  	await app.pluginApi.hooks.extendsBundlerOptions.process(options, app);
  	log("compiling start");
  	let clientOutput;
-@@ -342,16 +361,18 @@ const build$1 = async (options, app) => {
+ 	let serverOutput;
+-	await withSpinner("Compiling with vite")(async () => {
++	if (useCompileCache) {
++		const cache = await fs.readJson(path.join(cacheRoot, "compile-manifest.json"));
++		if (cache.schemaVersion !== 1 || cache.sourceCommit !== sourceCommit || cache.base !== app.options.base || JSON.stringify(cache.expectedPages) !== JSON.stringify(expectedPages)) throw new Error("VuePress compile cache does not match the source commit, base or expected pages");
++		if (!Array.isArray(cache.clientOutputMetadata) || typeof cache.serverEntryFile !== "string") throw new Error("Invalid VuePress compile cache metadata");
++		for (const item of cache.clientOutputMetadata) relativeOutputPath(path.resolve(outputRoot, item.fileName));
++		const serverEntryPath = path.resolve(serverRoot, cache.serverEntryFile);
++		if (serverEntryPath === serverRoot || !isInsideDirectory(serverRoot, serverEntryPath)) throw new Error("Invalid cached VuePress server entry path");
++		await fs.emptyDir(outputRoot);
++		await fs.copy(path.join(cacheRoot, "dist"), outputRoot);
++		await fs.emptyDir(serverRoot);
++		await fs.copy(path.join(cacheRoot, "server"), serverRoot);
++		if (!(await fs.stat(serverEntryPath)).isFile()) throw new Error("Cached VuePress server entry is missing");
++		clientOutput = { output: cache.clientOutputMetadata };
++		serverOutput = { output: [{ type: "chunk", isEntry: true, fileName: cache.serverEntryFile }] };
++	} else await withSpinner("Compiling with vite")(async () => {
+ 		const clientConfig = resolveViteConfig({
+ 			app,
+ 			options,
  			isBuild: true,
  			isServer: false
  		});
@@ -50,11 +95,27 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aec
  	});
  	log("compiling finish");
 -	await withSpinner(`Rendering ${app.pages.length} pages`)(async (spinner) => {
++	if (compileOnly) {
++		const serverEntry = serverOutput.output.find((item) => item.type === "chunk" && item.isEntry);
++		if (!serverEntry || !isInsideDirectory(serverRoot, path.resolve(serverRoot, serverEntry.fileName))) throw new Error("VuePress server entry is missing or outside the server directory");
++		await fs.emptyDir(cacheRoot);
++		await fs.copy(outputRoot, path.join(cacheRoot, "dist"));
++		await fs.copy(serverRoot, path.join(cacheRoot, "server"));
++		await fs.outputFile(path.join(cacheRoot, "compile-manifest.json"), `${JSON.stringify({
++			schemaVersion: 1,
++			sourceCommit,
++			expectedPages,
++			base: app.options.base,
++			clientOutputMetadata: createClientOutputMetadata(clientOutput.output),
++			serverEntryFile: serverEntry.fileName
++		}, null, 2)}\n`);
++		return;
++	}
 +	await withSpinner(`Rendering ${renderPages.length} of ${app.pages.length} pages (shard ${shardIndex}/${shardCount})`)(async (spinner) => {
  		const clientEntryChunk = clientOutput.output.find((item) => item.type === "chunk" && item.isEntry);
  		const clientCssAsset = clientOutput.output.find((item) => item.type === "asset" && item.fileName.endsWith(".css"));
  		const serverEntryChunk = serverOutput.output.find((item) => item.type === "chunk" && item.isEntry);
-@@ -364,7 +385,7 @@ const build$1 = async (options, app) => {
+@@ -364,7 +440,7 @@ const build$1 = async (options, app) => {
  				output: clientOutput.output
  			})
  		});
@@ -63,7 +124,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aec
  			if (spinner) spinner.text = `Rendering pages ${colors.magenta(page.path)}`;
  			await renderPage({
  				app,
-@@ -379,6 +400,25 @@ const build$1 = async (options, app) => {
+@@ -379,6 +455,25 @@ const build$1 = async (options, app) => {
  			});
  		}
  	});
@@ -79,7 +140,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..d8b65777a9aebb75c8bb74d18b298aec
 +	}))).filter((filePath) => filePath !== null).sort();
 +	await fs.outputFile(manifestPath, `${JSON.stringify({
 +		schemaVersion: 1,
-+		sourceCommit: process.env.GITHUB_SHA || "",
++		sourceCommit,
 +		shardIndex,
 +		shardCount,
 +		expectedPages,

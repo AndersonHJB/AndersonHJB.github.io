@@ -1,8 +1,8 @@
-// import { defineClientConfig } from "vuepress/client";
-// import RecentComments from "./layouts/RecentComments.vue";
+import { defineClientConfig } from "vuepress/client";
+import PDF from "./components/PDF.vue";
 
-// export default defineClientConfig({
-//   layouts: {
-//     RecentComments,
-//   },
-// });
+export default defineClientConfig({
+  enhance: ({ app }) => {
+    app.component("PDF", PDF);
+  },
+});

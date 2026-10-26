@@ -13,24 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          run_install: true
-          version: 10.5.2 # 指定 pnpm 版本，可以修改为最新的稳定版本
-
       - name: 设置 Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
-          cache: pnpm
+          node-version: 24
 
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.22.0
+          run_install: false
+          cache: true
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:

@@ -11,29 +11,25 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.30",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.132",
-    "@vuepress/plugin-feed": "2.0.0-rc.130",
-    "@vuepress/plugin-google-analytics": "2.0.0-rc.130",
-    "@vuepress/plugin-redirect": "2.0.0-rc.130",
-    "@vuepress/plugin-watermark": "2.0.0-rc.130",
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.137",
+    "@vuepress/plugin-feed": "2.0.0-rc.137",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.135",
+    "@vuepress/plugin-redirect": "2.0.0-rc.137",
+    "@vuepress/plugin-watermark": "2.0.0-rc.135",
     "@vueuse/core": "12.8.2",
-    "@waline/client": "^3.13.0",
-    "dashjs": "^4.7.4",
-    "hls.js": "^1.6.16",
-    "sass-embedded": "^1.100.0",
-    "vidstack": "^1.12.13",
-    "vite": "6.2.4",
-    "vue": "^3.5.34",
-    "vuepress": "2.0.0-rc.30",
-    "vuepress-plugin-components": "2.0.0-rc.107",
+    "@waline/client": "^3.16.1",
+    "sass-embedded": "^1.106.1",
+    "vite": "8.3.4",
+    "vue": "^3.5.44",
+    "vuepress": "2.0.0-rc.31",
+    "vuepress-plugin-components": "2.0.0-rc.110",
     "vuepress-plugin-copyright": "1.0.2",
-    "vuepress-theme-hope": "2.0.0-rc.107"
+    "vuepress-theme-hope": "2.0.0-rc.110"
   },
   "dependencies": {
-    "katex": "^0.16.47",
-    "mermaid": "^11.15.0",
-    "plyr": "^3.8.4",
+    "katex": "0.18.10",
+    "mermaid": "^12.2.0",
     "recaptcha-v3": "^1.11.3"
   }
 }

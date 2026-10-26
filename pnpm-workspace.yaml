@@ -2,3 +2,8 @@ allowBuilds:
   '@parcel/watcher': true
   core-js: true
   esbuild: true
+
+overrides:
+  # 0.18.11 was accidentally published with breaking changes; keep the
+  # compatible 0.18 release required by the current VuePress math plugin.
+  'katex@0.18.11': 0.18.10

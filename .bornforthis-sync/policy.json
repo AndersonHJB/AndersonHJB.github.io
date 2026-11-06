@@ -28,9 +28,12 @@
   "cache": {
     "source_clone": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/source",
     "image_clone": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/images",
-    "source_raw": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/raw"
+    "source_raw": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d/raw",
+    "latest_run": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d",
+    "latest_source_tree": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d/source-tree.json",
+    "latest_source_catalog": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d/source-catalog.json"
   },
-  "three_way_base": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/corrections/2026-10-27T134515/baseline-output",
+  "three_way_base": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d/baseline-output",
   "existing_article_local_fields": [
     "category",
     "tag"

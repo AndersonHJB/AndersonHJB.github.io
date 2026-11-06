@@ -94,6 +94,14 @@
         "reason": "Preserve section numbering after omitted video-only section",
         "expected_occurrences": 1
       }
+    ],
+    "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.md": [
+      {
+        "from": "https:://dash.cloudflare.com/sign-up",
+        "to": "https://dash.cloudflare.com/sign-up",
+        "reason": "修正源新增文章中重复冒号导致的无效 Cloudflare 注册链接",
+        "expected_occurrences": 1
+      }
     ]
   },
   "preserved_files": {

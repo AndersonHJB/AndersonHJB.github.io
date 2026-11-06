@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "source_repo": "AndersonHJB/bornforthis.cn",
+  "target_repo": "AndersonHJB/AndersonHJB.github.io",
+  "target_directory": "/Users/bornforthis/Desktop/bornforthis.cn",
+  "image_repo": "AndersonHJB/bornforthis-blog-images-one",
+  "image_domain": "https://blog.images.one.bornforthis.cn",
+  "legacy_image_repo": "AndersonHJB/blog-images",
+  "legacy_image_domain": "https://blog.images.bornforthis.cn",
+  "article_root": "docs",
+  "article_exclusions": [
+    "docs/.vuepress/"
+  ],
+  "initial_pruning_source_commit": "e06a01b7a104482e36d196028a896d95b68fb2d0",
+  "initial_pruning_catalog": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/source-catalog.json",
+  "pruning_rule": "Keep initial source-only non-article omissions unless needed by managed content. Review new paths and source changes; do not blanket restore tools/media/backups. Newly added article paths are managed.",
+  "deployment_frontmatter_omissions": [
+    "lastUpdated",
+    "editLink",
+    "changelog"
+  ],
+  "technical_overrides": "article-overrides.json",
+  "source_editorial_authority": true,
+  "publication": {
+    "image_push_included": true,
+    "target_commit_push_deploy_requires_request": true
+  },
+  "cache": {
+    "source_clone": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/source",
+    "image_clone": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/images",
+    "source_raw": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/raw"
+  },
+  "three_way_base": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-10-26-e06a01b/corrections/2026-10-27T134515/baseline-output",
+  "existing_article_local_fields": [
+    "category",
+    "tag"
+  ],
+  "preserve_local_template_omissions": [
+    "lastUpdated",
+    "editLink",
+    "changelog"
+  ],
+  "template_policy": "本地已删除的开关字段或分类标签，即使在代码示例中也不得从源仓库补回；默认保留已有部署字段及缺省状态。",
+  "bootstrap_existing_differences": "保留部署版既有删减和改写，不把全部历史差异视为源新增。正文真实增量、新文章及引用图片仍同步。",
+  "runtime_url_policy": "按当前部署的已迁移地址保留相同资源映射，包括实际引用和已有代码示例；不无依据改写其他 URL。",
+  "preserve_local_simplified_pages": [
+    "docs/friendship-link.md"
+  ],
+  "configuration_sync": "检查所有文件，但文章同步默认保留本地配置和公告；必要依赖变动按三方差异审查。",
+  "article_metadata": {
+    "local_fields": [
+      "category",
+      "tag"
+    ],
+    "disabled_flags": [
+      "lastUpdated",
+      "editLink",
+      "changelog"
+    ]
+  },
+  "local_overrides_take_precedence": true,
+  "protected_path_merge_base": "上次固定源快照的规范化源内容（含对应素材映射、凭据占位符），不是只有上次本地输出。只合并新源实际增量，保留已有本地删改。"
+}

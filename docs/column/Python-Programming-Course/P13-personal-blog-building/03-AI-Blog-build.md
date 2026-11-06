@@ -372,7 +372,7 @@ Mixed `7897`、Redir `7895` 和 TUN 均可关闭。
 
 ## 2.2 效果预览
 
-
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/a6/a647da308beb6b70180649420efc68dc6309ef5ba93fb72c854345ab177b7310.png)
 
 ## 2.3 推送到 GitHub 仓库
 
@@ -428,6 +428,26 @@ Mixed `7897`、Redir `7895` 和 TUN 均可关闭。
     ![](https://blog.images.bornforthis.cn/docs-images/sha256/35/358085b6248547880ca4a43d4f7b12940ef7b35959332ff7a537275c6b45beb6.png)
 
     ![](https://blog.images.bornforthis.cn/docs-images/sha256/bf/bf89a9851b4affdb6c855a4f9ecfcd13c3c81cf04d7dddb1f305fb23ec1dfa84.png)
+
+## 3. 部署（GitHub Pages/Vercel/cloudflare）
+
+### 3.1 Github Pages 部署
+
+#### 3.1.1 新建 GitHub 仓库
+
+**仓库命名规则**：`GitHub账户名称.github.io`，此格式的仓库名称会被 GitHub 识别为 Github Pages 功能的仓库。（每个账号只能有一个）
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/78/78d1ea47eb28f64f3d2cb2fe1cfb17e40ed67bd6cf6945a59caf42beb5e38392.png)
+
+
+
+
+
+
+
+#### 3.1.2 开启 Pages 功能
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/0d/0dc75f5f6893fd238f2f18f48d6c2f12a9f7f5c0edc57e730b98827676c909ce.png)
 
 
 

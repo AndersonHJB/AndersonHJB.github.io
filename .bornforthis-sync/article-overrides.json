@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "files": {
+    "docs/Books/README.md": [
+      {
+        "from": "logo=\"https://pythontutor.bornforthis.cn/favicon.ico\"",
+        "to": "logo=\"/Book/pythontutor.png\"",
+        "reason": "Existing local logo retained after source favicon TLS verification failed",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/06-KAI/13-Final-Project.md": [
+      {
+        "from": "](https://bornforthis.cn/1v1/06-KAI/13-Final-Project/PortKit/)",
+        "to": "](https://github.com/AndersonHJB/blog-images/tree/main/1v1/06-KAI/13-Final-Project/PortKit)",
+        "reason": "Preserve migrated directory link for removed local PortKit resource",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/letter/2023/heart.md": [
+      {
+        "from": "https://bornforthis.cn/rabbit/",
+        "to": "https://github.com/AndersonHJB/blog-images/tree/main/%E6%9D%82%E7%89%A9/rabbit-%E5%85%94%E5%B9%B4%20HTML%20%E9%A1%B5%E9%9D%A2",
+        "reason": "Preserve GitHub directory replacing removed rabbit live site",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/changelog.md": [
+      {
+        "from": "**yarn.lock.txt**\n\n[yarn.lock.txt](/website-copy/2022-11-02-10-09-52/yarn.lock.txt)\n\n",
+        "to": "",
+        "reason": "Keep historical website-copy download pruned",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/column/download/README.md": [
+      {
+        "from": "| 06           | Typora                                    | [typora1.2.4-Windows(破解包).zip](/download/typora/typora1.2.4-Windows(破解包).zip) | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "to": "| 06           | Typora                                    | -                                                            | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "reason": "Keep removed Typora binary download cells as existing dashes",
+        "expected_occurrences": 1
+      },
+      {
+        "from": "| 07           | Typora历史版本无需破解                    | 1. [typora 32位-0.11.18.exe](/download/typora/Typora历史版无需破解/Windows/typora32位-0.11.18.exe)<br />2. [typora 64位-0.11.18.exe](/download/typora/Typora历史版无需破解/Windows/typora64位-0.11.18.exe)<br />3. [typora-setup-x64(V0.9.93).exe](/download/typora/Typora历史版无需破解/Windows/typora-setup-x64(V0.9.93).exe) | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "to": "| 07           | Typora历史版本无需破解                    | -                                                            | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "reason": "Keep removed Typora binary download cells as existing dashes",
+        "expected_occurrences": 1
+      },
+      {
+        "from": "| 04           | Typora                                    | [Typora_1_4_8_TNT.dmg](/download/typora/Typora_1_4_8_TNT.dmg) | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "to": "| 04           | Typora                                    | -                                                            | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "reason": "Keep removed Typora binary download cells as existing dashes",
+        "expected_occurrences": 1
+      },
+      {
+        "from": "| 05           | Typora历史版本无需破解                    | [Typora-0.11.18.dmg](/download/typora/Typora历史版无需破解/Typora-0.11.18.dmg) | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "to": "| 05           | Typora历史版本无需破解                    | -                                                            | [https://typora.io/](https://typora.io/)                     |      |\n",
+        "reason": "Keep removed Typora binary download cells as existing dashes",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/column/摄影入门课/README.md": [
+      {
+        "from": "- [x] [音频ts](/摄影入门课/开篇词-拍了十三年照片-我还是个小白/01.ts)\n",
+        "to": "",
+        "reason": "Keep omitted pruned photography course local-media checklist link",
+        "expected_occurrences": 1
+      },
+      {
+        "from": "- [x] [音频mp3](/摄影入门课/开篇词-拍了十三年照片-我还是个小白/01.mp3)\n",
+        "to": "",
+        "reason": "Keep omitted pruned photography course local-media checklist link",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/column/Computer-basic-practical-course/02-1.md": [
+      {
+        "from": "[先睹为快：迷你CPU项目效果演示.ts](/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.ts)",
+        "to": "`[先睹为快：迷你CPU项目效果演示.ts](/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.ts)`",
+        "reason": "Keep unavailable local TS media download as literal code",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.md": [
+      {
+        "from": "## 2. SQL\n",
+        "to": "## 1. SQL\n",
+        "reason": "Preserve section numbering after omitted video-only section",
+        "expected_occurrences": 1
+      },
+      {
+        "from": "## 3.SQL VS NO-SQL\n",
+        "to": "## 2.SQL VS NO-SQL\n",
+        "reason": "Preserve section numbering after omitted video-only section",
+        "expected_occurrences": 1
+      }
+    ]
+  },
+  "preserved_files": {
+    "docs/changelog.md": {
+      "source_blob": "76e43d13c51f10b75f6e2f16a750c82b406eedf9",
+      "target_sha256": "2e1491e3acd29a304b139748c233c9c1c1758d602db8216db475d7dacf2b82bb",
+      "reason": "Pruned historical website-copy yarn.lock download",
+      "dependency_blobs": {
+        "docs/.vuepress/public/website-copy/2022-11-02-10-09-52/yarn.lock.txt": "4f62e677949683081e575c7d437cb9edfde10002",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/download/README.md": {
+      "source_blob": "07ea2a84c60e94c11d862870a247b64a74ab1873",
+      "target_sha256": "fa2c5c0ef9d86e04b9540d1a81f453d75dfcfa359535ba96d837d8a5e88062be",
+      "reason": "Pruned Typora binary package rows",
+      "dependency_blobs": {
+        "docs/.vuepress/public/ColumnImages/app/home-banner-carry.png": "433455ba7d9837c783332279bfb8965a75f02f55",
+        "docs/.vuepress/public/download/typora/typora1.2.4-Windows(破解包).zip": "69f7ec95661d79df88fa5325c0f8c02c9a393a1c",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/pdf/README.md": {
+      "source_blob": "66a669d7ccb217208d1d59bc576c64dd7afca207",
+      "target_sha256": "c1985e2c7309fff8d6ee0b4b24677a5c9ce8f7dcf78db3e87f86c17682623f73",
+      "reason": "Six established GitHub release PDF delivery URLs",
+      "dependency_blobs": {
+        "docs/.vuepress/public/pdf/01-C语言【蜂考系统课】.pdf": "a14f9a75fc6c93ffb40250407d8ac94b61c0d8e8",
+        "docs/.vuepress/public/pdf/02-C语言【蜂考速成课】.pdf": "0303a8c33f47b735f80c6e618aa52682e6915a2d",
+        "docs/.vuepress/public/pdf/03-使用8421.pdf": "4ab3e4f8df45c59dd3fd0d89a4ed2e1e439060ad",
+        "docs/.vuepress/public/pdf/04-Python数据分析基础.pdf": "6ff26fa4d7ddc43544ea84fe1f828995960bc09f",
+        "docs/.vuepress/public/pdf/05-Python数据分析实战_2016版.pdf": "ed8991de86f708161dd21d979a2311343cf8d797",
+        "docs/.vuepress/public/pdf/06-Python数据分析与挖掘实战.pdf": "a96509513ace31eed1fe8ea900370ccb7e71b17d"
+      }
+    },
+    "docs/column/Computer-basic-practical-course/02-1.md": {
+      "source_blob": "ac2b262cb3178801a79dd1622871deb42e815406",
+      "target_sha256": "22c8889b26820cfb6f4035d4c6cc654dd78b39c898d63393d195d484a5d28c7d",
+      "reason": "Escaped missing TS local media download and disabled media nodes",
+      "dependency_blobs": {
+        "docs/.vuepress/public/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.webm": "414f49861249f9f055dd6434fe3aa6e48ebe91da",
+        "docs/.vuepress/public/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.mp4": "b77ad6a81f861e72a32a0055fceb76fc3ea70228",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/摄影入门课/README.md": {
+      "source_blob": "e3925f7ab6283d8c96f9b263e0e5536676663c9c",
+      "target_sha256": "2f17b7bd1f629b086d98897c0202af4081bff71c5a788ffa5b327e2554d3c32b",
+      "reason": "Pruned course media checklist links",
+      "dependency_blobs": {
+        "docs/column/摄影入门课/README.assets/931d3c1dbd056aa39041a209e79fe0b7.jpg": "394c9d97e9eb8689c60875ca7be7421c022b3e81",
+        "docs/column/摄影入门课/README.assets/53c68cb25374e45d5881b40d830e134d.jpg": "e8a5ce835ce7185f5556753cefd7c6167ee34982",
+        "docs/column/摄影入门课/README.assets/229a9321066b380b3b6b4c77c137ac8f.jpg": "989efd96fc4d25c1a0571690ef40957046df7a88",
+        "docs/column/摄影入门课/README.assets/c0791fbc681fe63be7771e2dcdf4ef9b.jpg": "9d3e165143cf28c4fe9e7afa16881dd197a73205",
+        "docs/column/摄影入门课/README.assets/eb5a74be1261c7817a1d567674608ca8.jpg": "cdacedf2dbc86e723e2958c3fb71311f2addf481",
+        "docs/column/摄影入门课/README.assets/56db8cd04139a5e41745db3ac755a352.jpg": "39039cd1bd1e973ea8e8e0f796d5a08166f79dd8",
+        "docs/column/摄影入门课/README.assets/86e357dd6ccb873dbdc626a539aefb8a.jpg": "c7d011c0ebb73b1ea1c270153f0a2da7e61de36b",
+        "docs/column/摄影入门课/README.assets/a8566c73ec0ee035aff69a774e6fed43.jpg": "3b629b446df7ee42452b3988ff37fbced2c13bf3",
+        "docs/column/摄影入门课/README.assets/0985e73edc2acfc53c7c8a1a59887dba.jpg": "7d9b7f21033e277471b7dc15173d1300525dfe4f",
+        "docs/.vuepress/public/摄影入门课/开篇词-拍了十三年照片-我还是个小白/01.mp3": "b1d7806b9de1277e939823e5f317d23f241b7ad3",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.md": {
+      "source_blob": "bc2ceeb5b94e0a0f2ba035283a31c45e690e858b",
+      "target_sha256": "645e185a229dc33b84ffc9146adb446bfa5e9e0d709e1e5d3cd882e00f6ed941",
+      "reason": "Preserved heading numbering after omitted disabled player",
+      "dependency_blobs": {
+        "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.assets/1620.jpeg": "e2a208fe2cda7ef6bd8cfd87abfc28eedf92db38",
+        "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.assets/acb766c6067f046.png": "9f0608bc17bdbf12b6d38cf20f8bca57a2b9a5bc",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/password.md": {
+      "source_blob": "eff1b29bd488ef24caf4bb0f5024b53e148f8a10",
+      "target_sha256": "b35e659012ac451a07478789d98cf1efac040f71fa85fe1680a373576396db75",
+      "reason": "Existing credential placeholder wording in entire account table",
+      "dependency_blobs": {
+        "docs/password.assets/image-20240608114946317.png": "1707ffc44553639e9f6b1548f2d54bcf64bcf449",
+        "docs/password.assets/image-20241029162022842.png": "cd769f1cb80efa8f23edc1667c9399153b906bfd",
+        "docs/password.assets/image-20241029162503620.png": "939677ab2f35f91c8f51c71db9a444043c4d8bae"
+      }
+    },
+    "docs/letter/2023/heart.md": {
+      "source_blob": "5a874bb1082311a1a0537c2f7c0f2de835f64958",
+      "target_sha256": "120a1b9857e066f9ba9dc12a8621f531f8a07f5da8e1c55c8dc696c96d017202",
+      "reason": "GitHub directory replacing pruned rabbit live site",
+      "dependency_blobs": {
+        "docs/letter/2023/heart.assets/image-20230119222253352.png": "a1e2ebd79c160687d5c94280953eccb730299dc8",
+        "docs/letter/2023/heart.assets/image-20230119222253352-4213843.png": "a1e2ebd79c160687d5c94280953eccb730299dc8",
+        "docs/letter/2023/heart.assets/image-20230119200357228.png": "bea474b4722aee09e7a0804e8cf3451ed7aa3434"
+      }
+    },
+    "docs/Books/README.md": {
+      "source_blob": "877bad1966df7b081f34255dceb95999c9cdc377",
+      "target_sha256": "b548fd468a7c2d8b36bd92ca068c2bdb45bc09927b860273b01e4d618af831f9",
+      "reason": "Working local PythonTutor logo fallback after remote TLS failure",
+      "dependency_blobs": {}
+    },
+    "docs/blog/2023/12month/blog-settings.md": {
+      "source_blob": "6de005139807cfc6e7cbec9830203a50a4b53449",
+      "target_sha256": "7b9cc688109d9e164c861938b02eb7d7cea42894c916caddce206112813b8810",
+      "reason": "GitHub directory replacing pruned PortKit route",
+      "dependency_blobs": {
+        "docs/blog/2023/12month/blog-settings.assets/image-20231215131719844.png": "023b216d1c58b38db4db0d593180dbf8e8f4c7cc",
+        "docs/.vuepress/public/pdf/03-使用8421.pdf": "4ab3e4f8df45c59dd3fd0d89a4ed2e1e439060ad",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/blog/crawler/01-regex01.md": {
+      "source_blob": "9e5876017762e40aa7e2cc2bb05b48e4260ee156",
+      "target_sha256": "9e5c8f9432d587fc115ab56b5c5353927106f5e56fe697dce38d33dce4b69af7",
+      "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
+      "dependency_blobs": {
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.md": {
+      "source_blob": "fd6a2346ed1bfb928ef654eb70261d7596c8e20f",
+      "target_sha256": "19630b8080a82594ef5d0369e0b15e65c7d2640aad67f238a9f70c161100cd2b",
+      "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
+      "dependency_blobs": {
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201101724116.png": "e10549a79bbf7148363dfbe25990b2b390fd2334",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131144904677.png": "67cd0c165231773ae60c21edd8a10247410813cc",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131145440312.png": "7ea94fd6e364fef88325fb8574bb2ecffb1bf28d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131145550902.png": "8167c4cb6de3be8bc73b2cbda03bebac88c0b5b7",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131145637221.png": "532a2b517bdc99c185e852073ae976af4bb7d120",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131150801525.png": "eec294ff00e6430b0760126406a2659fc5603dc5",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131151838905.png": "5221e3e20f5d1b0a11506a11feb73f90d28403f3",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131152239741.png": "1f1614c66f849c30d7900f8bf22df444f0e13bc4",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131152332021.png": "1259db4e71661151b2b32f73fd9973eafbe4746d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131152456725.png": "212bf9e30365d5b39b205c149b815aa8c81f780b",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131154621373.png": "a51738a3b8c762634d45293df15042e8ec7ecce8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131154840434.png": "85d1ea2d34b4a27558f0257c41db0e8adb5b9213",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131154901698.png": "2bdfb9552e36f09226b0826e1bb2713a2b896200",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131155112369.png": "eda082bdf044a20fcd28a9587ac51ef214451894",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131155405948.png": "b1b1d48b175e6baa3c8b06315aeb63371a551e88",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131155517847.png": "abf45f1ddb0c6b3648ccd9e20c62437bc26ad246",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260131155741866.png": "ec8a5de5e39885ea7822b7ec5dae8b462a84c3a7",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201102211450.png": "1b1de3785ddd02ad26eb5009b665e7ccca7d0ed1",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201104212586.png": "b3b3209efb47cf7d86e2bb1474c2985ffa518e26",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201104906817.png": "d34f44ec837b3cc509e5f16658281640e0a882ae",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201105346466.png": "e640f9111cd113a1e7163f15801c74667d20d53d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201111422367.png": "ad450bc41b8c67ee49bf8e328356b4eb036ce752",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201111714605.png": "9de434eb0cd9a09bf2a80c24ab1f841989f2c1f6",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201114220893.png": "2127713934b35136df531792abf360a311799c66",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260202081025048.png": "9a20897c7ca6dfa96e8e4ac73da6b66a5ac32aa8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206112001499.png": "20a275cfea4e17186eb805017702552cd9e15159",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206112323952.png": "95a0e17d2aac47688d7ff3c1abd0082910b643ef",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206112450849.png": "16db2987e9629570609325abab20fa30a60ab88e",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206112636887.png": "6e2b641f7ed1b961ff203c9345f3e6828c096880",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206112739501.png": "bb50c2fb468eb97870e87255644c13a7c7d6129f",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260202085815275.png": "213757da63d5bb91b089f024e4045188d2aa4322",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260408201430213.png": "f30117e0eae65cfc7ad0e62e4289f892681985ec",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260408201502850.png": "5734f050965079950149b9f326e723cd874468bf",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206113216330.png": "8ae6ca1dfb313842b0ca7976a7b9479e07e1442f",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206113609518.png": "3608051de7a97b9d932c75836fde76dd2c6c405f",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206113932437.png": "f40fb4522da83924dad3ebb57c92335b6cb0ef4e",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206114521400.png": "6ba5e97897bc657ffa8b9160b8917af9a6c2d510",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206114611816.png": "a371013742833d0b5bd092206c985fa64bc27fff",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260202092143336.png": "556f0c76427105d32725f578a1b6032fa965238d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260202092244716.png": "9e27585adfb6a221a07530072b53dfe372ce4b17",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206115038399.png": "1b6bf5a6d713f9ce3a0c3bc723f70342bbca403d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206115136234.png": "7f633bc3bfa637ce6f365780a93326be5366eae1",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206120451554.png": "85b65be240d0691aa53af026c97a5b7a2957b808",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260206121220772.png": "ad3c5cd6ae65e294e0ac7ab186b7397c2317fe4e",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260410200533721.png": "e668cf7f16cd2e157342f673f45a127473d8f219",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260410201045933.png": "0c5a267536de4c169d40bf1081331c147d3d9c86",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201102929313.png": "d9f68f81a45f2822d0dfa412da8b6c0f41d90df8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201110219125.png": "9badc9997e14d27907eebda25dbe6550c58614b5",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260201110317836.png": "9e5ca9e198336ebc9bd1cb24e1a01911cbf495e8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260410193428908.png": "2e7bf39cc9827e8c6f1e7b101f61d64aa6abffa8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260410193527423.png": "0d59506728037af7d5c178b328d25369f9c2b8b5",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412190717695.png": "61ad700e71bcf4a7863b72f771bb86ffd096565e",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260410193712090.png": "29f11eb542a6b1a6d07d34302da6b9f78bf90dae",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412201637655.png": "e9f99f1b451a519db37bdea59962765bbcaa73d3",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412201721277.png": "eb7268599ece640ddd1b6fe79005560623a5cfb1",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412201934821.png": "746f0cf2040dc83f55b787eec6050bb7a7d68747",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202031547.png": "29d6cead9f653980c54bde308f8409f36bcb8075",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202135545.png": "5308186d5d9d5816c2d1d59c45e80ded06f3a3a8",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202215557.png": "831558a44494cce005eea9ba183dce7ef3ea2330",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202257791.png": "04cbc128273b7cb2a73caa613330c2810bdbebcf",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202424785.png": "bdf1b1a421d39cbf261492129acca91b07c8c43f",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202446277.png": "585c754927d3c7408e56fdd0301775245c2a1c2a",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202504036.png": "ab7884b811efd8e9af281e0e00db5a27ed088d0d",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202530668.png": "7da6f47d651050ddb59ada36d8df9ab7ff363fd3",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202734884.png": "9587a0e9fabc772bc6c26ecbb0d4f8fc35e1f349",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412202927604.png": "8ac31c2dc15f498826f74fa69fbed5209c5d1536",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412203359596.png": "f103ce5c83bd18535430948ee8a197e908dbd56a",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412203954815.png": "15f7ba0830187b6d2e89f79bf4fed5be58d7e0df",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412204200965.png": "ab30622e23b13b0b1785f664e0e6d999e10742e5",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412204433117.png": "6897af32814e2f22bda583233fa4302d2e0d882e",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412193643360.png": "1ae34c0083bef5e1f1c8512f7b8c5d67edca01c7",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412191217674.png": "eaa4533132d8dac9ae8f401d4bf5827e79394a37",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260412200550887.png": "aa55040e37ca128599d99863ac6926eb2bc9f510",
+        "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.assets/image-20260202185253455.png": "18f9ac1ce29cc72e68116e394758db9c9f226313",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/web/base/base_03.md": {
+      "source_blob": "40cd56c0f2b67b5353fc48e25b168c9150d752c7",
+      "target_sha256": "24564f6dd7b77b2b833c0e4ee076f5d16404ff6a4ad0acb285b2060a7486aa6e",
+      "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
+      "dependency_blobs": {
+        "docs/column/web/base/base_03.assets/image-20220713215158944.png": "d7fd88eb29a0397b62e89b0f32c3370028f1ccc7",
+        "docs/column/web/base/base_03.assets/HTML概述.png": "834a14f4dab28bc2e3bf810fb836c75f5e6c35c0",
+        "docs/column/web/base/base_03.assets/HTML概述-02-7790609.png": "2ba22514cac8f6926f2b9f52192c7b58731fcb34",
+        "docs/column/web/base/base_03.assets/image-20220714171356444.png": "8ece1f1adc43b8a789c08312fe599529be754a27",
+        "docs/column/web/base/base_03.assets/1566786065971127.png": "84fc529c24f14eedbd2cbd4db766637d486271be",
+        "docs/column/web/base/base_03.assets/image-20220716092933554.png": "67be65697425196421da1b338ae885079ca9eb54",
+        "docs/column/web/base/base_03.assets/image-20220716093001963.png": "3a3cd8b325384269cf58288e07dbe6ef93170cb3",
+        "docs/column/web/base/base_03.assets/image-20220716094109125.png": "6beac29262efb473c3d531ceaf759e0ec5f1b835",
+        "docs/column/web/base/base_03.assets/image-20220801231401758.png": "82209b1645e0469e9d5f1ec8818f6269c85b7cc3",
+        "docs/column/web/base/base_03.assets/image-20220801231641053.png": "a5debe20dd817a99dbe99fb06fa51013f32cdf64",
+        "docs/column/web/base/base_03.assets/image-20220801232129060.png": "4b97d56506897bbfc6453599d9904a2244a45018",
+        "docs/column/web/base/base_03.assets/image-20220801232355720.png": "75e57afd011bebad17d1697eb1e1e2bd72f05872",
+        "docs/column/web/base/base_03.assets/1565246800318681.png": "5c0a73601c29572f481d8f0fa00d96a81ffc2a3b",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/web/base/base_04.md": {
+      "source_blob": "4aecea2941635bbbc13f2de009894ef658b60a33",
+      "target_sha256": "bb6ce8e482c6f54df5dae1776ac1cd7d494f7e2283379e5e1d292b11e257550d",
+      "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
+      "dependency_blobs": {
+        "docs/column/web/base/base_04.assets/image-20220802161622835.png": "ef35fe073c9fa8c685b5a82db598316b71b61739",
+        "docs/column/web/base/base_04.assets/image-20220802161720241.png": "d45f1d8acf35b427a35eeff37b04c9911859308d",
+        "docs/column/web/base/base_04.assets/202004131603149459.gif": "631532bec3a05bc1473585cb0d4c4b257150b66c",
+        "docs/column/web/base/base_04.assets/image-20220802162427423.png": "50f92837a46cc86db3d294fb5cb301b6fec296c2",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/1v1/47-qiuzhen/Blog/18-web-log.md": {
+      "source_blob": "c3e46ec418b9116c42069730163f3b5a9ec4b493",
+      "target_sha256": "b6375f3ac7475c05bf9e73cff87c57a2361a9f9623e7dbae42f1b66abab85232",
+      "reason": "保留部署版已经精简、转义的示例模板，不恢复旧代码模板和组件示例",
+      "dependency_blobs": {
+        "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230725084028529.png": "bbc038fb7801d2d459230fe9b2ef1bd9cf224d63",
+        "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230728071108784.png": "ee47a2901fd9b2ea0d9e095a0628bf703fc276d7",
+        "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230728082458113.png": "6284b9476e5a396cd1176c03e703cbf5c3c405e9",
+        "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230728082516754.png": "3e429f4322a0d08af8698b4aaa8e5d59650d43f0",
+        "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230901081935540.png": "2a150ce47853176f1879953b2a7149213bcbbbd1",
+        "docs/.vuepress/public/pdf/keyboard-shortcuts-macos.pdf": "5000f530631bb58c8d0aaa1f54005bad2ded005b",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/Python-Programming-Course/P07-How-to-become-an-expert-in-effective-learning/01.md": {
+      "source_blob": "1e0bca64217cdd6c0deb5812c86ee8aca6daf77b",
+      "target_sha256": "787f2906287176622fc229e1269a27327fb9a3e5b2017e562a1ca2722d1dedea",
+      "reason": "不重新补回部署版已删除的两段带删除线旧自述",
+      "dependency_blobs": {
+        "docs/column/Python-Programming-Course/P07-How-to-become-an-expert-in-effective-learning/01.assets/201807181022453433894131.jpg": "cf9918aafff6a4ff6db6cbe7a19e42ad8a96b4cd",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/friendship-link.md": {
+      "source_blob": "b0d4f7cc9b8b0c34e3a1191b8f78e78841cdaebd",
+      "target_sha256": "bd8c26a967dcb2faa237874be86eba0cf3e931091a4ad620418115cbd71c4a99",
+      "reason": "保留部署版已精简的友情链接页，不恢复旧 frontmatter 目录数据或自行生成目录功能",
+      "dependency_blobs": {
+        "docs/.vuepress/public/aiyc.svg": "080cfabe9ab0e3bc9f5f119b75dc870f46d78d63",
+        "docs/.vuepress/public/friendship-link/logo/mo7.png": "c477512e46d6d6330108be30f72b9afd041aaedc",
+        "docs/.vuepress/public/friendship-link/logo/thomasxiao.jpeg": "8b6fd35b58b9268ccba62ca435ce6338c03fa875",
+        "docs/.vuepress/public/friendship-link/logo/danniepython.png": "c5b895ac9e75c013d05ef8b2bf7c1e20b2fc9408",
+        "docs/.vuepress/public/friendship-link/logo/TCreograph2.png": "0527e67734d5606acc0a2d4ef6a82bf5f4b89634"
+      }
+    },
+    "docs/column/ChatGPT-Midjourney/public/01.md": {
+      "source_blob": "add74ec76f5e4cc24fe72f11bcf69284c2618adb",
+      "target_sha256": "5928b64f1d5de27cc28a32a6096243351b599e4fe5e06e2f1578428f504a8a07",
+      "reason": "保留部署版既有的说明精简和图片选择，不把历史删减当成云端新增正文",
+      "dependency_blobs": {
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205506300.png": "01ad3bf0503820e02136f770b0080f69457c91ac",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205543132.png": "bc1631d7265c6c146a1b925c6363715847ec96d3",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205550799.png": "261f7ee4dca953659773385dacd8808236aa8647",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205634434.png": "0af6dc4ba629c0e227ff20da10b6834a1082c365",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205712870.png": "69127b59e51d7b06660176d8acead9c65975f9e2",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205746385.png": "0d52f1a3ac1a46c5c7bef2ff381b450f1a00c525",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525210002155.png": "c50abd89ce12833b0cd3df3fbbde1aec43e7a88b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526003423317.png": "1f8962aa09b23344fd12c0c65e4e1ba6e1f12915",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526003520675.png": "87f4fb893b058a167ac1cb157342a797ac814a83",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526003544414.png": "b6ddb9dc7a621b4f2ce86e78457108a288b688ee",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525221603124.png": "dd42922c0369b1e43af6de87842452832930b02b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525220541417.png": "f5a406df9031c6c7c1149c3e83089c45bb448120",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525222508751.png": "5a45cb5c7e79c9a66a454893271547ddc1a401bb",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525223653602.png": "8750b496fba957b78fd34a9f2387b0c0ae9c8881",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526004115018.png": "ee1416dfd6278ffbffa3d0ae49c7a0f0bf4f1b15",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20250327212722090.png": "5a3d2875ebcf2c2ee5b960e825ed36caa5340c7e",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20250327212736846.png": "00aa92621c60a2f92dba5268a408f884a7d668f3",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/output.png": "e23b4c6562cf4717bca5eebd29dd9cb2d968bf35",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/output-3082209.png": "db8eec342b1b438d37f23e29b5da449663812e5d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/output-3082307.png": "98854d6bec75dfcae8792c76ce3c62e443665bb7",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/output-3082359.png": "d295a9f38386db225278a83c6fbbe9e7fa7d733c",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/output (1).png": "559f592d628b0729844a0090d1c59276b8605bef",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526004915990.png": "ccd16b51ce1591fe01cda02953cd3cedccb838e6",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526005251445.png": "8a545b968a39a471321e09c17a586ad5cd67140d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526005413686.png": "7dbc271bc069e843aef4881b9e9a95c1aadfe69d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526010641368.png": "139ba596ca6bb4f6c4614d5ae3c6433aa0168053",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526010536057.png": "d522a81524c9ab62b5396835fd79ce8cd84ad5d5",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205050147.png": "7d9b4b0ca19188130c21fb37acc30394e33d6a65",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230525205144290.png": "edc25758f3ce98dd08d4a8c938a83c6b0b0cc589",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526092427725.png": "10205ee2ffcb6b9fe0138b58df045bf7eb3ee067",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526092444529.png": "53d725572e9a22af305c4362b82a59f4b03c70c2",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526092607749.png": "a5aa0f416ee2e1d2cd0653ccadff20a709784ad9",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526092704604.png": "e306f295225bd8f5a349db7b61357d72ce16dd19",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526094715363.png": "02a52bc39fe084d9f789007e223f89c27c0489e4",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526094911699.png": "c35e53fa1f8853b8bdaded6760b44d4fde12591e",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526095418056.png": "453d06267dc3324f3295c62c9fdf0170050b3adf",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526095713970.png": "03aa14513014cef2dad91f54c308296c6c4714bd",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526095613743.png": "2fb182a7daae33f92ddc2cbb3c0ed9625f07f4bb",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526095756852.png": "1791b2ffc45d1df02816b8c47a0dd5dc32e76b84",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526095923491.png": "75c710c1140bc58b0b8a30faf35290fb676185f7",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100003134.png": "565bf9d5197e48f8444b927692d0b873c6864ea2",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100133153.png": "3f181aaeb08daeae3df9f343cf5a2e4aa72913e1",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100147003.png": "b7e20b5cf38d4a257e119ed174ebee67637637dd",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100202030.png": "562e2efcc886662ab17e86f13ff21f4660a15817",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100251063.png": "1ada0d87ed4263259bffce1e8b48826f6aac2594",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100334138.png": "8f8177a81605ae245e1a71e2436218cf9c08b2e1",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526100507657.png": "2ba5a8b03afc5a921da040b048a61abe6e43fdb8",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526165715170.png": "17bcd6a488411a06cb1b416679a4da6b1fded043",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526173854602.png": "b74dd98b8ecaae8c37fd378f278cba36ba22a49a",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526175517399.png": "3aaa36bfc76b783526d498751778808056d39930",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526195716128.png": "3c2bd4b60e207a2ac8d14f0736320e425967789a",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526201219101.png": "f0221fd1f3239c76a82fadb125e6d84dc37c79a9",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526201337327.png": "54d371e05744e15efdfd95d22fd6845f8c060422",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526201438150.png": "a1daed2f1dad5ad41342ded17894383ca47f8c86",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526201745801.png": "10fdce3de08ebb7d3d40e89728cb80d1f1edac5b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526202455427.png": "c340cf510fb4fa1c431e6cb2c09f3ce8865ec5d6",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526202632659.png": "212d9430869634b6c8c4707707b2293cf9201228",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526202838673.png": "e124883d4d487954d5a537c8e088429f31e8d313",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526202939889.png": "69b64585bc6d86b7df67fedd49255190d2569f94",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526203702154.png": "3095f30bd066100735df36c5e508f6f81671be0e",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526203950888.png": "1d32987f8586810a8f3acd9b428a8b4ddfd7fa68",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526203850646.png": "0a9ceb1b722b86adef69ba5ba90f734a1771cfae",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526203922522.png": "1c86bfd03a61403e4ce30f458a15d47d427c7652",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204114308.png": "77aa0563d25838663aecc55a3432521a103cb317",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204230055.png": "60f917e6c59c15269457b49f129a6f046182e7f3",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204258475.png": "b6a583e5583fc163903ea8ae5e842ada91bfbd76",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204335942.png": "031556a8b6dbd0e9b2eb594514470b58cf986b96",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204402718.png": "404da6524919fbb3bb7390a02fba0360a281a522",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204440760.png": "c37154dff61bfe1f9ca115a35019293b15edfd4a",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204503372.png": "a1a32d5f87c4140bbb163deacbd4f78c119812c5",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204554622.png": "4bdae0d644ee427c8f4d7fb5bbf09c8d22e91405",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204646249.png": "989cd7b7ccfda6e105d2fb70d3a7a2c72dffae3e",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204719888.png": "a26ca38fce8926f7df49c0936dcbc2e4adb35b38",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528130438047.png": "6664f7b9af9e75437031c5030650b08fe4703c9b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528140555075.png": "c57b75aac54029e095b02d7f34c61fddb7f3a0d6",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204827394.png": "d4c61d2ec4f3ba9221a7f3a2427376fae3dffb71",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204853224.png": "8d5e14141cf594c01df5e6448c1801f80f263f9d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526204922126.png": "e6a8c570c85f935965eb8b0bcdccaf663006850f",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205023039.png": "84514d9e934c2e431eed801b8782e2180d9d9ca2",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205034806.png": "99322c3f73cdd98d9ecf73130d17b174b3626ecc",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205050057.png": "23f2935b97a1bca78561224ff0daec134934d0fa",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205106784.png": "c20bcda5b9af6815ee7f1325a70a7fbcb989015b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205136665.png": "cfe0efef72abd96480c40b23892fe08c69ec2f9e",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205219810.png": "a38f9033a6839f19e834451c48c78f79cbab7e90",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205833325.png": "5646d6a6e682e9879f84b3f8bf844c1e1fda2a15",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526205939571.png": "d3254e5fd38d711c593ec2fdc8fabddeb9feb565",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230526221029558.png": "8192f0f0c21b5caaad867bb81fe12ca762f3cb6a",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528225522923.png": "db8c386d3b123630dbe74e0eef91429e0e24ead9",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528225700156.png": "00691430aa280b707c1879c76434f79389fa224d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528225804059.png": "1c5cd34a8e05bfb8ee7ed4deead5713ed3ed2037",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528225901907.png": "6d1a1cf2ef8e1d43b761cbd64ba44ee6c82672b1",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528230012616.png": "2dc475ede7d7abbe18112069b9dd5d43a0cf8ea2",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528230104526.png": "5922ff908f415e87af3d14d8514f28ae7fc229bc",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528230124421.png": "f564f9772a81bd176f59ccd3edeaf112de249c1d",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528231930341.png": "e7b9268218c4d9dc74d39fee41f4eb3f120132fb",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528232000006.png": "686121d63805b9f3626260973bc19a979bbc80e3",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230601173309761.png": "de637bb3cce337271e9c4a9cb761c1cbcb268dc3",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528145156951.png": "518263ceb68bed4d2bfa202a49632c56ccede5ef",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528141432067.png": "c0d2851ef590ab1348bbbf3cefd284c81563fc8b",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528141505936.png": "d7e81976faea024e7b905f66db6e4cbbe4c25aca",
+        "docs/column/ChatGPT-Midjourney/public/01.assets/image-20230528141552195.png": "28b27562f08403d575c1d13de992e2c3ce0b1940",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/TensorFlow/零基础实战机器学习/README.md": {
+      "source_blob": "c92e405a205697bf8c3dfd0de39d5eadc6a1e69d",
+      "target_sha256": "880f25163aa09ddc0ed548e7ff193e5ec9c80a63d446a4c00018ebefaee48561",
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
+      "dependency_blobs": {
+        "docs/column/TensorFlow/零基础实战机器学习/README.assets/38ea18722c985b5610374532e2fc90bc.jpg": "9edbd43a7df1ee1f0f1b1ce798b409642f484b5b",
+        "docs/.vuepress/public/零基础实战机器学习/00.mp3": "13f2cf55094dcb53ef2e57d03c8c60126e4d576c",
+        "docs/column/TensorFlow/零基础实战机器学习/README.assets/d7ec5f492d4d1c87eddaf77305281214.jpg": "ce783a7efafcf2c61f527f0b57dd7e279ef1cd6a",
+        "docs/column/TensorFlow/零基础实战机器学习/README.assets/c9ef72a215ff1141bdc4ecd967911527.jpg": "abe48491c5b0ecade870238099f96a8f4e3f12a8",
+        "docs/column/TensorFlow/零基础实战机器学习/README.assets/92dee0118aa4f9508ca09c2880dacffc.jpg": "4baae897934783316faf80e0f484ecc2f9a5c87e",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/TensorFlow/零基础实战机器学习/01.md": {
+      "source_blob": "b0d90f20382cd395f5407654de09b700b4bfb6db",
+      "target_sha256": "cce396690a2f3462682aa406381b6daf5be6c07ec14ebee39597972fc56483f0",
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
+      "dependency_blobs": {
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/c94b8feb7a5eec3f5a8c1c7e9a26489d.jpg": "8cb64d61082ba8979ca049b7784b684e34424162",
+        "docs/.vuepress/public/零基础实战机器学习/01.mp3": "9c502948817a4c5ee55352567486b7191d69f67e",
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/4403627159bf9ff0e14cb55c5f803ebc.jpg": "266cdd0075369241626071cd6af928a0f2c2a8d6",
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/de16bc2aa49010cded5cbe8576b388ae.jpg": "1f5c1b78717b98a0fb4e7a1329246eeefc5ed53e",
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/bc3240b75ca5f198e1e4da63bee01150.jpg": "1c32dc5d01507d6dedb6c21e669e18bc369e095f",
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/5e526ee5c3e339719f63658fc9132dcc.jpg": "fb9f0fc67028868ad471259f8ab392d07ad5ca42",
+        "docs/column/TensorFlow/零基础实战机器学习/01.assets/0553155254b44a41a489309df5d52dc5.jpg": "fd4bd1a8c7ec02cb004d5d8ea145d656e82e8ef2",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/TensorFlow/零基础实战机器学习/02.md": {
+      "source_blob": "9cb6b4bafa4e437edc3bb19e2279e4340b75f474",
+      "target_sha256": "bd49c82f09d8cefcb8a837b7a44914acd66c0d9444515cd19e2fd24db8e4cb9d",
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
+      "dependency_blobs": {
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/a6c1e06e4b93ef9019611bfa86ccb890.jpeg": "c2715fff49fa907ef301c6aae23b1953ed281aca",
+        "docs/.vuepress/public/零基础实战机器学习/02.mp3": "c9a16c6dd5d5d4f9e9d603723a28c202434c2128",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/a38f6f907c83e1cbb30dec791ef265eb.png": "be79ef527b1932bfe13afa3d6596e86f6ea3cc2d",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/56e2b3f30dc856867f58578db2171d72.jpg": "44937e17d1e9ff2f618c33632fe8632d63460c1f",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/46cd4e2cb7d8727dd2bcb37589dfd2f2-20220806180046629.jpg": "848a274f2ac110477ec3f23dafafe85f17f19027",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/725fc62ed91abc471f8e61e74b1bf36f-20220806180149021.png": "301d60434e2419678fb3dc16af34b7c38c3b8ed2",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/5bae160f13cd7dfe7a62065ce0c83174-20220806180439480.png": "b2037ea0926de4c436f87e198989527c1761d6f6",
+        "docs/.vuepress/public/零基础实战机器学习/data/漏斗分析.ipynb": "b0593a078132fbf765ea846f20ffeb1dc326604a",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/7b4b463cb5ab064ba0d40c0a0739bae3.png": "59be2fbd5b6add3815626ca7c9db75d2ff7f50e0",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/image-20220806185341736.png": "45f37c637df2c705dffc89c544aca3549cbc3a26",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/262a80d1479c863f0449d3f359b72997.png": "c3416894109ef83c62a1e930425cf585f609eca1",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/df6377e389d264dyy1c13a583a73effe.png": "23c77987866bee0a5b4145589d7f3a6e42cae1ca",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/24ab3ce88205513b059eb1d3f78d492a.png": "cb45fe77ab0bfbc4ca662ee57f08348a2132324b",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/70d6de03e16a4a6ce91de1055ef7c7c3.png": "39264cd75bf4479e6ecc256411d61076c460f3c5",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/ec6c383b1b8932649eyyafe879414b32.png": "b77bee9768e589873fe8f548157266a005516971",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/5d3a0449cyy1f962614f6c171407d426.jpg": "9f65f7912708dbd61b5b1ca759c2532ba4277b6e",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/86fac26dc0a456a24cfe7dd046c0331d.jpg": "8c4fec914c4d78b7d596a70b08b4f38068da75e3",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/7b065283535ab1d97e2b1273e6eb5434.png": "3ab04a858de0f451aa53740f2a48f91117667bc0",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/c68383255e4a4109a0976436f929b612.png": "e98c9de31aa6623d2c648d3fad9c743da27dba84",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/288e103ca59f473be2fc1a1dc1361758.png": "a68f3fc8feb581a48d71232e2f00db23f3b7a232",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/image-20220806215836762.png": "71488c6e3c147c317d6b175dacff1526d5575c6b",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/image-20220806215859125.png": "b0cbfb3d84cd34932b27bd06bfdb434dc05f162f",
+        "docs/column/TensorFlow/零基础实战机器学习/02.assets/image-20220806215915080.png": "159e2e6f8f58b8dc2493ac543b94fc68c58aedf3",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/TensorFlow/零基础实战机器学习/03.md": {
+      "source_blob": "4af6c46c64347e3aec4e20270c8f26d61ee3face",
+      "target_sha256": "51daf10288cd5ecc5395ccbb8ee2f24504d650ddbc851084d1b0d53d91020366",
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
+      "dependency_blobs": {
+        "docs/column/TensorFlow/零基础实战机器学习/03.assets/24db96f2fc1a486c1daf1103e907e909.jpg": "c68f57ee3156ef55db6d07e65d48c8e94ea01086",
+        "docs/.vuepress/public/零基础实战机器学习/03.mp3": "ec960db8df0d1a2fca1ccf50228804ec20a3bc29",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      }
+    },
+    "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.md": {
+      "source_blob": "87a142fd6595eac85bdb1d9a71a4ae806514519d",
+      "target_sha256": "0f1a0be001d15c7d6f010d3d2cc04121858239ac7db369baf919a1648094af0e",
+      "reason": "此固定源快照仅有凭据占位符周围和末尾空白差异，不重排既有输出；源正文或素材变动仍需复核",
+      "dependency_blobs": {
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20250405224206376.png": "2ced23c23e72a83cbe117342132a3ff1bdb82f66",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20250406212857645.png": "96d373f5c533f00bc05116251f5e1fecdedf2501",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20250911205521746.png": "0a05578dafbdee0df4d599d96c26d89578c336fa",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20250922145919416.png": "89d5d2489c99e20f00bb9639175c7713337ae06c",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/deepseek_r1_multiround_example_cn.png": "e1e51a920c2c4fac34e9c851cfc4bb95f3cdff31",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251027143703232.png": "2de4f0ead5d38b21d5d9aa02253d9cba4171af4a",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251027143714580.png": "69d4c0b256397d9d3fb9a0d14a3da479285ce4a7",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251027143725674.png": "54eef2b849166564720096bd2d552c7a9a4542cf",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251120145039400.png": "50cb2ea0e48e767133c77a668ce4d3233c261c52",
+        "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251120144924917.png": "81b8d9307036252efc5e8301f5cf8f14f3f9beda"
+      }
+    }
+  }
+}

@@ -1,53 +1,58 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-11-15",
+  "checked_date": "2026-11-16",
   "source_repo": "AndersonHJB/bornforthis.cn",
-  "source_commit": "41826f4bb78bc5ab5abf1a546ec255f36181ba5b",
+  "source_commit": "d832f757ebc5218bf0bfe1a3ab35ffaa394f5283",
   "source_branch": "main",
-  "source_tree": "f5b3019c3c9c8f018029a582199156dd88616aba",
+  "source_tree": "de70bbc503e0d03412a7bc735d739d6221ee73a6",
   "source_tree_complete": true,
-  "deployment_baseline_source_commit": "c5b1a272814b1587f86130c9a91a451da0f81dd8",
+  "deployment_baseline_source_commit": "41826f4bb78bc5ab5abf1a546ec255f36181ba5b",
   "source_change_counts": {
-    "added": 1,
+    "added": 2,
     "modified": 1,
-    "removed": 1
+    "removed": 0
   },
-  "source_files_scanned": 13038,
-  "target_tracked_files_scanned": 2772,
+  "source_files_scanned": 13040,
+  "target_tracked_files_scanned": 2771,
   "target_untracked_files_scanned": [],
-  "articles_checked": 2220,
-  "managed_files_checked": 2530,
-  "previous_managed_files_checked": 2531,
-  "new_articles": [],
+  "articles_checked": 2221,
+  "managed_files_checked": 2531,
+  "previous_managed_files_checked": 2530,
+  "new_articles": [
+    "docs/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.md"
+  ],
   "modified_articles": [
     "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
   ],
-  "deleted_articles": [
-    "docs/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.md"
-  ],
+  "deleted_articles": [],
   "other_new": [],
   "other_modified": [],
   "other_deleted": [],
   "unchanged_articles": 2219,
   "new_images": 1,
-  "image_bytes": 4656224,
-  "image_commit": "3395fc5de8d61f4b8a2841766dc401a4da68650d",
+  "image_bytes": 483396,
+  "image_commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
   "image_repo": "AndersonHJB/bornforthis-blog-images-one",
   "image_urls_verified": true,
   "new_images_full_body_sha256_verified": 1,
   "prior_asset_mappings_checked": {
     "counts": {
       "legacy": 7960,
-      "new": 192,
+      "new": 193,
       "local": 1
     },
     "source_drift": [],
-    "prior_assets": 8153,
+    "prior_assets": 8154,
     "legacy_commit": "e4488968e5de7292178bace700acb3860cd13f67",
-    "initial_new_commit": "f1993b27f0c0d982ffda2500a98fc2a326a3660b"
+    "initial_new_commit": "3395fc5de8d61f4b8a2841766dc401a4da68650d",
+    "source_files": 13040,
+    "new_tree_blobs": 213,
+    "legacy_tree_blobs": 7896
   },
-  "changed_article_unchanged_image_urls": 13,
-  "active_source_asset_mappings": 8154,
+  "changed_article_unchanged_image_urls": 14,
+  "active_source_asset_mappings": 8155,
+  "image_full_body_sha256_verified": 15,
+  "reused_urls_full_body_sha256_verified": 14,
   "preserved_deployment_configuration": [
     ".github/workflows/deploy-docs.yml",
     ".gitignore",
@@ -243,8 +248,8 @@
   "classification_counts": {
     "excluded": 2378,
     "deployment-overlay": 12,
-    "source-managed": 2518,
-    "asset": 8130
+    "source-managed": 2519,
+    "asset": 8131
   },
   "newly_excluded_source_files": [],
   "conflicts": [],
@@ -253,20 +258,24 @@
     "retained_count": 26,
     "new_count": 0
   },
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4",
-  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/articles-work/semantic-verification.json",
-  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/images-work/image-url-verification.json",
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75",
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/semantic-verification.json",
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/images-work/image-url-verification.json",
   "current_validation": {
     "status": "passed",
-    "article_replay_checked": 2220,
+    "article_replay_checked": 2221,
     "article_replay_changes": 0,
     "unsupported": 0,
     "new_unresolved_references": 0,
     "pending_uploads": 0,
-    "managed_file_hashes_verified": 2530,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/articles-work/replay-report.json",
-    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/site-output-validation.json",
-    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/articles-work/deployed-replay-report.json"
+    "managed_file_hashes_verified": 2531,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/replay-report.json",
+    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/site-output-validation.json",
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/deployed-replay-report.json"
+  },
+  "preserved_article_override_counts": {
+    "guarded_files": 59,
+    "files_with_scoped_patches": 9
   },
   "target_status": "working_tree_updated",
   "target_committed": false,
@@ -276,18 +285,23 @@
     "performed_for_current_revision": true,
     "command": "pnpm run docs:build",
     "success": true,
-    "rendered_pages": 3332,
-    "unique_output_routes": 3314,
+    "rendered_pages": 3333,
+    "unique_output_routes": 3315,
     "warnings": [
       "图标插件忽略离线扫描选项",
-      "部分打包文件超出大小提醒阈值",
-      "既有 hideHeading 字符串/布尔类型告警",
+      "部分打包文件超过大小提醒阈值",
+      "既有 hideHeading 字段类型告警",
       "既有 Share 组件未注册",
-      "既有匿名组件缺少模板或渲染函数告警"
+      "既有匿名组件缺少模板或渲染函数"
     ],
-    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-41826f4/site-build.log"
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/site-build.log"
   },
-  "image_full_body_sha256_verified": 14,
-  "reused_urls_full_body_sha256_verified": 13,
-  "completed_at": "2026-11-15T23:43:50+08:00"
+  "source_metadata_observations": [
+    {
+      "kind": "canonical_missing_output_route",
+      "page": "column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.html",
+      "canonical": "https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/create-skills-from-conversation/"
+    }
+  ],
+  "completed_at": "2026-11-16T00:28:30+08:00"
 }

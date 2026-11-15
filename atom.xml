@@ -5,7 +5,7 @@
   <subtitle>Python 1v1,AI悦创,一对一,Python,编程一对一,C++,Java,AI,人工智能,黄家宝,Python一对一教学</subtitle>
   <icon>https://bornforthis.cn/python</icon>
   <logo>https://bornforthis.cn/aiyc.png</logo>
-  <updated>2026-11-06T16:07:31.698Z</updated>
+  <updated>2026-11-15T15:14:32.367Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bornforthis.cn/atom.xml"/>
   <link rel="alternate" href="https://bornforthis.cn/"/>
@@ -33,21 +33,13 @@
   <category term="NOI竞赛辅导"/>
   <category term="GitBook"/>
   <category term="启发俱乐部"/>
-  <category term="我收集的网站"/>
   <category term="live"/>
   <category term="life"/>
   <category term="now"/>
+  <category term="我收集的网站"/>
   <category term="科普"/>
   <category term="直播"/>
   <category term="OBS"/>
-  <category term="Bornforthis项目"/>
-  <category term="PS 笔记"/>
-  <category term="stackoverflow"/>
-  <category term="python"/>
-  <category term="machine-learning"/>
-  <category term="scikit-learn"/>
-  <category term="xgboost"/>
-  <category term="gridsearchcv"/>
   <category term="刘润"/>
   <category term="Python Base Notebook"/>
   <category term="Numpy"/>
@@ -62,12 +54,160 @@
   <category term="Java 课程补充"/>
   <category term="Python time"/>
   <category term="IDEA 编辑器"/>
+  <category term="破解"/>
+  <category term="WebStorm"/>
+  <category term="HTML"/>
   <contributor>
     <name>AI悦创</name>
   </contributor>
   <contributor>
     <name>傻子</name>
   </contributor>
+  <entry>
+    <title type="text">厦门工学院演讲｜AI 已经会写代码了，我该怎么学？</title>
+    <id>https://bornforthis.cn/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.html</id>
+    <link href="https://bornforthis.cn/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.html"/>
+    <updated>2026-11-15T15:00:19.000Z</updated>
+    <summary type="html"><![CDATA[<p><em>试讲安排：50 分钟分享与练习，10 分钟答疑。正文可以直接讲，斜体为现场提示。</em></p>
+<h2>1. 有没有一件事，你已经嫌它麻烦很久了？</h2>
+<p>厦门工学院的同学们，大家好，我是悦创。先给大家看一张聊天截图。我很喜欢里面的一句话。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/49/491af57b468554f4deef65799b891b2ce37d168cc7b552d768d1d853ce09c827.png" alt="一段关于使用 AI 后才发现自己有许多需求的聊天" tabindex="0" loading="lazy"><figcaption>一段关于使用 AI 后才发现自己有许多需求的聊天</figcaption></figure>]]></summary>
+    <content type="html"><![CDATA[<p><em>试讲安排：50 分钟分享与练习，10 分钟答疑。正文可以直接讲，斜体为现场提示。</em></p>
+<h2>1. 有没有一件事，你已经嫌它麻烦很久了？</h2>
+<p>厦门工学院的同学们，大家好，我是悦创。先给大家看一张聊天截图。我很喜欢里面的一句话。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/49/491af57b468554f4deef65799b891b2ce37d168cc7b552d768d1d853ce09c827.png" alt="一段关于使用 AI 后才发现自己有许多需求的聊天" tabindex="0" loading="lazy"><figcaption>一段关于使用 AI 后才发现自己有许多需求的聊天</figcaption></figure>
+<blockquote>
+<p>用上这些东西之后，我才发现，我是有很多需求的。</p>
+</blockquote>
+<p>你们也可以试试。打开手机备忘录，回想一下过去七天，哪件事让你叹过一口气，心想「怎么又要我弄一遍」？也许是六个人约一次小组讨论，群里来回问了十几条，最后还有一个人那天下午有课。把你自己的那件事写下来，一句话就够。</p>
+<p><em>留半分钟，请两位同学读一读。各追问一次「上一次发生是在什么时候？当时你是怎么弄的？」把其中一个例子记在白板上，结尾再回来。</em></p>
+<p>有了这句话，今天你就有东西可以学了。接下来你可以一直拿它来对照：悦创讲的这一步，能不能帮我把刚才那件事做完？</p>
+<h2>二、我读软件工程时，怎样学一件课上没教的事？</h2>
+<p>2018 年，我进了软件工程专业。在学校里，今天该学哪一章、期末考什么，有人告诉你。轮到我自己想做点东西，麻烦就来了。我知道课上学的和眼前需要的有一段距离，可中间缺的是哪一块，我也说不上来。</p>
+<p>我那时候有个很朴素的办法，上 Google 搜，看有没有人已经把这件事做过一遍，还肯把过程写下来。搜着搜着我也动了个念头：我能不能把自己的学习过程也写成文章？说实话，当时我还想过，没准写着写着就出名了，还能赚点钱。这个起点挺普通的。</p>
+<p>真正让我一直写下去的，是跟着别人动手时遇到的那些小麻烦。文章里一句话就过去了，我得停下来弄明白。等我终于弄明白时，我还记得五分钟前的自己到底没看懂哪个词。这时候写下来最合适。后来我在公众号、CSDN 和自己的博客上写文章，也把这种写法带进了编程课。</p>
+<p>我们来做一道我在 2024 年的 Python 教程里写过的题。<strong>1900 年和 2000 年，哪一年有 2 月 29 日？</strong> 认为两个都有的同学可以举手。隔壁同学如果选得跟你不一样，先听听他的理由。</p>
+<p><em>投屏打开教程第 11.7 节「年份分类」，先遮住判断规则。收两种理由后再往下滚。<a href="/column/Python-Programming-Course/P02-1-Python-Starter-Journey/10-python-if.html" target="_blank">《10-if 条件判断》</a></em></p>
+<p>如果只记得「四年一闰」，你会把两个都选上。把规则读全就有意思了：遇到整百年份，还得看能不能被 400 整除。1900 年的二月有 28 天，2000 年有 29 天。现在请你给一个刚学到这里的同学补一行笔记。你会把哪两个年份并排写给他？为什么偏偏选这两个？</p>
+<h2>三、如果今天让我从零开始学 AI（8 分钟）</h2>
+<p>假设我刚刚也答错了。我可以跟 AI 说「给我讲讲闰年」，它大概能写出一段挺像课本的话。我更愿意把自己是怎么想的也交代出来。</p>
+<blockquote>
+<p>我用「能被 4 整除」判断闰年。照这个办法，1900 年和 2000 年都应该有 2 月 29 日。请给我一个能检验这个办法的例子。先让我算，等我回答后再解释。</p>
+</blockquote>
+<p>这样问有个好处。我一开口，就得把自己相信的那条规则说清楚。接下来我可以翻日历核对，可以把年份输进刚才那个程序，也可以追问「那 2100 年呢」。最后留下的笔记可能只有两行，下一次我却知道该拿什么例子检查答案。</p>
+<p>这也是我说的「跟有结果的人学」。比如你刷到一段视频，说 AI 能在几秒钟内排好一个班的课表。我会想点开看看：作者给它的原始课表是什么样的？我能拿自己的两门课试一下吗？如果我改一个上课时间，结果会跟着变吗？愿意把材料、做法和结果放出来的人，给了你跟着学的机会。</p>
+<p><em>请大家两人一组，用两分钟把开场写下的麻烦事讲给同桌。听的人只问「你拿什么给我看，我才知道这个办法真的管用？」请一组分享修改前后的说法。</em></p>
+<p>接下来换你们当老师。我请 AI 做一道题，你们来出卷、判卷。</p>
+<h2>四、现场演示：这两门选修课，我能一起选吗？（15 分钟）</h2>
+<p><em>投屏打开空白对话。下面是演示用的虚构课表，按轮次给材料。没有网络时，请一位同学当排课助手，另一位拿笔在白板上画出上课时间。</em></p>
+<p><strong>第一轮，先给半张课表。</strong></p>
+<blockquote>
+<p>我想选两门课。摄影基础在周二第 3、4 节，设计史也在周二第 3、4 节。根据我给的信息，两门课会撞吗？请写出你判断的依据。</p>
+</blockquote>
+<p>先别发。大家觉得现在能确定吗？哪位同学愿意替我问教务老师一句话？</p>
+<p><em>收几个回答，再发送。请一位同学用手指给大家看，AI 回答里的哪句话有课表支持，哪一句依赖一个假设。如果它主动追问周次，就请全场给它补材料。</em></p>
+<p><strong>第二轮，把两行补完整。</strong></p>
+<p>| 课程 | 上课周次 | 星期 | 节次 |
+|</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2026-11-11T00:00:00.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">04-用支付宝买美区 Apple 礼品卡，在 iPhone 上订阅 ChatGPT Plus</title>
+    <id>https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.html</id>
+    <link href="https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.html"/>
+    <updated>2026-11-15T15:00:19.000Z</updated>
+    <summary type="html"><![CDATA[<p>用支付宝买美区 Apple 礼品卡后，还要在两个地方操作：先把卡密兑入自己的美区 Apple 账户，再到 iPhone 或 iPad 的 ChatGPT App 里订阅。<strong>App Store 余额增加</strong>说明兑换成功；<strong>ChatGPT 设置里显示 Plus</strong>才说明订阅生效。</p>
+<p>以一张 20 美元的礼品卡为例，2026 年 7 月的 Pockyt 订单实付 ¥135.98，10 月同面额付款页显示 ¥134.44。11 月 6 日的 SEAGM 订单实付 ¥138.13，约三分钟收到卡密。下文截图对应这些历史记录，买卡时请核对自己的实付金额和含税月费。</p>]]></summary>
+    <content type="html"><![CDATA[<p>用支付宝买美区 Apple 礼品卡后，还要在两个地方操作：先把卡密兑入自己的美区 Apple 账户，再到 iPhone 或 iPad 的 ChatGPT App 里订阅。<strong>App Store 余额增加</strong>说明兑换成功；<strong>ChatGPT 设置里显示 Plus</strong>才说明订阅生效。</p>
+<p>以一张 20 美元的礼品卡为例，2026 年 7 月的 Pockyt 订单实付 ¥135.98，10 月同面额付款页显示 ¥134.44。11 月 6 日的 SEAGM 订单实付 ¥138.13，约三分钟收到卡密。下文截图对应这些历史记录，买卡时请核对自己的实付金额和含税月费。</p>
+<h2>从哪一步开始</h2>
+<p>| 你手里有什么，或卡在哪里 | 本文中的对应步骤 |
+|</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2026-11-09T00:00:00.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">10-AI 发展下，非专业的数据分析、爬虫应该如何学习？</title>
+    <id>https://bornforthis.cn/column/Python-Programming-Course/P09-FAQ/FAQ10.html</id>
+    <link href="https://bornforthis.cn/column/Python-Programming-Course/P09-FAQ/FAQ10.html"/>
+    <updated>2026-11-15T15:00:19.000Z</updated>
+    <summary type="html"><![CDATA[<h2>1. 问题点</h2>
+<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d0/d01fd109499415414c775fc718e01eda60ae5673257f4bd06ecb0c7adb074194.png" alt tabindex="0" loading="lazy"></figure>
+<ol>
+<li>AI AGENT 进行爬虫和数据分析，数据真伪怎么判断？人工？代码？✅</li>
+<li>Workbuddy 和 Codex 的应用对比，哪个更合适？</li>
+<li>图片去水印、图片换色、一步步要去微调：<strong>建议做成 Skills</strong>；✅</li>
+<li>产品调研、图片调用；✅</li>
+<li>A 产品图，应为 AI 被改变成其它的产品图；✅</li>
+<li>排版节约了不少时间；（排版 Skills+设计 Skills）；✅</li>
+<li>做一个属于自己的作品集，每次只要调用就可以增加，而不是每次都手搓。手搓越多或者 AI 越改越乱，还不如一开始的第一版。（版本控制）✅</li>
+<li>从零到一的起步降低了门槛！✅</li>
+<li>分析产品定位，某些领域的关键词（专业名词）不够精准，有点广泛。人说一个专业名词，AI 可以理解我说的专业名词的含义。类似某些行业专属的术语，希望和 AI 达成某些共识。✅</li>
+<li>原本是静态图片，希望可以做成网站动起来。（增加互动性）训练一个专属的，设计工具、做成动态交互。（静态——&gt;动态交互）（Skills）</li>
+<li>硬件：按正常需要换电脑才能达到的性能制作，希望不换电脑。直接可以让角色生成类似：多视图！（<strong>GPT 支持多视图</strong>）</li>
+<li>AI 学习，知识蒸馏。先找到实体树的 PDF 资源。</li>
+<li>生活类：
+<ol>
+<li>投资资讯收集，形成属于自己的投资建议或者日报。市面的产品，并不能真正属于适合自己的投资策略。</li>
+<li>旅游类：飞机票的最优惠的选择，给 AI 进行多平台比价。（AI 比价+适当性的预测）</li>
+</ol>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h2>1. 问题点</h2>
+<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d0/d01fd109499415414c775fc718e01eda60ae5673257f4bd06ecb0c7adb074194.png" alt tabindex="0" loading="lazy"></figure>
+<ol>
+<li>AI AGENT 进行爬虫和数据分析，数据真伪怎么判断？人工？代码？✅</li>
+<li>Workbuddy 和 Codex 的应用对比，哪个更合适？</li>
+<li>图片去水印、图片换色、一步步要去微调：<strong>建议做成 Skills</strong>；✅</li>
+<li>产品调研、图片调用；✅</li>
+<li>A 产品图，应为 AI 被改变成其它的产品图；✅</li>
+<li>排版节约了不少时间；（排版 Skills+设计 Skills）；✅</li>
+<li>做一个属于自己的作品集，每次只要调用就可以增加，而不是每次都手搓。手搓越多或者 AI 越改越乱，还不如一开始的第一版。（版本控制）✅</li>
+<li>从零到一的起步降低了门槛！✅</li>
+<li>分析产品定位，某些领域的关键词（专业名词）不够精准，有点广泛。人说一个专业名词，AI 可以理解我说的专业名词的含义。类似某些行业专属的术语，希望和 AI 达成某些共识。✅</li>
+<li>原本是静态图片，希望可以做成网站动起来。（增加互动性）训练一个专属的，设计工具、做成动态交互。（静态——&gt;动态交互）（Skills）</li>
+<li>硬件：按正常需要换电脑才能达到的性能制作，希望不换电脑。直接可以让角色生成类似：多视图！（<strong>GPT 支持多视图</strong>）</li>
+<li>AI 学习，知识蒸馏。先找到实体树的 PDF 资源。</li>
+<li>生活类：
+<ol>
+<li>投资资讯收集，形成属于自己的投资建议或者日报。市面的产品，并不能真正属于适合自己的投资策略。</li>
+<li>旅游类：飞机票的最优惠的选择，给 AI 进行多平台比价。（AI 比价+适当性的预测）</li>
+</ol>
+</li>
+</ol>
+<h2>2. AI Agent 爬虫和数据分析，数据真伪怎么判断？</h2>
+<p>AI 做数据分析、爬虫是否可以？——&gt;可以！</p>
+<p><strong>数据可信度需要“代码批量检查＋人工关键复核”；如果核心是长期、可复现的爬虫和数据分析，我更倾向 Codex；如果主要是日常资料整理、表格分析和办公协作，可以优先试 WorkBuddy。</strong></p>
+<p>先说明一个问题：<strong>“抓取正确”和“数据真实”是两回事。</strong></p>
+<h3>2.1 先分清：你需要验证的究竟是什么</h3>
+<p>“数据真伪”至少包含五个不同问题：</p>
+<p>| 要判断的问题           | 需要回答的问题                                       | 代码适合做什么                             | 主要验证方法                                                 | 人工需要判断什么                           | Think                                              |
+|</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2026-11-02T19:14:44.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
   <entry>
     <title type="text">零成本搭建团队域名邮箱：Cloudflare Email Routing 完全指南</title>
     <id>https://bornforthis.cn/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.html</id>
@@ -157,73 +297,6 @@
       <name>AI悦创</name>
     </contributor>
     <published>2026-11-02T19:33:48.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">10-AI 发展下，非专业的数据分析、爬虫应该如何学习？</title>
-    <id>https://bornforthis.cn/column/Python-Programming-Course/P09-FAQ/FAQ10.html</id>
-    <link href="https://bornforthis.cn/column/Python-Programming-Course/P09-FAQ/FAQ10.html"/>
-    <updated>2026-11-06T15:57:25.000Z</updated>
-    <summary type="html"><![CDATA[<h2>1. 问题点</h2>
-<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d0/d01fd109499415414c775fc718e01eda60ae5673257f4bd06ecb0c7adb074194.png" alt tabindex="0" loading="lazy"></figure>
-<ol>
-<li>AI AGENT 进行爬虫和数据分析，数据真伪怎么判断？人工？代码？✅</li>
-<li>Workbuddy 和 Codex 的应用对比，哪个更合适？</li>
-<li>图片去水印、图片换色、一步步要去微调：<strong>建议做成 Skills</strong>；✅</li>
-<li>产品调研、图片调用；✅</li>
-<li>A 产品图，应为 AI 被改变成其它的产品图；✅</li>
-<li>排版节约了不少时间；（排版 Skills+设计 Skills）；✅</li>
-<li>做一个属于自己的作品集，每次只要调用就可以增加，而不是每次都手搓。手搓越多或者 AI 越改越乱，还不如一开始的第一版。（版本控制）✅</li>
-<li>从零到一的起步降低了门槛！✅</li>
-<li>分析产品定位，某些领域的关键词（专业名词）不够精准，有点广泛。人说一个专业名词，AI 可以理解我说的专业名词的含义。类似某些行业专属的术语，希望和 AI 达成某些共识。✅</li>
-<li>原本是静态图片，希望可以做成网站动起来。（增加互动性）训练一个专属的，设计工具、做成动态交互。（静态——&gt;动态交互）（Skills）</li>
-<li>硬件：按正常需要换电脑才能达到的性能制作，希望不换电脑。直接可以让角色生成类似：多视图！（<strong>GPT 支持多视图</strong>）</li>
-<li>AI 学习，知识蒸馏。先找到实体树的 PDF 资源。</li>
-<li>生活类：
-<ol>
-<li>投资资讯收集，形成属于自己的投资建议或者日报。市面的产品，并不能真正属于适合自己的投资策略。</li>
-<li>旅游类：飞机票的最优惠的选择，给 AI 进行多平台比价。（AI 比价+适当性的预测）</li>
-</ol>
-</li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[<h2>1. 问题点</h2>
-<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d0/d01fd109499415414c775fc718e01eda60ae5673257f4bd06ecb0c7adb074194.png" alt tabindex="0" loading="lazy"></figure>
-<ol>
-<li>AI AGENT 进行爬虫和数据分析，数据真伪怎么判断？人工？代码？✅</li>
-<li>Workbuddy 和 Codex 的应用对比，哪个更合适？</li>
-<li>图片去水印、图片换色、一步步要去微调：<strong>建议做成 Skills</strong>；✅</li>
-<li>产品调研、图片调用；✅</li>
-<li>A 产品图，应为 AI 被改变成其它的产品图；✅</li>
-<li>排版节约了不少时间；（排版 Skills+设计 Skills）；✅</li>
-<li>做一个属于自己的作品集，每次只要调用就可以增加，而不是每次都手搓。手搓越多或者 AI 越改越乱，还不如一开始的第一版。（版本控制）✅</li>
-<li>从零到一的起步降低了门槛！✅</li>
-<li>分析产品定位，某些领域的关键词（专业名词）不够精准，有点广泛。人说一个专业名词，AI 可以理解我说的专业名词的含义。类似某些行业专属的术语，希望和 AI 达成某些共识。✅</li>
-<li>原本是静态图片，希望可以做成网站动起来。（增加互动性）训练一个专属的，设计工具、做成动态交互。（静态——&gt;动态交互）（Skills）</li>
-<li>硬件：按正常需要换电脑才能达到的性能制作，希望不换电脑。直接可以让角色生成类似：多视图！（<strong>GPT 支持多视图</strong>）</li>
-<li>AI 学习，知识蒸馏。先找到实体树的 PDF 资源。</li>
-<li>生活类：
-<ol>
-<li>投资资讯收集，形成属于自己的投资建议或者日报。市面的产品，并不能真正属于适合自己的投资策略。</li>
-<li>旅游类：飞机票的最优惠的选择，给 AI 进行多平台比价。（AI 比价+适当性的预测）</li>
-</ol>
-</li>
-</ol>
-<h2>2. AI Agent 爬虫和数据分析，数据真伪怎么判断？</h2>
-<p>AI 做数据分析、爬虫是否可以？——&gt;可以！</p>
-<p><strong>数据可信度需要“代码批量检查＋人工关键复核”；如果核心是长期、可复现的爬虫和数据分析，我更倾向 Codex；如果主要是日常资料整理、表格分析和办公协作，可以优先试 WorkBuddy。</strong></p>
-<p>先说明一个问题：<strong>“抓取正确”和“数据真实”是两回事。</strong></p>
-<h3>2.1 先分清：你需要验证的究竟是什么</h3>
-<p>“数据真伪”至少包含五个不同问题：</p>
-<p>| 要判断的问题     | 需要回答的问题                                       | 代码适合做什么                             | 主要验证方法                                                 | 人工需要判断什么                           | Think                                              |
-|</p>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2026-11-02T19:14:44.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -3948,58 +4021,6 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
-    <title type="text">Termius 7.28.0 破解版 (最好用的SSH连接客户端)</title>
-    <id>https://bornforthis.cn/MacWK/01-Termius.html</id>
-    <link href="https://bornforthis.cn/MacWK/01-Termius.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>特别提醒</h2>
-<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
-<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
-<h3>快速方便的连接</h3>
-<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
-<h3>稳定高效的 command</h3>
-<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>]]></summary>
-    <content type="html"><![CDATA[<h2>特别提醒</h2>
-<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
-<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
-<h3>快速方便的连接</h3>
-<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
-<h3>稳定高效的 command</h3>
-<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>
-<h3>主题定制</h3>
-<p>统一漂亮舒适的 commond，支持12种主题切换，可以调整字体大小</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e5/e51ea12e6fe38e2dca6f11bfb5faf3cdf079693d08b9297e9504fd0748b3dd55.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/c5/c504c4b341f5be89e8676b62f09694bfb13299e71422a2f22b4c5b028b66d7e9.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/2e/2e105e51af20cbcf1373e0c804739591d39dbf54ad577205fa07b77cadd5d072.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/67/671cd47163ea24f6959969c14623cf9984094c2019256a9ddca30d46c1eb909c.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e9/e9ca4f2db8f3cc1838bafdcdb25e9fc9450f540605d80bef0035badb89ab7936.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/39/398509682aadbc2fd8c6032f9d5bff2fdbec439c0d39a7a6486aa5f93bba3bb8.jpg" alt tabindex="0" loading="lazy"></figure>
-<p><strong>软件下载地址：</strong><a href="https://xiaoniaoyun.im/f/R5SQS6" target="_blank" rel="noopener noreferrer"><strong>https://xiaoniaoyun.im/f/R5SQS6</strong></a></p>
-<p>失效请留言。</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="MacWK"/>
-    <category term="Mac破解安装包"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-10-16T21:35:10.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
     <title type="text">Development plan</title>
     <id>https://bornforthis.cn/Code1v1/Development-plan.html</id>
     <link href="https://bornforthis.cn/Code1v1/Development-plan.html"/>
@@ -4070,6 +4091,58 @@
       <name>AI悦创</name>
     </contributor>
     <published>2023-01-31T23:55:27.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Termius 7.28.0 破解版 (最好用的SSH连接客户端)</title>
+    <id>https://bornforthis.cn/MacWK/01-Termius.html</id>
+    <link href="https://bornforthis.cn/MacWK/01-Termius.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<h2>特别提醒</h2>
+<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
+<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
+<h3>快速方便的连接</h3>
+<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
+<h3>稳定高效的 command</h3>
+<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>]]></summary>
+    <content type="html"><![CDATA[<h2>特别提醒</h2>
+<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
+<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
+<h3>快速方便的连接</h3>
+<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
+<h3>稳定高效的 command</h3>
+<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>
+<h3>主题定制</h3>
+<p>统一漂亮舒适的 commond，支持12种主题切换，可以调整字体大小</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e5/e51ea12e6fe38e2dca6f11bfb5faf3cdf079693d08b9297e9504fd0748b3dd55.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/c5/c504c4b341f5be89e8676b62f09694bfb13299e71422a2f22b4c5b028b66d7e9.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/2e/2e105e51af20cbcf1373e0c804739591d39dbf54ad577205fa07b77cadd5d072.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/67/671cd47163ea24f6959969c14623cf9984094c2019256a9ddca30d46c1eb909c.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e9/e9ca4f2db8f3cc1838bafdcdb25e9fc9450f540605d80bef0035badb89ab7936.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/39/398509682aadbc2fd8c6032f9d5bff2fdbec439c0d39a7a6486aa5f93bba3bb8.jpg" alt tabindex="0" loading="lazy"></figure>
+<p><strong>软件下载地址：</strong><a href="https://xiaoniaoyun.im/f/R5SQS6" target="_blank" rel="noopener noreferrer"><strong>https://xiaoniaoyun.im/f/R5SQS6</strong></a></p>
+<p>失效请留言。</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="MacWK"/>
+    <category term="Mac破解安装包"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-10-16T21:35:10.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -4323,44 +4396,6 @@
       <name>AI悦创</name>
     </contributor>
     <published>2023-06-30T12:12:42.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">0基础python入门培训</title>
-    <id>https://bornforthis.cn/advertising/Python1v1.html</id>
-    <link href="https://bornforthis.cn/advertising/Python1v1.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/4c/4c39b204d7febb4b14ff635e5c7068a5f4af5ae087240a5b8de3401c9fa976df.png" alt tabindex="0" loading="lazy"></figure>
-<h1>0基础python入门培训</h1>
-<p>0 基础入门 Python 难在哪里？难在概念理解不透彻，难在无人指导抓不住重点，难在一个人学习缺少计划难以持久，难在遇到问题无人解答耽搁进度。</p>
-<p>本人10年编程经验，在线教学收徒已超过百人，有着丰富的教学经验，不同于培训机构里的老师，我仍然在职工作，技术水平保持在业界最高水准。</p>]]></summary>
-    <content type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/4c/4c39b204d7febb4b14ff635e5c7068a5f4af5ae087240a5b8de3401c9fa976df.png" alt tabindex="0" loading="lazy"></figure>
-<h1>0基础python入门培训</h1>
-<p>0 基础入门 Python 难在哪里？难在概念理解不透彻，难在无人指导抓不住重点，难在一个人学习缺少计划难以持久，难在遇到问题无人解答耽搁进度。</p>
-<p>本人10年编程经验，在线教学收徒已超过百人，有着丰富的教学经验，不同于培训机构里的老师，我仍然在职工作，技术水平保持在业界最高水准。</p>
-<p>历经一年潜心研究和实践经验总结，编制出一套0基础python入门课程，专门为初学者设计，本课程有以下优点：</p>
-<ol>
-<li>使用最通俗的语言讲解最专业的知识和概念</li>
-<li>示例丰富可供学习参考，大量练习题可巩固所学</li>
-<li>教学期间，可随时提问交流，答疑解惑，问题不积压，保证学习进度</li>
-</ol>
-<p>| 编号   | 内容                       | 教学重点                                                     | 课时  |
-|</p>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="Python 1v1"/>
-    <category term="Python一对一教学"/>
-    <category term="Python一对一辅导"/>
-    <category term="Python指导"/>
-    <category term="Python辅导"/>
-    <category term="少儿编程一对一"/>
-    <category term="NOI竞赛辅导"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-02-13T08:27:35.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -4897,6 +4932,44 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
+    <title type="text">0基础python入门培训</title>
+    <id>https://bornforthis.cn/advertising/Python1v1.html</id>
+    <link href="https://bornforthis.cn/advertising/Python1v1.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/4c/4c39b204d7febb4b14ff635e5c7068a5f4af5ae087240a5b8de3401c9fa976df.png" alt tabindex="0" loading="lazy"></figure>
+<h1>0基础python入门培训</h1>
+<p>0 基础入门 Python 难在哪里？难在概念理解不透彻，难在无人指导抓不住重点，难在一个人学习缺少计划难以持久，难在遇到问题无人解答耽搁进度。</p>
+<p>本人10年编程经验，在线教学收徒已超过百人，有着丰富的教学经验，不同于培训机构里的老师，我仍然在职工作，技术水平保持在业界最高水准。</p>]]></summary>
+    <content type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/4c/4c39b204d7febb4b14ff635e5c7068a5f4af5ae087240a5b8de3401c9fa976df.png" alt tabindex="0" loading="lazy"></figure>
+<h1>0基础python入门培训</h1>
+<p>0 基础入门 Python 难在哪里？难在概念理解不透彻，难在无人指导抓不住重点，难在一个人学习缺少计划难以持久，难在遇到问题无人解答耽搁进度。</p>
+<p>本人10年编程经验，在线教学收徒已超过百人，有着丰富的教学经验，不同于培训机构里的老师，我仍然在职工作，技术水平保持在业界最高水准。</p>
+<p>历经一年潜心研究和实践经验总结，编制出一套0基础python入门课程，专门为初学者设计，本课程有以下优点：</p>
+<ol>
+<li>使用最通俗的语言讲解最专业的知识和概念</li>
+<li>示例丰富可供学习参考，大量练习题可巩固所学</li>
+<li>教学期间，可随时提问交流，答疑解惑，问题不积压，保证学习进度</li>
+</ol>
+<p>| 编号   | 内容                       | 教学重点                                                     | 课时  |
+|</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="Python 1v1"/>
+    <category term="Python一对一教学"/>
+    <category term="Python一对一辅导"/>
+    <category term="Python指导"/>
+    <category term="Python辅导"/>
+    <category term="少儿编程一对一"/>
+    <category term="NOI竞赛辅导"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-02-13T08:27:35.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
     <title type="text">手把手教你GitBook使用</title>
     <id>https://bornforthis.cn/archives/491.html</id>
     <link href="https://bornforthis.cn/archives/491.html"/>
@@ -5302,6 +5375,264 @@
       <name>AI悦创</name>
     </contributor>
     <published>2023-01-03T23:17:42.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">为什么机器人不能点击网站上的“我不是机器人”框？</title>
+    <id>https://bornforthis.cn/medium/why-cant-robots-click-the-i-m-not-a-robot-box-on-websites.html</id>
+    <link href="https://bornforthis.cn/medium/why-cant-robots-click-the-i-m-not-a-robot-box-on-websites.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/64/6469a25c63a12ce8c8c025c327bf66595fca9bc28a30f7b56bdf4544bd7bbd10.jpeg" alt tabindex="0" loading="lazy"></figure>
+<div style="text-align:center">
+<p>点击一个小框就能告诉 Google 你是否是人类</p>
+</div>
+<p>你好，我是悦创。</p>
+<p>如果你在网上浏览过一段时间，你很可能会遇到一个 reCAPTCHA 框。这些框在你第一次进入某些网站时会出现，要求你勾选一个框来证明你不是机器人。这个框被标记为“我不是机器人”，每个人都会不假思索地点击，因为他们不是机器人。有时候，点击这个框会迫使你进行一系列视觉谜题，比如让你点击所有带有摩托车的图片或所有带有路灯的图片。这些基本测试让人们相信机器人做不到这些。但实际情况并非如此。</p>]]></summary>
+    <content type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/64/6469a25c63a12ce8c8c025c327bf66595fca9bc28a30f7b56bdf4544bd7bbd10.jpeg" alt tabindex="0" loading="lazy"></figure>
+<div style="text-align:center">
+<p>点击一个小框就能告诉 Google 你是否是人类</p>
+</div>
+<p>你好，我是悦创。</p>
+<p>如果你在网上浏览过一段时间，你很可能会遇到一个 reCAPTCHA 框。这些框在你第一次进入某些网站时会出现，要求你勾选一个框来证明你不是机器人。这个框被标记为“我不是机器人”，每个人都会不假思索地点击，因为他们不是机器人。有时候，点击这个框会迫使你进行一系列视觉谜题，比如让你点击所有带有摩托车的图片或所有带有路灯的图片。这些基本测试让人们相信机器人做不到这些。但实际情况并非如此。</p>
+<p>在线机器人，或者通常称为“机器人”，它们非常先进。它们被训练用于从玩 Runescape 到管理整个 X (前称 Twitter) 账户农场等各种任务。所以他们显然可以点击一个框或一个带有停车标志的图像。关键在于这些测试并不是在判断你是否可以点击这些东西，而是如何点击它们。</p>
+<blockquote>
+<p>reCAPTCHA 框判断你是否为人类的方式是，你与机器相比的缓慢和低效。</p>
+</blockquote>
+<h2>什么是 reCAPTCHA？</h2>
+<p>reCAPTCHA 是 Google 拥有的一家公司，负责运行当你在网上浏览时屏幕上出现的所有小框。这些框上有一个右侧带箭头的循环图标，上面写着 reCAPTCHA。这是 Google 为网站主机提供的一项高级程序，帮助他们阻止不需要的流量。</p>
+<p>reCAPTCHA 取代了旧的 CAPTCHA 系统。你可能还记得原始的 CAPTCHA，它们是一系列用波浪字体书写或通过某种屏幕遮挡以使其难以辨认的字母和数字。不幸的是，旧系统对视力不好的人来说很困难，对普通人来说可能非常令人沮丧。机器人最终学会了破解旧的 CAPTCHA 系统，所以 Google 收购了一家公司，更新系统以对抗更先进的在线机器人。</p>
+<p>CAPTCHA 代表完全自动化的公开图灵测试，用于区分计算机和人类。这个名称很拗口，但它非常直白地描述了这些奇怪的框的目的。它们旨在进行自动化的公开图灵测试。</p>
+<p>什么是图灵测试？图灵测试是由计算机科学家艾伦·图灵在 1950 年设计的一个简单测试。该测试的目的是确定某人是计算机、机器人还是人类。机器人或非人类计算实体将不通过测试，从而暴露它们不是人类的身份。</p>
+<p>那么，这些框是如何区分机器人和人类的呢？这相当侵入性。</p>
+<h2>reCAPTCHA 方法</h2>
+<p>如上所述，测试并不是一个人或机器人能否点击提示你声明“我不是机器人”的小框（尽管任何点击该框的机器人都是在撒谎！有些机器人真无耻。）测试的重点是看你如何点击框。机器人在某些事情上总是比人类快速和高效。例如，如果你编程一个机器人来点击这些烦人的框，机器人将直接快速定位到目标点并尽可能快地点击。光标可能会沿着到达框的最短路径完美直线移动，从而响应极快。响应的速度和鼠标的路径是测试的一部分。</p>
+<p>你看，人类是缓慢、低效和随机的。一个人永远不会以相同的方式拖动鼠标到 CAPTCHA 框。人类的手太随机了。同样，他们也不会总是以快速或高效的方式这样做。人们可能会停下来读框或检查他们试图访问的网站。机器人永远不会做这些事情（除非它们被编程为此，但即便如此，它们也总是僵硬和高效的。）</p>
+<p>这在使用笔记本电脑的触摸板的人身上尤其如此。触摸板总会导致向“我不是机器人”框的随机和漫无目的的路径，这几乎每次都会保证通过。</p>
+<p>如果你点击得太快，你可能会被要求进行一些视觉谜题。新的视觉谜题是原始模糊文字的直接演变。Cloudflare 表示，即使是最先进的 AI 目前也仍然难以从杂乱或模糊的图像中挑选出特定物体。人类则没有这样的问题。被要求在模糊的自行车、摩托车和摩托车图片之间辨别是 AI 目前难以通过的测试。</p>
+<h2>侵入性和隐形的 reCAPTCHA 方法</h2>
+<p>一些网站已开始使用隐形 CAPTCHA 程序，它们扫描你的电脑寻找诸如 cookie、浏览历史、鼠标轨迹和互联网行为等信息，以确定你是否是机器人。Google 的 reCAPTCHA Enterprise 系统根据现成的信息给用户一个分数，以确定他们是人类还是机器人。</p>
+<p>你可以在这里用 Google 自己的话阅读有关该系统的信息。</p>
+<p>这些隐形的机器人社会信用评分系统感觉有点侵入性和有点可怕，但 Google 认为它有助于让用户体验更加流畅。许多人在屏幕上出现 CAPTCHA 框时会感到恼火或沮丧，因为它打乱了他们的常规工作流。这个系统允许你在不必经过这些繁琐测试的情况下访问网站，同时仍然保护网站免受大量机器人活动的影响。</p>
+<h2>结论</h2>
+<p>如果你曾经想知道为什么机器人不能在出现时就点击“我不是机器人”框的某种神奇原因，你并不孤单。事实上，没有任何东西阻止机器人在计算机屏幕上点击他们想要的任何东西。关键在于他们如何点击。机器人被编程为快速和高效，它们总是会点击得更快、移动得更快和处理得更快。所以，这些测试是为了观察你完成它们的速度和方式。</p>
+<p>在一次有趣的转变中，计算机科学家声称最新版本的 ChatGPT 可以轻松通过图灵测试，甚至是高级的，这只会进一步模糊人类和 AI 在在线活动中的界限。</p>
+<p>我们可能需要一个新的 reCAPTCHA 系统，能够筛选出正在开发的更先进和更像人类的机器人。</p>
+<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Linux、Web 全栈」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2024-07-08T23:38:59.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Spring Festival</title>
+    <id>https://bornforthis.cn/now_docs/SpringFestival.html</id>
+    <link href="https://bornforthis.cn/now_docs/SpringFestival.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<ul class="task-list-container">
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 断电</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 电脑</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 显示屏</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 洗车</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 丢垃圾</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 阳台衣架收起来</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 相机</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 三脚架</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 读卡器</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 给t吃的</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 带照片打印机</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 相片纸</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 冰箱的食物</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 洗头、定型</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 手表</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 书籍📚</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 公章</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 苹果耳机🎧</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 水杯</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 药</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 小米手机、iPhone8</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 书本架子</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 行李🧳</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-23" disabled="disabled"><label class="task-list-item-label" for="task-item-23"> 吉他</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-24" disabled="disabled"><label class="task-list-item-label" for="task-item-24"> 绿幕</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-25" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-25"> 电脑有线接口</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-26" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-26"> 叶黄素</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-27" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-27"> 眼药水</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-28" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-28"> 和她父母喝茶</label></p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<ul class="task-list-container">
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 断电</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 电脑</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 显示屏</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 洗车</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 丢垃圾</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 阳台衣架收起来</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 相机</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 三脚架</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 读卡器</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 给t吃的</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 带照片打印机</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 相片纸</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 冰箱的食物</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 洗头、定型</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 手表</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 书籍📚</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 公章</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 苹果耳机🎧</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 水杯</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 药</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 小米手机、iPhone8</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 书本架子</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 行李🧳</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-23" disabled="disabled"><label class="task-list-item-label" for="task-item-23"> 吉他</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-24" disabled="disabled"><label class="task-list-item-label" for="task-item-24"> 绿幕</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-25" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-25"> 电脑有线接口</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-26" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-26"> 叶黄素</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-27" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-27"> 眼药水</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-28" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-28"> 和她父母喝茶</label></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="live"/>
+    <category term="life"/>
+    <category term="now"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-01-15T23:58:16.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -6617,264 +6948,6 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
-    <title type="text">为什么机器人不能点击网站上的“我不是机器人”框？</title>
-    <id>https://bornforthis.cn/medium/why-cant-robots-click-the-i-m-not-a-robot-box-on-websites.html</id>
-    <link href="https://bornforthis.cn/medium/why-cant-robots-click-the-i-m-not-a-robot-box-on-websites.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/64/6469a25c63a12ce8c8c025c327bf66595fca9bc28a30f7b56bdf4544bd7bbd10.jpeg" alt tabindex="0" loading="lazy"></figure>
-<div style="text-align:center">
-<p>点击一个小框就能告诉 Google 你是否是人类</p>
-</div>
-<p>你好，我是悦创。</p>
-<p>如果你在网上浏览过一段时间，你很可能会遇到一个 reCAPTCHA 框。这些框在你第一次进入某些网站时会出现，要求你勾选一个框来证明你不是机器人。这个框被标记为“我不是机器人”，每个人都会不假思索地点击，因为他们不是机器人。有时候，点击这个框会迫使你进行一系列视觉谜题，比如让你点击所有带有摩托车的图片或所有带有路灯的图片。这些基本测试让人们相信机器人做不到这些。但实际情况并非如此。</p>]]></summary>
-    <content type="html"><![CDATA[<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/64/6469a25c63a12ce8c8c025c327bf66595fca9bc28a30f7b56bdf4544bd7bbd10.jpeg" alt tabindex="0" loading="lazy"></figure>
-<div style="text-align:center">
-<p>点击一个小框就能告诉 Google 你是否是人类</p>
-</div>
-<p>你好，我是悦创。</p>
-<p>如果你在网上浏览过一段时间，你很可能会遇到一个 reCAPTCHA 框。这些框在你第一次进入某些网站时会出现，要求你勾选一个框来证明你不是机器人。这个框被标记为“我不是机器人”，每个人都会不假思索地点击，因为他们不是机器人。有时候，点击这个框会迫使你进行一系列视觉谜题，比如让你点击所有带有摩托车的图片或所有带有路灯的图片。这些基本测试让人们相信机器人做不到这些。但实际情况并非如此。</p>
-<p>在线机器人，或者通常称为“机器人”，它们非常先进。它们被训练用于从玩 Runescape 到管理整个 X (前称 Twitter) 账户农场等各种任务。所以他们显然可以点击一个框或一个带有停车标志的图像。关键在于这些测试并不是在判断你是否可以点击这些东西，而是如何点击它们。</p>
-<blockquote>
-<p>reCAPTCHA 框判断你是否为人类的方式是，你与机器相比的缓慢和低效。</p>
-</blockquote>
-<h2>什么是 reCAPTCHA？</h2>
-<p>reCAPTCHA 是 Google 拥有的一家公司，负责运行当你在网上浏览时屏幕上出现的所有小框。这些框上有一个右侧带箭头的循环图标，上面写着 reCAPTCHA。这是 Google 为网站主机提供的一项高级程序，帮助他们阻止不需要的流量。</p>
-<p>reCAPTCHA 取代了旧的 CAPTCHA 系统。你可能还记得原始的 CAPTCHA，它们是一系列用波浪字体书写或通过某种屏幕遮挡以使其难以辨认的字母和数字。不幸的是，旧系统对视力不好的人来说很困难，对普通人来说可能非常令人沮丧。机器人最终学会了破解旧的 CAPTCHA 系统，所以 Google 收购了一家公司，更新系统以对抗更先进的在线机器人。</p>
-<p>CAPTCHA 代表完全自动化的公开图灵测试，用于区分计算机和人类。这个名称很拗口，但它非常直白地描述了这些奇怪的框的目的。它们旨在进行自动化的公开图灵测试。</p>
-<p>什么是图灵测试？图灵测试是由计算机科学家艾伦·图灵在 1950 年设计的一个简单测试。该测试的目的是确定某人是计算机、机器人还是人类。机器人或非人类计算实体将不通过测试，从而暴露它们不是人类的身份。</p>
-<p>那么，这些框是如何区分机器人和人类的呢？这相当侵入性。</p>
-<h2>reCAPTCHA 方法</h2>
-<p>如上所述，测试并不是一个人或机器人能否点击提示你声明“我不是机器人”的小框（尽管任何点击该框的机器人都是在撒谎！有些机器人真无耻。）测试的重点是看你如何点击框。机器人在某些事情上总是比人类快速和高效。例如，如果你编程一个机器人来点击这些烦人的框，机器人将直接快速定位到目标点并尽可能快地点击。光标可能会沿着到达框的最短路径完美直线移动，从而响应极快。响应的速度和鼠标的路径是测试的一部分。</p>
-<p>你看，人类是缓慢、低效和随机的。一个人永远不会以相同的方式拖动鼠标到 CAPTCHA 框。人类的手太随机了。同样，他们也不会总是以快速或高效的方式这样做。人们可能会停下来读框或检查他们试图访问的网站。机器人永远不会做这些事情（除非它们被编程为此，但即便如此，它们也总是僵硬和高效的。）</p>
-<p>这在使用笔记本电脑的触摸板的人身上尤其如此。触摸板总会导致向“我不是机器人”框的随机和漫无目的的路径，这几乎每次都会保证通过。</p>
-<p>如果你点击得太快，你可能会被要求进行一些视觉谜题。新的视觉谜题是原始模糊文字的直接演变。Cloudflare 表示，即使是最先进的 AI 目前也仍然难以从杂乱或模糊的图像中挑选出特定物体。人类则没有这样的问题。被要求在模糊的自行车、摩托车和摩托车图片之间辨别是 AI 目前难以通过的测试。</p>
-<h2>侵入性和隐形的 reCAPTCHA 方法</h2>
-<p>一些网站已开始使用隐形 CAPTCHA 程序，它们扫描你的电脑寻找诸如 cookie、浏览历史、鼠标轨迹和互联网行为等信息，以确定你是否是机器人。Google 的 reCAPTCHA Enterprise 系统根据现成的信息给用户一个分数，以确定他们是人类还是机器人。</p>
-<p>你可以在这里用 Google 自己的话阅读有关该系统的信息。</p>
-<p>这些隐形的机器人社会信用评分系统感觉有点侵入性和有点可怕，但 Google 认为它有助于让用户体验更加流畅。许多人在屏幕上出现 CAPTCHA 框时会感到恼火或沮丧，因为它打乱了他们的常规工作流。这个系统允许你在不必经过这些繁琐测试的情况下访问网站，同时仍然保护网站免受大量机器人活动的影响。</p>
-<h2>结论</h2>
-<p>如果你曾经想知道为什么机器人不能在出现时就点击“我不是机器人”框的某种神奇原因，你并不孤单。事实上，没有任何东西阻止机器人在计算机屏幕上点击他们想要的任何东西。关键在于他们如何点击。机器人被编程为快速和高效，它们总是会点击得更快、移动得更快和处理得更快。所以，这些测试是为了观察你完成它们的速度和方式。</p>
-<p>在一次有趣的转变中，计算机科学家声称最新版本的 ChatGPT 可以轻松通过图灵测试，甚至是高级的，这只会进一步模糊人类和 AI 在在线活动中的界限。</p>
-<p>我们可能需要一个新的 reCAPTCHA 系统，能够筛选出正在开发的更先进和更像人类的机器人。</p>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发、Linux、Web 全栈」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2024-07-08T23:38:59.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Spring Festival</title>
-    <id>https://bornforthis.cn/now_docs/SpringFestival.html</id>
-    <link href="https://bornforthis.cn/now_docs/SpringFestival.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<ul class="task-list-container">
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 断电</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 电脑</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 显示屏</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 洗车</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 丢垃圾</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 阳台衣架收起来</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 相机</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 三脚架</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 读卡器</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 给t吃的</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 带照片打印机</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 相片纸</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 冰箱的食物</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 洗头、定型</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 手表</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 书籍📚</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 公章</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 苹果耳机🎧</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 水杯</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 药</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 小米手机、iPhone8</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 书本架子</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 行李🧳</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-23" disabled="disabled"><label class="task-list-item-label" for="task-item-23"> 吉他</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-24" disabled="disabled"><label class="task-list-item-label" for="task-item-24"> 绿幕</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-25" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-25"> 电脑有线接口</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-26" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-26"> 叶黄素</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-27" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-27"> 眼药水</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-28" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-28"> 和她父母喝茶</label></p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<ul class="task-list-container">
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 断电</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 电脑</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 显示屏</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 洗车</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 丢垃圾</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 阳台衣架收起来</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 相机</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 三脚架</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 读卡器</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 给t吃的</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 带照片打印机</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 相片纸</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 冰箱的食物</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 洗头、定型</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 手表</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 书籍📚</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 公章</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 苹果耳机🎧</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 水杯</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 药</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 小米手机、iPhone8</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 书本架子</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 行李🧳</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-23" disabled="disabled"><label class="task-list-item-label" for="task-item-23"> 吉他</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-24" disabled="disabled"><label class="task-list-item-label" for="task-item-24"> 绿幕</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-25" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-25"> 电脑有线接口</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-26" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-26"> 叶黄素</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-27" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-27"> 眼药水</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-28" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-28"> 和她父母喝茶</label></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="live"/>
-    <category term="life"/>
-    <category term="now"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-01-15T23:58:16.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
     <title type="text">OBS如何多路推流「How does OBS multiplex push」</title>
     <id>https://bornforthis.cn/popular-science/01-How-does-OBS-multiplex-push.html</id>
     <link href="https://bornforthis.cn/popular-science/01-How-does-OBS-multiplex-push.html"/>
@@ -7090,251 +7163,6 @@
       <name>AI悦创</name>
     </contributor>
     <published>2022-11-26T19:15:13.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">简易 Web 练习生成器</title>
-    <id>https://bornforthis.cn/project/01-Web_exercise_Generator.html</id>
-    <link href="https://bornforthis.cn/project/01-Web_exercise_Generator.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[
-<p>项目地址：<a href="https://github.com/AndersonHJB/Web_exercise_Generator" target="_blank" rel="noopener noreferrer">https://github.com/AndersonHJB/Web_exercise_Generator</a></p>
-<h2>1. 功能实现与计划</h2>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 文件名称</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 输入测试的 Web 代码</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 指定保存路径</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 判断路径是否存在</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 路径不存在就创建</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 临时默认本地路径</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 用户可以选择去除</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 默认文件名称</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 保存文件后缀检测</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 遇到 bug：出现用户输入带有 html 后缀时，保存为：demo.html.html。</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 举个例子：用户输入：<code>demo.html</code> 保存为：<code>demo.html.html</code>。</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 解决日期：2022-07-14 22:45:41</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 循环功能还未添加</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 保存文件与已有文件是否重复</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 出现重复文件提示是要覆盖还是保留副本</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> GUI 未来计划实现</label></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[
-<p>项目地址：<a href="https://github.com/AndersonHJB/Web_exercise_Generator" target="_blank" rel="noopener noreferrer">https://github.com/AndersonHJB/Web_exercise_Generator</a></p>
-<h2>1. 功能实现与计划</h2>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 文件名称</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 输入测试的 Web 代码</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 指定保存路径</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 判断路径是否存在</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 路径不存在就创建</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 临时默认本地路径</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 用户可以选择去除</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 默认文件名称</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 保存文件后缀检测</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 遇到 bug：出现用户输入带有 html 后缀时，保存为：demo.html.html。</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 举个例子：用户输入：<code>demo.html</code> 保存为：<code>demo.html.html</code>。</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 解决日期：2022-07-14 22:45:41</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 循环功能还未添加</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 保存文件与已有文件是否重复</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 出现重复文件提示是要覆盖还是保留副本</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> GUI 未来计划实现</label></li>
-</ul>
-<h2>2. 功能依赖</h2>
-<ol>
-<li>HTML 在线编辑器：<a href="https://github.com/BornforthisHJB/html_online" target="_blank" rel="noopener noreferrer">https://github.com/BornforthisHJB/html_online</a></li>
-</ol>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="Bornforthis项目"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-07-15T00:20:34.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">CodeMark</title>
-    <id>https://bornforthis.cn/project/02-CodeMark.html</id>
-    <link href="https://bornforthis.cn/project/02-CodeMark.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>1. 版本区别</h2>
-
-]]></summary>
-    <content type="html"><![CDATA[<h2>1. 版本区别</h2>
-
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="Bornforthis项目"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2024-07-20T15:32:17.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">ps 怎么把矩形变成圆形整张图片变成圆形</title>
-    <id>https://bornforthis.cn/ps/01.html</id>
-    <link href="https://bornforthis.cn/ps/01.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>]]></summary>
-    <content type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>1、打开图片之后，右键单击左侧菜单栏上的【矩形选框工具】，弹出的下拉菜单里面，点击选中【椭圆选框工具】，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/fd/fd2debc3e2c3d1739327d0c15a4dfc080b44f37be017c9e46b063cde3b60fa3d.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>2、接下来开始绘制圆形区域，如果想要正圆，可以按住 Shift 键，如果想要移动圆形选框的位置，加按【空格键】后，鼠标拖拉选框移动即可，全程不要松开鼠标左键，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/f0/f04e6f9901ecae2de8c4a2cc88cecc0fb52b272ccd6274e77354064b6bf53ffa.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>3、位置调整好了之后，松开【空格键】，正圆和位置都调整好了之后，先松开鼠标，再松开 Shift，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/b8/b829f037650a4726527caa6e82f0adcb36c9b778a05a1d1a0940dad23d8b3028.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>4、圆形选区建立之后，下一步是建立新的图层，可以在选区范围内单击右键，下拉菜单里面，点击选择【通过拷贝的图层】，或者使用快捷键 Ctrl+J，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/83/8329fd4357b767df32a388cf6f92cf5978953598c78307af128ba19f7b44c69c.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>5、新建的选区图层，有大面积的透明区域，这些地方需要裁剪掉，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/a2/a253c7de05bd38fa0554f77902e53452f9c7760ccec1822e458b3789cf0f6af8.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>6、点击上端菜单栏上的【图像】，弹出的菜单里面，继续点击【裁切】，弹出的界面上，默认是基于【透明像素】，裁切的位置是【顶、底、左、右】，点击确定，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/7e/7ed4a24f8afadf4b9c9904e96b4f951636ba7be5672e97a6af96710e69b71675.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>7、裁切完成之后的效果如下，保存为 png 格式的图片即可。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/22/22d752d02ce74876ea18075206177f123904e494b4e4e8e64ef17af7d9108ec5.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>圆形图片的透明部分，保存为 png 或 gif 格式后，显示的时候就是透明的，但保存为 jpg 就为白色了，如有疑问，可以在下方留言。</p>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="PS 笔记"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-08-04T10:12:56.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">PS实现人物构图与添加背景</title>
-    <id>https://bornforthis.cn/ps/02.html</id>
-    <link href="https://bornforthis.cn/ps/02.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>1. 素材</h2>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>]]></summary>
-    <content type="html"><![CDATA[<h2>1. 素材</h2>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>
-<h2>2. 人像抠图</h2>
-<h3>2.1 放大图像</h3>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/59/59dbf43dce73c11df58c236278886645aa77d2b50d6d419aeff97f9b76fb4a54.png" alt="image-20221017123659195" tabindex="0" loading="lazy"><figcaption>image-20221017123659195</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/9e/9efbdf3ad27f6a5ba4d829e2bd7c5c551fe630410ca54b62c777a687d6076052.png" alt="image-20221017124056685" tabindex="0" loading="lazy"><figcaption>image-20221017124056685</figcaption></figure>
-<p>ps：可以使用魔棒/钢笔工具，分开快速勾选，选择&gt;反选&gt;ctrl + J</p>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="PS 笔记"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-10-17T12:26:12.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">How to create DataFrame with feature importance from XGBClassifier made by GridSearchCV?</title>
-    <id>https://bornforthis.cn/stackoverflow/01.html</id>
-    <link href="https://bornforthis.cn/stackoverflow/01.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>I use GridSearchCV of scikit-learn to find the best parameters for my XGBClassifier model, I use code like below:</p>
-<div class="language-python line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="python" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_params </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'n_estimators'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">100</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">500</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1000</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">],</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'subsample'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.01</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.05</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">est </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">Classifier</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> GridSearchCV</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">param_grid</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> grid_params,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        estimator</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> est,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        scoring</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'roc_auc'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        cv</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        verbose</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">fit</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(X_train, y_train)</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best estimator:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_estimator_)</span></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best AUC:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_score_)</span></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best parameters:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_params_)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div>]]></summary>
-    <content type="html"><![CDATA[<p>I use GridSearchCV of scikit-learn to find the best parameters for my XGBClassifier model, I use code like below:</p>
-<div class="language-python line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="python" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_params </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'n_estimators'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">100</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">500</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1000</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">],</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'subsample'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.01</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.05</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">est </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">Classifier</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> GridSearchCV</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">param_grid</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> grid_params,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        estimator</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> est,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        scoring</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'roc_auc'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        cv</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        verbose</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">fit</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(X_train, y_train)</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best estimator:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_estimator_)</span></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best AUC:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_score_)</span></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best parameters:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_params_)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><p>I need to have feature importance DataFrame with my variables and their importance something like below:</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">variable </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">|</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> importance</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="stackoverflow"/>
-    <category term="python"/>
-    <category term="machine-learning"/>
-    <category term="scikit-learn"/>
-    <category term="xgboost"/>
-    <category term="gridsearchcv"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-08-08T13:06:48.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -10895,6 +10723,1007 @@ a&gt;&gt;31 取得 a 的符号，若 a 为正数，a&gt;&gt;31 等于0，a^0=a�
       <name>AI悦创</name>
     </contributor>
     <published>2022-07-12T16:12:59.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包</title>
+    <id>https://bornforthis.cn/posts/32.html</id>
+    <link href="https://bornforthis.cn/posts/32.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>JetBrains 全系列软件激活教程，共有两种方法，喜欢哪种用哪种。另外附上 JetBrains 系列软件的汉化包以及中文设置教程，希望大家。。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/d7/d717ec351d6eb727b54daaf99d5dea5a9f35d8e3a8e905901f1823e618081e8b.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>]]></summary>
+    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>JetBrains 全系列软件激活教程，共有两种方法，喜欢哪种用哪种。另外附上 JetBrains 系列软件的汉化包以及中文设置教程，希望大家。。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/d7/d717ec351d6eb727b54daaf99d5dea5a9f35d8e3a8e905901f1823e618081e8b.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<h2>最新激活方式</h2>
+<p>如果安装过无限试用、修改过 hosts 请先卸载干净旧版本再安装，否需无法激活！</p>
+<blockquote>
+<p>以 <code>WebStorm</code> 为例</p>
+</blockquote>
+<ol>
+<li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains官网</a> 下载安装你需要的 IDE，如果下载慢可以在 macwk 搜索 jetbrains。</li>
+<li>下载 <a href="https://aiyc.lanzouf.com/iqtVa07rpf6b" target="_blank" rel="noopener noreferrer">Jetbrains.zip</a>，下载后解压，得到 <code>fineagent.jar</code>，将该文件复制到 <code>/Users/你的用户名/</code> 文件夹下</li>
+<li>打开访达，点击左侧的 <code>应用程序</code> 找到 <code>WebStorm</code>，在 WebStorm 图标上右键，点击 <code>显示包内容</code></li>
+<li>进入 <code>Contents</code> 目录，再进入 <code>bin</code> 目录，使用文本编辑器打开 <code>webstorm.vmoptions</code> 文件</li>
+<li>在最后面添加 <code>-javaagent:/Users/你的用户名/fineagent.jar</code>，记得修改一下你的用户名。</li>
+<li>运行 WebStorm, 选择 <code>Activate WebStorm</code>，再点击 <code>Activation Code</code></li>
+<li>复制下面的的激活码粘贴到激活窗口的输入框中，点击 <code>Activate</code>。可以用到 2099 年！</li>
+</ol>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>5AYV1D1RE5-eyJsaWNlbnNlSWQiOiI1QVlWMUQxUkU1IiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly93d3cuaml3ZWljaGVuZ3podS5jb20iLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJJSSIsImZhbGxiYWNrRGF0ZSI6IjIwOTktMTItMzEiLCJwYWlkVXBUbyI6IjIwOTktMTItMzEifSx7ImNvZGUiOiJBQyIsImZhbGxiYWNrRGF0ZSI6IjIwOTktMTItMzEiLCJwYWlkVXBUbyI6IjIwOTktMTItMzEifSx7ImNvZGUiOiJEUE4iLCJmYWxsYmFja0RhdGUiOiIyMDk5LTEyLTMxIiwicGFpZFVwVG8iOiIyMDk5LTEyLTMxIn0seyJjb2RlIjoiUFMiLCJmYWxsYmFja0RhdGUiOiIyMDk5LTEyLTMxIiwicGFpZFVwVG8iOiIyMDk5LTEyLTMxIn0seyJjb2RlIjoiR08iLCJmYWxsYmFja0RhdGUiOiIyMDk5LTEyLTMxIiwicGFpZFVwVG8iOiIyMDk5LTEyLTMxIn0seyJjb2RlIjoiRE0iLCJmYWxsYmFja0RhdGUiOiIyMDk5LTEyLTMxIiwicGFpZFVwVG8iOiIyMDk5LTEyLTMxIn0seyJjb2RlIjoiQ0wiLCJmYWxsYmFja0RhdGUiOiIyMDk5LTEyLTMxIiwicGFpZFVwVG8iOiIyMDk5LTEyLTMxIn0seyJjb2RlIjoiUlMwIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IlJDIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IlJEIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IlBDIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IlJNIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IldTIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IkRCIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IkRDIiwiZmFsbGJhY2tEYXRlIjoiMjA5OS0xMi0zMSIsInBhaWRVcFRvIjoiMjA5OS0xMi0zMSJ9LHsiY29kZSI6IlJTVSIsImZhbGxiYWNrRGF0ZSI6IjIwOTktMTItMzEiLCJwYWlkVXBUbyI6IjIwOTktMTItMzEifV0sImhhc2giOiIxMjc5Njg3Ny8wIiwiZ3JhY2VQZXJpb2REYXlzIjo3LCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-HNPogO0kWkHCVMnsjmBXUqQt87UPHqdkYqZGveSJtu8hb2V2Yq7gHsHenp4UuEd3jwEwC+YrUIf7U5yDA/56F5Sdn0RLUHZX5DHeQbJPbmYCBsDRT7m8rnmMFOSZn3vwNatvv1cooZbcGOk3Wwxx6bF7XcgaIrmXRcmZMZgv2PZehr0WS1HxNKe3X4nbGP3MwiSbg4ypmxNDrljmgv+Si9QDDwNLDffqeO0Lce0FqEJuMWmvBS42S0aeIYF8IS5bp4+LFKLJ8T7tF40OxKYDurBb9+9c43GZBscM/eLB8Jos66jNGFwgebFUlvhzJKVHZtuc/N8zGeEnTq6K0T/B8w==-MIIDTjCCAjagAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMCAXDTE4MTEwMTEyMjk0NloYDzIwOTkwODA5MDIyNjA3WjAfMR0wGwYDVQQDDBRwcm9kMnktZnJvbS0yMDIwMTAxOTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMK3eyr0+Oys/TwcQO+qYaXWGBmXcEP4fR0bHHzZd/4WNGltXhecM80OWthA38BQRYAJBCKz/dSkO2Kj1H2y+7KB5cIaOiJEyTESfTSgzQdot6laRBU8oxy9mmagI46M8zEEmplPybY4YJj4HOwZiBsMQEMxoTgMDLpuHX6uASoVhSj6koB55lOj4wEgsQBeAMWTAXmTl88ixE179J8aBUkBGpL8w/tZzl9BJXZNF15gPfkS58rw8cdPzXLS0Yym37A2/KKFhfHzJc5KhbaxqYzmkAfTMqPsIqCQ1lQUAqfiPn2gN2I1Z3/cQuEW27M55fXVr2DduQe5DWzYJs85L50CAwEAAaOBmTCBljAJBgNVHRMEAjAAMB0GA1UdDgQWBBQk2hEilvWFQcCTR+gxI0z0wIQC/zBIBgNVHSMEQTA/gBSjnrZIZ0ISNkG9beC5tKBSi5fxs6EcpBowGDEWMBQGA1UEAwwNSmV0UHJvZmlsZSBDQYIJANJssYOyg3nhMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIFoDANBgkqhkiG9w0BAQsFAAOCAQEAsCQBjO5wttco/Z5cj/o4GBrku8UtBBBVFq4xsBanshTHm4deVxcTvta4aScV0TPKcaLqGqWx8A9v8XXO8dBbCuyXvWZteZ/C2Covg1xXiM99lz7VxqpjVmLdKanZn5u0gQSiYJdcfF+TdbmEIeSOnN/kLXNq2hXdJQK2zk2J25UZqu5EibRtTbdOzw6ZcfwJ8uOntXfsmAhnNICP3Wf/4wR/mwB0Ka4S+JA3IbF5MUmUZ/fjUaFarnin70us+Vxf/sZUi7u67wilvwVV0NAqDpthHUV0NRc4q+yOr2Dt/uCHdy4XRXLJfAv/z9/xBwNZZALNz3EtQL6IeIWWJByl3g==</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>尽情享用吧！</p>
+<h2>激活码方式</h2>
+<p>该方式不需要另外设置，直接即可通过激活码激活，但是不保证稳定性！</p>
+<p>激活码获取方式，未来有时间再更新！</p>
+<h2>无限重置试用方式</h2>
+<blockquote>
+<p>无限重置试用方式仅适用于 2021.2.2 及以下版本！！！</p>
+</blockquote>
+<h3>前面的话</h3>
+<blockquote>
+<p>永久激活的工具 zhile 的大神已经不再继续开发维护了，此方法一直是跳转到 zhile 的主页，但是经常遇到反馈说目标网站打不开或者不知道怎么安装插件的问题，所以直接转到这个页面并配一下操作图片吧。另外目前只有这种无限重置试用的方法了，<code>最终和永久激活使用无差异，因为插件是每次运行自动续期的</code>！支持 JetBrains 系列软件的所有新旧版本的激活！！！bornforthis.cn 建议大家去 <a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains官网</a> 下载 JetBrains 系列工具的官方版，一般情况下载很快的。</p>
+</blockquote>
+<p>此方法也适用于 Windows。</p>
+<h3>背景</h3>
+<p>Jetbrains 家的产品有一个很良心的地方，他会允许你试用 30 天（这个数字写死在代码里了）以评估是否你真的需要为它而付费。 但很多时候会出现一种情况：IDE 并不能按照我们实际的试用时间来计算。</p>
+<p>我举个例子：如果我们开始了试用，然后媳妇生孩子要你回去陪产！陪产时我们并无空闲对IDE试用评估，它依旧算试用时间。（只是举个例子，或许你并没有女朋友）</p>
+<p>发现了吗？你未能真的有 30 天来对它进行全面的试用评估，你甚至无法作出是否付费的决定。此时你会想要延长试用时间，然而 Jetbrains 并未提供相关功能，该怎么办？</p>
+<p>事实上有一款插件可以实现这个功能，你或许可以用它来重置一下试用时间。但切记不要无休止的一直试用，这并不是这个插件的初衷！</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/93/930208094aba7b86a6b750c7a9b05c1f5f83e7415848915a42c54d963c4f6042.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<h3>如何安装</h3>
+<blockquote>
+<p>提供以下两种方法，二选一即可。</p>
+</blockquote>
+<ol>
+<li>插件市场安装：</li>
+</ol>
+<p>在 <code>Settings/Preferences... -&gt; Plugins</code> 内手动添加第三方插件仓库地址：<code>https://plugins.zhile.io</code> 搜索：IDE Eval Reset 插件进行安装。</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>https://plugins.zhile.io</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>IDE Eval Reset</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/91/9148e1d7233d6b2a2f85e197eccfbee24b6ae9cf2cccb250c07dc30b65627da9.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/4b/4b6923c29df4429f69c7bfcfd1b336dee4cac723ed9ed152a1a6d0043888a595.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/f6/f6d8202c2e8f78c78b4ee099c2e90bcc68bab8e086dc2b7ab2cc184c5ec9d524.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/d6/d62f8d689788bb54cdb430ead1a32b6398de934f9b7eaf1803b0a5ea3c44729e.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e9/e9edac33bea17d863ccd01c11f23fcfb1a41752d3e1c8b85297562f28f35a175.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/a5/a567ff64d439b864c4d479f0511500978ae307cad24a85dd2b1dad9bf355e9e4.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/5c/5c0629c806536f6144191f2dcf219af10a31f6bc866cf70f38f0ab4d1543149c.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<ol start="2">
+<li>手动下载安装：</li>
+</ol>
+<p><a href="https://aiyc.lanzouf.com/i1QPy07rq0ub" target="_blank" rel="noopener noreferrer">点击这个链接(v2.1.14)下载插件的 zip 包</a>（macOS 可能会自动解压，切记使用的是 zip 包，不是解压后的文件夹！），然后打开 <code>Settings/Preferences... -&gt; Plugins</code> 手动安装插件。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/b1/b1026c044a411cee7a176b85d087eacae28f05c0490ae2a2d76ccb63423b1987.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/06/06e9f1b2d5caa1a1d73cbb2eb0777bf6182d8574f0a759def9e0b48a1f5900e9.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e1/e19a0ca0476c5349e08467444408fd41dadd64fe64917ebc9966dc9659bcd196.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/79/79c8bb7b284eea0074571771102a98e33e24ad38b8c971a4f1c6acd508d2180f.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<h3>如何使用</h3>
+<p>一般来说，在 IDE 窗口切出去或切回来时（窗口失去/得到焦点）会触发事件，检测是否长时间（25天）没有重置，给通知让你选择。（初次安装因为无法获取上次重置时间，会直接给予提示）。</p>
+<p>您也可以手动唤出插件的主界面：</p>
+<p>a. 如果 IDE 没有打开项目，在 Welcome 界面点击 IDE 的菜单：<code>Get Help -&gt; Eval Reset</code></p>
+<p>b. 如果 IDE 打开了项目，点击 IDE 的菜单：<code>Help -&gt; Eval Reset</code></p>
+<p>唤出的插件主界面中包含了一些显示信息，有 2 个按钮和 1 个勾选项：</p>
+<ul>
+<li>按钮：<code>Reload</code> 用来刷新界面上的显示信息。</li>
+<li>按钮：<code>Reset</code> 点击会询问是否重置试用信息并重启 IDE。选择 Yes 则执行重置操作并重启 IDE 生效，选择 No 则什么也不做。（此为手动重置方式）</li>
+<li>勾选项：<code>Auto reset before per restart</code> 如果勾选了，则自勾选后每次重启/退出 IDE 时会自动重置试用信息，你无需做额外的事情。（此为自动重置方式，推荐此方法！）</li>
+</ul>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/24/24e0ec1cbddbb53d2edf90e7b3d838bd6622956be459cc03d332429f64e16d14.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/1d/1d4453eb33f8d98be2007fca90b2adcf7fa4341e4cef34be32da6f2177e46312.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/7b/7ba9123b1642d3a3df053b7d9702b3dc4a9b3c84baf46bba3a35f793d075a733.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<h3>如何更新</h3>
+<ol>
+<li>插件更新机制（推荐）：</li>
+</ol>
+<p>IDE 会自行检测其自身和所安装插件的更新并给予提示。如果本插件有更新，你会收到提示看到更新日志，自行选择是否更新。</p>
+<p>点击 IDE 的 Check for Updates... 菜单手动检测 IDE 和所安装插件的更新。如果本插件有更新，你会收到提示看到更新日志，自行选择是否更新。</p>
+<p>插件更新可能会需要重启IDE。</p>
+<ol>
+<li>手动更新：</li>
+</ol>
+<p>从本页面下载最新的插件 zip 包安装更新。插件更新需要重启IDE。</p>
+<h3>一些说明</h3>
+<p>市场付费插件的试用信息也会一并重置。</p>
+<p>MyBatisCodeHelperPro 插件有两个版本如下，功能完全相同，安装时须看清楚！</p>
+<ul>
+<li><a href="https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-" target="_blank" rel="noopener noreferrer">MyBatisCodeHelperPro</a> (Marketplace Edition)，<code>可重置</code>！</li>
+<li><a href="https://plugins.jetbrains.com/plugin/9837-mybatiscodehelperpro" target="_blank" rel="noopener noreferrer">MyBatisCodeHelperPro</a>，<code>不可重置</code>！</li>
+</ul>
+<p>对于某些付费插件（如: Iedis 2, MinBatis）来说，你可能需要去取掉 javaagent 配置（如果有）后重启IDE：</p>
+<ul>
+<li>如果 IDE 没有打开项目，在 Welcome 界面点击菜单：<code>Configure -&gt; Edit Custom VM Options... -&gt; 移除 -javaagent: </code> 开头的行。</li>
+<li>如果 IDE 打开了项目，点击菜单：<code>Help -&gt; Edit Custom VM Options... -&gt; 移除 -javaagent: </code> 开头的行。</li>
+</ul>
+<p>重置需要重启 IDE 生效！</p>
+<p>重置后并不弹出 Licenses 对话框让你选择输入 License 或试用，这和之前的重置脚本/插件不同（省去这烦人的一步）。</p>
+<p>如果长达 25 天不曾有任何重置动作，IDE 会有通知询问你是否进行重置。</p>
+<p>如果勾选：Auto reset before per restart ，重置是静默无感知的。</p>
+<p>简单来说：勾选了 Auto reset before per restart 则无需再管，一劳永逸。</p>
+<h3>开源信息</h3>
+<p>插件是学习研究项目，源代码是开放的。源码仓库地址：<a href="https://gitee.com/pengzhile/ide-eval-resetter" target="_blank" rel="noopener noreferrer">Gitee</a>。</p>
+<p>如果你有更好的想法，欢迎给我提 Pull Request 来共同研究完善。</p>
+<p>插件源码使用：GPL-2.0开源协议发布。</p>
+<p>插件使用 PHP 编写，毕竟 PHP 是世界上最好的编程语言！</p>
+<h3>支持的产品</h3>
+<ul>
+<li>IntelliJ IDEA</li>
+<li>AppCode</li>
+<li>CLion</li>
+<li>DataGrip</li>
+<li>GoLand</li>
+<li>PhpStorm</li>
+<li>PyCharm</li>
+<li>Rider</li>
+<li>RubyMine</li>
+<li>WebStorm</li>
+</ul>
+<p><a href="https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html" target="_blank" rel="noopener noreferrer">点我查看原文链接</a></p>
+<h2>中文汉化包</h2>
+<p>JetBrains 系列大部分在官方的插件中心直接安装使用了。</p>
+<p>以 WebStrom 为例，打开它的设置，点击 Plugins，搜索 chinese，安装即可。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/9d/9d14456a79608d3d3d62f909961c2b3496e0880fc91997c6e4810cc6b1a82905.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<h2>激活码</h2>
+<p>目前全网 Jetbrains 全家桶激活码激活方式都不稳定，请使用无限重置试用的方法。</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="破解"/>
+    <category term="WebStorm"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-07-13T11:55:56.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">HTML速查列表</title>
+    <id>https://bornforthis.cn/posts/33.html</id>
+    <link href="https://bornforthis.cn/posts/33.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>目录</h2>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E6%AE%B5%E8%90%BD">段落</a></li>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87">图片</a></li>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E7%BA%BF">水平线</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+<li><a href="#%E6%8A%98%E8%A1%8C">折行</a></li>
+<li><a href="#%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96">文本格式化</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%97%E8%A1%A8">自定义列表</a></li>
+<li><a href="#%E5%8C%BA%E5%9D%97">区块</a></li>
+<li><a href="#%E6%A0%B7%E5%BC%8F">样式</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8table%E5%85%83%E7%B4%A0%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80">使用<code>&lt;table&gt;</code>元素的网页布局</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8div%E5%85%83%E7%B4%A0%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80">使用<code>&lt;div&gt;</code>元素的网页布局</a></li>
+<li><a href="#%E8%A1%A8%E5%8D%95">表单</a></li>
+<li><a href="#%E6%A1%86%E6%9E%B6">框架</a></li>
+<li><a href="#%E5%AD%97%E7%AC%A6%E5%AE%9E%E4%BD%93">字符实体</a></li>
+<li><a href="#url">URL</a></li>
+<li><a href="#ascii%E5%AD%97%E7%AC%A6%E9%9B%86">ASCII字符集</a></li>
+<li><a href="#url%E7%BC%96%E7%A0%81">URL编码</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<h2>目录</h2>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E6%AE%B5%E8%90%BD">段落</a></li>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87">图片</a></li>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E7%BA%BF">水平线</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+<li><a href="#%E6%8A%98%E8%A1%8C">折行</a></li>
+<li><a href="#%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96">文本格式化</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%97%E8%A1%A8">自定义列表</a></li>
+<li><a href="#%E5%8C%BA%E5%9D%97">区块</a></li>
+<li><a href="#%E6%A0%B7%E5%BC%8F">样式</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8table%E5%85%83%E7%B4%A0%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80">使用<code>&lt;table&gt;</code>元素的网页布局</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8div%E5%85%83%E7%B4%A0%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80">使用<code>&lt;div&gt;</code>元素的网页布局</a></li>
+<li><a href="#%E8%A1%A8%E5%8D%95">表单</a></li>
+<li><a href="#%E6%A1%86%E6%9E%B6">框架</a></li>
+<li><a href="#%E5%AD%97%E7%AC%A6%E5%AE%9E%E4%BD%93">字符实体</a></li>
+<li><a href="#url">URL</a></li>
+<li><a href="#ascii%E5%AD%97%E7%AC%A6%E9%9B%86">ASCII字符集</a></li>
+<li><a href="#url%E7%BC%96%E7%A0%81">URL编码</a></li>
+</ul>
+<h2>标题</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题4&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题5&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题6&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>段落</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>链接</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://lcfu1.github.io/Note/"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> target</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"_blank"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>链接&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"tips"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>提示部分&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"#tips"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>跳到提示部分&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li>target 属性：
+<ul>
+<li><code>_blank</code>：在新窗口打开。</li>
+<li><code>_self</code>：在同一个窗口打开。</li>
+<li><code>_parent</code>：在父窗口打开。</li>
+</ul>
+</li>
+</ul>
+<h2>图片</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">img</span><span style="--shiki-light:#000000;--shiki-dark:#D19A66"> border</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> src</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://bornforthis.cn/img_home/logo_min.png"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> width</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"32"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> height</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"32"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> alt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"favicon.ico"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> usemap</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"#faviconmap"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">map</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"faviconmap"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">area</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> shape</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"circle"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> coords</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"16,16,16"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> alt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"favicon"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://lcfu1.github.io/Note/"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">map</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注：</p>
+<ul>
+<li><code>border</code> 属性：边框。</li>
+<li><code>src</code> 属性：图像的地址。</li>
+<li><code>alt</code> 属性：在浏览器无法载入图像时，为图像定义一串预备的可替换的文本。</li>
+<li><code>align</code> 属性：默认对齐的图像，可设置为 top、middle、bottom。align 属性在 HTML4 中已废弃，HTML5  已不支持该属性。</li>
+<li><code>usemap</code> 属性：图像映射。</li>
+<li><code>width</code> 和 <code>height</code> 属性：设置图片的宽高。</li>
+<li><code>&lt;map&gt;</code>标签：定义图像地图。</li>
+<li><code>&lt;area&gt;</code>标签：定义图像地图中的可点击区域。
+<ul>
+<li><code>shape</code> 属性：定义形状，可设置为 rect、circle、poly 等。</li>
+<li><code>coords</code> 属性：链接区域在图片中的坐标，如上面 <code>coords=&quot;16,16,16&quot;</code> 是指圆心坐标为 <code>(16,16)</code> ，半径为 16。</li>
+</ul>
+</li>
+</ul>
+<h2>水平线</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">hr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>注释</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">&#x3C;!--注释--></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>折行</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">br</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>注：</p>
+<ul>
+<li><code>&lt;br/&gt; </code> 是一个空的 HTML 元素，关闭标签没有任何意义，所以它没有结束标签。</li>
+</ul>
+<h2>文本格式化</h2>
+<div class="language-html line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="html" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">b</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>粗体文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">b</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">code</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>计算机代码&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">code</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">em</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>强调文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">em</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">i</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>斜体文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">i</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">kbd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>键盘输入&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">kbd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">> </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">pre</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>预格式化文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">pre</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">small</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>更小的文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">small</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">strong</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>重要的文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">strong</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">q</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>块引用&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">q</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">abbr</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> title</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"我是缩写的"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>缩写&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">abbr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#000000;--shiki-dark:#FFFFFF">acronym</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> title</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"首字母缩写"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>缩写&#x3C;/</span><span style="--shiki-light:#000000;--shiki-dark:#FFFFFF">acronym</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">address</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"mailto:lcfu1@qq.com"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>lcfu1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>.&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">br</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">> &#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">address</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bdo</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> dir</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"rtl"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>从右到左显示&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bdo</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">blockquote</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>从另一个源引用的部分&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">blockquote</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">cite</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>工作的名称&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">cite</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">del</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>删除的文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">del</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ins</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>插入的文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ins</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sub</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>下标文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sub</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sup</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>上标文本&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sup</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">pre</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    预格式</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">文本</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">pre</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><h2>表格</h2>
+<div class="language-html line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="html" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">table</span><span style="--shiki-light:#000000;--shiki-dark:#D19A66"> border</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> cellpadding</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"10"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> cellspacing</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">colgroup</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">col</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:blue</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">col</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> span</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"3"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:red</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">colgroup</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">caption</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>标题&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">caption</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">thead</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Head&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Header1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Header2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Header3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">thead</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tbody</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>body&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> rowspan</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> colspan</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>body&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tbody</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tfoot</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>foot&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">th</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">		&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tfoot</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">table</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><p>注：</p>
+<ul>
+<li>用<code>&lt;table&gt;</code>标签来定义。</li>
+<li><code>border</code> 属性用于设置边框。</li>
+<li><code>cellpadding</code> 属性用于设置单元格边距。</li>
+<li><code>cellspacing</code> 属性用于设置单元格间距。</li>
+<li><code>&lt;colgroup&gt; </code> 和 <code>&lt;col&gt;</code> 标签为表格中的列设置背景色。</li>
+<li><code>&lt;caption&gt;</code> 标签定义表格的标题。</li>
+<li><code>&lt;thead&gt;</code> 标签用于组合表头内容。</li>
+<li><code>&lt;tbody&gt;</code> 标签用于组合主体内容。</li>
+<li><code>&lt;tfoot&gt;</code> 标签用于组合页脚内容。</li>
+<li><code>&lt;tr&gt; </code> 标签定义行。</li>
+<li><code>&lt;th&gt;</code> 标签定义表头。</li>
+<li><code>&lt;td&gt; </code> 标签定义单元格 。</li>
+<li><code>rowspan</code> 属性用于跨列。</li>
+<li><code>colspan</code> 属性用于跨单元格。</li>
+</ul>
+<h2>有序列表</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ol</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> start</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ol</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ol</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"A"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>A&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>B&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ol</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li><code>start</code> 属性可用于设置列表项目从哪个数字开始。</li>
+<li><code>type</code> 属性可用于设置不同类型的有序列表：
+<ul>
+<li>A：大写字母列表。</li>
+<li>a：小写字母列表。</li>
+<li>I：罗马数字列表。</li>
+<li>i：小写罗马数字列表。</li>
+</ul>
+</li>
+</ul>
+<h2>无序列表</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ul</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">list-style-type:circle</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>3&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">li</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ul</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li><code>style</code>  属性：使用 CSS 定义不同类型的无序列表：
+<ul>
+<li><code>list-style-type:circle</code>：圆点列表。</li>
+<li><code>list-style-type:circle</code>：圆圈列表。</li>
+<li><code>list-style-type:square</code>：正方形列表。</li>
+</ul>
+</li>
+</ul>
+<h2>自定义列表</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dl</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>AA&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>1&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>BB&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dt</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>2&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dd</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dl</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li><code>&lt;dl&gt;</code>：定义列表。</li>
+<li><code>&lt;dt&gt;</code>：自定义列表项目。</li>
+<li><code>&lt;dd&gt;</code>：自定义列表项的描述。</li>
+</ul>
+<h2>区块</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">color:blue</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>段落&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>A &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">span</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">color:red;font-weight:bold</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>B&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">span</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">> C&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li>
+<p><code>&lt;div&gt;</code>块级元素，浏览器会在其前后显示折行。</p>
+</li>
+<li>
+<p><code>&lt;span&gt;</code>内联元素，用来组合文档中的行内元素。</p>
+</li>
+</ul>
+<h2>样式</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">style</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"text/css"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {color:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">red</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;}</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>A&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>使用<code>&lt;table&gt;</code>元素的网页布局</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">table</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> width</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"600"</span><span style="--shiki-light:#000000;--shiki-dark:#D19A66"> border</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> colspan</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:red;text-align:center;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>header&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:blue;vertical-align:top;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>menu&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:grey;height:300px;width:500px;vertical-align:top;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>body&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> colspan</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:red;text-align:center;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>footer&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">td</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">tr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">table</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>使用<code>&lt;div&gt;</code>元素的网页布局</h2>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"container"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">width:600px</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"header"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:red;text-align:center;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>header&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"menu"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:blue;height:300px;width:100px;float:left;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>menu&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"content"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:grey;height:300px;width:500px;float:left;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>body&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"footer"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:red;clear:both;text-align:center;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>footer&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>表单</h2>
+<p>用于收集不同类型的用户输入，包含表单元素。</p>
+<p>表单元素是允许用户在表单中输入内容，如：文本域(textarea)、下拉列表、单选按钮(radio-buttons)、复选框(checkboxes)等等。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">form</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"input"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">""</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> method</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"get"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">username: &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">input</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"text"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"user"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">br</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">password: &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">input</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"password"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"password"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">br</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">input</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"submit"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"submit"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">form</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>框架</h2>
+<p>使用框架可在同一个浏览器窗口中显示多个页面。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">iframe</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> style</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">background-color:grey;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"iframe"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> width</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"400"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> height</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"200"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> frameborder</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">iframe</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;/</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">br</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://lcfu1.github.io/Note/"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> target</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"iframe"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>点击&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>注：</strong></p>
+<ul>
+<li><code>frameborder</code> 属性表示是否显示边框。</li>
+</ul>
+<h2>字符实体</h2>
+<p>是html中的预留字符，对大小写敏感 。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#E06C75">&#x26;nbsp;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	指空格</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#E06C75">&#x26;quot;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	引号</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><a href="https://www.runoob.com/html/html-entities.html" target="_blank" rel="noopener noreferrer">更多</a></p>
+<h2>URL</h2>
+<p>统一资源定位器(Uniform Resource Locators)</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">scheme://host.domain:port/path/filename</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>注：</p>
+<ul>
+<li>scheme：定义因特网服务的类型。最常见的类型是http(超文本传输协议)、https(安全超文本传输协议)、ftp(文件传输协议)。</li>
+<li>host：定义域主机（http的默认主机是www）。</li>
+<li>domain：定义因特网域名，比如 runoob.com。</li>
+<li>:port：定义主机上的端口号（http 的默认端口号是 80）。</li>
+<li>path：定义服务器上的路径（如果省略，则文档必须位于网站的根目录中）。</li>
+<li>filename：定义文档/资源的名称。</li>
+</ul>
+<h2>ASCII字符集</h2>
+<p><a href="https://www.runoob.com/tags/html-ascii.html" target="_blank" rel="noopener noreferrer">参考</a></p>
+<h2>URL编码</h2>
+<p><a href="https://www.runoob.com/tags/html-urlencode.html" target="_blank" rel="noopener noreferrer">参考</a></p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="HTML"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-07-13T18:24:23.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">HTML 参考手册- (HTML5 标准)</title>
+    <id>https://bornforthis.cn/posts/34.html</id>
+    <link href="https://bornforthis.cn/posts/34.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<h2>按字母顺序排列</h2>
+<p>New: HTML5 新标签</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">标签</th>
+<th style="text-align:left">描述</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>&lt;!--...--&gt;</code></td>
+<td style="text-align:left">定义注释</td>
+<td><a href="/posts/html/01.html" target="_blank">超详细的HTML &lt;!–…– &gt; 注释标签使用实例</a></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文档类型</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义超文本链接</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义缩写</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义只取首字母的缩写，不支持HTML5</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文档作者或拥有者的联系信息</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义嵌入的 applet。HTML5中不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义图像映射内部的区域</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义一个文章区域</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义页面的侧边栏内容</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义音频内容</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文本粗体</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义页面中所有链接的默认地址或默认目标。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义页面中文本的默认字体、颜色或尺寸。HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">允许您设置一段文本，使其脱离其父元素的文本方向设置。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文字方向</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义大号文本，HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义长的引用</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文档的主体</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://www.w3cschool.cn/edit/htmltags/tag-br.html" target="_blank" rel="noopener noreferrer"> </a></td>
+<td style="text-align:left">定义换行</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义一个点击按钮</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义图形，比如图表和其他图像,标签只是图形容器，您必须使用脚本来绘制图形</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">定义表格标题</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义居中文本。HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义引用(citation)</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义计算机代码文本</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">定义表格中一个或多个列的属性值</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">定义表格中供格式化的列组</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义命令按钮，比如单选按钮、复选框或按钮</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义定义列表中项目的描述</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义被删除文本</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">用于描述文档或文档某个部分的细节</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义定义项目</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义对话框，比如提示框</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义目录列表。HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文档中的节</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义列表详情</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义列表中的项目</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义强调文本</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义嵌入的内容，比如插件。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义围绕表单中元素的边框</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义元素的标题</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">规定独立的流内容（图像、图表、照片、代码等等）。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文字的字体、尺寸和颜色。HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义 section 或 document 的页脚。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义了HTML文档的表单</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义框架集的窗口或框架</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义框架集</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">to</td>
+<td style="text-align:left">定义 HTML 标题</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义关于文档的信息</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义了文档的头部区域</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义水平线</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义 HTML 文档</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义斜体字</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义内联框架</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义图像</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义输入控件</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义被插入文本</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义键盘文本</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">规定用于表单的密钥对生成器字段。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义 input 元素的标注</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义 fieldset 元素的标题。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义列表的项目</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义文档与外部资源的关系</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义图像映射</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义带有记号的文本。请在需要突出显示文本时使用 标签。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义菜单列表。HTML5不支持使用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义关于 HTML 文档的元信息。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义度量衡。仅用于已知最大和最小值的度量。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义导航链接的部分</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义针对不支持框架的用户的替代内容。HTML5不支持</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义针对不支持客户端脚本的用户的替代内容。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义内嵌对象</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义有序列表。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义选择列表中相关选项的组合。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义选择列表中的选项。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义不同类型的输出，比如脚本的输出。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义段落。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义对象的参数。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>                  </code></td>
+<td style="text-align:left">定义预格式文本。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">定义运行中的进度（进程）。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义短的引用。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">标签定义字符（中文注音或字符）的解释或发音。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">New</td>
+<td style="text-align:left">标签定义 ruby 注释（中文注音或字符）。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">不赞成使用。定义加删除线的文本。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">定义计算机代码样本。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></summary>
+    <content type="html"><![CDATA[<h2>按字母顺序排列</h2>
+<p>New: HTML5 新标签</p>
+<p>| 标签                                                    | 描述                                                         | 链接                                                  |
+| :</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="HTML"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-07-13T22:14:37.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
 </feed>

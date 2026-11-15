@@ -5,7 +5,7 @@
   <subtitle>Python 1v1,AI悦创,一对一,Python,编程一对一,C++,Java,AI,人工智能,黄家宝,Python一对一教学</subtitle>
   <icon>https://bornforthis.cn/python</icon>
   <logo>https://bornforthis.cn/aiyc.png</logo>
-  <updated>2026-11-15T15:51:50.991Z</updated>
+  <updated>2026-11-15T16:42:10.892Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bornforthis.cn/atom.xml"/>
   <link rel="alternate" href="https://bornforthis.cn/"/>
@@ -42,6 +42,12 @@
   <category term="OBS"/>
   <category term="Bornforthis项目"/>
   <category term="PS 笔记"/>
+  <category term="stackoverflow"/>
+  <category term="python"/>
+  <category term="machine-learning"/>
+  <category term="scikit-learn"/>
+  <category term="xgboost"/>
+  <category term="gridsearchcv"/>
   <category term="刘润"/>
   <category term="Python Base Notebook"/>
   <category term="Numpy"/>
@@ -62,6 +68,43 @@
   <contributor>
     <name>傻子</name>
   </contributor>
+  <entry>
+    <title type="text">Codex Skills 制作教程：把对话流程保存成 Skill，下次直接复用</title>
+    <id>https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.html</id>
+    <link href="https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.html"/>
+    <updated>2026-11-15T16:34:28.000Z</updated>
+    <summary type="html"><![CDATA[<p>制作 Skill，可以从一次满意的对话开始：<strong>先让 Codex 把事情做好，再让它把做法保存下来，下次直接复用。</strong></p>
+<p>以口播视频剪辑为例，照着下面三步操作。</p>
+<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d1/d1a388cb20fc34a3e30dddf5ac5d644688a3e33be5333c030a93fdbc270e6f35.png" alt="把反复交代的做法保存成 Skill" tabindex="0" loading="lazy"><figcaption>把反复交代的做法保存成 Skill</figcaption></figure>]]></summary>
+    <content type="html"><![CDATA[<p>制作 Skill，可以从一次满意的对话开始：<strong>先让 Codex 把事情做好，再让它把做法保存下来，下次直接复用。</strong></p>
+<p>以口播视频剪辑为例，照着下面三步操作。</p>
+<figure><img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/d1/d1a388cb20fc34a3e30dddf5ac5d644688a3e33be5333c030a93fdbc270e6f35.png" alt="把反复交代的做法保存成 Skill" tabindex="0" loading="lazy"><figcaption>把反复交代的做法保存成 Skill</figcaption></figure>
+<p><em>AI 生成配图 · Bornforthis 风格</em></p>
+<h2>1. 先通过对话，把视频剪满意</h2>
+<p>把视频文件交给 Codex，说清你想要的效果：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>请把这段口播视频剪成 9:16 竖屏，删掉明显的停顿和重复表达，保留原意，加上清晰的中文字幕，导出 MP4。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>看完成片后，继续提修改意见，比如“字幕再大一点”“开头更紧凑一些”，直到你满意。这一步，就是和 Codex 一起确定你的做法。</p>
+<h2>2. 满意后，说一句：把流程做成 Skill</h2>
+<p>在<strong>同一个聊天</strong>中发送：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>把上面已经确认的剪辑流程做成一个 Skill，命名为 my-video-edit。下次我提供新视频，就按这套做法剪辑。请实际创建并保存，告诉我保存位置和调用方式。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>让 Codex 负责整理步骤、保留最终确认的字幕样式和导出设置，并创建文件。看到实际保存位置与调用说明，这一步才算完成。</p>
+<p><strong>小技巧：长对话，提前保存一版。</strong> 对话较长时，早期细节可能被压缩或遗漏。不必等到最后才整理：先说“把目前已确认的流程做成 Skill，未确定的部分先不要写死”；等效果满意后，再说“把最终确认的做法更新到这个 Skill”。</p>
+<h2>3. 下次提供新视频，直接调用</h2>
+<p>在能使用这个 Skill 的 Codex 会话中，提供新视频，然后说：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>请使用 my-video-edit 这个 Skill，剪辑我这次提供的视频，沿用保存的字幕样式、剪辑节奏和导出设置。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这样就不用每次重新交代整套要求。以后偏好变了，再告诉 Codex：“把这次确认的修改更新到这个 Skill。”</p>
+<p><strong>值得保存的是你已经确认的做法，而不是整段聊天记录。</strong> 比如保存字幕样式，不要把上一条视频的文件名写死。</p>
+<p>下次复用时，原来使用的剪辑工具和素材模板也需要可用；Skill 保存流程，具体成片仍要看新视频的内容。</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2026-11-15T23:53:22.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
   <entry>
     <title type="text">04-用支付宝买美区 Apple 礼品卡，在 iPhone 上订阅 ChatGPT Plus</title>
     <id>https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.html</id>
@@ -3501,6 +3544,161 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
+    <title type="text">《编程启蒙：思维与代码》</title>
+    <id>https://bornforthis.cn/Books/</id>
+    <link href="https://bornforthis.cn/Books/"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>因为出版社书稿字数、页数限制等因素，本页面为本书相关资源。如果有部分想要详细讲解或补充，请直接评论即可！「支持实时更新内容」</p>
+<div class="vp-card-container">
+  
+  
+  
+</div>
+<h2>1. 购买本书的福利（仅限我的微信小店）</h2>
+<ul>
+<li>福利 1：进入书籍交流群，获得去海量读者交流学习的机会；</li>
+<li>福利 2：获取全球上网权限 180 天，购买订单好评，再赠送 180 天；（不售卖，仅做福利）</li>
+<li>福利 3：价值 399 的《悦创的家庭育儿宝典》；｜待更新</li>
+<li>福利 4：CodeMark 学习平台 VIP 一年，推荐三人购买本书获取学习平台终身 VIP。｜研发中</li>
+<li>福利 5：「适合有需要的人」免费的职业规划沟通 30 分钟；</li>
+<li>福利 6：豆瓣写短评、书评、评分等，允许你用 AI 写，但不要太假了！至少把书的内容或者目录（或者其它）给 AI，让 AI 来写。送 30 天🪜：<a href="https://book.douban.com/subject/38456287/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/38456287/</a></li>
+<li>福利 7：一个平台写帖子分享，就赠送 1 个月全球上网福利，需要带上标签（<code>#编程启蒙思维与代码 #跟AI悦创学编程 #编程启蒙 #AI悦创编程一对一辅导 #留学生编程一对一辅导 #BornforthisAI实验室</code>）；（小红书、视频号、抖音，各大网购平台好评也是！）</li>
+<li>福利 8：本书的完整版在线版阅读权限（实时更新内容）；｜考虑中</li>
+<li><s>福利 9：「福利」购买本书的，未来可以以本书兑换 30min 的课时。（每个人仅限兑换 10 本）；</s></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>因为出版社书稿字数、页数限制等因素，本页面为本书相关资源。如果有部分想要详细讲解或补充，请直接评论即可！「支持实时更新内容」</p>
+<div class="vp-card-container">
+  
+  
+  
+</div>
+<h2>1. 购买本书的福利（仅限我的微信小店）</h2>
+<ul>
+<li>福利 1：进入书籍交流群，获得去海量读者交流学习的机会；</li>
+<li>福利 2：获取全球上网权限 180 天，购买订单好评，再赠送 180 天；（不售卖，仅做福利）</li>
+<li>福利 3：价值 399 的《悦创的家庭育儿宝典》；｜待更新</li>
+<li>福利 4：CodeMark 学习平台 VIP 一年，推荐三人购买本书获取学习平台终身 VIP。｜研发中</li>
+<li>福利 5：「适合有需要的人」免费的职业规划沟通 30 分钟；</li>
+<li>福利 6：豆瓣写短评、书评、评分等，允许你用 AI 写，但不要太假了！至少把书的内容或者目录（或者其它）给 AI，让 AI 来写。送 30 天🪜：<a href="https://book.douban.com/subject/38456287/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/38456287/</a></li>
+<li>福利 7：一个平台写帖子分享，就赠送 1 个月全球上网福利，需要带上标签（<code>#编程启蒙思维与代码 #跟AI悦创学编程 #编程启蒙 #AI悦创编程一对一辅导 #留学生编程一对一辅导 #BornforthisAI实验室</code>）；（小红书、视频号、抖音，各大网购平台好评也是！）</li>
+<li>福利 8：本书的完整版在线版阅读权限（实时更新内容）；｜考虑中</li>
+<li><s>福利 9：「福利」购买本书的，未来可以以本书兑换 30min 的课时。（每个人仅限兑换 10 本）；</s></li>
+</ul>
+<h2>2. 本书纠错</h2>
+<details class="hint-container details"><summary>Message</summary>
+<ul>
+<li>
+<p>错误不分先后顺序！一经发现，就会在此登记！</p>
+</li>
+<li>
+<p>原本是想着，我现在给学生上课时，发现不足或者错误的直接修改登记。但是转念一想，还是需要书籍出版后，带着书籍页面来进行纠错。——2025-06-11 07:21:13</p>
+</li>
+</ul>
+</details>
+<h2>3. 补充文章</h2>
+
+<h2>4. 本书练习</h2>
+<h2>5. 本书资源</h2>
+<details class="hint-container details"><summary>无关内容·便于作者维护目录</summary>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"catalog-display-container"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">Catalog</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> base</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'/Books/'</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> hideHeading</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"false"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<h2>6. 常见问题</h2>
+<h3>6.1 字这么多小孩读的下去吗？</h3>
+<p>书字这么多，小孩可以看的下去吗？可以，思维部分按篇阅读，不讲顺序。编程逻辑需要逐篇阅读学习，不行找我报名学。</p>
+<h2>7. 福利核销方式</h2>
+<p>添加我的微信：<code>Jiabcdefh</code>，记得备注来意！</p>
+<ul>
+<li><strong>步骤一</strong>：主动发送订单截图，需包含订单号、价格等；（预防同一个订单多次核销）</li>
+<li><strong>步骤二</strong>：进行开通对应的福利；</li>
+</ul>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2025-05-01T19:55:33.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Development plan</title>
+    <id>https://bornforthis.cn/Code1v1/Development-plan.html</id>
+    <link href="https://bornforthis.cn/Code1v1/Development-plan.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
+<h2>模块一：chapter1</h2>
+<h3>1. 内容计划</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
+<h2>模块一：chapter1</h2>
+<h3>1. 内容计划</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
+</ul>
+
+<p>设置游戏装备名称：列表</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-02-01T08:51:18.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Changelog</title>
+    <id>https://bornforthis.cn/Code1v1/changelog.html</id>
+    <link href="https://bornforthis.cn/Code1v1/changelog.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
+<ul>
+<li>突发的变化：⚠ BREAKING CHANGES</li>
+<li>特性：Features</li>
+<li>错误修复：Bug Fixes</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
+<ul>
+<li>突发的变化：⚠ BREAKING CHANGES</li>
+<li>特性：Features</li>
+<li>错误修复：Bug Fixes</li>
+</ul>
+<h2><a href="https://github.com/AndersonHJB/Code1v1/releases/tag/v0.0.3" target="_blank" rel="noopener noreferrer">Version-0.0.3</a> (2023-01-31)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>第一个版本发布～</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>catalog component is now inside auto-catalog plugin (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/760c686a9719e7cad4304e4168ffc02f83988b34" target="_blank" rel="noopener noreferrer">760c686</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>create:</strong> fix zh blog template (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/ae89ecc1bb6476c7d1dc9eb858950a85e6ca55fc" target="_blank" rel="noopener noreferrer">ae89ecc</a>)</li>
+</ul>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-01-31T23:55:27.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
     <title type="text">AI悦创编程·1v1 系列课上笔记</title>
     <id>https://bornforthis.cn/1v1/</id>
     <link href="https://bornforthis.cn/1v1/"/>
@@ -3819,79 +4017,6 @@
     <published>2022-09-01T14:38:16.000Z</published>
   </entry>
   <entry>
-    <title type="text">Development plan</title>
-    <id>https://bornforthis.cn/Code1v1/Development-plan.html</id>
-    <link href="https://bornforthis.cn/Code1v1/Development-plan.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
-<h2>模块一：chapter1</h2>
-<h3>1. 内容计划</h3>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
-<h2>模块一：chapter1</h2>
-<h3>1. 内容计划</h3>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
-</ul>
-
-<p>设置游戏装备名称：列表</p>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-02-01T08:51:18.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Changelog</title>
-    <id>https://bornforthis.cn/Code1v1/changelog.html</id>
-    <link href="https://bornforthis.cn/Code1v1/changelog.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
-<ul>
-<li>突发的变化：⚠ BREAKING CHANGES</li>
-<li>特性：Features</li>
-<li>错误修复：Bug Fixes</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
-<ul>
-<li>突发的变化：⚠ BREAKING CHANGES</li>
-<li>特性：Features</li>
-<li>错误修复：Bug Fixes</li>
-</ul>
-<h2><a href="https://github.com/AndersonHJB/Code1v1/releases/tag/v0.0.3" target="_blank" rel="noopener noreferrer">Version-0.0.3</a> (2023-01-31)</h2>
-<h3>⚠ BREAKING CHANGES</h3>
-<ul>
-<li>第一个版本发布～</li>
-</ul>
-<h3>Features</h3>
-<ul>
-<li>catalog component is now inside auto-catalog plugin (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/760c686a9719e7cad4304e4168ffc02f83988b34" target="_blank" rel="noopener noreferrer">760c686</a>)</li>
-</ul>
-<h3>Bug Fixes</h3>
-<ul>
-<li><strong>create:</strong> fix zh blog template (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/ae89ecc1bb6476c7d1dc9eb858950a85e6ca55fc" target="_blank" rel="noopener noreferrer">ae89ecc</a>)</li>
-</ul>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-01-31T23:55:27.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
     <title type="text">NoteSearch 开发日志</title>
     <id>https://bornforthis.cn/Development-library/NoteSearch.html</id>
     <link href="https://bornforthis.cn/Development-library/NoteSearch.html"/>
@@ -3952,88 +4077,6 @@
       <name>AI悦创</name>
     </contributor>
     <published>2022-12-17T13:49:42.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">《编程启蒙：思维与代码》</title>
-    <id>https://bornforthis.cn/Books/</id>
-    <link href="https://bornforthis.cn/Books/"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>因为出版社书稿字数、页数限制等因素，本页面为本书相关资源。如果有部分想要详细讲解或补充，请直接评论即可！「支持实时更新内容」</p>
-<div class="vp-card-container">
-  
-  
-  
-</div>
-<h2>1. 购买本书的福利（仅限我的微信小店）</h2>
-<ul>
-<li>福利 1：进入书籍交流群，获得去海量读者交流学习的机会；</li>
-<li>福利 2：获取全球上网权限 180 天，购买订单好评，再赠送 180 天；（不售卖，仅做福利）</li>
-<li>福利 3：价值 399 的《悦创的家庭育儿宝典》；｜待更新</li>
-<li>福利 4：CodeMark 学习平台 VIP 一年，推荐三人购买本书获取学习平台终身 VIP。｜研发中</li>
-<li>福利 5：「适合有需要的人」免费的职业规划沟通 30 分钟；</li>
-<li>福利 6：豆瓣写短评、书评、评分等，允许你用 AI 写，但不要太假了！至少把书的内容或者目录（或者其它）给 AI，让 AI 来写。送 30 天🪜：<a href="https://book.douban.com/subject/38456287/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/38456287/</a></li>
-<li>福利 7：一个平台写帖子分享，就赠送 1 个月全球上网福利，需要带上标签（<code>#编程启蒙思维与代码 #跟AI悦创学编程 #编程启蒙 #AI悦创编程一对一辅导 #留学生编程一对一辅导 #BornforthisAI实验室</code>）；（小红书、视频号、抖音，各大网购平台好评也是！）</li>
-<li>福利 8：本书的完整版在线版阅读权限（实时更新内容）；｜考虑中</li>
-<li><s>福利 9：「福利」购买本书的，未来可以以本书兑换 30min 的课时。（每个人仅限兑换 10 本）；</s></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>因为出版社书稿字数、页数限制等因素，本页面为本书相关资源。如果有部分想要详细讲解或补充，请直接评论即可！「支持实时更新内容」</p>
-<div class="vp-card-container">
-  
-  
-  
-</div>
-<h2>1. 购买本书的福利（仅限我的微信小店）</h2>
-<ul>
-<li>福利 1：进入书籍交流群，获得去海量读者交流学习的机会；</li>
-<li>福利 2：获取全球上网权限 180 天，购买订单好评，再赠送 180 天；（不售卖，仅做福利）</li>
-<li>福利 3：价值 399 的《悦创的家庭育儿宝典》；｜待更新</li>
-<li>福利 4：CodeMark 学习平台 VIP 一年，推荐三人购买本书获取学习平台终身 VIP。｜研发中</li>
-<li>福利 5：「适合有需要的人」免费的职业规划沟通 30 分钟；</li>
-<li>福利 6：豆瓣写短评、书评、评分等，允许你用 AI 写，但不要太假了！至少把书的内容或者目录（或者其它）给 AI，让 AI 来写。送 30 天🪜：<a href="https://book.douban.com/subject/38456287/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/38456287/</a></li>
-<li>福利 7：一个平台写帖子分享，就赠送 1 个月全球上网福利，需要带上标签（<code>#编程启蒙思维与代码 #跟AI悦创学编程 #编程启蒙 #AI悦创编程一对一辅导 #留学生编程一对一辅导 #BornforthisAI实验室</code>）；（小红书、视频号、抖音，各大网购平台好评也是！）</li>
-<li>福利 8：本书的完整版在线版阅读权限（实时更新内容）；｜考虑中</li>
-<li><s>福利 9：「福利」购买本书的，未来可以以本书兑换 30min 的课时。（每个人仅限兑换 10 本）；</s></li>
-</ul>
-<h2>2. 本书纠错</h2>
-<details class="hint-container details"><summary>Message</summary>
-<ul>
-<li>
-<p>错误不分先后顺序！一经发现，就会在此登记！</p>
-</li>
-<li>
-<p>原本是想着，我现在给学生上课时，发现不足或者错误的直接修改登记。但是转念一想，还是需要书籍出版后，带着书籍页面来进行纠错。——2025-06-11 07:21:13</p>
-</li>
-</ul>
-</details>
-<h2>3. 补充文章</h2>
-
-<h2>4. 本书练习</h2>
-<h2>5. 本书资源</h2>
-<details class="hint-container details"><summary>无关内容·便于作者维护目录</summary>
-<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"catalog-display-container"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">Catalog</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> base</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'/Books/'</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> hideHeading</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"false"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /></span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
-<h2>6. 常见问题</h2>
-<h3>6.1 字这么多小孩读的下去吗？</h3>
-<p>书字这么多，小孩可以看的下去吗？可以，思维部分按篇阅读，不讲顺序。编程逻辑需要逐篇阅读学习，不行找我报名学。</p>
-<h2>7. 福利核销方式</h2>
-<p>添加我的微信：<code>Jiabcdefh</code>，记得备注来意！</p>
-<ul>
-<li><strong>步骤一</strong>：主动发送订单截图，需包含订单号、价格等；（预防同一个订单多次核销）</li>
-<li><strong>步骤二</strong>：进行开通对应的福利；</li>
-</ul>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2025-05-01T19:55:33.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -7293,6 +7336,64 @@
       <name>AI悦创</name>
     </contributor>
     <published>2022-10-17T12:26:12.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">How to create DataFrame with feature importance from XGBClassifier made by GridSearchCV?</title>
+    <id>https://bornforthis.cn/stackoverflow/01.html</id>
+    <link href="https://bornforthis.cn/stackoverflow/01.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>I use GridSearchCV of scikit-learn to find the best parameters for my XGBClassifier model, I use code like below:</p>
+<div class="language-python line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="python" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_params </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'n_estimators'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">100</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">500</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1000</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">],</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'subsample'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.01</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.05</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">est </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">Classifier</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> GridSearchCV</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">param_grid</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> grid_params,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        estimator</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> est,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        scoring</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'roc_auc'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        cv</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        verbose</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">fit</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(X_train, y_train)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best estimator:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_estimator_)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best AUC:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_score_)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best parameters:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_params_)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div>]]></summary>
+    <content type="html"><![CDATA[<p>I use GridSearchCV of scikit-learn to find the best parameters for my XGBClassifier model, I use code like below:</p>
+<div class="language-python line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="python" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_params </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'n_estimators'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">100</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">500</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1000</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">],</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      'subsample'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> : [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.01</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.05</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">est </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">Classifier</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> GridSearchCV</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">param_grid</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> grid_params,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        estimator</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> est,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        scoring</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'roc_auc'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        cv</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">                        verbose</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">grid_xgb.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">fit</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(X_train, y_train)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best estimator:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_estimator_)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best AUC:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_score_)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'best parameters:'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, grid_xgb.best_params_)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><p>I need to have feature importance DataFrame with my variables and their importance something like below:</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">variable </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">|</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> importance</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="stackoverflow"/>
+    <category term="python"/>
+    <category term="machine-learning"/>
+    <category term="scikit-learn"/>
+    <category term="xgboost"/>
+    <category term="gridsearchcv"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-08-08T13:06:48.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -10773,86 +10874,6 @@ a&gt;&gt;31 取得 a 的符号，若 a 为正数，a&gt;&gt;31 等于0，a^0=a�
       <name>AI悦创</name>
     </contributor>
     <published>2022-07-08T15:21:07.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">iOS端 Shadowrocket 使用教程</title>
-    <id>https://bornforthis.cn/posts/30.html</id>
-    <link href="https://bornforthis.cn/posts/30.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>遵纪守法，听从有关部门删除。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">广告🪧：</p>
-<p>Python一对一辅导，Java一对一辅导，一对一教学辅导，CS辅导，面试辅导，爬虫一对一教学，菜鸟教程，编程一对一教学，少儿编程一对一，人工智能，全网3000+学员，值得信赖，Python 一对一教学，Java一对一教学，留学生 CS 辅导。V：Jiabcdefh</p>
-</div>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>]]></summary>
-    <content type="html"><![CDATA[<p>遵纪守法，听从有关部门删除。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">广告🪧：</p>
-<p>Python一对一辅导，Java一对一辅导，一对一教学辅导，CS辅导，面试辅导，爬虫一对一教学，菜鸟教程，编程一对一教学，少儿编程一对一，人工智能，全网3000+学员，值得信赖，Python 一对一教学，Java一对一教学，留学生 CS 辅导。V：Jiabcdefh</p>
-</div>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-07-12T00:00:55.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Clash For Windows 教程</title>
-    <id>https://bornforthis.cn/posts/31.html</id>
-    <link href="https://bornforthis.cn/posts/31.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>遵纪守法，听从有关部门删除。</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">广告🪧：</p>
-<p>Python一对一辅导，Java一对一辅导，一对一教学辅导，CS辅导，面试辅导，爬虫一对一教学，菜鸟教程，编程一对一教学，少儿编程一对一，人工智能，全网3000+学员，值得信赖，Python 一对一教学，Java一对一教学，留学生 CS 辅导。V：Jiabcdefh</p>
-</div>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>]]></summary>
-    <content type="html"><![CDATA[<h2>遵纪守法，听从有关部门删除。</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">广告🪧：</p>
-<p>Python一对一辅导，Java一对一辅导，一对一教学辅导，CS辅导，面试辅导，爬虫一对一教学，菜鸟教程，编程一对一教学，少儿编程一对一，人工智能，全网3000+学员，值得信赖，Python 一对一教学，Java一对一教学，留学生 CS 辅导。V：Jiabcdefh</p>
-</div>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-07-12T16:12:59.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
 </feed>

@@ -1,61 +1,117 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-11-06",
-  "source_commit": "e2f16d1c10bdef07ac3756e53142926ff81bde79",
+  "checked_date": "2026-11-15",
   "source_repo": "AndersonHJB/bornforthis.cn",
+  "source_commit": "c5b1a272814b1587f86130c9a91a451da0f81dd8",
   "source_branch": "main",
-  "source_files_scanned": 12916,
   "source_tree_complete": true,
-  "articles_checked": 2218,
-  "managed_files_checked": 2528,
-  "target_tracked_files_scanned": 2766,
+  "source_files_scanned": 13038,
+  "deployment_baseline_source_commit": "e2f16d1c10bdef07ac3756e53142926ff81bde79",
+  "source_change_counts": {
+    "added": 122,
+    "modified": 52,
+    "removed": 0
+  },
+  "target_tracked_files_scanned": 2769,
+  "target_untracked_files_scanned": [],
+  "articles_checked": 2221,
+  "managed_files_checked": 2531,
   "new_articles": [
-    "docs/column/Python-Programming-Course/P09-FAQ/FAQ10.md",
-    "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.md",
-    "docs/column/Python-Programming-Course/P18-Codex/03-ChatGPT-200Pro-gift-200API.md"
+    "docs/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.md",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.md",
+    "docs/column/Python-Programming-Course/P18-Codex/05-openai-codex-getting-started.md"
   ],
   "modified_articles": [
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
+    "docs/column/Python-Programming-Course/P09-FAQ/FAQ10.md"
   ],
   "deleted_articles": [],
+  "other_new": [],
   "other_modified": [],
-  "unchanged_articles": 2214,
-  "new_images": 24,
-  "image_bytes": 9884189,
-  "image_commit": "58a95561e54d6aa064e3f3331873291c81d2b8fa",
+  "other_deleted": [],
+  "unchanged_articles": 2216,
+  "new_images": 10,
+  "image_bytes": 7943459,
+  "image_commit": "f1993b27f0c0d982ffda2500a98fc2a326a3660b",
+  "image_repo": "AndersonHJB/bornforthis-blog-images-one",
   "image_urls_verified": true,
-  "image_full_body_sha256_verified": 24,
+  "image_full_body_sha256_verified": 125,
+  "new_images_full_body_sha256_verified": 10,
+  "reused_urls_full_body_sha256_verified": 115,
+  "reused_existing_image_paths_added_to_deployment_manifest": 107,
+  "prior_asset_mappings_checked": {
+    "verified_prior": 8035,
+    "local": 1,
+    "missing": [],
+    "invalid": [],
+    "prior_drift": []
+  },
   "unused_new_source_images": [
-    "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.assets/image-20261103215227594.png",
-    "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.assets/image-20261103215356402.png",
-    "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.assets/v2-e503225a92c5d7a69e4ececcbd952af1_1440w.jpg"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.assets/image-20261113231636953.png"
   ],
-  "preserved_local_configuration_changes": [
-    {
-      "path": ".github/workflows/deploy-docs.yml",
-      "status": "changed",
-      "classification": "deployment-overlay",
-      "sha256": "4065f9f7d054c641e5c9fd949e368b12717cf1f81449fa52239321da14de9509",
-      "mode": "100644",
-      "old_mode": "100644"
-    },
-    {
-      "path": "pnpm-lock.yaml",
-      "status": "changed",
-      "classification": "deployment-overlay",
-      "sha256": "575831884cf0c25acfdb4cb433d0a53d2c111b8154e3bf8fafeada3d0805a9b0",
-      "mode": "100644",
-      "old_mode": "100644"
-    },
-    {
-      "path": "pnpm-workspace.yaml",
-      "status": "changed",
-      "classification": "deployment-overlay",
-      "sha256": "6e6ec452bd8a2f176dd13eef5f8b0b8527feb3af38f98f3142bc1181f7308ce7",
-      "mode": "100644",
-      "old_mode": "100644"
-    }
+  "source_media_migration_articles": [
+    "docs/1v1/04-TommyTian/07-Homework05.md",
+    "docs/1v1/06-KAI/15-group-hw.md",
+    "docs/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All.md",
+    "docs/1v1/06-KAI/27-Assignment05.md",
+    "docs/1v1/06-KAI/29-Micro-Assignment06.md",
+    "docs/1v1/06-KAI/30-Assignment06-Matching-Game.md",
+    "docs/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System.md",
+    "docs/1v1/06-KAI/32-Micro-Assignment07.md",
+    "docs/1v1/06-KAI/33-Micro-Assignment08.md",
+    "docs/1v1/47-qiuzhen/Blog/18-web-log.md",
+    "docs/1v1/64-MKQ/IEORE4501_001_2023_3-TOOLS-FOR-ANALYTICS/01-Fundamentals/01-How-to-Complete-the-Homeworks.md",
+    "docs/Books/02-SupplementaryArticles/Share/Kunstkammer-Wien-der-Schiffsautomat.md",
+    "docs/blog/2022/11month/02.md",
+    "docs/blog/2023/12month/blog-settings.md",
+    "docs/column/ChatGPT-Midjourney/StableDiffusion/01.md",
+    "docs/column/ChatGPT/ChatPPT/02.md",
+    "docs/column/ChatGPT/Chatbot/01.md",
+    "docs/column/Computer-basic-practical-course/00.md",
+    "docs/column/Computer-basic-practical-course/01.md",
+    "docs/column/Computer-basic-practical-course/02-1.md",
+    "docs/column/Computer-basic-practical-course/02.md",
+    "docs/column/Computer-basic-practical-course/03.md",
+    "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.md",
+    "docs/column/Python-Flask/Project1/01.md",
+    "docs/column/Python-Flask/Project1/02.md",
+    "docs/column/StableDiffusion/02.md",
+    "docs/column/TensorFlow/零基础实战机器学习/01.md",
+    "docs/column/TensorFlow/零基础实战机器学习/02.md",
+    "docs/column/TensorFlow/零基础实战机器学习/03.md",
+    "docs/column/TensorFlow/零基础实战机器学习/README.md",
+    "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.md",
+    "docs/column/cookdinner/P07-特色甜食小吃/01-芝麻香芋.md",
+    "docs/column/crawler/s1_01.md",
+    "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.md",
+    "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.md",
+    "docs/column/pdf/README.md",
+    "docs/column/py/share/Kunstkammer-Wien-der-Schiffsautomat.md",
+    "docs/column/python60/02.md",
+    "docs/column/python60/04.md",
+    "docs/column/python60/06.md",
+    "docs/column/python60/07.md",
+    "docs/home.md",
+    "docs/letter/2023/01.md",
+    "docs/posts/45.md",
+    "docs/teacher-per-capita/README.md"
   ],
+  "preserved_deployment_configuration": {
+    "docs/.vuepress/client.ts": "部署已将 PDF 注册为本地 PDF.vue，继续使用现有实现",
+    "docs/.vuepress/theme.ts": "源码升级媒体插件替换旧组件；部署已确认 media:false 并保留精简的 VPCard",
+    "package.json": "部署独立维护主题、DocSearch、Vite 与 KaTeX；本次正文不需要源端的播放器依赖。",
+    "pnpm-lock.yaml": "继续匹配部署包、patch 与 override；源锁文件服务源媒体插件",
+    "pnpm-workspace.yaml": "保留部署的 KaTeX override 与 bundler patch；本次正文没有新增播放器依赖。"
+  },
+  "newly_excluded_source_files": {
+    "docs/.vuepress/components/LegacyPDF.vue": "部署版 client.ts 通过现有独立 PDF.vue 注册 PDF，并明确禁用 media 插件；保留已审定的本地运行时实现"
+  },
+  "omitted_video": {
+    "path": "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/aonir-plus-flow-720p.mp4",
+    "source_removed_since_1109": true,
+    "target_absent": true,
+    "pinned_article_reference_removed": true
+  },
   "deployment_only_files_preserved": [
     ".bornforthis-sync/article-overrides.json",
     ".bornforthis-sync/last-sync-report.json",
@@ -235,46 +291,71 @@
     "教程文档/进阶.md"
   ],
   "classification_counts": {
-    "excluded": 2377,
+    "excluded": 2378,
     "deployment-overlay": 12,
-    "source-managed": 2516,
-    "asset": 8011
+    "source-managed": 2519,
+    "asset": 8129
   },
-  "local_link_corrections": [
-    {
-      "path": "docs/column/Python-Programming-Course/P10-Share/01-Cloudflare-Email-build.md",
-      "before": "https:://dash.cloudflare.com/sign-up",
-      "after": "https://dash.cloudflare.com/sign-up",
-      "recorded_in": "article-overrides.json"
-    }
-  ],
+  "conflicts": [],
   "known_existing_reference_issues": {
     "source_count": 46,
     "retained_count": 26,
-    "new_count": 0,
-    "note": "既有源链接或已精简下载；本轮未引入新问题"
+    "new_count": 0
   },
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27",
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/articles-work/semantic-verification.json",
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/images-work/image-url-verification.json",
   "current_validation": {
     "status": "passed",
-    "article_replay_checked": 2218,
+    "article_replay_checked": 2221,
     "article_replay_changes": 0,
     "unsupported": 0,
     "new_unresolved_references": 0,
     "pending_uploads": 0,
-    "markdown_and_vue_templates_checked": 4,
-    "template_errors": 0,
-    "managed_file_hashes_verified": 2528,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d/replay-report.json"
-  },
-  "build": {
-    "performed_for_current_revision": false,
-    "success": null,
-    "note": "本轮为普通正文和新文章；已做全部文章转换复核及4篇Markdown/Vue模板编译检查，未运行整站构建"
+    "managed_file_hashes_verified": 2531,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/articles-work/replay-report.json",
+    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/site-output-validation.json",
+    "article_pages_verified": 5,
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/articles-work/deployed-replay-report.json",
+    "preserved_source_whitespace": [
+      {
+        "path": "docs/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.md",
+        "line": 106,
+        "kind": "trailing whitespace.",
+        "trailing_space_bytes": 2,
+        "identical_line_in_source": true
+      },
+      {
+        "path": "docs/Books/06-publishing-and-speaking/02-xiamen-institute-of-technology-talk.md",
+        "line": 107,
+        "kind": "trailing whitespace.",
+        "trailing_space_bytes": 2,
+        "identical_line_in_source": true
+      },
+      {
+        "path": "docs/column/Python-Programming-Course/P18-Codex/05-openai-codex-getting-started.md",
+        "line": 29,
+        "kind": "trailing whitespace.",
+        "trailing_space_bytes": 1,
+        "identical_line_in_source": true
+      }
+    ]
   },
   "target_status": "working_tree_updated",
   "target_committed": false,
   "target_pushed": false,
   "website_published": false,
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-06-e2f16d1-yxyiyi8d",
-  "conflicts": []
+  "build": {
+    "performed_for_current_revision": true,
+    "command": "pnpm run docs:build",
+    "success": true,
+    "rendered_pages": 3333,
+    "warnings": [
+      "既有 hideHeading 属性的字符串/布尔类型告警",
+      "既有 Share 组件未注册",
+      "部分打包分块超过体积提醒阈值",
+      "图标插件忽略离线扫描选项"
+    ],
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-15-c5b1a27/site-build.log"
+  }
 }

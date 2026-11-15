@@ -127,9 +127,8 @@
       }
     },
     "docs/column/pdf/README.md": {
-      "source_blob": "66a669d7ccb217208d1d59bc576c64dd7afca207",
+      "source_blob": "895b8eb7cda452b110ac0c5d4548a10df6de92f0",
       "target_sha256": "c1985e2c7309fff8d6ee0b4b24677a5c9ce8f7dcf78db3e87f86c17682623f73",
-      "reason": "Six established GitHub release PDF delivery URLs",
       "dependency_blobs": {
         "docs/.vuepress/public/pdf/01-C语言【蜂考系统课】.pdf": "a14f9a75fc6c93ffb40250407d8ac94b61c0d8e8",
         "docs/.vuepress/public/pdf/02-C语言【蜂考速成课】.pdf": "0303a8c33f47b735f80c6e618aa52682e6915a2d",
@@ -137,18 +136,19 @@
         "docs/.vuepress/public/pdf/04-Python数据分析基础.pdf": "6ff26fa4d7ddc43544ea84fe1f828995960bc09f",
         "docs/.vuepress/public/pdf/05-Python数据分析实战_2016版.pdf": "ed8991de86f708161dd21d979a2311343cf8d797",
         "docs/.vuepress/public/pdf/06-Python数据分析与挖掘实战.pdf": "a96509513ace31eed1fe8ea900370ccb7e71b17d"
-      }
+      },
+      "reason": "Six established GitHub release PDF delivery URLs；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/02-1.md": {
-      "source_blob": "ac2b262cb3178801a79dd1622871deb42e815406",
+      "source_blob": "b6d60fcb39599aa730893c5da3b374e0388a6ca2",
       "target_sha256": "22c8889b26820cfb6f4035d4c6cc654dd78b39c898d63393d195d484a5d28c7d",
-      "reason": "Escaped missing TS local media download and disabled media nodes",
       "dependency_blobs": {
         "docs/.vuepress/public/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.webm": "414f49861249f9f055dd6434fe3aa6e48ebe91da",
         "docs/.vuepress/public/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.mp4": "b77ad6a81f861e72a32a0055fceb76fc3ea70228",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "Escaped missing TS local media download and disabled media nodes；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/摄影入门课/README.md": {
       "source_blob": "e3925f7ab6283d8c96f9b263e0e5536676663c9c",
@@ -170,15 +170,15 @@
       }
     },
     "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.md": {
-      "source_blob": "bc2ceeb5b94e0a0f2ba035283a31c45e690e858b",
+      "source_blob": "2e2b6610646d79a3798586b383ce1ccb5f224b78",
       "target_sha256": "645e185a229dc33b84ffc9146adb446bfa5e9e0d709e1e5d3cd882e00f6ed941",
-      "reason": "Preserved heading numbering after omitted disabled player",
       "dependency_blobs": {
         "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.assets/1620.jpeg": "e2a208fe2cda7ef6bd8cfd87abfc28eedf92db38",
         "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.assets/acb766c6067f046.png": "9f0608bc17bdbf12b6d38cf20f8bca57a2b9a5bc",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "Preserved heading numbering after omitted disabled player；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/password.md": {
       "source_blob": "eff1b29bd488ef24caf4bb0f5024b53e148f8a10",
@@ -207,15 +207,15 @@
       "dependency_blobs": {}
     },
     "docs/blog/2023/12month/blog-settings.md": {
-      "source_blob": "6de005139807cfc6e7cbec9830203a50a4b53449",
+      "source_blob": "3f4aa4f37e75ff2bcb8fb74f9386e05c4fb6523e",
       "target_sha256": "7b9cc688109d9e164c861938b02eb7d7cea42894c916caddce206112813b8810",
-      "reason": "GitHub directory replacing pruned PortKit route",
       "dependency_blobs": {
         "docs/blog/2023/12month/blog-settings.assets/image-20231215131719844.png": "023b216d1c58b38db4db0d593180dbf8e8f4c7cc",
         "docs/.vuepress/public/pdf/03-使用8421.pdf": "4ab3e4f8df45c59dd3fd0d89a4ed2e1e439060ad",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "GitHub directory replacing pruned PortKit route；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/blog/crawler/01-regex01.md": {
       "source_blob": "9e5876017762e40aa7e2cc2bb05b48e4260ee156",
@@ -345,9 +345,8 @@
       }
     },
     "docs/1v1/47-qiuzhen/Blog/18-web-log.md": {
-      "source_blob": "c3e46ec418b9116c42069730163f3b5a9ec4b493",
+      "source_blob": "4b6aee0193658837014cc2f2d3f3e5c167673890",
       "target_sha256": "b6375f3ac7475c05bf9e73cff87c57a2361a9f9623e7dbae42f1b66abab85232",
-      "reason": "保留部署版已经精简、转义的示例模板，不恢复旧代码模板和组件示例",
       "dependency_blobs": {
         "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230725084028529.png": "bbc038fb7801d2d459230fe9b2ef1bd9cf224d63",
         "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230728071108784.png": "ee47a2901fd9b2ea0d9e095a0628bf703fc276d7",
@@ -357,7 +356,8 @@
         "docs/.vuepress/public/pdf/keyboard-shortcuts-macos.pdf": "5000f530631bb58c8d0aaa1f54005bad2ded005b",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "保留部署版已经精简、转义的示例模板，不恢复旧代码模板和组件示例；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Programming-Course/P07-How-to-become-an-expert-in-effective-learning/01.md": {
       "source_blob": "1e0bca64217cdd6c0deb5812c86ee8aca6daf77b",
@@ -492,9 +492,8 @@
       }
     },
     "docs/column/TensorFlow/零基础实战机器学习/README.md": {
-      "source_blob": "c92e405a205697bf8c3dfd0de39d5eadc6a1e69d",
+      "source_blob": "3616998055080411b8eb1f70dd8d794dd2a937ba",
       "target_sha256": "880f25163aa09ddc0ed548e7ff193e5ec9c80a63d446a4c00018ebefaee48561",
-      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/README.assets/38ea18722c985b5610374532e2fc90bc.jpg": "9edbd43a7df1ee1f0f1b1ce798b409642f484b5b",
         "docs/.vuepress/public/零基础实战机器学习/00.mp3": "13f2cf55094dcb53ef2e57d03c8c60126e4d576c",
@@ -503,12 +502,12 @@
         "docs/column/TensorFlow/零基础实战机器学习/README.assets/92dee0118aa4f9508ca09c2880dacffc.jpg": "4baae897934783316faf80e0f484ecc2f9a5c87e",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/01.md": {
-      "source_blob": "b0d90f20382cd395f5407654de09b700b4bfb6db",
+      "source_blob": "205cdfa4a7a453702b3507e7a33d1fe573179adb",
       "target_sha256": "cce396690a2f3462682aa406381b6daf5be6c07ec14ebee39597972fc56483f0",
-      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/01.assets/c94b8feb7a5eec3f5a8c1c7e9a26489d.jpg": "8cb64d61082ba8979ca049b7784b684e34424162",
         "docs/.vuepress/public/零基础实战机器学习/01.mp3": "9c502948817a4c5ee55352567486b7191d69f67e",
@@ -519,12 +518,12 @@
         "docs/column/TensorFlow/零基础实战机器学习/01.assets/0553155254b44a41a489309df5d52dc5.jpg": "fd4bd1a8c7ec02cb004d5d8ea145d656e82e8ef2",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/02.md": {
-      "source_blob": "9cb6b4bafa4e437edc3bb19e2279e4340b75f474",
+      "source_blob": "f125f1b310c9fb3f9c35894caf4c7cc208ef07e6",
       "target_sha256": "bd49c82f09d8cefcb8a837b7a44914acd66c0d9444515cd19e2fd24db8e4cb9d",
-      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/02.assets/a6c1e06e4b93ef9019611bfa86ccb890.jpeg": "c2715fff49fa907ef301c6aae23b1953ed281aca",
         "docs/.vuepress/public/零基础实战机器学习/02.mp3": "c9a16c6dd5d5d4f9e9d603723a28c202434c2128",
@@ -551,18 +550,19 @@
         "docs/column/TensorFlow/零基础实战机器学习/02.assets/image-20220806215915080.png": "159e2e6f8f58b8dc2493ac543b94fc68c58aedf3",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/03.md": {
-      "source_blob": "4af6c46c64347e3aec4e20270c8f26d61ee3face",
+      "source_blob": "cacc46465eb0eeca6ac7ce76b05699617ee756c1",
       "target_sha256": "51daf10288cd5ecc5395ccbb8ee2f24504d650ddbc851084d1b0d53d91020366",
-      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/03.assets/24db96f2fc1a486c1daf1103e907e909.jpg": "c68f57ee3156ef55db6d07e65d48c8e94ea01086",
         "docs/.vuepress/public/零基础实战机器学习/03.mp3": "ec960db8df0d1a2fca1ccf50228804ec20a3bc29",
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
         "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
-      }
+      },
+      "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.md": {
       "source_blob": "87a142fd6595eac85bdb1d9a71a4ae806514519d",
@@ -580,6 +580,504 @@
         "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251120145039400.png": "50cb2ea0e48e767133c77a668ce4d3233c261c52",
         "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.assets/image-20251120144924917.png": "81b8d9307036252efc5e8301f5cf8f14f3f9beda"
       }
+    },
+    "docs/1v1/04-TommyTian/07-Homework05.md": {
+      "source_blob": "d91872ed5ea36838331337f3725b79a29b6d24b6",
+      "target_sha256": "fe5425b4437d5ab7197a616a2dbab40ec972c4362bdb9ec76ebd1c3f8666290f",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/04-TommyTian/07-Homework05/HW05.pdf": "b8c8d8302e02db82f2cc6e670d0bdcf5467507d8",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/15-group-hw.md": {
+      "source_blob": "4d8a6feb6286d763053d0266fe30b5c205b4e4c1",
+      "target_sha256": "b44783cd1f8eca99f59f8d738aadec3532a97512b9440bd60b4bd83ff362dd45",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/15-group-hw/FinalProject.pdf": "09cc1a2dcced49898e209b9b418f469e3222e5a8",
+        "docs/1v1/06-KAI/15-group-hw.assets/image-20221212113447606.png": "cac4fe4088ba4e2fb992d9d063da86ad69c42f4c",
+        "docs/1v1/06-KAI/15-group-hw.assets/image-20221212114552490.png": "bc40def43e6bba14836a55051ed22634125446b8",
+        "docs/1v1/06-KAI/15-group-hw.assets/image-20221212114733238.png": "503a334c3bae1dcd6341740726b6cf0bb6b0ff04",
+        "docs/.vuepress/public/1v1/06-KAI/15-group-hw/demo.mp4": "f76c0de810b594e2fce1593641ea42c16f1abf7e",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All.md": {
+      "source_blob": "4561121a20402596e862fc81183de310ed447605",
+      "target_sha256": "83eae770f75ecf722fe7e491952c1bbc049ffed2decbcad943c10ae90c05ee27",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All/assignment03_images.zip": "a70ba7ae205f55df0803dd3901e1c40d585a4d1d",
+        "docs/.vuepress/public/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All/yt1s.com-webdev-assignment03-2021_1080p.mp4": "ef6e4de9027a289198506340148135ba5cc5a59d",
+        "docs/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All.assets/image-20230225221023223.png": "ede62269eed1892037a5a4052c3d5e155ad9d22a",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/27-Assignment05.md": {
+      "source_blob": "46ed712f715d57e573a276803c264b4100bb1d9b",
+      "target_sha256": "3d809a8cb5067a2ccf04a87212e724522b7204efd853c2089eed062bd3ef9af3",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/27-Assignment05/27-Assignment05.mp4": "e5396528a49d7f49703a457fd842472a038df1a5",
+        "docs/.vuepress/public/1v1/06-KAI/27-Assignment05/assignment05_images.zip": "2a9f00913362b7b87f722d828a1a3d5c712a5f59",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/29-Micro-Assignment06.md": {
+      "source_blob": "b405a723bcf2cf1c801d8be4ed0009b124b8c013",
+      "target_sha256": "f10705fa1216514fbc82c5f7c9ab5defc44e2b2ba78068c0649e5a136104c047",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/01-php-fundamentals-v2.mp4": "f3dbf3c00e6c8f584162982b28762b4ceef32588",
+        "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/02-php-cgi.mp4": "12b33bff988f65e5db3ebba7db3b5b27cfa4d2cb",
+        "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/03-php-header.mp4": "8415af81b4512ba379a532141588b191f3f5be57",
+        "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/05-php-debugging.mp4": "2622a64e57d59c0d586800baee8bf569cb5f8f9d",
+        "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/06-linux-command-line.mp4": "1c6e53485056d3deeda841dfae5ad05a22dadbcb",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/30-Assignment06-Matching-Game.md": {
+      "source_blob": "b198bd85229876b425aec60683d7a6dcfb690cf3",
+      "target_sha256": "aed570d6a204474d13b526460a33fb1cd9300d21c38719c06ecedfb088983796",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/30-Assignment06-Matching-Game/webdev matching game_360p.mp4": "57412ffe38d48882646da05f1d4f5b901502527d",
+        "docs/.vuepress/public/1v1/06-KAI/30-Assignment06-Matching-Game/assignment06_images.zip": "34573e02ba68f9b76cb05bbc9c92c709a0d385cf",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System.md": {
+      "source_blob": "8c712082971bcd397c40d29d1813e2724c466b40",
+      "target_sha256": "819dc1a0088870eff24ddbf96756921fe903d112e1a52bc6c8ab31cbf601892b",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System/yt1s.com-simpsonsquiz assignment6_360p.mp4": "b3379342a2a1c07b87fd268c654f7ed9ab2791fd",
+        "docs/.vuepress/public/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System/assignment07_images.zip": "82ff85511941b5f4ea7c98d73bb456db4bc73986",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/32-Micro-Assignment07.md": {
+      "source_blob": "a42ac20e5ff393833a25d23de16ea4417ab1f7e7",
+      "target_sha256": "ccad4b89e04219d226c2032c885eeea2dac1f03335e70413865aadb8acf578da",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/32-Micro-Assignment07/01-php-fileIO.mp4": "62560ee90fe780525894979c1fd19f5eb0c31196",
+        "docs/.vuepress/public/1v1/06-KAI/32-Micro-Assignment07/02-cookies-vs-localstorage.mp4": "18c2900aaf96d3a07328408c2aa3df228c0595a4",
+        "docs/.vuepress/public/1v1/06-KAI/32-Micro-Assignment07/03-cookies-and-php.mp4": "aa7f783f2bd21f3072377c69a8a6eb465ef5feba",
+        "docs/.vuepress/public/1v1/06-KAI/32-Micro-Assignment07/04-practical-cookies.mp4": "c33aa47889bba1d957be2f575c2601a9b32a5958",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/06-KAI/33-Micro-Assignment08.md": {
+      "source_blob": "648fe4a2021aa019ff3f3a1273cc3a846029e472",
+      "target_sha256": "b480a26a2591f2554a683074c4ca8555bbf90548092574e776261fc8aac4da91",
+      "dependency_blobs": {
+        "docs/.vuepress/public/1v1/06-KAI/33-Micro-Assignment08/webdev-micro08-promises.mp4": "39e3c329d6ddce1975cf345ff756fbaafc359dba",
+        "docs/.vuepress/public/1v1/06-KAI/33-Micro-Assignment08/webdev-micro08-fetch.mp4": "21553d80c661fdece461746312877dd0a38b50b3",
+        "docs/.vuepress/public/1v1/06-KAI/33-Micro-Assignment08/micro08_starter_code.zip": "5cfb8a117f4493b7959fd18d1bae6d53f2653fc4",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/1v1/64-MKQ/IEORE4501_001_2023_3-TOOLS-FOR-ANALYTICS/01-Fundamentals/01-How-to-Complete-the-Homeworks.md": {
+      "source_blob": "98df365e7260e1e44da97d3591ea1077b68a3967",
+      "target_sha256": "6c9986317185a10c38a06bf502457801465b66c83566f6c76ddb87b26f953ea6",
+      "dependency_blobs": {
+        "docs/.vuepress/public/pdf/How-to-Complete-the-Homeworks.pdf": "6e644602c645a7bbacc13f5c9fcff569152bffc6",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/Books/02-SupplementaryArticles/Share/Kunstkammer-Wien-der-Schiffsautomat.md": {
+      "source_blob": "35ebb71b0e79b39b73968ed42322d91cafeef0ba",
+      "target_sha256": "09ed5129f6ad5d957db59a2191764b43a4035efcc3dbc2c8ed5008f0db119b7d",
+      "dependency_blobs": {},
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/blog/2022/11month/02.md": {
+      "source_blob": "9a74ecec5926899569d8e3ac0896131ab41f870d",
+      "target_sha256": "79c710c8d64e2c288af7ac49857b4fe69a33c1e5259cee1c24b2b3b1712c3660",
+      "dependency_blobs": {
+        "docs/blog/2022/11month/02.assets/image-20221111210814773.png": "26e6f5ceb149459f17b38ca64731888878edcbbf",
+        "docs/.vuepress/public/video/李峋同款跳动的心/732.MP4": "68f7cdb1cbf9f1858512eaa1bb8226e8543fdb3d",
+        "docs/blog/2022/11month/02.assets/image-20221111212703363.png": "88a62422382e407e5ec44301c44542663a20ab56",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/ChatGPT-Midjourney/StableDiffusion/01.md": {
+      "source_blob": "961f6a5e1a0bb8242e2167623ed5061a9ed50f7b",
+      "target_sha256": "42240f8c562e1d4e7f8d02bc07d3a7b2ae02598f5456e11f31b63ea551af1775",
+      "dependency_blobs": {
+        "docs/column/ChatGPT-Midjourney/StableDiffusion/01.assets/1c517a8ab9b4d927c9d11790b8d4d86f.jpeg": "2cf924a3d245aeb6a55f1aba6f9beaf96e3be864",
+        "docs/.vuepress/public/video/ChatGPT/524c3814-188380bd7cb-0000-0000-01d-dbacd.mp4": "1fd79c72f2f3690ecbd540ff6cdd4af4163fe7c5"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/ChatGPT/ChatPPT/02.md": {
+      "source_blob": "e542b3634d6f0217a6dbb45842dd520eac3f29bd",
+      "target_sha256": "4567c5dc55c8d5548dbe114757e11e8fa21ac661e82ba958e43fb2759e13d565",
+      "dependency_blobs": {
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902223359410.png": "cf2d02d4e39637e15389dba41510d14fd0204fc5",
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902223725650.png": "a4e452b812fa1dd720ed7122afb709c2e2f19051",
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902223800694.png": "6a48f2fb2ef5cd67dd9e2c6c277b5bcefab07264",
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902224908772.png": "466a2a4c300991c19d575b3fbe9decb3986aa4be",
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902225439819.png": "3da605a6882b98e72ec6ac2fbdef14ceef44f517",
+        "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902225549193.png": "8ef9c4b73e0f8c119c20a4cf015cfcfa6908f1d0",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/ChatGPT/Chatbot/01.md": {
+      "source_blob": "7dc9ab9831654ad511467fc45847092fa769a7aa",
+      "target_sha256": "e17bea961d1dc674b27958b04f723626929be98c37c74ad72e5ab32bf8d387cf",
+      "dependency_blobs": {
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230319222844431.png": "17bed5cd446dedbd64a45d5938ce43dd9a5706fa",
+        "docs/.vuepress/public/video/ChatGPT/demo.mp4": "2c48876813690048a53954a8f50f4178d4b02fd7",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320130230260.png": "5a258ccf601d942bdfc71729d94bfb857621cdb0",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320130320370.png": "c7a0b66ec6e91a346aebb50ef18b359b6c6f122a",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320134501117.png": "8b28f0ded48289ddce0a2e0535f1104c7ea735a3",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320141202023.png": "5fa97f9b82dc85e0150fd6ef6af6346291afed52",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320141229527.png": "dc4c16b60dd95896bda4b849a8eaabce42434861",
+        "docs/column/ChatGPT/Chatbot/01.assets/Snipaste_2023-03-20_15-43-49.png": "c6292c36bf2d762b16882032a55264f281c04817",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230321002510771.png": "5bcc10f03a1e6f44efe470fcf6ead8ca25632d1e",
+        "docs/column/ChatGPT/Chatbot/01.assets/GPT-J-Resize.png": "38aaa3b7cad255092e9b87aa8a6297ad9a81de3f",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320221924302.png": "5c274b1c1cd79e3d422a77e1923fbd256ea98efc",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320001659544.png": "94737399e2b43cd75da1bb8c91709bc677a84803",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320215627221.png": "42a119a365702822a3f66fa474673557be83d0c1",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320215636019.png": "d5052577ff945efb6066a41101a4517889f8feaa",
+        "docs/column/ChatGPT/Chatbot/01.assets/image-20230320215857780.png": "934a21cd03fb97ce7ab8353f625478b07da2c984",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Computer-basic-practical-course/00.md": {
+      "source_blob": "f6666452ccbe17a6d7f3d45d08bdd32c416cf875",
+      "target_sha256": "622c91ea642e3ec40489f89b48f850f87284331520b1b38f5ecf53ce25a75968",
+      "dependency_blobs": {
+        "docs/column/Computer-basic-practical-course/00.assets/c2d25fa05c3ffee2e4d8863201743bdc.jpg": "ef69c344b251eced850024546b3f99fe83e07547",
+        "docs/.vuepress/public/mp3/计算机基础实战课/开篇词｜练好基本功，优秀工程师成长第一步.mp3": "80396a5566a979333a83143eeae7d4970ec5b366",
+        "docs/column/Computer-basic-practical-course/00.assets/2d89cfa19124af8068bd9f94d9e0b5bb-20221211125443671.jpg": "798ef85faa0cff782ccde78ebd47df7e64f6c758",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Computer-basic-practical-course/01.md": {
+      "source_blob": "6f01a5631b525611c6066ead6c38c6571804a666",
+      "target_sha256": "c59138c53e57acf162e814e21814abf0f0d4049785a0c61505e8d3c038ee67b5",
+      "dependency_blobs": {
+        "docs/column/Computer-basic-practical-course/01.assets/20ec307e84f7ebce3c0ae7439312d014.jpg": "8b18bc364112338a9501e12b514b53e9b7bc76ff",
+        "docs/.vuepress/public/mp3/计算机基础实战课/01-CISC&RISC：从何而来，何至于此.mp3": "cbcf9c14b626bbf718b7728a1d62ae83986a1f98",
+        "docs/column/Computer-basic-practical-course/01.assets/c7c942f024b13ce96e9443efa2c93bd9.jpg": "ceeacac43790573d00d628b3dd773f5ff6da3f44",
+        "docs/column/Computer-basic-practical-course/01.assets/51b1c0668bc479c53d7c382e27b5b27b.jpg": "db75fe518e79100457526724785c9840edbb5246",
+        "docs/column/Computer-basic-practical-course/01.assets/ac779948df1c646cca16a2c1556fdf66.jpg": "7a43146ea0f01d65a8c89927e99a45913b008702",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Computer-basic-practical-course/02.md": {
+      "source_blob": "44f54b81b963c024929b0efa454499a2d8240f98",
+      "target_sha256": "ff0fa50ba4646368e1e8e0f024e6fcde3e49488f308e4279f63aa9c693b936f9",
+      "dependency_blobs": {
+        "docs/column/Computer-basic-practical-course/02.assets/1cd5f483b930bdcbf0e20980a2b80510.jpg": "331c7e2de18c08934e0285a063b36cb4c43ddec4",
+        "docs/.vuepress/public/mp3/计算机基础实战课/02-RISC特性与发展-RISC-V凭什么成为“半导体行业的Linux”？.mp3": "f8797dc0248f648a1038aa1d6f0955934c876bfb",
+        "docs/column/Computer-basic-practical-course/02.assets/fedceecb22936111a74227f7b3dc273e.jpg": "5068f0e445905972832dd687523186e70cbe0ef5",
+        "docs/column/Computer-basic-practical-course/02.assets/325yy6b15697abae97c145f3135af005.jpg": "3d1d77b32e1379163cfe860e5f77ec89bd839ca0",
+        "docs/column/Computer-basic-practical-course/02.assets/29b1fcdeeaecffb0b86499066c3d9b6b.jpg": "4d8ff78baf2270489da7e06b15ea69438b46ac50",
+        "docs/column/Computer-basic-practical-course/02.assets/6cb32d65dddb4742ea1229c3d3a28a6c.jpg": "eb62cb59dab72061c6603b032db52f7dfca1a28c",
+        "docs/column/Computer-basic-practical-course/02.assets/92fa1a8227f77b74898ccab17386f1a2.jpg": "f4e743cd8707c1232b89daa7d34efe19a7eafdf9",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Computer-basic-practical-course/03.md": {
+      "source_blob": "c5125db02a445957a8a8eb697fd4156f6cb504c3",
+      "target_sha256": "5cbad6aa2d5b498a8c15b762ee14b9d310c82b8681877e2ca6a9770159b36c21",
+      "dependency_blobs": {
+        "docs/column/Computer-basic-practical-course/03.assets/3372e37cd74c891ca78c22e6bec3fa21.jpg": "0f19b6bfadd596f42eeefd1d12349304adfbbabf",
+        "docs/.vuepress/public/mp3/计算机基础实战课/03｜硬件语言筑基（一）：从硬件语言开启手写CPU之旅.mp3": "03185b1eaf43671d628cc1b7bbc597835f61a2ac",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.md": {
+      "source_blob": "9439e7f8f1f1a6a37dc189799a72a65bf7df931c",
+      "target_sha256": "4087c368650a1576d9221183ce4f2c4daa8f1d6332fb70db46e17152087e4bda",
+      "dependency_blobs": {
+        "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.assets/Fl5xaxaFV9CKR74DD3gLKgCCTV4w.jpeg": "e741b60edba3ae09a89751ad7438d1295d447ae5",
+        "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.assets/image-20230112001000376.png": "f795de2b07c7979b76a8313f5e1a6980dba2c3e4",
+        "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.assets/image-20230112001553916.png": "980db33770a979fe84e26d3c74c17e06294ed32b",
+        "docs/.vuepress/public/mp3/墨问东西/创业手记/活了半辈子，一事无成.mp3": "abf8c3beec82fe55d629d8a7cbb61c1c14c77c14"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Python-Flask/Project1/01.md": {
+      "source_blob": "f696a73a313846acd2d2910edcf6bfa14e1ca79d",
+      "target_sha256": "7d75ce4cb7ad21a5946c50f7767e96612c4760b41bc9e40c5133cc4dfef6fd18",
+      "dependency_blobs": {
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/Python-Flask/Project1/02.md": {
+      "source_blob": "f7faab789d0ad4b0344fc8306ad94ae96a5673bf",
+      "target_sha256": "f7ba91ba12ede72f310a611b458afe22c408f1009d5a7ba659707779f06c7e5c",
+      "dependency_blobs": {
+        "docs/column/Python-Flask/Project1/02.assets/image-20230105234831711.png": "7fb0d3745ee77e2965c12460b07adf548f3f9beb",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/StableDiffusion/02.md": {
+      "source_blob": "65d18fd662b6a0e617d49939a0e32254fcd8c5a3",
+      "target_sha256": "16be45462cf708d87c0175a806331715ab1e1aa0ca916e885f5faf998e8548e2",
+      "dependency_blobs": {
+        "docs/.vuepress/public/banner/02-sd2.webp": "f71478d62bfa0dda031c84924592ff25eecba2a3",
+        "docs/column/StableDiffusion/02.assets/6467238b57e67a75d826c083114a1a9b-20230720112331485.jpg": "7e1025bc5342cfc80476c452c7f3ad938706d3e3",
+        "docs/column/StableDiffusion/02.assets/d181b5e897a2f2c600b9bfa3f2fc8f7c.jpg": "1eac7106f56452127edfa0a11e6dd3925550797e",
+        "docs/column/StableDiffusion/02.assets/ef017b9a0e0ea19038eb70d0ea3e3376-20230720113041967.jpg": "0e2a9dc55eeb05ebf5c9f0021ff8f17f66b66540",
+        "docs/column/StableDiffusion/02.assets/9caedfd46c05d84bafe6574da4847cab-20230720113230701.jpg": "83980751adaa5968d0a62ad235103c7787b7c963",
+        "docs/column/StableDiffusion/02.assets/6996be228050f56b599ca20ff3209cc2-20230720113405899.jpg": "5a473ba7bf63659ef8865c309c21722bbf3b26f4",
+        "docs/column/StableDiffusion/02.assets/e986ea0a3bcc781a921ccb2524f369eb-20230720113604915.jpg": "6d9286317b9305b1902425858bfd987d76fdc9a5",
+        "docs/column/StableDiffusion/02.assets/3e0ea0f4bce7c46500e3f1f1dc6dbfbd-20230720113651285.jpg": "b6d091e0122492e1df2c5f3920f5adb2d0d8c23d",
+        "docs/column/StableDiffusion/02.assets/f4d40e80ec2d1ff5ae4a9e8475700df9-20230720114029379.jpg": "c861da20509044a64979315712b1665744d14a0d",
+        "docs/column/StableDiffusion/02.assets/925d4c7fde547e8c939179a79c3d4ea0-20230720114117114.jpg": "3581e4420d4cf79a26ac2ca732c05603195ba77b",
+        "docs/column/StableDiffusion/02.assets/570b08bf1dca77933e7750e3a8d2138a-20230720114159032.jpg": "5ab596b00f6337f01780a5c89ba960fa00aedf93",
+        "docs/column/StableDiffusion/02.assets/4e8b25253cfd8367ca45e94e7f5e2307-20230720114238747.jpg": "46a500d5c4f566d0b02fd7c9cad3ce28f57cc387",
+        "docs/column/StableDiffusion/02.assets/9535a62e6e87f2e01f189a50bbec760d-20230720114315041.jpg": "897f78b8b001fc7eae823de0d5718e833bf09060",
+        "docs/column/StableDiffusion/02.assets/dcf636364ab843f7163bca9894c69e2e-20230720114355146.jpg": "46351ba189ba9372fcf2f8e089c2e2a91cca72e9",
+        "docs/column/StableDiffusion/02.assets/a73e14ff63ba456226024b68a1ce2424-20230720114508479.jpg": "7d3c029ce7684ad935337af3f8a369322805ae48",
+        "docs/column/StableDiffusion/02.assets/0fe9f6d7be848dda66369c6f43872a79-20230720114555750.jpg": "d0a1faa310f3711a1a1d636500406c414307bdf9",
+        "docs/column/StableDiffusion/02.assets/96e27cee2ffac247c373df980465fba1-20230720114727245.jpg": "e81b3909f15be263fd06e61d7265920d5a5ac5f3",
+        "docs/column/StableDiffusion/02.assets/82fa6832703288e295f7b63f4823031c-20230720114800896.jpg": "26376ca59252b0dd8995ed487aebb4bea89a9730",
+        "docs/column/StableDiffusion/02.assets/c623b68969fb3508e7d192e7e9e14393-20230720114927825.jpg": "4fe2056be68d6d6e9c783424758ad5b14fe9a84a",
+        "docs/column/StableDiffusion/02.assets/d362d45f2d227f7889c03634442a4b07-20230720115220689.jpg": "3b43d2a38e4bf4f66d34144211672bab6a7cff49",
+        "docs/column/StableDiffusion/02.assets/c253861fd5a46543bcc057d72934f2e8.gif": "d7f4a9bc736bab03da486845ac5c9c1f4af569ba",
+        "docs/column/StableDiffusion/02.assets/483a694e7983a8239e296f7535420891-20230720115413648.jpg": "1b2227d0b57745b154e8e0635e620d077a1f6d88",
+        "docs/column/StableDiffusion/02.assets/f352d8511c51afd81dcd244f30ed368f-20230720115532765.jpg": "f8e2db4ace0f6fa3a91d624409930b9ffc0811e9",
+        "docs/column/StableDiffusion/02.assets/b7210f4c815164c01f41902d2149ba31-20230720115602618.jpg": "4b9dce3c098ff828e5a75c8a04d5a96ff66aaa4c",
+        "docs/column/StableDiffusion/02.assets/3720391d2e9c1bd48d9449ef02fff657-20230720115708445.jpg": "bd9bfd4c584a44a6b711a33f62a3b7604d74ca8c",
+        "docs/column/StableDiffusion/02.assets/14106d084c652aa986e8a325acb31582-20230720115830630.jpg": "83b0c7cf0d6d6cffedda2d26e52a8600331ed7b9",
+        "docs/.vuepress/public/video/SD/2023_07_20 12_02_15.mp4": "134557cc30e05529ec5516d892ae4c3e0810b4da",
+        "docs/.vuepress/public/video/SD/2023_07_20 12_09_09.mp4": "520e01f94b6ed418eb49ab156db933c672d042f5",
+        "docs/column/StableDiffusion/02.assets/41e00bfacb03bc879a93bc7a0508dbd3-20230720121230443.jpg": "f8c00bde07b5aab75acbc3db2fc9319ada777034",
+        "docs/column/StableDiffusion/02.assets/3920e47fd394847d54fa93ca81yy7b98-20230720121425623.jpg": "b8c5d09aff88e25863df1b64d6e604a363f9a93d",
+        "docs/column/StableDiffusion/02.assets/dea55975a6fab6230d249ee85821e551-20230720121715114.jpg": "0e70cb66a7564bef9b0bae53e3795b9b94e37a5e",
+        "docs/column/StableDiffusion/02.assets/f1158c54cd8d949986244c4e36a3caaf-20230720121829751.jpg": "171ff386e95e087c4dbe6d867421b2c5007a14e0",
+        "docs/column/StableDiffusion/02.assets/f9e1060029366ab6aa03e7c4e1fc2eb6-20230720121949854.jpg": "76c0d23ca00b4cb211ea71fc119f3bf42fa24843",
+        "docs/column/StableDiffusion/02.assets/d67cbb8bba22452cc04d0cfbe64a9965-20230720125917968.jpg": "e6b315cade1ba864e855841aef1853cd62b5bbfc",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.md": {
+      "source_blob": "5019bbd79e5aeac1bc0f11cc590b50e617f6c84f",
+      "target_sha256": "8bb0496d3f5a8309788ee5d1475e66c884a1fa972fe4276c034296deb76753a0",
+      "dependency_blobs": {
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985397600-339f45ff-b149-49d6-8a9c-b69b227e954d.png": "d84c5152234dd2bd6da193032337c83965328d8d",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/image-20250511143846607.png": "49c9ee4956bcc7a449d06a1b7ce577183ec9ab78",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987487746-32524de6-7494-4f87-a5a8-7eb1d1f53c1c.png": "620d8ad352f637b5877ec9fc5a21604aece22c8d",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985507848-93c6b165-1052-475f-adac-1521d3fab9b0.png": "a2ed8d29ac13ac14b36814486ea8422a2278d3f6",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985633473-875b14ad-b1e3-4be6-9f7c-8911c249fc82.png": "2b1cda641437b5cc2bb484ad19960adacb2e08fe",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985523539-ce7c0764-7567-463b-ac93-2271ffa542e1.png": "a3cbbe140ef35fa7f222a67581ec517ba79965ee",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986123465-dc4aa7f7-6e3b-43df-94fd-b512126b65ae.png": "330231d3782997c47a95930896be0ec1245596d1",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986559431-8b400513-9af4-4640-8d03-adfe92625adf.png": "a4b6e1062ec378a077117d1a174721e82e72a861",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986697609-e6e02d6b-e248-4c3f-aa6c-18611562685e.png": "36c0bf0b9bbbaadc60a9507d2d5b3e034cf38fc8",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985820848-481a23c7-23c5-4e02-b36d-0a37f1688e5b.png": "f29c73407a9a3417b952b760010832bca5d309bc",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985832086-acc9c376-cdc3-4647-9197-0bb05c7e40f6.png": "9d6bf77990444d4179689fe116a09d92dee6066f",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985897101-d35d0126-f055-4d48-b920-5405ce12d68e.png": "30ae8c405ad35fb018f7b33e0be85445fceb0c71",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986144122-e21e9f6b-e2a1-4d47-9894-1aa532fb576f.png": "c0bcf800e417473f45be0e6d9b9369cd5d36d0c0",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986626561-7065a788-2bd3-4309-a3af-70b0812ded95.png": "31ff8c2eab3f2c064ea94c4b9e25e4678362eaef",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986160335-fae10bf2-515b-4ef7-8024-4471acaa5876.png": "013326258f804aefb730d3300d6e981c3c0ea684",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986598586-c7691145-61ef-4bb7-a402-87f8cbd1090d.png": "c48371a6f0df8ce78d0cb369e7fb1dc58ab08c6c",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987033699-04283c2e-4a5e-4120-a37f-18049c8329a8.png": "dca2498b8ed39a865607c9f36883327359ace8d6",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985493281-8c1943ee-6f43-42e8-831c-9aad255ad5ff.png": "be0e2f3fa43195b38a97fc5c3ea6a19843da4a57",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987061065-3df041b8-31cf-498d-ba7f-78d2a9a04a4a.png": "67ec095d3a8c35e1e1e7811568656581989b6267",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744986641506-0edb0b16-1b87-4190-8163-497102a43bc0.png": "dd5f3b70716e1eb8f701e7417705768ff44ee563",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987326616-875aae18-321e-48b5-b722-bf137426d451.png": "4d1e521b9fadedb42705314cfca4423964197fea",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987345765-0539a30f-749d-4594-97ca-ae546dd8578e.png": "198d780f3202fe23864be74b61098517d2e0df02",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987364462-1934f4d6-1b6a-4c1c-9345-2d362222df4d.png": "51ac0f81d2af13111a3d4bba4dbad25526b80912",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987441773-c883ff10-0633-471d-8b33-3cbb540e12f0.png": "0b45d68b41bbc74fb75dd078c23d4a5faf7ec359",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987643902-d28dea71-8f61-45f6-9d52-3395e1979dff.png": "b8d2127fb202f48237e0693fcfe37e3674f2ea36",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987108254-2e2ae002-9020-4f95-a055-690e15dfe870.png": "19362f0ecc1bb30c2e3f855b6069487cf8306b91",
+        "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744987746795-722b1cd9-99f7-4b80-8ace-cf09f132714c.png": "4f2d5805f29142f31cf4a294d093d3a2eb27e1ad",
+        "docs/.vuepress/public/cookdinner/芋头.mp4": "3b1e1628c229b6bbe8dfbef33ea00c8230c44315",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/cookdinner/P07-特色甜食小吃/01-芝麻香芋.md": {
+      "source_blob": "5e1b575310ff7ee3469d20b924663f7675a329de",
+      "target_sha256": "dab3290eed027234b4f16c9fce20bd1a57d4cfd38a9c2580b3ad3ea736abda4f",
+      "dependency_blobs": {
+        "docs/.vuepress/public/cookdinner/芋头.mp4": "3b1e1628c229b6bbe8dfbef33ea00c8230c44315",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/crawler/s1_01.md": {
+      "source_blob": "e7260b2016d1b80cd18dce980f698436ce46070f",
+      "target_sha256": "2c016132a16b451797db7d9c48b7847ce31cd2ad56492c6767d41837e365a233",
+      "dependency_blobs": {
+        "docs/column/crawler/01.assets/1596513066859-43b79d21-f2e0-4d4a-a241-49b4ef70cb5e.jpeg": "8bf45c50b28859914725995da6020e034a1ec34b",
+        "docs/column/crawler/01.assets/1596513066859-80926084-403a-49bf-a08b-82509cc30b81.jpeg": "16f375c1a9f923c89a9d3ec26ea9eb42f4aba7a5",
+        "docs/column/crawler/01.assets/1596513066844-4ecf3d87-c9c9-4745-99ca-3a56d009b366.jpeg": "dc6f003e9375bb49fc66701959a6d83b01d57716",
+        "docs/column/crawler/01.assets/1596513066885-e164f3f8-34bd-473a-90bd-0d86776fc059.jpeg": "cba6c3e69494797a3a31cf0adbad6f97e800916b",
+        "docs/column/crawler/01.assets/1596513066961-a2f7d6f0-a3d5-4434-a333-09484434dc38.gif": "a280fab39d760ef62f0ad15006fa31dabd86e42d",
+        "docs/column/crawler/01.assets/1596513066834-08a4d1c4-6a73-4bb3-a178-b262e997c8f2.png": "a52c0e46ea069bb79b9d1423c9ea17a81f717f92",
+        "docs/column/crawler/01.assets/1596513066967-eb21e060-7596-4c20-a8b3-9fc2b5ce5eea.gif": "fe39579757a33f1da0902ebaa1c828baa26dfc37",
+        "docs/column/crawler/01.assets/1596513066968-a900ee37-f603-408d-87f8-40a0b10e8657.gif": "41cee9cdb1f65742de2cfc06ecc8b877e0d25708",
+        "docs/column/crawler/01.assets/1596513066958-0bb662ed-8192-484d-8ccf-2d6904030ecb.jpeg": "7665ab22ec495a6959fdadfded016e37d34720a5",
+        "docs/column/crawler/01.assets/1596513067059-8c715203-1566-4e5a-abe3-21e2a1f71d89.jpeg": "4723bfdcac211cc016560dd1e306e4c0e47ca63d",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.md": {
+      "source_blob": "8dd7ea8c1a76f096004d6e39695a4671d6e9ae31",
+      "target_sha256": "b9e588293d51c6d487aa2160626acd5bf1cc848c23138aad7c4a56b40a5bc31e",
+      "dependency_blobs": {
+        "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.assets/image-20230113105632842.png": "4bd1fe5567b2ccf2f00702726ca4a0f15e172e88",
+        "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.assets/image-20230113110645690.png": "071cf219e79044feea3a332b79f38cf0b2cdecc1",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/py/share/Kunstkammer-Wien-der-Schiffsautomat.md": {
+      "source_blob": "35ebb71b0e79b39b73968ed42322d91cafeef0ba",
+      "target_sha256": "d93093e5334363b9a15edb8a269f0497555ba529f186afff9c940679f9bc98dd",
+      "dependency_blobs": {},
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/python60/02.md": {
+      "source_blob": "f45863aedd7ad0b7424a5c4858e8845fa4dd7a25",
+      "target_sha256": "eca482e61092697853be49bcc21c078dc4eb226976dff2378a93e413f9a716eb",
+      "dependency_blobs": {
+        "docs/column/python60/02.assets/7d3ecf00-51ff-11ea-85a8-e305846ee506-7401075.png": "c979444aea07a8996cd248dd6513c81941492fa6",
+        "docs/column/python60/02.assets/85164140-51ff-11ea-a73d-4901d8017902-7401102.png": "74660bfadcde0859cb93aaa88377703952d5e76f",
+        "docs/column/python60/02.assets/8aae4ad0-51ff-11ea-8dce-59d407eb83a8-7403273.png": "b2598298c4048344bd8d16c88166cb4a55183de3",
+        "docs/column/python60/02.assets/36297b60-51ff-11ea-a847-a5aa0d0597f8-7403406.gif": "4dea1c8fff7fe3efce87743ec03744f055f445b9",
+        "docs/column/python60/02.assets/33a28cf0-5200-11ea-8128-358088d96de7-7406183.gif": "024bc22b38cdd93f8b00d446987eb17cf510d936",
+        "docs/.vuepress/public/cdn/Python60/Python60天专栏录制短动画.7z": "3ebf8e3fb87b4cf5685dca6e61c2f4efcce7830f",
+        "docs/.vuepress/public/video/Python60Days/Day2.mp4": "08af5534f0de5e3721abc25dbf30b2de5138e71a",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/python60/04.md": {
+      "source_blob": "dba67e274a90144b614e81cc0951ccfaef40606c",
+      "target_sha256": "918d40ec356335b811d1602eb54cf46263425c304b624b347b32730c475d4074",
+      "dependency_blobs": {
+        "docs/column/python60/04.assets/80dc83f0-5317-11ea-8128-358088d96de7.png": "fa0b2343b64a92cc28a2b7f4d2ade53b0ab6d61f",
+        "docs/column/python60/04.assets/91f66a20-5317-11ea-b2e1-7d26d62747f1.png": "26466bae5442aa61c0949d5b279245c32b16d3d5",
+        "docs/column/python60/04.assets/a078b580-5317-11ea-b2e1-7d26d62747f1.png": "bf4ada79bb9de1f8646fef3bf91c0f0f31a941d1",
+        "docs/column/python60/04.assets/af1391f0-5317-11ea-b2e1-7d26d62747f1.png": "ea6fa6438c5eebe6473cf87dd5e080fdfca2d068",
+        "docs/column/python60/04.assets/bfc5dcb0-5317-11ea-8128-358088d96de7.png": "37048d546047d5b6dd7807b15e13d36197528f5f",
+        "docs/column/python60/04.assets/ce141fc0-5317-11ea-8bb5-594930f74663.png": "440d5a1a2ee70305bb3259facc85994e50eae459",
+        "docs/column/python60/04.assets/410e85a0-5319-11ea-bb37-55480bd50c9e.gif": "390ba649522146c6e26ac73651e20b1c087dce8e",
+        "docs/column/python60/04.assets/image-20230226212056845.png": "670be71e2a53f07a26c4847fad8bced8b928c9c6",
+        "docs/.vuepress/public/video/Python60Days/Day4.mp4": "2f8863e9444fd48188cc6cbcff5bcc33c91cd60b",
+        "docs/column/python60/04.assets/image-20230226215240763.png": "de5c5af587776e7039844073d4f788ccc09fca5d",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/python60/06.md": {
+      "source_blob": "e0b58fd4bdc6819dff757d0dafb374bc9348cf0d",
+      "target_sha256": "a8444643326b8cc082ccf8ac48364555a27624330430ad01ca4cfe4e4ad68697",
+      "dependency_blobs": {
+        "docs/column/python60/06.assets/2020-02-06-013400.png": "559646646a6a914ebcc591ba8455e3c7537887bb",
+        "docs/column/python60/06.assets/2020-02-06-013401.png": "68bbe5b2843c62bc182bb11f0e250d6fd8e00345",
+        "docs/column/python60/06.assets/2020-02-06-013402.png": "06ff0775b7b5c3dbef3d6545531cfb448e9e72da",
+        "docs/.vuepress/public/video/Python60Days/Day6.mp4": "4b210c7035d8eec973676c8f6768e21757531953",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/column/python60/07.md": {
+      "source_blob": "15338476ef548fb438475b4fd1ae9274862e7c4c",
+      "target_sha256": "b10875874dc735c248ce45fc0600cce9a0bf7176cc0d3fe53934623a4c1a74f9",
+      "dependency_blobs": {
+        "docs/column/python60/07.assets/2020-02-06-013359.png": "da9ae40227f1736c3a7342f6bf5f099c031e8365",
+        "docs/.vuepress/public/video/Python60Days/Day7.mp4": "564ba24e5206907d8d4f852c2e84cdb00cd84e69",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/home.md": {
+      "source_blob": "8219f775d2f25829bab094382a6f51fdd5d1c025",
+      "target_sha256": "91d8fc8fb4a767238e18d0f0964efcb40ce99086a668c26118dd1e798d810f35",
+      "dependency_blobs": {
+        "docs/home.assets/image.jpeg": "9b6bab9e98f2f134359f8a959e15fc55122c65f1",
+        "docs/home.assets/image-20230309182603961.jpeg": "0b2d90cf4939abbc1360d8bc55705cbcc1161dcb",
+        "docs/home.assets/image-20230309182636495.jpeg": "33887df53930573ad380bd0769d05f0325140788"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/letter/2023/01.md": {
+      "source_blob": "14cdfc34100e164d4dd0900ec8610638726fef0b",
+      "target_sha256": "7d60e7f06646b02283174c38497192102a6e5282f85c80b0202839799da40ade",
+      "dependency_blobs": {
+        "docs/letter/2023/01.assets/77ea410d0811595468252c7637e19957.jpg": "f5d46327ddf2a3df0a0eed2bd678c4e8e0c5ed1c",
+        "docs/.vuepress/public/letter/mp3/第一封信｜感觉孤独？找个借口联系.m4a": "3e033a01196f73a3244bc08f15fd6456afddbf95",
+        "docs/letter/2023/01.assets/24Well-Male-Friendship-articleLarge.jpg": "365bbf95d0c7dc6fc60306bd8cc80872371831f4",
+        "docs/letter/2023/01.assets/11Well-TextFriends-articleLarge.jpg": "3233a1b37aa57bc7b1dc5a874a595bc5fdeccc70",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/posts/45.md": {
+      "source_blob": "74ba625992a992b1df417609778b5e79fb3aa649",
+      "target_sha256": "6d1747654ab32aefc7d373cbbdc8cf297ee2bcf5a6eb47543f85f7d0c83298d3",
+      "dependency_blobs": {
+        "docs/.vuepress/public/pdf/03-使用8421.pdf": "4ab3e4f8df45c59dd3fd0d89a4ed2e1e439060ad",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
+    },
+    "docs/teacher-per-capita/README.md": {
+      "source_blob": "aa2b74a0c209ee8a839b656f4a5958e5d8864b2d",
+      "target_sha256": "4fc85e06beae5dbccf8424bf0808e2d6ac3f2b6da23f7e6bd3133661331f6b6c",
+      "dependency_blobs": {
+        "docs/.vuepress/public/enlighten/enlighten.png": "ba255018c2ecd69dd37bed2e15b9ea895e1fa94d",
+        "docs/teacher-per-capita/README.assets/010522.jpeg": "ab395ef390a66b462ee1acd15a6b23ec8d41a512",
+        "docs/teacher-per-capita/README.assets/010523.jpeg": "b74a4d66001b5582630cb1e21154ff22ac2e255d",
+        "docs/teacher-per-capita/README.assets/010522-20230107080836119.jpeg": "a3ae8fb2b27eb3b9da2d7e8ec42c98fa14ee1cea",
+        "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
+        "docs/.vuepress/public/zsxq.jpg": "4dcc0a0ad7450bf2a053a7cedf7116bcd869346b"
+      },
+      "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     }
   }
 }

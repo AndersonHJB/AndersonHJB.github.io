@@ -71,7 +71,7 @@ toc: true
 
 现在我一直自由职业，做编程私教、写文章、视频等。所以我大部分时间，都在陪家人和我的宝贝。
 
-<img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/af/af4606206dd772c9444413e122a877cc05f02eb2779116bda6377ed54db694ae.jpg" alt="书籍前言实拍·带过的学校（部分）" style="zoom:25%;" />
+<img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/af/af4606206dd772c9444413e122a877cc05f02eb2779116bda6377ed54db694ae.jpg" alt="书籍前言实拍·带过的学校（部分）" style="zoom:5%;" />
 
 <img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/a9/a9f82fec68fb5373bae26370145db38b62f1a3bd5f6be90566e15ed46a19d191.png" alt="带过学生的课上回放（不完全统计）" style="zoom:25%;" />
 
@@ -218,7 +218,7 @@ AI 也把一开始仅限技术专业人做的事，扩展到普通人也可以�
 
 @tab 简历 2
 
-!["/Users/huangjiabao/Desktop/简历/实习僧｜含作品集的简历/简历/2025-06-05 项爱菲 - 湖北师范大学 [2a7207]"](https://blog.images.one.bornforthis.cn/docs-images/sha256/a7/a79b8c0a7ce6242ec710fb7aa42cc3050d78336ecd3ce413831c581c6f9916f6.png)
+!["/简历/实习僧｜含作品集的简历/简历/2025-06-05 项爱菲 - 湖北师范大学 [2a7207]"](https://blog.images.one.bornforthis.cn/docs-images/sha256/a7/a79b8c0a7ce6242ec710fb7aa42cc3050d78336ecd3ce413831c581c6f9916f6.png)
 
 @tab 简历 3
 
@@ -228,7 +228,7 @@ AI 也把一开始仅限技术专业人做的事，扩展到普通人也可以�
 
 ~~简历文件大、过长，不过至少有展示作品与链接，比百度网盘好不少。~~
 
-!["/Users/huangjiabao/Desktop/简历/实习僧｜含作品集的简历/简历/2025-01-06 庞小童 - 中央民族大学 [4530f7]"](https://blog.images.one.bornforthis.cn/docs-images/sha256/e2/e29dc3696a98d9c27fbd99a403eca196357ad8e8a6506dae06a25de68ba83989.png)
+!["/简历/实习僧｜含作品集的简历/简历/2025-01-06 庞小童 - 中央民族大学 [4530f7]"](https://blog.images.one.bornforthis.cn/docs-images/sha256/e2/e29dc3696a98d9c27fbd99a403eca196357ad8e8a6506dae06a25de68ba83989.png)
 
 
 
@@ -368,15 +368,61 @@ Python 是在 AI 未兴起时，就是一把利器。可以适配多场景的写
 
 
 
-## AI 时代，电脑如何选？
+### Step 4：自己做一些 VibeCoding 简单项目
 
-为什么选择 Mac
+这个部分别想着说，VibeCoing 要报课啥的。这么跟你说：VibeCoding 不需要报课，只要你有趁手的 AI，和自己的逻辑、思维，就可以直接上手，这玩意不合适报课。
+
+大部分操作，都可以让 AI 给你完成或者 AI 辅助你完成。你就直接和 AI 进行对话操作落实即可，最主要就是把自己的表达能力提升上去，可以多阅读、思考。这个比报课来的有用，当然你要明确真正可以说会 VibeCoing 的标准是什么：
+
+- **Point 1**：把自己想做的产品、软件、功能、想法，可以直接借助 AI 进行快速实现和验证，甚至快速上线使用。
+- **Point 2**：别人跟你提出的想法、功能，你可以快速借助 AI 实现。
+- **Point 3**：你看见比较好的功能、项目、想法，可以自己独立观察并独立表达出来提示词，让 AI 进行完成。（达到这个，算是大部分人群中较好的层次）
+
+**总结一下**：逻辑、表达能力、观察能力、研究能力，这些是当下必备的核心能力！
+
+补充资料，这里提供我做的 Bornforthis AI实验室，有兴趣可以尝试和复刻（后面会全新改版）：[https://ai.bornforthis.cn/](https://ai.bornforthis.cn/)
+
+### Step 5：让自身专业和 AI 进行结合
+
+要知道 AI 不是直接代替人的，AI 只会代替那些不使用 AI，以及自身能力低下完全依赖 AI 的人。
+
+使用 AI 不是让你抛弃自身专业，也不是怀疑自身专业。这里我举一个例子：
+
+我是一个有那么一点点艺术细胞，但不多的人。我一开始没时间、也没那个能力做短视频封面、文章封面。但现在可以借助 GPT 2.6 进行生成我想要的封面、配图，例如 b 站这些：
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/0b/0b4ce4d98a483c42737b10463dc633b0e916b79b0ce647171f6657860d0f1cc0.png)
+
+如果此时，你是专业做设计的会怎么样？——你的专业➕AI 生图，绝对比我现在的更好。你可以加上你的布局设计、字体设计、运营设计等等，而我虽然你慢慢调教 AI 称为更好的，但是要耗费不少时间。
+
+### Step 6：把自己的能力提炼出 Skills，让 AI 更懂你
+
+要让 AI 更懂你，帮你干活。你可以把自己的编程习惯、设计理念、工作流等，做成专属的 Skills。之后 AI  产出的产品就会更接近你，没有太多 AI 味。
+
+当然，如果你要使用 AI 做创意性、发散性的时候，就不要使用这个 Skills。
+
+如何制作自己的 Skills，可以看这个教程：**待补充**
+
+我把自己的设计理念做成了 Skills，学设计、传播或者有兴趣的学生可以去 GitHub 看看：[https://github.com/Brclio/brclio-design-system](https://github.com/Brclio/brclio-design-system)
 
 
 
-## 如何让自己的工作流更快更好，做属于自己的 Skills
 
 
+## Question 2：AI 时代，电脑如何选？
+
+先说答案：选 Mac！这几类人除外：
+
+- 要本地运行大模型或者大模型训练；
+- 打游戏；
+- 特殊软件只有 Windows 可以用的。
+
+
+
+
+
+
+
+~~如何让自己的工作流更快更好，做属于自己的 Skills~~
 
 教育的目的，是为了把高级知识，一步步融合到大脑里面。
 
@@ -384,19 +430,19 @@ Python 是在 AI 未兴起时，就是一把利器。可以适配多场景的写
 
 虽然我们一直说：出来混，身份都是自己给的。可若是投简历、找工作，乃至：找投资。你全部凭一张嘴，凭空说出一些数据、成果……可不足以让人信服！
 
-
-
 那么多笔记网站，为什么自己还要造一个？
 
 数据自主权、数据存储有效期
 
 
 
-## Question 2：众多 AI，如何选？
+## Question 3：众多 AI，如何选？
 
 
 
-## Question 3：什么是真的懂？什么假懂？
+
+
+## Question 4：什么是真的懂？什么假懂？
 
 ::: center
 
@@ -418,13 +464,13 @@ https://mp.weixin.qq.com/s/ivNiuNATHr-d_zqK0UOqJg
 
 ![谷歌 AI模式也可以看见我](https://blog.images.one.bornforthis.cn/docs-images/sha256/17/17e646dfa6b7948e4ba09b3114cf9bad53c1418963a6fcb5a3ee16071f1d0ec5.png)
 
-![](https://blog.images.one.bornforthis.cn/docs-images/sha256/f9/f97d96541ea8eaf37efaebac6c1314b0d03aa88c1237aed5c42853b48eee0826.jpg)
 
 
 
-## Question 4：在资本的碾压下，靠内容品质杀出一条属于你自己路
 
+## Question 5：在资本的碾压下，靠内容品质杀出一条属于你自己路
 
+<img src="https://blog.images.one.bornforthis.cn/docs-images/sha256/f9/f97d96541ea8eaf37efaebac6c1314b0d03aa88c1237aed5c42853b48eee0826.jpg" style="zoom:25%;" />
 
 
 

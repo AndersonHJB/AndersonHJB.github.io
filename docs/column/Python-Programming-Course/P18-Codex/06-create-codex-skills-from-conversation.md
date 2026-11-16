@@ -15,9 +15,6 @@ comment: true
 backToTop: true
 toc: true
 head:
-  - - link
-    - rel: canonical
-      href: https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/create-skills-from-conversation/
   - - meta
     - name: keywords
       content: Codex Skills,Skill 制作教程,创建 Codex Skill,对话转 Skill,AI 工作流,视频剪辑自动化

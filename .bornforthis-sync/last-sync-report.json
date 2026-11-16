@@ -2,57 +2,84 @@
   "schema_version": 1,
   "checked_date": "2026-11-16",
   "source_repo": "AndersonHJB/bornforthis.cn",
-  "source_commit": "d832f757ebc5218bf0bfe1a3ab35ffaa394f5283",
+  "source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
   "source_branch": "main",
-  "source_tree": "de70bbc503e0d03412a7bc735d739d6221ee73a6",
+  "source_tree": "670141e82072a1b424015a55e1611962247eab18",
   "source_tree_complete": true,
-  "deployment_baseline_source_commit": "41826f4bb78bc5ab5abf1a546ec255f36181ba5b",
+  "deployment_baseline_source_commit": "d832f757ebc5218bf0bfe1a3ab35ffaa394f5283",
   "source_change_counts": {
-    "added": 2,
-    "modified": 1,
-    "removed": 0
+    "added": 0,
+    "modified": 2,
+    "removed": 0,
+    "renamed": 0
   },
   "source_files_scanned": 13040,
-  "target_tracked_files_scanned": 2771,
+  "target_tracked_files_scanned": 2772,
   "target_untracked_files_scanned": [],
   "articles_checked": 2221,
   "managed_files_checked": 2531,
-  "previous_managed_files_checked": 2530,
-  "new_articles": [
-    "docs/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.md"
-  ],
+  "previous_managed_files_checked": 2531,
+  "new_articles": [],
   "modified_articles": [
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
+    "docs/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.md"
   ],
   "deleted_articles": [],
   "other_new": [],
   "other_modified": [],
   "other_deleted": [],
   "unchanged_articles": 2219,
-  "new_images": 1,
-  "image_bytes": 483396,
-  "image_commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
+  "new_images": 0,
+  "image_bytes": 0,
   "image_repo": "AndersonHJB/bornforthis-blog-images-one",
+  "image_push_performed": false,
+  "image_commit": null,
+  "verified_image_repository_heads": {
+    "legacy": {
+      "repo": "AndersonHJB/blog-images",
+      "commit": "e4488968e5de7292178bace700acb3860cd13f67"
+    },
+    "new": {
+      "repo": "AndersonHJB/bornforthis-blog-images-one",
+      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2"
+    }
+  },
   "image_urls_verified": true,
-  "new_images_full_body_sha256_verified": 1,
+  "new_images_full_body_sha256_verified": 0,
   "prior_asset_mappings_checked": {
+    "source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
+    "source_tree": "670141e82072a1b424015a55e1611962247eab18",
+    "source_files": 13040,
+    "prior_assets": 8155,
     "counts": {
       "legacy": 7960,
-      "new": 193,
+      "new": 194,
       "local": 1
     },
     "source_drift": [],
-    "prior_assets": 8154,
-    "legacy_commit": "e4488968e5de7292178bace700acb3860cd13f67",
-    "initial_new_commit": "3395fc5de8d61f4b8a2841766dc401a4da68650d",
-    "source_files": 13040,
-    "new_tree_blobs": 213,
-    "legacy_tree_blobs": 7896
+    "repository_mismatches": 0,
+    "alternate_urls_checked": 5,
+    "legacy": {
+      "repo": "AndersonHJB/blog-images",
+      "branch": "main",
+      "commit": "e4488968e5de7292178bace700acb3860cd13f67",
+      "tree": "952fbf3e263d92fd59af1ba14b80123e7d8007dc",
+      "blobs": 7896,
+      "entries": 8232
+    },
+    "new": {
+      "repo": "AndersonHJB/bornforthis-blog-images-one",
+      "branch": "main",
+      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
+      "tree": "8c4f796dd904d9e7304d652eabacab60c11adcf4",
+      "blobs": 214,
+      "entries": 355
+    }
   },
-  "changed_article_unchanged_image_urls": 14,
   "active_source_asset_mappings": 8155,
+  "changed_article_unchanged_image_urls": 15,
   "image_full_body_sha256_verified": 15,
-  "reused_urls_full_body_sha256_verified": 14,
+  "reused_urls_full_body_sha256_verified": 15,
   "preserved_deployment_configuration": [
     ".github/workflows/deploy-docs.yml",
     ".gitignore",
@@ -251,6 +278,11 @@
     "source-managed": 2519,
     "asset": 8131
   },
+  "exclusion_reasons": {
+    "OS metadata is not site content": 113,
+    "Existing deployment pruning at initial snapshot; reconsider if newly referenced or role changes": 2264,
+    "部署版 client.ts 通过现有独立 PDF.vue 注册 PDF，并明确禁用 media 插件；保留已审定的本地运行时实现": 1
+  },
   "newly_excluded_source_files": [],
   "conflicts": [],
   "known_existing_reference_issues": {
@@ -258,9 +290,9 @@
     "retained_count": 26,
     "new_count": 0
   },
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75",
-  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/semantic-verification.json",
-  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/images-work/image-url-verification.json",
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB",
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/semantic.json",
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/image-url-verification.json",
   "current_validation": {
     "status": "passed",
     "article_replay_checked": 2221,
@@ -269,9 +301,9 @@
     "new_unresolved_references": 0,
     "pending_uploads": 0,
     "managed_file_hashes_verified": 2531,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/replay-report.json",
-    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/site-output-validation.json",
-    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/articles-work/deployed-replay-report.json"
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/replay-report.json",
+    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/site-check.json",
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/deployed-replay-report.json"
   },
   "preserved_article_override_counts": {
     "guarded_files": 59,
@@ -294,14 +326,8 @@
       "既有 Share 组件未注册",
       "既有匿名组件缺少模板或渲染函数"
     ],
-    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-d832f75/site-build.log"
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/build.log"
   },
-  "source_metadata_observations": [
-    {
-      "kind": "canonical_missing_output_route",
-      "page": "column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.html",
-      "canonical": "https://bornforthis.cn/column/Python-Programming-Course/P18-Codex/create-skills-from-conversation/"
-    }
-  ],
-  "completed_at": "2026-11-16T00:28:30+08:00"
+  "source_metadata_observations": [],
+  "completed_at": "2026-11-16T00:58:20+08:00"
 }

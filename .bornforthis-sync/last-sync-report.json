@@ -2,37 +2,57 @@
   "schema_version": 1,
   "checked_date": "2026-11-16",
   "source_repo": "AndersonHJB/bornforthis.cn",
-  "source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
   "source_branch": "main",
-  "source_tree": "de8f6cb5f7d9bdcbdb09cbe476befaf7b3fdef77",
+  "source_commit": "ac38faa41ae0e217505b3ae9d3a0fd65ccedca31",
+  "source_tree": "f577fdf8a9c8e609ffb021173326dc3da7f2e508",
   "source_tree_complete": true,
-  "deployment_baseline_source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
+  "deployment_baseline_source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
   "source_change_counts": {
-    "added": 3,
-    "removed": 0,
+    "added": 16,
     "modified": 1,
+    "removed": 0,
     "renamed": 0
   },
-  "source_files_scanned": 13043,
+  "source_files_scanned": 13059,
   "target_tracked_files_scanned": 2772,
   "target_untracked_files_scanned": [],
-  "articles_checked": 2221,
-  "managed_files_checked": 2531,
+  "articles_checked": 2222,
+  "managed_files_checked": 2532,
   "previous_managed_files_checked": 2531,
-  "new_articles": [],
+  "new_articles": [
+    "docs/Books/06-publishing-and-speaking/02-other.md"
+  ],
   "modified_articles": [
     "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
   ],
   "deleted_articles": [],
+  "unchanged_articles": 2220,
   "other_new": [],
   "other_modified": [],
   "other_deleted": [],
-  "unchanged_articles": 2220,
-  "new_images": 3,
-  "image_bytes": 3203212,
+  "new_source_image_paths": [
+    "docs/Books/06-publishing-and-speaking/02-other.assets/95bd2b9c19401fa90d9fbd616563c170.jpg",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/a6938e74a2abbd465ba7f0c704d63905.jpg",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20260517160831792.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113203222010.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113231456655.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113231613590.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114114555239.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114120122973.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114161547565.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114161745209.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114214935621.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261115222636215.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116151252526.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116151344565.png",
+    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116152618154.png"
+  ],
+  "reused_images_for_new_source_paths": 15,
+  "new_images": 0,
+  "image_bytes": 0,
+  "image_push_performed": false,
   "image_repo": "AndersonHJB/bornforthis-blog-images-one",
-  "image_push_performed": true,
-  "image_commit": "93a535f619d06d77c383007a2f608fab65ced6e5",
+  "image_commit": null,
   "verified_image_repository_heads": {
     "legacy": {
       "repo": "AndersonHJB/blog-images",
@@ -44,49 +64,49 @@
     }
   },
   "image_urls_verified": true,
-  "new_images_full_body_sha256_verified": 3,
+  "image_full_body_sha256_verified": 17,
+  "image_full_body_bytes_verified": 16016863,
   "prior_asset_mappings_checked": {
-    "source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
-    "source_tree": "de8f6cb5f7d9bdcbdb09cbe476befaf7b3fdef77",
-    "source_files": 13043,
-    "prior_assets": 8155,
-    "counts": {
-      "legacy": 7960,
-      "new": 194,
-      "local": 1
+    "pins": {
+      "legacy": {
+        "repo": "AndersonHJB/blog-images",
+        "branch": "main",
+        "commit": "e4488968e5de7292178bace700acb3860cd13f67",
+        "tree_sha": "952fbf3e263d92fd59af1ba14b80123e7d8007dc",
+        "entries": 8232,
+        "blobs": 7896
+      },
+      "new": {
+        "repo": "AndersonHJB/bornforthis-blog-images-one",
+        "branch": "main",
+        "commit": "93a535f619d06d77c383007a2f608fab65ced6e5",
+        "tree_sha": "61d148dd0994b9479bf4030bf19d685a1d0f6e01",
+        "entries": 359,
+        "blobs": 217
+      }
     },
-    "source_drift": [],
-    "repository_mismatches": 0,
-    "alternate_urls_checked": 5,
-    "old_counts_before_push": {
-      "repo": "AndersonHJB/bornforthis-blog-images-one",
-      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
-      "tree": "8c4f796dd904d9e7304d652eabacab60c11adcf4",
-      "branch": "main",
-      "blobs": 214,
-      "entries": 355
+    "asset_rows": 8158,
+    "checked": {
+      "primary_remote": 8157,
+      "alternate_remote": 2,
+      "alternate_local": 3,
+      "primary_local": 1
     },
-    "legacy": {
-      "repo": "AndersonHJB/blog-images",
-      "commit": "e4488968e5de7292178bace700acb3860cd13f67",
-      "tree": "952fbf3e263d92fd59af1ba14b80123e7d8007dc",
-      "branch": "main",
-      "blobs": 7896,
-      "entries": 8232
+    "distinct_remote_objects": 7914,
+    "issues": []
+  },
+  "active_source_asset_mappings": 8173,
+  "affected_articles_image_references": {
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md": {
+      "hosted": 15,
+      "local": 0
     },
-    "new": {
-      "repo": "AndersonHJB/bornforthis-blog-images-one",
-      "branch": "main",
-      "commit": "93a535f619d06d77c383007a2f608fab65ced6e5",
-      "tree": "61d148dd0994b9479bf4030bf19d685a1d0f6e01",
-      "entries": 359,
-      "blobs": 217
+    "docs/Books/06-publishing-and-speaking/02-other.md": {
+      "hosted": 15,
+      "local": 2
     }
   },
-  "active_source_asset_mappings": 8158,
-  "changed_article_unchanged_image_urls": 14,
-  "image_full_body_sha256_verified": 17,
-  "reused_urls_full_body_sha256_verified": 14,
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/guide-cdn.json",
   "preserved_deployment_configuration": [
     ".github/workflows/deploy-docs.yml",
     ".gitignore",
@@ -101,6 +121,10 @@
     "pnpm-lock.yaml",
     "pnpm-workspace.yaml"
   ],
+  "preserved_article_override_counts": {
+    "guarded_files": 59,
+    "files_with_scoped_patches": 11
+  },
   "deployment_only_files_preserved": [
     ".bornforthis-sync/article-overrides.json",
     ".bornforthis-sync/last-sync-report.json",
@@ -282,8 +306,8 @@
   "classification_counts": {
     "excluded": 2378,
     "deployment-overlay": 12,
-    "source-managed": 2519,
-    "asset": 8134
+    "source-managed": 2520,
+    "asset": 8149
   },
   "exclusion_reasons": {
     "OS metadata is not site content": 113,
@@ -297,56 +321,84 @@
     "retained_count": 26,
     "new_count": 0
   },
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950",
-  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/semantic.json",
-  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/image-url-verification.json",
   "current_validation": {
     "status": "passed",
-    "article_replay_checked": 2221,
+    "article_replay_checked": 2222,
     "article_replay_changes": 0,
     "unsupported": 0,
     "new_unresolved_references": 0,
     "pending_uploads": 0,
-    "managed_file_hashes_verified": 2531,
-    "dependency_edges_checked": 12130,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/replay-report.json",
-    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/site-check.json",
-    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/deployed-replay-report.json"
+    "managed_file_hashes_verified": 2532,
+    "dependency_edges_checked": 12145,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/replay-report.json",
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/deployed-replay-report.json",
+    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/site-check.json"
   },
-  "preserved_article_override_counts": {
-    "guarded_files": 59,
-    "files_with_scoped_patches": 10
-  },
-  "deployment_link_corrections": [
-    {
-      "path": "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
-      "reason": "将新增前言链接中的本地预览地址改为部署站点，保留已在构建 HTML 核对的 2.3 节锚点。"
-    }
-  ],
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/semantic.json",
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f",
   "target_committed": false,
   "target_pushed": false,
   "website_published": false,
+  "completed_at": "2026-11-16T15:54:44+08:00",
+  "target_status": "working_tree_updated",
   "build": {
     "performed_for_current_revision": true,
     "scope": "affected_pages",
-    "full_site_build": false,
     "command": "pnpm run docs:build",
+    "full_site_build": false,
     "success": true,
-    "rendered_pages": 16,
-    "input_pages": 4,
+    "rendered_pages": 17,
+    "input_pages": 5,
     "warnings": [
-      "The existing icon plugin ignores its scan option with offline mode disabled.",
-      "Vite reported plugin timing for CSS processing."
+      "Icon scan ignored when offline mode is disabled",
+      "Vite reports CSS plugin timing"
     ],
-    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/site-check-build.log"
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/site-check-build.log"
   },
-  "source_metadata_observations": [
-    "源稿有两个 Question 7，后一处位于折叠草稿内，标题文字不同，保留原文。"
-  ],
-  "target_status": "working_tree_updated",
   "source_formatting_notes": {
-    "source_trailing_space_lines_preserved": 6,
-    "note": "源稿引用段落六行末尾原有单个空格；保留原文。"
-  },
-  "completed_at": "2026-11-16T15:43:14+08:00"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md": [
+      {
+        "line": 704,
+        "diagnostic": "new blank line at EOF.",
+        "source_origin_verified": true
+      }
+    ],
+    "docs/Books/06-publishing-and-speaking/02-other.md": [
+      {
+        "line": 619,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 621,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 623,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 625,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 627,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 635,
+        "diagnostic": "trailing whitespace.",
+        "source_origin_verified": true
+      },
+      {
+        "line": 865,
+        "diagnostic": "new blank line at EOF.",
+        "source_origin_verified": true
+      }
+    ]
+  }
 }

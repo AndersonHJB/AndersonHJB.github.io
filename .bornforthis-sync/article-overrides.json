@@ -102,6 +102,14 @@
         "reason": "修正源新增文章中重复冒号导致的无效 Cloudflare 注册链接",
         "expected_occurrences": 1
       }
+    ],
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md": [
+      {
+        "from": "[http://localhost:8080/column/Python-Programming-Course/Preface.html#_2-3-%E6%B5%85%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B5%85-%E6%B7%B1%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B7%B1-%E4%B8%80%E4%B8%AA%E5%AD%97-%E9%80%8F](http://localhost:8080/column/Python-Programming-Course/Preface.html#_2-3-%E6%B5%85%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B5%85-%E6%B7%B1%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B7%B1-%E4%B8%80%E4%B8%AA%E5%AD%97-%E9%80%8F)",
+        "to": "[https://bornforthis.cn/column/Python-Programming-Course/Preface.html#_2-3-%E6%B5%85%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B5%85-%E6%B7%B1%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B7%B1-%E4%B8%80%E4%B8%AA%E5%AD%97-%E9%80%8F](https://bornforthis.cn/column/Python-Programming-Course/Preface.html#_2-3-%E6%B5%85%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B5%85-%E6%B7%B1%E8%80%85%E8%A7%89%E5%BE%97%E5%85%B6%E6%B7%B1-%E4%B8%80%E4%B8%AA%E5%AD%97-%E9%80%8F)",
+        "reason": "将新增前言链接中的本地预览地址改为部署站点，保留已在构建 HTML 核对的 2.3 节锚点。",
+        "expected_occurrences": 1
+      }
     ]
   },
   "preserved_files": {

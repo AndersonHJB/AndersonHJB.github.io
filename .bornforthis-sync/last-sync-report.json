@@ -2,18 +2,18 @@
   "schema_version": 1,
   "checked_date": "2026-11-16",
   "source_repo": "AndersonHJB/bornforthis.cn",
-  "source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
+  "source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
   "source_branch": "main",
-  "source_tree": "670141e82072a1b424015a55e1611962247eab18",
+  "source_tree": "de8f6cb5f7d9bdcbdb09cbe476befaf7b3fdef77",
   "source_tree_complete": true,
-  "deployment_baseline_source_commit": "d832f757ebc5218bf0bfe1a3ab35ffaa394f5283",
+  "deployment_baseline_source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
   "source_change_counts": {
-    "added": 0,
-    "modified": 2,
+    "added": 3,
     "removed": 0,
+    "modified": 1,
     "renamed": 0
   },
-  "source_files_scanned": 13040,
+  "source_files_scanned": 13043,
   "target_tracked_files_scanned": 2772,
   "target_untracked_files_scanned": [],
   "articles_checked": 2221,
@@ -21,19 +21,18 @@
   "previous_managed_files_checked": 2531,
   "new_articles": [],
   "modified_articles": [
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
-    "docs/column/Python-Programming-Course/P18-Codex/06-create-codex-skills-from-conversation.md"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
   ],
   "deleted_articles": [],
   "other_new": [],
   "other_modified": [],
   "other_deleted": [],
-  "unchanged_articles": 2219,
-  "new_images": 0,
-  "image_bytes": 0,
+  "unchanged_articles": 2220,
+  "new_images": 3,
+  "image_bytes": 3203212,
   "image_repo": "AndersonHJB/bornforthis-blog-images-one",
-  "image_push_performed": false,
-  "image_commit": null,
+  "image_push_performed": true,
+  "image_commit": "93a535f619d06d77c383007a2f608fab65ced6e5",
   "verified_image_repository_heads": {
     "legacy": {
       "repo": "AndersonHJB/blog-images",
@@ -41,15 +40,15 @@
     },
     "new": {
       "repo": "AndersonHJB/bornforthis-blog-images-one",
-      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2"
+      "commit": "93a535f619d06d77c383007a2f608fab65ced6e5"
     }
   },
   "image_urls_verified": true,
-  "new_images_full_body_sha256_verified": 0,
+  "new_images_full_body_sha256_verified": 3,
   "prior_asset_mappings_checked": {
-    "source_commit": "f8c85eef1219cd0cfea2c51b4fd617d463d378cb",
-    "source_tree": "670141e82072a1b424015a55e1611962247eab18",
-    "source_files": 13040,
+    "source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
+    "source_tree": "de8f6cb5f7d9bdcbdb09cbe476befaf7b3fdef77",
+    "source_files": 13043,
     "prior_assets": 8155,
     "counts": {
       "legacy": 7960,
@@ -59,27 +58,35 @@
     "source_drift": [],
     "repository_mismatches": 0,
     "alternate_urls_checked": 5,
+    "old_counts_before_push": {
+      "repo": "AndersonHJB/bornforthis-blog-images-one",
+      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
+      "tree": "8c4f796dd904d9e7304d652eabacab60c11adcf4",
+      "branch": "main",
+      "blobs": 214,
+      "entries": 355
+    },
     "legacy": {
       "repo": "AndersonHJB/blog-images",
-      "branch": "main",
       "commit": "e4488968e5de7292178bace700acb3860cd13f67",
       "tree": "952fbf3e263d92fd59af1ba14b80123e7d8007dc",
+      "branch": "main",
       "blobs": 7896,
       "entries": 8232
     },
     "new": {
       "repo": "AndersonHJB/bornforthis-blog-images-one",
       "branch": "main",
-      "commit": "a5e1678eba5e2d2c8d8f977fd51525c3becbc6c2",
-      "tree": "8c4f796dd904d9e7304d652eabacab60c11adcf4",
-      "blobs": 214,
-      "entries": 355
+      "commit": "93a535f619d06d77c383007a2f608fab65ced6e5",
+      "tree": "61d148dd0994b9479bf4030bf19d685a1d0f6e01",
+      "entries": 359,
+      "blobs": 217
     }
   },
-  "active_source_asset_mappings": 8155,
-  "changed_article_unchanged_image_urls": 15,
-  "image_full_body_sha256_verified": 15,
-  "reused_urls_full_body_sha256_verified": 15,
+  "active_source_asset_mappings": 8158,
+  "changed_article_unchanged_image_urls": 14,
+  "image_full_body_sha256_verified": 17,
+  "reused_urls_full_body_sha256_verified": 14,
   "preserved_deployment_configuration": [
     ".github/workflows/deploy-docs.yml",
     ".gitignore",
@@ -276,7 +283,7 @@
     "excluded": 2378,
     "deployment-overlay": 12,
     "source-managed": 2519,
-    "asset": 8131
+    "asset": 8134
   },
   "exclusion_reasons": {
     "OS metadata is not site content": 113,
@@ -290,9 +297,9 @@
     "retained_count": 26,
     "new_count": 0
   },
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB",
-  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/semantic.json",
-  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/image-url-verification.json",
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950",
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/semantic.json",
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/image-url-verification.json",
   "current_validation": {
     "status": "passed",
     "article_replay_checked": 2221,
@@ -301,33 +308,45 @@
     "new_unresolved_references": 0,
     "pending_uploads": 0,
     "managed_file_hashes_verified": 2531,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/replay-report.json",
-    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/site-check.json",
-    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/deployed-replay-report.json"
+    "dependency_edges_checked": 12130,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/replay-report.json",
+    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/site-check.json",
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/deployed-replay-report.json"
   },
   "preserved_article_override_counts": {
     "guarded_files": 59,
-    "files_with_scoped_patches": 9
+    "files_with_scoped_patches": 10
   },
-  "target_status": "working_tree_updated",
+  "deployment_link_corrections": [
+    {
+      "path": "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
+      "reason": "将新增前言链接中的本地预览地址改为部署站点，保留已在构建 HTML 核对的 2.3 节锚点。"
+    }
+  ],
   "target_committed": false,
   "target_pushed": false,
   "website_published": false,
   "build": {
     "performed_for_current_revision": true,
+    "scope": "affected_pages",
+    "full_site_build": false,
     "command": "pnpm run docs:build",
     "success": true,
-    "rendered_pages": 3333,
-    "unique_output_routes": 3315,
+    "rendered_pages": 16,
+    "input_pages": 4,
     "warnings": [
-      "图标插件忽略离线扫描选项",
-      "部分打包文件超过大小提醒阈值",
-      "既有 hideHeading 字段类型告警",
-      "既有 Share 组件未注册",
-      "既有匿名组件缺少模板或渲染函数"
+      "The existing icon plugin ignores its scan option with offline mode disabled.",
+      "Vite reported plugin timing for CSS processing."
     ],
-    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-f8c85ee-Z8C6RB/build.log"
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-778e84a-2nh950/site-check-build.log"
   },
-  "source_metadata_observations": [],
-  "completed_at": "2026-11-16T00:58:20+08:00"
+  "source_metadata_observations": [
+    "源稿有两个 Question 7，后一处位于折叠草稿内，标题文字不同，保留原文。"
+  ],
+  "target_status": "working_tree_updated",
+  "source_formatting_notes": {
+    "source_trailing_space_lines_preserved": 6,
+    "note": "源稿引用段落六行末尾原有单个空格；保留原文。"
+  },
+  "completed_at": "2026-11-16T15:43:14+08:00"
 }

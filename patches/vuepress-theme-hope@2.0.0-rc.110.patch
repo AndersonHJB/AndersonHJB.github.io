@@ -1,0 +1,68 @@
+diff --git a/dist/Blog-CZ19Kb7U.js b/dist/Blog-CZ19Kb7U.js
+index e56a8c465f5a39c293e73f688b65987b7ccf72d4..18f83b4401a7b07757fa9d7c73d02f1609e26dc0 100644
+--- a/dist/Blog-CZ19Kb7U.js
++++ b/dist/Blog-CZ19Kb7U.js
+@@ -147,7 +147,7 @@ const setupTimeline = () => {
+ 		timeline.value.items.forEach(({ info, path }) => {
+ 			const result = getDate(info.date);
+ 			if (result) {
+-				const year = result.getFullYear();
++				const year = result.getUTCFullYear();
+ 				if (results[0]?.year !== year) results.unshift({
+ 					year,
+ 					items: []
+@@ -155,7 +155,8 @@ const setupTimeline = () => {
+ 				results[0].items.push({
+ 					date: result.toLocaleDateString(pageLang.value, {
+ 						month: "numeric",
+-						day: "numeric"
++						day: "numeric",
++						timeZone: "UTC"
+ 					}),
+ 					info,
+ 					path
+diff --git a/dist/PageInfo-BAEcEu7j.js b/dist/PageInfo-BAEcEu7j.js
+index 8f78dc50ef2b00c7684441531ca926e8af97cc07..b7540fbe56ebf9bc28c748c82bbcd160d249e6dd 100644
+--- a/dist/PageInfo-BAEcEu7j.js
++++ b/dist/PageInfo-BAEcEu7j.js
+@@ -250,7 +250,7 @@ date: Object },
+ 		const lang = useLang();
+ 		const metaLocale = useMetaLocale();
+ 		const isPure = usePure();
+-		const formatter = computed(() => new Intl.DateTimeFormat(lang.value, { dateStyle: "short" }));
++		const formatter = computed(() => new Intl.DateTimeFormat(lang.value, { dateStyle: "short", timeZone: "UTC" }));
+ 		const formattedDate = computed(() => {
+ 			if (!props.date) return null;
+ 			return formatter.value.format(props.date);
+diff --git a/dist/client/components/info/DateInfo.js b/dist/client/components/info/DateInfo.js
+index 7d725aa1c53611a4ded7fc1a7506241e0635098b..371c8afdb33641c227894af67d3435bf069f13b8 100644
+--- a/dist/client/components/info/DateInfo.js
++++ b/dist/client/components/info/DateInfo.js
+@@ -20,6 +20,7 @@ export default defineComponent({
+         const isPure = usePure();
+         const formatter = computed(() => new Intl.DateTimeFormat(lang.value, {
+             dateStyle: "short",
++            timeZone: "UTC",
+         }));
+         const formattedDate = computed(() => {
+             if (!props.date)
+diff --git a/dist/client/composables/blog/useTimeline.js b/dist/client/composables/blog/useTimeline.js
+index 6fb3ce2f3e732bc96bb984de35730a81f800a220..3d88d025a121a38e5af68ac0f48dcf86d0e8a346 100644
+--- a/dist/client/composables/blog/useTimeline.js
++++ b/dist/client/composables/blog/useTimeline.js
+@@ -24,13 +24,14 @@ export const setupTimeline = () => {
+         timeline.value.items.forEach(({ info, path }) => {
+             const result = getDate(info.date);
+             if (result) {
+-                const year = result.getFullYear();
++                const year = result.getUTCFullYear();
+                 if (results[0]?.year !== year)
+                     results.unshift({ year, items: [] });
+                 results[0].items.push({
+                     date: result.toLocaleDateString(pageLang.value, {
+                         month: "numeric",
+                         day: "numeric",
++                        timeZone: "UTC",
+                     }),
+                     info,
+                     path,

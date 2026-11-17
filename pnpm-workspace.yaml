@@ -10,3 +10,5 @@ overrides:
 
 patchedDependencies:
   '@vuepress/bundler-vite@2.0.0-rc.31': patches/@vuepress__bundler-vite@2.0.0-rc.31.patch
+  # Display the calendar dates from Markdown consistently on the server and in the browser.
+  vuepress-theme-hope@2.0.0-rc.110: patches/vuepress-theme-hope@2.0.0-rc.110.patch

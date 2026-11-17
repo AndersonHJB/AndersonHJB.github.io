@@ -1,7 +1,7 @@
 ---
 title: Part 1-Birth Date Application(30 pts)
 icon: java
-Date: 2022-09-20 00:06:52
+date: 2022-09-20 00:06:52
 author: AI悦创
 isOriginal: true
 category: 

@@ -118,6 +118,62 @@
         "reason": "讲座备份沿用已核验的部署站前言链接及章节锚点。",
         "expected_occurrences": 1
       }
+    ],
+    "docs/1v1/03-Dannie/03.md": [
+      {
+        "from": "\nDate: 2022-09-07 07:45:06\n",
+        "to": "\ndate: 2022-09-07 07:45:06\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/03-Dannie/09.md": [
+      {
+        "from": "\nDate: 2022-09-28 22:17:08\n",
+        "to": "\ndate: 2022-09-28 22:17:08\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/05-Patrick/01-CITS1401-Computational-Thinking-with-Python.md": [
+      {
+        "from": "\nDate: 2022-09-08 17:12:16\n",
+        "to": "\ndate: 2022-09-08 17:12:16\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/05-Patrick/03-CITS1401-Computational-Thinking-wit-Python.md": [
+      {
+        "from": "\nDate: 2022-10-18 12:34:35\n",
+        "to": "\ndate: 2022-10-18 12:34:35\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/06-KAI/02-Part-1-Birth-Date-Application-30-pts.md": [
+      {
+        "from": "\nDate: 2022-09-20 00:06:52\n",
+        "to": "\ndate: 2022-09-20 00:06:52\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/1v1/06-KAI/07-Assignment-3-java.md": [
+      {
+        "from": "\nDate: 2022-10-06 23:23:00\n",
+        "to": "\ndate: 2022-10-06 23:23:00\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
+    ],
+    "docs/column/data-structure/week1/03.md": [
+      {
+        "from": "\nDate: 2022-08-07 00:35:14\n",
+        "to": "\ndate: 2022-08-07 00:35:14\n",
+        "reason": "Normalize the publication date key in article frontmatter",
+        "expected_occurrences": 1
+      }
     ]
   },
   "preserved_files": {

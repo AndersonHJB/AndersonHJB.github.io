@@ -1,7 +1,7 @@
 ---
 title: Assignment3Java
 icon: java
-Date: 2022-10-06 23:23:00
+date: 2022-10-06 23:23:00
 author: AI悦创
 isOriginal: true
 category: 

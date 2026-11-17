@@ -1,7 +1,7 @@
 ---
 title: 03-CITS1401 Computational Thinking with Pytho
 icon: python
-Date: 2022-10-18 12:34:35
+date: 2022-10-18 12:34:35
 author: AI悦创
 isOriginal: true
 category: 

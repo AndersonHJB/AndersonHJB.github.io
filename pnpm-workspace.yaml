@@ -9,6 +9,6 @@ overrides:
   'katex@0.18.11': 0.18.10
 
 patchedDependencies:
-  '@vuepress/bundler-vite@2.0.0-rc.31': patches/@vuepress__bundler-vite@2.0.0-rc.31.patch
-  # Display the calendar dates from Markdown consistently on the server and in the browser.
+  '@vuepress/bundler-vite@2.0.0-rc.32': patches/@vuepress__bundler-vite@2.0.0-rc.32.patch
+  # Keep Markdown dates consistent across time zones and support the VuePress rc.32 router.
   vuepress-theme-hope@2.0.0-rc.110: patches/vuepress-theme-hope@2.0.0-rc.110.patch

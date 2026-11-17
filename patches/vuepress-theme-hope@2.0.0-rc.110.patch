@@ -66,3 +66,28 @@ index 6fb3ce2f3e732bc96bb984de35730a81f800a220..3d88d025a121a38e5af68ac0f48dcf86
                      }),
                      info,
                      path,
+diff --git a/dist/node/index.js b/dist/node/index.js
+index dd562f39948d74dde268420a429a7179aac399b8..1ed0fb9bb2cd16025bfbc4d5dd9946b15a1f0f1b 100644
+--- a/dist/node/index.js
++++ b/dist/node/index.js
+@@ -3826,11 +3826,13 @@ export default {
+   enhance: ({ app, router }) => {
+     const { scrollBehavior } = router.options;
+-
++
+-    router.options.scrollBehavior = async (...args) => {
+-      await scrollPromise.wait();
++    if (typeof scrollBehavior === "function") {
++      router.options.scrollBehavior = async (...args) => {
++        await scrollPromise.wait();
+-
++
+-      return scrollBehavior(...args);
+-    };
++        return scrollBehavior(...args);
++      };
++    }
+-
++
+     // inject global properties
+     injectDarkMode(app);

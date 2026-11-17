@@ -1,17 +1,17 @@
 diff --git a/dist/index.js b/dist/index.js
-index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585be06c88d4 100644
+index 687f5f04eac6829ede9eddd52edf36f49c8a5c75..dfc6cdbe05b00c84f573f9ef48729b7a808b2469 100644
 --- a/dist/index.js
 +++ b/dist/index.js
 @@ -1,4 +1,6 @@
  import { createRequire } from "node:module";
 +import { createHash } from "node:crypto";
 +import path from "node:path";
- import { build, createServer, mergeConfig, mergeConfig as mergeConfig$1 } from "vite";
+ import { build as build$1, createServer, mergeConfig, mergeConfig as mergeConfig$1 } from "vite";
  import { createPageChunkFilesMap, createVueServerApp, getSsrTemplate, renderPageToString, resolveLinkedPageChunkFiles } from "@vuepress/bundlerutils";
  import { colors, debug, fs, renderHead, sanitizeFileName, withSpinner } from "@vuepress/utils";
-@@ -330,28 +332,102 @@ const renderPage = async ({ app, page, vueApp, vueRouter, ssrTemplate, output, o
- //#endregion
- //#region src/build/build.ts
+@@ -319,28 +321,102 @@ const renderPage = async ({ app, page, vueApp, vueRouter, ssrTemplate, output, o
+ };
+ // src/build/build.ts
  const log = debug("vuepress:bundler-vite/build");
 +const isInsideDirectory = (directory, filePath) => {
 +	const relativePath = path.relative(directory, filePath);
@@ -25,7 +25,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
 +	imports,
 +	dynamicImports
 +} : { type, fileName });
- const build$1 = async (options, app) => {
+ const build = async (options, app) => {
 +	const shardCount = Number(process.env.VUEPRESS_RENDER_SHARD_COUNT ?? "1");
 +	const shardIndex = Number(process.env.VUEPRESS_RENDER_SHARD_INDEX ?? "0");
 +	if (!Number.isInteger(shardCount) || shardCount < 1 || shardCount > 64 || !Number.isInteger(shardIndex) || shardIndex < 0 || shardIndex >= shardCount) {
@@ -82,7 +82,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
  			isBuild: true,
  			isServer: false
  		});
-+		clientOutput = await build(clientConfig);
++		clientOutput = await build$1(clientConfig);
 +		// Create the SSR plugins after the client build to clear their script caches.
  		const serverConfig = resolveViteConfig({
  			app,
@@ -90,8 +90,8 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
  			isBuild: true,
  			isServer: true
  		});
--		[clientOutput, serverOutput] = await Promise.all([build(clientConfig), build(serverConfig)]);
-+		serverOutput = await build(serverConfig);
+-		[clientOutput, serverOutput] = await Promise.all([build$1(clientConfig), build$1(serverConfig)]);
++		serverOutput = await build$1(serverConfig);
  	});
  	log("compiling finish");
 -	await withSpinner(`Rendering ${app.pages.length} pages`)(async (spinner) => {
@@ -115,7 +115,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
  		const clientEntryChunk = clientOutput.output.find((item) => item.type === "chunk" && item.isEntry);
  		const clientCssAsset = clientOutput.output.find((item) => item.type === "asset" && item.fileName.endsWith(".css"));
  		const serverEntryChunk = serverOutput.output.find((item) => item.type === "chunk" && item.isEntry);
-@@ -364,7 +440,7 @@ const build$1 = async (options, app) => {
+@@ -353,7 +429,7 @@ const build = async (options, app) => {
  				output: clientOutput.output
  			})
  		});
@@ -124,7 +124,7 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
  			if (spinner) spinner.text = `Rendering pages ${colors.magenta(page.path)}`;
  			await renderPage({
  				app,
-@@ -379,6 +455,25 @@ const build$1 = async (options, app) => {
+@@ -368,6 +444,25 @@ const build = async (options, app) => {
  			});
  		}
  	});
@@ -149,4 +149,4 @@ index 9b68b58276419bd53d28769c3960bd7ac287efdb..62d00c6e67af2485bc2fddc98b20585b
 +	}, null, 2)}\n`);
  	if (!app.env.isDebug) await fs.remove(app.dir.temp(".server"));
  };
- //#endregion
+ // src/dev.ts

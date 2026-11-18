@@ -3,7 +3,7 @@ import { zhNavbar } from "./navbar.js";
 import { zhSidebar } from "./sidebar.js";
 // <meta name="keywords" content="一对一辅导编程,编程1v1,CS辅导,编程一对一辅导,少儿编程一对一,Python 1v1,AI悦创,一对一,菜鸟教程,Python,编程一对一,C++,Java,AI,人工智能,黄家宝,Python一对一教学,Python辅导,留学生CS辅导,ChatGPT代注册,Codex一对一教学,Codex海外手机号,ClaudeCode一对一教学">
 // <meta name="description" content="Python一对一辅导,编程1v1,Java一对一辅导,一对一教学辅导,CS辅导,面试辅导,爬虫一对一教学,菜鸟教程,编程一对一教学,少儿编程一对一,人工智能,黄家宝,全网3000+学员,值得信赖,Python一对一教学,Java一对一教学,留学生CS辅导,ChatGPT代注册,Codex一对一教学,Codex海外手机号,ClaudeCode一对一教学">  
-export default hopeTheme({
+const theme = hopeTheme({
 // const theme = hopeTheme({
   // rtl: true,
   // hotReload: true,
@@ -340,11 +340,27 @@ export default hopeTheme({
   },
 });
 
-// export default (app: Parameters<typeof theme>[0]) => {
-//   // Theme Hope rc.107 enables the git plugin during builds even when
-//   // `plugins.git` is false. Register an inert plugin with the same name first
-//   // so the theme cannot register and execute @vuepress/plugin-git.
-//   app.use({ name: "@vuepress/plugin-git" });
+export default (app: Parameters<typeof theme>[0]) => {
+  const resolvedTheme = theme(app);
+  const renderTemplate = resolvedTheme.templateBuildRenderer!;
 
-//   return theme(app);
-// };
+  return {
+    ...resolvedTheme,
+    templateBuildRenderer: (template, context) => {
+      const seoTags: Record<string, string> = {};
+      // Move the resolved page metadata into the two slots after viewport.
+      const head = context.head.replace(
+        /<meta\b(?:[^"'<>]|"[^"]*"|'[^']*')*?\sname="(keywords|description)"(?:[^"'<>]|"[^"]*"|'[^']*')*>/g,
+        (tag, name: string) => {
+          seoTags[name] = tag;
+          return "";
+        },
+      );
+      const templateWithSeo = template
+        .replace(/<meta name="generator"[^>]*>/, () => seoTags.keywords ?? "")
+        .replace(/<meta name="theme"[^>]*>/, () => seoTags.description ?? "");
+
+      return renderTemplate(templateWithSeo, { ...context, head });
+    },
+  } satisfies ReturnType<typeof theme>;
+};

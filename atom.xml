@@ -5,7 +5,7 @@
   <subtitle>Python一对一辅导,编程1v1,Java一对一辅导,一对一教学辅导,CS辅导,面试辅导,爬虫一对一教学,菜鸟教程,编程一对一教学,少儿编程一对一,人工智能,黄家宝,全网3000+学员,值得信赖,Python一对一教学,Java一对一教学,留学生CS辅导,ChatGPT代注册,Codex一对一教学,Codex海外手机号,ClaudeCode一对一教学</subtitle>
   <icon>https://bornforthis.cn/python</icon>
   <logo>https://bornforthis.cn/aiyc.png</logo>
-  <updated>2026-11-18T00:41:25.736Z</updated>
+  <updated>2026-11-18T07:29:12.350Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bornforthis.cn/atom.xml"/>
   <link rel="alternate" href="https://bornforthis.cn/"/>
@@ -3856,121 +3856,6 @@
     <published>2022-09-01T14:38:16.000Z</published>
   </entry>
   <entry>
-    <title type="text">NoteSearch 开发日志</title>
-    <id>https://bornforthis.cn/Development-library/NoteSearch.html</id>
-    <link href="https://bornforthis.cn/Development-library/NoteSearch.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>2023-1-6</h2>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 修复 SEARCH DATA and PATH JSON 文件重复问题 <code>os.path.exists</code></label></li>
-<li>[ ]</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[
-<h2>2023-1-6</h2>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 修复 SEARCH DATA and PATH JSON 文件重复问题 <code>os.path.exists</code></label></li>
-<li>[ ]</li>
-</ul>
-<h2>2022-12-19</h2>
-<ul>
-<li>
-<p>保存构建好的数据</p>
-</li>
-<li>
-<p>探究文件的结合读取</p>
-</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li>获取用户输入</li>
-<li>使用 regex 匹配</li>
-<li>如果匹配到目标数据，则获取该数据前面的 uuid 作为 key 索引 json。-&gt; 返回 <code>路径</code></li>
-</ul>
-<h2><a href="https://github.com/AndersonHJB/aiyc1v1/commit/ec9d47de199a0d3df4f3d48d01177fc207ade8d1" target="_blank" rel="noopener noreferrer">0.0.28</a>2022-12-17</h2>
-<ul>
-<li>开发 json 数据存储</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li>Generate search data;</li>
-</ul>
-<p>关注公众号：AI悦创，更多优质技术文章等你哦！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="Development library"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-12-17T13:49:42.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Termius 7.28.0 破解版 (最好用的SSH连接客户端)</title>
-    <id>https://bornforthis.cn/MacWK/01-Termius.html</id>
-    <link href="https://bornforthis.cn/MacWK/01-Termius.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>特别提醒</h2>
-<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
-<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
-<h3>快速方便的连接</h3>
-<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
-<h3>稳定高效的 command</h3>
-<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>]]></summary>
-    <content type="html"><![CDATA[<h2>特别提醒</h2>
-<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
-<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
-<h3>快速方便的连接</h3>
-<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
-<h3>稳定高效的 command</h3>
-<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>
-<h3>主题定制</h3>
-<p>统一漂亮舒适的 commond，支持12种主题切换，可以调整字体大小</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e5/e51ea12e6fe38e2dca6f11bfb5faf3cdf079693d08b9297e9504fd0748b3dd55.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/c5/c504c4b341f5be89e8676b62f09694bfb13299e71422a2f22b4c5b028b66d7e9.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/2e/2e105e51af20cbcf1373e0c804739591d39dbf54ad577205fa07b77cadd5d072.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/67/671cd47163ea24f6959969c14623cf9984094c2019256a9ddca30d46c1eb909c.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e9/e9ca4f2db8f3cc1838bafdcdb25e9fc9450f540605d80bef0035badb89ab7936.jpg" alt tabindex="0" loading="lazy"></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/39/398509682aadbc2fd8c6032f9d5bff2fdbec439c0d39a7a6486aa5f93bba3bb8.jpg" alt tabindex="0" loading="lazy"></figure>
-<p><strong>软件下载地址：</strong><a href="https://xiaoniaoyun.im/f/R5SQS6" target="_blank" rel="noopener noreferrer"><strong>https://xiaoniaoyun.im/f/R5SQS6</strong></a></p>
-<p>失效请留言。</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="MacWK"/>
-    <category term="Mac破解安装包"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-10-16T21:35:10.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
     <title type="text">《编程启蒙：思维与代码》</title>
     <id>https://bornforthis.cn/Books/</id>
     <link href="https://bornforthis.cn/Books/"/>
@@ -4123,6 +4008,121 @@
       <name>AI悦创</name>
     </contributor>
     <published>2023-01-31T23:55:27.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">NoteSearch 开发日志</title>
+    <id>https://bornforthis.cn/Development-library/NoteSearch.html</id>
+    <link href="https://bornforthis.cn/Development-library/NoteSearch.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>2023-1-6</h2>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 修复 SEARCH DATA and PATH JSON 文件重复问题 <code>os.path.exists</code></label></li>
+<li>[ ]</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<h2>2023-1-6</h2>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 修复 SEARCH DATA and PATH JSON 文件重复问题 <code>os.path.exists</code></label></li>
+<li>[ ]</li>
+</ul>
+<h2>2022-12-19</h2>
+<ul>
+<li>
+<p>保存构建好的数据</p>
+</li>
+<li>
+<p>探究文件的结合读取</p>
+</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>获取用户输入</li>
+<li>使用 regex 匹配</li>
+<li>如果匹配到目标数据，则获取该数据前面的 uuid 作为 key 索引 json。-&gt; 返回 <code>路径</code></li>
+</ul>
+<h2><a href="https://github.com/AndersonHJB/aiyc1v1/commit/ec9d47de199a0d3df4f3d48d01177fc207ade8d1" target="_blank" rel="noopener noreferrer">0.0.28</a>2022-12-17</h2>
+<ul>
+<li>开发 json 数据存储</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>Generate search data;</li>
+</ul>
+<p>关注公众号：AI悦创，更多优质技术文章等你哦！</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="Development library"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-12-17T13:49:42.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Termius 7.28.0 破解版 (最好用的SSH连接客户端)</title>
+    <id>https://bornforthis.cn/MacWK/01-Termius.html</id>
+    <link href="https://bornforthis.cn/MacWK/01-Termius.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<h2>特别提醒</h2>
+<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
+<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
+<h3>快速方便的连接</h3>
+<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
+<h3>稳定高效的 command</h3>
+<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>]]></summary>
+    <content type="html"><![CDATA[<h2>特别提醒</h2>
+<p>防止影响某些功能的可用性，我没有去掉试用窗口，在第一次安装运行后会弹出一个试用登录窗口，只需要点击 <code>Continue Without Account</code> 即可。（该窗口只出现一次）</p>
+<p>Termius Mac 破解版是一款非常好用而且漂亮的 SSH 客户端，能快速远程控制服务器，可以定制自己喜欢的主题，支持 FTP/SFTP 连接。</p>
+<h3>快速方便的连接</h3>
+<p>通过清晰的分组列表帮助您方便快速的通过 SSH 连接您的服务器。</p>
+<h3>稳定高效的 command</h3>
+<p>无需每次都输入连接密码，只需双击服务器名称即刻连接</p>
+<h3>主题定制</h3>
+<p>统一漂亮舒适的 commond，支持12种主题切换，可以调整字体大小</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e5/e51ea12e6fe38e2dca6f11bfb5faf3cdf079693d08b9297e9504fd0748b3dd55.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/c5/c504c4b341f5be89e8676b62f09694bfb13299e71422a2f22b4c5b028b66d7e9.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/2e/2e105e51af20cbcf1373e0c804739591d39dbf54ad577205fa07b77cadd5d072.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/67/671cd47163ea24f6959969c14623cf9984094c2019256a9ddca30d46c1eb909c.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/e9/e9ca4f2db8f3cc1838bafdcdb25e9fc9450f540605d80bef0035badb89ab7936.jpg" alt tabindex="0" loading="lazy"></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/39/398509682aadbc2fd8c6032f9d5bff2fdbec439c0d39a7a6486aa5f93bba3bb8.jpg" alt tabindex="0" loading="lazy"></figure>
+<p><strong>软件下载地址：</strong><a href="https://xiaoniaoyun.im/f/R5SQS6" target="_blank" rel="noopener noreferrer"><strong>https://xiaoniaoyun.im/f/R5SQS6</strong></a></p>
+<p>失效请留言。</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="MacWK"/>
+    <category term="Mac破解安装包"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-10-16T21:35:10.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>

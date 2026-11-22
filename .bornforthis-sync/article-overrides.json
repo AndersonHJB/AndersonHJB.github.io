@@ -212,7 +212,7 @@
       "reason": "Six established GitHub release PDF delivery URLs；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/02-1.md": {
-      "source_blob": "b6d60fcb39599aa730893c5da3b374e0388a6ca2",
+      "source_blob": "e067f0271557e5845dd2ce93d5ef3c2e13fa7eb3",
       "target_sha256": "22c8889b26820cfb6f4035d4c6cc654dd78b39c898d63393d195d484a5d28c7d",
       "dependency_blobs": {
         "docs/.vuepress/public/mp3/计算机基础实战课/先睹为快：迷你CPU项目效果演示.webm": "414f49861249f9f055dd6434fe3aa6e48ebe91da",
@@ -223,7 +223,7 @@
       "reason": "Escaped missing TS local media download and disabled media nodes；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/摄影入门课/README.md": {
-      "source_blob": "e3925f7ab6283d8c96f9b263e0e5536676663c9c",
+      "source_blob": "9ec98deac3a0cd4d678b79745bc0e19c3e7c0bf1",
       "target_sha256": "2f17b7bd1f629b086d98897c0202af4081bff71c5a788ffa5b327e2554d3c32b",
       "reason": "Pruned course media checklist links",
       "dependency_blobs": {
@@ -242,7 +242,7 @@
       }
     },
     "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.md": {
-      "source_blob": "2e2b6610646d79a3798586b383ce1ccb5f224b78",
+      "source_blob": "22528e8543ec5c2176cf58a341be37668c404c67",
       "target_sha256": "645e185a229dc33b84ffc9146adb446bfa5e9e0d709e1e5d3cd882e00f6ed941",
       "dependency_blobs": {
         "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/02-sql-and-nosql.assets/1620.jpeg": "e2a208fe2cda7ef6bd8cfd87abfc28eedf92db38",
@@ -253,7 +253,7 @@
       "reason": "Preserved heading numbering after omitted disabled player；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/password.md": {
-      "source_blob": "eff1b29bd488ef24caf4bb0f5024b53e148f8a10",
+      "source_blob": "fa9f4186fd5c138e0102c38a498bf9e64539e70e",
       "target_sha256": "b35e659012ac451a07478789d98cf1efac040f71fa85fe1680a373576396db75",
       "reason": "Existing credential placeholder wording in entire account table",
       "dependency_blobs": {
@@ -263,7 +263,7 @@
       }
     },
     "docs/letter/2023/heart.md": {
-      "source_blob": "5a874bb1082311a1a0537c2f7c0f2de835f64958",
+      "source_blob": "e6a6d3154def4e6083cafd81d98042c9dfea03dd",
       "target_sha256": "120a1b9857e066f9ba9dc12a8621f531f8a07f5da8e1c55c8dc696c96d017202",
       "reason": "GitHub directory replacing pruned rabbit live site",
       "dependency_blobs": {
@@ -273,13 +273,13 @@
       }
     },
     "docs/Books/README.md": {
-      "source_blob": "877bad1966df7b081f34255dceb95999c9cdc377",
+      "source_blob": "6632c5f5b910f2ac2f30b9943c0239bca0763b0f",
       "target_sha256": "b548fd468a7c2d8b36bd92ca068c2bdb45bc09927b860273b01e4d618af831f9",
       "reason": "Working local PythonTutor logo fallback after remote TLS failure",
       "dependency_blobs": {}
     },
     "docs/blog/2023/12month/blog-settings.md": {
-      "source_blob": "3f4aa4f37e75ff2bcb8fb74f9386e05c4fb6523e",
+      "source_blob": "73ffefb6833901b84558c557beed9f1b2d426f4a",
       "target_sha256": "7b9cc688109d9e164c861938b02eb7d7cea42894c916caddce206112813b8810",
       "dependency_blobs": {
         "docs/blog/2023/12month/blog-settings.assets/image-20231215131719844.png": "023b216d1c58b38db4db0d593180dbf8e8f4c7cc",
@@ -290,7 +290,7 @@
       "reason": "GitHub directory replacing pruned PortKit route；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/blog/crawler/01-regex01.md": {
-      "source_blob": "9e5876017762e40aa7e2cc2bb05b48e4260ee156",
+      "source_blob": "bb424d8d509f71f84f449d9f4e9bfb35d41548ba",
       "target_sha256": "9e5c8f9432d587fc115ab56b5c5353927106f5e56fe697dce38d33dce4b69af7",
       "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
       "dependency_blobs": {
@@ -299,7 +299,7 @@
       }
     },
     "docs/column/Python-Programming-Course/P13-personal-blog-building/02-Blog-build.md": {
-      "source_blob": "fd6a2346ed1bfb928ef654eb70261d7596c8e20f",
+      "source_blob": "ef45ed8285b0b92aa063f22196e1a9323ac77424",
       "target_sha256": "19630b8080a82594ef5d0369e0b15e65c7d2640aad67f238a9f70c161100cd2b",
       "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
       "dependency_blobs": {
@@ -382,7 +382,7 @@
       }
     },
     "docs/column/web/base/base_03.md": {
-      "source_blob": "40cd56c0f2b67b5353fc48e25b168c9150d752c7",
+      "source_blob": "55e816bea73392ae77103267f5e31f56d0f2e61a",
       "target_sha256": "24564f6dd7b77b2b833c0e4ee076f5d16404ff6a4ad0acb285b2060a7486aa6e",
       "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
       "dependency_blobs": {
@@ -404,7 +404,7 @@
       }
     },
     "docs/column/web/base/base_04.md": {
-      "source_blob": "4aecea2941635bbbc13f2de009894ef658b60a33",
+      "source_blob": "2624d98730e782937d325edac75a7763f6a24371",
       "target_sha256": "bb6ce8e482c6f54df5dae1776ac1cd7d494f7e2283379e5e1d292b11e257550d",
       "reason": "保留已迁移的本地运行站域名，即使出现在教学代码示例中也不退回旧地址",
       "dependency_blobs": {
@@ -417,7 +417,7 @@
       }
     },
     "docs/1v1/47-qiuzhen/Blog/18-web-log.md": {
-      "source_blob": "4b6aee0193658837014cc2f2d3f3e5c167673890",
+      "source_blob": "0f46b8be5212c265eaf1fd7b60e84e933d046e5f",
       "target_sha256": "b6375f3ac7475c05bf9e73cff87c57a2361a9f9623e7dbae42f1b66abab85232",
       "dependency_blobs": {
         "docs/1v1/47-qiuzhen/Blog/18-web-log.assets/image-20230725084028529.png": "bbc038fb7801d2d459230fe9b2ef1bd9cf224d63",
@@ -432,7 +432,7 @@
       "reason": "保留部署版已经精简、转义的示例模板，不恢复旧代码模板和组件示例；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Programming-Course/P07-How-to-become-an-expert-in-effective-learning/01.md": {
-      "source_blob": "1e0bca64217cdd6c0deb5812c86ee8aca6daf77b",
+      "source_blob": "17de50cc95f2577e634b09402b2e211c70c1375b",
       "target_sha256": "787f2906287176622fc229e1269a27327fb9a3e5b2017e562a1ca2722d1dedea",
       "reason": "不重新补回部署版已删除的两段带删除线旧自述",
       "dependency_blobs": {
@@ -454,7 +454,7 @@
       }
     },
     "docs/column/ChatGPT-Midjourney/public/01.md": {
-      "source_blob": "add74ec76f5e4cc24fe72f11bcf69284c2618adb",
+      "source_blob": "1801842a05f3875b5c978dc4e2f4427be7482a47",
       "target_sha256": "5928b64f1d5de27cc28a32a6096243351b599e4fe5e06e2f1578428f504a8a07",
       "reason": "保留部署版既有的说明精简和图片选择，不把历史删减当成云端新增正文",
       "dependency_blobs": {
@@ -564,7 +564,7 @@
       }
     },
     "docs/column/TensorFlow/零基础实战机器学习/README.md": {
-      "source_blob": "3616998055080411b8eb1f70dd8d794dd2a937ba",
+      "source_blob": "b7f35cbd5cf7ed33d6ad415444f0571bd093eb0d",
       "target_sha256": "880f25163aa09ddc0ed548e7ff193e5ec9c80a63d446a4c00018ebefaee48561",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/README.assets/38ea18722c985b5610374532e2fc90bc.jpg": "9edbd43a7df1ee1f0f1b1ce798b409642f484b5b",
@@ -578,7 +578,7 @@
       "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/01.md": {
-      "source_blob": "205cdfa4a7a453702b3507e7a33d1fe573179adb",
+      "source_blob": "14a97ede76b99555a25e919f3da39ef2c6328de5",
       "target_sha256": "cce396690a2f3462682aa406381b6daf5be6c07ec14ebee39597972fc56483f0",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/01.assets/c94b8feb7a5eec3f5a8c1c7e9a26489d.jpg": "8cb64d61082ba8979ca049b7784b684e34424162",
@@ -594,7 +594,7 @@
       "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/02.md": {
-      "source_blob": "f125f1b310c9fb3f9c35894caf4c7cc208ef07e6",
+      "source_blob": "e648b8eb65f8f6cb0eed1ebcbf800e6989bbaba0",
       "target_sha256": "bd49c82f09d8cefcb8a837b7a44914acd66c0d9444515cd19e2fd24db8e4cb9d",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/02.assets/a6c1e06e4b93ef9019611bfa86ccb890.jpeg": "c2715fff49fa907ef301c6aae23b1953ed281aca",
@@ -626,7 +626,7 @@
       "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/TensorFlow/零基础实战机器学习/03.md": {
-      "source_blob": "cacc46465eb0eeca6ac7ce76b05699617ee756c1",
+      "source_blob": "f4c6f9ff2f760cbfb1cf543657e7f014f8c204ad",
       "target_sha256": "51daf10288cd5ecc5395ccbb8ee2f24504d650ddbc851084d1b0d53d91020366",
       "dependency_blobs": {
         "docs/column/TensorFlow/零基础实战机器学习/03.assets/24db96f2fc1a486c1daf1103e907e909.jpg": "c68f57ee3156ef55db6d07e65d48c8e94ea01086",
@@ -637,7 +637,7 @@
       "reason": "保留既有本地署名称呼，单独的旧称呼差异不作为新增教学内容覆盖；源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.md": {
-      "source_blob": "87a142fd6595eac85bdb1d9a71a4ae806514519d",
+      "source_blob": "e374ceecd1b23c617c748e41d430246c959fe7d8",
       "target_sha256": "0f1a0be001d15c7d6f010d3d2cc04121858239ac7db369baf919a1648094af0e",
       "reason": "此固定源快照仅有凭据占位符周围和末尾空白差异，不重排既有输出；源正文或素材变动仍需复核",
       "dependency_blobs": {
@@ -654,7 +654,7 @@
       }
     },
     "docs/1v1/04-TommyTian/07-Homework05.md": {
-      "source_blob": "d91872ed5ea36838331337f3725b79a29b6d24b6",
+      "source_blob": "38593de41a2868ed7de9704a0ce2cce132e793a8",
       "target_sha256": "fe5425b4437d5ab7197a616a2dbab40ec972c4362bdb9ec76ebd1c3f8666290f",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/04-TommyTian/07-Homework05/HW05.pdf": "b8c8d8302e02db82f2cc6e670d0bdcf5467507d8",
@@ -664,7 +664,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/15-group-hw.md": {
-      "source_blob": "4d8a6feb6286d763053d0266fe30b5c205b4e4c1",
+      "source_blob": "5f58ab61352d9faf98654a92bc2c62c5ffa87ba6",
       "target_sha256": "b44783cd1f8eca99f59f8d738aadec3532a97512b9440bd60b4bd83ff362dd45",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/15-group-hw/FinalProject.pdf": "09cc1a2dcced49898e209b9b418f469e3222e5a8",
@@ -678,7 +678,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All.md": {
-      "source_blob": "4561121a20402596e862fc81183de310ed447605",
+      "source_blob": "1ffa6c346bcf6752a7ea99be822a8801c8416320",
       "target_sha256": "83eae770f75ecf722fe7e491952c1bbc049ffed2decbcad943c10ae90c05ee27",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/22-Macro-Assignment-03-Gotta-Catch-em-All/assignment03_images.zip": "a70ba7ae205f55df0803dd3901e1c40d585a4d1d",
@@ -690,7 +690,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/27-Assignment05.md": {
-      "source_blob": "46ed712f715d57e573a276803c264b4100bb1d9b",
+      "source_blob": "f6169622631b4d83655086e57d538ac8816c97f0",
       "target_sha256": "3d809a8cb5067a2ccf04a87212e724522b7204efd853c2089eed062bd3ef9af3",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/27-Assignment05/27-Assignment05.mp4": "e5396528a49d7f49703a457fd842472a038df1a5",
@@ -701,7 +701,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/29-Micro-Assignment06.md": {
-      "source_blob": "b405a723bcf2cf1c801d8be4ed0009b124b8c013",
+      "source_blob": "4dd0d36a07f73c2eb1e609c751d15ce7f7a5f164",
       "target_sha256": "f10705fa1216514fbc82c5f7c9ab5defc44e2b2ba78068c0649e5a136104c047",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/29-Micro-Assignment06/01-php-fundamentals-v2.mp4": "f3dbf3c00e6c8f584162982b28762b4ceef32588",
@@ -715,7 +715,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/30-Assignment06-Matching-Game.md": {
-      "source_blob": "b198bd85229876b425aec60683d7a6dcfb690cf3",
+      "source_blob": "cd696c702947217c17e2f40f9451a29862fbe469",
       "target_sha256": "aed570d6a204474d13b526460a33fb1cd9300d21c38719c06ecedfb088983796",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/30-Assignment06-Matching-Game/webdev matching game_360p.mp4": "57412ffe38d48882646da05f1d4f5b901502527d",
@@ -726,7 +726,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System.md": {
-      "source_blob": "8c712082971bcd397c40d29d1813e2724c466b40",
+      "source_blob": "2d9a38292833727bb07029a6c70dbb07425c0bce",
       "target_sha256": "819dc1a0088870eff24ddbf96756921fe903d112e1a52bc6c8ab31cbf601892b",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/31-Assignment07-Server-side-Quizzing-System/yt1s.com-simpsonsquiz assignment6_360p.mp4": "b3379342a2a1c07b87fd268c654f7ed9ab2791fd",
@@ -737,7 +737,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/32-Micro-Assignment07.md": {
-      "source_blob": "a42ac20e5ff393833a25d23de16ea4417ab1f7e7",
+      "source_blob": "efcb51414c78f2139b380a18a5d635c7ad288953",
       "target_sha256": "ccad4b89e04219d226c2032c885eeea2dac1f03335e70413865aadb8acf578da",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/32-Micro-Assignment07/01-php-fileIO.mp4": "62560ee90fe780525894979c1fd19f5eb0c31196",
@@ -750,7 +750,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/06-KAI/33-Micro-Assignment08.md": {
-      "source_blob": "648fe4a2021aa019ff3f3a1273cc3a846029e472",
+      "source_blob": "68a07198f2bd60ccd65245e7337d1650a48aeffb",
       "target_sha256": "b480a26a2591f2554a683074c4ca8555bbf90548092574e776261fc8aac4da91",
       "dependency_blobs": {
         "docs/.vuepress/public/1v1/06-KAI/33-Micro-Assignment08/webdev-micro08-promises.mp4": "39e3c329d6ddce1975cf345ff756fbaafc359dba",
@@ -762,7 +762,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/1v1/64-MKQ/IEORE4501_001_2023_3-TOOLS-FOR-ANALYTICS/01-Fundamentals/01-How-to-Complete-the-Homeworks.md": {
-      "source_blob": "98df365e7260e1e44da97d3591ea1077b68a3967",
+      "source_blob": "fa59a7cc35c9083a749ea58d33cbc69a8ae6ddf7",
       "target_sha256": "6c9986317185a10c38a06bf502457801465b66c83566f6c76ddb87b26f953ea6",
       "dependency_blobs": {
         "docs/.vuepress/public/pdf/How-to-Complete-the-Homeworks.pdf": "6e644602c645a7bbacc13f5c9fcff569152bffc6",
@@ -772,13 +772,13 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/Books/02-SupplementaryArticles/Share/Kunstkammer-Wien-der-Schiffsautomat.md": {
-      "source_blob": "35ebb71b0e79b39b73968ed42322d91cafeef0ba",
+      "source_blob": "63a1b940df1d0eb3aa42955fb442559c6c63a841",
       "target_sha256": "09ed5129f6ad5d957db59a2191764b43a4035efcc3dbc2c8ed5008f0db119b7d",
       "dependency_blobs": {},
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/blog/2022/11month/02.md": {
-      "source_blob": "9a74ecec5926899569d8e3ac0896131ab41f870d",
+      "source_blob": "10eb46a0fe42a2749f61caef25efe0171ed5f421",
       "target_sha256": "79c710c8d64e2c288af7ac49857b4fe69a33c1e5259cee1c24b2b3b1712c3660",
       "dependency_blobs": {
         "docs/blog/2022/11month/02.assets/image-20221111210814773.png": "26e6f5ceb149459f17b38ca64731888878edcbbf",
@@ -790,7 +790,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/ChatGPT-Midjourney/StableDiffusion/01.md": {
-      "source_blob": "961f6a5e1a0bb8242e2167623ed5061a9ed50f7b",
+      "source_blob": "5afd6403c0d1b20c124627ae959867bc8e2eadfe",
       "target_sha256": "42240f8c562e1d4e7f8d02bc07d3a7b2ae02598f5456e11f31b63ea551af1775",
       "dependency_blobs": {
         "docs/column/ChatGPT-Midjourney/StableDiffusion/01.assets/1c517a8ab9b4d927c9d11790b8d4d86f.jpeg": "2cf924a3d245aeb6a55f1aba6f9beaf96e3be864",
@@ -799,7 +799,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/ChatGPT/ChatPPT/02.md": {
-      "source_blob": "e542b3634d6f0217a6dbb45842dd520eac3f29bd",
+      "source_blob": "2857ad296e9f4d17e7fb0ecf58daddda31cb4fdb",
       "target_sha256": "4567c5dc55c8d5548dbe114757e11e8fa21ac661e82ba958e43fb2759e13d565",
       "dependency_blobs": {
         "docs/column/ChatGPT/ChatPPT/02.assets/image-20230902223359410.png": "cf2d02d4e39637e15389dba41510d14fd0204fc5",
@@ -814,7 +814,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/ChatGPT/Chatbot/01.md": {
-      "source_blob": "7dc9ab9831654ad511467fc45847092fa769a7aa",
+      "source_blob": "8f2e483bc97b622441e1c4df65c8d4072877821f",
       "target_sha256": "e17bea961d1dc674b27958b04f723626929be98c37c74ad72e5ab32bf8d387cf",
       "dependency_blobs": {
         "docs/column/ChatGPT/Chatbot/01.assets/image-20230319222844431.png": "17bed5cd446dedbd64a45d5938ce43dd9a5706fa",
@@ -838,7 +838,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/00.md": {
-      "source_blob": "f6666452ccbe17a6d7f3d45d08bdd32c416cf875",
+      "source_blob": "68ecf091b39fe7546eee72798f08ac938056baba",
       "target_sha256": "622c91ea642e3ec40489f89b48f850f87284331520b1b38f5ecf53ce25a75968",
       "dependency_blobs": {
         "docs/column/Computer-basic-practical-course/00.assets/c2d25fa05c3ffee2e4d8863201743bdc.jpg": "ef69c344b251eced850024546b3f99fe83e07547",
@@ -850,7 +850,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/01.md": {
-      "source_blob": "6f01a5631b525611c6066ead6c38c6571804a666",
+      "source_blob": "37c3ede45e24b4ab62da7a6e0fc337f5cc0ed4a4",
       "target_sha256": "c59138c53e57acf162e814e21814abf0f0d4049785a0c61505e8d3c038ee67b5",
       "dependency_blobs": {
         "docs/column/Computer-basic-practical-course/01.assets/20ec307e84f7ebce3c0ae7439312d014.jpg": "8b18bc364112338a9501e12b514b53e9b7bc76ff",
@@ -864,7 +864,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/02.md": {
-      "source_blob": "44f54b81b963c024929b0efa454499a2d8240f98",
+      "source_blob": "35c47664457d6c9519f54022557a41f2691d6fe3",
       "target_sha256": "ff0fa50ba4646368e1e8e0f024e6fcde3e49488f308e4279f63aa9c693b936f9",
       "dependency_blobs": {
         "docs/column/Computer-basic-practical-course/02.assets/1cd5f483b930bdcbf0e20980a2b80510.jpg": "331c7e2de18c08934e0285a063b36cb4c43ddec4",
@@ -880,7 +880,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Computer-basic-practical-course/03.md": {
-      "source_blob": "c5125db02a445957a8a8eb697fd4156f6cb504c3",
+      "source_blob": "837651db3aad65144b79c6ebc09077334ad8d56c",
       "target_sha256": "5cbad6aa2d5b498a8c15b762ee14b9d310c82b8681877e2ca6a9770159b36c21",
       "dependency_blobs": {
         "docs/column/Computer-basic-practical-course/03.assets/3372e37cd74c891ca78c22e6bec3fa21.jpg": "0f19b6bfadd596f42eeefd1d12349304adfbbabf",
@@ -891,7 +891,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.md": {
-      "source_blob": "9439e7f8f1f1a6a37dc189799a72a65bf7df931c",
+      "source_blob": "2c7157df7a114369910c809d63f98794830d8bfb",
       "target_sha256": "4087c368650a1576d9221183ce4f2c4daa8f1d6332fb70db46e17152087e4bda",
       "dependency_blobs": {
         "docs/column/Mok-asked/Entrepreneurial-notes/2022/05.assets/Fl5xaxaFV9CKR74DD3gLKgCCTV4w.jpeg": "e741b60edba3ae09a89751ad7438d1295d447ae5",
@@ -902,7 +902,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Flask/Project1/01.md": {
-      "source_blob": "f696a73a313846acd2d2910edcf6bfa14e1ca79d",
+      "source_blob": "56edc279b2558c7758a36ea98d2f520b7e55abad",
       "target_sha256": "7d75ce4cb7ad21a5946c50f7767e96612c4760b41bc9e40c5133cc4dfef6fd18",
       "dependency_blobs": {
         "docs/.vuepress/public/gzh.jpg": "d9a9b13279a4d52c52c4c3f2ec48ee621ca1512e",
@@ -911,7 +911,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/Python-Flask/Project1/02.md": {
-      "source_blob": "f7faab789d0ad4b0344fc8306ad94ae96a5673bf",
+      "source_blob": "eccb9e35014de4780cd62c8915e076a175071c0d",
       "target_sha256": "f7ba91ba12ede72f310a611b458afe22c408f1009d5a7ba659707779f06c7e5c",
       "dependency_blobs": {
         "docs/column/Python-Flask/Project1/02.assets/image-20230105234831711.png": "7fb0d3745ee77e2965c12460b07adf548f3f9beb",
@@ -921,7 +921,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/StableDiffusion/02.md": {
-      "source_blob": "65d18fd662b6a0e617d49939a0e32254fcd8c5a3",
+      "source_blob": "edcba879e61dde978cb8c22cee987ec1a80f0f69",
       "target_sha256": "16be45462cf708d87c0175a806331715ab1e1aa0ca916e885f5faf998e8548e2",
       "dependency_blobs": {
         "docs/.vuepress/public/banner/02-sd2.webp": "f71478d62bfa0dda031c84924592ff25eecba2a3",
@@ -964,7 +964,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.md": {
-      "source_blob": "5019bbd79e5aeac1bc0f11cc590b50e617f6c84f",
+      "source_blob": "edc641e09d49bd2276fc90950c5e35daa2b671b5",
       "target_sha256": "8bb0496d3f5a8309788ee5d1475e66c884a1fa972fe4276c034296deb76753a0",
       "dependency_blobs": {
         "docs/column/cookdinner/P00-Plan/2025-year/01-wife-birthday.assets/1744985397600-339f45ff-b149-49d6-8a9c-b69b227e954d.png": "d84c5152234dd2bd6da193032337c83965328d8d",
@@ -1001,7 +1001,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/cookdinner/P07-特色甜食小吃/01-芝麻香芋.md": {
-      "source_blob": "5e1b575310ff7ee3469d20b924663f7675a329de",
+      "source_blob": "84acf6c2beea04de89705481afb5d521b4418ed3",
       "target_sha256": "dab3290eed027234b4f16c9fce20bd1a57d4cfd38a9c2580b3ad3ea736abda4f",
       "dependency_blobs": {
         "docs/.vuepress/public/cookdinner/芋头.mp4": "3b1e1628c229b6bbe8dfbef33ea00c8230c44315",
@@ -1011,7 +1011,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/crawler/s1_01.md": {
-      "source_blob": "e7260b2016d1b80cd18dce980f698436ce46070f",
+      "source_blob": "21765f4a41e53398cfe8b7b4b86a7bb7f35a007e",
       "target_sha256": "2c016132a16b451797db7d9c48b7847ce31cd2ad56492c6767d41837e365a233",
       "dependency_blobs": {
         "docs/column/crawler/01.assets/1596513066859-43b79d21-f2e0-4d4a-a241-49b4ef70cb5e.jpeg": "8bf45c50b28859914725995da6020e034a1ec34b",
@@ -1030,7 +1030,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.md": {
-      "source_blob": "8dd7ea8c1a76f096004d6e39695a4671d6e9ae31",
+      "source_blob": "b497c89685bc522be21f32de6bfdcacdde4e15fe",
       "target_sha256": "b9e588293d51c6d487aa2160626acd5bf1cc848c23138aad7c4a56b40a5bc31e",
       "dependency_blobs": {
         "docs/column/easy_sql/Easy-Sql-Mysql/第1节-Introduction-and-Installation/01-What-Database.assets/image-20230113105632842.png": "4bd1fe5567b2ccf2f00702726ca4a0f15e172e88",
@@ -1041,13 +1041,13 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/py/share/Kunstkammer-Wien-der-Schiffsautomat.md": {
-      "source_blob": "35ebb71b0e79b39b73968ed42322d91cafeef0ba",
+      "source_blob": "63a1b940df1d0eb3aa42955fb442559c6c63a841",
       "target_sha256": "d93093e5334363b9a15edb8a269f0497555ba529f186afff9c940679f9bc98dd",
       "dependency_blobs": {},
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/python60/02.md": {
-      "source_blob": "f45863aedd7ad0b7424a5c4858e8845fa4dd7a25",
+      "source_blob": "9edceff22db4ce5df8939173fb5604d75b31c7d3",
       "target_sha256": "eca482e61092697853be49bcc21c078dc4eb226976dff2378a93e413f9a716eb",
       "dependency_blobs": {
         "docs/column/python60/02.assets/7d3ecf00-51ff-11ea-85a8-e305846ee506-7401075.png": "c979444aea07a8996cd248dd6513c81941492fa6",
@@ -1063,7 +1063,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/python60/04.md": {
-      "source_blob": "dba67e274a90144b614e81cc0951ccfaef40606c",
+      "source_blob": "bc07a9357be73aa01b7b7e42e55bdd8df6b05a99",
       "target_sha256": "918d40ec356335b811d1602eb54cf46263425c304b624b347b32730c475d4074",
       "dependency_blobs": {
         "docs/column/python60/04.assets/80dc83f0-5317-11ea-8128-358088d96de7.png": "fa0b2343b64a92cc28a2b7f4d2ade53b0ab6d61f",
@@ -1082,7 +1082,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/python60/06.md": {
-      "source_blob": "e0b58fd4bdc6819dff757d0dafb374bc9348cf0d",
+      "source_blob": "df9f5577905bef479c9131cbe3779e94c623dc26",
       "target_sha256": "a8444643326b8cc082ccf8ac48364555a27624330430ad01ca4cfe4e4ad68697",
       "dependency_blobs": {
         "docs/column/python60/06.assets/2020-02-06-013400.png": "559646646a6a914ebcc591ba8455e3c7537887bb",
@@ -1095,7 +1095,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/column/python60/07.md": {
-      "source_blob": "15338476ef548fb438475b4fd1ae9274862e7c4c",
+      "source_blob": "fa0cd8630223f3962f04d023d256d88f74ec8473",
       "target_sha256": "b10875874dc735c248ce45fc0600cce9a0bf7176cc0d3fe53934623a4c1a74f9",
       "dependency_blobs": {
         "docs/column/python60/07.assets/2020-02-06-013359.png": "da9ae40227f1736c3a7342f6bf5f099c031e8365",
@@ -1106,7 +1106,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/home.md": {
-      "source_blob": "8219f775d2f25829bab094382a6f51fdd5d1c025",
+      "source_blob": "b1c9f77da40435e42c430f503a718d964ab3f73d",
       "target_sha256": "91d8fc8fb4a767238e18d0f0964efcb40ce99086a668c26118dd1e798d810f35",
       "dependency_blobs": {
         "docs/home.assets/image.jpeg": "9b6bab9e98f2f134359f8a959e15fc55122c65f1",
@@ -1116,7 +1116,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/letter/2023/01.md": {
-      "source_blob": "14cdfc34100e164d4dd0900ec8610638726fef0b",
+      "source_blob": "6e3864dde16c78b0d987ded1ebf9f4cde03ca038",
       "target_sha256": "7d60e7f06646b02283174c38497192102a6e5282f85c80b0202839799da40ade",
       "dependency_blobs": {
         "docs/letter/2023/01.assets/77ea410d0811595468252c7637e19957.jpg": "f5d46327ddf2a3df0a0eed2bd678c4e8e0c5ed1c",
@@ -1129,7 +1129,7 @@
       "reason": "源媒体组件改名；部署沿用本地 PDF/url 以及已转义、注释或删减的播放器和相应示例。媒体参数和其他正文逐行与上次源一致。"
     },
     "docs/posts/45.md": {
-      "source_blob": "74ba625992a992b1df417609778b5e79fb3aa649",
+      "source_blob": "3a8f4a2eb4fb220c004865995d847781bdc650aa",
       "target_sha256": "6d1747654ab32aefc7d373cbbdc8cf297ee2bcf5a6eb47543f85f7d0c83298d3",
       "dependency_blobs": {
         "docs/.vuepress/public/pdf/03-使用8421.pdf": "4ab3e4f8df45c59dd3fd0d89a4ed2e1e439060ad",

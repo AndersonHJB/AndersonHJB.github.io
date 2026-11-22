@@ -16,9 +16,25 @@ backToTop: true
 toc: true
 ---
 
-用支付宝买美区 Apple 礼品卡后，还要在两个地方操作：先把卡密兑入自己的美区 Apple 账户，再到 iPhone 或 iPad 的 ChatGPT App 里订阅。**App Store 余额增加**说明兑换成功；**ChatGPT 设置里显示 Plus**才说明订阅生效。
+你好，本次教程带你实现 iPhone 上订阅 ChatGPT 会员！Claude 同理，但是不推荐，毕竟 Claude 高概率封号且使用条件苛刻！
 
-以一张 20 美元的礼品卡为例，2026 年 7 月的 Pockyt 订单实付 ¥135.98，10 月同面额付款页显示 ¥134.44。11 月 6 日的 SEAGM 订单实付 ¥138.13，约三分钟收到卡密。下文截图对应这些历史记录，买卡时请核对自己的实付金额和含税月费。
+## 1. 注册美区的 Apple ID
+
+Apple 注册链接：[https://account.apple.com/account](https://account.apple.com/account)
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/34/349556827459dfad4ac76a64223ffad33507f5bd1c8fc788df0d7b695eaeae81.png)
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/a4/a4fb66ac8ded17163a8a80672a9b05adc2090ff8b72fc39004e73c0acf3b6911.png)
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/0e/0ec6b2a0b92f864694db9acbdec89ddeba782b2b8cb9adedb2cb70bbaf1009fe.png)
+
+![](https://blog.images.one.bornforthis.cn/docs-images/sha256/e0/e07b04bdebc84caa781056b6f5ec64f51b98bb1fc9e1a70a9b16f6031fac81d8.png)
+
+这样就注册成功了，手机的 Apple Store 记得登录。只要 Apple Store 登录即可，手机设置里面的总账号不用切换和登录。
+
+
+
+
 
 ## 从哪一步开始
 

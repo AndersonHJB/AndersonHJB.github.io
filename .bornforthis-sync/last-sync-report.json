@@ -1,71 +1,65 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-11-16",
   "source_repo": "AndersonHJB/bornforthis.cn",
   "source_branch": "main",
-  "source_commit": "ac38faa41ae0e217505b3ae9d3a0fd65ccedca31",
-  "source_tree": "f577fdf8a9c8e609ffb021173326dc3da7f2e508",
+  "checked_date": "2026-11-22",
+  "source_commit": "0c3355cf70f2b9f7920a765eb36743234f958d33",
+  "source_tree": "9fe9f797c6017f01ceff2f437acd319cbe51ffed",
   "source_tree_complete": true,
-  "deployment_baseline_source_commit": "778e84ac2868c250d83b05dd0c76f624215190f5",
+  "deployment_baseline_source_commit": "ac38faa41ae0e217505b3ae9d3a0fd65ccedca31",
   "source_change_counts": {
-    "added": 16,
-    "modified": 1,
+    "added": 14,
+    "modified": 2120,
     "removed": 0,
     "renamed": 0
   },
-  "source_files_scanned": 13059,
-  "target_tracked_files_scanned": 2772,
+  "source_files_scanned": 13073,
+  "target_tracked_files_scanned": 2774,
   "target_untracked_files_scanned": [],
-  "articles_checked": 2222,
-  "managed_files_checked": 2532,
-  "previous_managed_files_checked": 2531,
+  "articles_checked": 2223,
+  "managed_files_checked": 2533,
+  "previous_managed_files_checked": 2532,
   "new_articles": [
-    "docs/Books/06-publishing-and-speaking/02-other.md"
+    "docs/column/Python-Programming-Course/P18-Codex/07-ai-brand-design-research-skill.md"
   ],
   "modified_articles": [
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md",
+    "docs/column/AI-Large-model/AI-customer-service/README.md",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.md"
   ],
   "deleted_articles": [],
-  "unchanged_articles": 2220,
+  "unchanged_articles": 2219,
   "other_new": [],
   "other_modified": [],
   "other_deleted": [],
+  "source_modified_articles": 2119,
+  "source_only_normalized_changes": 2116,
+  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/semantic.json",
   "new_source_image_paths": [
-    "docs/Books/06-publishing-and-speaking/02-other.assets/95bd2b9c19401fa90d9fbd616563c170.jpg",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/a6938e74a2abbd465ba7f0c704d63905.jpg",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20260517160831792.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113203222010.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113231456655.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261113231613590.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114114555239.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114120122973.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114161547565.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114161745209.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261114214935621.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261115222636215.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116151252526.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116151344565.png",
-    "docs/Books/06-publishing-and-speaking/02-other.assets/image-20261116152618154.png"
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.assets/公众号：AI 悦创，二维码.jpg",
+    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.assets/微信二维码.JPG",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116215004216.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116215235214.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116220409806.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116220505754.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116221433584.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116221704834.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116222833699.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116230213133.png",
+    "docs/column/Python-Programming-Course/P18-Codex/07-ai-brand-design-research-skill.assets/image-20261119212733304.png",
+    "docs/column/Python-Programming-Course/P18-Codex/07-ai-brand-design-research-skill.assets/image-20261119213252688.png",
+    "docs/column/Python-Programming-Course/P18-Codex/07-ai-brand-design-research-skill.assets/image-20261119213414818.png"
   ],
-  "reused_images_for_new_source_paths": 15,
-  "new_images": 0,
-  "image_bytes": 0,
-  "image_push_performed": false,
+  "new_images": 9,
+  "image_bytes": 3916710,
   "image_repo": "AndersonHJB/bornforthis-blog-images-one",
-  "image_commit": null,
-  "verified_image_repository_heads": {
-    "legacy": {
-      "repo": "AndersonHJB/blog-images",
-      "commit": "e4488968e5de7292178bace700acb3860cd13f67"
-    },
-    "new": {
-      "repo": "AndersonHJB/bornforthis-blog-images-one",
-      "commit": "93a535f619d06d77c383007a2f608fab65ced6e5"
-    }
-  },
+  "image_push_performed": true,
+  "image_commit": "c710eef2984aa09e73d06280abde36ee5efbc1ab",
   "image_urls_verified": true,
-  "image_full_body_sha256_verified": 17,
-  "image_full_body_bytes_verified": 16016863,
+  "image_full_body_sha256_verified": 9,
+  "image_full_body_bytes_verified": 3916710,
+  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/publication.json",
+  "reused_images_for_new_source_paths": 0,
   "prior_asset_mappings_checked": {
     "pins": {
       "legacy": {
@@ -85,9 +79,9 @@
         "blobs": 217
       }
     },
-    "asset_rows": 8158,
+    "asset_rows": 8173,
     "checked": {
-      "primary_remote": 8157,
+      "primary_remote": 8172,
       "alternate_remote": 2,
       "alternate_local": 3,
       "primary_local": 1
@@ -95,22 +89,22 @@
     "distinct_remote_objects": 7914,
     "issues": []
   },
-  "active_source_asset_mappings": 8173,
-  "affected_articles_image_references": {
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md": {
-      "hosted": 15,
-      "local": 0
+  "active_source_asset_mappings": 8182,
+  "verified_image_repository_heads": {
+    "legacy": {
+      "repo": "AndersonHJB/blog-images",
+      "commit": "e4488968e5de7292178bace700acb3860cd13f67"
     },
-    "docs/Books/06-publishing-and-speaking/02-other.md": {
-      "hosted": 15,
-      "local": 2
+    "new": {
+      "repo": "AndersonHJB/bornforthis-blog-images-one",
+      "commit": "c710eef2984aa09e73d06280abde36ee5efbc1ab"
     }
   },
-  "image_verification_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/guide-cdn.json",
   "preserved_deployment_configuration": [
     ".github/workflows/deploy-docs.yml",
     ".gitignore",
     "docs/.vuepress/client.ts",
+    "docs/.vuepress/config.ts",
     "docs/.vuepress/navbar.ts",
     "docs/.vuepress/public/css/question.css",
     "docs/.vuepress/public/html_runing/01-1.html",
@@ -123,8 +117,23 @@
   ],
   "preserved_article_override_counts": {
     "guarded_files": 59,
-    "files_with_scoped_patches": 11
+    "files_with_scoped_patches": 18
   },
+  "preserved_deployment_changes": [
+    "docs/.vuepress/client.ts",
+    "docs/.vuepress/config.ts",
+    "docs/.vuepress/theme.ts",
+    "docs/1v1/03-Dannie/03.md",
+    "docs/1v1/03-Dannie/09.md",
+    "docs/1v1/05-Patrick/01-CITS1401-Computational-Thinking-with-Python.md",
+    "docs/1v1/05-Patrick/03-CITS1401-Computational-Thinking-wit-Python.md",
+    "docs/1v1/06-KAI/02-Part-1-Birth-Date-Application-30-pts.md",
+    "docs/1v1/06-KAI/07-Assignment-3-java.md",
+    "docs/column/data-structure/week1/03.md",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ],
   "deployment_only_files_preserved": [
     ".bornforthis-sync/article-overrides.json",
     ".bornforthis-sync/last-sync-report.json",
@@ -291,7 +300,8 @@
     "docs/en/medium/.DS_Store",
     "docs/letter/.DS_Store",
     "docs/letter/life/.DS_Store",
-    "patches/@vuepress__bundler-vite@2.0.0-rc.31.patch",
+    "patches/@vuepress__bundler-vite@2.0.0-rc.32.patch",
+    "patches/vuepress-theme-hope@2.0.0-rc.110.patch",
     "scripts/merge-site-shards.mjs",
     "教程文档/Vercel-Static-Site-Firewall-Protection-Guide.md",
     "教程文档/Vercel-全套防护操作手册-v2.md",
@@ -304,17 +314,23 @@
     "教程文档/进阶.md"
   ],
   "classification_counts": {
-    "excluded": 2378,
-    "deployment-overlay": 12,
+    "excluded": 2382,
+    "deployment-overlay": 13,
     "source-managed": 2520,
-    "asset": 8149
+    "asset": 8158
   },
   "exclusion_reasons": {
     "OS metadata is not site content": 113,
     "Existing deployment pruning at initial snapshot; reconsider if newly referenced or role changes": 2264,
-    "部署版 client.ts 通过现有独立 PDF.vue 注册 PDF，并明确禁用 media 插件；保留已审定的本地运行时实现": 1
+    "部署版 client.ts 通过现有独立 PDF.vue 注册 PDF，并明确禁用 media 插件；保留已审定的本地运行时实现": 1,
+    "Unreferenced source screenshot; no deployed content or runtime consumer": 4
   },
-  "newly_excluded_source_files": [],
+  "newly_excluded_source_files": [
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116215004216.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116215235214.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116221433584.png",
+    "docs/column/Python-Programming-Course/P18-Codex/04-ChatGPT-Plus-China-Guide.assets/image-20261116221704834.png"
+  ],
   "conflicts": [],
   "known_existing_reference_issues": {
     "source_count": 46,
@@ -323,82 +339,40 @@
   },
   "current_validation": {
     "status": "passed",
-    "article_replay_checked": 2222,
+    "article_replay_checked": 2223,
     "article_replay_changes": 0,
     "unsupported": 0,
     "new_unresolved_references": 0,
     "pending_uploads": 0,
-    "managed_file_hashes_verified": 2532,
-    "dependency_edges_checked": 12145,
-    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/replay-report.json",
-    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/deployed-replay-report.json",
-    "output_verification": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/site-check.json"
+    "managed_file_hashes_verified": 2533,
+    "dependency_edges_checked": 12156,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/replay-report.json",
+    "content_check": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/content-check.json",
+    "deployment_worktree_replay_report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/deployed-replay-report.json"
   },
-  "source_article_review": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/semantic.json",
-  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f",
+  "details_cache": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze",
   "target_committed": false,
   "target_pushed": false,
   "website_published": false,
-  "completed_at": "2026-11-16T15:54:44+08:00",
+  "completed_at": "2026-11-22T20:43:35+08:00",
   "target_status": "working_tree_updated",
   "build": {
     "performed_for_current_revision": true,
-    "scope": "affected_pages",
-    "command": "pnpm run docs:build",
-    "full_site_build": false,
+    "scope": "full_site",
+    "full_site_build": true,
     "success": true,
-    "rendered_pages": 17,
-    "input_pages": 5,
+    "command": "pnpm run docs:build",
+    "rendered_pages": 3335,
+    "changed_pages_verified": 4,
+    "rendered_image_references_checked": 135,
+    "report": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/build-result.json",
+    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-22-RZw9v4ze/build.log",
     "warnings": [
-      "Icon scan ignored when offline mode is disabled",
-      "Vite reports CSS plugin timing"
-    ],
-    "log": "/Users/bornforthis/.codex/cache/bornforthis-content-sync/runs/2026-11-16-ac38faa-mxoh1y7f/site-check-build.log"
-  },
-  "source_formatting_notes": {
-    "docs/Books/06-publishing-and-speaking/01-xiamen-institute-of-technology-guide.md": [
-      {
-        "line": 704,
-        "diagnostic": "new blank line at EOF.",
-        "source_origin_verified": true
-      }
-    ],
-    "docs/Books/06-publishing-and-speaking/02-other.md": [
-      {
-        "line": 619,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 621,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 623,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 625,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 627,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 635,
-        "diagnostic": "trailing whitespace.",
-        "source_origin_verified": true
-      },
-      {
-        "line": 865,
-        "diagnostic": "new blank line at EOF.",
-        "source_origin_verified": true
-      }
+      "@vuepress/plugin-icon:  ⚠ The `scan` option is ignored, as the offline mode is not enabled.",
+      "(!) Some chunks are larger than 1024 kB after minification. Consider:",
+      "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.",
+      "\u001b[33m[PLUGIN_TIMINGS] \u001b[0mJavaScript callbacks ran for 30.9s of this 35.7s build (87%).",
+      "\u001b[33m[PLUGIN_TIMINGS] \u001b[0mJavaScript callbacks ran for 59.3s of this 71.5s build (83%)."
     ]
   }
 }

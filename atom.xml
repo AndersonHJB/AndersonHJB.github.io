@@ -5,7 +5,7 @@
   <subtitle>Python一对一辅导,编程1v1,Java一对一辅导,一对一教学辅导,CS辅导,面试辅导,爬虫一对一教学,菜鸟教程,编程一对一教学,少儿编程一对一,人工智能,黄家宝,全网3000+学员,值得信赖,Python一对一教学,Java一对一教学,留学生CS辅导,ChatGPT代注册,Codex一对一教学,Codex海外手机号,ClaudeCode一对一教学</subtitle>
   <icon>https://bornforthis.cn/python</icon>
   <logo>https://bornforthis.cn/aiyc.png</logo>
-  <updated>2026-11-22T13:22:55.318Z</updated>
+  <updated>2026-11-23T07:54:04.123Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bornforthis.cn/atom.xml"/>
   <link rel="alternate" href="https://bornforthis.cn/"/>
@@ -40,8 +40,8 @@
   <category term="科普"/>
   <category term="直播"/>
   <category term="OBS"/>
-  <category term="PS 笔记"/>
   <category term="Bornforthis项目"/>
+  <category term="PS 笔记"/>
   <category term="刘润"/>
   <category term="Python Base Notebook"/>
   <category term="Numpy"/>
@@ -3923,6 +3923,79 @@
     <published>2022-09-01T14:38:16.000Z</published>
   </entry>
   <entry>
+    <title type="text">Development plan</title>
+    <id>https://bornforthis.cn/Code1v1/Development-plan.html</id>
+    <link href="https://bornforthis.cn/Code1v1/Development-plan.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
+<h2>模块一：chapter1</h2>
+<h3>1. 内容计划</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
+<h2>模块一：chapter1</h2>
+<h3>1. 内容计划</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
+</ul>
+
+<p>设置游戏装备名称：列表</p>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-02-01T08:51:18.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">Changelog</title>
+    <id>https://bornforthis.cn/Code1v1/changelog.html</id>
+    <link href="https://bornforthis.cn/Code1v1/changelog.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
+<ul>
+<li>突发的变化：⚠ BREAKING CHANGES</li>
+<li>特性：Features</li>
+<li>错误修复：Bug Fixes</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
+<ul>
+<li>突发的变化：⚠ BREAKING CHANGES</li>
+<li>特性：Features</li>
+<li>错误修复：Bug Fixes</li>
+</ul>
+<h2><a href="https://github.com/AndersonHJB/Code1v1/releases/tag/v0.0.3" target="_blank" rel="noopener noreferrer">Version-0.0.3</a> (2023-01-31)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>第一个版本发布～</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>catalog component is now inside auto-catalog plugin (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/760c686a9719e7cad4304e4168ffc02f83988b34" target="_blank" rel="noopener noreferrer">760c686</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>create:</strong> fix zh blog template (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/ae89ecc1bb6476c7d1dc9eb858950a85e6ca55fc" target="_blank" rel="noopener noreferrer">ae89ecc</a>)</li>
+</ul>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2023-01-31T23:55:27.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
     <title type="text">《编程启蒙：思维与代码》</title>
     <id>https://bornforthis.cn/Books/</id>
     <link href="https://bornforthis.cn/Books/"/>
@@ -4002,79 +4075,6 @@
       <name>AI悦创</name>
     </contributor>
     <published>2025-05-01T19:55:33.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Development plan</title>
-    <id>https://bornforthis.cn/Code1v1/Development-plan.html</id>
-    <link href="https://bornforthis.cn/Code1v1/Development-plan.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
-<h2>模块一：chapter1</h2>
-<h3>1. 内容计划</h3>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>本页面为 Code1v1 开发计划表，如果你想法欢迎👏加入一起研发，为中国青少年编程出一份力。</p>
-<h2>模块一：chapter1</h2>
-<h3>1. 内容计划</h3>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Variable</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Initial knowledge of data types「初识数据类型」</label></li>
-</ul>
-
-<p>设置游戏装备名称：列表</p>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-02-01T08:51:18.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">Changelog</title>
-    <id>https://bornforthis.cn/Code1v1/changelog.html</id>
-    <link href="https://bornforthis.cn/Code1v1/changelog.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
-<ul>
-<li>突发的变化：⚠ BREAKING CHANGES</li>
-<li>特性：Features</li>
-<li>错误修复：Bug Fixes</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>All notable changes to this project will be documented in this file. See <a href="https://conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a> for commit guidelines.</p>
-<ul>
-<li>突发的变化：⚠ BREAKING CHANGES</li>
-<li>特性：Features</li>
-<li>错误修复：Bug Fixes</li>
-</ul>
-<h2><a href="https://github.com/AndersonHJB/Code1v1/releases/tag/v0.0.3" target="_blank" rel="noopener noreferrer">Version-0.0.3</a> (2023-01-31)</h2>
-<h3>⚠ BREAKING CHANGES</h3>
-<ul>
-<li>第一个版本发布～</li>
-</ul>
-<h3>Features</h3>
-<ul>
-<li>catalog component is now inside auto-catalog plugin (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/760c686a9719e7cad4304e4168ffc02f83988b34" target="_blank" rel="noopener noreferrer">760c686</a>)</li>
-</ul>
-<h3>Bug Fixes</h3>
-<ul>
-<li><strong>create:</strong> fix zh blog template (<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/ae89ecc1bb6476c7d1dc9eb858950a85e6ca55fc" target="_blank" rel="noopener noreferrer">ae89ecc</a>)</li>
-</ul>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2023-01-31T23:55:27.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -7213,92 +7213,6 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
-    <title type="text">ps 怎么把矩形变成圆形整张图片变成圆形</title>
-    <id>https://bornforthis.cn/ps/01.html</id>
-    <link href="https://bornforthis.cn/ps/01.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>]]></summary>
-    <content type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>1、打开图片之后，右键单击左侧菜单栏上的【矩形选框工具】，弹出的下拉菜单里面，点击选中【椭圆选框工具】，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/fd/fd2debc3e2c3d1739327d0c15a4dfc080b44f37be017c9e46b063cde3b60fa3d.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>2、接下来开始绘制圆形区域，如果想要正圆，可以按住 Shift 键，如果想要移动圆形选框的位置，加按【空格键】后，鼠标拖拉选框移动即可，全程不要松开鼠标左键，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/f0/f04e6f9901ecae2de8c4a2cc88cecc0fb52b272ccd6274e77354064b6bf53ffa.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>3、位置调整好了之后，松开【空格键】，正圆和位置都调整好了之后，先松开鼠标，再松开 Shift，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/b8/b829f037650a4726527caa6e82f0adcb36c9b778a05a1d1a0940dad23d8b3028.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>4、圆形选区建立之后，下一步是建立新的图层，可以在选区范围内单击右键，下拉菜单里面，点击选择【通过拷贝的图层】，或者使用快捷键 Ctrl+J，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/83/8329fd4357b767df32a388cf6f92cf5978953598c78307af128ba19f7b44c69c.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>5、新建的选区图层，有大面积的透明区域，这些地方需要裁剪掉，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/a2/a253c7de05bd38fa0554f77902e53452f9c7760ccec1822e458b3789cf0f6af8.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>6、点击上端菜单栏上的【图像】，弹出的菜单里面，继续点击【裁切】，弹出的界面上，默认是基于【透明像素】，裁切的位置是【顶、底、左、右】，点击确定，</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/7e/7ed4a24f8afadf4b9c9904e96b4f951636ba7be5672e97a6af96710e69b71675.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>7、裁切完成之后的效果如下，保存为 png 格式的图片即可。</p>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/22/22d752d02ce74876ea18075206177f123904e494b4e4e8e64ef17af7d9108ec5.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>圆形图片的透明部分，保存为 png 或 gif 格式后，显示的时候就是透明的，但保存为 jpg 就为白色了，如有疑问，可以在下方留言。</p>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="PS 笔记"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-08-04T10:12:56.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="text">PS实现人物构图与添加背景</title>
-    <id>https://bornforthis.cn/ps/02.html</id>
-    <link href="https://bornforthis.cn/ps/02.html"/>
-    <updated>2026-08-02T14:50:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2>1. 素材</h2>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>]]></summary>
-    <content type="html"><![CDATA[<h2>1. 素材</h2>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>
-<h2>2. 人像抠图</h2>
-<h3>2.1 放大图像</h3>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/59/59dbf43dce73c11df58c236278886645aa77d2b50d6d419aeff97f9b76fb4a54.png" alt="image-20221017123659195" tabindex="0" loading="lazy"><figcaption>image-20221017123659195</figcaption></figure>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/9e/9efbdf3ad27f6a5ba4d829e2bd7c5c551fe630410ca54b62c777a687d6076052.png" alt="image-20221017124056685" tabindex="0" loading="lazy"><figcaption>image-20221017124056685</figcaption></figure>
-<p>ps：可以使用魔棒/钢笔工具，分开快速勾选，选择&gt;反选&gt;ctrl + J</p>
-<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
-<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
-</details>
-<div class="hint-container info">
-<p class="hint-container-title">AI悦创·编程一对一</p>
-<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
-<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
-<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
-<p>方法二：微信：Jiabcdefh</p>
-</div>
-<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="PS 笔记"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2022-10-17T12:26:12.000Z</published>
-    <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
     <title type="text">简易 Web 练习生成器</title>
     <id>https://bornforthis.cn/project/01-Web_exercise_Generator.html</id>
     <link href="https://bornforthis.cn/project/01-Web_exercise_Generator.html"/>
@@ -7397,6 +7311,92 @@
       <name>AI悦创</name>
     </contributor>
     <published>2024-07-20T15:32:17.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">ps 怎么把矩形变成圆形整张图片变成圆形</title>
+    <id>https://bornforthis.cn/ps/01.html</id>
+    <link href="https://bornforthis.cn/ps/01.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>]]></summary>
+    <content type="html"><![CDATA[<p>ps 把图片由方形或者矩形制作成圆形的方法有多种，常见的方法是利用椭圆选框工具，绘制出选区，然后建立图层，删除多余的透明区域后，保存为 png 透明背景格式即可，下面通过截图简单说明操作步骤。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/48/48b313b78ddee6be3d4f499c290d5f6fd30573f00780d6aab66fb175731a1489.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>1、打开图片之后，右键单击左侧菜单栏上的【矩形选框工具】，弹出的下拉菜单里面，点击选中【椭圆选框工具】，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/fd/fd2debc3e2c3d1739327d0c15a4dfc080b44f37be017c9e46b063cde3b60fa3d.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>2、接下来开始绘制圆形区域，如果想要正圆，可以按住 Shift 键，如果想要移动圆形选框的位置，加按【空格键】后，鼠标拖拉选框移动即可，全程不要松开鼠标左键，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/f0/f04e6f9901ecae2de8c4a2cc88cecc0fb52b272ccd6274e77354064b6bf53ffa.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>3、位置调整好了之后，松开【空格键】，正圆和位置都调整好了之后，先松开鼠标，再松开 Shift，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/b8/b829f037650a4726527caa6e82f0adcb36c9b778a05a1d1a0940dad23d8b3028.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>4、圆形选区建立之后，下一步是建立新的图层，可以在选区范围内单击右键，下拉菜单里面，点击选择【通过拷贝的图层】，或者使用快捷键 Ctrl+J，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/83/8329fd4357b767df32a388cf6f92cf5978953598c78307af128ba19f7b44c69c.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>5、新建的选区图层，有大面积的透明区域，这些地方需要裁剪掉，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/a2/a253c7de05bd38fa0554f77902e53452f9c7760ccec1822e458b3789cf0f6af8.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>6、点击上端菜单栏上的【图像】，弹出的菜单里面，继续点击【裁切】，弹出的界面上，默认是基于【透明像素】，裁切的位置是【顶、底、左、右】，点击确定，</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/7e/7ed4a24f8afadf4b9c9904e96b4f951636ba7be5672e97a6af96710e69b71675.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>7、裁切完成之后的效果如下，保存为 png 格式的图片即可。</p>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/22/22d752d02ce74876ea18075206177f123904e494b4e4e8e64ef17af7d9108ec5.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>圆形图片的透明部分，保存为 png 或 gif 格式后，显示的时候就是透明的，但保存为 jpg 就为白色了，如有疑问，可以在下方留言。</p>
+<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="PS 笔记"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-08-04T10:12:56.000Z</published>
+    <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="text">PS实现人物构图与添加背景</title>
+    <id>https://bornforthis.cn/ps/02.html</id>
+    <link href="https://bornforthis.cn/ps/02.html"/>
+    <updated>2026-08-02T14:50:16.000Z</updated>
+    <summary type="html"><![CDATA[<h2>1. 素材</h2>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>]]></summary>
+    <content type="html"><![CDATA[<h2>1. 素材</h2>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/43/435a1100db63da38e3821fe87a119c6d21c1b2ba5721427299361489c8a28d5a.png" alt="image-20221017122648128" tabindex="0" loading="lazy"><figcaption>image-20221017122648128</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/99/99a8320acc33aa52ece6201165cbcf9f7b945b9402dee237f0f1e152001ca429.png" alt="image-20221017122654265" tabindex="0" loading="lazy"><figcaption>image-20221017122654265</figcaption></figure>
+<h2>2. 人像抠图</h2>
+<h3>2.1 放大图像</h3>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/59/59dbf43dce73c11df58c236278886645aa77d2b50d6d419aeff97f9b76fb4a54.png" alt="image-20221017123659195" tabindex="0" loading="lazy"><figcaption>image-20221017123659195</figcaption></figure>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/9e/9efbdf3ad27f6a5ba4d829e2bd7c5c551fe630410ca54b62c777a687d6076052.png" alt="image-20221017124056685" tabindex="0" loading="lazy"><figcaption>image-20221017124056685</figcaption></figure>
+<p>ps：可以使用魔棒/钢笔工具，分开快速勾选，选择&gt;反选&gt;ctrl + J</p>
+<p>欢迎关注我公众号：AI悦创，有更多更好玩的等你发现！</p>
+<details class="hint-container details"><summary>公众号：AI悦创【二维码】</summary>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/77/77f67d48a67ec6a44a4ef1f01ffc85830eb3c121b1ece45dc5ada06e20e2f52b.jpg" alt tabindex="0" loading="lazy"></figure>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">AI悦创·编程一对一</p>
+<p>AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh</p>
+<p>C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh</p>
+<p>方法一：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ</a></p>
+<p>方法二：微信：Jiabcdefh</p>
+</div>
+<figure><img src="https://blog.images.bornforthis.cn/docs-images/sha256/30/3087c629da73428daa0ee050f5b31709c30f650686164b54c724b892a422c585.jpg" alt tabindex="0" loading="lazy"></figure>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="PS 笔记"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2022-10-17T12:26:12.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>

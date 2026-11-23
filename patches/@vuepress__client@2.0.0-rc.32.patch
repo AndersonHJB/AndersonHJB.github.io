@@ -1,0 +1,57 @@
+diff --git a/dist/app.js b/dist/app.js
+index 95e0befed2d87a59c27ce402c13f44f7b7d6aa4d..4bb205badf0e05782067663c21c010e51434cbf0 100644
+--- a/dist/app.js
++++ b/dist/app.js
+@@ -1,8 +1,7 @@
+ import { D as usePageLang, E as usePageHead, L as clientDataSymbol, O as usePageLayout, f as redirects, i as ClientOnly, m as updateHeadSymbol, n as resolvers, o as RouteLink, p as routes, r as Content, t as withBase, u as resolveRoute } from "./utils-B71L9rqN.js";
+ import { clientConfigs } from "@internal/clientConfigs";
+ import { computed, createApp, createSSRApp, customRef, h, onMounted, provide, shallowRef, useSSRContext, watch } from "vue";
+-import { START_LOCATION, createMemoryHistory, createRouter, createWebHistory, useRoute } from "vue-router";
+-import { SCROLL_RESTORATION_CAPTURE_DEFAULT, SCROLL_RESTORATION_RESTORE_DEFAULT, ScrollRestoration, useScrollRestoration } from "vue-router/experimental";
++import { START_LOCATION, createMemoryHistory, createRouter, createWebHistory } from "vue-router";
+ import { siteData as siteData$1 } from "@internal/siteData";
+ import { isPlainObject, isString, removeEndingSlash } from "@vuepress/shared";
+ import "@internal/userStyle";
+@@ -30,7 +29,16 @@ const createVueRouter = () => {
+ 			name: "vuepress-route",
+ 			path: "/:catchAll(.*)",
+ 			components: {}
+-		}]
++		}],
++		// Active header links temporarily suspend this callback when tracking a manual scroll.
++		scrollBehavior: (to, from, savedPosition) => {
++			if (savedPosition) return savedPosition;
++			if (to.hash) {
++				// Land before late-loading images shift the headings during a smooth animation.
++				return { el: to.hash, behavior: from === START_LOCATION ? "instant" : "auto" };
++			}
++			return { top: 0 };
++		}
+ 	});
+ 	router.beforeResolve(async (to, from) => {
+ 		if (to.path !== from.path || from === START_LOCATION) {
+@@ -225,12 +233,6 @@ const createVueApp = async () => {
+ 			for (const clientConfig of clientConfigs) clientConfig.setup?.();
+ 			const clientRootComponents = clientConfigs.flatMap(({ rootComponents = [] }) => rootComponents.map((component) => h(component)));
+ 			const pageLayout = usePageLayout();
+-			const { scroll } = useScrollRestoration({ manual: true });
+-			const route = useRoute();
+-			onMounted(scroll);
+-			watch(() => route.fullPath, () => {
+-				scroll();
+-			}, { flush: "post" });
+ 			return () => [h(pageLayout.value), clientRootComponents];
+ 		}
+ 	});
+@@ -246,11 +248,6 @@ const createVueApp = async () => {
+ 		router,
+ 		siteData
+ 	});
+-	app.use(ScrollRestoration, {
+-		router,
+-		capture: SCROLL_RESTORATION_CAPTURE_DEFAULT,
+-		restore: SCROLL_RESTORATION_RESTORE_DEFAULT
+-	});
+ 	app.use(router);
+ 	return {
+ 		app,

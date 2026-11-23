@@ -9,6 +9,7 @@ overrides:
 
 patchedDependencies:
   '@vuepress/bundler-vite@2.0.0-rc.32': 14c082479c9317788ebec816aa5b026161ca4e8994f3c832e6bd5d4bb4f71509
+  '@vuepress/client@2.0.0-rc.32': 3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623
   vuepress-theme-hope@2.0.0-rc.110: a21b00338e6014778e1549c3e0c691c5b55a60fded9f310853643d4244cbc97e
 
 importers:
@@ -4431,7 +4432,7 @@ snapshots:
     dependencies:
       '@vitejs/plugin-vue': 6.0.10(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))(vue@3.5.45)
       '@vuepress/bundlerutils': 2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
-      '@vuepress/client': 2.0.0-rc.32(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
+      '@vuepress/client': 2.0.0-rc.32(patch_hash=3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/core': 2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/shared': 2.0.0-rc.32
       '@vuepress/utils': 2.0.0-rc.32(supports-color@8.1.1)
@@ -4472,7 +4473,7 @@ snapshots:
 
   '@vuepress/bundlerutils@2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))':
     dependencies:
-      '@vuepress/client': 2.0.0-rc.32(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
+      '@vuepress/client': 2.0.0-rc.32(patch_hash=3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/core': 2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/markdown': 2.0.0-rc.32(@types/markdown-it@14.2.0)(supports-color@8.1.1)
       '@vuepress/shared': 2.0.0-rc.32
@@ -4523,7 +4524,7 @@ snapshots:
       - vite
       - webpack
 
-  '@vuepress/client@2.0.0-rc.32(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))':
+  '@vuepress/client@2.0.0-rc.32(patch_hash=3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))':
     dependencies:
       '@vue/devtools-api': 8.2.1
       '@vue/devtools-kit': 8.2.1
@@ -4548,7 +4549,7 @@ snapshots:
 
   '@vuepress/core@2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))':
     dependencies:
-      '@vuepress/client': 2.0.0-rc.32(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
+      '@vuepress/client': 2.0.0-rc.32(patch_hash=3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/markdown': 2.0.0-rc.32(@types/markdown-it@14.2.0)(supports-color@8.1.1)
       '@vuepress/shared': 2.0.0-rc.32
       '@vuepress/utils': 2.0.0-rc.32(supports-color@8.1.1)
@@ -6793,7 +6794,7 @@ snapshots:
   vuepress@2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(@vuepress/bundler-vite@2.0.0-rc.32(patch_hash=14c082479c9317788ebec816aa5b026161ca4e8994f3c832e6bd5d4bb4f71509)(@types/markdown-it@14.2.0)(@types/node@26.6.5)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rollup@4.64.10)(sass-embedded@1.106.1)(sass@1.106.1)(supports-color@8.1.1)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))(vue@3.5.45):
     dependencies:
       '@vuepress/cli': 2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
-      '@vuepress/client': 2.0.0-rc.32(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
+      '@vuepress/client': 2.0.0-rc.32(patch_hash=3d9e83fe18a4fc28970fddbd16ba19f1b9e05289ba999c38182ed77b251f7623)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/core': 2.0.0-rc.32(@types/markdown-it@14.2.0)(@vue/compiler-sfc@3.5.45)(esbuild@0.28.1)(rolldown@1.3.2)(rollup@4.64.10)(supports-color@8.1.1)(vite@8.3.6(@types/node@26.6.5)(esbuild@0.28.1)(sass-embedded@1.106.1)(sass@1.106.1)(yaml@2.9.0))
       '@vuepress/markdown': 2.0.0-rc.32(@types/markdown-it@14.2.0)(supports-color@8.1.1)
       '@vuepress/shared': 2.0.0-rc.32

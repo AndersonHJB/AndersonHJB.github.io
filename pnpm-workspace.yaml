@@ -10,5 +10,7 @@ overrides:
 
 patchedDependencies:
   '@vuepress/bundler-vite@2.0.0-rc.32': patches/@vuepress__bundler-vite@2.0.0-rc.32.patch
+  # Keep passive heading updates from restoring scroll until vuepress/ecosystem#1146 is resolved.
+  '@vuepress/client@2.0.0-rc.32': patches/@vuepress__client@2.0.0-rc.32.patch
   # Keep Markdown dates consistent across time zones and support the VuePress rc.32 router.
   vuepress-theme-hope@2.0.0-rc.110: patches/vuepress-theme-hope@2.0.0-rc.110.patch
